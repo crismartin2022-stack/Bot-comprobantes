@@ -2,12 +2,13 @@ import os
 import json
 import base64
 import logging
-import tempfile
-from datetime import datetime
+from datetime import datetime, timezone, timedelta
 from io import BytesIO
 
 import httpx
 import anthropic
+from apscheduler.schedulers.asyncio import AsyncIOScheduler
+from apscheduler.triggers.cron import CronTrigger
 from openpyxl import Workbook
 from openpyxl.styles import Font, PatternFill, Alignment, Border, Side
 from openpyxl.utils import get_column_letter
@@ -17,23 +18,28 @@ from telegram.ext import (
     filters, ContextTypes, CallbackQueryHandler
 )
 
-# ── Logging ──────────────────────────────────────────────────────────────────
+# ── Logging ───────────────────────────────────────────────────────────────────
 logging.basicConfig(
     format="%(asctime)s | %(levelname)s | %(message)s",
     level=logging.INFO
 )
 log = logging.getLogger(__name__)
 
-# ── Config desde variables de entorno ────────────────────────────────────────
+# ── Config ────────────────────────────────────────────────────────────────────
 TELEGRAM_TOKEN  = os.environ["TELEGRAM_TOKEN"]
 ANTHROPIC_KEY   = os.environ["ANTHROPIC_API_KEY"]
-# Opcional: limitar a un grupo específico (dejar vacío para permitir todos)
 ALLOWED_GROUP   = os.environ.get("ALLOWED_GROUP_ID", "")
+
+# Tu ID personal para recibir resúmenes privados
+ADMIN_ID        = 531707598
+
+# Zona horaria Argentina (UTC-3)
+ARG_TZ = timezone(timedelta(hours=-3))
 
 claude = anthropic.Anthropic(api_key=ANTHROPIC_KEY)
 
-# ── Storage en memoria (persiste mientras el bot corre) ───────────────────────
-# Estructura: { chat_id: { "semana_actual": "...", "registros": [...] } }
+# ── Storage en memoria ────────────────────────────────────────────────────────
+# { chat_id: { "semana_actual": "...", "registros": [], "registros_hoy": [] } }
 store: dict = {}
 
 def get_store(chat_id: int) -> dict:
@@ -41,14 +47,18 @@ def get_store(chat_id: int) -> dict:
     if cid not in store:
         store[cid] = {
             "semana_actual": semana_label(),
-            "registros": []
+            "registros": [],
+            "registros_hoy": [],
+            "chat_id": chat_id,
         }
     return store[cid]
 
 def semana_label() -> str:
-    hoy = datetime.now()
-    num = (hoy.day - 1) // 7 + 1
-    return f"{hoy.strftime('%d/%m/%Y')} — Semana {num}"
+    ahora = datetime.now(ARG_TZ)
+    return f"Semana {ahora.strftime('%d/%m/%Y')}"
+
+def now_arg() -> datetime:
+    return datetime.now(ARG_TZ)
 
 # ── Análisis con Claude ───────────────────────────────────────────────────────
 SYSTEM_PROMPT = """Eres un asistente experto en análisis de comprobantes bancarios argentinos.
@@ -67,7 +77,7 @@ El JSON debe tener exactamente estos campos:
   "referencia": "número de referencia o vacío",
   "concepto": "concepto o vacío",
   "estado": "Exitoso / Pendiente / Rechazado",
-  "cvu_ultimos4": "últimos 4 dígitos del CVU/CBU del receptor — buscá el número de cuenta destino/CVU destino. Si no está visible dejá VACÍO (nunca inventar)",
+  "cvu_ultimos4": "últimos 4 dígitos del CVU/CBU del receptor. Si no está visible dejá VACÍO (nunca inventar)",
   "notas": "cualquier dato relevante adicional"
 }
 IMPORTANTE sobre cvu_ultimos4: Buscá el CVU o CBU del destinatario/receptor.
@@ -100,7 +110,6 @@ def generar_excel(registros: list, semana: str) -> BytesIO:
     ws = wb.active
     ws.title = "Comprobantes"
 
-    # Estilos
     header_fill = PatternFill("solid", fgColor="4B0082")
     error_fill  = PatternFill("solid", fgColor="FF4444")
     ok_fill     = PatternFill("solid", fgColor="1A5C2A")
@@ -117,7 +126,6 @@ def generar_excel(registros: list, semana: str) -> BytesIO:
     ]
     col_widths = [4, 22, 12, 30, 13, 11, 14, 14, 25, 18, 11, 28]
 
-    # Header
     for col, (h, w) in enumerate(zip(headers, col_widths), 1):
         cell = ws.cell(row=1, column=col, value=h)
         cell.font = header_font
@@ -135,8 +143,7 @@ def generar_excel(registros: list, semana: str) -> BytesIO:
             sin_cvu += 1
 
         fila = [
-            i - 1,
-            semana,
+            i - 1, semana,
             r.get("tipo", "TRF"),
             r.get("destinatario", ""),
             r.get("fecha", ""),
@@ -152,7 +159,7 @@ def generar_excel(registros: list, semana: str) -> BytesIO:
             cell = ws.cell(row=i, column=col, value=val)
             cell.border = border
             cell.alignment = Alignment(vertical="center")
-            if col == 7:  # Columna CVU
+            if col == 7:
                 cell.fill = ok_fill if tiene_cvu else error_fill
                 cell.font = Font(bold=True, color="FFFFFF")
                 cell.alignment = Alignment(horizontal="center", vertical="center")
@@ -180,13 +187,12 @@ def generar_excel(registros: list, semana: str) -> BytesIO:
     buf.seek(0)
     return buf
 
-# ── Formateo de respuesta del bot ─────────────────────────────────────────────
+# ── Formateo de respuesta ─────────────────────────────────────────────────────
 def formatear_resultado(r: dict, num: int) -> str:
     cvu = (r.get("cvu_ultimos4") or "").strip()
     cvu_line = f"🏦 CVU (últimos 4): `****{cvu}`" if cvu else "🔴 *CVU NO ENCONTRADO — revisar manualmente*"
     monto = r.get("monto")
     monto_fmt = f"${float(monto):,.0f}" if monto else "—"
-
     return (
         f"✅ *Comprobante #{num} procesado*\n"
         f"─────────────────────\n"
@@ -201,6 +207,139 @@ def formatear_resultado(r: dict, num: int) -> str:
         f"📋 Estado: {r.get('estado', '—')}\n"
     )
 
+# ── Tareas programadas ────────────────────────────────────────────────────────
+async def tarea_resumen_diario(app):
+    """Todos los días a las 20:00 Argentina — manda resumen al admin por privado."""
+    ahora = now_arg()
+    fecha_hoy = ahora.strftime("%d/%m/%Y")
+
+    # Juntar todos los registros de hoy de todos los grupos
+    todos_hoy = []
+    grupos = []
+    for cid, datos in store.items():
+        hoy = [r for r in datos.get("registros", []) if r.get("_fecha_carga", "").startswith(fecha_hoy)]
+        if hoy:
+            todos_hoy.extend(hoy)
+            grupos.append(cid)
+
+    if not todos_hoy:
+        texto = (
+            f"📊 *Resumen diario — {fecha_hoy}*\n"
+            f"─────────────────────\n"
+            f"📭 Sin comprobantes hoy."
+        )
+    else:
+        total = sum(float(r.get("monto") or 0) for r in todos_hoy)
+        sin_cvu = sum(1 for r in todos_hoy if not (r.get("cvu_ultimos4") or "").strip())
+        con_cvu = len(todos_hoy) - sin_cvu
+
+        # Detalle por comprobante
+        detalle = ""
+        for i, r in enumerate(todos_hoy, 1):
+            cvu = (r.get("cvu_ultimos4") or "").strip()
+            monto = r.get("monto")
+            monto_fmt = f"${float(monto):,.0f}" if monto else "—"
+            cvu_txt = f"****{cvu}" if cvu else "⚠️ SIN CVU"
+            detalle += (
+                f"\n*#{i}* {r.get('destinatario', '—')}\n"
+                f"   💰 {monto_fmt} | 🏦 {cvu_txt} | ⏰ {r.get('hora', '—')}\n"
+            )
+
+        texto = (
+            f"📊 *Resumen diario — {fecha_hoy}*\n"
+            f"─────────────────────\n"
+            f"📄 Comprobantes: {len(todos_hoy)}\n"
+            f"✅ Con CVU OK: {con_cvu}\n"
+            f"🔴 Sin CVU: {sin_cvu}\n"
+            f"💰 Total ARS: ${total:,.0f}\n"
+            f"─────────────────────"
+            f"{detalle}"
+        )
+        if sin_cvu > 0:
+            texto += f"\n⚠️ *Hay {sin_cvu} comprobante(s) sin CVU.*"
+
+    try:
+        await app.bot.send_message(
+            chat_id=ADMIN_ID,
+            text=texto,
+            parse_mode="Markdown"
+        )
+        log.info(f"Resumen diario enviado a {ADMIN_ID}")
+    except Exception as e:
+        log.error(f"Error enviando resumen diario: {e}")
+
+async def tarea_excel_semanal(app):
+    """Todos los jueves a las 21:00 Argentina — manda Excel y reinicia semana."""
+    ahora = now_arg()
+    semana_cerrada = ""
+
+    for cid, datos in store.items():
+        registros = datos.get("registros", [])
+        semana_cerrada = datos.get("semana_actual", semana_label())
+
+        if registros:
+            try:
+                buf = generar_excel(registros, semana_cerrada)
+                fecha = ahora.strftime("%Y%m%d")
+                nombre = f"Comprobantes_semana_{fecha}.xlsx"
+
+                sin_cvu = sum(1 for r in registros if not (r.get("cvu_ultimos4") or "").strip())
+                total = sum(float(r.get("monto") or 0) for r in registros)
+
+                caption = (
+                    f"📊 *Excel Semanal Automático*\n"
+                    f"📅 {semana_cerrada}\n"
+                    f"📄 {len(registros)} comprobantes\n"
+                    f"💰 Total: ${total:,.0f} ARS\n"
+                    f"{'⚠️ ' + str(sin_cvu) + ' sin CVU' if sin_cvu else '✅ Todos con CVU'}"
+                )
+
+                # Mandar al grupo
+                await app.bot.send_document(
+                    chat_id=int(cid),
+                    document=buf,
+                    filename=nombre,
+                    caption=caption,
+                    parse_mode="Markdown"
+                )
+
+                # Mandar también al admin por privado
+                buf.seek(0)
+                await app.bot.send_document(
+                    chat_id=ADMIN_ID,
+                    document=buf,
+                    filename=nombre,
+                    caption=f"📎 Copia del Excel semanal\n{caption}",
+                    parse_mode="Markdown"
+                )
+
+            except Exception as e:
+                log.error(f"Error enviando Excel semanal al grupo {cid}: {e}")
+
+        # Reiniciar semana
+        store[cid] = {
+            "semana_actual": semana_label(),
+            "registros": [],
+            "registros_hoy": [],
+            "chat_id": int(cid),
+        }
+
+    # Notificar al admin que la semana fue reiniciada
+    try:
+        await app.bot.send_message(
+            chat_id=ADMIN_ID,
+            text=(
+                f"🔄 *Nueva semana iniciada*\n"
+                f"Semana cerrada: {semana_cerrada}\n"
+                f"Nueva semana desde: {now_arg().strftime('%d/%m/%Y %H:%M')} hs"
+            ),
+            parse_mode="Markdown"
+        )
+    except Exception as e:
+        log.error(f"Error notificando nueva semana: {e}")
+
+    log.info("Excel semanal enviado y semana reiniciada")
+
 # ── Handlers ──────────────────────────────────────────────────────────────────
 async def cmd_start(update: Update, ctx: ContextTypes.DEFAULT_TYPE):
     await update.message.reply_text(
@@ -208,24 +347,45 @@ async def cmd_start(update: Update, ctx: ContextTypes.DEFAULT_TYPE):
         "Mandame imágenes de comprobantes y las analizo automáticamente.\n\n"
         "📌 *Comandos:*\n"
         "/resumen — ver comprobantes cargados\n"
-        "/excel — generar Excel semanal\n"
+        "/excel — generar Excel ahora\n"
+        "/hoy — ver resumen de hoy\n"
         "/nueva\\_semana — iniciar nueva semana\n"
-        "/borrar — borrar todos los registros\n"
-        "/ayuda — más información",
+        "/borrar — borrar todos los registros\n\n"
+        "⏰ *Automático:*\n"
+        "📊 Resumen diario → 20:00 hs\n"
+        "📎 Excel semanal → Jueves 21:00 hs",
         parse_mode="Markdown"
     )
 
-async def cmd_ayuda(update: Update, ctx: ContextTypes.DEFAULT_TYPE):
-    await update.message.reply_text(
-        "📖 *Cómo usar el bot:*\n\n"
-        "1️⃣ Enviá imágenes de comprobantes al grupo\n"
-        "2️⃣ El bot analiza y extrae los datos automáticamente\n"
-        "3️⃣ Si falta el CVU te avisa con 🔴\n"
-        "4️⃣ Usá /excel para bajar el archivo Excel\n\n"
-        "💡 El bot guarda todos los comprobantes de la semana.\n"
-        "Al usar /nueva\\_semana limpia los registros para empezar de cero.",
-        parse_mode="Markdown"
+async def cmd_hoy(update: Update, ctx: ContextTypes.DEFAULT_TYPE):
+    """Resumen de comprobantes del día de hoy."""
+    chat_id = update.effective_chat.id
+    datos = get_store(chat_id)
+    fecha_hoy = now_arg().strftime("%d/%m/%Y")
+    hoy = [r for r in datos.get("registros", []) if r.get("_fecha_carga", "").startswith(fecha_hoy)]
+
+    if not hoy:
+        await update.message.reply_text(f"📭 Sin comprobantes hoy ({fecha_hoy}).")
+        return
+
+    total = sum(float(r.get("monto") or 0) for r in hoy)
+    sin_cvu = sum(1 for r in hoy if not (r.get("cvu_ultimos4") or "").strip())
+
+    detalle = ""
+    for i, r in enumerate(hoy, 1):
+        cvu = (r.get("cvu_ultimos4") or "").strip()
+        monto = r.get("monto")
+        monto_fmt = f"${float(monto):,.0f}" if monto else "—"
+        cvu_txt = f"****{cvu}" if cvu else "⚠️ SIN CVU"
+        detalle += f"\n*#{i}* {r.get('destinatario', '—')} | {monto_fmt} | {cvu_txt}"
+
+    texto = (
+        f"📅 *Hoy {fecha_hoy}*\n"
+        f"📄 {len(hoy)} comprobantes | 💰 ${total:,.0f} ARS\n"
+        f"─────────────────────"
+        f"{detalle}"
     )
+    await update.message.reply_text(texto, parse_mode="Markdown")
 
 async def cmd_resumen(update: Update, ctx: ContextTypes.DEFAULT_TYPE):
     chat_id = update.effective_chat.id
@@ -249,7 +409,7 @@ async def cmd_resumen(update: Update, ctx: ContextTypes.DEFAULT_TYPE):
         f"💰 Total ARS: ${total:,.0f}\n"
     )
     if sin_cvu > 0:
-        texto += f"\n⚠️ *Hay {sin_cvu} comprobante(s) sin CVU. Revisá antes de exportar.*"
+        texto += f"\n⚠️ *{sin_cvu} comprobante(s) sin CVU. Revisá antes de exportar.*"
 
     await update.message.reply_text(texto, parse_mode="Markdown")
 
@@ -265,17 +425,17 @@ async def cmd_excel(update: Update, ctx: ContextTypes.DEFAULT_TYPE):
     msg = await update.message.reply_text("⏳ Generando Excel...")
     try:
         buf = generar_excel(registros, datos["semana_actual"])
-        fecha = datetime.now().strftime("%Y%m%d")
+        fecha = now_arg().strftime("%Y%m%d")
         nombre = f"Comprobantes_{fecha}.xlsx"
         await update.message.reply_document(
             document=buf,
             filename=nombre,
-            caption=f"📊 Excel generado — {len(registros)} comprobantes\n{datos['semana_actual']}"
+            caption=f"📊 Excel — {len(registros)} comprobantes\n{datos['semana_actual']}"
         )
         await msg.delete()
     except Exception as e:
         log.error(f"Error generando Excel: {e}")
-        await msg.edit_text(f"❌ Error al generar el Excel: {e}")
+        await msg.edit_text(f"❌ Error: {e}")
 
 async def cmd_nueva_semana(update: Update, ctx: ContextTypes.DEFAULT_TYPE):
     chat_id = update.effective_chat.id
@@ -289,7 +449,6 @@ async def cmd_nueva_semana(update: Update, ctx: ContextTypes.DEFAULT_TYPE):
     )
 
 async def cmd_borrar(update: Update, ctx: ContextTypes.DEFAULT_TYPE):
-    chat_id = update.effective_chat.id
     kb = [[
         InlineKeyboardButton("✅ Sí, borrar todo", callback_data="borrar_si"),
         InlineKeyboardButton("❌ Cancelar", callback_data="cancelar"),
@@ -305,8 +464,13 @@ async def callback_handler(update: Update, ctx: ContextTypes.DEFAULT_TYPE):
     chat_id = update.effective_chat.id
 
     if query.data == "nueva_semana_si":
-        store[str(chat_id)] = {"semana_actual": semana_label(), "registros": []}
-        await query.edit_message_text("✅ Nueva semana iniciada. Podés empezar a cargar comprobantes.")
+        store[str(chat_id)] = {
+            "semana_actual": semana_label(),
+            "registros": [],
+            "registros_hoy": [],
+            "chat_id": chat_id,
+        }
+        await query.edit_message_text("✅ Nueva semana iniciada.")
     elif query.data == "borrar_si":
         datos = get_store(chat_id)
         datos["registros"] = []
@@ -316,37 +480,27 @@ async def callback_handler(update: Update, ctx: ContextTypes.DEFAULT_TYPE):
 
 async def handle_photo(update: Update, ctx: ContextTypes.DEFAULT_TYPE):
     chat_id = update.effective_chat.id
-
-    # Verificar grupo permitido si está configurado
     if ALLOWED_GROUP and str(chat_id) != ALLOWED_GROUP:
         return
 
     msg = await update.message.reply_text("🔍 Analizando comprobante con IA...")
-
     try:
-        # Obtener la imagen en mayor resolución
         photo = update.message.photo[-1]
         file = await ctx.bot.get_file(photo.file_id)
-
         async with httpx.AsyncClient() as client:
             resp = await client.get(file.file_path)
             image_bytes = resp.content
 
-        # Analizar con Claude
         resultado = await analizar_imagen(image_bytes, "image/jpeg")
-
-        # Guardar en store
         datos = get_store(chat_id)
         num = len(datos["registros"]) + 1
         resultado["_num"] = num
-        resultado["_fecha_carga"] = datetime.now().strftime("%d/%m/%Y %H:%M")
+        resultado["_fecha_carga"] = now_arg().strftime("%d/%m/%Y %H:%M")
         datos["registros"].append(resultado)
 
-        # Responder
         texto = formatear_resultado(resultado, num)
         cvu = (resultado.get("cvu_ultimos4") or "").strip()
 
-        # Botón para corregir CVU si falta
         kb = None
         if not cvu:
             kb = InlineKeyboardMarkup([[
@@ -363,7 +517,6 @@ async def handle_photo(update: Update, ctx: ContextTypes.DEFAULT_TYPE):
         await msg.edit_text(f"❌ Error al procesar la imagen: {e}")
 
 async def handle_document(update: Update, ctx: ContextTypes.DEFAULT_TYPE):
-    """Maneja imágenes enviadas como documento (sin compresión)."""
     doc = update.message.document
     if not doc or not doc.mime_type or not doc.mime_type.startswith("image/"):
         return
@@ -383,7 +536,7 @@ async def handle_document(update: Update, ctx: ContextTypes.DEFAULT_TYPE):
         datos = get_store(chat_id)
         num = len(datos["registros"]) + 1
         resultado["_num"] = num
-        resultado["_fecha_carga"] = datetime.now().strftime("%d/%m/%Y %H:%M")
+        resultado["_fecha_carga"] = now_arg().strftime("%d/%m/%Y %H:%M")
         datos["registros"].append(resultado)
 
         texto = formatear_resultado(resultado, num)
@@ -396,8 +549,9 @@ async def handle_document(update: Update, ctx: ContextTypes.DEFAULT_TYPE):
 def main():
     app = Application.builder().token(TELEGRAM_TOKEN).build()
 
+    # Handlers
     app.add_handler(CommandHandler("start",        cmd_start))
-    app.add_handler(CommandHandler("ayuda",        cmd_ayuda))
+    app.add_handler(CommandHandler("hoy",          cmd_hoy))
     app.add_handler(CommandHandler("resumen",      cmd_resumen))
     app.add_handler(CommandHandler("excel",        cmd_excel))
     app.add_handler(CommandHandler("nueva_semana", cmd_nueva_semana))
@@ -406,7 +560,30 @@ def main():
     app.add_handler(MessageHandler(filters.PHOTO, handle_photo))
     app.add_handler(MessageHandler(filters.Document.IMAGE, handle_document))
 
-    log.info("🤖 Bot iniciado — esperando comprobantes...")
+    # Scheduler — zona horaria Argentina (UTC-3)
+    scheduler = AsyncIOScheduler(timezone="America/Argentina/Buenos_Aires")
+
+    # Resumen diario a las 20:00 Argentina
+    scheduler.add_job(
+        tarea_resumen_diario,
+        CronTrigger(hour=20, minute=0, timezone="America/Argentina/Buenos_Aires"),
+        args=[app],
+        id="resumen_diario"
+    )
+
+    # Excel semanal todos los jueves a las 21:00 Argentina
+    scheduler.add_job(
+        tarea_excel_semanal,
+        CronTrigger(day_of_week="thu", hour=21, minute=0, timezone="America/Argentina/Buenos_Aires"),
+        args=[app],
+        id="excel_semanal"
+    )
+
+    scheduler.start()
+    log.info("🤖 Bot iniciado con tareas programadas:")
+    log.info("   📊 Resumen diario → 20:00 hs Argentina")
+    log.info("   📎 Excel semanal  → Jueves 21:00 hs Argentina")
+
     app.run_polling(drop_pending_updates=True)
 
 if __name__ == "__main__":
