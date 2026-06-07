@@ -2,6 +2,7 @@ import os
 import json
 import base64
 import logging
+import asyncio
 from datetime import datetime, timezone, timedelta
 from io import BytesIO
 
@@ -19,70 +20,80 @@ from telegram.ext import (
 )
 
 # ── Logging ───────────────────────────────────────────────────────────────────
-logging.basicConfig(
-    format="%(asctime)s | %(levelname)s | %(message)s",
-    level=logging.INFO
-)
+logging.basicConfig(format="%(asctime)s | %(levelname)s | %(message)s", level=logging.INFO)
 log = logging.getLogger(__name__)
 
 # ── Config ────────────────────────────────────────────────────────────────────
-TELEGRAM_TOKEN  = os.environ["TELEGRAM_TOKEN"]
-ANTHROPIC_KEY   = os.environ["ANTHROPIC_API_KEY"]
-ALLOWED_GROUP   = os.environ.get("ALLOWED_GROUP_ID", "")
+TELEGRAM_TOKEN = os.environ["TELEGRAM_TOKEN"]
+ANTHROPIC_KEY  = os.environ["ANTHROPIC_API_KEY"]
+ADMIN_ID       = 531707598
+ARG_TZ         = timezone(timedelta(hours=-3))
+claude         = anthropic.Anthropic(api_key=ANTHROPIC_KEY)
 
-# Tu ID personal para recibir resúmenes privados
-ADMIN_ID        = 531707598
+# ── Storage ───────────────────────────────────────────────────────────────────
+store: dict = {}        # { chat_id_str: { nombre, semana_actual, registros, errores } }
+pendientes: dict = {}   # fotos privadas esperando asignación de grupo
+# Fotos en grupo esperando texto del pie: { (chat_id, msg_id): { image_bytes, mime, caption, task } }
+esperando_pie: dict = {}
+# { (chat_id, bot_msg_id): {"num": n, "chat_id": chat_id} } — para detectar respuestas a rechazos
+mensajes_rechazo: dict = {}
 
-# Zona horaria Argentina (UTC-3)
-ARG_TZ = timezone(timedelta(hours=-3))
-
-claude = anthropic.Anthropic(api_key=ANTHROPIC_KEY)
-
-# ── Storage en memoria ────────────────────────────────────────────────────────
-# { chat_id: { "semana_actual": "...", "registros": [], "registros_hoy": [] } }
-store: dict = {}
-
-def get_store(chat_id: int) -> dict:
+def get_store(chat_id: int, nom: str = "") -> dict:
     cid = str(chat_id)
     if cid not in store:
         store[cid] = {
+            "nombre": nom or f"Grupo {cid}",
             "semana_actual": semana_label(),
             "registros": [],
-            "registros_hoy": [],
+            "errores": [],
             "chat_id": chat_id,
+            "ultimo_resumen_idx": 0,   # índice del último comprobante incluido en resumen de tanda
+            "total_mensual": 0.0,      # acumulado del mes
+            "mes_actual": datetime.now(ARG_TZ).strftime("%m/%Y"),
         }
+    if nom and store[cid]["nombre"] != nom:
+        store[cid]["nombre"] = nom
+    # Resetear total mensual si cambió el mes
+    mes_ahora = datetime.now(ARG_TZ).strftime("%m/%Y")
+    if store[cid].get("mes_actual") != mes_ahora:
+        store[cid]["total_mensual"] = 0.0
+        store[cid]["mes_actual"]    = mes_ahora
     return store[cid]
 
 def semana_label() -> str:
-    ahora = datetime.now(ARG_TZ)
-    return f"Semana {ahora.strftime('%d/%m/%Y')}"
+    return f"Semana {datetime.now(ARG_TZ).strftime('%d/%m/%Y')}"
 
 def now_arg() -> datetime:
     return datetime.now(ARG_TZ)
 
+def get_nombre_grupo(update: Update) -> str:
+    chat = update.effective_chat
+    return "Privado" if chat.type == "private" else (chat.title or f"Grupo {chat.id}")
+
+def grupos_disponibles() -> list:
+    return [(cid, d["nombre"]) for cid, d in store.items() if d.get("chat_id") != ADMIN_ID]
+
 # ── Análisis con Claude ───────────────────────────────────────────────────────
 SYSTEM_PROMPT = """Eres un asistente experto en análisis de comprobantes bancarios argentinos.
 Analizá la imagen y respondé ÚNICAMENTE con un JSON válido sin backticks ni markdown.
-El JSON debe tener exactamente estos campos:
 {
   "fecha": "DD/MM/YYYY",
   "hora": "HH:MM o vacío",
   "tipo": "TRF / DEP / PAGO / otro",
   "monto": número sin símbolos (ej: 15000.00),
   "moneda": "ARS / USD / otro",
-  "remitente": "nombre completo del que envía o vacío",
+  "remitente": "nombre completo del que envía según el comprobante, o vacío",
+  "remitente_cuil": "CUIL/DNI del remitente según el comprobante, solo números con guiones, o vacío",
   "destinatario": "nombre completo del que recibe o vacío",
   "banco_origen": "banco origen o vacío",
   "banco_destino": "banco destino o vacío",
   "referencia": "número de referencia o vacío",
   "concepto": "concepto o vacío",
   "estado": "Exitoso / Pendiente / Rechazado",
-  "cvu_ultimos4": "últimos 4 dígitos del CVU/CBU del receptor. Si no está visible dejá VACÍO (nunca inventar)",
+  "cvu_ultimos4": "últimos 4 dígitos del CVU/CBU del receptor. Si no está visible dejá VACÍO",
+  "tiene_remitente": true o false según si el comprobante tiene datos del remitente visibles,
   "notas": "cualquier dato relevante adicional"
-}
-IMPORTANTE sobre cvu_ultimos4: Buscá el CVU o CBU del destinatario/receptor.
-Tomá SOLO los últimos 4 dígitos numéricos. Si no existe CVU/CBU visible, dejá "".
-"""
+}"""
 
 async def analizar_imagen(image_bytes: bytes, mime: str) -> dict:
     b64 = base64.standard_b64encode(image_bytes).decode("utf-8")
@@ -90,41 +101,75 @@ async def analizar_imagen(image_bytes: bytes, mime: str) -> dict:
         model="claude-sonnet-4-20250514",
         max_tokens=1000,
         system=SYSTEM_PROMPT,
-        messages=[{
-            "role": "user",
-            "content": [
-                {"type": "image", "source": {"type": "base64", "media_type": mime, "data": b64}},
-                {"type": "text", "text": "Analizá este comprobante bancario argentino y extraé todos los datos, especialmente los últimos 4 dígitos del CVU/CBU del receptor."}
-            ]
-        }]
+        messages=[{"role": "user", "content": [
+            {"type": "image", "source": {"type": "base64", "media_type": mime, "data": b64}},
+            {"type": "text", "text": "Analizá este comprobante bancario argentino."}
+        ]}]
     )
     text = resp.content[0].text
     try:
         return json.loads(text.replace("```json", "").replace("```", "").strip())
     except Exception:
-        return {"notas": text, "estado": "Error al parsear", "cvu_ultimos4": ""}
+        return {"notas": text, "estado": "Error al parsear", "cvu_ultimos4": "", "tiene_remitente": False}
+
+def normalizar(texto: str) -> str:
+    """Normaliza texto para comparación: minúsculas, sin espacios extra, sin puntos."""
+    return " ".join(texto.lower().replace(".", "").replace("-", "").split())
+
+def verificar_pie(resultado: dict, pie: str) -> tuple[bool, str]:
+    """
+    Compara los datos del pie con los del comprobante.
+    Devuelve (coincide: bool, mensaje: str)
+    """
+    if not pie:
+        return True, ""
+
+    pie_norm = normalizar(pie)
+    remitente = normalizar(resultado.get("remitente") or "")
+    cuil = normalizar(resultado.get("remitente_cuil") or "")
+
+    # Si el comprobante no tiene datos del remitente, usamos el pie directamente
+    if not resultado.get("tiene_remitente") or not remitente:
+        return True, "sin_datos_imagen"
+
+    # Verificar que el nombre del remitente esté en el pie
+    nombre_ok = remitente and remitente in pie_norm
+    # Verificar CUIL/DNI — extraer dígitos del cuil y del pie
+    cuil_digits = "".join(filter(str.isdigit, cuil))
+    pie_digits  = "".join(filter(str.isdigit, pie))
+    cuil_ok = not cuil_digits or (len(cuil_digits) >= 7 and cuil_digits in pie_digits)
+
+    if nombre_ok and cuil_ok:
+        return True, "coincide"
+    elif not nombre_ok and not cuil_ok:
+        return False, f"Nombre y CUIL no coinciden.\nComprobante: *{resultado.get('remitente','?')}* / *{resultado.get('remitente_cuil','?')}*\nPie: _{pie}_"
+    elif not nombre_ok:
+        return False, f"Nombre no coincide.\nComprobante: *{resultado.get('remitente','?')}*\nPie: _{pie}_"
+    else:
+        return False, f"CUIL no coincide.\nComprobante: *{resultado.get('remitente_cuil','?')}*\nPie: _{pie}_"
 
 # ── Generador de Excel ────────────────────────────────────────────────────────
-def generar_excel(registros: list, semana: str) -> BytesIO:
+def generar_excel(registros: list, semana: str, nombre: str, es_errores: bool = False) -> BytesIO:
     wb = Workbook()
     ws = wb.active
-    ws.title = "Comprobantes"
+    ws.title = "Errores" if es_errores else "Comprobantes"
 
-    header_fill = PatternFill("solid", fgColor="4B0082")
-    error_fill  = PatternFill("solid", fgColor="FF4444")
-    ok_fill     = PatternFill("solid", fgColor="1A5C2A")
-    header_font = Font(bold=True, color="FFFFFF", size=11)
-    border = Border(
-        left=Side(style="thin"), right=Side(style="thin"),
-        top=Side(style="thin"), bottom=Side(style="thin")
-    )
+    header_fill  = PatternFill("solid", fgColor="8B0000" if es_errores else "4B0082")
+    error_fill   = PatternFill("solid", fgColor="FF4444")
+    ok_fill      = PatternFill("solid", fgColor="1A5C2A")
+    header_font  = Font(bold=True, color="FFFFFF", size=11)
+    border = Border(left=Side(style="thin"), right=Side(style="thin"),
+                    top=Side(style="thin"),  bottom=Side(style="thin"))
 
-    headers = [
-        "#", "FECHA DE ENVIO", "TRF O DEPOSITO", "TITULAR DE LA CTA",
-        "FECHA TICKET", "HORA TICKET", "CUENTA (CVU)", "MONTO",
-        "Remitente", "Banco Origen", "Estado", "Notas"
-    ]
-    col_widths = [4, 22, 12, 30, 13, 11, 14, 14, 25, 18, 11, 28]
+    if es_errores:
+        headers    = ["#", "GRUPO", "FECHA", "TIPO", "TITULAR CTA", "REMITENTE COMPROBANTE",
+                      "REMITENTE PIE", "MONTO", "CUENTA (CVU)", "MOTIVO ERROR", "Fecha Carga"]
+        col_widths = [4, 20, 13, 10, 28, 28, 28, 14, 14, 40, 16]
+    else:
+        headers    = ["#", "GRUPO", "FECHA DE ENVIO", "TRF O DEPOSITO", "TITULAR DE LA CTA",
+                      "FECHA TICKET", "HORA TICKET", "CUENTA (CVU)", "MONTO",
+                      "Remitente", "Banco Origen", "Estado", "Origen", "Notas"]
+        col_widths = [4, 20, 22, 12, 30, 13, 11, 14, 14, 25, 18, 11, 10, 28]
 
     for col, (h, w) in enumerate(zip(headers, col_widths), 1):
         cell = ws.cell(row=1, column=col, value=h)
@@ -139,27 +184,44 @@ def generar_excel(registros: list, semana: str) -> BytesIO:
     for i, r in enumerate(registros, 2):
         cvu = (r.get("cvu_ultimos4") or "").strip()
         tiene_cvu = bool(cvu)
-        if not tiene_cvu:
+        if not tiene_cvu and not es_errores:
             sin_cvu += 1
 
-        fila = [
-            i - 1, semana,
-            r.get("tipo", "TRF"),
-            r.get("destinatario", ""),
-            r.get("fecha", ""),
-            r.get("hora", ""),
-            cvu if tiene_cvu else "⚠️ SIN CVU",
-            r.get("monto", ""),
-            r.get("remitente", ""),
-            r.get("banco_origen", ""),
-            r.get("estado", ""),
-            r.get("notas", ""),
-        ]
+        if es_errores:
+            fila = [
+                i - 1, nombre,
+                r.get("fecha", ""),
+                r.get("tipo", "TRF"),
+                r.get("destinatario", ""),
+                r.get("remitente", ""),
+                r.get("_pie", ""),
+                r.get("monto", ""),
+                cvu if tiene_cvu else "⚠️ SIN CVU",
+                r.get("_motivo_error", ""),
+                r.get("_fecha_carga", ""),
+            ]
+        else:
+            fila = [
+                i - 1, nombre, semana,
+                r.get("tipo", "TRF"),
+                r.get("destinatario", ""),
+                r.get("fecha", ""),
+                r.get("hora", ""),
+                cvu if tiene_cvu else "⚠️ SIN CVU",
+                r.get("monto", ""),
+                r.get("remitente", ""),
+                r.get("banco_origen", ""),
+                r.get("estado", ""),
+                r.get("_origen", "grupo"),
+                r.get("notas", ""),
+            ]
+
+        cvu_col = 9 if es_errores else 8
         for col, val in enumerate(fila, 1):
             cell = ws.cell(row=i, column=col, value=val)
             cell.border = border
-            cell.alignment = Alignment(vertical="center")
-            if col == 7:
+            cell.alignment = Alignment(vertical="center", wrap_text=(col == len(fila)))
+            if col == cvu_col:
                 cell.fill = ok_fill if tiene_cvu else error_fill
                 cell.font = Font(bold=True, color="FFFFFF")
                 cell.alignment = Alignment(horizontal="center", vertical="center")
@@ -167,423 +229,630 @@ def generar_excel(registros: list, semana: str) -> BytesIO:
     ws.freeze_panes = "A2"
     ws.auto_filter.ref = f"A1:{get_column_letter(len(headers))}1"
 
-    # Hoja resumen
-    ws2 = wb.create_sheet("Resumen")
-    ws2["A1"] = "Semana"
-    ws2["B1"] = "Total comprobantes"
-    ws2["C1"] = "Con CVU OK"
-    ws2["D1"] = "Sin CVU ⚠️"
-    ws2["E1"] = "Monto total ARS"
-    for cell in ws2[1]:
-        cell.font = Font(bold=True, color="FFFFFF")
-        cell.fill = header_fill
-
-    total = sum(float(r.get("monto") or 0) for r in registros)
-    con_cvu = len(registros) - sin_cvu
-    ws2.append([semana, len(registros), con_cvu, sin_cvu, total])
-
     buf = BytesIO()
     wb.save(buf)
     buf.seek(0)
     return buf
 
-# ── Formateo de respuesta ─────────────────────────────────────────────────────
-def formatear_resultado(r: dict, num: int) -> str:
+# ── Formateo ──────────────────────────────────────────────────────────────────
+def formatear_resultado(r: dict, num: int, grupo: str = "", pie: str = "") -> str:
     cvu = (r.get("cvu_ultimos4") or "").strip()
-    cvu_line = f"🏦 CVU (últimos 4): `****{cvu}`" if cvu else "🔴 *CVU NO ENCONTRADO — revisar manualmente*"
+    cvu_line = f"🏦 CVU (últimos 4): `****{cvu}`" if cvu else "🔴 *CVU NO ENCONTRADO*"
     monto = r.get("monto")
     monto_fmt = f"${float(monto):,.0f}" if monto else "—"
+    grupo_line = f"📍 Grupo: *{grupo}*\n" if grupo else ""
+    pie_line   = f"📝 Pie: _{pie}_\n" if pie else ""
     return (
         f"✅ *Comprobante #{num} procesado*\n"
         f"─────────────────────\n"
-        f"📅 Fecha: {r.get('fecha', '—')}\n"
-        f"⏰ Hora: {r.get('hora', '—')}\n"
-        f"💸 Tipo: {r.get('tipo', '—')}\n"
-        f"💰 Monto: {monto_fmt} {r.get('moneda', 'ARS')}\n"
-        f"👤 Remitente: {r.get('remitente', '—')}\n"
-        f"👤 Destinatario: {r.get('destinatario', '—')}\n"
-        f"🏛 Banco origen: {r.get('banco_origen', '—')}\n"
+        f"{grupo_line}{pie_line}"
+        f"📅 {r.get('fecha','—')} ⏰ {r.get('hora','—')}\n"
+        f"💸 {r.get('tipo','—')} | 💰 {monto_fmt} {r.get('moneda','ARS')}\n"
+        f"👤 Remitente: {r.get('remitente','—')}\n"
+        f"👤 Destinatario: {r.get('destinatario','—')}\n"
+        f"🏛 Banco: {r.get('banco_origen','—')}\n"
         f"{cvu_line}\n"
-        f"📋 Estado: {r.get('estado', '—')}\n"
+        f"📋 Estado: {r.get('estado','—')}\n"
+    )
+
+# ── Procesar comprobante con verificación de pie ──────────────────────────────
+async def procesar_comprobante(image_bytes: bytes, mime: str, pie: str,
+                                chat_id: int, nombre_g: str, origen: str,
+                                bot, chat_msg_id: int):
+    """Analiza imagen, verifica pie y guarda en registro correcto o errores."""
+    datos = get_store(chat_id, nombre_g)
+    resultado = await analizar_imagen(image_bytes, mime)
+
+    # Si el comprobante no tiene datos del remitente, usar el pie
+    if pie and not resultado.get("tiene_remitente"):
+        resultado["remitente"] = pie
+        resultado["_pie_como_fuente"] = True
+
+    coincide, motivo = verificar_pie(resultado, pie)
+    num = len(datos["registros"]) + len(datos["errores"]) + 1
+    resultado["_num"] = num
+    resultado["_fecha_carga"] = now_arg().strftime("%d/%m/%Y %H:%M")
+    resultado["_origen"] = origen
+    resultado["_pie"] = pie or ""
+
+    if coincide:
+        datos["registros"].append(resultado)
+        texto = formatear_resultado(resultado, num, pie=pie if resultado.get("_pie_como_fuente") else "")
+        if resultado.get("_pie_como_fuente"):
+            texto += "\n📝 _Datos del remitente tomados del pie (no visibles en imagen)_"
+        cvu = (resultado.get("cvu_ultimos4") or "").strip()
+        kb = None
+        if not cvu:
+            kb = InlineKeyboardMarkup([[InlineKeyboardButton(
+                f"✏️ Ingresar CVU #{num}", callback_data=f"editar_cvu_{num}"
+            )]])
+        await bot.send_message(chat_id=chat_id, text=texto, parse_mode="Markdown", reply_markup=kb,
+                               reply_to_message_id=chat_msg_id)
+    else:
+        resultado["_motivo_error"] = motivo
+        datos["errores"].append(resultado)
+        monto = resultado.get("monto")
+        monto_fmt = f"${float(monto):,.0f}" if monto else "—"
+        texto_error = (
+            f"⛔ *Comprobante #{num} RECHAZADO*\n"
+            f"─────────────────────\n"
+            f"💰 Monto: {monto_fmt}\n"
+            f"❌ {motivo}\n\n"
+            f"_Respondé este mensaje con los datos correctos para corregirlo._"
+        )
+        sent = await bot.send_message(chat_id=chat_id, text=texto_error, parse_mode="Markdown",
+                               reply_to_message_id=chat_msg_id)
+        # Guardar referencia para detectar correcciones
+        mensajes_rechazo[(chat_id, sent.message_id)] = {"num": num, "chat_id": chat_id}
+
+# ── Tarea para procesar foto sin pie después de 60 segundos ──────────────────
+async def procesar_sin_pie(key, app):
+    await asyncio.sleep(60)
+    if key not in esperando_pie:
+        return
+    pending = esperando_pie.pop(key)
+    chat_id, msg_id = key
+    datos_chat = get_store(chat_id)
+    await procesar_comprobante(
+        pending["image_bytes"], pending["mime"], pending.get("caption", ""),
+        chat_id, pending["nombre_g"], "grupo", app.bot, msg_id
     )
 
 # ── Tareas programadas ────────────────────────────────────────────────────────
 async def tarea_resumen_diario(app):
-    """Todos los días a las 20:00 Argentina — manda resumen al admin por privado."""
-    ahora = now_arg()
-    fecha_hoy = ahora.strftime("%d/%m/%Y")
+    fecha_hoy = now_arg().strftime("%d/%m/%Y")
+    texto = f"📊 *Resumen diario — {fecha_hoy}*\n\n"
+    total_global = 0
+    total_comp = 0
 
-    # Juntar todos los registros de hoy de todos los grupos
-    todos_hoy = []
-    grupos = []
     for cid, datos in store.items():
-        hoy = [r for r in datos.get("registros", []) if r.get("_fecha_carga", "").startswith(fecha_hoy)]
-        if hoy:
-            todos_hoy.extend(hoy)
-            grupos.append(cid)
+        if datos.get("chat_id") == ADMIN_ID:
+            continue
+        hoy = [r for r in datos.get("registros", []) if r.get("_fecha_carga","").startswith(fecha_hoy)]
+        err = [r for r in datos.get("errores",   []) if r.get("_fecha_carga","").startswith(fecha_hoy)]
+        if not hoy and not err:
+            continue
+        nombre = datos.get("nombre", cid)
+        total  = sum(float(r.get("monto") or 0) for r in hoy)
+        sin_cvu = sum(1 for r in hoy if not (r.get("cvu_ultimos4") or "").strip())
+        total_global += total
+        total_comp   += len(hoy)
 
-    if not todos_hoy:
-        texto = (
-            f"📊 *Resumen diario — {fecha_hoy}*\n"
-            f"─────────────────────\n"
-            f"📭 Sin comprobantes hoy."
-        )
-    else:
-        total = sum(float(r.get("monto") or 0) for r in todos_hoy)
-        sin_cvu = sum(1 for r in todos_hoy if not (r.get("cvu_ultimos4") or "").strip())
-        con_cvu = len(todos_hoy) - sin_cvu
-
-        # Detalle por comprobante
-        detalle = ""
-        for i, r in enumerate(todos_hoy, 1):
+        texto += f"📍 *{nombre}*\n"
+        texto += f"   ✅ {len(hoy)} ok | 💰 ${total:,.0f}"
+        if sin_cvu: texto += f" | 🔴 {sin_cvu} sin CVU"
+        if err:     texto += f" | ⛔ {len(err)} errores"
+        texto += "\n"
+        for r in hoy:
             cvu = (r.get("cvu_ultimos4") or "").strip()
-            monto = r.get("monto")
-            monto_fmt = f"${float(monto):,.0f}" if monto else "—"
-            cvu_txt = f"****{cvu}" if cvu else "⚠️ SIN CVU"
-            detalle += (
-                f"\n*#{i}* {r.get('destinatario', '—')}\n"
-                f"   💰 {monto_fmt} | 🏦 {cvu_txt} | ⏰ {r.get('hora', '—')}\n"
-            )
+            monto_fmt = f"${float(r.get('monto') or 0):,.0f}"
+            origen = "📩" if r.get("_origen") == "privado" else "👥"
+            texto += f"   {origen} {r.get('remitente','—')} | {monto_fmt} | {'****'+cvu if cvu else '⚠️'}\n"
+        texto += "\n"
 
-        texto = (
-            f"📊 *Resumen diario — {fecha_hoy}*\n"
-            f"─────────────────────\n"
-            f"📄 Comprobantes: {len(todos_hoy)}\n"
-            f"✅ Con CVU OK: {con_cvu}\n"
-            f"🔴 Sin CVU: {sin_cvu}\n"
-            f"💰 Total ARS: ${total:,.0f}\n"
-            f"─────────────────────"
-            f"{detalle}"
-        )
-        if sin_cvu > 0:
-            texto += f"\n⚠️ *Hay {sin_cvu} comprobante(s) sin CVU.*"
+    if not total_comp:
+        texto += "📭 Sin comprobantes hoy."
+    else:
+        texto += f"─────────────────────\n💰 *TOTAL: ${total_global:,.0f} ARS* ({total_comp} comprobantes)"
 
     try:
-        await app.bot.send_message(
-            chat_id=ADMIN_ID,
-            text=texto,
-            parse_mode="Markdown"
-        )
-        log.info(f"Resumen diario enviado a {ADMIN_ID}")
+        await app.bot.send_message(chat_id=ADMIN_ID, text=texto, parse_mode="Markdown")
     except Exception as e:
-        log.error(f"Error enviando resumen diario: {e}")
+        log.error(f"Error resumen diario: {e}")
 
 async def tarea_excel_semanal(app):
-    """Todos los jueves a las 21:00 Argentina — manda Excel y reinicia semana."""
     ahora = now_arg()
-    semana_cerrada = ""
-
-    for cid, datos in store.items():
+    for cid, datos in list(store.items()):
+        if datos.get("chat_id") == ADMIN_ID:
+            continue
         registros = datos.get("registros", [])
-        semana_cerrada = datos.get("semana_actual", semana_label())
+        errores   = datos.get("errores",   [])
+        semana    = datos.get("semana_actual", semana_label())
+        nombre    = datos.get("nombre", cid)
+        fecha     = ahora.strftime("%Y%m%d")
 
+        # Excel normal
         if registros:
             try:
-                buf = generar_excel(registros, semana_cerrada)
-                fecha = ahora.strftime("%Y%m%d")
-                nombre = f"Comprobantes_semana_{fecha}.xlsx"
-
+                buf = generar_excel(registros, semana, nombre)
+                nombre_arch = f"Comprobantes_{nombre.replace(' ','_')}_{fecha}.xlsx"
+                total   = sum(float(r.get("monto") or 0) for r in registros)
                 sin_cvu = sum(1 for r in registros if not (r.get("cvu_ultimos4") or "").strip())
-                total = sum(float(r.get("monto") or 0) for r in registros)
-
                 caption = (
-                    f"📊 *Excel Semanal Automático*\n"
-                    f"📅 {semana_cerrada}\n"
-                    f"📄 {len(registros)} comprobantes\n"
-                    f"💰 Total: ${total:,.0f} ARS\n"
-                    f"{'⚠️ ' + str(sin_cvu) + ' sin CVU' if sin_cvu else '✅ Todos con CVU'}"
+                    f"📊 *Excel Semanal — {nombre}*\n"
+                    f"📅 {semana} | 📄 {len(registros)} comprobantes | 💰 ${total:,.0f} ARS\n"
+                    f"{'⚠️ '+str(sin_cvu)+' sin CVU' if sin_cvu else '✅ Todos con CVU'}"
                 )
-
-                # Mandar al grupo
-                await app.bot.send_document(
-                    chat_id=int(cid),
-                    document=buf,
-                    filename=nombre,
-                    caption=caption,
-                    parse_mode="Markdown"
-                )
-
-                # Mandar también al admin por privado
+                await app.bot.send_document(chat_id=int(cid), document=buf, filename=nombre_arch, caption=caption, parse_mode="Markdown")
                 buf.seek(0)
-                await app.bot.send_document(
-                    chat_id=ADMIN_ID,
-                    document=buf,
-                    filename=nombre,
-                    caption=f"📎 Copia del Excel semanal\n{caption}",
-                    parse_mode="Markdown"
-                )
-
+                await app.bot.send_document(chat_id=ADMIN_ID, document=buf, filename=nombre_arch, caption=f"📎 {caption}", parse_mode="Markdown")
             except Exception as e:
-                log.error(f"Error enviando Excel semanal al grupo {cid}: {e}")
+                log.error(f"Error Excel normal {cid}: {e}")
 
-        # Reiniciar semana
-        store[cid] = {
-            "semana_actual": semana_label(),
-            "registros": [],
-            "registros_hoy": [],
-            "chat_id": int(cid),
-        }
+        # Excel errores
+        if errores:
+            try:
+                buf_err = generar_excel(errores, semana, nombre, es_errores=True)
+                nombre_err = f"ERRORES_{nombre.replace(' ','_')}_{fecha}.xlsx"
+                caption_err = f"⛔ *Errores — {nombre}*\n📅 {semana} | {len(errores)} comprobantes rechazados"
+                await app.bot.send_document(chat_id=int(cid), document=buf_err, filename=nombre_err, caption=caption_err, parse_mode="Markdown")
+                buf_err.seek(0)
+                await app.bot.send_document(chat_id=ADMIN_ID, document=buf_err, filename=nombre_err, caption=f"📎 {caption_err}", parse_mode="Markdown")
+            except Exception as e:
+                log.error(f"Error Excel errores {cid}: {e}")
 
-    # Notificar al admin que la semana fue reiniciada
+        store[cid] = {"nombre": nombre, "semana_actual": semana_label(), "registros": [], "errores": [], "chat_id": int(cid)}
+
     try:
-        await app.bot.send_message(
-            chat_id=ADMIN_ID,
-            text=(
-                f"🔄 *Nueva semana iniciada*\n"
-                f"Semana cerrada: {semana_cerrada}\n"
-                f"Nueva semana desde: {now_arg().strftime('%d/%m/%Y %H:%M')} hs"
-            ),
-            parse_mode="Markdown"
-        )
+        await app.bot.send_message(chat_id=ADMIN_ID,
+            text=f"🔄 *Semana reiniciada* — {now_arg().strftime('%d/%m/%Y %H:%M')} hs",
+            parse_mode="Markdown")
     except Exception as e:
-        log.error(f"Error notificando nueva semana: {e}")
-
-    log.info("Excel semanal enviado y semana reiniciada")
+        log.error(f"Error nueva semana: {e}")
 
 # ── Handlers ──────────────────────────────────────────────────────────────────
 async def cmd_start(update: Update, ctx: ContextTypes.DEFAULT_TYPE):
     await update.message.reply_text(
         "👋 *Bot de Comprobantes Agilpagos*\n\n"
-        "Mandame imágenes de comprobantes y las analizo automáticamente.\n\n"
+        "Mandame imágenes de comprobantes con los datos al pie.\n\n"
         "📌 *Comandos:*\n"
-        "/resumen — ver comprobantes cargados\n"
+        "/resumen — comprobantes de este grupo\n"
+        "/errores — ver comprobantes rechazados\n"
+        "/hoy — resumen de hoy\n"
         "/excel — generar Excel ahora\n"
-        "/hoy — ver resumen de hoy\n"
-        "/nueva\\_semana — iniciar nueva semana\n"
-        "/borrar — borrar todos los registros\n\n"
+        "/grupos — todos los grupos (solo admin)\n"
+        "/nueva\\_semana — reiniciar semana\n"
+        "/borrar — borrar registros\n\n"
         "⏰ *Automático:*\n"
         "📊 Resumen diario → 20:00 hs\n"
         "📎 Excel semanal → Jueves 21:00 hs",
         parse_mode="Markdown"
     )
 
-async def cmd_hoy(update: Update, ctx: ContextTypes.DEFAULT_TYPE):
-    """Resumen de comprobantes del día de hoy."""
+async def cmd_errores(update: Update, ctx: ContextTypes.DEFAULT_TYPE):
     chat_id = update.effective_chat.id
-    datos = get_store(chat_id)
-    fecha_hoy = now_arg().strftime("%d/%m/%Y")
-    hoy = [r for r in datos.get("registros", []) if r.get("_fecha_carga", "").startswith(fecha_hoy)]
+    datos = get_store(chat_id, get_nombre_grupo(update))
+    errores = datos.get("errores", [])
+    if not errores:
+        await update.message.reply_text("✅ No hay comprobantes rechazados.")
+        return
+    texto = f"⛔ *Comprobantes rechazados — {datos['nombre']}*\n─────────────────────\n"
+    for i, r in enumerate(errores, 1):
+        monto_fmt = f"${float(r.get('monto') or 0):,.0f}"
+        texto += f"*#{i}* {r.get('remitente','—')} | {monto_fmt}\n_{r.get('_motivo_error','?')}_\n\n"
+    await update.message.reply_text(texto, parse_mode="Markdown")
 
+async def cmd_grupos(update: Update, ctx: ContextTypes.DEFAULT_TYPE):
+    if update.effective_user.id != ADMIN_ID:
+        await update.message.reply_text("⛔ Solo el administrador.")
+        return
+    if not store:
+        await update.message.reply_text("📭 No hay grupos activos.")
+        return
+    texto = "📋 *Grupos activos:*\n─────────────────────\n"
+    total_global = 0
+    for cid, datos in store.items():
+        if datos.get("chat_id") == ADMIN_ID:
+            continue
+        regs = datos.get("registros", [])
+        errs = datos.get("errores", [])
+        total = sum(float(r.get("monto") or 0) for r in regs)
+        total_global += total
+        texto += f"📍 *{datos.get('nombre',cid)}*\n   ✅ {len(regs)} ok | ⛔ {len(errs)} errores | 💰 ${total:,.0f} ARS\n\n"
+    texto += f"💰 *Total global: ${total_global:,.0f} ARS*"
+    await update.message.reply_text(texto, parse_mode="Markdown")
+
+async def cmd_hoy(update: Update, ctx: ContextTypes.DEFAULT_TYPE):
+    chat_id = update.effective_chat.id
+    datos = get_store(chat_id, get_nombre_grupo(update))
+    fecha_hoy = now_arg().strftime("%d/%m/%Y")
+    hoy = [r for r in datos.get("registros",[]) if r.get("_fecha_carga","").startswith(fecha_hoy)]
     if not hoy:
         await update.message.reply_text(f"📭 Sin comprobantes hoy ({fecha_hoy}).")
         return
-
     total = sum(float(r.get("monto") or 0) for r in hoy)
     sin_cvu = sum(1 for r in hoy if not (r.get("cvu_ultimos4") or "").strip())
-
     detalle = ""
     for i, r in enumerate(hoy, 1):
         cvu = (r.get("cvu_ultimos4") or "").strip()
-        monto = r.get("monto")
-        monto_fmt = f"${float(monto):,.0f}" if monto else "—"
-        cvu_txt = f"****{cvu}" if cvu else "⚠️ SIN CVU"
-        detalle += f"\n*#{i}* {r.get('destinatario', '—')} | {monto_fmt} | {cvu_txt}"
-
-    texto = (
-        f"📅 *Hoy {fecha_hoy}*\n"
-        f"📄 {len(hoy)} comprobantes | 💰 ${total:,.0f} ARS\n"
-        f"─────────────────────"
-        f"{detalle}"
+        detalle += f"\n*#{i}* {r.get('remitente','—')} | ${float(r.get('monto') or 0):,.0f} | {'****'+cvu if cvu else '⚠️'}"
+    await update.message.reply_text(
+        f"📅 *Hoy {fecha_hoy}*\n📄 {len(hoy)} | 💰 ${total:,.0f} ARS{' | 🔴 '+str(sin_cvu) if sin_cvu else ''}\n─────────────────────{detalle}",
+        parse_mode="Markdown"
     )
-    await update.message.reply_text(texto, parse_mode="Markdown")
 
 async def cmd_resumen(update: Update, ctx: ContextTypes.DEFAULT_TYPE):
     chat_id = update.effective_chat.id
-    datos = get_store(chat_id)
-    registros = datos["registros"]
-
-    if not registros:
-        await update.message.reply_text("📭 No hay comprobantes cargados todavía.")
+    datos = get_store(chat_id, get_nombre_grupo(update))
+    regs = datos["registros"]
+    errs = datos.get("errores", [])
+    if not regs and not errs:
+        await update.message.reply_text("📭 No hay comprobantes.")
         return
-
-    total = sum(float(r.get("monto") or 0) for r in registros)
-    sin_cvu = sum(1 for r in registros if not (r.get("cvu_ultimos4") or "").strip())
-    con_cvu = len(registros) - sin_cvu
-
-    texto = (
-        f"📊 *Resumen — {datos['semana_actual']}*\n"
-        f"─────────────────────\n"
-        f"📄 Comprobantes: {len(registros)}\n"
-        f"✅ Con CVU OK: {con_cvu}\n"
-        f"🔴 Sin CVU: {sin_cvu}\n"
-        f"💰 Total ARS: ${total:,.0f}\n"
+    total   = sum(float(r.get("monto") or 0) for r in regs)
+    sin_cvu = sum(1 for r in regs if not (r.get("cvu_ultimos4") or "").strip())
+    await update.message.reply_text(
+        f"📊 *{datos['nombre']} — {datos['semana_actual']}*\n─────────────────────\n"
+        f"✅ Aceptados: {len(regs)}\n⛔ Rechazados: {len(errs)}\n"
+        f"🔴 Sin CVU: {sin_cvu}\n💰 Total ARS: ${total:,.0f}",
+        parse_mode="Markdown"
     )
-    if sin_cvu > 0:
-        texto += f"\n⚠️ *{sin_cvu} comprobante(s) sin CVU. Revisá antes de exportar.*"
-
-    await update.message.reply_text(texto, parse_mode="Markdown")
 
 async def cmd_excel(update: Update, ctx: ContextTypes.DEFAULT_TYPE):
     chat_id = update.effective_chat.id
-    datos = get_store(chat_id)
-    registros = datos["registros"]
-
-    if not registros:
-        await update.message.reply_text("📭 No hay comprobantes para exportar.")
-        return
-
+    datos = get_store(chat_id, get_nombre_grupo(update))
     msg = await update.message.reply_text("⏳ Generando Excel...")
-    try:
-        buf = generar_excel(registros, datos["semana_actual"])
-        fecha = now_arg().strftime("%Y%m%d")
-        nombre = f"Comprobantes_{fecha}.xlsx"
-        await update.message.reply_document(
-            document=buf,
-            filename=nombre,
-            caption=f"📊 Excel — {len(registros)} comprobantes\n{datos['semana_actual']}"
-        )
+    fecha = now_arg().strftime("%Y%m%d")
+    enviados = 0
+    if datos["registros"]:
+        buf = generar_excel(datos["registros"], datos["semana_actual"], datos["nombre"])
+        await update.message.reply_document(document=buf,
+            filename=f"Comprobantes_{datos['nombre'].replace(' ','_')}_{fecha}.xlsx",
+            caption=f"📊 *{datos['nombre']}* — {len(datos['registros'])} comprobantes", parse_mode="Markdown")
+        enviados += 1
+    if datos.get("errores"):
+        buf_err = generar_excel(datos["errores"], datos["semana_actual"], datos["nombre"], es_errores=True)
+        await update.message.reply_document(document=buf_err,
+            filename=f"ERRORES_{datos['nombre'].replace(' ','_')}_{fecha}.xlsx",
+            caption=f"⛔ *Errores — {datos['nombre']}* — {len(datos['errores'])} rechazados", parse_mode="Markdown")
+        enviados += 1
+    if not enviados:
+        await msg.edit_text("📭 No hay comprobantes para exportar.")
+    else:
         await msg.delete()
-    except Exception as e:
-        log.error(f"Error generando Excel: {e}")
-        await msg.edit_text(f"❌ Error: {e}")
 
 async def cmd_nueva_semana(update: Update, ctx: ContextTypes.DEFAULT_TYPE):
-    chat_id = update.effective_chat.id
-    kb = [[
-        InlineKeyboardButton("✅ Sí, nueva semana", callback_data="nueva_semana_si"),
-        InlineKeyboardButton("❌ Cancelar", callback_data="cancelar"),
-    ]]
-    await update.message.reply_text(
-        "⚠️ ¿Querés iniciar una nueva semana?\nSe borrarán todos los comprobantes actuales.",
-        reply_markup=InlineKeyboardMarkup(kb)
-    )
+    kb = [[InlineKeyboardButton("✅ Sí", callback_data="nueva_semana_si"),
+           InlineKeyboardButton("❌ No",  callback_data="cancelar")]]
+    await update.message.reply_text("⚠️ ¿Iniciar nueva semana? Se borran todos los registros.",
+        reply_markup=InlineKeyboardMarkup(kb))
 
 async def cmd_borrar(update: Update, ctx: ContextTypes.DEFAULT_TYPE):
-    kb = [[
-        InlineKeyboardButton("✅ Sí, borrar todo", callback_data="borrar_si"),
-        InlineKeyboardButton("❌ Cancelar", callback_data="cancelar"),
-    ]]
-    await update.message.reply_text(
-        "⚠️ ¿Borrar TODOS los comprobantes?",
-        reply_markup=InlineKeyboardMarkup(kb)
-    )
+    kb = [[InlineKeyboardButton("✅ Sí", callback_data="borrar_si"),
+           InlineKeyboardButton("❌ No",  callback_data="cancelar")]]
+    await update.message.reply_text("⚠️ ¿Borrar TODOS los comprobantes (incluso errores)?",
+        reply_markup=InlineKeyboardMarkup(kb))
 
 async def callback_handler(update: Update, ctx: ContextTypes.DEFAULT_TYPE):
     query = update.callback_query
     await query.answer()
     chat_id = update.effective_chat.id
+    user_id = update.effective_user.id
+    data    = query.data
 
-    if query.data == "nueva_semana_si":
-        store[str(chat_id)] = {
-            "semana_actual": semana_label(),
-            "registros": [],
-            "registros_hoy": [],
-            "chat_id": chat_id,
-        }
+    if data.startswith("asignar_grupo_"):
+        grupo_cid = data.replace("asignar_grupo_", "")
+        if user_id not in pendientes:
+            await query.edit_message_text("⏰ La foto expiró. Mandala de nuevo.")
+            return
+        pending = pendientes.pop(user_id)
+        await query.edit_message_text("🔍 Analizando comprobante con IA...")
+        try:
+            resultado = await analizar_imagen(pending["image_bytes"], pending["mime"])
+            datos_g   = get_store(int(grupo_cid))
+            nombre_g  = datos_g["nombre"]
+            coincide, motivo = verificar_pie(resultado, pending.get("caption",""))
+            num = len(datos_g["registros"]) + len(datos_g.get("errores",[])) + 1
+            resultado.update({"_num": num, "_fecha_carga": now_arg().strftime("%d/%m/%Y %H:%M"),
+                               "_origen": "privado", "_pie": pending.get("caption","")})
+            if coincide:
+                datos_g["registros"].append(resultado)
+                texto = "📩 *Recibido por privado*\n" + formatear_resultado(resultado, num, nombre_g)
+                cvu = (resultado.get("cvu_ultimos4") or "").strip()
+                kb = None
+                if not cvu:
+                    kb = InlineKeyboardMarkup([[InlineKeyboardButton(f"✏️ CVU #{num}", callback_data=f"editar_cvu_{num}")]])
+                await query.edit_message_text(texto, parse_mode="Markdown", reply_markup=kb)
+            else:
+                resultado["_motivo_error"] = motivo
+                datos_g.setdefault("errores", []).append(resultado)
+                await query.edit_message_text(
+                    f"⛔ *Comprobante #{num} RECHAZADO*\n❌ {motivo}\n_Guardado en errores._",
+                    parse_mode="Markdown")
+        except Exception as e:
+            await query.edit_message_text(f"❌ Error: {e}")
+        return
+
+    if data == "cancelar_privado":
+        pendientes.pop(user_id, None)
+        await query.edit_message_text("❌ Comprobante descartado.")
+        return
+
+    if data == "nueva_semana_si":
+        n  = store.get(str(chat_id), {}).get("nombre", "Grupo")
+        tm = store.get(str(chat_id), {}).get("total_mensual", 0.0)
+        ma = store.get(str(chat_id), {}).get("mes_actual", "")
+        store[str(chat_id)] = {"nombre": n, "semana_actual": semana_label(), "registros": [],
+                                "errores": [], "chat_id": chat_id,
+                                "ultimo_resumen_idx": 0, "total_mensual": tm, "mes_actual": ma}
         await query.edit_message_text("✅ Nueva semana iniciada.")
-    elif query.data == "borrar_si":
-        datos = get_store(chat_id)
-        datos["registros"] = []
-        await query.edit_message_text("🗑 Registros borrados.")
-    elif query.data == "cancelar":
+    elif data == "borrar_si":
+        d = get_store(chat_id)
+        d["registros"] = []
+        d["errores"]   = []
+        await query.edit_message_text("🗑 Todo borrado.")
+    elif data == "cancelar":
         await query.edit_message_text("❌ Cancelado.")
 
 async def handle_photo(update: Update, ctx: ContextTypes.DEFAULT_TYPE):
-    chat_id = update.effective_chat.id
-    if ALLOWED_GROUP and str(chat_id) != ALLOWED_GROUP:
+    chat_id  = update.effective_chat.id
+    es_privado = update.effective_chat.type == "private"
+    caption  = (update.message.caption or "").strip()
+
+    file = await ctx.bot.get_file(update.message.photo[-1].file_id)
+    async with httpx.AsyncClient() as client:
+        image_bytes = (await client.get(file.file_path)).content
+
+    if es_privado:
+        grupos = grupos_disponibles()
+        if not grupos:
+            await update.message.reply_text("⚠️ No hay grupos activos todavía.")
+            return
+        pendientes[update.effective_user.id] = {"image_bytes": image_bytes, "mime": "image/jpeg", "caption": caption}
+        botones = [[InlineKeyboardButton(f"📍 {n}", callback_data=f"asignar_grupo_{cid}")] for cid, n in grupos]
+        botones.append([InlineKeyboardButton("❌ Cancelar", callback_data="cancelar_privado")])
+        await update.message.reply_text("*¿A qué grupo pertenece este comprobante?*",
+            reply_markup=InlineKeyboardMarkup(botones), parse_mode="Markdown")
         return
 
-    msg = await update.message.reply_text("🔍 Analizando comprobante con IA...")
-    try:
-        photo = update.message.photo[-1]
-        file = await ctx.bot.get_file(photo.file_id)
-        async with httpx.AsyncClient() as client:
-            resp = await client.get(file.file_path)
-            image_bytes = resp.content
+    nombre_g = get_nombre_grupo(update)
+    msg_id   = update.message.message_id
 
-        resultado = await analizar_imagen(image_bytes, "image/jpeg")
-        datos = get_store(chat_id)
-        num = len(datos["registros"]) + 1
-        resultado["_num"] = num
-        resultado["_fecha_carga"] = now_arg().strftime("%d/%m/%Y %H:%M")
-        datos["registros"].append(resultado)
-
-        texto = formatear_resultado(resultado, num)
-        cvu = (resultado.get("cvu_ultimos4") or "").strip()
-
-        kb = None
-        if not cvu:
-            kb = InlineKeyboardMarkup([[
-                InlineKeyboardButton(
-                    f"✏️ Ingresar CVU del comprobante #{num}",
-                    callback_data=f"editar_cvu_{num}"
-                )
-            ]])
-
-        await msg.edit_text(texto, parse_mode="Markdown", reply_markup=kb)
-
-    except Exception as e:
-        log.error(f"Error procesando imagen: {e}")
-        await msg.edit_text(f"❌ Error al procesar la imagen: {e}")
+    if caption:
+        # Caption incluido — procesar de una
+        await update.message.reply_text("🔍 Analizando comprobante...")
+        await procesar_comprobante(image_bytes, "image/jpeg", caption, chat_id, nombre_g, "grupo", ctx.bot, msg_id)
+    else:
+        # Esperar texto del pie por 60 segundos
+        key = (chat_id, msg_id)
+        esperando_pie[key] = {"image_bytes": image_bytes, "mime": "image/jpeg", "caption": "", "nombre_g": nombre_g}
+        await update.message.reply_text("📎 Comprobante recibido. Esperando datos del pie... _(60 seg)_", parse_mode="Markdown")
+        task = asyncio.create_task(procesar_sin_pie(key, ctx.application))
+        esperando_pie[key]["task"] = task
 
 async def handle_document(update: Update, ctx: ContextTypes.DEFAULT_TYPE):
     doc = update.message.document
     if not doc or not doc.mime_type or not doc.mime_type.startswith("image/"):
         return
+    chat_id    = update.effective_chat.id
+    es_privado = update.effective_chat.type == "private"
+    caption    = (update.message.caption or "").strip()
 
-    chat_id = update.effective_chat.id
-    if ALLOWED_GROUP and str(chat_id) != ALLOWED_GROUP:
+    file = await ctx.bot.get_file(doc.file_id)
+    async with httpx.AsyncClient() as client:
+        image_bytes = (await client.get(file.file_path)).content
+
+    if es_privado:
+        grupos = grupos_disponibles()
+        if not grupos:
+            await update.message.reply_text("⚠️ No hay grupos activos todavía.")
+            return
+        pendientes[update.effective_user.id] = {"image_bytes": image_bytes, "mime": doc.mime_type, "caption": caption}
+        botones = [[InlineKeyboardButton(f"📍 {n}", callback_data=f"asignar_grupo_{cid}")] for cid, n in grupos]
+        botones.append([InlineKeyboardButton("❌ Cancelar", callback_data="cancelar_privado")])
+        await update.message.reply_text("*¿A qué grupo pertenece este comprobante?*",
+            reply_markup=InlineKeyboardMarkup(botones), parse_mode="Markdown")
         return
 
-    msg = await update.message.reply_text("🔍 Analizando comprobante (documento)...")
-    try:
-        file = await ctx.bot.get_file(doc.file_id)
-        async with httpx.AsyncClient() as client:
-            resp = await client.get(file.file_path)
-            image_bytes = resp.content
+    nombre_g = get_nombre_grupo(update)
+    msg_id   = update.message.message_id
+    if caption:
+        await update.message.reply_text("🔍 Analizando comprobante...")
+        await procesar_comprobante(image_bytes, doc.mime_type, caption, chat_id, nombre_g, "grupo", ctx.bot, msg_id)
+    else:
+        key = (chat_id, msg_id)
+        esperando_pie[key] = {"image_bytes": image_bytes, "mime": doc.mime_type, "caption": "", "nombre_g": nombre_g}
+        await update.message.reply_text("📎 Comprobante recibido. Esperando datos del pie... _(60 seg)_", parse_mode="Markdown")
+        task = asyncio.create_task(procesar_sin_pie(key, ctx.application))
+        esperando_pie[key]["task"] = task
 
-        resultado = await analizar_imagen(image_bytes, doc.mime_type)
-        datos = get_store(chat_id)
-        num = len(datos["registros"]) + 1
-        resultado["_num"] = num
-        resultado["_fecha_carga"] = now_arg().strftime("%d/%m/%Y %H:%M")
-        datos["registros"].append(resultado)
+async def handle_text(update: Update, ctx: ContextTypes.DEFAULT_TYPE):
+    """Captura texto del pie, correcciones a rechazos, resúmenes de tanda y totales mensuales."""
+    if update.effective_chat.type == "private":
+        return
+    chat_id = update.effective_chat.id
+    texto   = (update.message.text or "").strip()
+    if not texto:
+        return
 
-        texto = formatear_resultado(resultado, num)
-        await msg.edit_text(texto, parse_mode="Markdown")
-    except Exception as e:
-        log.error(f"Error procesando documento: {e}")
-        await msg.edit_text(f"❌ Error: {e}")
+    texto_lower = texto.lower()
+
+    # ── Detectar resumen de tanda: contiene "tickets" + número + monto ──
+    import re
+    es_tanda = "tickets" in texto_lower
+    es_total_mes = re.search(r"total\s+\w+\s*:", texto_lower)
+
+    if es_tanda and not update.message.reply_to_message:
+        datos = get_store(chat_id, get_nombre_grupo(update))
+        registros = datos.get("registros", [])
+        idx_desde = datos.get("ultimo_resumen_idx", 0)
+
+        # Comprobantes de esta tanda (desde el último resumen)
+        tanda = registros[idx_desde:]
+
+        # Extraer número de tickets del mensaje
+        num_match    = re.search(r"tickets[:\s]*(\d[\d.,]*)", texto_lower)
+        monto_match  = re.search(r"\$\s*([\d.,]+)", texto)
+
+        tickets_msg = int(num_match.group(1).replace(".", "").replace(",", "")) if num_match else None
+        monto_msg   = float(monto_match.group(1).replace(".", "").replace(",", "")) if monto_match else None
+
+        # Calcular real
+        tickets_real = len(tanda)
+        monto_real   = sum(float(r.get("monto") or 0) for r in tanda)
+
+        # Actualizar índice de último resumen
+        datos["ultimo_resumen_idx"] = len(registros)
+
+        # Acumular al total mensual
+        datos["total_mensual"] = datos.get("total_mensual", 0.0) + monto_real
+
+        # Comparar
+        tickets_ok = tickets_msg is None or tickets_msg == tickets_real
+        monto_ok   = monto_msg is None or abs(monto_msg - monto_real) < 1
+
+        if tickets_ok and monto_ok:
+            await update.message.reply_text(
+                f"✅ *Tanda verificada — todo coincide*\n"
+                f"🎫 Tickets: {tickets_real}\n"
+                f"💰 Monto: ${monto_real:,.0f} ARS",
+                parse_mode="Markdown"
+            )
+        else:
+            diferencias = ""
+            if not tickets_ok:
+                diferencias += f"🎫 Tickets: informaron *{tickets_msg}* → real *{tickets_real}*\n"
+            if not monto_ok:
+                diferencias += f"💰 Monto: informaron *${monto_msg:,.0f}* → real *${monto_real:,.0f}*\n"
+            await update.message.reply_text(
+                f"⚠️ *Tanda con diferencias*\n"
+                f"─────────────────────\n"
+                f"{diferencias}\n"
+                f"_Los datos correctos del bot son los indicados arriba._",
+                parse_mode="Markdown"
+            )
+        return
+
+    # ── Detectar total mensual: "TOTAL JUNIO: $X" ──
+    if es_total_mes:
+        datos = get_store(chat_id, get_nombre_grupo(update))
+        monto_match = re.search(r"\$\s*([\d.,]+)", texto)
+        monto_msg   = float(monto_match.group(1).replace(".", "").replace(",", "")) if monto_match else None
+        total_real  = datos.get("total_mensual", 0.0)
+
+        # Extraer nombre del mes del mensaje
+        mes_match = re.search(r"total\s+(\w+)\s*:", texto_lower)
+        nombre_mes = mes_match.group(1).upper() if mes_match else "MES"
+
+        if monto_msg is None:
+            await update.message.reply_text(
+                f"📅 *Total acumulado {nombre_mes}*\n💰 ${total_real:,.0f} ARS",
+                parse_mode="Markdown"
+            )
+        elif abs(monto_msg - total_real) < 1:
+            await update.message.reply_text(
+                f"✅ *Total {nombre_mes} verificado*\n💰 ${total_real:,.0f} ARS — coincide ✓",
+                parse_mode="Markdown"
+            )
+        else:
+            await update.message.reply_text(
+                f"⚠️ *Total {nombre_mes} con diferencia*\n"
+                f"Informaron: *${monto_msg:,.0f}*\n"
+                f"Real acumulado: *${total_real:,.0f}*\n"
+                f"Diferencia: *${abs(monto_msg - total_real):,.0f}*",
+                parse_mode="Markdown"
+            )
+        return
+
+    # ── Detectar si es respuesta a un mensaje de rechazo ──
+    reply = update.message.reply_to_message
+    if reply:
+        key_rechazo = (chat_id, reply.message_id)
+        if key_rechazo in mensajes_rechazo:
+            info    = mensajes_rechazo[key_rechazo]
+            num     = info["num"]
+            datos   = get_store(chat_id, get_nombre_grupo(update))
+            errores = datos.get("errores", [])
+
+            error_idx = next((i for i, r in enumerate(errores) if r.get("_num") == num), None)
+            if error_idx is None:
+                await update.message.reply_text("⚠️ No encontré el comprobante a corregir.")
+                return
+
+            registro = errores[error_idx]
+            coincide, motivo = verificar_pie(registro, texto)
+
+            if coincide:
+                errores.pop(error_idx)
+                registro["_pie"]          = texto
+                registro["_corregido"]    = True
+                registro["_motivo_error"] = ""
+                if not registro.get("tiene_remitente"):
+                    registro["remitente"] = texto
+                datos["registros"].append(registro)
+                del mensajes_rechazo[key_rechazo]
+
+                monto_fmt = f"${float(registro.get('monto') or 0):,.0f}"
+                cvu = (registro.get("cvu_ultimos4") or "").strip()
+                await update.message.reply_text(
+                    f"✅ *Comprobante #{num} CORREGIDO y aceptado*\n"
+                    f"💰 {monto_fmt} | 🏦 {'****'+cvu if cvu else '⚠️ Sin CVU'}\n"
+                    f"📝 Datos: _{texto}_\n"
+                    f"_Movido al Excel de comprobantes válidos._",
+                    parse_mode="Markdown"
+                )
+            else:
+                await update.message.reply_text(
+                    f"⛔ *Sigue sin coincidir*\n❌ {motivo}\n\n"
+                    f"_Respondé este mensaje con los datos correctos._",
+                    parse_mode="Markdown"
+                )
+            return
+
+    # ── Detectar texto del pie para foto esperando ──
+    key_match = None
+    for key in list(esperando_pie.keys()):
+        if key[0] == chat_id:
+            key_match = key
+            break
+
+    if not key_match:
+        return
+
+    pending = esperando_pie.pop(key_match)
+    task = pending.get("task")
+    if task:
+        task.cancel()
+
+    await update.message.reply_text("🔍 Analizando comprobante con datos del pie...")
+    await procesar_comprobante(
+        pending["image_bytes"], pending["mime"], texto,
+        chat_id, pending["nombre_g"], "grupo", ctx.bot, key_match[1]
+    )
 
 # ── Main ──────────────────────────────────────────────────────────────────────
 def main():
     app = Application.builder().token(TELEGRAM_TOKEN).build()
 
-    # Handlers
     app.add_handler(CommandHandler("start",        cmd_start))
     app.add_handler(CommandHandler("hoy",          cmd_hoy))
     app.add_handler(CommandHandler("resumen",      cmd_resumen))
+    app.add_handler(CommandHandler("errores",      cmd_errores))
     app.add_handler(CommandHandler("excel",        cmd_excel))
+    app.add_handler(CommandHandler("grupos",       cmd_grupos))
     app.add_handler(CommandHandler("nueva_semana", cmd_nueva_semana))
     app.add_handler(CommandHandler("borrar",       cmd_borrar))
     app.add_handler(CallbackQueryHandler(callback_handler))
-    app.add_handler(MessageHandler(filters.PHOTO, handle_photo))
+    app.add_handler(MessageHandler(filters.PHOTO,          handle_photo))
     app.add_handler(MessageHandler(filters.Document.IMAGE, handle_document))
+    app.add_handler(MessageHandler(filters.TEXT & ~filters.COMMAND, handle_text))
 
-    # Scheduler — zona horaria Argentina (UTC-3)
     scheduler = AsyncIOScheduler(timezone="America/Argentina/Buenos_Aires")
-
-    # Resumen diario a las 20:00 Argentina
-    scheduler.add_job(
-        tarea_resumen_diario,
-        CronTrigger(hour=20, minute=0, timezone="America/Argentina/Buenos_Aires"),
-        args=[app],
-        id="resumen_diario"
-    )
-
-    # Excel semanal todos los jueves a las 21:00 Argentina
-    scheduler.add_job(
-        tarea_excel_semanal,
-        CronTrigger(day_of_week="thu", hour=21, minute=0, timezone="America/Argentina/Buenos_Aires"),
-        args=[app],
-        id="excel_semanal"
-    )
-
+    scheduler.add_job(tarea_resumen_diario, CronTrigger(hour=20, minute=0, timezone="America/Argentina/Buenos_Aires"), args=[app], id="resumen_diario")
+    scheduler.add_job(tarea_excel_semanal,  CronTrigger(day_of_week="thu", hour=21, minute=0, timezone="America/Argentina/Buenos_Aires"), args=[app], id="excel_semanal")
     scheduler.start()
-    log.info("🤖 Bot iniciado con tareas programadas:")
-    log.info("   📊 Resumen diario → 20:00 hs Argentina")
-    log.info("   📎 Excel semanal  → Jueves 21:00 hs Argentina")
 
+    log.info("🤖 Bot iniciado con verificación de pie")
     app.run_polling(drop_pending_updates=True)
 
 if __name__ == "__main__":
