@@ -127,7 +127,7 @@ Analizá la imagen y respondé ÚNICAMENTE con un JSON válido sin backticks ni 
 async def analizar_imagen(image_bytes: bytes, mime: str) -> dict:
     b64 = base64.standard_b64encode(image_bytes).decode("utf-8")
     resp = claude.messages.create(
-        model="claude-sonnet-4-20250514",
+        model="claude-sonnet-4-5",
         max_tokens=1000,
         system=SYSTEM_PROMPT,
         messages=[{"role": "user", "content": [
