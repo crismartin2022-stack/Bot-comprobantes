@@ -277,32 +277,52 @@ async def procesar_comprobante(image_bytes: bytes, mime: str, pie: str,
 
     if coincide:
         datos["registros"].append(resultado)
-        texto = formatear_resultado(resultado, num, pie=pie if resultado.get("_pie_como_fuente") else "")
-        if resultado.get("_pie_como_fuente"):
-            texto += "\n📝 _Datos del remitente tomados del pie (no visibles en imagen)_"
+        # Notificar al admin por privado si falta CVU
         cvu = (resultado.get("cvu_ultimos4") or "").strip()
-        kb = None
         if not cvu:
-            kb = InlineKeyboardMarkup([[InlineKeyboardButton(
-                f"✏️ Ingresar CVU #{num}", callback_data=f"editar_cvu_{num}"
-            )]])
-        await bot.send_message(chat_id=chat_id, text=texto, parse_mode="Markdown", reply_markup=kb,
-                               reply_to_message_id=chat_msg_id)
+            monto = resultado.get("monto")
+            monto_fmt = f"${float(monto):,.0f}" if monto else "—"
+            try:
+                await bot.send_message(
+                    chat_id=ADMIN_ID,
+                    text=(
+                        f"⚠️ *CVU faltante — {nombre_g}*\n"
+                        f"Comprobante #{num}\n"
+                        f"👤 {resultado.get('remitente','—')}\n"
+                        f"💰 {monto_fmt}\n"
+                        f"📅 {resultado.get('fecha','—')}\n"
+                        f"_CVU del receptor no encontrado en la imagen._"
+                    ),
+                    parse_mode="Markdown"
+                )
+            except Exception as e:
+                log.error(f"Error notificando CVU faltante: {e}")
     else:
         resultado["_motivo_error"] = motivo
         datos["errores"].append(resultado)
         monto = resultado.get("monto")
         monto_fmt = f"${float(monto):,.0f}" if monto else "—"
         texto_error = (
-            f"⛔ *Comprobante #{num} RECHAZADO*\n"
+            f"⛔ *Comprobante #{num} RECHAZADO — {nombre_g}*\n"
             f"─────────────────────\n"
             f"💰 Monto: {monto_fmt}\n"
             f"❌ {motivo}\n\n"
-            f"_Respondé este mensaje con los datos correctos para corregirlo._"
+            f"_Avisá en el grupo para que corrijan los datos._"
         )
-        sent = await bot.send_message(chat_id=chat_id, text=texto_error, parse_mode="Markdown",
-                               reply_to_message_id=chat_msg_id)
-        # Guardar referencia para detectar correcciones
+        # Notificar al admin por privado
+        try:
+            await bot.send_message(chat_id=ADMIN_ID, text=texto_error, parse_mode="Markdown")
+        except Exception as e:
+            log.error(f"Error notificando rechazo al admin: {e}")
+        # Avisar en el grupo para que corrijan (sin detalles, solo el número)
+        sent = await bot.send_message(
+            chat_id=chat_id,
+            text=(
+                f"⛔ Comprobante #{num} rechazado — datos no coinciden.\n"
+                f"Por favor corregí respondiendo a este mensaje con el nombre y CUIL correcto."
+            ),
+            reply_to_message_id=chat_msg_id
+        )
         mensajes_rechazo[(chat_id, sent.message_id)] = {"num": num, "chat_id": chat_id}
 
 # ── Tarea para procesar foto sin pie después de 60 segundos ──────────────────
@@ -619,14 +639,12 @@ async def handle_photo(update: Update, ctx: ContextTypes.DEFAULT_TYPE):
     msg_id   = update.message.message_id
 
     if caption:
-        # Caption incluido — procesar de una
-        await update.message.reply_text("🔍 Analizando comprobante...")
+        # Caption incluido — procesar silenciosamente
         await procesar_comprobante(image_bytes, "image/jpeg", caption, chat_id, nombre_g, "grupo", ctx.bot, msg_id)
     else:
-        # Esperar texto del pie por 60 segundos
+        # Esperar texto del pie por 60 segundos — sin mensaje en el grupo
         key = (chat_id, msg_id)
         esperando_pie[key] = {"image_bytes": image_bytes, "mime": "image/jpeg", "caption": "", "nombre_g": nombre_g}
-        await update.message.reply_text("📎 Comprobante recibido. Esperando datos del pie... _(60 seg)_", parse_mode="Markdown")
         task = asyncio.create_task(procesar_sin_pie(key, ctx.application))
         esperando_pie[key]["task"] = task
 
@@ -655,9 +673,8 @@ async def handle_document(update: Update, ctx: ContextTypes.DEFAULT_TYPE):
         return
 
     nombre_g = get_nombre_grupo(update)
-    msg_id   = update.message.message_id
+    msg_id = update.message.message_id
     if caption:
-        await update.message.reply_text("🔍 Analizando comprobante...")
         await procesar_comprobante(image_bytes, doc.mime_type, caption, chat_id, nombre_g, "grupo", ctx.bot, msg_id)
     else:
         key = (chat_id, msg_id)
@@ -794,18 +811,24 @@ async def handle_text(update: Update, ctx: ContextTypes.DEFAULT_TYPE):
 
                 monto_fmt = f"${float(registro.get('monto') or 0):,.0f}"
                 cvu = (registro.get("cvu_ultimos4") or "").strip()
-                await update.message.reply_text(
-                    f"✅ *Comprobante #{num} CORREGIDO y aceptado*\n"
-                    f"💰 {monto_fmt} | 🏦 {'****'+cvu if cvu else '⚠️ Sin CVU'}\n"
-                    f"📝 Datos: _{texto}_\n"
-                    f"_Movido al Excel de comprobantes válidos._",
-                    parse_mode="Markdown"
-                )
+                # Confirmar en el grupo brevemente
+                await update.message.reply_text(f"✅ Comprobante #{num} corregido y aceptado.")
+                # Detalle completo al admin
+                try:
+                    await ctx.bot.send_message(
+                        chat_id=ADMIN_ID,
+                        text=(
+                            f"✅ *Comprobante #{num} corregido — {datos.get('nombre','')}*\n"
+                            f"💰 {monto_fmt} | 🏦 {'****'+cvu if cvu else '⚠️ Sin CVU'}\n"
+                            f"📝 Datos corregidos: _{texto}_"
+                        ),
+                        parse_mode="Markdown"
+                    )
+                except Exception:
+                    pass
             else:
                 await update.message.reply_text(
-                    f"⛔ *Sigue sin coincidir*\n❌ {motivo}\n\n"
-                    f"_Respondé este mensaje con los datos correctos._",
-                    parse_mode="Markdown"
+                    f"⛔ Sigue sin coincidir. Revisá los datos e intentá de nuevo respondiendo a este mensaje.",
                 )
             return
 
@@ -824,7 +847,6 @@ async def handle_text(update: Update, ctx: ContextTypes.DEFAULT_TYPE):
     if task:
         task.cancel()
 
-    await update.message.reply_text("🔍 Analizando comprobante con datos del pie...")
     await procesar_comprobante(
         pending["image_bytes"], pending["mime"], texto,
         chat_id, pending["nombre_g"], "grupo", ctx.bot, key_match[1]
