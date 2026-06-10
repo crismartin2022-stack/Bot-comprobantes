@@ -119,15 +119,21 @@ Analizá la imagen y respondé ÚNICAMENTE con un JSON válido sin backticks ni 
   "referencia": "número de referencia o vacío",
   "concepto": "concepto o vacío",
   "estado": "Exitoso / Pendiente / Rechazado",
-  "cvu_ultimos4": "últimos 4 dígitos del CVU/CBU del receptor. Si no está visible dejá VACÍO",
+  "cvu_ultimos4": "últimos 4 dígitos del CVU/CBU del RECEPTOR/DESTINATARIO. Buscarlo en: campo CVU, CBU, Cuenta Receptor, Cuenta Destino, Cuenta, número de cuenta del que RECIBE el dinero. Es un número largo de 22 dígitos — tomar los ÚLTIMOS 4. Si no se encuentra dejar VACÍO (nunca inventar)",
   "tiene_remitente": true o false según si el comprobante tiene datos del remitente visibles,
   "notas": "cualquier dato relevante adicional"
-}"""
+}
+IMPORTANTE: El CVU/CBU receptor puede aparecer con diferentes etiquetas según el banco:
+- Mercado Pago: campo 'CVU' bajo 'Para'
+- Billetera País: campo 'Cuenta Receptor'  
+- Banco tradicional: campo 'CBU destino' o 'Cuenta destino'
+- Naranja X, Ualá, etc: campo 'CVU' o 'Cuenta'
+Siempre buscar el número largo (22 dígitos) asociado al RECEPTOR y tomar los últimos 4."""
 
 async def analizar_imagen(image_bytes: bytes, mime: str) -> dict:
     b64 = base64.standard_b64encode(image_bytes).decode("utf-8")
     resp = claude.messages.create(
-        model="claude-sonnet-4-5",
+        model="claude-haiku-4-5-20251001",
         max_tokens=1000,
         system=SYSTEM_PROMPT,
         messages=[{"role": "user", "content": [
@@ -549,7 +555,43 @@ async def cmd_hoy(update: Update, ctx: ContextTypes.DEFAULT_TYPE):
     )
 
 async def cmd_resumen(update: Update, ctx: ContextTypes.DEFAULT_TYPE):
-    chat_id = update.effective_chat.id
+    chat_id    = update.effective_chat.id
+    es_privado = update.effective_chat.type == "private"
+
+    if es_privado:
+        # Mostrar resumen de TODOS los grupos
+        if not store:
+            await update.message.reply_text("📭 No hay grupos activos todavía.")
+            return
+        texto = "📊 *Resumen de todos los grupos*\n─────────────────────\n"
+        total_global = 0
+        total_comp   = 0
+        for cid, datos in store.items():
+            if datos.get("chat_id") == ADMIN_ID:
+                continue
+            regs = datos.get("registros", [])
+            errs = datos.get("errores",   [])
+            if not regs and not errs:
+                texto += f"📍 *{datos.get('nombre', cid)}*: sin comprobantes\n\n"
+                continue
+            total   = sum(float(r.get("monto") or 0) for r in regs)
+            sin_cvu = sum(1 for r in regs if not (r.get("cvu_ultimos4") or "").strip())
+            total_global += total
+            total_comp   += len(regs)
+            texto += (
+                f"📍 *{datos.get('nombre', cid)}*\n"
+                f"   ✅ Aceptados: {len(regs)}\n"
+                f"   ⛔ Rechazados: {len(errs)}\n"
+                f"   🔴 Sin CVU: {sin_cvu}\n"
+                f"   💰 Total: ${total:,.0f} ARS\n"
+                f"   📅 {datos.get('semana_actual','')}\n\n"
+            )
+        if total_comp > 0:
+            texto += f"─────────────────────\n💰 *TOTAL GLOBAL: ${total_global:,.0f} ARS* ({total_comp} comprobantes)"
+        await update.message.reply_text(texto, parse_mode="Markdown")
+        return
+
+    # Resumen del grupo actual
     datos = get_store(chat_id, get_nombre_grupo(update))
     regs = datos["registros"]
     errs = datos.get("errores", [])
