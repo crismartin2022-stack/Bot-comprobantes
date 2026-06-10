@@ -914,6 +914,19 @@ async def handle_text(update: Update, ctx: ContextTypes.DEFAULT_TYPE):
     )
 
 # ── Main ──────────────────────────────────────────────────────────────────────
+async def handle_any(update: Update, ctx: ContextTypes.DEFAULT_TYPE):
+    """Handler de respaldo — captura cualquier mensaje con foto no procesado."""
+    if not update.message:
+        return
+    msg = update.message
+    # Solo procesar si tiene foto o documento imagen y no fue procesado antes
+    tiene_foto = bool(msg.photo)
+    tiene_doc  = bool(msg.document and msg.document.mime_type and msg.document.mime_type.startswith("image/"))
+    if not tiene_foto and not tiene_doc:
+        return
+    log.info(f"handle_any capturó mensaje con foto — chat:{update.effective_chat.id} msg:{msg.message_id}")
+    await handle_photo(update, ctx)
+
 def main():
     cargar_store()
     app = Application.builder().token(TELEGRAM_TOKEN).build()
@@ -930,6 +943,8 @@ def main():
     app.add_handler(MessageHandler(filters.PHOTO,          handle_photo))
     app.add_handler(MessageHandler(filters.Document.IMAGE, handle_document))
     app.add_handler(MessageHandler(filters.TEXT & ~filters.COMMAND, handle_text))
+    # Handler genérico para capturar cualquier mensaje con foto (incluyendo reenvíos)
+    app.add_handler(MessageHandler(filters.ALL, handle_any))
 
     scheduler = AsyncIOScheduler(timezone="America/Argentina/Buenos_Aires")
     scheduler.add_job(tarea_resumen_diario, CronTrigger(hour=20, minute=0, timezone="America/Argentina/Buenos_Aires"), args=[app], id="resumen_diario")
