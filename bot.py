@@ -305,6 +305,20 @@ async def procesar_comprobante(image_bytes: bytes, mime: str, pie: str,
     resultado["_pie"] = pie or ""
 
     if coincide:
+        # Verificar duplicado
+        if es_duplicado(resultado, datos["registros"]):
+            resultado["_duplicado"] = True
+            datos.setdefault("duplicados", []).append(resultado)
+            guardar_store()
+            monto = resultado.get("monto")
+            monto_fmt = f"${float(monto):,.0f}" if monto else "—"
+            await bot.send_message(
+                chat_id=chat_id,
+                text=f"🔁 *Comprobante duplicado* — no se suma\n💰 {monto_fmt} | 👤 {resultado.get('remitente','—')}",
+                parse_mode="Markdown",
+                reply_to_message_id=chat_msg_id
+            )
+            return
         datos["registros"].append(resultado)
         guardar_store()
         # Notificar al admin por privado si falta CVU
@@ -648,21 +662,54 @@ async def callback_handler(update: Update, ctx: ContextTypes.DEFAULT_TYPE):
     elif data == "cancelar":
         await query.edit_message_text("❌ Cancelado.")
 
-async def handle_photo(update: Update, ctx: ContextTypes.DEFAULT_TYPE):
-    chat_id  = update.effective_chat.id
-    es_privado = update.effective_chat.type == "private"
-    caption  = (update.message.caption or "").strip()
+def es_duplicado(resultado: dict, registros: list) -> bool:
+    """Detecta si un comprobante ya fue procesado."""
+    ref_nuevo = (resultado.get("referencia") or "").strip()
+    fecha_nuevo = (resultado.get("fecha") or "").strip()
+    monto_nuevo = str(resultado.get("monto") or "").strip()
+    remitente_nuevo = normalizar(resultado.get("remitente") or "")
 
-    file = await ctx.bot.get_file(update.message.photo[-1].file_id)
-    async with httpx.AsyncClient() as client:
-        image_bytes = (await client.get(file.file_path)).content
+    for r in registros:
+        # Por número de referencia (más confiable)
+        ref = (r.get("referencia") or "").strip()
+        if ref and ref_nuevo and ref == ref_nuevo:
+            return True
+        # Por combinación fecha + monto + remitente
+        if (fecha_nuevo and monto_nuevo and remitente_nuevo and
+            r.get("fecha","").strip() == fecha_nuevo and
+            str(r.get("monto","")).strip() == monto_nuevo and
+            normalizar(r.get("remitente","")) == remitente_nuevo):
+            return True
+    return False
+
+async def obtener_imagen(update, ctx) -> tuple:
+    """Extrae imagen de cualquier tipo de mensaje (foto, documento, reenvío)."""
+    msg = update.message
+    if msg.photo:
+        file = await ctx.bot.get_file(msg.photo[-1].file_id)
+        async with httpx.AsyncClient() as client:
+            return (await client.get(file.file_path)).content, "image/jpeg"
+    elif msg.document and msg.document.mime_type and msg.document.mime_type.startswith("image/"):
+        file = await ctx.bot.get_file(msg.document.file_id)
+        async with httpx.AsyncClient() as client:
+            return (await client.get(file.file_path)).content, msg.document.mime_type
+    return None, None
+
+async def handle_photo(update: Update, ctx: ContextTypes.DEFAULT_TYPE):
+    chat_id    = update.effective_chat.id
+    es_privado = update.effective_chat.type == "private"
+    caption    = (update.message.caption or "").strip()
+
+    image_bytes, mime = await obtener_imagen(update, ctx)
+    if not image_bytes:
+        return
 
     if es_privado:
         grupos = grupos_disponibles()
         if not grupos:
             await update.message.reply_text("⚠️ No hay grupos activos todavía.")
             return
-        pendientes[update.effective_user.id] = {"image_bytes": image_bytes, "mime": "image/jpeg", "caption": caption}
+        pendientes[update.effective_user.id] = {"image_bytes": image_bytes, "mime": mime, "caption": caption}
         botones = [[InlineKeyboardButton(f"📍 {n}", callback_data=f"asignar_grupo_{cid}")] for cid, n in grupos]
         botones.append([InlineKeyboardButton("❌ Cancelar", callback_data="cancelar_privado")])
         await update.message.reply_text("*¿A qué grupo pertenece este comprobante?*",
@@ -673,12 +720,10 @@ async def handle_photo(update: Update, ctx: ContextTypes.DEFAULT_TYPE):
     msg_id   = update.message.message_id
 
     if caption:
-        # Caption incluido — procesar silenciosamente
-        await procesar_comprobante(image_bytes, "image/jpeg", caption, chat_id, nombre_g, "grupo", ctx.bot, msg_id)
+        await procesar_comprobante(image_bytes, mime, caption, chat_id, nombre_g, "grupo", ctx.bot, msg_id)
     else:
-        # Esperar texto del pie por 60 segundos — sin mensaje en el grupo
         key = (chat_id, msg_id)
-        esperando_pie[key] = {"image_bytes": image_bytes, "mime": "image/jpeg", "caption": "", "nombre_g": nombre_g}
+        esperando_pie[key] = {"image_bytes": image_bytes, "mime": mime, "caption": "", "nombre_g": nombre_g}
         task = asyncio.create_task(procesar_sin_pie(key, ctx.application))
         esperando_pie[key]["task"] = task
 
@@ -686,36 +731,8 @@ async def handle_document(update: Update, ctx: ContextTypes.DEFAULT_TYPE):
     doc = update.message.document
     if not doc or not doc.mime_type or not doc.mime_type.startswith("image/"):
         return
-    chat_id    = update.effective_chat.id
-    es_privado = update.effective_chat.type == "private"
-    caption    = (update.message.caption or "").strip()
-
-    file = await ctx.bot.get_file(doc.file_id)
-    async with httpx.AsyncClient() as client:
-        image_bytes = (await client.get(file.file_path)).content
-
-    if es_privado:
-        grupos = grupos_disponibles()
-        if not grupos:
-            await update.message.reply_text("⚠️ No hay grupos activos todavía.")
-            return
-        pendientes[update.effective_user.id] = {"image_bytes": image_bytes, "mime": doc.mime_type, "caption": caption}
-        botones = [[InlineKeyboardButton(f"📍 {n}", callback_data=f"asignar_grupo_{cid}")] for cid, n in grupos]
-        botones.append([InlineKeyboardButton("❌ Cancelar", callback_data="cancelar_privado")])
-        await update.message.reply_text("*¿A qué grupo pertenece este comprobante?*",
-            reply_markup=InlineKeyboardMarkup(botones), parse_mode="Markdown")
-        return
-
-    nombre_g = get_nombre_grupo(update)
-    msg_id = update.message.message_id
-    if caption:
-        await procesar_comprobante(image_bytes, doc.mime_type, caption, chat_id, nombre_g, "grupo", ctx.bot, msg_id)
-    else:
-        key = (chat_id, msg_id)
-        esperando_pie[key] = {"image_bytes": image_bytes, "mime": doc.mime_type, "caption": "", "nombre_g": nombre_g}
-        await update.message.reply_text("📎 Comprobante recibido. Esperando datos del pie... _(60 seg)_", parse_mode="Markdown")
-        task = asyncio.create_task(procesar_sin_pie(key, ctx.application))
-        esperando_pie[key]["task"] = task
+    # Reusar handle_photo ya que tiene la misma lógica
+    await handle_photo(update, ctx)
 
 async def handle_text(update: Update, ctx: ContextTypes.DEFAULT_TYPE):
     """Captura texto del pie, correcciones a rechazos, resúmenes de tanda y totales mensuales."""
@@ -752,21 +769,30 @@ async def handle_text(update: Update, ctx: ContextTypes.DEFAULT_TYPE):
         tickets_real = len(tanda)
         monto_real   = sum(float(r.get("monto") or 0) for r in tanda)
 
+        # Duplicados en esta tanda
+        duplicados_tanda = [r for r in datos.get("duplicados", [])
+                           if r.get("_fecha_carga","") >= (tanda[0].get("_fecha_carga","") if tanda else "")]
+
         # Actualizar índice de último resumen
         datos["ultimo_resumen_idx"] = len(registros)
+        # Limpiar duplicados ya reportados
+        datos["duplicados"] = []
 
         # Acumular al total mensual
         datos["total_mensual"] = datos.get("total_mensual", 0.0) + monto_real
+        guardar_store()
 
         # Comparar
         tickets_ok = tickets_msg is None or tickets_msg == tickets_real
         monto_ok   = monto_msg is None or abs(monto_msg - monto_real) < 1
 
+        dup_line = f"\n🔁 Duplicados ignorados: *{len(duplicados_tanda)}*" if duplicados_tanda else ""
+
         if tickets_ok and monto_ok:
             await update.message.reply_text(
                 f"✅ *Tanda verificada — todo coincide*\n"
                 f"🎫 Tickets: {tickets_real}\n"
-                f"💰 Monto: ${monto_real:,.0f} ARS",
+                f"💰 Monto: ${monto_real:,.0f} ARS{dup_line}",
                 parse_mode="Markdown"
             )
         else:
@@ -778,7 +804,7 @@ async def handle_text(update: Update, ctx: ContextTypes.DEFAULT_TYPE):
             await update.message.reply_text(
                 f"⚠️ *Tanda con diferencias*\n"
                 f"─────────────────────\n"
-                f"{diferencias}\n"
+                f"{diferencias}{dup_line}\n"
                 f"_Los datos correctos del bot son los indicados arriba._",
                 parse_mode="Markdown"
             )
