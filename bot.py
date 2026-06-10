@@ -33,10 +33,38 @@ claude         = anthropic.Anthropic(api_key=ANTHROPIC_KEY)
 # ── Storage ───────────────────────────────────────────────────────────────────
 store: dict = {}        # { chat_id_str: { nombre, semana_actual, registros, errores } }
 pendientes: dict = {}   # fotos privadas esperando asignación de grupo
-# Fotos en grupo esperando texto del pie: { (chat_id, msg_id): { image_bytes, mime, caption, task } }
 esperando_pie: dict = {}
-# { (chat_id, bot_msg_id): {"num": n, "chat_id": chat_id} } — para detectar respuestas a rechazos
 mensajes_rechazo: dict = {}
+
+DATA_FILE = "/data/store.json"  # Archivo persistente en Railway Volume
+
+def guardar_store():
+    """Guarda el store en disco."""
+    try:
+        os.makedirs(os.path.dirname(DATA_FILE), exist_ok=True)
+        # Limpiar datos no serializables (image_bytes, tasks)
+        store_limpio = {}
+        for cid, datos in store.items():
+            store_limpio[cid] = {k: v for k, v in datos.items()
+                                  if k not in ("_task",) and not isinstance(v, bytes)}
+        with open(DATA_FILE, "w", encoding="utf-8") as f:
+            json.dump(store_limpio, f, ensure_ascii=False, indent=2)
+    except Exception as e:
+        log.error(f"Error guardando store: {e}")
+
+def cargar_store():
+    """Carga el store desde disco al iniciar."""
+    global store
+    try:
+        if os.path.exists(DATA_FILE):
+            with open(DATA_FILE, "r", encoding="utf-8") as f:
+                store = json.load(f)
+            log.info(f"Store cargado: {len(store)} grupos")
+        else:
+            log.info("No hay store previo, iniciando vacío")
+    except Exception as e:
+        log.error(f"Error cargando store: {e}")
+        store = {}
 
 def get_store(chat_id: int, nom: str = "") -> dict:
     cid = str(chat_id)
@@ -47,10 +75,11 @@ def get_store(chat_id: int, nom: str = "") -> dict:
             "registros": [],
             "errores": [],
             "chat_id": chat_id,
-            "ultimo_resumen_idx": 0,   # índice del último comprobante incluido en resumen de tanda
-            "total_mensual": 0.0,      # acumulado del mes
+            "ultimo_resumen_idx": 0,
+            "total_mensual": 0.0,
             "mes_actual": datetime.now(ARG_TZ).strftime("%m/%Y"),
         }
+        guardar_store()
     if nom and store[cid]["nombre"] != nom:
         store[cid]["nombre"] = nom
     # Resetear total mensual si cambió el mes
@@ -277,6 +306,7 @@ async def procesar_comprobante(image_bytes: bytes, mime: str, pie: str,
 
     if coincide:
         datos["registros"].append(resultado)
+        guardar_store()
         # Notificar al admin por privado si falta CVU
         cvu = (resultado.get("cvu_ultimos4") or "").strip()
         if not cvu:
@@ -300,6 +330,7 @@ async def procesar_comprobante(image_bytes: bytes, mime: str, pie: str,
     else:
         resultado["_motivo_error"] = motivo
         datos["errores"].append(resultado)
+        guardar_store()
         monto = resultado.get("monto")
         monto_fmt = f"${float(monto):,.0f}" if monto else "—"
         texto_error = (
@@ -421,7 +452,9 @@ async def tarea_excel_semanal(app):
             except Exception as e:
                 log.error(f"Error Excel errores {cid}: {e}")
 
-        store[cid] = {"nombre": nombre, "semana_actual": semana_label(), "registros": [], "errores": [], "chat_id": int(cid)}
+        store[cid] = {"nombre": nombre, "semana_actual": semana_label(), "registros": [], "errores": [], "chat_id": int(cid),
+                      "ultimo_resumen_idx": 0, "total_mensual": datos.get("total_mensual", 0.0), "mes_actual": datos.get("mes_actual", "")}
+    guardar_store()
 
     try:
         await app.bot.send_message(chat_id=ADMIN_ID,
@@ -605,6 +638,7 @@ async def callback_handler(update: Update, ctx: ContextTypes.DEFAULT_TYPE):
         store[str(chat_id)] = {"nombre": n, "semana_actual": semana_label(), "registros": [],
                                 "errores": [], "chat_id": chat_id,
                                 "ultimo_resumen_idx": 0, "total_mensual": tm, "mes_actual": ma}
+        guardar_store()
         await query.edit_message_text("✅ Nueva semana iniciada.")
     elif data == "borrar_si":
         d = get_store(chat_id)
@@ -808,6 +842,7 @@ async def handle_text(update: Update, ctx: ContextTypes.DEFAULT_TYPE):
                     registro["remitente"] = texto
                 datos["registros"].append(registro)
                 del mensajes_rechazo[key_rechazo]
+                guardar_store()
 
                 monto_fmt = f"${float(registro.get('monto') or 0):,.0f}"
                 cvu = (registro.get("cvu_ultimos4") or "").strip()
@@ -854,6 +889,7 @@ async def handle_text(update: Update, ctx: ContextTypes.DEFAULT_TYPE):
 
 # ── Main ──────────────────────────────────────────────────────────────────────
 def main():
+    cargar_store()
     app = Application.builder().token(TELEGRAM_TOKEN).build()
 
     app.add_handler(CommandHandler("start",        cmd_start))
