@@ -151,37 +151,62 @@ def normalizar(texto: str) -> str:
     """Normaliza texto para comparación: minúsculas, sin espacios extra, sin puntos."""
     return " ".join(texto.lower().replace(".", "").replace("-", "").split())
 
+def extraer_partes(nombre: str) -> tuple[list, str]:
+    """Devuelve (lista_de_nombres, apellido) de un nombre completo normalizado."""
+    partes = normalizar(nombre).split()
+    if not partes:
+        return [], ""
+    apellido = partes[-1]
+    nombres  = partes[:-1]
+    return nombres, apellido
+
 def verificar_pie(resultado: dict, pie: str) -> tuple[bool, str]:
     """
-    Compara los datos del pie con los del comprobante.
-    Devuelve (coincide: bool, mensaje: str)
+    Acepta si el apellido coincide Y al menos uno de los nombres coincide.
+    También verifica CUIL/DNI si está presente en ambos.
     """
     if not pie:
         return True, ""
 
     pie_norm = normalizar(pie)
-    remitente = normalizar(resultado.get("remitente") or "")
+    remitente = resultado.get("remitente") or ""
     cuil = normalizar(resultado.get("remitente_cuil") or "")
 
-    # Si el comprobante no tiene datos del remitente, usamos el pie directamente
-    if not resultado.get("tiene_remitente") or not remitente:
+    if not resultado.get("tiene_remitente") or not remitente.strip():
         return True, "sin_datos_imagen"
 
-    # Verificar que el nombre del remitente esté en el pie
-    nombre_ok = remitente and remitente in pie_norm
-    # Verificar CUIL/DNI — extraer dígitos del cuil y del pie
+    nombres_comp, apellido_comp = extraer_partes(remitente)
+
+    # Verificar apellido
+    apellido_ok = bool(apellido_comp) and apellido_comp in pie_norm
+
+    # Verificar al menos un nombre
+    nombre_ok = any(n in pie_norm for n in nombres_comp) if nombres_comp else True
+
+    # Verificar CUIL/DNI si hay suficientes dígitos en ambos
     cuil_digits = "".join(filter(str.isdigit, cuil))
     pie_digits  = "".join(filter(str.isdigit, pie))
-    cuil_ok = not cuil_digits or (len(cuil_digits) >= 7 and cuil_digits in pie_digits)
-
-    if nombre_ok and cuil_ok:
-        return True, "coincide"
-    elif not nombre_ok and not cuil_ok:
-        return False, f"Nombre y CUIL no coinciden.\nComprobante: *{resultado.get('remitente','?')}* / *{resultado.get('remitente_cuil','?')}*\nPie: _{pie}_"
-    elif not nombre_ok:
-        return False, f"Nombre no coincide.\nComprobante: *{resultado.get('remitente','?')}*\nPie: _{pie}_"
+    if len(cuil_digits) >= 7 and len(pie_digits) >= 7:
+        cuil_ok = cuil_digits in pie_digits
     else:
-        return False, f"CUIL no coincide.\nComprobante: *{resultado.get('remitente_cuil','?')}*\nPie: _{pie}_"
+        cuil_ok = True
+
+    if apellido_ok and nombre_ok and cuil_ok:
+        return True, "coincide"
+
+    errores = []
+    if not apellido_ok:
+        errores.append(f"apellido *{apellido_comp}* no encontrado en el pie")
+    if not nombre_ok:
+        errores.append(f"ningún nombre de *{' '.join(nombres_comp)}* encontrado en el pie")
+    if not cuil_ok:
+        errores.append(f"documento *{resultado.get('remitente_cuil','?')}* no coincide")
+
+    return False, (
+        f"{'  |  '.join(errores)}\n"
+        f"Comprobante: *{remitente.strip()}*\n"
+        f"Pie: _{pie}_"
+    )
 
 # ── Generador de Excel ────────────────────────────────────────────────────────
 def generar_excel(registros: list, semana: str, nombre: str, es_errores: bool = False) -> BytesIO:
