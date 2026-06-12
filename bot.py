@@ -116,7 +116,7 @@ Analizá la imagen y respondé ÚNICAMENTE con un JSON válido sin backticks ni 
   "destinatario": "nombre completo del que recibe o vacío",
   "banco_origen": "banco origen o vacío",
   "banco_destino": "banco destino o vacío",
-  "referencia": "número de referencia o vacío",
+  "referencia": "identificador único de la transacción. Buscar en TODOS estos campos y tomar el primero que aparezca: 'Número de operación', 'N° operación', 'Id Op', 'ID operación', 'Coelsa ID', 'Código de identificación', 'ID transacción', 'Referencia', 'Comprobante N°', 'N° comprobante', 'Transaction ID', 'Nro. de transacción', 'Número de comprobante', 'Cod. operación', 'Número de seguimiento'. Es el código alfanumérico único que identifica esta transacción específica. SIEMPRE extraerlo si está visible.",
   "concepto": "concepto o vacío",
   "estado": "Exitoso / Pendiente / Rechazado",
   "cvu_ultimos4": "últimos 4 dígitos del CVU/CBU del RECEPTOR/DESTINATARIO. Buscarlo en: campo CVU, CBU, Cuenta Receptor, Cuenta Destino, Cuenta, número de cuenta del que RECIBE el dinero. Es un número largo de 22 dígitos — tomar los ÚLTIMOS 4. Si no se encuentra dejar VACÍO (nunca inventar)",
@@ -151,6 +151,36 @@ def normalizar(texto: str) -> str:
     """Normaliza texto para comparación: minúsculas, sin espacios extra, sin puntos."""
     return " ".join(texto.lower().replace(".", "").replace("-", "").split())
 
+def similitud(a: str, b: str) -> float:
+    """Calcula similitud entre dos strings (0 a 1). Usa distancia de edición simple."""
+    if not a or not b:
+        return 0.0
+    a, b = a.lower(), b.lower()
+    if a == b:
+        return 1.0
+    # Distancia de Levenshtein simplificada
+    la, lb = len(a), len(b)
+    if abs(la - lb) > max(la, lb) * 0.5:
+        return 0.0
+    dp = list(range(lb + 1))
+    for i, ca in enumerate(a):
+        nuevo = [i + 1]
+        for j, cb in enumerate(b):
+            nuevo.append(min(dp[j] + (0 if ca == cb else 1), dp[j+1] + 1, nuevo[j] + 1))
+        dp = nuevo
+    distancia = dp[lb]
+    return 1 - distancia / max(la, lb)
+
+def palabra_en_texto(palabra: str, texto: str, umbral: float = 0.82) -> bool:
+    """Verifica si una palabra está en el texto con tolerancia a errores de tipeo."""
+    if palabra in texto:
+        return True
+    # Buscar palabra similar en cada palabra del texto
+    for w in texto.split():
+        if similitud(palabra, w) >= umbral:
+            return True
+    return False
+
 def extraer_partes(nombre: str) -> tuple[list, str]:
     """Devuelve (lista_de_nombres, apellido) de un nombre completo normalizado."""
     partes = normalizar(nombre).split()
@@ -162,51 +192,20 @@ def extraer_partes(nombre: str) -> tuple[list, str]:
 
 def verificar_pie(resultado: dict, pie: str) -> tuple[bool, str]:
     """
-    Acepta si el apellido coincide Y al menos uno de los nombres coincide.
-    También verifica CUIL/DNI si está presente en ambos.
+    El pie siempre es la fuente correcta del titular.
+    Solo rechaza si el ID de operación está repetido (manejado en es_duplicado).
+    Si hay pie, acepta y usa esos datos. Si no hay pie, acepta igual.
+    Hace una comparación informativa entre imagen y pie pero NO rechaza por diferencia de nombres.
     """
     if not pie:
         return True, ""
 
-    pie_norm = normalizar(pie)
-    remitente = resultado.get("remitente") or ""
-    cuil = normalizar(resultado.get("remitente_cuil") or "")
-
-    if not resultado.get("tiene_remitente") or not remitente.strip():
+    # Si no hay datos del remitente en la imagen, usar el pie directamente
+    if not resultado.get("tiene_remitente") or not (resultado.get("remitente") or "").strip():
         return True, "sin_datos_imagen"
 
-    nombres_comp, apellido_comp = extraer_partes(remitente)
-
-    # Verificar apellido
-    apellido_ok = bool(apellido_comp) and apellido_comp in pie_norm
-
-    # Verificar al menos un nombre
-    nombre_ok = any(n in pie_norm for n in nombres_comp) if nombres_comp else True
-
-    # Verificar CUIL/DNI si hay suficientes dígitos en ambos
-    cuil_digits = "".join(filter(str.isdigit, cuil))
-    pie_digits  = "".join(filter(str.isdigit, pie))
-    if len(cuil_digits) >= 7 and len(pie_digits) >= 7:
-        cuil_ok = cuil_digits in pie_digits
-    else:
-        cuil_ok = True
-
-    if apellido_ok and nombre_ok and cuil_ok:
-        return True, "coincide"
-
-    errores = []
-    if not apellido_ok:
-        errores.append(f"apellido *{apellido_comp}* no encontrado en el pie")
-    if not nombre_ok:
-        errores.append(f"ningún nombre de *{' '.join(nombres_comp)}* encontrado en el pie")
-    if not cuil_ok:
-        errores.append(f"documento *{resultado.get('remitente_cuil','?')}* no coincide")
-
-    return False, (
-        f"{'  |  '.join(errores)}\n"
-        f"Comprobante: *{remitente.strip()}*\n"
-        f"Pie: _{pie}_"
-    )
+    # Hay datos en imagen y pie — comparar informativamente pero siempre aceptar
+    return True, "coincide"
 
 # ── Generador de Excel ────────────────────────────────────────────────────────
 def generar_excel(registros: list, semana: str, nombre: str, es_errores: bool = False) -> BytesIO:
@@ -730,22 +729,19 @@ async def callback_handler(update: Update, ctx: ContextTypes.DEFAULT_TYPE):
         await query.edit_message_text("❌ Cancelado.")
 
 def es_duplicado(resultado: dict, registros: list) -> bool:
-    """Detecta si un comprobante ya fue procesado."""
+    """Detecta duplicados SOLO por número de operación/ID único.
+    Si no hay ID, acepta el comprobante directamente.
+    """
     ref_nuevo = (resultado.get("referencia") or "").strip()
-    fecha_nuevo = (resultado.get("fecha") or "").strip()
-    monto_nuevo = str(resultado.get("monto") or "").strip()
-    remitente_nuevo = normalizar(resultado.get("remitente") or "")
 
+    # Sin ID de operación → no se puede verificar duplicado → aceptar
+    if not ref_nuevo:
+        return False
+
+    # Comparar contra todos los registros existentes
     for r in registros:
-        # Por número de referencia (más confiable)
         ref = (r.get("referencia") or "").strip()
-        if ref and ref_nuevo and ref == ref_nuevo:
-            return True
-        # Por combinación fecha + monto + remitente
-        if (fecha_nuevo and monto_nuevo and remitente_nuevo and
-            r.get("fecha","").strip() == fecha_nuevo and
-            str(r.get("monto","")).strip() == monto_nuevo and
-            normalizar(r.get("remitente","")) == remitente_nuevo):
+        if ref and ref == ref_nuevo:
             return True
     return False
 
