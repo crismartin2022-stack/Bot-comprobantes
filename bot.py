@@ -702,12 +702,24 @@ async def cmd_excel(update: Update, ctx: ContextTypes.DEFAULT_TYPE):
             return registros
         resultado = []
         for r in registros:
+            incluir = False
+            # Intentar por fecha del ticket
             try:
                 f = datetime.strptime(r.get("fecha", ""), "%d/%m/%Y").date()
                 if fecha_desde <= f <= fecha_hasta:
-                    resultado.append(r)
+                    incluir = True
             except Exception:
                 pass
+            # Si no matchea, intentar por fecha de carga (cuando el bot lo procesó)
+            if not incluir:
+                try:
+                    fc = datetime.strptime(r.get("_fecha_carga", "")[:10], "%d/%m/%Y").date()
+                    if fecha_desde <= fc <= fecha_hasta:
+                        incluir = True
+                except Exception:
+                    pass
+            if incluir:
+                resultado.append(r)
         return resultado
 
     fecha_archivo = now_arg().strftime("%Y%m%d_%H%M")
