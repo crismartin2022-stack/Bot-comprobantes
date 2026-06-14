@@ -208,10 +208,10 @@ def verificar_pie(resultado: dict, pie: str) -> tuple[bool, str]:
     return True, "coincide"
 
 # ── Generador de Excel ────────────────────────────────────────────────────────
-def generar_excel(registros: list, semana: str, nombre: str, es_errores: bool = False) -> BytesIO:
+def generar_excel(registros: list, semana: str, nombre: str, es_errores: bool = False, duplicados: list = None) -> BytesIO:
     wb = Workbook()
     ws = wb.active
-    ws.title = "Errores" if es_errores else "Comprobantes"
+    ws.title = "Rechazados" if es_errores else "Comprobantes"
 
     header_fill  = PatternFill("solid", fgColor="8B0000" if es_errores else "4B0082")
     error_fill   = PatternFill("solid", fgColor="FF4444")
@@ -222,7 +222,7 @@ def generar_excel(registros: list, semana: str, nombre: str, es_errores: bool = 
 
     if es_errores:
         headers    = ["#", "GRUPO", "FECHA", "TIPO", "TITULAR CTA", "REMITENTE COMPROBANTE",
-                      "REMITENTE PIE", "MONTO", "CUENTA (CVU)", "MOTIVO ERROR", "Fecha Carga"]
+                      "REMITENTE PIE", "MONTO", "CUENTA (CVU)", "MOTIVO", "Fecha Carga"]
         col_widths = [4, 20, 13, 10, 28, 28, 28, 14, 14, 40, 16]
     else:
         headers    = ["#", "GRUPO", "FECHA DE ENVIO", "TRF O DEPOSITO", "TITULAR DE LA CTA",
@@ -287,6 +287,44 @@ def generar_excel(registros: list, semana: str, nombre: str, es_errores: bool = 
 
     ws.freeze_panes = "A2"
     ws.auto_filter.ref = f"A1:{get_column_letter(len(headers))}1"
+
+    # Hoja de duplicados (en archivo de rechazados)
+    if es_errores and duplicados:
+        ws_dup = wb.create_sheet("Duplicados")
+        dup_headers    = ["#", "FECHA", "HORA", "REMITENTE", "MONTO", "REFERENCIA", "Fecha Carga"]
+        dup_col_widths = [4, 13, 10, 30, 14, 35, 16]
+        dup_fill = PatternFill("solid", fgColor="FF6600")
+        for col, (h, w) in enumerate(zip(dup_headers, dup_col_widths), 1):
+            cell = ws_dup.cell(row=1, column=col, value=h)
+            cell.font = header_font
+            cell.fill = dup_fill
+            cell.alignment = Alignment(horizontal="center", vertical="center")
+            cell.border = border
+            ws_dup.column_dimensions[get_column_letter(col)].width = w
+        for i, r in enumerate(duplicados, 2):
+            fila_dup = [
+                i - 1,
+                r.get("fecha", ""),
+                r.get("hora", ""),
+                r.get("remitente", ""),
+                r.get("monto", ""),
+                r.get("referencia", ""),
+                r.get("_fecha_carga", ""),
+            ]
+            for col, val in enumerate(fila_dup, 1):
+                cell = ws_dup.cell(row=i, column=col, value=val)
+                cell.border = border
+                cell.alignment = Alignment(vertical="center")
+        ws_dup.freeze_panes = "A2"
+
+    # Hoja resumen
+    ws2 = wb.create_sheet("Resumen")
+    for col, h in enumerate(["Grupo", "Semana", "Comprobantes", "Con CVU", "Sin CVU", "Total ARS"], 1):
+        cell = ws2.cell(row=1, column=col, value=h)
+        cell.font = Font(bold=True, color="FFFFFF")
+        cell.fill = header_fill
+    total = sum(float(r.get("monto") or 0) for r in registros)
+    ws2.append([nombre, semana, len(registros), len(registros) - sin_cvu, sin_cvu, total])
 
     buf = BytesIO()
     wb.save(buf)
@@ -484,12 +522,13 @@ async def tarea_excel_semanal(app):
             except Exception as e:
                 log.error(f"Error Excel normal {cid}: {e}")
 
-        # Excel errores
-        if errores:
+        # Excel errores + duplicados
+        if errores or datos.get("duplicados"):
             try:
-                buf_err = generar_excel(errores, semana, nombre, es_errores=True)
-                nombre_err = f"ERRORES_{nombre.replace(' ','_')}_{fecha}.xlsx"
-                caption_err = f"⛔ *Errores — {nombre}*\n📅 {semana} | {len(errores)} comprobantes rechazados"
+                dups = datos.get("duplicados", [])
+                buf_err = generar_excel(errores, semana, nombre, es_errores=True, duplicados=dups)
+                nombre_err  = f"Rechazados_{nombre.replace(' ','_')}_{fecha}.xlsx"
+                caption_err = f"⛔ *Rechazados — {nombre}*\n📅 {semana} | {len(errores)} rechazados | 🔁 {len(dups)} duplicados"
                 await app.bot.send_document(chat_id=int(cid), document=buf_err, filename=nombre_err, caption=caption_err, parse_mode="Markdown")
                 buf_err.seek(0)
                 await app.bot.send_document(chat_id=ADMIN_ID, document=buf_err, filename=nombre_err, caption=f"📎 {caption_err}", parse_mode="Markdown")
@@ -632,27 +671,113 @@ async def cmd_resumen(update: Update, ctx: ContextTypes.DEFAULT_TYPE):
     )
 
 async def cmd_excel(update: Update, ctx: ContextTypes.DEFAULT_TYPE):
-    chat_id = update.effective_chat.id
-    datos = get_store(chat_id, get_nombre_grupo(update))
-    msg = await update.message.reply_text("⏳ Generando Excel...")
-    fecha = now_arg().strftime("%Y%m%d")
+    chat_id    = update.effective_chat.id
+    es_privado = update.effective_chat.type == "private"
+    args       = ctx.args or []
+
+    # Parsear fechas si se pasan como argumentos: /excel 01/06/2026 12/06/2026
+    fecha_desde = None
+    fecha_hasta = None
+    label_fechas = ""
+    if len(args) >= 2:
+        try:
+            fecha_desde = datetime.strptime(args[0], "%d/%m/%Y").date()
+            fecha_hasta = datetime.strptime(args[1], "%d/%m/%Y").date()
+            label_fechas = f" ({args[0]} → {args[1]})"
+        except ValueError:
+            await update.message.reply_text(
+                "⚠️ Formato incorrecto. Usá: `/excel DD/MM/YYYY DD/MM/YYYY`\nEjemplo: `/excel 01/06/2026 12/06/2026`",
+                parse_mode="Markdown"
+            )
+            return
+    elif len(args) == 1:
+        await update.message.reply_text(
+            "⚠️ Falta la fecha hasta. Usá: `/excel DD/MM/YYYY DD/MM/YYYY`",
+            parse_mode="Markdown"
+        )
+        return
+
+    def filtrar_por_fecha(registros: list) -> list:
+        if not fecha_desde or not fecha_hasta:
+            return registros
+        resultado = []
+        for r in registros:
+            try:
+                f = datetime.strptime(r.get("fecha", ""), "%d/%m/%Y").date()
+                if fecha_desde <= f <= fecha_hasta:
+                    resultado.append(r)
+            except Exception:
+                pass
+        return resultado
+
+    fecha_archivo = now_arg().strftime("%Y%m%d_%H%M")
+
+    if es_privado:
+        enviados = 0
+        for cid, datos in store.items():
+            if datos.get("chat_id") == ADMIN_ID:
+                continue
+            nombre    = datos.get("nombre", cid)
+            registros = filtrar_por_fecha(datos.get("registros", []))
+            errores   = filtrar_por_fecha(datos.get("errores",   []))
+            duplicados = filtrar_por_fecha(datos.get("duplicados", []))
+
+            if registros:
+                buf = generar_excel(registros, datos["semana_actual"], nombre)
+                total = sum(float(r.get("monto") or 0) for r in registros)
+                await update.message.reply_document(
+                    document=buf,
+                    filename=f"Aprobados_{nombre.replace(' ','_')}_{fecha_archivo}.xlsx",
+                    caption=f"✅ *{nombre}*{label_fechas}\n{len(registros)} aprobados | ${total:,.0f} ARS",
+                    parse_mode="Markdown"
+                )
+                enviados += 1
+
+            if errores or duplicados:
+                buf_err = generar_excel(errores, datos["semana_actual"], nombre, es_errores=True, duplicados=duplicados)
+                await update.message.reply_document(
+                    document=buf_err,
+                    filename=f"Rechazados_{nombre.replace(' ','_')}_{fecha_archivo}.xlsx",
+                    caption=f"⛔ *{nombre}*{label_fechas}\n{len(errores)} rechazados | 🔁 {len(duplicados)} duplicados",
+                    parse_mode="Markdown"
+                )
+                enviados += 1
+
+        if not enviados:
+            await update.message.reply_text(f"📭 No hay comprobantes{label_fechas}.")
+        return
+
+    # Desde el grupo
+    datos  = get_store(chat_id, get_nombre_grupo(update))
+    nombre = datos.get("nombre", "Grupo")
+    registros  = filtrar_por_fecha(datos.get("registros",  []))
+    errores    = filtrar_por_fecha(datos.get("errores",    []))
+    duplicados = filtrar_por_fecha(datos.get("duplicados", []))
     enviados = 0
-    if datos["registros"]:
-        buf = generar_excel(datos["registros"], datos["semana_actual"], datos["nombre"])
-        await update.message.reply_document(document=buf,
-            filename=f"Comprobantes_{datos['nombre'].replace(' ','_')}_{fecha}.xlsx",
-            caption=f"📊 *{datos['nombre']}* — {len(datos['registros'])} comprobantes", parse_mode="Markdown")
+
+    if registros:
+        buf = generar_excel(registros, datos["semana_actual"], nombre)
+        total = sum(float(r.get("monto") or 0) for r in registros)
+        await update.message.reply_document(
+            document=buf,
+            filename=f"Aprobados_{nombre.replace(' ','_')}_{fecha_archivo}.xlsx",
+            caption=f"✅ *{nombre}*{label_fechas}\n{len(registros)} aprobados | ${total:,.0f} ARS",
+            parse_mode="Markdown"
+        )
         enviados += 1
-    if datos.get("errores"):
-        buf_err = generar_excel(datos["errores"], datos["semana_actual"], datos["nombre"], es_errores=True)
-        await update.message.reply_document(document=buf_err,
-            filename=f"ERRORES_{datos['nombre'].replace(' ','_')}_{fecha}.xlsx",
-            caption=f"⛔ *Errores — {datos['nombre']}* — {len(datos['errores'])} rechazados", parse_mode="Markdown")
+
+    if errores or duplicados:
+        buf_err = generar_excel(errores, datos["semana_actual"], nombre, es_errores=True, duplicados=duplicados)
+        await update.message.reply_document(
+            document=buf_err,
+            filename=f"Rechazados_{nombre.replace(' ','_')}_{fecha_archivo}.xlsx",
+            caption=f"⛔ *{nombre}*{label_fechas}\n{len(errores)} rechazados | 🔁 {len(duplicados)} duplicados",
+            parse_mode="Markdown"
+        )
         enviados += 1
+
     if not enviados:
-        await msg.edit_text("📭 No hay comprobantes para exportar.")
-    else:
-        await msg.delete()
+        await update.message.reply_text(f"📭 No hay comprobantes{label_fechas}.")
 
 async def cmd_nueva_semana(update: Update, ctx: ContextTypes.DEFAULT_TYPE):
     kb = [[InlineKeyboardButton("✅ Sí", callback_data="nueva_semana_si"),
