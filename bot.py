@@ -36,34 +36,61 @@ pendientes: dict = {}   # fotos privadas esperando asignación de grupo
 esperando_pie: dict = {}
 mensajes_rechazo: dict = {}
 
-DATA_FILE = "/app/store.json"  # Guardado en carpeta de la app
+# GitHub como storage persistente
+GITHUB_TOKEN = os.environ.get("GITHUB_TOKEN", "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")
+GITHUB_REPO  = "crismartin2022-stack/Bot-comprobantes"
+GITHUB_FILE  = "store.json"
+GITHUB_API   = f"https://api.github.com/repos/{GITHUB_REPO}/contents/{GITHUB_FILE}"
+GITHUB_HEADERS = {
+    "Authorization": f"token {GITHUB_TOKEN}",
+    "Accept": "application/vnd.github.v3+json",
+}
 
 def guardar_store():
-    """Guarda el store en disco."""
+    """Guarda el store en GitHub."""
     try:
-        os.makedirs(os.path.dirname(DATA_FILE), exist_ok=True)
-        # Limpiar datos no serializables (image_bytes, tasks)
         store_limpio = {}
         for cid, datos in store.items():
             store_limpio[cid] = {k: v for k, v in datos.items()
                                   if k not in ("_task",) and not isinstance(v, bytes)}
-        with open(DATA_FILE, "w", encoding="utf-8") as f:
-            json.dump(store_limpio, f, ensure_ascii=False, indent=2)
+        contenido = json.dumps(store_limpio, ensure_ascii=False, indent=2)
+        b64 = base64.b64encode(contenido.encode("utf-8")).decode("utf-8")
+
+        # Obtener SHA del archivo actual (necesario para actualizarlo)
+        r = httpx.get(GITHUB_API, headers=GITHUB_HEADERS, timeout=10)
+        sha = r.json().get("sha") if r.status_code == 200 else None
+
+        payload = {
+            "message": f"update store {now_arg().strftime('%d/%m/%Y %H:%M')}",
+            "content": b64,
+        }
+        if sha:
+            payload["sha"] = sha
+
+        resp = httpx.put(GITHUB_API, headers=GITHUB_HEADERS, json=payload, timeout=15)
+        if resp.status_code in (200, 201):
+            log.info("Store guardado en GitHub ✅")
+        else:
+            log.error(f"Error guardando en GitHub: {resp.status_code} {resp.text[:200]}")
     except Exception as e:
-        log.error(f"Error guardando store: {e}")
+        log.error(f"Error guardando store en GitHub: {e}")
 
 def cargar_store():
-    """Carga el store desde disco al iniciar."""
+    """Carga el store desde GitHub al iniciar."""
     global store
     try:
-        if os.path.exists(DATA_FILE):
-            with open(DATA_FILE, "r", encoding="utf-8") as f:
-                store = json.load(f)
-            log.info(f"Store cargado: {len(store)} grupos")
+        r = httpx.get(GITHUB_API, headers=GITHUB_HEADERS, timeout=10)
+        if r.status_code == 200:
+            contenido_b64 = r.json().get("content", "")
+            contenido = base64.b64decode(contenido_b64).decode("utf-8")
+            store = json.loads(contenido)
+            total = sum(len(d.get("registros", [])) for d in store.values())
+            log.info(f"Store cargado desde GitHub: {len(store)} grupos, {total} registros ✅")
         else:
-            log.info("No hay store previo, iniciando vacío")
+            log.info("No hay store en GitHub, iniciando vacío")
+            store = {}
     except Exception as e:
-        log.error(f"Error cargando store: {e}")
+        log.error(f"Error cargando store desde GitHub: {e}")
         store = {}
 
 def get_store(chat_id: int, nom: str = "") -> dict:
