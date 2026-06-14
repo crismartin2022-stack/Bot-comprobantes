@@ -1,8 +1,31 @@
 {
   "-1003915416039": {
-    "nombre": "Grupo -1003915416039",
+    "nombre": "3Pagos Arg Comp.",
     "semana_actual": "Semana 14/06/2026",
-    "registros": [],
+    "registros": [
+      {
+        "fecha": "12/06/2026",
+        "hora": "19:11",
+        "tipo": "TRF",
+        "monto": 650000.0,
+        "moneda": "ARS",
+        "remitente": "Sercob SA",
+        "remitente_cuil": "30-70828227-4",
+        "destinatario": "Miguel Americo Gaudioso",
+        "banco_origen": "Billetera País",
+        "banco_destino": "Billetera País",
+        "referencia": "JMQKYZ9QQ0VDPEQQ9V50P3",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "2084",
+        "tiene_remitente": true,
+        "notas": "Cuenta Emisor: 0000133100000000588564. Cuenta Receptor: 01403030703694953722084. CUIT Receptor: 20-12200973-5.",
+        "_num": 1,
+        "_fecha_carga": "14/06/2026 02:37",
+        "_origen": "grupo",
+        "_pie": ""
+      }
+    ],
     "errores": [],
     "chat_id": -1003915416039,
     "ultimo_resumen_idx": 0,
