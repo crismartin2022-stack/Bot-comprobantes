@@ -47,7 +47,12 @@ GITHUB_HEADERS = {
 }
 
 def guardar_store():
-    """Guarda el store en GitHub."""
+    """Guarda el store en GitHub de forma asíncrona."""
+    import threading
+    threading.Thread(target=_guardar_store_sync, daemon=True).start()
+
+def _guardar_store_sync():
+    """Versión síncrona para ejecutar en thread."""
     try:
         store_limpio = {}
         for cid, datos in store.items():
@@ -56,12 +61,11 @@ def guardar_store():
         contenido = json.dumps(store_limpio, ensure_ascii=False, indent=2)
         b64 = base64.b64encode(contenido.encode("utf-8")).decode("utf-8")
 
-        # Obtener SHA del archivo actual (necesario para actualizarlo)
         r = httpx.get(GITHUB_API, headers=GITHUB_HEADERS, timeout=10)
         sha = r.json().get("sha") if r.status_code == 200 else None
 
         payload = {
-            "message": f"update store {now_arg().strftime('%d/%m/%Y %H:%M')}",
+            "message": f"update store {datetime.now().strftime('%d/%m/%Y %H:%M')}",
             "content": b64,
         }
         if sha:
@@ -71,9 +75,9 @@ def guardar_store():
         if resp.status_code in (200, 201):
             log.info("Store guardado en GitHub ✅")
         else:
-            log.error(f"Error guardando en GitHub: {resp.status_code} {resp.text[:200]}")
+            log.error(f"Error GitHub: {resp.status_code}")
     except Exception as e:
-        log.error(f"Error guardando store en GitHub: {e}")
+        log.error(f"Error guardando en GitHub: {e}")
 
 def cargar_store():
     """Carga el store desde GitHub al iniciar."""
