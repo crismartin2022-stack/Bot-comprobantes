@@ -37,7 +37,7 @@ esperando_pie: dict = {}
 mensajes_rechazo: dict = {}
 
 # GitHub como storage persistente
-GITHUB_TOKEN = os.environ.get("GITHUB_TOKEN", "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")
+GITHUB_TOKEN = os.environ.get("GITHUB_TOKEN", "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")
 GITHUB_REPO  = "crismartin2022-stack/Bot-comprobantes"
 GITHUB_FILE  = "store.json"
 GITHUB_API   = f"https://api.github.com/repos/{GITHUB_REPO}/contents/{GITHUB_FILE}"
@@ -61,7 +61,9 @@ def _guardar_store_sync():
         contenido = json.dumps(store_limpio, ensure_ascii=False, indent=2)
         b64 = base64.b64encode(contenido.encode("utf-8")).decode("utf-8")
 
+        # Obtener SHA
         r = httpx.get(GITHUB_API, headers=GITHUB_HEADERS, timeout=10)
+        log.info(f"GitHub GET status: {r.status_code}")
         sha = r.json().get("sha") if r.status_code == 200 else None
 
         payload = {
@@ -72,10 +74,11 @@ def _guardar_store_sync():
             payload["sha"] = sha
 
         resp = httpx.put(GITHUB_API, headers=GITHUB_HEADERS, json=payload, timeout=15)
+        log.info(f"GitHub PUT status: {resp.status_code} — {resp.text[:300]}")
         if resp.status_code in (200, 201):
             log.info("Store guardado en GitHub ✅")
         else:
-            log.error(f"Error GitHub: {resp.status_code}")
+            log.error(f"Error GitHub PUT: {resp.status_code} {resp.text[:300]}")
     except Exception as e:
         log.error(f"Error guardando en GitHub: {e}")
 
