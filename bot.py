@@ -36,7 +36,7 @@ pendientes: dict = {}   # fotos privadas esperando asignación de grupo
 esperando_pie: dict = {}
 mensajes_rechazo: dict = {}
 
-DATA_FILE = "/data/store.json"  # Archivo persistente en Railway Volume
+DATA_FILE = "/app/store.json"  # Guardado en carpeta de la app
 
 def guardar_store():
     """Guarda el store en disco."""
@@ -452,6 +452,33 @@ async def procesar_sin_pie(key, app):
     )
 
 # ── Tareas programadas ────────────────────────────────────────────────────────
+async def tarea_excel_backup(app):
+    """19:50 Argentina — manda Excel del día al admin como respaldo."""
+    ahora = now_arg()
+    fecha = ahora.strftime("%Y%m%d_%H%M")
+    enviados = 0
+    for cid, datos in store.items():
+        if datos.get("chat_id") == ADMIN_ID:
+            continue
+        registros = datos.get("registros", [])
+        if not registros:
+            continue
+        nombre = datos.get("nombre", cid)
+        try:
+            buf = generar_excel(registros, datos["semana_actual"], nombre)
+            await app.bot.send_document(
+                chat_id=ADMIN_ID,
+                document=buf,
+                filename=f"Backup_{nombre.replace(' ','_')}_{fecha}.xlsx",
+                caption=f"💾 *Respaldo diario — {nombre}*\n📄 {len(registros)} comprobantes | 💰 ${sum(float(r.get('monto') or 0) for r in registros):,.0f} ARS",
+                parse_mode="Markdown"
+            )
+            enviados += 1
+        except Exception as e:
+            log.error(f"Error backup Excel {cid}: {e}")
+    if enviados:
+        log.info(f"Backup Excel enviado: {enviados} grupos")
+
 async def tarea_resumen_diario(app):
     fecha_hoy = now_arg().strftime("%d/%m/%Y")
     texto = f"📊 *Resumen diario — {fecha_hoy}*\n\n"
@@ -1149,6 +1176,8 @@ def main():
     scheduler = AsyncIOScheduler(timezone="America/Argentina/Buenos_Aires")
     scheduler.add_job(tarea_resumen_diario, CronTrigger(hour=20, minute=0, timezone="America/Argentina/Buenos_Aires"), args=[app], id="resumen_diario")
     scheduler.add_job(tarea_excel_semanal,  CronTrigger(day_of_week="thu", hour=21, minute=0, timezone="America/Argentina/Buenos_Aires"), args=[app], id="excel_semanal")
+    # Respaldo diario del Excel al admin a las 19:50 (antes del resumen)
+    scheduler.add_job(tarea_excel_backup, CronTrigger(hour=19, minute=50, timezone="America/Argentina/Buenos_Aires"), args=[app], id="excel_backup")
     scheduler.start()
 
     log.info("🤖 Bot iniciado con verificación de pie")
