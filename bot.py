@@ -31,12 +31,12 @@ ARG_TZ         = timezone(timedelta(hours=-3))
 claude         = anthropic.Anthropic(api_key=ANTHROPIC_KEY)
 
 # ── Storage ───────────────────────────────────────────────────────────────────
-store: dict = {}        # { chat_id_str: { nombre, semana_actual, registros, errores } }
-pendientes: dict = {}   # fotos privadas esperando asignación de grupo
+store: dict = {}
+pendientes: dict = {}
 esperando_pie: dict = {}
 mensajes_rechazo: dict = {}
 
-# GitHub como storage persistente
+DATA_FILE    = "/data/store.json"       # Volume de Railway (persistente)
 GITHUB_TOKEN = os.environ.get("GITHUB_TOKEN", "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")
 GITHUB_REPO  = "crismartin2022-stack/Bot-comprobantes"
 GITHUB_FILE  = "store.json"
@@ -47,44 +47,54 @@ GITHUB_HEADERS = {
 }
 
 def guardar_store():
-    """Guarda el store en GitHub de forma asíncrona."""
-    import threading
-    threading.Thread(target=_guardar_store_sync, daemon=True).start()
-
-def _guardar_store_sync():
-    """Versión síncrona para ejecutar en thread."""
+    """Guarda el store en disco (Railway Volume) y en GitHub como respaldo."""
     try:
+        os.makedirs(os.path.dirname(DATA_FILE), exist_ok=True)
         store_limpio = {}
         for cid, datos in store.items():
             store_limpio[cid] = {k: v for k, v in datos.items()
                                   if k not in ("_task",) and not isinstance(v, bytes)}
+        with open(DATA_FILE, "w", encoding="utf-8") as f:
+            json.dump(store_limpio, f, ensure_ascii=False, indent=2)
+        log.info("Store guardado en Volume ✅")
+        # Respaldo en GitHub en thread separado
+        import threading
+        threading.Thread(target=_guardar_github_sync, args=(store_limpio,), daemon=True).start()
+    except Exception as e:
+        log.error(f"Error guardando store: {e}")
+
+def _guardar_github_sync(store_limpio: dict):
+    """Respaldo asíncrono en GitHub."""
+    try:
         contenido = json.dumps(store_limpio, ensure_ascii=False, indent=2)
         b64 = base64.b64encode(contenido.encode("utf-8")).decode("utf-8")
-
-        # Obtener SHA
         r = httpx.get(GITHUB_API, headers=GITHUB_HEADERS, timeout=10)
-        log.info(f"GitHub GET status: {r.status_code}")
         sha = r.json().get("sha") if r.status_code == 200 else None
-
-        payload = {
-            "message": f"update store {datetime.now().strftime('%d/%m/%Y %H:%M')}",
-            "content": b64,
-        }
+        payload = {"message": f"backup {datetime.now().strftime('%d/%m/%Y %H:%M')}", "content": b64}
         if sha:
             payload["sha"] = sha
-
         resp = httpx.put(GITHUB_API, headers=GITHUB_HEADERS, json=payload, timeout=15)
-        log.info(f"GitHub PUT status: {resp.status_code} — {resp.text[:300]}")
         if resp.status_code in (200, 201):
-            log.info("Store guardado en GitHub ✅")
+            log.info("Respaldo GitHub ✅")
         else:
-            log.error(f"Error GitHub PUT: {resp.status_code} {resp.text[:300]}")
+            log.error(f"Error respaldo GitHub: {resp.status_code}")
     except Exception as e:
-        log.error(f"Error guardando en GitHub: {e}")
+        log.error(f"Error respaldo GitHub: {e}")
 
 def cargar_store():
-    """Carga el store desde GitHub al iniciar."""
+    """Carga el store desde Volume. Si no existe, intenta desde GitHub."""
     global store
+    try:
+        if os.path.exists(DATA_FILE):
+            with open(DATA_FILE, "r", encoding="utf-8") as f:
+                store = json.load(f)
+            total = sum(len(d.get("registros", [])) for d in store.values())
+            log.info(f"Store cargado desde Volume: {len(store)} grupos, {total} registros ✅")
+            return
+    except Exception as e:
+        log.error(f"Error cargando desde Volume: {e}")
+
+    # Fallback: cargar desde GitHub
     try:
         r = httpx.get(GITHUB_API, headers=GITHUB_HEADERS, timeout=10)
         if r.status_code == 200:
@@ -94,10 +104,10 @@ def cargar_store():
             total = sum(len(d.get("registros", [])) for d in store.values())
             log.info(f"Store cargado desde GitHub: {len(store)} grupos, {total} registros ✅")
         else:
-            log.info("No hay store en GitHub, iniciando vacío")
+            log.info("Sin store previo, iniciando vacío")
             store = {}
     except Exception as e:
-        log.error(f"Error cargando store desde GitHub: {e}")
+        log.error(f"Error cargando desde GitHub: {e}")
         store = {}
 
 def get_store(chat_id: int, nom: str = "") -> dict:
