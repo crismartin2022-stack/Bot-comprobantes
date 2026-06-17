@@ -198,6 +198,28 @@
         "_fecha_carga": "17/06/2026 20:59",
         "_origen": "grupo",
         "_pie": "Micaela Belén Pacheco \n36.851.919"
+      },
+      {
+        "fecha": "11/06/2026",
+        "hora": "20:01",
+        "tipo": "TRF",
+        "monto": 300000.0,
+        "moneda": "ARS",
+        "remitente": "Sergio Damian Gonzalez Aleon",
+        "remitente_cuil": "23-95330380-9",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Naranja X",
+        "banco_destino": "Cuenta Virtual",
+        "referencia": "D4RO172VZG751QV0NKJ3QE",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CBU origen: 4530000800011750138972. CVU destino: 0000155300000000009977. CUIL destinatario: 30-71728225-2. Código de transacción adicional: 8427ff90-51de-437d-bba6-e80a55cf3fc4",
+        "_num": 9,
+        "_fecha_carga": "17/06/2026 20:59",
+        "_origen": "grupo",
+        "_pie": "Sergio Damian Gonzalez Aleon\nNaranja X\n4530000800011750138972\n23-95330380-9"
       }
     ],
     "errores": [],
