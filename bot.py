@@ -1061,10 +1061,29 @@ async def obtener_imagen(update, ctx) -> tuple:
             return (await client.get(file.file_path)).content, msg.document.mime_type
     return None, None
 
+# ── Soporte para álbumes (media groups) ──────────────────────────────────────
+media_groups: dict = {}  # {(chat_id, media_group_id): {"images": [], "caption": "", "nombre_g": "", "timer": task}}
+
+async def procesar_album(key, app):
+    """Espera 3 segundos para que lleguen todas las fotos del álbum, luego las procesa."""
+    await asyncio.sleep(3)
+    if key not in media_groups:
+        return
+    grupo = media_groups.pop(key)
+    chat_id, media_group_id = key
+    nombre_g = grupo["nombre_g"]
+    caption  = grupo.get("caption", "")
+    images   = grupo["images"]
+
+    for image_bytes, mime, msg_id in images:
+        await procesar_comprobante(image_bytes, mime, caption, chat_id, nombre_g, "grupo", app.bot, msg_id)
+
 async def handle_photo(update: Update, ctx: ContextTypes.DEFAULT_TYPE):
     chat_id    = update.effective_chat.id
     es_privado = update.effective_chat.type == "private"
     caption    = (update.message.caption or "").strip()
+    msg        = update.message
+    msg_id     = msg.message_id
 
     image_bytes, mime = await obtener_imagen(update, ctx)
     if not image_bytes:
@@ -1083,8 +1102,28 @@ async def handle_photo(update: Update, ctx: ContextTypes.DEFAULT_TYPE):
         return
 
     nombre_g = get_nombre_grupo(update)
-    msg_id   = update.message.message_id
 
+    # ── Álbum (media group) ──
+    if msg.media_group_id:
+        key = (chat_id, msg.media_group_id)
+        if key not in media_groups:
+            media_groups[key] = {"images": [], "caption": caption, "nombre_g": nombre_g}
+        else:
+            # Si el nuevo mensaje tiene caption, usarlo
+            if caption:
+                media_groups[key]["caption"] = caption
+
+        media_groups[key]["images"].append((image_bytes, mime, msg_id))
+
+        # Cancelar timer anterior y crear uno nuevo
+        if "timer" in media_groups[key]:
+            media_groups[key]["timer"].cancel()
+        task = asyncio.create_task(procesar_album(key, ctx.application))
+        media_groups[key]["timer"] = task
+        return
+
+    # ── Imagen individual ──
+    # Procesar directo — con o sin pie (ya no es obligatorio)
     if caption:
         await procesar_comprobante(image_bytes, mime, caption, chat_id, nombre_g, "grupo", ctx.bot, msg_id)
     else:
