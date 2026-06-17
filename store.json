@@ -22,7 +22,30 @@
   "-1004459084298": {
     "nombre": "Pagos Arg provisional",
     "semana_actual": "Semana 17/06/2026",
-    "registros": [],
+    "registros": [
+      {
+        "fecha": "11/06/2026",
+        "hora": "18:26",
+        "tipo": "TRF",
+        "monto": 500000.0,
+        "moneda": "ARS",
+        "remitente": "Medero, Marianela Alessandra",
+        "remitente_cuil": "27-47081108-6",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Personal Pay",
+        "banco_destino": "",
+        "referencia": "2733591597",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CBU/CVU receptor: 00001553000000000009977. CoelsaID: 8D0Q619L04X5X103N7JZ5R - Id Bancario. CUIL/CUIT destinatario: 30-71728225-2.",
+        "_num": 1,
+        "_fecha_carga": "17/06/2026 20:57",
+        "_origen": "grupo",
+        "_pie": "a Medero, Marianela Alessandra\nCUIL/CUIT 27-47081108-6"
+      }
+    ],
     "errores": [],
     "chat_id": -1004459084298,
     "ultimo_resumen_idx": 0,
