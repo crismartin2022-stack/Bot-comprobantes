@@ -22,6 +22,8 @@ from telegram.ext import (
 # ── Logging ───────────────────────────────────────────────────────────────────
 logging.basicConfig(format="%(asctime)s | %(levelname)s | %(message)s", level=logging.INFO)
 log = logging.getLogger(__name__)
+logging.getLogger("httpx").setLevel(logging.WARNING)
+logging.getLogger("httpcore").setLevel(logging.WARNING)
 
 # ── Config ────────────────────────────────────────────────────────────────────
 TELEGRAM_TOKEN = os.environ["TELEGRAM_TOKEN"]
@@ -868,6 +870,46 @@ async def cmd_nueva_semana(update: Update, ctx: ContextTypes.DEFAULT_TYPE):
     await update.message.reply_text("⚠️ ¿Iniciar nueva semana? Se borran todos los registros.",
         reply_markup=InlineKeyboardMarkup(kb))
 
+async def cmd_recuperar(update: Update, ctx: ContextTypes.DEFAULT_TYPE):
+    """Lee el store.json del Volume y recarga los datos en memoria."""
+    if update.effective_user.id != ADMIN_ID:
+        await update.message.reply_text("⛔ Solo el administrador.")
+        return
+
+    global store
+    try:
+        if not os.path.exists(DATA_FILE):
+            await update.message.reply_text("❌ No existe el archivo /data/store.json en el Volume.")
+            return
+
+        with open(DATA_FILE, "r", encoding="utf-8") as f:
+            store_recuperado = json.load(f)
+
+        if not store_recuperado:
+            await update.message.reply_text("❌ El archivo existe pero está vacío.")
+            return
+
+        store = store_recuperado
+        total_registros = sum(len(d.get("registros", [])) for d in store.values())
+        total_errores   = sum(len(d.get("errores",   [])) for d in store.values())
+        total_grupos    = len(store)
+
+        texto = f"✅ *Store recuperado desde Volume*\n─────────────────────\n"
+        texto += f"📍 Grupos: {total_grupos}\n"
+        texto += f"✅ Registros: {total_registros}\n"
+        texto += f"⛔ Errores: {total_errores}\n\n"
+
+        for cid, datos in store.items():
+            regs = datos.get("registros", [])
+            errs = datos.get("errores", [])
+            total = sum(float(r.get("monto") or 0) for r in regs)
+            texto += f"📍 *{datos.get('nombre', cid)}*: {len(regs)} ok | {len(errs)} err | ${total:,.0f} ARS\n"
+
+        await update.message.reply_text(texto, parse_mode="Markdown")
+
+    except Exception as e:
+        await update.message.reply_text(f"❌ Error al recuperar: {e}")
+
 async def cmd_borrar(update: Update, ctx: ContextTypes.DEFAULT_TYPE):
     kb = [[InlineKeyboardButton("✅ Sí", callback_data="borrar_si"),
            InlineKeyboardButton("❌ No",  callback_data="cancelar")]]
@@ -1210,6 +1252,7 @@ def main():
     app.add_handler(CommandHandler("grupos",       cmd_grupos))
     app.add_handler(CommandHandler("nueva_semana", cmd_nueva_semana))
     app.add_handler(CommandHandler("borrar",       cmd_borrar))
+    app.add_handler(CommandHandler("recuperar",    cmd_recuperar))
     app.add_handler(CallbackQueryHandler(callback_handler))
     app.add_handler(MessageHandler(filters.PHOTO,          handle_photo))
     app.add_handler(MessageHandler(filters.Document.IMAGE, handle_document))
