@@ -965,11 +965,64 @@ async def callback_handler(update: Update, ctx: ContextTypes.DEFAULT_TYPE):
         n  = store.get(str(chat_id), {}).get("nombre", "Grupo")
         tm = store.get(str(chat_id), {}).get("total_mensual", 0.0)
         ma = store.get(str(chat_id), {}).get("mes_actual", "")
+        datos_actuales = store.get(str(chat_id), {})
+        registros = datos_actuales.get("registros", [])
+        errores   = datos_actuales.get("errores", [])
+        duplicados = datos_actuales.get("duplicados", [])
+        semana    = datos_actuales.get("semana_actual", semana_label())
+        fecha_arch = now_arg().strftime("%Y%m%d_%H%M")
+
+        # ── Backup automático antes de borrar ──
+        if registros:
+            try:
+                buf = generar_excel(registros, semana, n)
+                total = sum(float(r.get("monto") or 0) for r in registros)
+                sin_cvu = sum(1 for r in registros if not (r.get("cvu_ultimos4") or "").strip())
+                await query.message.reply_document(
+                    document=buf,
+                    filename=f"BACKUP_antes_nueva_semana_{n.replace(' ','_')}_{fecha_arch}.xlsx",
+                    caption=(
+                        f"💾 *Backup automático — ANTES de nueva semana*\n"
+                        f"📍 {n} | 📅 {semana}\n"
+                        f"📄 {len(registros)} aprobados | 💰 ${total:,.0f} ARS\n"
+                        f"{'⚠️ '+str(sin_cvu)+' sin CVU' if sin_cvu else '✅ Todos con CVU'}"
+                    ),
+                    parse_mode="Markdown"
+                )
+            except Exception as e:
+                log.error(f"Error backup nueva semana: {e}")
+
+        if errores or duplicados:
+            try:
+                buf_err = generar_excel(errores, semana, n, es_errores=True, duplicados=duplicados)
+                await query.message.reply_document(
+                    document=buf_err,
+                    filename=f"BACKUP_rechazados_{n.replace(' ','_')}_{fecha_arch}.xlsx",
+                    caption=f"⛔ *Backup rechazados — {n}*\n{len(errores)} rechazados | 🔁 {len(duplicados)} duplicados",
+                    parse_mode="Markdown"
+                )
+            except Exception as e:
+                log.error(f"Error backup errores nueva semana: {e}")
+
+        # También mandar al admin
+        try:
+            if registros:
+                buf2 = generar_excel(registros, semana, n)
+                await query.bot.send_document(
+                    chat_id=ADMIN_ID,
+                    document=buf2,
+                    filename=f"BACKUP_antes_nueva_semana_{n.replace(' ','_')}_{fecha_arch}.xlsx",
+                    caption=f"💾 *Backup admin — nueva semana {n}*\n{len(registros)} registros | ${sum(float(r.get('monto') or 0) for r in registros):,.0f} ARS",
+                    parse_mode="Markdown"
+                )
+        except Exception as e:
+            log.error(f"Error enviando backup al admin: {e}")
+
         store[str(chat_id)] = {"nombre": n, "semana_actual": semana_label(), "registros": [],
                                 "errores": [], "chat_id": chat_id,
                                 "ultimo_resumen_idx": 0, "total_mensual": tm, "mes_actual": ma}
         guardar_store()
-        await query.edit_message_text("✅ Nueva semana iniciada.")
+        await query.edit_message_text("✅ Nueva semana iniciada. Backup enviado arriba 👆")
     elif data == "borrar_si":
         d = get_store(chat_id)
         d["registros"] = []
