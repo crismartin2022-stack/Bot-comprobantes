@@ -330,6 +330,28 @@
         "_fecha_carga": "17/06/2026 20:59",
         "_origen": "grupo",
         "_pie": "Gladys Noemi Lencinas\nCUIT/CUIL: 27-14164627-9"
+      },
+      {
+        "fecha": "11/06/2026",
+        "hora": "20:49",
+        "tipo": "TRF",
+        "monto": 240000.0,
+        "moneda": "ARS",
+        "remitente": "Celeste Ayelen Teodorowicz",
+        "remitente_cuil": "27-44688650-4",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163701768152",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: RD06ZO9WV7O7886XN5GP7X. CVU remitente: 0000003100074677657603. CVU destinatario: 0000155300000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 15,
+        "_fecha_carga": "17/06/2026 20:59",
+        "_origen": "grupo",
+        "_pie": "Celeste Ayelen Teodorowicz\nCUIT/CUIL: 27-44688650-4"
       }
     ],
     "errores": [],
