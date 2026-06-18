@@ -5973,6 +5973,28 @@
         "_fecha_carga": "17/06/2026 21:37",
         "_origen": "grupo",
         "_pie": "Eduardo Adrian Perez\nCUIT/CUIL: 20-31598874-9"
+      },
+      {
+        "fecha": "13/06/2026",
+        "hora": "00:28",
+        "tipo": "TRF",
+        "monto": 30000.0,
+        "moneda": "ARS",
+        "remitente": "Delia Carolina Ocampos Monges",
+        "remitente_cuil": "27-95400070-8",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163089307405",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: ORD6LEN8PYEKE3GGNM1Y30. CVU remitente: 0000003100024888432649. CVU destinatario: 0000155300000000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 271,
+        "_fecha_carga": "17/06/2026 21:37",
+        "_origen": "grupo",
+        "_pie": "Delia Carolina Ocampos Monges\nCUIT/CUIL: 27-95400070-8"
       }
     ],
     "errores": [],
