@@ -14942,6 +14942,28 @@
         "_fecha_carga": "18/06/2026 00:00",
         "_origen": "grupo",
         "_pie": "Foto de Clohe😎"
+      },
+      {
+        "fecha": "13/06/2026",
+        "hora": "20:21",
+        "tipo": "TRF",
+        "monto": 109000.0,
+        "moneda": "ARS",
+        "remitente": "Brian Arian Seijas",
+        "remitente_cuil": "40.717.824",
+        "destinatario": "SASTEUP SRL",
+        "banco_origen": "Cuenta DNI",
+        "banco_destino": "",
+        "referencia": "8D0Q619L0WOZZ343N7JZ5R",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CVU destinatario: 0000155300000000009977. CUIL destinatario: 30717282252.",
+        "_num": 678,
+        "_fecha_carga": "18/06/2026 00:00",
+        "_origen": "grupo",
+        "_pie": "Foto de Clohe😎"
       }
     ],
     "errores": [],
