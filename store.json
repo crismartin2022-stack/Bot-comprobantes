@@ -45234,6 +45234,28 @@
         "_fecha_carga": "18/06/2026 19:54",
         "_origen": "grupo",
         "_pie": "Martin Gabriel Ponce\nNaranja X\n4530000800016587877809\n20-44829401-4"
+      },
+      {
+        "fecha": "12/06/2026",
+        "hora": "00:04",
+        "tipo": "TRF",
+        "monto": 250000.0,
+        "moneda": "ARS",
+        "remitente": "ALDANA ROCIO ORELLANA",
+        "remitente_cuil": "27-41880786-0",
+        "destinatario": "SASTEUP SRL",
+        "banco_origen": "AstroPay",
+        "banco_destino": "",
+        "referencia": "8D0Q619L04RKQGEZN7JZ5R",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CVU remitente: 0000177500096292611143. CVU receptor: 0000155300000000009977. CUIT receptor: 30-71728225-2. Alias receptor: cvu.977",
+        "_num": 89,
+        "_fecha_carga": "18/06/2026 19:54",
+        "_origen": "grupo",
+        "_pie": "ALDANA ROCIO ORELLANA\n27418807860"
       }
     ],
     "errores": [],
