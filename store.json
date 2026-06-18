@@ -29954,6 +29954,28 @@
         "_fecha_carga": "18/06/2026 13:44",
         "_origen": "grupo",
         "_pie": "Gregorio Fernandez Herrera\nCUIT/CUIL: 20-92877016-9"
+      },
+      {
+        "fecha": "14/06/2026",
+        "hora": "23:52",
+        "tipo": "TRF",
+        "monto": 100000.0,
+        "moneda": "ARS",
+        "remitente": "Martin Gabriel Ponce",
+        "remitente_cuil": "20-44829401-4",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Naranja X",
+        "banco_destino": "Cuenta Virtual",
+        "referencia": "RD06ZO9WVR4JE86KN5GP7X",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CBU origen: 4530000800016587877809. CVU destino: 0000155300000000009977. CUIL destinatario: 30-71728225-2. Código de transacción: 8ecfdffe-e7ba-4892-82e8-5f2443983310. COELSA ID usado como referencia principal.",
+        "_num": 1359,
+        "_fecha_carga": "18/06/2026 13:44",
+        "_origen": "grupo",
+        "_pie": "Martin Gabriel Ponce\nNaranja X\n4530000800016587877809\n20-44829401-4"
       }
     ],
     "errores": [],
