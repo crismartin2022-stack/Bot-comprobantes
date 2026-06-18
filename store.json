@@ -34911,6 +34911,28 @@
         "_fecha_carga": "18/06/2026 14:39",
         "_origen": "grupo",
         "_pie": "mario starna\n16355712"
+      },
+      {
+        "fecha": "11/06/2026",
+        "hora": "16:10",
+        "tipo": "TRF",
+        "monto": 50000.0,
+        "moneda": "ARS",
+        "remitente": "Noelia Lujan Quispe",
+        "remitente_cuil": "27-38161947-3",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "162844857625",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: 67REZ8NPQV0XVMQ494KVGO. CVU remitente: 0000003100072376422407. CVU destinatario: 0000155300000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 1584,
+        "_fecha_carga": "18/06/2026 14:39",
+        "_origen": "grupo",
+        "_pie": ""
       }
     ],
     "errores": [],
