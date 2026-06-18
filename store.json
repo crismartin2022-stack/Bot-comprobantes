@@ -40806,6 +40806,28 @@
         "_fecha_carga": "18/06/2026 15:31",
         "_origen": "grupo",
         "_pie": "Bettina Vanesa Vizcarra\n34.041.773"
+      },
+      {
+        "fecha": "16/06/2026",
+        "hora": "00:39",
+        "tipo": "TRF",
+        "monto": 200000.0,
+        "moneda": "ARS",
+        "remitente": "Mario Antonio Lopez",
+        "remitente_cuil": "20-22084479-0",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163506381333",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CUIT destinatario: 30-71728225-2. CVU remitente: 0000003100024354103549. CVU destinatario: 0000155300000000009977. Código de identificación: ORD6LEN8PYRXOQEYNM1Y30",
+        "_num": 1851,
+        "_fecha_carga": "18/06/2026 15:31",
+        "_origen": "grupo",
+        "_pie": "Mario Antonio López \n22.084.479"
       }
     ],
     "errores": [],
