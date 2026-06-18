@@ -6260,6 +6260,28 @@
         "_fecha_carga": "17/06/2026 21:38",
         "_origen": "grupo",
         "_pie": "Pablo Agustin Franco\nCUIT/CUIL: 20-42176164-8"
+      },
+      {
+        "fecha": "13/06/2026",
+        "hora": "00:47",
+        "tipo": "TRF",
+        "monto": 50000.0,
+        "moneda": "ARS",
+        "remitente": "Fabian Nicolas Alvarez",
+        "remitente_cuil": "20-37810983-4",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163900654326",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: 67REZ8NPQ6XRJ7ZK94KVGO. CVU remitente: 0000003100114177922693. CVU destinatario: 0000155300000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 284,
+        "_fecha_carga": "17/06/2026 21:39",
+        "_origen": "grupo",
+        "_pie": "Fabian Nicolas Alvarez\nCUIT/CUIL: 20-37810983-4"
       }
     ],
     "errores": [],
