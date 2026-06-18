@@ -43562,6 +43562,28 @@
         "_fecha_carga": "18/06/2026 19:43",
         "_origen": "grupo",
         "_pie": "Alan soto\nCUIL-CUIT: 20-45176794-2"
+      },
+      {
+        "fecha": "11/06/2026",
+        "hora": "20:11",
+        "tipo": "TRF",
+        "monto": 100000.0,
+        "moneda": "ARS",
+        "remitente": "Lucas Hernan Soidler",
+        "remitente_cuil": "20-41913076-2",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "162886885381",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: 86VRPQ2GMWRZ7MWM2GLY0M. CVU remitente: 0000003100096894729675. CVU destinatario: 0000155300000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 13,
+        "_fecha_carga": "18/06/2026 19:43",
+        "_origen": "grupo",
+        "_pie": "Lucas Hernan Soidler\nCUIT/CUIL: 20-41913076-2"
       }
     ],
     "errores": [],
