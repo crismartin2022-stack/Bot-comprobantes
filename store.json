@@ -17079,6 +17079,28 @@
         "_fecha_carga": "18/06/2026 00:23",
         "_origen": "grupo",
         "_pie": "Roxana Herrera \n32.739.452"
+      },
+      {
+        "fecha": "15/06/2026",
+        "hora": "15:24",
+        "tipo": "TRF",
+        "monto": 500000.0,
+        "moneda": "ARS",
+        "remitente": "Roxana Brenda Herrera",
+        "remitente_cuil": "27-32739452-0",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163435844331",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: 3D5W612E6ZXVR7PQ2GXYVR. CVU remitente: 0000003100031582863361. CVU destinatario: 0000155300000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 775,
+        "_fecha_carga": "18/06/2026 00:23",
+        "_origen": "grupo",
+        "_pie": "Roxana Herrera \n32.739.452"
       }
     ],
     "errores": [],
