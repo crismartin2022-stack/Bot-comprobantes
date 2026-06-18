@@ -29049,6 +29049,28 @@
         "_fecha_carga": "18/06/2026 13:38",
         "_origen": "grupo",
         "_pie": "Cristian Eduardo Ramirez\nCUIT/CUIL: 20-30942047-1"
+      },
+      {
+        "fecha": "14/06/2026",
+        "hora": "21:46",
+        "tipo": "TRF",
+        "monto": 100000.0,
+        "moneda": "ARS",
+        "remitente": "Daniel Ojeda Fernandez",
+        "remitente_cuil": "20-95414902-2",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Naranja X",
+        "banco_destino": "Cuenta Virtual",
+        "referencia": "1LMP68NKVEKRM30K2R7OEV",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CBU origen: 4530000800019253182465. CVU destino: 0000155300000000009977. CUIL destinatario: 30-71728225-2. Código de transacción: 21b2c3ef-966a-442d-a5d8-f92c477dd56a",
+        "_num": 1318,
+        "_fecha_carga": "18/06/2026 13:38",
+        "_origen": "grupo",
+        "_pie": "Daniel Ojeda Fernandez\nNaranja X\n4530000800019253182465\n20-95414902-2"
       }
     ],
     "errores": [],
