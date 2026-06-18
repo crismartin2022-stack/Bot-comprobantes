@@ -32336,6 +32336,28 @@
         "_fecha_carga": "18/06/2026 14:00",
         "_origen": "grupo",
         "_pie": "Alicia Mabel Lopez\nCUIT/CUIL: 27-33682776-6"
+      },
+      {
+        "fecha": "13/06/2026",
+        "hora": "20:11",
+        "tipo": "TRF",
+        "monto": 100000.0,
+        "moneda": "ARS",
+        "remitente": "Karen Del Valle Varela",
+        "remitente_cuil": "27-37635802-5",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163210819195",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: 3D5W612E6ZJ8K5L52GXYVR. CVU remitente: 0000003100037027984206. CVU destinatario: 0000155300000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 1467,
+        "_fecha_carga": "18/06/2026 14:00",
+        "_origen": "grupo",
+        "_pie": ""
       }
     ],
     "errores": [],
