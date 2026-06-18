@@ -41424,6 +41424,28 @@
         "_fecha_carga": "18/06/2026 15:35",
         "_origen": "grupo",
         "_pie": ""
+      },
+      {
+        "fecha": "15/06/2026",
+        "hora": "21:46",
+        "tipo": "TRF",
+        "monto": 100000.0,
+        "moneda": "ARS",
+        "remitente": "Norma Beatriz Vera",
+        "remitente_cuil": "27-22229828-3",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163490083733",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: XJ8G7V95DWO4PJMD9EMPYR. CUIT destinatario: 30-71728225-2. CVU destinatario completo: 0000155300000000000009977",
+        "_num": 1879,
+        "_fecha_carga": "18/06/2026 15:35",
+        "_origen": "grupo",
+        "_pie": "Norma Beatriz Vera\nCUIT/CUIL: 27-22229828-3"
       }
     ],
     "errores": [],
