@@ -28014,6 +28014,28 @@
         "_fecha_carga": "18/06/2026 13:27",
         "_origen": "grupo",
         "_pie": "Rodrigo Andrés Márquez de Olivera"
+      },
+      {
+        "fecha": "14/06/2026",
+        "hora": "17:31",
+        "tipo": "TRF",
+        "monto": 150000.0,
+        "moneda": "ARS",
+        "remitente": "Leonela Sabrina Braga",
+        "remitente_cuil": "",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Ualá",
+        "banco_destino": "",
+        "referencia": "7L8GYKNX054068GX2MPRZ5",
+        "concepto": "VAR",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CBU destino: 0000155300000000009977. CUIT destino: 30717282252",
+        "_num": 1271,
+        "_fecha_carga": "18/06/2026 13:27",
+        "_origen": "grupo",
+        "_pie": "Leonela Sabrina Braga"
       }
     ],
     "errores": [],
