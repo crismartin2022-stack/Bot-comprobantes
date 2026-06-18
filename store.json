@@ -44552,6 +44552,28 @@
         "_fecha_carga": "18/06/2026 19:50",
         "_origen": "grupo",
         "_pie": "Candela Soledad Sotelo\nCUIT/CUIL: 27-47119484-6"
+      },
+      {
+        "fecha": "11/06/2026",
+        "hora": "22:24",
+        "tipo": "TRF",
+        "monto": 500000.05,
+        "moneda": "ARS",
+        "remitente": "Maria Agueda Franco Rojas",
+        "remitente_cuil": "27-95449472-7",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "162906370281",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: Z6OLMDN3VKOV6KD62E7RQ5. CVU remitente: 0000003100030418493446. CVU destinatario: 0000155300000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 58,
+        "_fecha_carga": "18/06/2026 19:50",
+        "_origen": "grupo",
+        "_pie": "Maria Agueda Franco Rojas\nCUIT/CUIL: 27-95449472-7"
       }
     ],
     "errores": [],
