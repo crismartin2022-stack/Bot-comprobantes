@@ -37519,6 +37519,28 @@
         "_fecha_carga": "18/06/2026 14:57",
         "_origen": "grupo",
         "_pie": "Ariel barrios \n32472349"
+      },
+      {
+        "fecha": "15/06/2026",
+        "hora": "01:03",
+        "tipo": "TRF",
+        "monto": 200000.0,
+        "moneda": "ARS",
+        "remitente": "Nunez, Karina Gabriela Del Valle",
+        "remitente_cuil": "23-26187724-4",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Personal Pay",
+        "banco_destino": "",
+        "referencia": "2743667078",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CBU/CVU destinatario: 0000155300000000009977. CUIT destinatario: 30-71728225-2. CoelsaID: WGRXJE27DX6Y5YRLN7MYQL - Id Bancario",
+        "_num": 1702,
+        "_fecha_carga": "18/06/2026 14:57",
+        "_origen": "grupo",
+        "_pie": "Foto de 🤗🤗🤗"
       }
     ],
     "errores": [],
