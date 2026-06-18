@@ -25214,6 +25214,28 @@
         "_fecha_carga": "18/06/2026 13:07",
         "_origen": "grupo",
         "_pie": "Leonardo Ezequiel Villalba \n27-36089060-6"
+      },
+      {
+        "fecha": "13/06/2026",
+        "hora": "20:41",
+        "tipo": "TRF",
+        "monto": 500000.04,
+        "moneda": "ARS",
+        "remitente": "Sandy Margorit Quicaño Rucoba",
+        "remitente_cuil": "27-94097313-4",
+        "destinatario": "SASTEUP SRL",
+        "banco_origen": "AstroPay",
+        "banco_destino": "",
+        "referencia": "LMORZP908L51RPLYNEGJ46",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CVU remitente: 0000177500099681526152. CVU receptor: 0000155300000000009977. Alias receptor: cvu.977. CUIT receptor: 30-71728225-2.",
+        "_num": 1144,
+        "_fecha_carga": "18/06/2026 13:07",
+        "_origen": "grupo",
+        "_pie": "Sandy margorit Quicaño rucoba \n29-94097313-4"
       }
     ],
     "errores": [],
