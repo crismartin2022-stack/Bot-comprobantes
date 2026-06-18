@@ -26184,6 +26184,28 @@
         "_fecha_carga": "18/06/2026 13:14",
         "_origen": "grupo",
         "_pie": "De:\nBRENDA ANAHI CHAVEZ\nCUIT 27-45999352-0"
+      },
+      {
+        "fecha": "13/06/2026",
+        "hora": "22:53",
+        "tipo": "TRF",
+        "monto": 50000.0,
+        "moneda": "ARS",
+        "remitente": "Luis Alberto Martinez",
+        "remitente_cuil": "20-41920839-7",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163232414463",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: 1LMP68NKVEJ8MOZ52R7OEV. CVU remitente: 0000003100097933806399. CVU destinatario: 0000155300000000009977",
+        "_num": 1188,
+        "_fecha_carga": "18/06/2026 13:14",
+        "_origen": "grupo",
+        "_pie": "Luis Alberto Martinez\nCUIT/CUIL: 20-41920839-7"
       }
     ],
     "errores": [],
