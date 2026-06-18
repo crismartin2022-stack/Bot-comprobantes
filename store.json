@@ -47792,6 +47792,28 @@
         "_fecha_carga": "18/06/2026 20:10",
         "_origen": "grupo",
         "_pie": "Diego Sebastian Romero\nCUIT/CUIL: 23-39350507-9"
+      },
+      {
+        "fecha": "12/06/2026",
+        "hora": "21:39",
+        "tipo": "TRF",
+        "monto": 100000.0,
+        "moneda": "ARS",
+        "remitente": "Liliana Beatriz Anrriquez",
+        "remitente_cuil": "",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Ualá",
+        "banco_destino": "",
+        "referencia": "PDX4OGNYGPRRZV8VN0L6EY",
+        "concepto": "VAR",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CUIT destino: 30717282252. CBU destino completo: 0000155300000000009977",
+        "_num": 205,
+        "_fecha_carga": "18/06/2026 20:10",
+        "_origen": "grupo",
+        "_pie": "Liliana Beatriz anrriquez \nDNI: 21.104.254"
       }
     ],
     "errores": [],
