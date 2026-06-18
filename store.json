@@ -40174,5 +40174,15 @@
     "ultimo_resumen_idx": 0,
     "total_mensual": 0.0,
     "mes_actual": "06/2026"
+  },
+  "-1004304157216": {
+    "nombre": "Xxxxxpro y Api-Agi",
+    "semana_actual": "Semana 18/06/2026",
+    "registros": [],
+    "errores": [],
+    "chat_id": -1004304157216,
+    "ultimo_resumen_idx": 0,
+    "total_mensual": 0.0,
+    "mes_actual": "06/2026"
   }
 }
