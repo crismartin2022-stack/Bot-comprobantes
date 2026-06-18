@@ -33942,6 +33942,28 @@
         "_fecha_carga": "18/06/2026 14:11",
         "_origen": "grupo",
         "_pie": "Caterina noeli gomez \n37394391"
+      },
+      {
+        "fecha": "11/06/2026",
+        "hora": "21:46",
+        "tipo": "TRF",
+        "monto": 10000.0,
+        "moneda": "ARS",
+        "remitente": "Lorena Elizabeth Paolini",
+        "remitente_cuil": "27-35800760-6",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "162902088123",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: LMORZP908RMK34KYNEGJ46. CVU remitente: 0000003100186761142442. CVU destinatario: 0000155300000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 1540,
+        "_fecha_carga": "18/06/2026 14:12",
+        "_origen": "grupo",
+        "_pie": "Lorena Elizabeth paolini \n35800760"
       }
     ],
     "errores": [],
