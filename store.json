@@ -24088,6 +24088,28 @@
         "_fecha_carga": "18/06/2026 12:59",
         "_origen": "grupo",
         "_pie": "Pablo Gaspar Carreno\nCUIT/CUIL: 20-38106862-6"
+      },
+      {
+        "fecha": "13/06/2026",
+        "hora": "00:47",
+        "tipo": "TRF",
+        "monto": 100000.0,
+        "moneda": "ARS",
+        "remitente": "Noelia Silvana Romera",
+        "remitente_cuil": "27-31823501-0",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163091458301",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: RD06ZO9WVR8036J1N5GP7X. CVU destinatario: 0000155300000000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 1093,
+        "_fecha_carga": "18/06/2026 12:59",
+        "_origen": "grupo",
+        "_pie": "Noelia Silvana Romera\nCUIT/CUIL: 27-31823501-0"
       }
     ],
     "errores": [],
