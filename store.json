@@ -29734,6 +29734,28 @@
         "_fecha_carga": "18/06/2026 13:43",
         "_origen": "grupo",
         "_pie": "David Ernesto Collajovsky\nNaranja X\n4530000800014198320031\n20-34922538-8"
+      },
+      {
+        "fecha": "14/06/2026",
+        "hora": "23:32",
+        "tipo": "TRF",
+        "monto": 250000.0,
+        "moneda": "ARS",
+        "remitente": "Diego Gerardo Centurion",
+        "remitente_cuil": "",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Ualá",
+        "banco_destino": "LOHAS S.A.S.",
+        "referencia": "dde66cea-2ec8-c042-7cee-899614d795e8",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CVU destino: 0000155300000000009977. CBU emisor: 3840200500000040361279. CUIT/CUIL destino: 30-71728225-2. Comentario: Transferencia en pesos.",
+        "_num": 1349,
+        "_fecha_carga": "18/06/2026 13:43",
+        "_origen": "grupo",
+        "_pie": "Diego centurión  28455894"
       }
     ],
     "errores": [],
