@@ -41578,6 +41578,28 @@
         "_fecha_carga": "18/06/2026 15:36",
         "_origen": "grupo",
         "_pie": "Erika Tamara Vega \n27-39158945-9"
+      },
+      {
+        "fecha": "15/06/2026",
+        "hora": "21:51",
+        "tipo": "TRF",
+        "monto": 100000.0,
+        "moneda": "ARS",
+        "remitente": "Diego Luis Garcia",
+        "remitente_cuil": "20-25809829-4",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "164304271306",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: Z4K6DVNOWYR60YZM25J8LQ. CVU remitente: 0000003100079520829446. CVU destinatario: 0000155300000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 1886,
+        "_fecha_carga": "18/06/2026 15:36",
+        "_origen": "grupo",
+        "_pie": "Diego Luis Garcia\nCUIT/CUIL: 20-25809829-4"
       }
     ],
     "errores": [],
