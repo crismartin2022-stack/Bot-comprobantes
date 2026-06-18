@@ -41556,6 +41556,28 @@
         "_fecha_carga": "18/06/2026 15:36",
         "_origen": "grupo",
         "_pie": "Maximiliano Ezequiel Gamarra \n 20-40767661-1"
+      },
+      {
+        "fecha": "15/06/2026",
+        "hora": "21:48",
+        "tipo": "TRF",
+        "monto": 500000.04,
+        "moneda": "ARS",
+        "remitente": "Erika Tamara Vega",
+        "remitente_cuil": "",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "LB Finanzas",
+        "banco_destino": "",
+        "referencia": "TIDF16FFE4D3C",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CUIT destinatario: 30-71728225-2. CBU/CVU destinatario: 0000155300000000009977. ID Coelsa: ORD6LEN8PYR4OOV0NM1Y30",
+        "_num": 1885,
+        "_fecha_carga": "18/06/2026 15:36",
+        "_origen": "grupo",
+        "_pie": "Erika Tamara Vega \n27-39158945-9"
       }
     ],
     "errores": [],
