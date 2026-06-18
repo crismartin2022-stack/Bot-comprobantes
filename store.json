@@ -47726,6 +47726,28 @@
         "_fecha_carga": "18/06/2026 20:09",
         "_origen": "grupo",
         "_pie": "Diego Sebastian Romero\nCUIT/CUIL: 23-39350507-9"
+      },
+      {
+        "fecha": "12/06/2026",
+        "hora": "21:14",
+        "tipo": "TRF",
+        "monto": 25000.0,
+        "moneda": "ARS",
+        "remitente": "Fatima Alfonzo",
+        "remitente_cuil": "27-95859382-7",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Naranja X",
+        "banco_destino": "Cuenta Virtual",
+        "referencia": "WY7ZEPN6M4KKR7QP2Q0M51",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CBU origen: 4530000800012676709840. CVU destino: 0000155300000000009977. CUIL destinatario: 30-71728225-2. Código de transacción: 4124aaf3-7da0-4bcf-9086-db6063f977da",
+        "_num": 202,
+        "_fecha_carga": "18/06/2026 20:09",
+        "_origen": "grupo",
+        "_pie": "Fatima Alfonzo\nNaranja X\n4530000800012676709840\n27-95859382-7"
       }
     ],
     "errores": [],
