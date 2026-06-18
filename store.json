@@ -26715,6 +26715,28 @@
         "_fecha_carga": "18/06/2026 13:18",
         "_origen": "grupo",
         "_pie": "Julieta Abigail Caballero\nCUIT/CUIL: 27-47118920-6"
+      },
+      {
+        "fecha": "14/06/2026",
+        "hora": "00:17",
+        "tipo": "TRF",
+        "monto": 50000.0,
+        "moneda": "ARS",
+        "remitente": "Delia Carolina Ocampos Monges",
+        "remitente_cuil": "27-95400070-8",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163239404655",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: 1LMP68NKVEVDM8XZ2R7OEV. CUIT destinatario: 30-71728225-2. CVU remitente: 0000003100024888432649. CVU destinatario: 0000155300000000000009977.",
+        "_num": 1212,
+        "_fecha_carga": "18/06/2026 13:18",
+        "_origen": "grupo",
+        "_pie": "Delia Carolina Ocampos Monges\nCUIT/CUIL: 27-95400070-8"
       }
     ],
     "errores": [],
