@@ -3370,6 +3370,28 @@
         "_fecha_carga": "17/06/2026 21:20",
         "_origen": "grupo",
         "_pie": "Monica Susana Santillan\nNaranja X\n4530000800012051233102\n27-17299591-3"
+      },
+      {
+        "fecha": "12/06/2026",
+        "hora": "18:41",
+        "tipo": "TRF",
+        "monto": 65000.0,
+        "moneda": "ARS",
+        "remitente": "Lucas Roman Cardozo Zevallos",
+        "remitente_cuil": "20-47650455-5",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163039304831",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: XJ8G7V95DXW333ML9EMPYR. CVU remitente: 0000003100027614740487. CVU destinatario: 0000155300000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 153,
+        "_fecha_carga": "17/06/2026 21:20",
+        "_origen": "grupo",
+        "_pie": "Lucas Roman Cardozo Zevallos\nCUIT/CUIL: 20-47650455-5"
       }
     ],
     "errores": [],
