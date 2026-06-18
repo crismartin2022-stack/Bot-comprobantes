@@ -8531,6 +8531,28 @@
         "_fecha_carga": "17/06/2026 23:17",
         "_origen": "grupo",
         "_pie": "Foto de Ges"
+      },
+      {
+        "fecha": "10/06/2026",
+        "hora": "12:26",
+        "tipo": "TRF",
+        "monto": 4000.0,
+        "moneda": "ARS",
+        "remitente": "Norma Viviana Wiedemann",
+        "remitente_cuil": "27-32712111-7",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Naranja X",
+        "banco_destino": "Cuenta Virtual",
+        "referencia": "R7ZG0QNDWQMLQ40D9EXYPO",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CBU origen: 4530000800012787846043. CVU destino: 0000155300000000009977. CUIL destinatario: 30-71728225-2. Código de transacción adicional: ce4fe030-7bc8-4e33-bb31-740eedaf7a5e",
+        "_num": 387,
+        "_fecha_carga": "17/06/2026 23:17",
+        "_origen": "grupo",
+        "_pie": "Foto de Ges"
       }
     ],
     "errores": [],
