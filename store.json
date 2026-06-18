@@ -8927,6 +8927,28 @@
         "_fecha_carga": "17/06/2026 23:20",
         "_origen": "grupo",
         "_pie": "Foto de Ges"
+      },
+      {
+        "fecha": "10/06/2026",
+        "hora": "14:38",
+        "tipo": "TRF",
+        "monto": 5000.0,
+        "moneda": "ARS",
+        "remitente": "Luisa Abigail Vargas",
+        "remitente_cuil": "23-48303660-4",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "162669028949",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: Z4K6DVNOWZMGVOR125J8LQ. CUIT destinatario: 30-71728225-2. CVU remitente: 0000003100033063454725. CVU destinatario: 0000155300000000000009977",
+        "_num": 405,
+        "_fecha_carga": "17/06/2026 23:20",
+        "_origen": "grupo",
+        "_pie": "Foto de Ges"
       }
     ],
     "errores": [],
