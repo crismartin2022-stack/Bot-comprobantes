@@ -25456,6 +25456,28 @@
         "_fecha_carga": "18/06/2026 13:09",
         "_origen": "grupo",
         "_pie": "Micaela Acosta\nCUIT/CUIL: 27-37679548-4"
+      },
+      {
+        "fecha": "13/06/2026",
+        "hora": "17:24",
+        "tipo": "TRF",
+        "monto": 25000.0,
+        "moneda": "ARS",
+        "remitente": "Marcos Daniel Campos Gonzalez",
+        "remitente_cuil": "",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Lemon",
+        "banco_destino": "CVU",
+        "referencia": "1LMP68NKVE6XEKL52R7OEV",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CUIT destinatario: 30717282252. CBU destinatario: 0000155300000000009977. ID de la transacción: 052f0668-95c7-4ee3-8d94-17ec000d38ae. Comprobante emitido por Lemon (Powered by Digifin).",
+        "_num": 1155,
+        "_fecha_carga": "18/06/2026 13:09",
+        "_origen": "grupo",
+        "_pie": "Marcos Gonzalez 33415464"
       }
     ],
     "errores": [],
