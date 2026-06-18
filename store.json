@@ -11221,6 +11221,28 @@
         "_fecha_carga": "17/06/2026 23:35",
         "_origen": "grupo",
         "_pie": "Foto de Ges"
+      },
+      {
+        "fecha": "13/06/2026",
+        "hora": "15:36",
+        "tipo": "TRF",
+        "monto": 50000.0,
+        "moneda": "ARS",
+        "remitente": "Luciana Mabel Perazza",
+        "remitente_cuil": "27-28873331-2",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163168365357",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: 67REZ8NPQ61G1JGR94KVGO. CUIT destinatario: 30-71728225-2. CVU remitente: 0000003100080026029643. CVU destinatario: 0000155300000000009977",
+        "_num": 509,
+        "_fecha_carga": "17/06/2026 23:35",
+        "_origen": "grupo",
+        "_pie": "Foto de Ges"
       }
     ],
     "errores": [],
