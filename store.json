@@ -42506,6 +42506,28 @@
         "_fecha_carga": "18/06/2026 15:43",
         "_origen": "grupo",
         "_pie": "Zoraida Ailen Perez\n27418352723"
+      },
+      {
+        "fecha": "15/06/2026",
+        "hora": "23:25",
+        "tipo": "TRF",
+        "monto": 250000.0,
+        "moneda": "ARS",
+        "remitente": "Zoraida Ailen Perez",
+        "remitente_cuil": "27-41835272-3",
+        "destinatario": "SASTEUP SRL",
+        "banco_origen": "AstroPay",
+        "banco_destino": "",
+        "referencia": "7L8GYKNX05KP361Q2MPRZ5",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CVU remitente: 0000177506251007421079. CVU receptor: 0000155300000000009977. Alias receptor: cvu.977. CUIT receptor: 30717282252.",
+        "_num": 1928,
+        "_fecha_carga": "18/06/2026 15:43",
+        "_origen": "grupo",
+        "_pie": "Zoraida Ailen Perez\n27418352723"
       }
     ],
     "errores": [],
