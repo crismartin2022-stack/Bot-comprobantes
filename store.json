@@ -41358,6 +41358,28 @@
         "_fecha_carga": "18/06/2026 15:35",
         "_origen": "grupo",
         "_pie": "Nicolas Daniel Isleno\nNaranja X\n4530000800015520462883\n20-43810968-5"
+      },
+      {
+        "fecha": "15/06/2026",
+        "hora": "21:16",
+        "tipo": "TRF",
+        "monto": 70000.0,
+        "moneda": "ARS",
+        "remitente": "Lucas Roman Cardozo Zevallos",
+        "remitente_cuil": "20-47650455-5",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "164301178196",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: 3D5W612E6Z74ZYJL2GXYVR. CVU destinatario: 0000155300000000009977. CVU remitente: 0000003100027614740487. CUIT destinatario: 30-71728225-2.",
+        "_num": 1876,
+        "_fecha_carga": "18/06/2026 15:35",
+        "_origen": "grupo",
+        "_pie": "Lucas Roman Cardozo Zevallos\nCUIT/CUIL: 20-47650455-5"
       }
     ],
     "errores": [],
