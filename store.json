@@ -41866,6 +41866,28 @@
         "_fecha_carga": "18/06/2026 15:38",
         "_origen": "grupo",
         "_pie": "Julieta Abigail Caballero\nCUIT/CUIL: 27-47118920-6"
+      },
+      {
+        "fecha": "15/06/2026",
+        "hora": "22:27",
+        "tipo": "TRF",
+        "monto": 300000.0,
+        "moneda": "ARS",
+        "remitente": "Luzdary Falla",
+        "remitente_cuil": "27-96142180-8",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163495109397",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: WGRXJE27DX1KQZEJN7MYQL. CUIT destinatario: 30-71728225-2. CVU remitente: 0000003100039447468168. CVU destinatario: 0000155300000000009977.",
+        "_num": 1899,
+        "_fecha_carga": "18/06/2026 15:38",
+        "_origen": "grupo",
+        "_pie": "Luzdary Falla\nCUIT/CUIL: 27-96142180-8"
       }
     ],
     "errores": [],
