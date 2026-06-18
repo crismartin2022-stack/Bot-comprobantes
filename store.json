@@ -28586,6 +28586,28 @@
         "_fecha_carga": "18/06/2026 13:35",
         "_origen": "grupo",
         "_pie": "Porfiria Prieto Benitez\nCUIT/CUIL: 27-92745431-4"
+      },
+      {
+        "fecha": "14/06/2026",
+        "hora": "20:07",
+        "tipo": "TRF",
+        "monto": 200000.0,
+        "moneda": "ARS",
+        "remitente": "Enzo Alexis Solis",
+        "remitente_cuil": "20-46682028-9",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163330337429",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: 76V4MR2Z74833K18NDEZOL. CVU remitente: 0000003100069106186241. CVU destinatario: 0000155300000000000009977.",
+        "_num": 1297,
+        "_fecha_carga": "18/06/2026 13:35",
+        "_origen": "grupo",
+        "_pie": "ENZO SOLIS\n20-46682028-9"
       }
     ],
     "errores": [],
