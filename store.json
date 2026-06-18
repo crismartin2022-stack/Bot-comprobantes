@@ -8751,6 +8751,28 @@
         "_fecha_carga": "17/06/2026 23:18",
         "_origen": "grupo",
         "_pie": "Foto de Ges"
+      },
+      {
+        "fecha": "10/06/2026",
+        "hora": "13:41",
+        "tipo": "TRF",
+        "monto": 20000.0,
+        "moneda": "ARS",
+        "remitente": "Diana Valeria MuÑoz",
+        "remitente_cuil": "26.597.148",
+        "destinatario": "SASTEUP SRL",
+        "banco_origen": "Cuenta DNI",
+        "banco_destino": "",
+        "referencia": "Z0KV87940PMPK1QDNPEYDX",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CVU destinatario: 0000155300000000009977. CUIL destinatario: 30717282252. Comprobante emitido por Cuenta DNI (Banco Provincia).",
+        "_num": 397,
+        "_fecha_carga": "17/06/2026 23:19",
+        "_origen": "grupo",
+        "_pie": "Foto de Ges"
       }
     ],
     "errores": [],
