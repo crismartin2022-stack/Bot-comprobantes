@@ -6128,6 +6128,28 @@
         "_fecha_carga": "17/06/2026 21:37",
         "_origen": "grupo",
         "_pie": "Gloria Felicia Nunez Fernandez\nNaranja X\n4530000800011600193663\n27-94216488-8"
+      },
+      {
+        "fecha": "13/06/2026",
+        "hora": "00:36",
+        "tipo": "TRF",
+        "monto": 200001.0,
+        "moneda": "ARS",
+        "remitente": "Aylen Maria Ester Gonzalez",
+        "remitente_cuil": "27-47506525-0",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163090572605",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: 7L8GYKNX051JMRRP2MPRZ5. CVU remitente: 0000003100043365068812. CVU destinatario: 0000155300000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 278,
+        "_fecha_carga": "17/06/2026 21:38",
+        "_origen": "grupo",
+        "_pie": "Aylen Maria Ester Gonzalez\nCUIT/CUIL: 27-47506525-0"
       }
     ],
     "errores": [],
