@@ -45674,6 +45674,28 @@
         "_fecha_carga": "18/06/2026 19:57",
         "_origen": "grupo",
         "_pie": "Roxana Beatriz Olmos\nNaranja X\n4530000800015357098541\n27-30134583-1"
+      },
+      {
+        "fecha": "12/06/2026",
+        "hora": "00:54",
+        "tipo": "TRF",
+        "monto": 50000.0,
+        "moneda": "ARS",
+        "remitente": "Keila Nadine Indice",
+        "remitente_cuil": "27-46194282-8",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163727156318",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: Z4K6DVNOWZKLMLJK25J8LQ. CUIT destinatario: 30-71728225-2. CVU destinatario completo: 0000155300000000000009977",
+        "_num": 109,
+        "_fecha_carga": "18/06/2026 19:57",
+        "_origen": "grupo",
+        "_pie": "Keila Nadine Indice\nCUIT/CUIL: 27-46194282-8"
       }
     ],
     "errores": [],
