@@ -17387,6 +17387,28 @@
         "_fecha_carga": "18/06/2026 00:25",
         "_origen": "grupo",
         "_pie": "virginia celia artiles   27-22123917-8"
+      },
+      {
+        "fecha": "13/06/2026",
+        "hora": "20:38",
+        "tipo": "TRF",
+        "monto": 50000.0,
+        "moneda": "ARS",
+        "remitente": "Virginia Celia Artiles",
+        "remitente_cuil": "",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Lemon",
+        "banco_destino": "CVU",
+        "referencia": "RD06ZO9WVR1MZVP1N5GP7X",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CUIT destinatario: 30717282252. CBU destinatario: 0000155300000000009977. ID de la transacción: 77f7ab62-4a7d-4278-b9bb-21cf986da3dd. Comprobante emitido por Lemon, powered by Digifin.",
+        "_num": 789,
+        "_fecha_carga": "18/06/2026 00:25",
+        "_origen": "grupo",
+        "_pie": "Grosso Fernando Javier  20-22624458-2"
       }
     ],
     "errores": [],
