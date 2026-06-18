@@ -33502,6 +33502,28 @@
         "_fecha_carga": "18/06/2026 14:08",
         "_origen": "grupo",
         "_pie": "Zarate, Elio Edgardo\nCUIL/CUIT\n20-46385251-1"
+      },
+      {
+        "fecha": "12/06/2026",
+        "hora": "19:49",
+        "tipo": "TRF",
+        "monto": 100000.0,
+        "moneda": "ARS",
+        "remitente": "Martin Ignacio Herrera",
+        "remitente_cuil": "",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Lemon",
+        "banco_destino": "CVU",
+        "referencia": "46YGOW9M1YKRY45QNEXD8J",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CUIT destinatario: 30717282252. CBU destino: 0000155300000000009977. ID de la transacción: 9940780c-ecf6-4635-b71f-66cd64ecdaa1. Comprobante emitido por Lemon powered by Digifin.",
+        "_num": 1520,
+        "_fecha_carga": "18/06/2026 14:09",
+        "_origen": "grupo",
+        "_pie": "Martin Ignacio Herrera\nPersona destinataria\nNombre\nCUIT\nCBU\nBanco destino\nMotivo\nSasteup Srl"
       }
     ],
     "errores": [],
