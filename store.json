@@ -49734,6 +49734,28 @@
         "_fecha_carga": "18/06/2026 20:21",
         "_origen": "grupo",
         "_pie": "Miriam Lili Nunez Fernandez\nCUIT/CUIL: 27-94216492-6"
+      },
+      {
+        "fecha": "13/06/2026",
+        "hora": "00:42",
+        "tipo": "TRF",
+        "monto": 150000.0,
+        "moneda": "ARS",
+        "remitente": "MATIAS EMMANUEL TORRES MOYANO",
+        "remitente_cuil": "20-32356439-7",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Banco De Galicia S.A.U",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "42092337758",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CVU destinatario: 0000155300000000009977. CUIT destinatario: 30-71728225-2. ID COELSA: RD06ZO9WVR80577KN5GP7X",
+        "_num": 293,
+        "_fecha_carga": "18/06/2026 20:21",
+        "_origen": "grupo",
+        "_pie": "MATIAS EMMANUEL TORRES MOYANO\nCUIT 20-32356439-7"
       }
     ],
     "errores": [],
