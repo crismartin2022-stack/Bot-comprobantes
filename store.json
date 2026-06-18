@@ -32226,6 +32226,28 @@
         "_fecha_carga": "18/06/2026 14:00",
         "_origen": "grupo",
         "_pie": "Victor Hugo Minue\nCUIT/CUIL\n20374912284"
+      },
+      {
+        "fecha": "11/06/2026",
+        "hora": "16:47",
+        "tipo": "TRF",
+        "monto": 250000.0,
+        "moneda": "ARS",
+        "remitente": "Juncos, Carlos Nicolas",
+        "remitente_cuil": "20-37491213-6",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Personal Pay",
+        "banco_destino": "",
+        "referencia": "2733313176",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CoelsaID: 67REZ8NPQV0WVD1K94KVGO - Id Bancario. CUIL/CUIT destinatario: 30-71728225-2. CBU/CVU receptor: 0000155300000000009977",
+        "_num": 1462,
+        "_fecha_carga": "18/06/2026 14:00",
+        "_origen": "grupo",
+        "_pie": "Juncos, Carlos Nicolas\n20-37491213-6"
       }
     ],
     "errores": [],
