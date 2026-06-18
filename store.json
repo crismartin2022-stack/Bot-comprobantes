@@ -22787,6 +22787,28 @@
         "_fecha_carga": "18/06/2026 12:50",
         "_origen": "grupo",
         "_pie": "Bravo valeria\n31012993"
+      },
+      {
+        "fecha": "14/06/2026",
+        "hora": "14:28",
+        "tipo": "TRF",
+        "monto": 120000.0,
+        "moneda": "ARS",
+        "remitente": "Katherina Elisa Medina Martinez",
+        "remitente_cuil": "27-38410644-2",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "164102811856",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: WY7ZEPN6MKM8GZG42Q0M51. CVU remitente: 0000003100054549483051. CVU destinatario: 0000155300000000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 1034,
+        "_fecha_carga": "18/06/2026 12:50",
+        "_origen": "grupo",
+        "_pie": "Katherina Martínez \n27-38410644-2"
       }
     ],
     "errores": [],
