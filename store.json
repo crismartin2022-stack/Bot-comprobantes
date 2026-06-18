@@ -35904,6 +35904,28 @@
         "_fecha_carga": "18/06/2026 14:46",
         "_origen": "grupo",
         "_pie": "liliana morales\n28672986"
+      },
+      {
+        "fecha": "11/06/2026",
+        "hora": "13:59",
+        "tipo": "TRF",
+        "monto": 10000.0,
+        "moneda": "ARS",
+        "remitente": "LISANDRO MAXIMILIANO SILVA",
+        "remitente_cuil": "20-33142617-3",
+        "destinatario": "Sercob SA",
+        "banco_origen": "Pago Fácil",
+        "banco_destino": "Pago Fácil",
+        "referencia": "8XYI-JTZI-PATM",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "6872",
+        "tiene_remitente": true,
+        "notas": "CVU origen: 0000077200132502792117. CVU destino: 0000133100000000586872. CUIT destinatario: 30-70828227-4. Tipo de operación: Débito.",
+        "_num": 1629,
+        "_fecha_carga": "18/06/2026 14:46",
+        "_origen": "grupo",
+        "_pie": "Lisandro silva\n 33142617"
       }
     ],
     "errores": [],
