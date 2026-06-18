@@ -46977,6 +46977,28 @@
         "_fecha_carga": "18/06/2026 20:04",
         "_origen": "grupo",
         "_pie": "Noemi Ayda Duarte\nCUIT/CUIL: 27-24131220-3"
+      },
+      {
+        "fecha": "12/06/2026",
+        "hora": "19:26",
+        "tipo": "TRF",
+        "monto": 30000.0,
+        "moneda": "ARS",
+        "remitente": "YESICA FERNANDA VERON",
+        "remitente_cuil": "27-39551094-6",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Banco De Galicia S.A.U",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "42089352888",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CVU destinatario: 0000155300000000009977. CUIT destinatario: 30-71728225-2. ID COELSA: 76V4MR2Z7Q4OVOV0NDEZOL",
+        "_num": 168,
+        "_fecha_carga": "18/06/2026 20:05",
+        "_origen": "grupo",
+        "_pie": "YESICA FERNANDA VERON\nCUIT 27-39551094-6"
       }
     ],
     "errores": [],
