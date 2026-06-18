@@ -2200,6 +2200,28 @@
         "_fecha_carga": "17/06/2026 21:12",
         "_origen": "grupo",
         "_pie": "Vicchio, Lautaro Fernando\n23-44961652-9"
+      },
+      {
+        "fecha": "12/06/2026",
+        "hora": "00:50",
+        "tipo": "TRF",
+        "monto": 250000.0,
+        "moneda": "ARS",
+        "remitente": "Brepe, Kevin Agustin",
+        "remitente_cuil": "20-42196385-2",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Personal Pay",
+        "banco_destino": "",
+        "referencia": "2734550758",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CoelsaID: RD06ZO9WV7JL6JDXN5GP7X - Id Bancario. CUIT destinatario: 30-71728225-2. CBU/CVU receptor: 0000155300000000009977",
+        "_num": 100,
+        "_fecha_carga": "17/06/2026 21:12",
+        "_origen": "grupo",
+        "_pie": "Brepe, Kevin Agustin\n20-42196385-2"
       }
     ],
     "errores": [],
