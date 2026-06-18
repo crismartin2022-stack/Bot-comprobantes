@@ -7540,6 +7540,28 @@
         "_fecha_carga": "17/06/2026 23:11",
         "_origen": "grupo",
         "_pie": "Foto de Ges"
+      },
+      {
+        "fecha": "09/06/2026",
+        "hora": "14:58",
+        "tipo": "TRF",
+        "monto": 16000.0,
+        "moneda": "ARS",
+        "remitente": "Maria De Los Angeles Mazzini",
+        "remitente_cuil": "27-18330855-1",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163309799514",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CUIT destinatario: 30-71728225-2. Código de identificación: RD06ZO9WV73XK0OXN5GP7X. CVU remitente: 0000003100004546388224. CVU destinatario: 0000155300000000009977.",
+        "_num": 342,
+        "_fecha_carga": "17/06/2026 23:11",
+        "_origen": "grupo",
+        "_pie": "Foto de Ges"
       }
     ],
     "errores": [],
