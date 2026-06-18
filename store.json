@@ -34449,6 +34449,28 @@
         "_fecha_carga": "18/06/2026 14:36",
         "_origen": "grupo",
         "_pie": "Braian Damian Gerez\n20356596146\nPlutonos"
+      },
+      {
+        "fecha": "14/06/2026",
+        "hora": "13:08",
+        "tipo": "TRF",
+        "monto": 150000.0,
+        "moneda": "ARS",
+        "remitente": "Carmen Alejandra Vera",
+        "remitente_cuil": "27-23514318-1",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Naranja X",
+        "banco_destino": "Cuenta Virtual",
+        "referencia": "WY7ZEPN6MKM7WL5P2Q0M51",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CBU origen: 4530000800015200356413. CVU destino: 0000155300000000009977. CUIL destinatario: 30-71728225-2. Código de transacción: 3d59ed1d-58fb-4dc6-805c-5342d19016fe.",
+        "_num": 1563,
+        "_fecha_carga": "18/06/2026 14:36",
+        "_origen": "grupo",
+        "_pie": "Carmen Alejandra Vera\nNaranja X\nCBU\n4530000800015200356413\nCUIL\n27-23514318-1"
       }
     ],
     "errores": [],
