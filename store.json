@@ -38978,6 +38978,28 @@
         "_fecha_carga": "18/06/2026 15:07",
         "_origen": "grupo",
         "_pie": "Julieta Otazo \n44331952\nPlutonos"
+      },
+      {
+        "fecha": "13/06/2026",
+        "hora": "15:45",
+        "tipo": "TRF",
+        "monto": 100000.0,
+        "moneda": "ARS",
+        "remitente": "Walter Alejandro Forgia",
+        "remitente_cuil": "20-40191889-3",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Supervielle",
+        "banco_destino": "Lohas Sas",
+        "referencia": "LMORZP908LKO7WLPNEGJ46",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CBU/CVU origen: 0270144420054973950019. CBU/CVU destino: 0000155300000000009977. CUIT destinatario: 30-71728225-2",
+        "_num": 1768,
+        "_fecha_carga": "18/06/2026 15:07",
+        "_origen": "grupo",
+        "_pie": "Walter alejandro forgia 40191889"
       }
     ],
     "errores": [],
