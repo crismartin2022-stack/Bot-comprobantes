@@ -49822,6 +49822,28 @@
         "_fecha_carga": "18/06/2026 20:22",
         "_origen": "grupo",
         "_pie": "Martin Gabriel Ponce\nNaranja X\n4530000800016587877809\n20-44829401-4"
+      },
+      {
+        "fecha": "13/06/2026",
+        "hora": "00:48",
+        "tipo": "TRF",
+        "monto": 150000.0,
+        "moneda": "ARS",
+        "remitente": "Juan Pablo Juani",
+        "remitente_cuil": "20-42904568-2",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Naranja X",
+        "banco_destino": "Cuenta Virtual",
+        "referencia": "8D0Q619L0WL5E1GZN7JZ5R",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CBU origen: 4530000800019921086521. CVU destino: 0000155300000000009977. CUIL destinatario: 30-71728225-2. Código de transacción adicional: ea44e994-c99a-4113-b585-b662c54e7fa4",
+        "_num": 297,
+        "_fecha_carga": "18/06/2026 20:22",
+        "_origen": "grupo",
+        "_pie": "Juan Pablo Juani\nNaranja X\n4530000800019921086521\n20-42904568-2"
       }
     ],
     "errores": [],
