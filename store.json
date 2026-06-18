@@ -33832,6 +33832,28 @@
         "_fecha_carga": "18/06/2026 14:11",
         "_origen": "grupo",
         "_pie": "Fabian Augusto Villada Correa\nEntidad\nAlias\nCVU\n20949567878"
+      },
+      {
+        "fecha": "13/06/2026",
+        "hora": "23:00",
+        "tipo": "TRF",
+        "monto": 60000.0,
+        "moneda": "ARS",
+        "remitente": "Cynthia Noelia Mino Gonzalez",
+        "remitente_cuil": "27-40421715-7",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Naranja X",
+        "banco_destino": "Cuenta Virtual",
+        "referencia": "ORD6LEN8PY7WJPLONM1Y30",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de transacción adicional: c5dfaa6b-671e-49ed-9eff-1ceaf4b581a5. CVU destinatario: 0000155300000000009977. CBU remitente: 4530000800018822454187. CUIL destinatario: 30-71728225-2.",
+        "_num": 1535,
+        "_fecha_carga": "18/06/2026 14:11",
+        "_origen": "grupo",
+        "_pie": "Cynthia Noelia Mino Gonzalez\nNaranja X\nCBU\n4530000800018822454187\nCUIL\n27-40421715-7"
       }
     ],
     "errores": [],
