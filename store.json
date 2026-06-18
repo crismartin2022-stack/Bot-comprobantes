@@ -32380,6 +32380,28 @@
         "_fecha_carga": "18/06/2026 14:01",
         "_origen": "grupo",
         "_pie": "Rocio Soledad Gieco\nCUIT/CUIL: 27-40109926-9"
+      },
+      {
+        "fecha": "12/06/2026",
+        "hora": "19:00",
+        "tipo": "TRF",
+        "monto": 195000.0,
+        "moneda": "ARS",
+        "remitente": "Desiree Anabel Toranzo",
+        "remitente_cuil": "",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Ualá",
+        "banco_destino": "",
+        "referencia": "Z6OLMDN3VK3L7X7Y2E7RQ5",
+        "concepto": "VAR",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CUIT destino: 30717282252. CBU destino completo: 0000155300000000009977",
+        "_num": 1469,
+        "_fecha_carga": "18/06/2026 14:01",
+        "_origen": "grupo",
+        "_pie": "CUIT destino\n30717282252\nNombre remitente\nDesiree Anabel Toranzo\nConcepto\nVAR"
       }
     ],
     "errores": [],
