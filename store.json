@@ -20098,6 +20098,28 @@
         "_fecha_carga": "18/06/2026 00:41",
         "_origen": "grupo",
         "_pie": ""
+      },
+      {
+        "fecha": "13/06/2026",
+        "hora": "16:07",
+        "tipo": "TRF",
+        "monto": 45000.0,
+        "moneda": "ARS",
+        "remitente": "Hugo Daniel Villalba",
+        "remitente_cuil": "20-39720772-3",
+        "destinatario": "SASTEUP SRL",
+        "banco_origen": "AstroPay",
+        "banco_destino": "",
+        "referencia": "",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CVU remitente: 0000177506243006041437. CVU receptor: 0000155300000000009977. CUIT receptor: 30-71728225-2. Alias receptor: cvu.977",
+        "_num": 912,
+        "_fecha_carga": "18/06/2026 00:41",
+        "_origen": "grupo",
+        "_pie": ""
       }
     ],
     "errores": [],
