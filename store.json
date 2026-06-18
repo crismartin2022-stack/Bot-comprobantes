@@ -13245,6 +13245,28 @@
         "_fecha_carga": "17/06/2026 23:49",
         "_origen": "grupo",
         "_pie": "Foto de Clohe😎"
+      },
+      {
+        "fecha": "10/06/2026",
+        "hora": "11:36",
+        "tipo": "TRF",
+        "monto": 40000.0,
+        "moneda": "ARS",
+        "remitente": "Maria Del Carmen Fernandez",
+        "remitente_cuil": "23-12682652-4",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Naranja X",
+        "banco_destino": "Cuenta Virtual",
+        "referencia": "0V1JXON1LWJ0WV0PNZ64EL",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CBU origen: 4530000800011669619490. CVU destino: 0000155300000000009977. CUIL destinatario: 30-71728225-2. Código de transacción: b24a268d-4a9b-456a-8bf2-43d4ea10af0b",
+        "_num": 601,
+        "_fecha_carga": "17/06/2026 23:49",
+        "_origen": "grupo",
+        "_pie": "Foto de Clohe😎"
       }
     ],
     "errores": [],
