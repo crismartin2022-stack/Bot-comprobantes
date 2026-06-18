@@ -3105,6 +3105,28 @@
         "_fecha_carga": "17/06/2026 21:19",
         "_origen": "grupo",
         "_pie": "Yesica Noemi Morales\nCUIT/CUIL: 23-30853348-4"
+      },
+      {
+        "fecha": "12/06/2026",
+        "hora": "16:14",
+        "tipo": "TRF",
+        "monto": 30000.0,
+        "moneda": "ARS",
+        "remitente": "Gloria Felicia Nunez Fernandez",
+        "remitente_cuil": "27-94216488-8",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Naranja X",
+        "banco_destino": "Cuenta Virtual",
+        "referencia": "L18MKX9RX88468JE9O6WYV",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CBU origen: 4530000800011600193663. CVU destino: 0000155300000000009977. CUIL destinatario: 30-71728225-2. Código de transacción: 2f4756cb-99e9-4b66-9dfc-4a7cfbeb2b42",
+        "_num": 141,
+        "_fecha_carga": "17/06/2026 21:19",
+        "_origen": "grupo",
+        "_pie": "Gloria Felicia Nunez Fernandez\nNaranja X\n4530000800011600193663\n27-94216488-8"
       }
     ],
     "errores": [],
