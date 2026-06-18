@@ -34471,6 +34471,28 @@
         "_fecha_carga": "18/06/2026 14:36",
         "_origen": "grupo",
         "_pie": "Carmen Alejandra Vera\nNaranja X\nCBU\n4530000800015200356413\nCUIL\n27-23514318-1"
+      },
+      {
+        "fecha": "11/06/2026",
+        "hora": "21:53",
+        "tipo": "TRF",
+        "monto": 300000.0,
+        "moneda": "ARS",
+        "remitente": "Diego Eduardo Barahona",
+        "remitente_cuil": "20-26779822-3",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "162901018019",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: D4RO172VZG0EKQ1KNKJ3QE. CVU remitente: 0000003100089391247362. CVU destinatario: 0000155300000000009977. CUIT destinatario: 30-71728225-2",
+        "_num": 1564,
+        "_fecha_carga": "18/06/2026 14:36",
+        "_origen": "grupo",
+        "_pie": "Diego barahona 26779822"
       }
     ],
     "errores": [],
