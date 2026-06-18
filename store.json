@@ -42858,6 +42858,28 @@
         "_fecha_carga": "18/06/2026 15:45",
         "_origen": "grupo",
         "_pie": "De:\nJIMENA BELEN BREST\nCUIT 27-39984557-8"
+      },
+      {
+        "fecha": "16/06/2026",
+        "hora": "01:00",
+        "tipo": "TRF",
+        "monto": 25000.0,
+        "moneda": "ARS",
+        "remitente": "Marciana Martinez",
+        "remitente_cuil": "27-94752813-6",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163508152223",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CUIT destinatario: 30-71728225-2. CVU remitente: 0000003100031879260165. CVU destinatario: 0000155300000000009977. Código de identificación: 8D0Q619L0WPXDY73N7JZ5R",
+        "_num": 1944,
+        "_fecha_carga": "18/06/2026 15:45",
+        "_origen": "grupo",
+        "_pie": "Marciana Martinez\nCUIT/CUIL: 27-94752813-6"
       }
     ],
     "errores": [],
