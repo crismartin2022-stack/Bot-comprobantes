@@ -25610,6 +25610,28 @@
         "_fecha_carga": "18/06/2026 13:10",
         "_origen": "grupo",
         "_pie": "Juliana palavecino \n47337453"
+      },
+      {
+        "fecha": "13/06/2026",
+        "hora": "23:23",
+        "tipo": "TRF",
+        "monto": 100000.0,
+        "moneda": "ARS",
+        "remitente": "Eduardo Adrian Perez",
+        "remitente_cuil": "20-31598874-9",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163234678855",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: PDX4OGNYGP13YLK4N0L6EY. CUIT destinatario: 30-71728225-2. CVU destinatario: 0000155300000000000009977",
+        "_num": 1162,
+        "_fecha_carga": "18/06/2026 13:10",
+        "_origen": "grupo",
+        "_pie": "Eduardo Adrian Perez\nCUIT/CUIL: 20-31598874-9"
       }
     ],
     "errores": [],
