@@ -24465,6 +24465,28 @@
         "_fecha_carga": "18/06/2026 13:02",
         "_origen": "grupo",
         "_pie": "Florencia Sofia Garcia\nCUIT/CUIL: 27-41765707-5"
+      },
+      {
+        "fecha": "13/06/2026",
+        "hora": "18:59",
+        "tipo": "TRF",
+        "monto": 150000.0,
+        "moneda": "ARS",
+        "remitente": "Zoe Agustina Aguilar",
+        "remitente_cuil": "",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Lemon",
+        "banco_destino": "CVU",
+        "referencia": "JMQKYZ9QQVO1Q8869V50P3",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CUIT destinatario: 30717282252. CBU destinatario: 0000155300000000009977. ID de la transacción: 3401e783-ec91-445a-9cee-ac85bb505a1a. Comprobante emitido por Lemon powered by Digifin.",
+        "_num": 1110,
+        "_fecha_carga": "18/06/2026 13:02",
+        "_origen": "grupo",
+        "_pie": "Zoe aguilar 46682878"
       }
     ],
     "errores": [],
