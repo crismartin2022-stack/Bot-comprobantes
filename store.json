@@ -19262,6 +19262,28 @@
         "_fecha_carga": "18/06/2026 00:37",
         "_origen": "grupo",
         "_pie": ""
+      },
+      {
+        "fecha": "14/06/2026",
+        "hora": "14:12",
+        "tipo": "TRF",
+        "monto": 56397.0,
+        "moneda": "ARS",
+        "remitente": "Cristian Gustavo Ponillaux",
+        "remitente_cuil": "20-32950529-5",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "164101175740",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: 86VRPQ2GMLMJZJO02GLY0M. CUIT destinatario: 30-71728225-2. CVU remitente: 0000003100062257698935. CVU destinatario: 0000155300000000009977.",
+        "_num": 874,
+        "_fecha_carga": "18/06/2026 00:37",
+        "_origen": "grupo",
+        "_pie": ""
       }
     ],
     "errores": [],
