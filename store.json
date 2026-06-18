@@ -38161,6 +38161,28 @@
         "_fecha_carga": "18/06/2026 15:02",
         "_origen": "grupo",
         "_pie": "Torres Diego 45218233"
+      },
+      {
+        "fecha": "13/06/2026",
+        "hora": "14:22",
+        "tipo": "TRF",
+        "monto": 150000.0,
+        "moneda": "ARS",
+        "remitente": "Leandro Fabian Badie",
+        "remitente_cuil": "20-33894359-9",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163966196092",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: 1LMP68NKVE64D3VK2R7OEV. CVU remitente: 0000003100064061386501. CVU destinatario: 0000155300000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 1731,
+        "_fecha_carga": "18/06/2026 15:02",
+        "_origen": "grupo",
+        "_pie": "Leandro badie\n20338943599"
       }
     ],
     "errores": [],
