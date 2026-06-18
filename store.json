@@ -20582,6 +20582,28 @@
         "_fecha_carga": "18/06/2026 00:44",
         "_origen": "grupo",
         "_pie": "JESICA LUDUEÑA \n\nDNI: 40.683.762"
+      },
+      {
+        "fecha": "13/06/2026",
+        "hora": "22:13",
+        "tipo": "TRF",
+        "monto": 300000.0,
+        "moneda": "ARS",
+        "remitente": "miguel angel gomez",
+        "remitente_cuil": "",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Ualá",
+        "banco_destino": "",
+        "referencia": "R7ZG0QND W1JZ8LGD9EXYPO",
+        "concepto": "VAR",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CBU destino: 0000155300000000009977. CUIT destino: 30717282252. Comprobante de transferencia emitido por Ualá.",
+        "_num": 934,
+        "_fecha_carga": "18/06/2026 00:44",
+        "_origen": "grupo",
+        "_pie": "Miguel Ángel Gómez 36462022"
       }
     ],
     "errores": [],
