@@ -13378,6 +13378,28 @@
         "_fecha_carga": "17/06/2026 23:50",
         "_origen": "grupo",
         "_pie": "Foto de Clohe😎"
+      },
+      {
+        "fecha": "10/06/2026",
+        "hora": "14:04",
+        "tipo": "TRF",
+        "monto": 10000.0,
+        "moneda": "ARS",
+        "remitente": "Cintia Daniela Alejandra Pogonza",
+        "remitente_cuil": "27-34372170-1",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "162664598493",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: JMQKYZ9QQ0YV6ELQ9V50P3. CVU remitente: 0000003100011000892175. CVU destinatario: 0000155300000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 607,
+        "_fecha_carga": "17/06/2026 23:50",
+        "_origen": "grupo",
+        "_pie": "Foto de Clohe😎"
       }
     ],
     "errores": [],
