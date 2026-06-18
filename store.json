@@ -45212,6 +45212,28 @@
         "_fecha_carga": "18/06/2026 19:54",
         "_origen": "grupo",
         "_pie": "vía Fernandez, Luis Alberto\nCUIL/CUIT 23-29643124-9"
+      },
+      {
+        "fecha": "12/06/2026",
+        "hora": "00:04",
+        "tipo": "TRF",
+        "monto": 50000.0,
+        "moneda": "ARS",
+        "remitente": "Martin Gabriel Ponce",
+        "remitente_cuil": "20-44829401-4",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Naranja X",
+        "banco_destino": "Cuenta Virtual",
+        "referencia": "WY7ZEPN6M4EZWW0Q2Q0M51",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CBU origen: 4530000800016587877809. CVU destino: 0000155300000000009977. CUIL destinatario: 30-71728225-2. Código de transacción: ab05119f-cfcc-4e3c-926a-c5b6e23b0cf6",
+        "_num": 88,
+        "_fecha_carga": "18/06/2026 19:54",
+        "_origen": "grupo",
+        "_pie": "Martin Gabriel Ponce\nNaranja X\n4530000800016587877809\n20-44829401-4"
       }
     ],
     "errores": [],
