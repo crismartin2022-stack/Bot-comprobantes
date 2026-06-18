@@ -53658,6 +53658,28 @@
         "_fecha_carga": "18/06/2026 20:46",
         "_origen": "grupo",
         "_pie": "Jesús Fernández \nDni: 43.847.444"
+      },
+      {
+        "fecha": "11/06/2026",
+        "hora": "21:21",
+        "tipo": "TRF",
+        "monto": 30000.0,
+        "moneda": "ARS",
+        "remitente": "Evelin Soledad Saavedra",
+        "remitente_cuil": "27-37929781-7",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163704701414",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CUIT destinatario: 30-71728225-2. Código de identificación: 76V4MR2Z7QMLKJ10NDEZOL. CVU remitente: 0000003100057399580800. CVU destinatario: 0000155300000000000009977",
+        "_num": 471,
+        "_fecha_carga": "18/06/2026 20:46",
+        "_origen": "grupo",
+        "_pie": "Foto de Ges"
       }
     ],
     "errores": [],
