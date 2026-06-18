@@ -35331,6 +35331,28 @@
         "_fecha_carga": "18/06/2026 14:42",
         "_origen": "grupo",
         "_pie": "Carlos Daniel silva \n\nDNI: 29.165.124"
+      },
+      {
+        "fecha": "13/06/2026",
+        "hora": "02:02",
+        "tipo": "TRF",
+        "monto": 20000.0,
+        "moneda": "ARS",
+        "remitente": "Cristian Daniel Pineiro",
+        "remitente_cuil": "20-32269553-6",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163905211338",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: 7L8GYKNX0517M1GK2MPRZ5. CVU remitente: 0000003100063539852434. CVU destinatario: 0000155300000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 1603,
+        "_fecha_carga": "18/06/2026 14:42",
+        "_origen": "grupo",
+        "_pie": "Cristian Daniel Piñeiro\n\n32269553"
       }
     ],
     "errores": [],
