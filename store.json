@@ -1364,6 +1364,28 @@
         "_fecha_carga": "17/06/2026 21:06",
         "_origen": "grupo",
         "_pie": "Diego centurión  28455894"
+      },
+      {
+        "fecha": "11/06/2026",
+        "hora": "23:07",
+        "tipo": "TRF",
+        "monto": 400000.0,
+        "moneda": "ARS",
+        "remitente": "Cristian Ignacio Leiva",
+        "remitente_cuil": "20-38929714-4",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Naranja X",
+        "banco_destino": "Cuenta Virtual",
+        "referencia": "Z4K6DVNOWZK1J8P125J8LQ",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CBU origen: 4530000800010478156730. CVU destino: 0000155300000000009977. CUIL destinatario: 30-71728225-2. Código de transacción: 8c98f84c-31ab-4210-a59c-433b4bdba9fe",
+        "_num": 62,
+        "_fecha_carga": "17/06/2026 21:07",
+        "_origen": "grupo",
+        "_pie": "Cristian Ignacio Leiva\nNaranja X\n4530000800010478156730\n20-38929714-4"
       }
     ],
     "errores": [],
