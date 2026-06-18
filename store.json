@@ -11185,6 +11185,29 @@
         "_origen": "grupo",
         "_pie": "",
         "_duplicado": true
+      },
+      {
+        "fecha": "12/06/2026",
+        "hora": "13:53",
+        "tipo": "TRF",
+        "monto": 10000.0,
+        "moneda": "ARS",
+        "remitente": "Vanesa Isabel Amaya",
+        "remitente_cuil": "31.117.134",
+        "destinatario": "SASTEUP SRL",
+        "banco_origen": "Cuenta DNI",
+        "banco_destino": "",
+        "referencia": "R7ZG0QNDWQQXZ7G49EXYPO",
+        "concepto": "Expensas",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CVU destinatario: 0000155300000000000009977. CUIL destinatario: 30717282252. Referencia adicional: Varios.",
+        "_num": 506,
+        "_fecha_carga": "17/06/2026 23:35",
+        "_origen": "grupo",
+        "_pie": "Foto de .",
+        "_duplicado": true
       }
     ]
   },
