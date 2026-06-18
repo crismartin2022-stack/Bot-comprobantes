@@ -32534,6 +32534,28 @@
         "_fecha_carga": "18/06/2026 14:02",
         "_origen": "grupo",
         "_pie": "Figueroa, Oriana Milagros\nCUIL/CUIT\n27-45662407-9"
+      },
+      {
+        "fecha": "11/06/2025",
+        "hora": "15:29",
+        "tipo": "TRF",
+        "monto": 289000.0,
+        "moneda": "ARS",
+        "remitente": "Damian Alejandro Mansilla",
+        "remitente_cuil": "",
+        "destinatario": "SASTEUP SRL",
+        "banco_origen": "Claro Pay",
+        "banco_destino": "Lohas",
+        "referencia": "WB260611.1529.D76100",
+        "concepto": "Enviaste dinero",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CVU remitente: 0000085700204865947652 | Alias remitente: 20486594765.claropay | CUIT/CUIL destinatario: 30717282252 | CVU destinatario: 0000155300000000009977 | N° operación COELSA: 76V4MR2Z7QJQQ3V8NDEZOL",
+        "_num": 1476,
+        "_fecha_carga": "18/06/2026 14:02",
+        "_origen": "grupo",
+        "_pie": "Damian Alejandro Mansilla\nCuenta Claro Pay\nCVU: 0000085700204865947652"
       }
     ],
     "errores": [],
