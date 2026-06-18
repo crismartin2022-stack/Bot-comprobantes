@@ -50438,6 +50438,28 @@
         "_fecha_carga": "18/06/2026 20:26",
         "_origen": "grupo",
         "_pie": "Migliore, Sasha Aldana\n27-40428040-1"
+      },
+      {
+        "fecha": "13/06/2026",
+        "hora": "12:13",
+        "tipo": "TRF",
+        "monto": 100000.0,
+        "moneda": "ARS",
+        "remitente": "Natalia Ailen Di Giorgio Suarez",
+        "remitente_cuil": "27-47758744-0",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163945796522",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: 8D0Q619L0WYO4MJ8N7JZ5R. CUIT destinatario: 30-71728225-2. CVU destinatario completo: 0000155300000000000009977",
+        "_num": 325,
+        "_fecha_carga": "18/06/2026 20:26",
+        "_origen": "grupo",
+        "_pie": "Natalia Ailen Di Giorgio Suarez\nCUIT/CUIL: 27-47758744-0"
       }
     ],
     "errores": [],
