@@ -50504,6 +50504,28 @@
         "_fecha_carga": "18/06/2026 20:26",
         "_origen": "grupo",
         "_pie": "Brian David Munoz\nCUIT/CUIL: 20-44141951-2"
+      },
+      {
+        "fecha": "13/06/2026",
+        "hora": "16:02",
+        "tipo": "TRF",
+        "monto": 20000.0,
+        "moneda": "ARS",
+        "remitente": "Alberto Jesus Cortes",
+        "remitente_cuil": "",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Ualá",
+        "banco_destino": "",
+        "referencia": "JMQKYZ9QQV43E8369V50P3",
+        "concepto": "VAR",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CUIT destino: 30717282252. CBU destino completo: 0000155300000000009977",
+        "_num": 328,
+        "_fecha_carga": "18/06/2026 20:26",
+        "_origen": "grupo",
+        "_pie": "Alberto jesús Cortes\n38.984.074"
       }
     ],
     "errores": [],
