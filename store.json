@@ -31631,6 +31631,28 @@
         "_fecha_carga": "18/06/2026 13:56",
         "_origen": "grupo",
         "_pie": "Camila Ayelen Mendoza\nNaranja X\nCBU\n4530000800015835679101\nCUIL\n27-38014527-3"
+      },
+      {
+        "fecha": "12/06/2026",
+        "hora": "21:53",
+        "tipo": "TRF",
+        "monto": 1100000.0,
+        "moneda": "ARS",
+        "remitente": "Monica Beatriz Varela",
+        "remitente_cuil": "27-23839818-0",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Naranja X",
+        "banco_destino": "Cuenta Virtual",
+        "referencia": "RD06ZO9WVR8EYPE1N5GP7X",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CBU origen: 4530000800012563817681. CVU destino: 0000155300000000009977. CUIL destinatario: 30-71728225-2. Código de transacción: fe4ad87d-c0b6-4064-9ced-d3158b81cfbb",
+        "_num": 1435,
+        "_fecha_carga": "18/06/2026 13:56",
+        "_origen": "grupo",
+        "_pie": "Monica Beatriz Varela\nNaranja X\nCBU\n4530000800012563817681\nCUIL\n27-23839818-0"
       }
     ],
     "errores": [],
