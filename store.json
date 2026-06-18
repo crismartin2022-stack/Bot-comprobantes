@@ -27331,6 +27331,28 @@
         "_fecha_carga": "18/06/2026 13:22",
         "_origen": "grupo",
         "_pie": "Ariel Sebastian Lezama\nCUIT/CUIL: 20-33608013-5"
+      },
+      {
+        "fecha": "14/06/2026",
+        "hora": "14:16",
+        "tipo": "TRF",
+        "monto": 500000.0,
+        "moneda": "ARS",
+        "remitente": "Medero, Marianela Alessandra",
+        "remitente_cuil": "27-47081108-6",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Personal Pay",
+        "banco_destino": "",
+        "referencia": "2742571993",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CBU/CVU receptor: 0000155300000000009977. CoelsaID: LOEJWV9JZ3ZMPWYZ2QMD0G - Id Bancario. CUIL/CUIT receptor: 30-71728225-2",
+        "_num": 1240,
+        "_fecha_carga": "18/06/2026 13:22",
+        "_origen": "grupo",
+        "_pie": "Medero, Marianela Alessandra\nCUIL/CUIT 27-47081108-6"
       }
     ],
     "errores": [],
