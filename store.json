@@ -45036,6 +45036,28 @@
         "_fecha_carga": "18/06/2026 19:53",
         "_origen": "grupo",
         "_pie": "Miriam Lili Nunez Fernandez\nCUIT/CUIL: 27-94216492-6"
+      },
+      {
+        "fecha": "11/06/2026",
+        "hora": "23:35",
+        "tipo": "TRF",
+        "monto": 30000.0,
+        "moneda": "ARS",
+        "remitente": "Marlene Aylen Delvalle Candia",
+        "remitente_cuil": "27-43655374-4",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Naranja X",
+        "banco_destino": "Cuenta Virtual",
+        "referencia": "Z0KV87940P3OZKXQNPEYDX",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CBU origen: 4530000800019471393708. CVU destino: 0000155300000000009977. CUIL destinatario: 30-71728225-2. Código de transacción: 03a2aaba-d57f-4ec9-968f-85ca44efa755",
+        "_num": 80,
+        "_fecha_carga": "18/06/2026 19:53",
+        "_origen": "grupo",
+        "_pie": "Marlene Aylen Delvalle Candia\nNaranja X\n4530000800019471393708\n27-43655374-4"
       }
     ],
     "errores": [],
