@@ -30086,6 +30086,28 @@
         "_fecha_carga": "18/06/2026 13:45",
         "_origen": "grupo",
         "_pie": "Ademar Gamboa 47.794.691"
+      },
+      {
+        "fecha": "14/06/2026",
+        "hora": "23:55",
+        "tipo": "TRF",
+        "monto": 250000.0,
+        "moneda": "ARS",
+        "remitente": "Emilio Alberto Wollert",
+        "remitente_cuil": "23-19080022-9",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Naranja X",
+        "banco_destino": "Cuenta Virtual",
+        "referencia": "Z0KV87940E7381P4NPEYDX",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CVU destinatario: 0000155300000000009977. CUIL destinatario: 30-71728225-2. Código de transacción adicional: 0bf7380b-112b-4f67-997a-38656d4ba114",
+        "_num": 1365,
+        "_fecha_carga": "18/06/2026 13:45",
+        "_origen": "grupo",
+        "_pie": "Emilio Alberto Wollert\nNaranja X\n4530000800010383588697\n23-19080022-9"
       }
     ],
     "errores": [],
