@@ -47066,6 +47066,28 @@
         "_fecha_carga": "18/06/2026 20:05",
         "_origen": "grupo",
         "_pie": "Maria claudia ibarra \n28120532"
+      },
+      {
+        "fecha": "12/06/2026",
+        "hora": "19:32",
+        "tipo": "TRF",
+        "monto": 25000.0,
+        "moneda": "ARS",
+        "remitente": "Nicolas Daniel Isleno",
+        "remitente_cuil": "20-43810968-5",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163857681454",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CVU remitente: 0000003100099687211036. CVU destinatario: 0000155300000000000009977. CUIT destinatario: 30-71728225-2. Código de identificación: Z6OLMDN3VK35PYE62E7RQ5",
+        "_num": 172,
+        "_fecha_carga": "18/06/2026 20:05",
+        "_origen": "grupo",
+        "_pie": "Nicolas Daniel Isleno\nCUIT/CUIL: 20-43810968-5"
       }
     ],
     "errores": [],
