@@ -4539,6 +4539,28 @@
         "_fecha_carga": "17/06/2026 21:28",
         "_origen": "grupo",
         "_pie": "Pedro joaquin Martinez\nCuil: 20-48701881-4"
+      },
+      {
+        "fecha": "12/06/2026",
+        "hora": "22:15",
+        "tipo": "TRF",
+        "monto": 300001.0,
+        "moneda": "ARS",
+        "remitente": "Brian David Munoz",
+        "remitente_cuil": "20-44141951-2",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163885638338",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: PDX4OGNYGPR1DXD4N0L6EY. CUIL destinatario: 30-71728225-2. CVU destinatario: 0000155300000000000009977",
+        "_num": 206,
+        "_fecha_carga": "17/06/2026 21:28",
+        "_origen": "grupo",
+        "_pie": "Brian David Munoz\nCUIT/CUIL: 20-44141951-2"
       }
     ],
     "errores": [],
