@@ -38845,6 +38845,28 @@
         "_fecha_carga": "18/06/2026 15:06",
         "_origen": "grupo",
         "_pie": "Datos de la cuenta: karina gabriela del valle nunez\nDni 26187724\nPlataforma: pink\nUsuario: Redsol252"
+      },
+      {
+        "fecha": "15/06/2026",
+        "hora": "00:54",
+        "tipo": "TRF",
+        "monto": 230000.0,
+        "moneda": "ARS",
+        "remitente": "Karina Gabriela Del Valle Nuñez",
+        "remitente_cuil": "23-26187724-4",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Naranja X",
+        "banco_destino": "Cuenta Virtual",
+        "referencia": "D4RO172VZQPG4QVKNKJ3QE",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CBU origen: 4530000800013055539968. CVU destino: 0000155300000000009977. CUIL destinatario: 30-71728225-2. Código de transacción adicional: 48a9a9e5-3c1f-4986-8fcd-807a54c962e6",
+        "_num": 1762,
+        "_fecha_carga": "18/06/2026 15:07",
+        "_origen": "grupo",
+        "_pie": "Datos de la cuenta: karina gabriela del valle nunez\nDni 26187724\nPlataforma: pink\nUsuario: Redsol252"
       }
     ],
     "errores": [],
