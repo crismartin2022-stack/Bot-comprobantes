@@ -48123,6 +48123,28 @@
         "_fecha_carga": "18/06/2026 20:12",
         "_origen": "grupo",
         "_pie": "Micaela Acosta\nCUIT/CUIL: 27-37679548-4"
+      },
+      {
+        "fecha": "12/06/2026",
+        "hora": "22:23",
+        "tipo": "TRF",
+        "monto": 25000.0,
+        "moneda": "ARS",
+        "remitente": "Marcos Alejandro Escalante",
+        "remitente_cuil": "20-40185355-4",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163885214080",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: LMORZP908LJ8PKW5NEGJ46. CVU remitente: 0000003100027678727763. CVU destinatario: 0000155300000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 220,
+        "_fecha_carga": "18/06/2026 20:12",
+        "_origen": "grupo",
+        "_pie": "Marcos Alejandro Escalante\nCUIT/CUIL: 20-40185355-4"
       }
     ],
     "errores": [],
