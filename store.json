@@ -19152,6 +19152,28 @@
         "_fecha_carga": "18/06/2026 00:36",
         "_origen": "grupo",
         "_pie": ""
+      },
+      {
+        "fecha": "14/06/2026",
+        "hora": "15:32",
+        "tipo": "TRF",
+        "monto": 34000.0,
+        "moneda": "ARS",
+        "remitente": "Natalia Vanesa Safita",
+        "remitente_cuil": "27-31305195-7",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "164110431012",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: D4RO172VZQZGQXPRNKJ3QE. CUIT destinatario: 30-71728225-2. CVU destinatario completo: 0000155300000000009977",
+        "_num": 869,
+        "_fecha_carga": "18/06/2026 00:36",
+        "_origen": "grupo",
+        "_pie": ""
       }
     ],
     "errores": [],
