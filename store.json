@@ -27595,6 +27595,28 @@
         "_fecha_carga": "18/06/2026 13:24",
         "_origen": "grupo",
         "_pie": "Leandro Fabian Gabela\nCUIT/CUIL: 20-36728885-0"
+      },
+      {
+        "fecha": "14/06/2026",
+        "hora": "00:25",
+        "tipo": "TRF",
+        "monto": 25000.0,
+        "moneda": "ARS",
+        "remitente": "Marcos Daniel Campos Gonzalez",
+        "remitente_cuil": "",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Lemon",
+        "banco_destino": "CVU",
+        "referencia": "PDX4OGNYGPGRKMWYN0L6EY",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CUIT destinatario: 30717282252. CBU destinatario: 0000155300000000009977. ID de transacción: eb8b97ce-cb12-44bd-8489-b54d6a0492aa. Comprobante emitido por Lemon powered by Digifin.",
+        "_num": 1252,
+        "_fecha_carga": "18/06/2026 13:24",
+        "_origen": "grupo",
+        "_pie": "Marcos campo 33415464"
       }
     ],
     "errores": [],
