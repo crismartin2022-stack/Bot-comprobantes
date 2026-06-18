@@ -43254,6 +43254,28 @@
         "_fecha_carga": "18/06/2026 15:48",
         "_origen": "grupo",
         "_pie": "Cristian Ramírez \n30942047"
+      },
+      {
+        "fecha": "16/06/2026",
+        "hora": "10:21",
+        "tipo": "TRF",
+        "monto": 500001.0,
+        "moneda": "ARS",
+        "remitente": "Cristian Eduardo Ramirez",
+        "remitente_cuil": "20-30942047-1",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Naranja X",
+        "banco_destino": "Cuenta Virtual",
+        "referencia": "7L8GYKNX05MK436O2MPRZ5",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CBU origen: 4530000800016739163277. CVU destino: 0000155300000000009977. CUIL destinatario: 30-71728225-2. Código de transacción: dcd2fe20-2191-4c4d-a6d0-96b50a2e848b",
+        "_num": 1962,
+        "_fecha_carga": "18/06/2026 15:49",
+        "_origen": "grupo",
+        "_pie": ""
       }
     ],
     "errores": [],
