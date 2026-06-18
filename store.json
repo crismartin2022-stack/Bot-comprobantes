@@ -2310,6 +2310,28 @@
         "_fecha_carga": "17/06/2026 21:13",
         "_origen": "grupo",
         "_pie": "Eriberta Herminia Fernandez Herrera\nCUIT/CUIL: 27-92798572-7"
+      },
+      {
+        "fecha": "12/06/2026",
+        "hora": "09:32",
+        "tipo": "TRF",
+        "monto": 250000.0,
+        "moneda": "ARS",
+        "remitente": "THIAGO EMILIANO OVEJERO",
+        "remitente_cuil": "20-48382384-4",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Banco De Galicia S.A.U",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "42081347592",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CVU destinatario: 0000155300000000009977. CUIT destinatario: 30-71728225-2. ID COELSA: R7ZG0QNDWQDE0XX49EXYPO",
+        "_num": 105,
+        "_fecha_carga": "17/06/2026 21:14",
+        "_origen": "grupo",
+        "_pie": "THIAGO EMILIANO OVEJERO\nCUIT 20-48382384-4"
       }
     ],
     "errores": [],
