@@ -34162,6 +34162,28 @@
         "_fecha_carga": "18/06/2026 14:13",
         "_origen": "grupo",
         "_pie": "Nahuel nicolas sosa\n47163862"
+      },
+      {
+        "fecha": "12/06/2026",
+        "hora": "00:37",
+        "tipo": "TRF",
+        "monto": 16000.0,
+        "moneda": "ARS",
+        "remitente": "MATIAS ADRIAN MARTINEZ",
+        "remitente_cuil": "20-40083196-4",
+        "destinatario": "SASTEUP SRL",
+        "banco_origen": "Brubank",
+        "banco_destino": "",
+        "referencia": "",
+        "concepto": "Envío de dinero",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CVU destino: 0000155300000000009977. CUIT destinatario: 30-71728225-2. Cuenta origen: Caja de ahorro en pesos en Brubank.",
+        "_num": 1550,
+        "_fecha_carga": "18/06/2026 14:13",
+        "_origen": "grupo",
+        "_pie": "Juan cruz amundarain \n39321823"
       }
     ],
     "errores": [],
