@@ -17766,6 +17766,28 @@
         "_fecha_carga": "18/06/2026 00:28",
         "_origen": "grupo",
         "_pie": ""
+      },
+      {
+        "fecha": "14/06/2026",
+        "hora": "15:28",
+        "tipo": "TRF",
+        "monto": 20000.0,
+        "moneda": "ARS",
+        "remitente": "Rosa Elisabeth Ojeda",
+        "remitente_cuil": "23-18316276-4",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "164110626516",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: 0V1JXON1LMLWQLD7NZ64EL. CVU remitente: 0000003100089849072801. CVU destinatario: 0000155300000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 806,
+        "_fecha_carga": "18/06/2026 00:28",
+        "_origen": "grupo",
+        "_pie": ""
       }
     ],
     "errores": [],
