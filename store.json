@@ -39727,6 +39727,28 @@
         "_fecha_carga": "18/06/2026 15:12",
         "_origen": "grupo",
         "_pie": "Rodrigo Núñez \n42404961"
+      },
+      {
+        "fecha": "13/06/2026",
+        "hora": "17:40",
+        "tipo": "TRF",
+        "monto": 100000.0,
+        "moneda": "ARS",
+        "remitente": "Facundo Emanuel Barreto",
+        "remitente_cuil": "20-43789502-4",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Naranja X",
+        "banco_destino": "Cuenta Virtual",
+        "referencia": "46YGOW9M1K8DDODMNEXD8J",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CVU destinatario: 0000155300000000009977. CUIL destinatario: 30-71728225-2. Código de transacción: a79a4133-0f0a-4289-908c-283581f9bf04",
+        "_num": 1802,
+        "_fecha_carga": "18/06/2026 15:12",
+        "_origen": "grupo",
+        "_pie": "Facundo Emanuel Barreto 43789502"
       }
     ],
     "errores": [],
