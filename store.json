@@ -35948,6 +35948,28 @@
         "_fecha_carga": "18/06/2026 14:46",
         "_origen": "grupo",
         "_pie": "Aquiles Copini\nDNI 45942453"
+      },
+      {
+        "fecha": "13/06/2026",
+        "hora": "22:06",
+        "tipo": "TRF",
+        "monto": 100000.0,
+        "moneda": "ARS",
+        "remitente": "Franco Leonel Galvan Gonzalez",
+        "remitente_cuil": "20-41797214-6",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163224715727",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: 0V1JXON1LMDZV1L7NZ64EL. CVU remitente: 0000003100020987438610. CVU destinatario: 0000155300000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 1631,
+        "_fecha_carga": "18/06/2026 14:46",
+        "_origen": "grupo",
+        "_pie": "Franco Galván 41797214"
       }
     ],
     "errores": [],
