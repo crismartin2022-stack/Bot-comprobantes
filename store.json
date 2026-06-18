@@ -45124,6 +45124,28 @@
         "_fecha_carga": "18/06/2026 19:53",
         "_origen": "grupo",
         "_pie": "92512930\nViranet\nBienvenida rojas"
+      },
+      {
+        "fecha": "11/06/2026",
+        "hora": "23:58",
+        "tipo": "TRF",
+        "monto": 80000.0,
+        "moneda": "ARS",
+        "remitente": "Juan Elias Marquez De Olivera",
+        "remitente_cuil": "20-36520946-5",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163723056352",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CUIT destinatario: 30-71728225-2. CVU remitente: 0000003100081086392324. CVU destinatario: 0000155300000000000009977. Código de identificación: 1LMP68NKVX8OYYV52R7OEV",
+        "_num": 84,
+        "_fecha_carga": "18/06/2026 19:53",
+        "_origen": "grupo",
+        "_pie": "Juan Elias Marquez De Olivera\nCUIT/CUIL: 20-36520946-5"
       }
     ],
     "errores": [],
