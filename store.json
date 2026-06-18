@@ -31123,6 +31123,28 @@
         "_fecha_carga": "18/06/2026 13:52",
         "_origen": "grupo",
         "_pie": "A nombre de \nMatias Quevedo\n40640486"
+      },
+      {
+        "fecha": "15/06/2026",
+        "hora": "16:43",
+        "tipo": "TRF",
+        "monto": 500000.01,
+        "moneda": "ARS",
+        "remitente": "Juan Gabriel Villarreal",
+        "remitente_cuil": "23-36165667-9",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "164258789094",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: ORD6LEN8PY811JX0NM1Y30. CUIT destinatario: 30-71728225-2. CVU remitente: 0000003100094468352012. CVU destinatario: 0000155300000000000009977.",
+        "_num": 1412,
+        "_fecha_carga": "18/06/2026 13:52",
+        "_origen": "grupo",
+        "_pie": "Juan Gabriel Villarreal \nDNI 36.165.667"
       }
     ],
     "errores": [],
