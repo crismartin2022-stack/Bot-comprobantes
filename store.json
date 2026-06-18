@@ -27728,6 +27728,28 @@
         "_fecha_carga": "18/06/2026 13:25",
         "_origen": "grupo",
         "_pie": "Rocio Ailen Malaguenxxo\nCUIT/CUIL: 27-47191340-0"
+      },
+      {
+        "fecha": "12/06/2026",
+        "hora": "23:23",
+        "tipo": "TRF",
+        "monto": 60000.0,
+        "moneda": "ARS",
+        "remitente": "Kevin Nahuel Ledesma",
+        "remitente_cuil": "20-40471888-7",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163893626192",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CVU remitente: 0000003100064007687686. CVU destinatario: 0000155300000000000009977. CUIT destinatario: 30-71728225-2. Código de identificación: XJ8G7V95DWKO1DOD9EMPYR",
+        "_num": 1258,
+        "_fecha_carga": "18/06/2026 13:25",
+        "_origen": "grupo",
+        "_pie": "Kevin Ledesma\n40471888\nGanamos"
       }
     ],
     "errores": [],
