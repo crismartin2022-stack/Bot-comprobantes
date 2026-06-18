@@ -9610,6 +9610,28 @@
         "_fecha_carga": "17/06/2026 23:24",
         "_origen": "grupo",
         "_pie": "Foto de Ges"
+      },
+      {
+        "fecha": "11/06/2026",
+        "hora": "12:37",
+        "tipo": "TRF",
+        "monto": 10000.0,
+        "moneda": "ARS",
+        "remitente": "Paola Fabiana Cueliche",
+        "remitente_cuil": "27-32819267-0",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Naranja X",
+        "banco_destino": "Cuenta Virtual",
+        "referencia": "LMORZP908RX76Y66NEGJ46",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CBU origen: 4530000800017671763480. CVU destino: 0000155300000000009977. CUIL destinatario: 30-71728225-2. Código de transacción: 420b2ad1-7d62-46c6-a8da-1baa09cb167c",
+        "_num": 436,
+        "_fecha_carga": "17/06/2026 23:24",
+        "_origen": "grupo",
+        "_pie": "Foto de Ges"
       }
     ],
     "errores": [],
