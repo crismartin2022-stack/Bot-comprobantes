@@ -39904,6 +39904,28 @@
         "_fecha_carga": "18/06/2026 15:13",
         "_origen": "grupo",
         "_pie": "Jara karen araceli \n36453480"
+      },
+      {
+        "fecha": "13/06/2026",
+        "hora": "23:29",
+        "tipo": "TRF",
+        "monto": 185000.0,
+        "moneda": "ARS",
+        "remitente": "Jose Luis Gomez",
+        "remitente_cuil": "20-20076120-1",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "164047164106",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: 46YGOW9M1K8YWPEZNEXD8J. CVU destinatario: 0000155300000000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 1810,
+        "_fecha_carga": "18/06/2026 15:14",
+        "_origen": "grupo",
+        "_pie": "josé luis gómez 20076120 zeus"
       }
     ],
     "errores": [],
