@@ -33260,6 +33260,28 @@
         "_fecha_carga": "18/06/2026 14:07",
         "_origen": "grupo",
         "_pie": "Martin Ignacio Herrera\nPersona destinataria\nNombre\nCUIT\nCBU\nBanco destino\nMotivo\nSasteup Srl"
+      },
+      {
+        "fecha": "11/06/2026",
+        "hora": "18:52",
+        "tipo": "TRF",
+        "monto": 200000.0,
+        "moneda": "ARS",
+        "remitente": "Vanesa Esther Gomez",
+        "remitente_cuil": "27-28858313-2",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "162872865351",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: L18MKX9RX8L0J1719O6WYV. CVU remitente: 0000003100050067202266. CVU destinatario: 0000155300000000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 1509,
+        "_fecha_carga": "18/06/2026 14:07",
+        "_origen": "grupo",
+        "_pie": "Vanesa Esther Gomez\nCUIT/CUIL: 27-28858313-2"
       }
     ],
     "errores": [],
