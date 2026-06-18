@@ -7054,6 +7054,28 @@
         "_fecha_carga": "17/06/2026 23:07",
         "_origen": "grupo",
         "_pie": "Paola Albornoz \n29.639.614"
+      },
+      {
+        "fecha": "13/06/2026",
+        "hora": "14:32",
+        "tipo": "TRF",
+        "monto": 40000.0,
+        "moneda": "ARS",
+        "remitente": "Walter Fidel Lopez",
+        "remitente_cuil": "20-41480285-1",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163159978303",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: JMQKYZ9QQV4Z6GJP9V50P3. CVU remitente: 0000003100017095691912. CVU destinatario: 0000155300000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 320,
+        "_fecha_carga": "17/06/2026 23:07",
+        "_origen": "grupo",
+        "_pie": "Walter lopez 41480285"
       }
     ],
     "errores": [],
