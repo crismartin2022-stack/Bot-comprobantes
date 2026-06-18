@@ -43122,6 +43122,28 @@
         "_fecha_carga": "18/06/2026 15:47",
         "_origen": "grupo",
         "_pie": "Noelia Silvana Romera\nCUIT/CUIL: 27-31823501-0"
+      },
+      {
+        "fecha": "16/06/2026",
+        "hora": "00:43",
+        "tipo": "TRF",
+        "monto": 25000.0,
+        "moneda": "ARS",
+        "remitente": "Marcos Daniel Campos Gonzalez",
+        "remitente_cuil": "",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Lemon",
+        "banco_destino": "CVU",
+        "referencia": "Z0KV87940EOWZV50NPEYDX",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CUIT destinatario: 30717282252. CBU destinatario: 0000155300000000009977. ID de la transacción: ce679277-f19f-47cd-9724-2b8ffae86cc2. Comprobante emitido por Lemon powered by Digifin.",
+        "_num": 1956,
+        "_fecha_carga": "18/06/2026 15:47",
+        "_origen": "grupo",
+        "_pie": "Marcos campos 33415464"
       }
     ],
     "errores": [],
