@@ -41336,6 +41336,28 @@
         "_fecha_carga": "18/06/2026 15:35",
         "_origen": "grupo",
         "_pie": "Berta coronel 34873685"
+      },
+      {
+        "fecha": "15/06/2026",
+        "hora": "20:56",
+        "tipo": "TRF",
+        "monto": 25000.0,
+        "moneda": "ARS",
+        "remitente": "Nicolas Daniel Isleno",
+        "remitente_cuil": "20-43810968-5",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Naranja X",
+        "banco_destino": "Cuenta Virtual",
+        "referencia": "D4RO172VZQW3G0YRNKJ3QE",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CBU origen: 4530000800015520462883. CVU destinatario: 0000155300000000009977. CUIL destinatario: 30-71728225-2. Código de transacción: 7b965b90-9a08-4e3f-9836-8328e2b895e8.",
+        "_num": 1875,
+        "_fecha_carga": "18/06/2026 15:35",
+        "_origen": "grupo",
+        "_pie": "Nicolas Daniel Isleno\nNaranja X\n4530000800015520462883\n20-43810968-5"
       }
     ],
     "errores": [],
