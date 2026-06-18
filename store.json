@@ -47242,6 +47242,28 @@
         "_fecha_carga": "18/06/2026 20:06",
         "_origen": "grupo",
         "_pie": ""
+      },
+      {
+        "fecha": "12/06/2026",
+        "hora": "19:42",
+        "tipo": "TRF",
+        "monto": 200000.0,
+        "moneda": "ARS",
+        "remitente": "Giuliana Anabela Otazo",
+        "remitente_cuil": "",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Ualá",
+        "banco_destino": "",
+        "referencia": "Z6OLMDN3VK34J6KY2E7RQ5",
+        "concepto": "VAR",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CUIT destino: 30717282252. CBU destino completo: 0000155300000000009977",
+        "_num": 180,
+        "_fecha_carga": "18/06/2026 20:06",
+        "_origen": "grupo",
+        "_pie": "46.095.234 guiliana otazo"
       }
     ],
     "errores": [],
