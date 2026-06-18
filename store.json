@@ -39860,6 +39860,28 @@
         "_fecha_carga": "18/06/2026 15:13",
         "_origen": "grupo",
         "_pie": "Mariel hormaeche\n24435485"
+      },
+      {
+        "fecha": "13/06/2026",
+        "hora": "23:37",
+        "tipo": "TRF",
+        "monto": 220000.0,
+        "moneda": "ARS",
+        "remitente": "YESICA ARACELI HERNANDEZ",
+        "remitente_cuil": "27-40295069-8",
+        "destinatario": "SASTEUP SRL",
+        "banco_origen": "BPN",
+        "banco_destino": "BANCO COINAG S.A.",
+        "referencia": "RD06ZO9WVR1R43W1N5GP7X",
+        "concepto": "VAR",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CBU/CVU destinatario: 0000155300000000009977. Cuenta corriente destino: 000900010103. Cuenta ahorro origen: 00072598700001. Alias destino: cvu.977. CUIL destinatario: 30-71728225-2.",
+        "_num": 1808,
+        "_fecha_carga": "18/06/2026 15:13",
+        "_origen": "grupo",
+        "_pie": "Araceli hernandez 40.295.069"
       }
     ],
     "errores": [],
