@@ -38471,6 +38471,28 @@
         "_fecha_carga": "18/06/2026 15:04",
         "_origen": "grupo",
         "_pie": "Screenshot (13 jun. 2026 14:39:43)"
+      },
+      {
+        "fecha": "13/06/2026",
+        "hora": "14:48",
+        "tipo": "TRF",
+        "monto": 300000.0,
+        "moneda": "ARS",
+        "remitente": "Brenda Marina Jovanovich",
+        "remitente_cuil": "",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Lemon",
+        "banco_destino": "CVU",
+        "referencia": "LOEJWV9JZ30156GR2QMD0G",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CUIT destinatario: 30717282252. CBU destinatario: 0000155300000000009977. ID de la transacción: 510caa1f-f877-48e2-8c97-fadafef909b3. Powered by Digifin.",
+        "_num": 1745,
+        "_fecha_carga": "18/06/2026 15:04",
+        "_origen": "grupo",
+        "_pie": "Foto de 😎"
       }
     ],
     "errores": [],
