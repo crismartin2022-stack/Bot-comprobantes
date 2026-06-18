@@ -14854,6 +14854,28 @@
         "_fecha_carga": "18/06/2026 00:00",
         "_origen": "grupo",
         "_pie": "Foto de Clohe😎"
+      },
+      {
+        "fecha": "13/06/2026",
+        "hora": "12:57",
+        "tipo": "TRF",
+        "monto": 15000.0,
+        "moneda": "ARS",
+        "remitente": "Marcela Alejandra Palena",
+        "remitente_cuil": "27-20066143-0",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163142503985",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: R7ZG0QNDW107Z8RE9EXYPO. CUIT destinatario: 30-71728225-2. CVU destinatario completo: 0000155300000000000009977",
+        "_num": 674,
+        "_fecha_carga": "18/06/2026 00:00",
+        "_origen": "grupo",
+        "_pie": "Buen día"
       }
     ],
     "errores": [],
