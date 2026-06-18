@@ -37210,6 +37210,28 @@
         "_fecha_carga": "18/06/2026 14:55",
         "_origen": "grupo",
         "_pie": "Torres Diego ,45218233"
+      },
+      {
+        "fecha": "14/06/2026",
+        "hora": "22:08",
+        "tipo": "TRF",
+        "monto": 40000.0,
+        "moneda": "ARS",
+        "remitente": "Cristian Ramon Romero",
+        "remitente_cuil": "20-31960734-0",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "164156678100",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: PDX4OGNYGP4KL7QRN0L6EY. CVU remitente: 0000003100096287910396. CVU destinatario: 0000155300000000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 1688,
+        "_fecha_carga": "18/06/2026 14:55",
+        "_origen": "grupo",
+        "_pie": "Havana"
       }
     ],
     "errores": [],
