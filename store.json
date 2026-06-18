@@ -4451,6 +4451,28 @@
         "_fecha_carga": "17/06/2026 21:27",
         "_origen": "grupo",
         "_pie": "Hector Fabian Talavera Barreto\nCUIT/CUIL: 20-94823970-2"
+      },
+      {
+        "fecha": "12/06/2026",
+        "hora": "22:09",
+        "tipo": "TRF",
+        "monto": 30000.0,
+        "moneda": "ARS",
+        "remitente": "Ariel Sebastian Lezama",
+        "remitente_cuil": "20-33608013-5",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163883338082",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: RD06ZO9WVR813405N5GP7X. CUIT destinatario: 30-71728225-2. CVU receptor: 0000155300000000009977",
+        "_num": 202,
+        "_fecha_carga": "17/06/2026 21:27",
+        "_origen": "grupo",
+        "_pie": "Ariel Sebastian Lezama\nCUIT/CUIL: 20-33608013-5"
       }
     ],
     "errores": [],
