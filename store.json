@@ -4627,6 +4627,28 @@
         "_fecha_carga": "17/06/2026 21:28",
         "_origen": "grupo",
         "_pie": "Marcos Alejandro Escalante\nCUIT/CUIL: 20-40185355-4"
+      },
+      {
+        "fecha": "12/06/2026",
+        "hora": "22:53",
+        "tipo": "TRF",
+        "monto": 200000.0,
+        "moneda": "ARS",
+        "remitente": "Luque Miguez, Ariadna Abigail",
+        "remitente_cuil": "27-48299541-7",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Personal Pay",
+        "banco_destino": "",
+        "referencia": "2739099094",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CoelsaID: L18MKX9RXJRK73JK9O6WYV - Id Bancario. CUIL/CUIT destinatario: 30-71728225-2. CBU/CVU destinatario: 0000155300000000009977",
+        "_num": 210,
+        "_fecha_carga": "17/06/2026 21:28",
+        "_origen": "grupo",
+        "_pie": "Luque Miguez, Ariadna Abigail\n27-48299541-7"
       }
     ],
     "errores": [],
