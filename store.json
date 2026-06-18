@@ -6458,6 +6458,28 @@
         "_fecha_carga": "17/06/2026 21:40",
         "_origen": "grupo",
         "_pie": "Marciana Martinez\nCUIT/CUIL: 27-94752813-6"
+      },
+      {
+        "fecha": "13/06/2026",
+        "hora": "00:55",
+        "tipo": "TRF",
+        "monto": 700000.0,
+        "moneda": "ARS",
+        "remitente": "JIMENA BELEN BREST",
+        "remitente_cuil": "27-39984557-8",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Banco De Galicia S.A.U",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "42092396329",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "ID COELSA: 8D0Q619L0WL5XYRZN7JZ5R. CVU destinatario: 0000155300000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 293,
+        "_fecha_carga": "17/06/2026 21:40",
+        "_origen": "grupo",
+        "_pie": "JIMENA BELEN BREST\nCUIT 27-39984557-8"
       }
     ],
     "errores": [],
