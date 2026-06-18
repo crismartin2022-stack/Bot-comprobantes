@@ -29976,6 +29976,28 @@
         "_fecha_carga": "18/06/2026 13:44",
         "_origen": "grupo",
         "_pie": "Martin Gabriel Ponce\nNaranja X\n4530000800016587877809\n20-44829401-4"
+      },
+      {
+        "fecha": "14/06/2026",
+        "hora": "23:54",
+        "tipo": "TRF",
+        "monto": 30000.0,
+        "moneda": "ARS",
+        "remitente": "Eriberta Herminia Fernandez Herrera",
+        "remitente_cuil": "27-92798572-7",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "164167314720",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: PDX4OGNYGP4DJP5YN0L6EY. CUIT destinatario: 30-71728225-2. CVU remitente: 0000003100025464627204. CVU destinatario: 0000155300000000000009977",
+        "_num": 1360,
+        "_fecha_carga": "18/06/2026 13:44",
+        "_origen": "grupo",
+        "_pie": "Eriberta Herminia Fernandez Herrera\nCUIT/CUIL: 27-92798572-7"
       }
     ],
     "errores": [],
