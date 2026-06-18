@@ -37474,6 +37474,28 @@
         "_fecha_carga": "18/06/2026 14:57",
         "_origen": "grupo",
         "_pie": "Federico Jofre 35200029"
+      },
+      {
+        "fecha": "15/06/2026",
+        "hora": "00:27",
+        "tipo": "TRF",
+        "monto": 100000.0,
+        "moneda": "ARS",
+        "remitente": "Ariel Ricardo Barrios",
+        "remitente_cuil": "20-32472349-9",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163356591407",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: LMORZP908LGMM7VYNEGJ46. CUIT destinatario: 30-71728225-2. CVU remitente: 0000003100040314583048. CVU destinatario: 0000155300000000009977.",
+        "_num": 1700,
+        "_fecha_carga": "18/06/2026 14:57",
+        "_origen": "grupo",
+        "_pie": "Ganamos"
       }
     ],
     "errores": [],
