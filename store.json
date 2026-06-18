@@ -29469,6 +29469,28 @@
         "_fecha_carga": "18/06/2026 13:41",
         "_origen": "grupo",
         "_pie": "Eriberta Herminia Fernandez Herrera\nCUIT/CUIL: 27-92798572-7"
+      },
+      {
+        "fecha": "14/06/2026",
+        "hora": "23:12",
+        "tipo": "TRF",
+        "monto": 500000.0,
+        "moneda": "ARS",
+        "remitente": "Juliana Ayelen Palavecino",
+        "remitente_cuil": "27-47337453-1",
+        "destinatario": "SASTEUP SRL",
+        "banco_origen": "Brubank",
+        "banco_destino": "",
+        "referencia": "1798148847",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Transferencia enviada por CVU. CBU/CVU destinatario: 0000155300000000009977. CUIT destinatario: 30-71728225-2. ID Operación: 26061600002495520136 01. Cuenta origen: Caja de ahorro en pesos.",
+        "_num": 1337,
+        "_fecha_carga": "18/06/2026 13:41",
+        "_origen": "grupo",
+        "_pie": "Sergio Aleon\n23-95330380-9"
       }
     ],
     "errores": [],
