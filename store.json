@@ -26118,6 +26118,28 @@
         "_fecha_carga": "18/06/2026 13:13",
         "_origen": "grupo",
         "_pie": "Paola Marcela Togñasso\n27307586105"
+      },
+      {
+        "fecha": "13/06/2026",
+        "hora": "22:56",
+        "tipo": "TRF",
+        "monto": 200000.0,
+        "moneda": "ARS",
+        "remitente": "Johana Gabriela Grimaz",
+        "remitente_cuil": "",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Ualá",
+        "banco_destino": "",
+        "referencia": "1LMP68NKVEJ81DPZ2R7OEV",
+        "concepto": "VAR",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CUIT destino: 30717282252. CBU destino completo: 0000155300000000009977",
+        "_num": 1185,
+        "_fecha_carga": "18/06/2026 13:13",
+        "_origen": "grupo",
+        "_pie": "JOHANA GABRIELA GRIMAZ\nCUIL-CUIT: 30-71728225-2"
       }
     ],
     "errores": [],
