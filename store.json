@@ -24994,6 +24994,28 @@
         "_fecha_carga": "18/06/2026 13:06",
         "_origen": "grupo",
         "_pie": "Antonella Abril Mastroianni\nNaranja X\n4530000800019801951055\n27-48056211-4"
+      },
+      {
+        "fecha": "13/06/2026",
+        "hora": "20:28",
+        "tipo": "TRF",
+        "monto": 100000.0,
+        "moneda": "ARS",
+        "remitente": "Mariana Ayelen Diaz",
+        "remitente_cuil": "",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Lemon",
+        "banco_destino": "CVU",
+        "referencia": "WGRXJE27DXGZQ3KLN7MYQL",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CUIT destinatario: 30717282252. CBU destinatario: 0000155300000000009977. ID de transacción: 571cc6ae-9270-496f-994a-be8209736787. Comprobante emitido por Lemon, powered by Digifin.",
+        "_num": 1134,
+        "_fecha_carga": "18/06/2026 13:06",
+        "_origen": "grupo",
+        "_pie": "36608895 mariana Diaz"
       }
     ],
     "errores": [],
