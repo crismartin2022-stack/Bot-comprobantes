@@ -12981,6 +12981,28 @@
         "_fecha_carga": "17/06/2026 23:47",
         "_origen": "grupo",
         "_pie": "Foto de Vivo"
+      },
+      {
+        "fecha": "12/06/2026",
+        "hora": "20:31",
+        "tipo": "TRF",
+        "monto": 30000.0,
+        "moneda": "ARS",
+        "remitente": "Dora Fabiana Dominguez Fauli",
+        "remitente_cuil": "27-22853866-9",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Naranja X",
+        "banco_destino": "Cuenta Virtual",
+        "referencia": "67REZ8NPQV6EGK3G94KVGO",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CBU origen: 4530000800018350056570. CVU destino: 0000155300000000009977. CUIL destinatario: 30-71728225-2. Código de transacción: 4485b36a-5492-4de3-8922-ac4b994a1d27.",
+        "_num": 589,
+        "_fecha_carga": "17/06/2026 23:48",
+        "_origen": "grupo",
+        "_pie": "Foto de Vivo"
       }
     ],
     "errores": [],
