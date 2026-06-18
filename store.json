@@ -31895,6 +31895,28 @@
         "_fecha_carga": "18/06/2026 13:57",
         "_origen": "grupo",
         "_pie": "Walter Maximiliano Garcia\nCUIT/CUIL: 20-30595453-6"
+      },
+      {
+        "fecha": "12/06/2026",
+        "hora": "09:50",
+        "tipo": "TRF",
+        "monto": 170000.0,
+        "moneda": "ARS",
+        "remitente": "Lucas Patricio Baptista",
+        "remitente_cuil": "20-41435081-0",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163758291700",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: WY7ZEPN6M4EVR5MV2Q0M51. CVU remitente: 0000003100088705167370. CVU destinatario: 0000155300000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 1447,
+        "_fecha_carga": "18/06/2026 13:58",
+        "_origen": "grupo",
+        "_pie": "Lucas Patricio Baptista\nCUIT/CUIL: 20-41435081-0"
       }
     ],
     "errores": [],
