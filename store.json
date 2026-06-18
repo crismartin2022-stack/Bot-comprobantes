@@ -36414,6 +36414,28 @@
         "_fecha_carga": "18/06/2026 14:49",
         "_origen": "grupo",
         "_pie": "Cristian Godoy 38839812"
+      },
+      {
+        "fecha": "15/06/2026",
+        "hora": "12:14",
+        "tipo": "TRF",
+        "monto": 200000.0,
+        "moneda": "ARS",
+        "remitente": "Hector Jose Bordon",
+        "remitente_cuil": "20-26277873-9",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "164218948838",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: D4RO172VZQKV5GL1NKJ3QE. CVU remitente: 0000003100147104423684. CVU destinatario: 0000155300000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 1652,
+        "_fecha_carga": "18/06/2026 14:49",
+        "_origen": "grupo",
+        "_pie": "Yakelin Nahiara Silva - DNI 47.384.751"
       }
     ],
     "errores": [],
