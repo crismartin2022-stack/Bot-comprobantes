@@ -24243,6 +24243,28 @@
         "_fecha_carga": "18/06/2026 13:00",
         "_origen": "grupo",
         "_pie": "Maria claudia ibarra \n28120532"
+      },
+      {
+        "fecha": "13/06/2026",
+        "hora": "17:16",
+        "tipo": "TRF",
+        "monto": 30000.0,
+        "moneda": "ARS",
+        "remitente": "Robledo, Morena Mailen",
+        "remitente_cuil": "27-47060962-7",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Personal Pay",
+        "banco_destino": "",
+        "referencia": "2740763999",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CBU/CVU del receptor: 0000155300000000009977. CoelsaID: LMORZP908LKRV1KYNEGJ46 - Id Bancario. CUIL/CUIT destinatario: 30-71728225-2.",
+        "_num": 1100,
+        "_fecha_carga": "18/06/2026 13:00",
+        "_origen": "grupo",
+        "_pie": "Morena Robledo  47060962"
       }
     ],
     "errores": [],
