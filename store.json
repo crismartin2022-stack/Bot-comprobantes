@@ -22343,6 +22343,28 @@
         "_fecha_carga": "18/06/2026 12:47",
         "_origen": "grupo",
         "_pie": "Vega Gonzalo Simon \nCuil: 20-45436495-4"
+      },
+      {
+        "fecha": "15/06/2026",
+        "hora": "12:52",
+        "tipo": "TRF",
+        "monto": 300000.0,
+        "moneda": "ARS",
+        "remitente": "Alvaro Miguel Vides",
+        "remitente_cuil": "20-39401192-5",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Prex",
+        "banco_destino": "BANCO COINAG S.A.",
+        "referencia": "JMQKYZ9QQVKDEQEV9V50P3",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CVU origen: 0000013000032270610359. CBU/CVU destino: 0000155300000000009977. CUIL destinatario: 30-71728225-2.",
+        "_num": 1014,
+        "_fecha_carga": "18/06/2026 12:47",
+        "_origen": "grupo",
+        "_pie": "Álvaro Miguel Vides \nCUIL: 20-39401192-5"
       }
     ],
     "errores": [],
