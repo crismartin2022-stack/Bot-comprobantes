@@ -10051,6 +10051,28 @@
         "_fecha_carga": "17/06/2026 23:27",
         "_origen": "grupo",
         "_pie": "Foto de Ges"
+      },
+      {
+        "fecha": "11/06/2026",
+        "hora": "20:16",
+        "tipo": "TRF",
+        "monto": 10000.0,
+        "moneda": "ARS",
+        "remitente": "Candela Mariel Martino",
+        "remitente_cuil": "27-46109668-4",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Naranja X",
+        "banco_destino": "Cuenta Virtual",
+        "referencia": "R7ZG0QNDWQ3Z673V9EXYPO",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CBU origen: 4530000800014542431334. CVU destino: 0000155300000000009977. CUIL destinatario: 30-71728225-2. Código de transacción: e617030f-1040-479f-84cf-d4e57cd850dc",
+        "_num": 456,
+        "_fecha_carga": "17/06/2026 23:27",
+        "_origen": "grupo",
+        "_pie": "Foto de Ges"
       }
     ],
     "errores": [],
