@@ -40674,6 +40674,28 @@
         "_fecha_carga": "18/06/2026 15:30",
         "_origen": "grupo",
         "_pie": "Cristina Verónica Ruiz \n34.868.571"
+      },
+      {
+        "fecha": "14/06/2026",
+        "hora": "20:50",
+        "tipo": "TRF",
+        "monto": 100000.0,
+        "moneda": "ARS",
+        "remitente": "Ania Penelope Cea Gutierrez",
+        "remitente_cuil": "27-33141440-4",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "164148759342",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: PDX4OGNYGP47KY4QN0L6EY. CVU destinatario completo: 0000155300000000009977. CVU remitente: 0000003100052093585087. CUIT destinatario: 30-71728225-2.",
+        "_num": 1845,
+        "_fecha_carga": "18/06/2026 15:30",
+        "_origen": "grupo",
+        "_pie": "Ania Penelope cea Gutiérrez \n33.141.440"
       }
     ],
     "errores": [],
