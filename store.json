@@ -26074,6 +26074,28 @@
         "_fecha_carga": "18/06/2026 13:13",
         "_origen": "grupo",
         "_pie": "Cesar Daniel Suarez\nCUIT/CUIL: 20-23937652-6"
+      },
+      {
+        "fecha": "13/06/2026",
+        "hora": "22:49",
+        "tipo": "TRF",
+        "monto": 250000.0,
+        "moneda": "ARS",
+        "remitente": "PAOLA MARCELA TOGNASSO",
+        "remitente_cuil": "27-30758610-5",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Banco Galicia",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "42101336831",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "ID COELSA: 7L8GYKNX05WLMQEW2MPRZ5. CVU destinatario: 0000155300000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 1183,
+        "_fecha_carga": "18/06/2026 13:13",
+        "_origen": "grupo",
+        "_pie": "PAOLA MARCELA TOGNASSO\nCUIT 27-30758610-5"
       }
     ],
     "errores": [],
