@@ -39462,6 +39462,28 @@
         "_fecha_carga": "18/06/2026 15:11",
         "_origen": "grupo",
         "_pie": "300 k (Tony90) \n*Sasteup Srl* \n14/6 \nHernán Ariel Alvarenga \n23-37790603-9"
+      },
+      {
+        "fecha": "15/06/2026",
+        "hora": "14:04",
+        "tipo": "TRF",
+        "monto": 100000.0,
+        "moneda": "ARS",
+        "remitente": "Osvaldo Roberto Yandet",
+        "remitente_cuil": "20-24927095-5",
+        "destinatario": "SASTEUP SRL",
+        "banco_origen": "Brubank",
+        "banco_destino": "",
+        "referencia": "",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Transferencia enviada desde Caja de ahorro en Pesos en Brubank. CVU destinatario: 0000155300000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 1790,
+        "_fecha_carga": "18/06/2026 15:11",
+        "_origen": "grupo",
+        "_pie": "Buenas \n\n100k (Tony90)\n*SASTEUP SRL*\n15/06\nOsvaldo Yandet\n20-24927095-5"
       }
     ],
     "errores": [],
