@@ -6392,6 +6392,28 @@
         "_fecha_carga": "17/06/2026 21:39",
         "_origen": "grupo",
         "_pie": "Zoraida Nunez Sanchez\nNaranja X\n4530000800016777376312\nCUIL\n27-92394168-7"
+      },
+      {
+        "fecha": "13/06/2026",
+        "hora": "01:00",
+        "tipo": "TRF",
+        "monto": 50000.0,
+        "moneda": "ARS",
+        "remitente": "Bernardo David Colman",
+        "remitente_cuil": "20-41474843-1",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163092270739",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CVU remitente: 0000003100033842569073. CVU destinatario: 0000155300000000000009977. CUIT destinatario: 30-71728225-2. Código de identificación: XJ8G7V95DWK3W5749EMPYR",
+        "_num": 290,
+        "_fecha_carga": "17/06/2026 21:39",
+        "_origen": "grupo",
+        "_pie": "Bernardo David Colman\nCUIT/CUIL: 20-41474843-1"
       }
     ],
     "errores": [],
