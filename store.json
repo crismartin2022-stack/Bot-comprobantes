@@ -38139,6 +38139,28 @@
         "_fecha_carga": "18/06/2026 15:02",
         "_origen": "grupo",
         "_pie": "Bet30click"
+      },
+      {
+        "fecha": "16/06/2026",
+        "hora": "01:48",
+        "tipo": "TRF",
+        "monto": 500000.0,
+        "moneda": "ARS",
+        "remitente": "Diego Elias Torres",
+        "remitente_cuil": "27-45218233-0",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163510260841",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: 3D5W612E6Z7M76LW2GXYVR. CUIT destinatario: 30-71728225-2. CVU destinatario: 0000155300000000000009977",
+        "_num": 1730,
+        "_fecha_carga": "18/06/2026 15:02",
+        "_origen": "grupo",
+        "_pie": "Torres Diego 45218233"
       }
     ],
     "errores": [],
