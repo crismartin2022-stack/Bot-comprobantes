@@ -35508,6 +35508,28 @@
         "_fecha_carga": "18/06/2026 14:43",
         "_origen": "grupo",
         "_pie": "Ayala maría \n32179584"
+      },
+      {
+        "fecha": "13/06/2026",
+        "hora": "20:09",
+        "tipo": "TRF",
+        "monto": 50000.0,
+        "moneda": "ARS",
+        "remitente": "Noelia Lujan Quispe",
+        "remitente_cuil": "27-38161947-3",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163212354173",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: 3D5W612E6ZJ81OXG2GXYVR. CVU remitente: 0000003100072376422407. CVU destinatario: 0000155300000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 1611,
+        "_fecha_carga": "18/06/2026 14:43",
+        "_origen": "grupo",
+        "_pie": "Noelia Quispe \n38161947"
       }
     ],
     "errores": [],
