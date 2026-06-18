@@ -40652,6 +40652,28 @@
         "_fecha_carga": "18/06/2026 15:30",
         "_origen": "grupo",
         "_pie": "Natalia nazarena cea Gutiérrez\n36.679.470"
+      },
+      {
+        "fecha": "14/06/2026",
+        "hora": "15:31",
+        "tipo": "TRF",
+        "monto": 230000.0,
+        "moneda": "ARS",
+        "remitente": "Cristina Veronica Ruiz",
+        "remitente_cuil": "27-34868571-1",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "164111774182",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CUIT destinatario: 30-71728225-2. CVU destinatario: 0000155300000000000009977. Código de identificación: 0V1JXON1LMLWW8V7NZ64EL",
+        "_num": 1844,
+        "_fecha_carga": "18/06/2026 15:30",
+        "_origen": "grupo",
+        "_pie": "Cristina Verónica Ruiz \n34.868.571"
       }
     ],
     "errores": [],
