@@ -32930,6 +32930,28 @@
         "_fecha_carga": "18/06/2026 14:04",
         "_origen": "grupo",
         "_pie": ""
+      },
+      {
+        "fecha": "14/06/2026",
+        "hora": "00:43",
+        "tipo": "TRF",
+        "monto": 38000.0,
+        "moneda": "ARS",
+        "remitente": "Joaquin Demian Fernandez",
+        "remitente_cuil": "20-46682753-4",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163240077279",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: 76V4MR2Z7471KYWLNDEZOL. CVU remitente: 0000003100015774733627. CVU destinatario: 0000155300000000009977",
+        "_num": 1494,
+        "_fecha_carga": "18/06/2026 14:05",
+        "_origen": "grupo",
+        "_pie": "Joaquin Fernández \n46682753\n200k zeus"
       }
     ],
     "errores": [],
