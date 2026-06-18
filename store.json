@@ -12629,6 +12629,28 @@
         "_fecha_carga": "17/06/2026 23:45",
         "_origen": "grupo",
         "_pie": ""
+      },
+      {
+        "fecha": "11/06/2026",
+        "hora": "16:43",
+        "tipo": "TRF",
+        "monto": 50000.0,
+        "moneda": "ARS",
+        "remitente": "Guillermo Andres Fernandez",
+        "remitente_cuil": "20-31643446-1",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163657327180",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: LMORZP908R350O55NEGJ46. CVU remitente: 0000003100193965897768. CVU destinatario: 0000155300000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 573,
+        "_fecha_carga": "17/06/2026 23:45",
+        "_origen": "grupo",
+        "_pie": "Foto de Vivo"
       }
     ],
     "errores": [],
