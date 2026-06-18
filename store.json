@@ -4583,6 +4583,28 @@
         "_fecha_carga": "17/06/2026 21:28",
         "_origen": "grupo",
         "_pie": "Jonathan Daniel Segovia \n47678975"
+      },
+      {
+        "fecha": "12/06/2026",
+        "hora": "22:27",
+        "tipo": "TRF",
+        "monto": 170000.0,
+        "moneda": "ARS",
+        "remitente": "Micaela Acosta",
+        "remitente_cuil": "27-37679548-4",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163886417206",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: 3D5W612E6ZL6DVLO2GXYVR. CVU remitente: 0000003100057615083524. CVU destinatario: 0000155300000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 208,
+        "_fecha_carga": "17/06/2026 21:28",
+        "_origen": "grupo",
+        "_pie": "Micaela Acosta\nCUIT/CUIL: 27-37679548-4"
       }
     ],
     "errores": [],
