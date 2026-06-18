@@ -6282,6 +6282,28 @@
         "_fecha_carga": "17/06/2026 21:39",
         "_origen": "grupo",
         "_pie": "Fabian Nicolas Alvarez\nCUIT/CUIL: 20-37810983-4"
+      },
+      {
+        "fecha": "13/06/2026",
+        "hora": "00:48",
+        "tipo": "TRF",
+        "monto": 50000.0,
+        "moneda": "ARS",
+        "remitente": "Martin Gabriel Ponce",
+        "remitente_cuil": "20-44829401-4",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Naranja X",
+        "banco_destino": "Cuenta Virtual",
+        "referencia": "8D0Q619L0WL5EMJLN7JZ5R",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CBU origen: 4530000800016587877809. CVU destino: 0000155300000000009977. CUIL destinatario: 30-71728225-2. Código de transacción: 16f1d6b7-9762-4f37-ad0b-9e163393922f",
+        "_num": 285,
+        "_fecha_carga": "17/06/2026 21:39",
+        "_origen": "grupo",
+        "_pie": "Martin Gabriel Ponce\nNaranja X\n4530000800016587877809\n20-44829401-4"
       }
     ],
     "errores": [],
