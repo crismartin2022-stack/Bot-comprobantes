@@ -38669,6 +38669,28 @@
         "_fecha_carga": "18/06/2026 15:05",
         "_origen": "grupo",
         "_pie": "SOLANGE JUNCOS\n37821677\nDEBO 550MIL"
+      },
+      {
+        "fecha": "14/06/2026",
+        "hora": "00:53",
+        "tipo": "TRF",
+        "monto": 25000.0,
+        "moneda": "ARS",
+        "remitente": "Ruiz, Ana Laura",
+        "remitente_cuil": "27-35301713-1",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Personal Pay",
+        "banco_destino": "",
+        "referencia": "2741843744",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CoelsaID: 7L8GYKNX050RZX3O2MPRZ5 - Id Bancario. CBU/CVU receptor: 0000155300000000009977. CUIL/CUIT destinatario: 30-71728225-2.",
+        "_num": 1754,
+        "_fecha_carga": "18/06/2026 15:05",
+        "_origen": "grupo",
+        "_pie": "Ana Laura Ruiz \n35301713"
       }
     ],
     "errores": [],
