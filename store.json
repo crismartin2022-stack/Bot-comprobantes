@@ -47704,6 +47704,28 @@
         "_fecha_carga": "18/06/2026 20:09",
         "_origen": "grupo",
         "_pie": "Micaela Acosta\nCUIT/CUIL: 27-37679548-4"
+      },
+      {
+        "fecha": "12/06/2026",
+        "hora": "21:10",
+        "tipo": "TRF",
+        "monto": 250000.0,
+        "moneda": "ARS",
+        "remitente": "Diego Sebastian Romero",
+        "remitente_cuil": "23-39350507-9",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163875960762",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: 0V1JXON1LWMWZDXVNZ64EL. CVU remitente: 0000003100024483911688. CVU destinatario: 0000155300000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 201,
+        "_fecha_carga": "18/06/2026 20:09",
+        "_origen": "grupo",
+        "_pie": "Diego Sebastian Romero\nCUIT/CUIL: 23-39350507-9"
       }
     ],
     "errores": [],
