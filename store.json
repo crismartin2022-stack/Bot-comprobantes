@@ -28983,6 +28983,28 @@
         "_fecha_carga": "18/06/2026 13:37",
         "_origen": "grupo",
         "_pie": "Rocio Ailen Malaguenxxo\nCUIT/CUIL: 27-47191340-0"
+      },
+      {
+        "fecha": "14/06/2026",
+        "hora": "21:32",
+        "tipo": "TRF",
+        "monto": 300000.0,
+        "moneda": "ARS",
+        "remitente": "Coronel, Berta Lidia Maria",
+        "remitente_cuil": "27-34873685-5",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Personal Pay",
+        "banco_destino": "",
+        "referencia": "PDX4OGNYGP460DZ4N0L6EY",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Nº de operación: 2743357630. CBU/CVU destinatario: 0000155300000000009977. CUIL destinatario (Sasteup Srl): 30-71728225-2. CoelsaID: PDX4OGNYGP460DZ4N0L6EY - Id Bancario.",
+        "_num": 1315,
+        "_fecha_carga": "18/06/2026 13:38",
+        "_origen": "grupo",
+        "_pie": "Coronel, Berta Lidia Maria\nCUIL/CUIT 27-34873685-5"
       }
     ],
     "errores": [],
