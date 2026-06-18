@@ -1870,6 +1870,28 @@
         "_fecha_carga": "17/06/2026 21:10",
         "_origen": "grupo",
         "_pie": "Braian Leonel Rivero\nCUIT/CUIL: 20-41310274-0"
+      },
+      {
+        "fecha": "12/06/2026",
+        "hora": "00:04",
+        "tipo": "TRF",
+        "monto": 500001.0,
+        "moneda": "ARS",
+        "remitente": "Lucas Sebastian Gonzalez",
+        "remitente_cuil": "20-44678682-3",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Naranja X",
+        "banco_destino": "Cuenta Virtual",
+        "referencia": "7L8GYKNX0OLMXD0P2MPRZ5",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de transacción adicional: 0aab5dc0-e2bd-4538-b567-f83b473ce8ce. CBU origen: 4530000800017527637497. CVU destinatario: 0000155300000000009977. CUIL destinatario: 30-71728225-2.",
+        "_num": 85,
+        "_fecha_carga": "17/06/2026 21:10",
+        "_origen": "grupo",
+        "_pie": "Lucas Sebastian González \n20-44678682-3"
       }
     ],
     "errores": [],
