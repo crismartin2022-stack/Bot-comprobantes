@@ -550,6 +550,28 @@
         "_fecha_carga": "17/06/2026 21:01",
         "_origen": "grupo",
         "_pie": "MATIAS EMMANUEL TORRES MOYANO\nCUIT 20-32356439-7"
+      },
+      {
+        "fecha": "11/06/2026",
+        "hora": "21:36",
+        "tipo": "TRF",
+        "monto": 40000.0,
+        "moneda": "ARS",
+        "remitente": "Eriberta Herminia Fernandez Herrera",
+        "remitente_cuil": "27-92798572-7",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163708090298",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: WGRXJE27DYRQ8O5JN7MYQL. CVU remitente: 0000003100025464627204. CVU destinatario: 0000155300000000000009977. CUIT destinatario: 30-71728225-2",
+        "_num": 25,
+        "_fecha_carga": "17/06/2026 21:01",
+        "_origen": "grupo",
+        "_pie": "Eriberta Herminia Fernandez Herrera\nCUIT/CUIL: 27-92798572-7"
       }
     ],
     "errores": [],
