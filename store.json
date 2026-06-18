@@ -27023,6 +27023,28 @@
         "_fecha_carga": "18/06/2026 13:20",
         "_origen": "grupo",
         "_pie": "Eriberta Herminia Fernandez Herrera\nCUIT/CUIL: 27-92798572-7"
+      },
+      {
+        "fecha": "14/06/2026",
+        "hora": "00:34",
+        "tipo": "TRF",
+        "monto": 150000.0,
+        "moneda": "ARS",
+        "remitente": "Juan Pablo Juani",
+        "remitente_cuil": "20-42904568-2",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Naranja X",
+        "banco_destino": "Cuenta Virtual",
+        "referencia": "Z0KV87940E0KGK00NPEYDX",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CBU origen: 4530000800019921086521. CVU destino: 0000155300000000009977. CUIL destinatario: 30-71728225-2. Código de transacción: 671eb790-ef24-448c-aea2-c47d1efc413c.",
+        "_num": 1226,
+        "_fecha_carga": "18/06/2026 13:20",
+        "_origen": "grupo",
+        "_pie": "Juan Pablo Juani\nNaranja X\n4530000800019921086521\n20-42904568-2"
       }
     ],
     "errores": [],
