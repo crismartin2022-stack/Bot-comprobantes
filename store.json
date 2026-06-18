@@ -38867,6 +38867,28 @@
         "_fecha_carga": "18/06/2026 15:07",
         "_origen": "grupo",
         "_pie": "Datos de la cuenta: karina gabriela del valle nunez\nDni 26187724\nPlataforma: pink\nUsuario: Redsol252"
+      },
+      {
+        "fecha": "15/06/2026",
+        "hora": "20:19",
+        "tipo": "TRF",
+        "monto": 230000.0,
+        "moneda": "ARS",
+        "remitente": "Fernanda Antonella Ance",
+        "remitente_cuil": "27-43995045-0",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163478977369",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: 76V4MR2Z74WX4OP0NDEZOL. CVU remitente: 0000003100026308459111. CVU destinatario: 0000155300000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 1763,
+        "_fecha_carga": "18/06/2026 15:07",
+        "_origen": "grupo",
+        "_pie": "Datos de la cuenta: Ance Fernanda Antonella\nDni 43995045\nPlataforma: Pink\nUsuario: Redsol252"
       }
     ],
     "errores": [],
