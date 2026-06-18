@@ -35243,6 +35243,28 @@
         "_fecha_carga": "18/06/2026 14:42",
         "_origen": "grupo",
         "_pie": "Candela Lucero\n44966845\nMercado pago"
+      },
+      {
+        "fecha": "12/06/2026",
+        "hora": "22:45",
+        "tipo": "TRF",
+        "monto": 30000.0,
+        "moneda": "ARS",
+        "remitente": "Carlos Daniel Silva",
+        "remitente_cuil": "20-29165124-1",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163889390280",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: PDX4OGNYGPR460DVN0L6EY. CUIT destinatario: 30-71728225-2. CVU destinatario: 0000155300000000000009977.",
+        "_num": 1599,
+        "_fecha_carga": "18/06/2026 14:42",
+        "_origen": "grupo",
+        "_pie": "Carlos Daniel silva \n\nDNI: 29.165.124"
       }
     ],
     "errores": [],
