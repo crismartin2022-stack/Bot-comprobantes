@@ -39352,6 +39352,28 @@
         "_fecha_carga": "18/06/2026 15:10",
         "_origen": "grupo",
         "_pie": "Buenas \nEnvío en total \n$1.500.000\n\n•500k (Tony90)\n• *Sasteup Srl*\n• 13/06\n•Julio Andres Caballero\n•Cuil: 20-38660370-8\n\n•400k (Tony90)\n• *Sasteup Srl*\n• 13/06\n•Alvaro Gerardine Coria\n•Cuil: 20-41479775-0\n\n•600k (Tony90)\n• *Sasteup Srl*\n• 13/06\n•Vanesa Barrionuevo \n•Cuil: 27-31966284-2"
+      },
+      {
+        "fecha": "14/06/2026",
+        "hora": "11:55",
+        "tipo": "TRF",
+        "monto": 500000.0,
+        "moneda": "ARS",
+        "remitente": "Sergio Nahuel Sequeira",
+        "remitente_cuil": "20-41753424-6",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "164083790938",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: WY7ZEPN6MKMG81QQ2Q0M51. CVU remitente: 0000003100048720384013. CVU destinatario: 0000155300000000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 1785,
+        "_fecha_carga": "18/06/2026 15:10",
+        "_origen": "grupo",
+        "_pie": "Envío en total \n$1.000.000\n\n•500k (Tony90)\n• *Sasteup Srl*\n• 14/06\n•Sergio Nahuel Sequeira\n•Cuil: 20-41753424-6\n\n•500k (Tony90)\n• *Sasteup Srl*\n• 14/06\n•Julio Andres Caballero\n•Cuil: 20-38660370-8"
       }
     ],
     "errores": [],
