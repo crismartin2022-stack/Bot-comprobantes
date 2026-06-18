@@ -20054,6 +20054,28 @@
         "_fecha_carga": "18/06/2026 00:41",
         "_origen": "grupo",
         "_pie": ""
+      },
+      {
+        "fecha": "14/06/2026",
+        "hora": "14:01",
+        "tipo": "TRF",
+        "monto": 15200.0,
+        "moneda": "ARS",
+        "remitente": "Soraya Maria Agustina Santomil",
+        "remitente_cuil": "27-38773031-7",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "164100766646",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: 8D0Q619L0W07PPY8N7JZ5R. CVU destinatario: 0000155300000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 910,
+        "_fecha_carga": "18/06/2026 00:41",
+        "_origen": "grupo",
+        "_pie": ""
       }
     ],
     "errores": [],
