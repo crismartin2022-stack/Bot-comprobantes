@@ -21000,6 +21000,28 @@
         "_fecha_carga": "18/06/2026 00:47",
         "_origen": "grupo",
         "_pie": "Juan Carlos Ovejero\n14.765.356"
+      },
+      {
+        "fecha": "13/06/2026",
+        "hora": "05:12",
+        "tipo": "TRF",
+        "monto": 500000.12,
+        "moneda": "ARS",
+        "remitente": "Angel Damian Zurita",
+        "remitente_cuil": "20-16554662-9",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163102082635",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: 0V1JXON1LMK1D6M3NZ64EL. CVU remitente: 0000003100016261529615. CVU destinatario: 0001553000000000009977. CUIT destinatario: 30-71728225-2",
+        "_num": 953,
+        "_fecha_carga": "18/06/2026 00:47",
+        "_origen": "grupo",
+        "_pie": "Ángel Damián Zurita\nDNI: 16.554.662"
       }
     ],
     "errores": [],
