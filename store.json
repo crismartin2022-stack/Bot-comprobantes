@@ -36370,6 +36370,28 @@
         "_fecha_carga": "18/06/2026 14:49",
         "_origen": "grupo",
         "_pie": "Transacción 0f11811b-2d54-4f93-a7b2-cc73c94eed4f - - ARS 900.000,00"
+      },
+      {
+        "fecha": "15/06/2026",
+        "hora": "01:27",
+        "tipo": "TRF",
+        "monto": 35000.0,
+        "moneda": "ARS",
+        "remitente": "Alan Ezequiel Espinola",
+        "remitente_cuil": "20-39715159-0",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "164172576344",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: 8D0Q619L0W3WLX53N7JZ5R. CVU remitente: 0000003100086877314857. CVU destinatario: 0000155300000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 1650,
+        "_fecha_carga": "18/06/2026 14:49",
+        "_origen": "grupo",
+        "_pie": "Horizonte Blt S.A.S. - CUIT 30-71876498-6"
       }
     ],
     "errores": [],
