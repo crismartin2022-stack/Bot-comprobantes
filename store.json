@@ -4032,6 +4032,28 @@
         "_fecha_carga": "17/06/2026 21:24",
         "_origen": "grupo",
         "_pie": "Zoraida Nunez Sanchez\nNaranja X\n4530000800016777376312\nCUIL\n27-92394168-7"
+      },
+      {
+        "fecha": "12/06/2026",
+        "hora": "20:54",
+        "tipo": "TRF",
+        "monto": 200001.0,
+        "moneda": "ARS",
+        "remitente": "Leonardo Ariel Aguirre",
+        "remitente_cuil": "20-25795836-2",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163871963964",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: Z4K6DVNOWZYK4LL125J8LQ. CUIT destinatario: 30-71728225-2. CVU remitente: 0000003100000832706576. CVU destinatario: 0000155300000000009977.",
+        "_num": 183,
+        "_fecha_carga": "17/06/2026 21:25",
+        "_origen": "grupo",
+        "_pie": "Leonardo Ariel Aguirre\nCUIT/CUIL: 20-25795836-2"
       }
     ],
     "errores": [],
