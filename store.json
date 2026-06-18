@@ -34889,6 +34889,28 @@
         "_fecha_carga": "18/06/2026 14:39",
         "_origen": "grupo",
         "_pie": "leandro artigas\n31560335"
+      },
+      {
+        "fecha": "11/06/2026",
+        "hora": "21:26",
+        "tipo": "TRF",
+        "monto": 222000.0,
+        "moneda": "ARS",
+        "remitente": "Mario Gustavo Starna",
+        "remitente_cuil": "20-16355712-7",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163705757314",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: 7L8GYKNX0OL1QL7O2MPRZ5. CVU remitente: 0000003100057304735321. CVU destinatario: 0000155300000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 1583,
+        "_fecha_carga": "18/06/2026 14:39",
+        "_origen": "grupo",
+        "_pie": "mario starna\n16355712"
       }
     ],
     "errores": [],
