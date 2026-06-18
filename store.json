@@ -36348,6 +36348,28 @@
         "_fecha_carga": "18/06/2026 14:49",
         "_origen": "grupo",
         "_pie": "Hector bordón 26277873"
+      },
+      {
+        "fecha": "15/06/2026",
+        "hora": "19:22:48",
+        "tipo": "TRF",
+        "monto": 900000.0,
+        "moneda": "ARS",
+        "remitente": "HORIZONTE BLT S.A.S.",
+        "remitente_cuil": "30-71876498-6",
+        "destinatario": "SASTEUP SRL",
+        "banco_origen": "",
+        "banco_destino": "",
+        "referencia": "LOEJWV9JZ36R17RM2QMD0G",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CBU remitente: 0000151500034588529161. CBU destinatario: 0000155300000000009977. CUIT destinatario: 30-71728225-2. ID Operación: 0f11811b-2d54-4f93-a7b2-cc73c94eed4f. Código COELSA tomado como referencia principal.",
+        "_num": 1649,
+        "_fecha_carga": "18/06/2026 14:49",
+        "_origen": "grupo",
+        "_pie": "Transacción 0f11811b-2d54-4f93-a7b2-cc73c94eed4f - - ARS 900.000,00"
       }
     ],
     "errores": [],
