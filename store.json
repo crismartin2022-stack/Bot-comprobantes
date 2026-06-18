@@ -30020,6 +30020,28 @@
         "_fecha_carga": "18/06/2026 13:45",
         "_origen": "grupo",
         "_pie": "Matias Mancilla 47.955.046"
+      },
+      {
+        "fecha": "14/06/2026",
+        "hora": "23:27",
+        "tipo": "TRF",
+        "monto": 250000.0,
+        "moneda": "ARS",
+        "remitente": "Libertad Daiana Elizabeth Toribio",
+        "remitente_cuil": "27-31605444-2",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "Z6OLMDN3V37RPX8W2E7RQ5",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Número de operación de Mercado Pago: 164165590318. Código de identificación: Z6OLMDN3V37RPX8W2E7RQ5. CVU remitente: 0000003100029720085557. CVU destinatario: 0000155300000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 1362,
+        "_fecha_carga": "18/06/2026 13:45",
+        "_origen": "grupo",
+        "_pie": "Libertad Daiana Elizabeth Toribio\nCUIT/CUIL: 27-31605444-2"
       }
     ],
     "errores": [],
