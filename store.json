@@ -22588,6 +22588,28 @@
         "_fecha_carga": "18/06/2026 12:49",
         "_origen": "grupo",
         "_pie": "Torres Juan Octavio \n20-39551805-5"
+      },
+      {
+        "fecha": "15/06/2026",
+        "hora": "13:29",
+        "tipo": "TRF",
+        "monto": 100000.0,
+        "moneda": "ARS",
+        "remitente": "Angelina Rodriguez",
+        "remitente_cuil": "",
+        "destinatario": "SASTEUP SRL",
+        "banco_origen": "DolarApp",
+        "banco_destino": "",
+        "referencia": "RD06Z09WVRP36ZG3N5GP7X",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CUIT del destinatario: 30717282252. CBU/CVU del destinatario: 0000155300000000009977. Proveedor de Servicios de Pago: GARPA S.A.",
+        "_num": 1025,
+        "_fecha_carga": "18/06/2026 12:49",
+        "_origen": "grupo",
+        "_pie": "Angelina Rodriguez \n27175279216"
       }
     ],
     "errores": [],
