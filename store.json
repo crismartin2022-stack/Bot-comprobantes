@@ -31829,6 +31829,28 @@
         "_fecha_carga": "18/06/2026 13:57",
         "_origen": "grupo",
         "_pie": "Mauricio Tosolini\nCUIT/CUIL: 20-29653582-7\nMercado Pago\nCVU: 0000003100015879884802"
+      },
+      {
+        "fecha": "11/06/2026",
+        "hora": "22:36",
+        "tipo": "TRF",
+        "monto": 50000.0,
+        "moneda": "ARS",
+        "remitente": "Rodrigo Leonel Cuellar",
+        "remitente_cuil": "20-48169259-9",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "162907538361",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: ORD6LEN8P1WM0L1ONM1Y30. CVU remitente: 0000003100052837457935. CVU destinatario: 0000155300000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 1444,
+        "_fecha_carga": "18/06/2026 13:57",
+        "_origen": "grupo",
+        "_pie": "Rodrigo Leonel Cuellar\nCUIT/CUIL: 20-48169259-9\nMercado Pago\nCVU: 0000003100052837457935"
       }
     ],
     "errores": [],
