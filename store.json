@@ -46004,6 +46004,28 @@
         "_fecha_carga": "18/06/2026 19:59",
         "_origen": "grupo",
         "_pie": "Claudia Alejandra jigena\nNaranja X\n4530000800017431780250\n27-20030513-8"
+      },
+      {
+        "fecha": "12/06/2026",
+        "hora": "12:31",
+        "tipo": "TRF",
+        "monto": 300000.0,
+        "moneda": "ARS",
+        "remitente": "Brian Ariel Salto",
+        "remitente_cuil": "20-45315434-4",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Naranja X",
+        "banco_destino": "Cuenta Virtual",
+        "referencia": "JMQKYZ9QQ0014R469V50P3",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CBU origen: 4530000800019637502810. CVU destino: 0000155300000000009977. CUIL destinatario: 30-71728225-2. Código de transacción: d6b8f9bc-e4b0-4911-a866-d8d041e3ba43",
+        "_num": 124,
+        "_fecha_carga": "18/06/2026 19:59",
+        "_origen": "grupo",
+        "_pie": "Brian Ariel Salto\nNaranja X\n4530000800019637502810\n20-45315434-4"
       }
     ],
     "errores": [],
