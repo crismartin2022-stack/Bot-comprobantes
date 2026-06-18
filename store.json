@@ -11199,6 +11199,28 @@
         "_fecha_carga": "17/06/2026 23:35",
         "_origen": "grupo",
         "_pie": "Hola 👋🏻 m carga en ganamos xfa"
+      },
+      {
+        "fecha": "13/06/2026",
+        "hora": "15:27",
+        "tipo": "TRF",
+        "monto": 10000.0,
+        "moneda": "ARS",
+        "remitente": "Aldo Gustavo Videla",
+        "remitente_cuil": "20-34832114-6",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163166589711",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: D4RO172VZQ1YDJK1NKJ3QE. CUIT destinatario: 30-71728225-2. CVU remitente: 0000003100027089827841.",
+        "_num": 508,
+        "_fecha_carga": "17/06/2026 23:35",
+        "_origen": "grupo",
+        "_pie": "Foto de Ges"
       }
     ],
     "errores": [],
