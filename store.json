@@ -34250,6 +34250,28 @@
         "_fecha_carga": "18/06/2026 14:34",
         "_origen": "grupo",
         "_pie": "Jessica Belen Juarez \n38108247"
+      },
+      {
+        "fecha": "13/06/2026",
+        "hora": "20:46",
+        "tipo": "TRF",
+        "monto": 300000.0,
+        "moneda": "ARS",
+        "remitente": "Ferreyra, Maria Laura",
+        "remitente_cuil": "27-32462491-6",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Personal Pay",
+        "banco_destino": "",
+        "referencia": "2741348014",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CBU/CVU destinatario: 0000155300000000009977. CoelsaID: PDX4OGNYGP1EM8VRN0L6EY - Id Bancario. CUIT destinatario: 30-71728225-2",
+        "_num": 1554,
+        "_fecha_carga": "18/06/2026 14:35",
+        "_origen": "grupo",
+        "_pie": "Maria Laura Ferreyra\n\n32462491\n\n300mil \n\nGanamos io"
       }
     ],
     "errores": [],
