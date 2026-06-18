@@ -7276,6 +7276,28 @@
         "_fecha_carga": "17/06/2026 23:09",
         "_origen": "grupo",
         "_pie": "Soledad Alanis \n33.497.792"
+      },
+      {
+        "fecha": "13/06/2026",
+        "hora": "22:03",
+        "tipo": "TRF",
+        "monto": 11000.0,
+        "moneda": "ARS",
+        "remitente": "Agostina Antonella Albarracin",
+        "remitente_cuil": "27-40434417-5",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163226370961",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: WY7ZEPN6MKQDQOEQ2Q0M51. CVU remitente: 0000003100082204298865. CVU destinatario: 0000155300000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 330,
+        "_fecha_carga": "17/06/2026 23:09",
+        "_origen": "grupo",
+        "_pie": "Agostina Albarracín \n40.434.417"
       }
     ],
     "errores": [],
