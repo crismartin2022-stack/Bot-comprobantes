@@ -41998,6 +41998,28 @@
         "_fecha_carga": "18/06/2026 15:39",
         "_origen": "grupo",
         "_pie": "CRISTIAN EDGARDO MACHUCA\nCUIT 20-36174575-3"
+      },
+      {
+        "fecha": "15/06/2026",
+        "hora": "22:42",
+        "tipo": "TRF",
+        "monto": 250000.0,
+        "moneda": "ARS",
+        "remitente": "CELINA FLORENCIA SORIA",
+        "remitente_cuil": "27-41727066-9",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Banco Galicia",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "42115118621",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "ID COELSA: 76V4MR2Z74WZR5R0NDEZOL. CVU destinatario: 0000155300000000009977. CUIT destinatario: 30-71728225-2. Cuenta origen: CA $ N° 4119549-2 139-1",
+        "_num": 1905,
+        "_fecha_carga": "18/06/2026 15:39",
+        "_origen": "grupo",
+        "_pie": "CELINA FLORENCIA SORIA\nCUIT 27-41727066-9"
       }
     ],
     "errores": [],
