@@ -34118,6 +34118,28 @@
         "_fecha_carga": "18/06/2026 14:13",
         "_origen": "grupo",
         "_pie": "lata federico martin\n34233763"
+      },
+      {
+        "fecha": "11/06/2026",
+        "hora": "09:29",
+        "tipo": "TRF",
+        "monto": 600000.0,
+        "moneda": "ARS",
+        "remitente": "Joaquin Isaac Juarez",
+        "remitente_cuil": "20-45483318-0",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Naranja X",
+        "banco_destino": "Cuenta Virtual",
+        "referencia": "XJ8G7V95DXZWWVY49EMPYR",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CBU origen: 4530000800014476937997. CVU destino: 0000155300000000009977. CUIL destinatario: 30-71728225-2. Código de transacción: 80988aca-c9ad-464f-b475-f034c4a7ab54.",
+        "_num": 1548,
+        "_fecha_carga": "18/06/2026 14:13",
+        "_origen": "grupo",
+        "_pie": "Juarez joaquin isaac\n45483318"
       }
     ],
     "errores": [],
