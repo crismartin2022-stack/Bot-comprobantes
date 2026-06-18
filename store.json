@@ -39000,6 +39000,28 @@
         "_fecha_carga": "18/06/2026 15:07",
         "_origen": "grupo",
         "_pie": "Walter alejandro forgia 40191889"
+      },
+      {
+        "fecha": "13/06/2026",
+        "hora": "21:53",
+        "tipo": "TRF",
+        "monto": 200000.0,
+        "moneda": "ARS",
+        "remitente": "Acuña Molinas, Nilza",
+        "remitente_cuil": "27-94802177-9",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Personal Pay",
+        "banco_destino": "",
+        "referencia": "2741521581",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CoelsaID: LMORZP908L5610ERNEGJ46 - Id Bancario. CUIL/CUIT destinatario: 30-71728225-2. CBU/CVU receptor: 0000155300000000009977",
+        "_num": 1769,
+        "_fecha_carga": "18/06/2026 15:08",
+        "_origen": "grupo",
+        "_pie": "Nilza acuña molinas\n\n94802177"
       }
     ],
     "errores": [],
