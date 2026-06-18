@@ -37741,6 +37741,28 @@
         "_fecha_carga": "18/06/2026 14:59",
         "_origen": "grupo",
         "_pie": "Ian Bautista Santa Cruz \n42.833.878"
+      },
+      {
+        "fecha": "15/06/2026",
+        "hora": "18:03",
+        "tipo": "TRF",
+        "monto": 10000.0,
+        "moneda": "ARS",
+        "remitente": "Joaquin Sebastian Marichal",
+        "remitente_cuil": "20-45847558-0",
+        "destinatario": "",
+        "banco_origen": "Brubank",
+        "banco_destino": "",
+        "referencia": "1799042273",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Transferencia enviada desde Brubank. Cuenta origen: Caja de ahorro en pesos. CVU destino: 0000155300000000009977. CUIT destinatario: 30-71728225-2. El nombre del destinatario aparece parcialmente tapado en la parte superior de la pantalla.",
+        "_num": 1712,
+        "_fecha_carga": "18/06/2026 14:59",
+        "_origen": "grupo",
+        "_pie": "Nombre: Joaquin Sebastian Marichal \nDni:45847558"
       }
     ],
     "errores": [],
