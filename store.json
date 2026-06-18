@@ -19394,6 +19394,28 @@
         "_fecha_carga": "18/06/2026 00:37",
         "_origen": "grupo",
         "_pie": ""
+      },
+      {
+        "fecha": "13/06/2026",
+        "hora": "22:15",
+        "tipo": "TRF",
+        "monto": 50000.0,
+        "moneda": "ARS",
+        "remitente": "Miguel Angel Cornejo",
+        "remitente_cuil": "20-21769728-0",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163227091177",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: XJ8G7V95DWEL808D9EMPYR. CVU remitente: 0000003100056986068264. CVU destinatario: 0000155300000000009977. CUIT destinatario: 30-71728225-2",
+        "_num": 880,
+        "_fecha_carga": "18/06/2026 00:38",
+        "_origen": "grupo",
+        "_pie": ""
       }
     ],
     "errores": [],
