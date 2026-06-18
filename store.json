@@ -12035,6 +12035,28 @@
         "_fecha_carga": "17/06/2026 23:41",
         "_origen": "grupo",
         "_pie": "Foto de Johanna Cáceres 💜"
+      },
+      {
+        "fecha": "11/06/2026",
+        "hora": "21:29",
+        "tipo": "TRF",
+        "monto": 29000.0,
+        "moneda": "ARS",
+        "remitente": "Aldo Javier Penayo Parra",
+        "remitente_cuil": "20-94481846-5",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "162899098915",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: Z6OLMDN3VKOM046Y2E7RQ5. CVU destinatario: 0000155300000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 546,
+        "_fecha_carga": "17/06/2026 23:41",
+        "_origen": "grupo",
+        "_pie": "Foto de Johanna Cáceres 💜"
       }
     ],
     "errores": [],
