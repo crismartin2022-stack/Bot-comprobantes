@@ -23823,6 +23823,28 @@
         "_fecha_carga": "18/06/2026 12:57",
         "_origen": "grupo",
         "_pie": "Brian David Munoz\nCUIT/CUIL: 20-44141951-2"
+      },
+      {
+        "fecha": "13/06/2026",
+        "hora": "16:20",
+        "tipo": "TRF",
+        "monto": 200001.0,
+        "moneda": "ARS",
+        "remitente": "Aylen Maria Ester Gonzalez",
+        "remitente_cuil": "27-47506525-0",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163174311725",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: 3D5W612E6Z3VO3P52GXYVR. CVU remitente: 0000003100043365068812. CVU destinatario: 0000155300000000009977",
+        "_num": 1081,
+        "_fecha_carga": "18/06/2026 12:57",
+        "_origen": "grupo",
+        "_pie": "Aylen Maria Ester Gonzalez\nCUIT/CUIL: 27-47506525-0"
       }
     ],
     "errores": [],
