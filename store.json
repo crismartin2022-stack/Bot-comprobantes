@@ -3636,6 +3636,28 @@
         "_fecha_carga": "17/06/2026 21:22",
         "_origen": "grupo",
         "_pie": "Matias torres 32356439"
+      },
+      {
+        "fecha": "12/06/2026",
+        "hora": "19:39",
+        "tipo": "TRF",
+        "monto": 200000.0,
+        "moneda": "ARS",
+        "remitente": "Martin Erik Ruben Maurino",
+        "remitente_cuil": "20-43263425-7",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Naranja X",
+        "banco_destino": "Cuenta Virtual",
+        "referencia": "XJ8G7V95DXW4KJDD9EMPYR",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CBU origen: 4530000800013808095646. CVU destino: 0000155300000000009977. CUIL destinatario: 30-71728225-2. Código de transacción: 8006f793-8e9a-49f1-bea7-d9334d57224c",
+        "_num": 165,
+        "_fecha_carga": "17/06/2026 21:22",
+        "_origen": "grupo",
+        "_pie": "Martin Erik Ruben Maurino\nNaranja X\n4530000800013808095646\n20-43263425-7"
       }
     ],
     "errores": [],
