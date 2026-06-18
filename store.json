@@ -37408,6 +37408,28 @@
         "_fecha_carga": "18/06/2026 14:56",
         "_origen": "grupo",
         "_pie": "Araceli sajama"
+      },
+      {
+        "fecha": "14/06/2026",
+        "hora": "23:30",
+        "tipo": "TRF",
+        "monto": 47000.0,
+        "moneda": "ARS",
+        "remitente": "Argelina Del Valle Jaimes",
+        "remitente_cuil": "27-16416712-2",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "164165710518",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: 8D0Q619L0W3X51YZN7JZ5R. CVU remitente: 0000003100013151039999. CVU destinatario: 0000155300000000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 1697,
+        "_fecha_carga": "18/06/2026 14:56",
+        "_origen": "grupo",
+        "_pie": "Foto de 🤗🤗🤗"
       }
     ],
     "errores": [],
