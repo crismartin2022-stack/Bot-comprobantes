@@ -34779,6 +34779,28 @@
         "_fecha_carga": "18/06/2026 14:38",
         "_origen": "grupo",
         "_pie": "Rosa belen balenzuela\n\n37788085"
+      },
+      {
+        "fecha": "11/06/2026",
+        "hora": "15:29",
+        "tipo": "TRF",
+        "monto": 90000.0,
+        "moneda": "ARS",
+        "remitente": "Milagros Gabriela Alejandra Cisneros",
+        "remitente_cuil": "27-38717976-9",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163645535936",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: LOEJWV9JZPMPQKG82QMD0G. CVU remitente: 0000003100030001664556. CVU destinatario: 0000155300000000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 1578,
+        "_fecha_carga": "18/06/2026 14:38",
+        "_origen": "grupo",
+        "_pie": "Milagros Gabriela Alejandra Cisneros \n27-38717976-9"
       }
     ],
     "errores": [],
