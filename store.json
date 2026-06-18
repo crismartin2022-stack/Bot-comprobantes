@@ -44046,6 +44046,28 @@
         "_fecha_carga": "18/06/2026 19:46",
         "_origen": "grupo",
         "_pie": "Hector Fabian Talavera Barreto\nCUIT/CUIL: 20-94823970-2"
+      },
+      {
+        "fecha": "11/06/2026",
+        "hora": "21:53",
+        "tipo": "TRF",
+        "monto": 100000.0,
+        "moneda": "ARS",
+        "remitente": "Mariana Ayelen Diaz",
+        "remitente_cuil": "",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Lemon",
+        "banco_destino": "CVU",
+        "referencia": "86VRPQ2GMW7V6D7Y2GLY0M",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CUIT destinatario: 30717282252. CBU destinatario: 0000155300000000009977. ID de la transacción: 18c5e18d-97c7-4629-a78f-7b8829829fb1. Comprobante emitido por Lemon, powered by Digifin.",
+        "_num": 35,
+        "_fecha_carga": "18/06/2026 19:47",
+        "_origen": "grupo",
+        "_pie": "Mariana Diaz 36608895"
       }
     ],
     "errores": [],
