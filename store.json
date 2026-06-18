@@ -31499,6 +31499,28 @@
         "_fecha_carga": "18/06/2026 13:55",
         "_origen": "grupo",
         "_pie": "Cyntia Vanesa Cuestas\nCUIT/CUIL: 27-28831006-3"
+      },
+      {
+        "fecha": "15/06/2026",
+        "hora": "19:49",
+        "tipo": "TRF",
+        "monto": 500000.0,
+        "moneda": "ARS",
+        "remitente": "Silvero Arevalos, Antonio",
+        "remitente_cuil": "20-94403581-9",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Personal Pay",
+        "banco_destino": "",
+        "referencia": "2745014484",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CoelsaID: D4R0172VZQWVZ071NKJ3QE - Id Bancario. CUIL/CUIT destinatario: 30-71728225-2. CBU/CVU destinatario: 0000155300000000009977",
+        "_num": 1429,
+        "_fecha_carga": "18/06/2026 13:55",
+        "_origen": "grupo",
+        "_pie": "Silvero Arevalos, Antonio\nCUIL/CUIT 20-94403581-9"
       }
     ],
     "errores": [],
