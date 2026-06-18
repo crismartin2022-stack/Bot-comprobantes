@@ -44200,6 +44200,28 @@
         "_fecha_carga": "18/06/2026 19:47",
         "_origen": "grupo",
         "_pie": "Roxana Beatriz Olmos\nNaranja X\n4530000800015357098541\n27-30134583-1"
+      },
+      {
+        "fecha": "11/06/2026",
+        "hora": "19:38",
+        "tipo": "TRF",
+        "monto": 100000.0,
+        "moneda": "ARS",
+        "remitente": "Donato Acosta Britez",
+        "remitente_cuil": "20-94744382-9",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "162880933709",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: 46YGOW9M1Y45JRKYNEXD8J. CVU remitente: 0000003100073580892165. CVU destinatario: 0000155300000000009977. CUIT destinatario: 30-71728225-2",
+        "_num": 42,
+        "_fecha_carga": "18/06/2026 19:47",
+        "_origen": "grupo",
+        "_pie": "Donato Acosta Britez\nCUIT/CUIL: 20-94744382-9"
       }
     ],
     "errores": [],
