@@ -41292,6 +41292,28 @@
         "_fecha_carga": "18/06/2026 15:34",
         "_origen": "grupo",
         "_pie": "Juan Pablo Quiroz\nNaranja X\n4530000800019167166531\n20-26206205-9"
+      },
+      {
+        "fecha": "15/06/2026",
+        "hora": "20:31:49",
+        "tipo": "TRF",
+        "monto": 25000.0,
+        "moneda": "ARS",
+        "remitente": "Debora Gisele Carnuccio",
+        "remitente_cuil": "",
+        "destinatario": "SASTEUP SRL",
+        "banco_origen": "Reba",
+        "banco_destino": "",
+        "referencia": "30494823",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CBU origen: 4150999718005055200042. CBU/CVU destino: 0000155300000000009977. CUIT destinatario: 30717282252. Comprobante emitido por Reba.",
+        "_num": 1873,
+        "_fecha_carga": "18/06/2026 15:35",
+        "_origen": "grupo",
+        "_pie": "29462975 Debora Gisele Carnuccio"
       }
     ],
     "errores": [],
