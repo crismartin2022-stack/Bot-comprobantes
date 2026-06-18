@@ -5312,6 +5312,28 @@
         "_fecha_carga": "17/06/2026 21:32",
         "_origen": "grupo",
         "_pie": "Maria claudia ibarra \n28120532"
+      },
+      {
+        "fecha": "12/06/2026",
+        "hora": "23:40",
+        "tipo": "TRF",
+        "monto": 300000.0,
+        "moneda": "ARS",
+        "remitente": "Brian Ariel Salto",
+        "remitente_cuil": "20-45315434-4",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Naranja X",
+        "banco_destino": "Cuenta Virtual",
+        "referencia": "ORD6LEN8PYE00EM0NM1Y30",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CBU origen: 4530000800019637502810. CVU destino: 0000155300000000009977. CUIL destinatario: 30-71728225-2. Código de transacción: 00fb5bb5-9a40-4bab-8158-8217ef822dda.",
+        "_num": 241,
+        "_fecha_carga": "17/06/2026 21:33",
+        "_origen": "grupo",
+        "_pie": "Brian Ariel Salto\nNaranja X\n4530000800019637502810\n20-45315434-4"
       }
     ],
     "errores": [],
