@@ -29137,6 +29137,28 @@
         "_fecha_carga": "18/06/2026 13:39",
         "_origen": "grupo",
         "_pie": "De:\nTHOMAS YAMIL IBANEZ\nCUIT 20-47120298-4"
+      },
+      {
+        "fecha": "14/06/2026",
+        "hora": "22:18",
+        "tipo": "TRF",
+        "monto": 100000.0,
+        "moneda": "ARS",
+        "remitente": "Noemi Ayda Duarte",
+        "remitente_cuil": "27-24131220-3",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "164158891140",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: 0V1JXON1LMR3Q53PNZ64EL. CUIL destinatario: 30-71728225-2. CVU destinatario completo: 0000155300000000000009977",
+        "_num": 1322,
+        "_fecha_carga": "18/06/2026 13:39",
+        "_origen": "grupo",
+        "_pie": "Noemi Ayda Duarte\nCUIT/CUIL: 27-24131220-3"
       }
     ],
     "errores": [],
