@@ -4407,6 +4407,28 @@
         "_fecha_carga": "17/06/2026 21:27",
         "_origen": "grupo",
         "_pie": "Micaela Acosta\nCUIT/CUIL: 27-37679548-4"
+      },
+      {
+        "fecha": "12/06/2026",
+        "hora": "22:02",
+        "tipo": "TRF",
+        "monto": 100000.0,
+        "moneda": "ARS",
+        "remitente": "Carolina Soraya Lopez",
+        "remitente_cuil": "27-25572398-2",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Naranja X",
+        "banco_destino": "Cuenta Virtual",
+        "referencia": "LMORZP908LJ5ZE36NEGJ46",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CBU origen: 4530000800018419534461. CVU destino: 0000155300000000009977. CUIL destinatario: 30-71728225-2. Código de transacción: d58e8bbc-833e-4288-8e8e-5cb87976854f",
+        "_num": 200,
+        "_fecha_carga": "17/06/2026 21:27",
+        "_origen": "grupo",
+        "_pie": "Carolina Soraya López 25572398"
       }
     ],
     "errores": [],
