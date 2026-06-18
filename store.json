@@ -33524,6 +33524,28 @@
         "_fecha_carga": "18/06/2026 14:09",
         "_origen": "grupo",
         "_pie": "Martin Ignacio Herrera\nPersona destinataria\nNombre\nCUIT\nCBU\nBanco destino\nMotivo\nSasteup Srl"
+      },
+      {
+        "fecha": "11/06/2026",
+        "hora": "22:49",
+        "tipo": "TRF",
+        "monto": 520000.0,
+        "moneda": "ARS",
+        "remitente": "Torres, Gaston Elias",
+        "remitente_cuil": "20-34261599-7",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Personal Pay",
+        "banco_destino": "",
+        "referencia": "2734356381",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CoelsaID: 0V1JXON1LWGRQDE3NZ64EL - Id Bancario. CBU/CVU receptor: 0000155300000000009977. CUIL/CUIT destinatario: 30-71728225-2",
+        "_num": 1521,
+        "_fecha_carga": "18/06/2026 14:09",
+        "_origen": "grupo",
+        "_pie": ""
       }
     ],
     "errores": [],
