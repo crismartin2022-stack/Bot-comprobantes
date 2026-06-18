@@ -37608,6 +37608,28 @@
         "_fecha_carga": "18/06/2026 14:58",
         "_origen": "grupo",
         "_pie": "Patricia Espinoza 30679557"
+      },
+      {
+        "fecha": "15/06/2026",
+        "hora": "16:36",
+        "tipo": "TRF",
+        "monto": 100000.0,
+        "moneda": "ARS",
+        "remitente": "Julio Daniel Miranda",
+        "remitente_cuil": "20-38504759-3",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163444533307",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CUIT destinatario: 30-71728225-2. CVU remitente: 0000003100095968897131. CVU destinatario: 0000155300000000000009977. Código de identificación: LMORZP908LZRWMRYNEGJ46",
+        "_num": 1706,
+        "_fecha_carga": "18/06/2026 14:58",
+        "_origen": "grupo",
+        "_pie": "Pink"
       }
     ],
     "errores": [],
