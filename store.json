@@ -28608,6 +28608,28 @@
         "_fecha_carga": "18/06/2026 13:35",
         "_origen": "grupo",
         "_pie": "ENZO SOLIS\n20-46682028-9"
+      },
+      {
+        "fecha": "14/06/2026",
+        "hora": "20:09",
+        "tipo": "TRF",
+        "monto": 300000.0,
+        "moneda": "ARS",
+        "remitente": "Gabriela Elizabet Orellana",
+        "remitente_cuil": "28.635.493",
+        "destinatario": "SASTEUP SRL",
+        "banco_origen": "Cuenta DNI",
+        "banco_destino": "",
+        "referencia": "8D0Q619L0W3G6YM8N7JZ5R",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CVU destinatario: 0000155300000000000009977. CUIL destinatario: 30717282252. El remitente figura con DNI 28.635.493 sin guiones estándar de CUIL.",
+        "_num": 1298,
+        "_fecha_carga": "18/06/2026 13:35",
+        "_origen": "grupo",
+        "_pie": "GABRIELA ELIZABETH ORELLANA\n28.635.493"
       }
     ],
     "errores": [],
