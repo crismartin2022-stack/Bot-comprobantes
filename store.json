@@ -858,6 +858,28 @@
         "_fecha_carga": "17/06/2026 21:03",
         "_origen": "grupo",
         "_pie": "Juan Elias Marquez De Olivera\nCUIT/CUIL: 20-36520946-5"
+      },
+      {
+        "fecha": "11/06/2026",
+        "hora": "22:06",
+        "tipo": "TRF",
+        "monto": 300000.0,
+        "moneda": "ARS",
+        "remitente": "Emilse Noemi Peralta",
+        "remitente_cuil": "27-34491409-0",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "162903812891",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: LOEJWV9JZPQLPGL82QMD0G. CVU remitente: 0000003100038544645502. CVU destinatario: 0000155300000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 39,
+        "_fecha_carga": "17/06/2026 21:03",
+        "_origen": "grupo",
+        "_pie": "Emilse Noemi Peralta\nCUIT/CUIL: 27-34491409-0"
       }
     ],
     "errores": [],
