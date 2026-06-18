@@ -22875,6 +22875,28 @@
         "_fecha_carga": "18/06/2026 12:51",
         "_origen": "grupo",
         "_pie": "Luciana Alvarenga \n95029202"
+      },
+      {
+        "fecha": "14/06/2026",
+        "hora": "23:00",
+        "tipo": "TRF",
+        "monto": 100000.0,
+        "moneda": "ARS",
+        "remitente": "Brisa Jazmin Coronel",
+        "remitente_cuil": "",
+        "destinatario": "Dapa Srl",
+        "banco_origen": "Ualá",
+        "banco_destino": "",
+        "referencia": "RD06ZO9WVR4Z53V1N5GP7X",
+        "concepto": "VAR",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "2092",
+        "tiene_remitente": true,
+        "notas": "CBU destino: 0000151500032178402092. CUIT destino: 33717708119",
+        "_num": 1038,
+        "_fecha_carga": "18/06/2026 12:51",
+        "_origen": "grupo",
+        "_pie": "A nombre de brisa coronel \n47.424.663"
       }
     ],
     "errores": [],
