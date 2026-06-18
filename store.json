@@ -3922,6 +3922,28 @@
         "_fecha_carga": "17/06/2026 21:24",
         "_origen": "grupo",
         "_pie": "Juan Elias Marquez De Olivera\nCUIT/CUIL: 20-36520946-5"
+      },
+      {
+        "fecha": "12/06/2026",
+        "hora": "20:15",
+        "tipo": "TRF",
+        "monto": 200000.0,
+        "moneda": "ARS",
+        "remitente": "Braian Alexis Suarez",
+        "remitente_cuil": "",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Ualá",
+        "banco_destino": "",
+        "referencia": "Z4K6DVNOWZY7LO4425J8LQ",
+        "concepto": "VAR",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CBU destino: 0000155300000000009977. CUIT destinatario: 30717282252",
+        "_num": 178,
+        "_fecha_carga": "17/06/2026 21:24",
+        "_origen": "grupo",
+        "_pie": "Braian alexis Suarez \nCuit/Cuil : 20.40427871-2"
       }
     ],
     "errores": [],
