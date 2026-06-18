@@ -45652,6 +45652,28 @@
         "_fecha_carga": "18/06/2026 19:56",
         "_origen": "grupo",
         "_pie": "Brepe, Kevin Agustin\n20-42196385-2"
+      },
+      {
+        "fecha": "12/06/2026",
+        "hora": "00:54",
+        "tipo": "TRF",
+        "monto": 100000.0,
+        "moneda": "ARS",
+        "remitente": "Roxana Beatriz Olmos",
+        "remitente_cuil": "27-30134583-1",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Naranja X",
+        "banco_destino": "Cuenta Virtual",
+        "referencia": "46YGOW9M1YW0LQPQNEXD8J",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CBU origen: 4530000800015357098541. CVU destino: 0000155300000000009977. CUIL destinatario: 30-71728225-2. Código de transacción: 54878dbc-c765-4198-b0f7-f66fd493935b",
+        "_num": 108,
+        "_fecha_carga": "18/06/2026 19:57",
+        "_origen": "grupo",
+        "_pie": "Roxana Beatriz Olmos\nNaranja X\n4530000800015357098541\n27-30134583-1"
       }
     ],
     "errores": [],
