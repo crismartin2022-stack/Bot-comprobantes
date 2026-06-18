@@ -33238,6 +33238,28 @@
         "_fecha_carga": "18/06/2026 14:07",
         "_origen": "grupo",
         "_pie": "Aravena, Lorena Fabiana\n27-40112079-9\nPersonal Pay"
+      },
+      {
+        "fecha": "11/06/2026",
+        "hora": "16:36",
+        "tipo": "TRF",
+        "monto": 100000.0,
+        "moneda": "ARS",
+        "remitente": "Martin Ignacio Herrera",
+        "remitente_cuil": "",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Lemon",
+        "banco_destino": "CVU",
+        "referencia": "LOEJWV9JZPKLRDDR2QMD0G",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CUIT destinatario: 30717282252. CBU destino: 0000155300000000009977. ID de la transacción: 7f19f404-b330-4c20-93af-e5c8462fc6c7. Comprobante emitido por Lemon powered by Digifin.",
+        "_num": 1508,
+        "_fecha_carga": "18/06/2026 14:07",
+        "_origen": "grupo",
+        "_pie": "Martin Ignacio Herrera\nPersona destinataria\nNombre\nCUIT\nCBU\nBanco destino\nMotivo\nSasteup Srl"
       }
     ],
     "errores": [],
