@@ -15954,6 +15954,28 @@
         "_fecha_carga": "18/06/2026 00:15",
         "_origen": "grupo",
         "_pie": "German Balbuena \n43.653.817"
+      },
+      {
+        "fecha": "15/06/2026",
+        "hora": "00:37",
+        "tipo": "TRF",
+        "monto": 600000.0,
+        "moneda": "ARS",
+        "remitente": "Brian Anibal Leiva",
+        "remitente_cuil": "24-45159245-5",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163356848067",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: 3D5W612E6ZWEJEKQ2GXYVR. CVU remitente: 0000003100044307123237. CVU destinatario: 0000155300000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 724,
+        "_fecha_carga": "18/06/2026 00:16",
+        "_origen": "grupo",
+        "_pie": "Brian Leiva \n45.159.245"
       }
     ],
     "errores": [],
