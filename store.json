@@ -33722,6 +33722,28 @@
         "_fecha_carga": "18/06/2026 14:10",
         "_origen": "grupo",
         "_pie": "Daiana Beatriz Echague \nCUIL/CUIT \n27-38133266-2"
+      },
+      {
+        "fecha": "13/06/2026",
+        "hora": "14:31",
+        "tipo": "TRF",
+        "monto": 50000.0,
+        "moneda": "ARS",
+        "remitente": "Sonia Guadalupe Toledo",
+        "remitente_cuil": "27-23619176-7",
+        "destinatario": "SASTEUP SRL",
+        "banco_origen": "AstroPay",
+        "banco_destino": "",
+        "referencia": "LOEJWV9JZ3041Y432QMD0G",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CVU remitente: 0000177506140009749907. CVU receptor: 0000155300000000009977. Alias receptor: cvu.977. CUIT receptor: 30-71728225-2. Comprobante emitido por AstroPay.",
+        "_num": 1530,
+        "_fecha_carga": "18/06/2026 14:10",
+        "_origen": "grupo",
+        "_pie": "Sonia Guadalupe Toledo\n27236191767"
       }
     ],
     "errores": [],
