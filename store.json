@@ -47396,6 +47396,28 @@
         "_fecha_carga": "18/06/2026 20:07",
         "_origen": "grupo",
         "_pie": "Veronica Juarez\nCuil/cuit: 27-30569031-2"
+      },
+      {
+        "fecha": "12/06/2026",
+        "hora": "20:15",
+        "tipo": "TRF",
+        "monto": 70000.0,
+        "moneda": "ARS",
+        "remitente": "Miriam Lili Nunez Fernandez",
+        "remitente_cuil": "27-94216492-6",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163866370774",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: PDX4OGNYG3PZ5MR4N0L6EY. CUIT destinatario: 30-71728225-2. CVU remitente: 0000003100098349467435. CVU destinatario: 0000155300000000009977",
+        "_num": 187,
+        "_fecha_carga": "18/06/2026 20:07",
+        "_origen": "grupo",
+        "_pie": "Miriam Lili Nunez Fernandez\nCUIT/CUIL: 27-94216492-6"
       }
     ],
     "errores": [],
