@@ -47594,6 +47594,28 @@
         "_fecha_carga": "18/06/2026 20:08",
         "_origen": "grupo",
         "_pie": "Pablo Agustin Franco\nCUIT/CUIL: 20-42176164-8"
+      },
+      {
+        "fecha": "12/06/2026",
+        "hora": "21:03",
+        "tipo": "TRF",
+        "monto": 100000.0,
+        "moneda": "ARS",
+        "remitente": "Claudio Daniel Weber",
+        "remitente_cuil": "20-35245699-4",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163065211053",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: 1LMP68NKVXEX36LP2R7OEV. CVU destinatario: 0000155300000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 196,
+        "_fecha_carga": "18/06/2026 20:08",
+        "_origen": "grupo",
+        "_pie": "Claudio Daniel Weber\nCUIT/CUIL: 20-35245699-4"
       }
     ],
     "errores": [],
