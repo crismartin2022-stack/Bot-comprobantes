@@ -25236,6 +25236,28 @@
         "_fecha_carga": "18/06/2026 13:07",
         "_origen": "grupo",
         "_pie": "Sandy margorit Quicaño rucoba \n29-94097313-4"
+      },
+      {
+        "fecha": "13/06/2026",
+        "hora": "20:48",
+        "tipo": "TRF",
+        "monto": 500000.05,
+        "moneda": "ARS",
+        "remitente": "Lucas Sebastian Gonzalez",
+        "remitente_cuil": "20-44678682-3",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Naranja X",
+        "banco_destino": "Cuenta Virtual",
+        "referencia": "0V1JXON1LMD50EX7NZ64EL",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CVU destinatario: 0000155300000000009977. CUIL destinatario: 30-71728225-2. CBU remitente: 4530000800017527637497. Código de transacción adicional: ee2acebf-a7fe-40e9-8778-71770d3b2059",
+        "_num": 1145,
+        "_fecha_carga": "18/06/2026 13:08",
+        "_origen": "grupo",
+        "_pie": "Lucas Sebastian González \n20-44678682-3"
       }
     ],
     "errores": [],
