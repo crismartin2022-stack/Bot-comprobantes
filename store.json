@@ -39396,6 +39396,28 @@
         "_fecha_carga": "18/06/2026 15:10",
         "_origen": "grupo",
         "_pie": ""
+      },
+      {
+        "fecha": "13/06/2026",
+        "hora": "15:45",
+        "tipo": "TRF",
+        "monto": 300000.0,
+        "moneda": "ARS",
+        "remitente": "Alicia Veronica Ledesma",
+        "remitente_cuil": "27-23971189-3",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163980014826",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: JMQKYZ9QQV47DQVP9V50P3. CVU remitente: 0000003100050004487398. CVU destinatario: 0000155300000000009977",
+        "_num": 1787,
+        "_fecha_carga": "18/06/2026 15:10",
+        "_origen": "grupo",
+        "_pie": ""
       }
     ],
     "errores": [],
