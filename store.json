@@ -19614,6 +19614,28 @@
         "_fecha_carga": "18/06/2026 00:39",
         "_origen": "grupo",
         "_pie": ""
+      },
+      {
+        "fecha": "14/06/2026",
+        "hora": "13:43",
+        "tipo": "TRF",
+        "monto": 100000.0,
+        "moneda": "ARS",
+        "remitente": "Yohanna Stefania Calabres",
+        "remitente_cuil": "27-35432136-5",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "164097397922",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: D4RO172VZQZ5VR3RNKJ3QE. CVU remitente: 0000003100054227215585. CVU destinatario: 0000155300000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 890,
+        "_fecha_carga": "18/06/2026 00:39",
+        "_origen": "grupo",
+        "_pie": ""
       }
     ],
     "errores": [],
