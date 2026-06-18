@@ -2951,6 +2951,28 @@
         "_fecha_carga": "17/06/2026 21:18",
         "_origen": "grupo",
         "_pie": "Francisco Ezequiel Duarte"
+      },
+      {
+        "fecha": "12/06/2026",
+        "hora": "15:08",
+        "tipo": "TRF",
+        "monto": 100000.0,
+        "moneda": "ARS",
+        "remitente": "Noemi Ayda Duarte",
+        "remitente_cuil": "27-24131220-3",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163810801396",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: 1LMP68NKVXX0LDP52R7OEV. CUIT destinatario: 30-71728225-2. CVU destinatario: 0000155300000000000009977",
+        "_num": 134,
+        "_fecha_carga": "17/06/2026 21:18",
+        "_origen": "grupo",
+        "_pie": "Noemi Ayda Duarte\nCUIT/CUIL: 27-24131220-3"
       }
     ],
     "errores": [],
