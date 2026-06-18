@@ -2929,6 +2929,28 @@
         "_fecha_carga": "17/06/2026 21:17",
         "_origen": "grupo",
         "_pie": "Hector Fabian Talavera Barreto\nCUIT/CUIL: 20-94823970-2"
+      },
+      {
+        "fecha": "12/06/2026",
+        "hora": "15:10",
+        "tipo": "TRF",
+        "monto": 380000.0,
+        "moneda": "ARS",
+        "remitente": "Francisco Ezequiel Duarte",
+        "remitente_cuil": "20-45863578-2",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163811001458",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: R7ZG0QNDWQQEDRED9EXYPO. CVU remitente: 0000003100046168307858. CVU destinatario: 0000155300000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 133,
+        "_fecha_carga": "17/06/2026 21:18",
+        "_origen": "grupo",
+        "_pie": "Francisco Ezequiel Duarte"
       }
     ],
     "errores": [],
