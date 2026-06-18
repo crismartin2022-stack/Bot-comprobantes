@@ -48255,6 +48255,28 @@
         "_fecha_carga": "18/06/2026 20:12",
         "_origen": "grupo",
         "_pie": "Yesica Noemi Morales\nCUIT/CUIL: 23-30853348-4"
+      },
+      {
+        "fecha": "12/06/2026",
+        "hora": "23:38",
+        "tipo": "TRF",
+        "monto": 500000.0,
+        "moneda": "ARS",
+        "remitente": "Yesica Noemi Morales",
+        "remitente_cuil": "23-30853348-4",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163893957676",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: PDX4OGNYGPR5WWQVN0L6EY. CUIT destinatario: 30-71728225-2. CVU remitente: 0000003100010145781779. CVU destinatario: 0000155300000000000009977",
+        "_num": 226,
+        "_fecha_carga": "18/06/2026 20:13",
+        "_origen": "grupo",
+        "_pie": "Yesica Noemi Morales\nCUIT/CUIL: 23-30853348-4"
       }
     ],
     "errores": [],
