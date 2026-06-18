@@ -35089,6 +35089,28 @@
         "_fecha_carga": "18/06/2026 14:40",
         "_origen": "grupo",
         "_pie": "Ayala maría \n32179584"
+      },
+      {
+        "fecha": "13/06/2026",
+        "hora": "02:34",
+        "tipo": "TRF",
+        "monto": 450000.0,
+        "moneda": "ARS",
+        "remitente": "Leandro Artigas",
+        "remitente_cuil": "20-31560335-9",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Naranja X",
+        "banco_destino": "Cuenta Virtual",
+        "referencia": "7L8GYKNX0517P4DK2MPRZ5",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CBU origen: 4530000800016537865135. CVU destino: 0000155300000000009977. CUIL destinatario: 30-71728225-2. Código de transacción: e5ec7b16-1be6-4494-a3ab-2ae1709c8a79",
+        "_num": 1592,
+        "_fecha_carga": "18/06/2026 14:40",
+        "_origen": "grupo",
+        "_pie": "leandro artigas\n31560335"
       }
     ],
     "errores": [],
