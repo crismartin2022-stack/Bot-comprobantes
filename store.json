@@ -54187,6 +54187,28 @@
         "_fecha_carga": "18/06/2026 20:49",
         "_origen": "grupo",
         "_pie": "Cascino Denis Leonel \nDNI: 34.494.394\nCUIT/CUIL: 20-34494394-0"
+      },
+      {
+        "fecha": "12/06/2026",
+        "hora": "13:32",
+        "tipo": "TRF",
+        "monto": 30000.0,
+        "moneda": "ARS",
+        "remitente": "Evelin Soledad Saavedra",
+        "remitente_cuil": "27-37929781-7",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163797540298",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CUIT destinatario: 30-71728225-2. Código de identificación: Z6OLMDN3VKKLY1WX2E7RQ5. CVU remitente: 0000003100057399580800. CVU destinatario: 0000155300000000000009977",
+        "_num": 495,
+        "_fecha_carga": "18/06/2026 20:49",
+        "_origen": "grupo",
+        "_pie": "Foto de ."
       }
     ],
     "errores": [],
