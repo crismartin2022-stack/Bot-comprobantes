@@ -3834,6 +3834,28 @@
         "_fecha_carga": "17/06/2026 21:23",
         "_origen": "grupo",
         "_pie": "Brisa Alvarenga\n27-46100608-1"
+      },
+      {
+        "fecha": "12/06/2026",
+        "hora": "20:08",
+        "tipo": "TRF",
+        "monto": 250000.0,
+        "moneda": "ARS",
+        "remitente": "Brisa Lucia Aylen Alvarenga",
+        "remitente_cuil": "27-46100608-1",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163055047425",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: 67REZ8NPQV6G86PG94KVGO. CVU remitente: 0000003100020424962283. CVU destinatario: 0000155300000000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 174,
+        "_fecha_carga": "17/06/2026 21:23",
+        "_origen": "grupo",
+        "_pie": "Brisa Alvarenga\n27-46100608-1"
       }
     ],
     "errores": [],
