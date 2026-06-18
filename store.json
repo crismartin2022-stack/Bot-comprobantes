@@ -42285,6 +42285,28 @@
         "_fecha_carga": "18/06/2026 15:41",
         "_origen": "grupo",
         "_pie": "Jennifer Beatriz Tolaba\nNaranja X\n4530000800010824008515\n27-42671042-6"
+      },
+      {
+        "fecha": "15/06/2026",
+        "hora": "23:17",
+        "tipo": "TRF",
+        "monto": 500000.0,
+        "moneda": "ARS",
+        "remitente": "Albornoz, Nicolas Eduardo",
+        "remitente_cuil": "20-12580879-5",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Personal Pay",
+        "banco_destino": "",
+        "referencia": "2745432651",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CoelsaID: R7ZG0QNDW175MVED9EXYPO - Id Bancario. CUIL/CUIT destinatario: 30-71728225-2. CBU/CVU receptor: 00001553000000000009977",
+        "_num": 1918,
+        "_fecha_carga": "18/06/2026 15:41",
+        "_origen": "grupo",
+        "_pie": "a Albornoz, Nicolas Eduardo\nCUIL/CUIT 20-12580879-5"
       }
     ],
     "errores": [],
