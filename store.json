@@ -30593,6 +30593,28 @@
         "_fecha_carga": "18/06/2026 13:49",
         "_origen": "grupo",
         "_pie": "Julieta Abigail Caballero\nCUIT/CUIL: 27-47118920-6"
+      },
+      {
+        "fecha": "15/06/2026",
+        "hora": "15:23",
+        "tipo": "TRF",
+        "monto": 25000.0,
+        "moneda": "ARS",
+        "remitente": "Fatima Alfonzo",
+        "remitente_cuil": "27-95859382-7",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Naranja X",
+        "banco_destino": "Cuenta Virtual",
+        "referencia": "WGRXJE27DX8MO1GLN7MYQL",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CBU origen: 4530000800012676709840. CVU destino: 0000155300000000009977. CUIL destinatario: 30-71728225-2. Código de transacción: 3602917a-1296-4d98-bf45-7863b1935054.",
+        "_num": 1388,
+        "_fecha_carga": "18/06/2026 13:49",
+        "_origen": "grupo",
+        "_pie": "Fatima Alfonzo\nNaranja X\n4530000800012676709840\n27-95859382-7"
       }
     ],
     "errores": [],
