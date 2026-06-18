@@ -36857,6 +36857,28 @@
         "_fecha_carga": "18/06/2026 14:52",
         "_origen": "grupo",
         "_pie": "Micaela sosa 37133725"
+      },
+      {
+        "fecha": "14/06/2026",
+        "hora": "00:08",
+        "tipo": "TRF",
+        "monto": 60000.0,
+        "moneda": "ARS",
+        "remitente": "Cintia Melisa Vera",
+        "remitente_cuil": "27-35063299-4",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163239502159",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: LMORZP908L8JGWW4NEGJ46. CVU remitente: 0000003100034101752371. CVU destinatario: 0000155300000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 1672,
+        "_fecha_carga": "18/06/2026 14:53",
+        "_origen": "grupo",
+        "_pie": "Bet30click"
       }
     ],
     "errores": [],
