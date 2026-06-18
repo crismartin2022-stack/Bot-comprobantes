@@ -47330,6 +47330,28 @@
         "_fecha_carga": "18/06/2026 20:07",
         "_origen": "grupo",
         "_pie": "Fabian Nicolas Alvarez\nCUIT/CUIL: 20-37810983-4"
+      },
+      {
+        "fecha": "12/06/2026",
+        "hora": "20:10",
+        "tipo": "TRF",
+        "monto": 250000.0,
+        "moneda": "ARS",
+        "remitente": "Brisa Lucia Aylen Alvarenga",
+        "remitente_cuil": "27-46100608-1",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163866096152",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: XJ8G7V95DXW8LDMD9EMPYR. CVU remitente: 0000003100020424962283. CVU destinatario: 0000155300000000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 184,
+        "_fecha_carga": "18/06/2026 20:07",
+        "_origen": "grupo",
+        "_pie": "Brisa Alvarenga\n27-46100608-1"
       }
     ],
     "errores": [],
