@@ -45410,6 +45410,28 @@
         "_fecha_carga": "18/06/2026 19:55",
         "_origen": "grupo",
         "_pie": "Donato Acosta Britez\nCUIT/CUIL: 20-94744382-9"
+      },
+      {
+        "fecha": "12/06/2026",
+        "hora": "00:39",
+        "tipo": "TRF",
+        "monto": 200000.0,
+        "moneda": "ARS",
+        "remitente": "Natalia Ailen Di Giorgio Suarez",
+        "remitente_cuil": "27-47758744-0",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163725482910",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: WY7ZEPN6M4EJ307Q2Q0M51. CVU remitente: 0000003100070476800015. CVU destinatario: 0000155300000000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 97,
+        "_fecha_carga": "18/06/2026 19:55",
+        "_origen": "grupo",
+        "_pie": "Natalia Ailen Di Giorgio Suarez\nCUIT/CUIL: 27-47758744-0"
       }
     ],
     "errores": [],
