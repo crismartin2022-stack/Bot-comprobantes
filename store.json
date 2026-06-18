@@ -21638,6 +21638,28 @@
         "_fecha_carga": "18/06/2026 00:50",
         "_origen": "grupo",
         "_pie": "Ruisdias Natalia 27-26457918-5"
+      },
+      {
+        "fecha": "11/06/2026",
+        "hora": "22:07",
+        "tipo": "TRF",
+        "monto": 100000.0,
+        "moneda": "ARS",
+        "remitente": "FRANCO AGUSTIN Mujica",
+        "remitente_cuil": "",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Ualá",
+        "banco_destino": "",
+        "referencia": "JMQKYZ9QQ0XOVQP89V50P3",
+        "concepto": "VAR",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CBU destino: 0000155300000000009977. CUIT destino: 30717282252",
+        "_num": 982,
+        "_fecha_carga": "18/06/2026 00:50",
+        "_origen": "grupo",
+        "_pie": "Franco Agustín Mujica\nDNI: 42674111"
       }
     ],
     "errores": [],
