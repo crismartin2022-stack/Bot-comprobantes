@@ -16108,6 +16108,28 @@
         "_fecha_carga": "18/06/2026 00:16",
         "_origen": "grupo",
         "_pie": "Marcos Herrera 41.522.738"
+      },
+      {
+        "fecha": "15/06/2026",
+        "hora": "01:38",
+        "tipo": "TRF",
+        "monto": 300000.0,
+        "moneda": "ARS",
+        "remitente": "Vanesa Susana Crespo",
+        "remitente_cuil": "27-29383789-4",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163360624341",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: LMORZP908LGLG3WPNEGJ46. CVU remitente: 0000003100036148604053. CVU destinatario: 0000155300000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 731,
+        "_fecha_carga": "18/06/2026 00:17",
+        "_origen": "grupo",
+        "_pie": "Vanesa crespo \n29.383.789"
       }
     ],
     "errores": [],
