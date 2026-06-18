@@ -16308,6 +16308,28 @@
         "_fecha_carga": "18/06/2026 00:18",
         "_origen": "grupo",
         "_pie": "Albornoz Paola del valle \n29639614"
+      },
+      {
+        "fecha": "14/06/2026",
+        "hora": "19:56",
+        "tipo": "TRF",
+        "monto": 350000.0,
+        "moneda": "ARS",
+        "remitente": "Nicolas Alejandro Belgrano",
+        "remitente_cuil": "",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Ualá",
+        "banco_destino": "",
+        "referencia": "3D5W612E6ZWYQ0YW2GXYVR",
+        "concepto": "VAR",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CBU destino: 0000155300000000009977. CUIT destino: 30717282252",
+        "_num": 740,
+        "_fecha_carga": "18/06/2026 00:18",
+        "_origen": "grupo",
+        "_pie": ""
       }
     ],
     "errores": [],
