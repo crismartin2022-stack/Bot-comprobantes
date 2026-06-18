@@ -48344,6 +48344,28 @@
         "_fecha_carga": "18/06/2026 20:13",
         "_origen": "grupo",
         "_pie": "Carmen silvero Dni 96208464"
+      },
+      {
+        "fecha": "12/06/2026",
+        "hora": "22:44",
+        "tipo": "TRF",
+        "monto": 100000.0,
+        "moneda": "ARS",
+        "remitente": "Zoe Noelia Corvalán",
+        "remitente_cuil": "",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Lemon",
+        "banco_destino": "CVU",
+        "referencia": "0V1JXON1LMKR5WV3NZ64EL",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CUIT destinatario: 30717282252. CBU destinatario: 0000155300000000009977. ID de la transacción: 605608f5-0e91-41df-8024-db04e795646c. Comprobante emitido por Lemon, powered by Digifin.",
+        "_num": 230,
+        "_fecha_carga": "18/06/2026 20:13",
+        "_origen": "grupo",
+        "_pie": "Zoe Noelia Corvalán \n45826327"
       }
     ],
     "errores": [],
