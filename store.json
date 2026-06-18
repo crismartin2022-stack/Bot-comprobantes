@@ -22078,6 +22078,28 @@
         "_fecha_carga": "18/06/2026 12:45",
         "_origen": "grupo",
         "_pie": "Eliana correa\n39561241"
+      },
+      {
+        "fecha": "14/06/2026",
+        "hora": "21:36",
+        "tipo": "TRF",
+        "monto": 200000.0,
+        "moneda": "ARS",
+        "remitente": "Franco Agustin Mujica",
+        "remitente_cuil": "20-42674111-4",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "164154748770",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación adicional: R7ZG0QNDW1KMPE649EXYPO. CVU remitente: 0000003100091837470171. CVU destinatario: 0000155300000000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 1002,
+        "_fecha_carga": "18/06/2026 12:45",
+        "_origen": "grupo",
+        "_pie": "Franco Agustín Mujica \nDNI: 42674111"
       }
     ],
     "errores": [],
