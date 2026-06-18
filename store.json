@@ -25148,6 +25148,28 @@
         "_fecha_carga": "18/06/2026 13:07",
         "_origen": "grupo",
         "_pie": "María De Los Angeles Vetta\nD.N.I 23.285.322"
+      },
+      {
+        "fecha": "13/06/2026",
+        "hora": "20:58",
+        "tipo": "TRF",
+        "monto": 80000.0,
+        "moneda": "ARS",
+        "remitente": "Juan Elias Marquez De Olivera",
+        "remitente_cuil": "20-36520946-5",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "164027167350",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CVU remitente: 0000003100081086392324. CVU destinatario: 0000155300000000000009977. CUIT destinatario: 30-71728225-2. Código de identificación: RD06ZO9WVR16VYW5N5GP7X",
+        "_num": 1141,
+        "_fecha_carga": "18/06/2026 13:07",
+        "_origen": "grupo",
+        "_pie": "Juan Elias Marquez De Olivera\nCUIT/CUIL: 20-36520946-5"
       }
     ],
     "errores": [],
