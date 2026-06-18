@@ -43628,6 +43628,28 @@
         "_fecha_carga": "18/06/2026 19:44",
         "_origen": "grupo",
         "_pie": "Celeste Ayelen Teodorowicz\nCUIT/CUIL: 27-44688650-4"
+      },
+      {
+        "fecha": "11/06/2026",
+        "hora": "20:46",
+        "tipo": "TRF",
+        "monto": 350000.0,
+        "moneda": "ARS",
+        "remitente": "Monica Susana Santillan",
+        "remitente_cuil": "27-17299591-3",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Naranja X",
+        "banco_destino": "Cuenta Virtual",
+        "referencia": "D4RO172VZG70RWV1NKJ3QE",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CBU origen: 4530000800012051233102. CVU destino: 0000155300000000009977. CUIL destinatario: 30-71728225-2. Código de transacción: 53239c80-bbc2-412c-9b3d-5cd364cb7a68.",
+        "_num": 16,
+        "_fecha_carga": "18/06/2026 19:44",
+        "_origen": "grupo",
+        "_pie": "Monica Susana Santillan\nNaranja X\n4530000800012051233102\n27-17299591-3"
       }
     ],
     "errores": [],
