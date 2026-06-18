@@ -11617,6 +11617,28 @@
         "_fecha_carga": "17/06/2026 23:38",
         "_origen": "grupo",
         "_pie": "Foto de Ges"
+      },
+      {
+        "fecha": "13/06/2026",
+        "hora": "20:23",
+        "tipo": "TRF",
+        "monto": 10000.0,
+        "moneda": "ARS",
+        "remitente": "Silvina Paola Zappia",
+        "remitente_cuil": "27-21615498-9",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Naranja X",
+        "banco_destino": "Cuenta Virtual",
+        "referencia": "8D0Q619L0WOZ85W3N7JZ5R",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CBU origen: 4530000800011737969384. CVU destino: 0000155300000000009977. CUIL destinatario: 30-71728225-2. Código de transacción: 0a8bae42-af2e-407a-be2a-46b763d8d009.",
+        "_num": 527,
+        "_fecha_carga": "17/06/2026 23:38",
+        "_origen": "grupo",
+        "_pie": "Foto de Ges"
       }
     ],
     "errores": [],
