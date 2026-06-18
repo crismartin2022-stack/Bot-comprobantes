@@ -10741,7 +10741,32 @@
     "chat_id": -1004459084298,
     "ultimo_resumen_idx": 0,
     "total_mensual": 0.0,
-    "mes_actual": "06/2026"
+    "mes_actual": "06/2026",
+    "duplicados": [
+      {
+        "fecha": "12/06/2026",
+        "hora": "15:03",
+        "tipo": "TRF",
+        "monto": 10000.0,
+        "moneda": "ARS",
+        "remitente": "Vanesa Isabel Amaya",
+        "remitente_cuil": "31.117.134",
+        "destinatario": "SASTEUP SRL",
+        "banco_origen": "Cuenta DNI",
+        "banco_destino": "",
+        "referencia": "8D0Q619L044JGGLZN7JZ5R",
+        "concepto": "Expensas",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CVU destinatario: 0000155300000000000009977. CUIL destinatario: 30717282252. Referencia adicional: Varios.",
+        "_num": 487,
+        "_fecha_carga": "17/06/2026 23:32",
+        "_origen": "grupo",
+        "_pie": "",
+        "_duplicado": true
+      }
+    ]
   },
   "-5484184532": {
     "nombre": "Xxxxxpro y Api-Agi",
