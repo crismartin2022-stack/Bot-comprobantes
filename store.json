@@ -22676,6 +22676,28 @@
         "_fecha_carga": "18/06/2026 12:49",
         "_origen": "grupo",
         "_pie": "Lorena nardoni\n24785481"
+      },
+      {
+        "fecha": "13/06/2026",
+        "hora": "15:35",
+        "tipo": "TRF",
+        "monto": 110000.0,
+        "moneda": "ARS",
+        "remitente": "Guillermo Jose Benedetti",
+        "remitente_cuil": "23-30323465-9",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Naranja X",
+        "banco_destino": "Cuenta Virtual",
+        "referencia": "LOEJWV9JZ30E386Z2QMD0G",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CBU origen: 4530000800013713344493. CVU destino: 0000155300000000009977. CUIL destinatario: 30-71728225-2. Código de transacción: 6437e254-3bb5-4481-906c-6a35637bb8fa",
+        "_num": 1029,
+        "_fecha_carga": "18/06/2026 12:49",
+        "_origen": "grupo",
+        "_pie": "Guillermo José Benedetti\n30323465"
       }
     ],
     "errores": [],
