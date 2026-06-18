@@ -45938,6 +45938,28 @@
         "_fecha_carga": "18/06/2026 19:58",
         "_origen": "grupo",
         "_pie": "Miriam Lili Nunez Fernandez\nCUIT/CUIL: 27-94216492-6"
+      },
+      {
+        "fecha": "12/06/2026",
+        "hora": "11:10",
+        "tipo": "TRF",
+        "monto": 50000.0,
+        "moneda": "ARS",
+        "remitente": "Zoraida Nunez Sanchez",
+        "remitente_cuil": "27-92394168-7",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Naranja X",
+        "banco_destino": "Cuenta Virtual",
+        "referencia": "Z6OLMDN3VKO3PK3K2E7RQ5",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CBU origen: 4530000800016777376312. CVU destinatario: 0000155300000000009977. CUIL destinatario: 30-71728225-2. Código de transacción: 01fd73e1-c4b1-4ef8-9da9-1744b8a59faa",
+        "_num": 121,
+        "_fecha_carga": "18/06/2026 19:58",
+        "_origen": "grupo",
+        "_pie": "Zoraida Nunez Sanchez\nNaranja X\n4530000800016777376312\nCUIL\n27-92394168-7"
       }
     ],
     "errores": [],
