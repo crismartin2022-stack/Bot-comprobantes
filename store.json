@@ -23956,6 +23956,28 @@
         "_fecha_carga": "18/06/2026 12:58",
         "_origen": "grupo",
         "_pie": "Reinaldo Elías Cisneros Dni:  11876567"
+      },
+      {
+        "fecha": "12/06/2026",
+        "hora": "22:30",
+        "tipo": "TRF",
+        "monto": 250000.0,
+        "moneda": "ARS",
+        "remitente": "BRENDA ANAHI CHAVEZ",
+        "remitente_cuil": "27-45999352-0",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Banco De Galicia S.A.U",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "42091530617",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "ID COELSA: 1LMP68NKVEDVG3LD2R7OEV. CVU destinatario: 0000155300000000009977. CUIT destinatario: 30-71728225-2",
+        "_num": 1087,
+        "_fecha_carga": "18/06/2026 12:58",
+        "_origen": "grupo",
+        "_pie": "BRENDA ANAHI CHAVEZ\nCUIT 27-45999352-0"
       }
     ],
     "errores": [],
