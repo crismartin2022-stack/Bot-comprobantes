@@ -47638,6 +47638,28 @@
         "_fecha_carga": "18/06/2026 20:09",
         "_origen": "grupo",
         "_pie": "Pablo Scotta\nNaranja X\n4530000800010375412485\n20-46307447-0"
+      },
+      {
+        "fecha": "12/06/2026",
+        "hora": "21:06",
+        "tipo": "TRF",
+        "monto": 25000.0,
+        "moneda": "ARS",
+        "remitente": "Marco Emmiliano Barrera",
+        "remitente_cuil": "20-39596546-9",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Naranja X",
+        "banco_destino": "Cuenta Virtual",
+        "referencia": "XJ8G7V95DXWXM1VR9EMPYR",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CBU origen: 4530000800012271420814. CVU destino: 0000155300000000009977. CUIL destinatario: 30-71728225-2. Código de transacción: 0d711362-8dd2-4bdc-9a52-1a283cecbf58.",
+        "_num": 198,
+        "_fecha_carga": "18/06/2026 20:09",
+        "_origen": "grupo",
+        "_pie": "Marco Emmiliano Barrera\nNaranja X\n4530000800012271420814\n20-39596546-9"
       }
     ],
     "errores": [],
