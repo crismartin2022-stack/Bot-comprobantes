@@ -3856,6 +3856,28 @@
         "_fecha_carga": "17/06/2026 21:23",
         "_origen": "grupo",
         "_pie": "Brisa Alvarenga\n27-46100608-1"
+      },
+      {
+        "fecha": "12/06/2026",
+        "hora": "20:09",
+        "tipo": "TRF",
+        "monto": 300000.0,
+        "moneda": "ARS",
+        "remitente": "Veronica Noemi Juarez",
+        "remitente_cuil": "27-30569031-2",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Naranja X",
+        "banco_destino": "Cuenta Virtual",
+        "referencia": "ORD6LEN8P1YZZGQ0NM1Y30",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CBU origen: 4530000800017837980863. CVU destino: 0000155300000000009977. CUIL destinatario: 30-71728225-2. Código de transacción: 8c7ef90c-07f8-451b-808c-b81b123c85c5",
+        "_num": 175,
+        "_fecha_carga": "17/06/2026 21:23",
+        "_origen": "grupo",
+        "_pie": "Veronica Juarez\nCuil/cuit: 27-30569031-2"
       }
     ],
     "errores": [],
