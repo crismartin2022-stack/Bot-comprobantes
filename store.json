@@ -31521,6 +31521,28 @@
         "_fecha_carga": "18/06/2026 13:55",
         "_origen": "grupo",
         "_pie": "Silvero Arevalos, Antonio\nCUIL/CUIT 20-94403581-9"
+      },
+      {
+        "fecha": "15/06/2026",
+        "hora": "19:53",
+        "tipo": "TRF",
+        "monto": 100000.0,
+        "moneda": "ARS",
+        "remitente": "Liliana Beatriz Anrriquez",
+        "remitente_cuil": "",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Ualá",
+        "banco_destino": "",
+        "referencia": "LOEJWV9JZ36GW61M2QMD0G",
+        "concepto": "VAR",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CUIT destino: 30717282252. CBU destino completo: 0000155300000000009977",
+        "_num": 1430,
+        "_fecha_carga": "18/06/2026 13:55",
+        "_origen": "grupo",
+        "_pie": "Liliana Beatriz anrriquez \nDNI: 21.104.254"
       }
     ],
     "errores": [],
