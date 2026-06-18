@@ -32028,6 +32028,28 @@
         "_fecha_carga": "18/06/2026 13:58",
         "_origen": "grupo",
         "_pie": "Marcela Claudia Rodriguez\nCUIT/CUIL: 27-18525403-7"
+      },
+      {
+        "fecha": "13/06/2026",
+        "hora": "13:07",
+        "tipo": "TRF",
+        "monto": 55000.0,
+        "moneda": "ARS",
+        "remitente": "Vera, Carmen Alejandra",
+        "remitente_cuil": "27-23514318-1",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Personal Pay",
+        "banco_destino": "",
+        "referencia": "2740179716",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CoelsaID: D4RO172VZQ1L6PD0NKJ3QE - Id Bancario. CUIL/CUIT destinatario: 30-71728225-2. CBU/CVU destinatario: 0000155300000000009977",
+        "_num": 1453,
+        "_fecha_carga": "18/06/2026 13:58",
+        "_origen": "grupo",
+        "_pie": "Vera, Carmen Alejandra\nCUIL/CUIT\n27-23514318-1"
       }
     ],
     "errores": [],
