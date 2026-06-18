@@ -13820,6 +13820,28 @@
         "_fecha_carga": "17/06/2026 23:53",
         "_origen": "grupo",
         "_pie": "Foto de Clohe😎"
+      },
+      {
+        "fecha": "10/06/2026",
+        "hora": "23:53",
+        "tipo": "TRF",
+        "monto": 11000.0,
+        "moneda": "ARS",
+        "remitente": "Elian Gonzalo Roldan",
+        "remitente_cuil": "20-43654672-7",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "162753225175",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: 86VRPQ2GMWZ1GYP02GLY0M. CUIT destinatario: 30-71728225-2. CVU remitente: 0000003100013277267885. CVU destinatario: 0000155300000000000009977.",
+        "_num": 627,
+        "_fecha_carga": "17/06/2026 23:53",
+        "_origen": "grupo",
+        "_pie": "Foto de Clohe😎"
       }
     ],
     "errores": [],
