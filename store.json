@@ -31455,6 +31455,28 @@
         "_fecha_carga": "18/06/2026 13:54",
         "_origen": "grupo",
         "_pie": "Luque Miguez, Ariadna Abigail\nCUIL/CUIT 27-48299541-7"
+      },
+      {
+        "fecha": "15/06/2026",
+        "hora": "19:26",
+        "tipo": "TRF",
+        "monto": 300001.0,
+        "moneda": "ARS",
+        "remitente": "Brian David Munoz",
+        "remitente_cuil": "20-44141951-2",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "164284101306",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: WGRXJE27DX1VMQXEN7MYQL. CUIT destinatario: 30-71728225-2. CVU destinatario: 0000155300000000000009977",
+        "_num": 1427,
+        "_fecha_carga": "18/06/2026 13:55",
+        "_origen": "grupo",
+        "_pie": "Brian David Munoz\nCUIT/CUIL: 20-44141951-2"
       }
     ],
     "errores": [],
