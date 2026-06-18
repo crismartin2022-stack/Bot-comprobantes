@@ -41446,6 +41446,28 @@
         "_fecha_carga": "18/06/2026 15:35",
         "_origen": "grupo",
         "_pie": "Norma Beatriz Vera\nCUIT/CUIL: 27-22229828-3"
+      },
+      {
+        "fecha": "15/06/2026",
+        "hora": "21:38",
+        "tipo": "TRF",
+        "monto": 300000.0,
+        "moneda": "ARS",
+        "remitente": "Johana Gabriela Grimaz",
+        "remitente_cuil": "",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Ualá",
+        "banco_destino": "",
+        "referencia": "46YGOW9M1KPRDYEZNEXD8J",
+        "concepto": "VAR",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CUIT destino: 30717282252. CBU destino completo: 0000155300000000009977",
+        "_num": 1880,
+        "_fecha_carga": "18/06/2026 15:36",
+        "_origen": "grupo",
+        "_pie": "JOHANA GABRIELA GRIMAZ\nCUIL-CUIT: 30-71728225-2"
       }
     ],
     "errores": [],
