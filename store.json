@@ -28432,6 +28432,28 @@
         "_fecha_carga": "18/06/2026 13:34",
         "_origen": "grupo",
         "_pie": "Ignacio Ruben Aquino Delvalle\nCUIT/CUIL: 20-94570748-9"
+      },
+      {
+        "fecha": "14/06/2026",
+        "hora": "19:30",
+        "tipo": "TRF",
+        "monto": 80000.0,
+        "moneda": "ARS",
+        "remitente": "Miriam Lili Nunez Fernandez",
+        "remitente_cuil": "27-94216492-6",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163324741367",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: 67REZ8NPQ6MR5OE194KVGO. CVU remitente: 0000003100098349467435. CVU destinatario (Sasteup Srl): 0000155300000000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 1290,
+        "_fecha_carga": "18/06/2026 13:34",
+        "_origen": "grupo",
+        "_pie": "Miriam Lili Nunez Fernandez\nCUIT/CUIL: 27-94216492-6"
       }
     ],
     "errores": [],
