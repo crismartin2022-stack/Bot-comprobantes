@@ -26008,6 +26008,28 @@
         "_fecha_carga": "18/06/2026 13:13",
         "_origen": "grupo",
         "_pie": "Lucas Hernan Soidler\nCUIT/CUIL: 20-41913076-2"
+      },
+      {
+        "fecha": "13/06/2026",
+        "hora": "22:46",
+        "tipo": "TRF",
+        "monto": 250000.0,
+        "moneda": "ARS",
+        "remitente": "Rosalia Del Carmen Medina",
+        "remitente_cuil": "27-14516073-7",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163229039827",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: LOEJWV9JZ3LQZ47R2QMD0G. CVU remitente: 0000003100070381835089. CVU destinatario: 0000155300000000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 1180,
+        "_fecha_carga": "18/06/2026 13:13",
+        "_origen": "grupo",
+        "_pie": "Rosalia Del Carmen Medina\nCUIT/CUIL: 27-14516073-7"
       }
     ],
     "errores": [],
