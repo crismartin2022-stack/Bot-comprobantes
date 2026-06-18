@@ -27750,6 +27750,28 @@
         "_fecha_carga": "18/06/2026 13:25",
         "_origen": "grupo",
         "_pie": "Kevin Ledesma\n40471888\nGanamos"
+      },
+      {
+        "fecha": "14/06/2026",
+        "hora": "14:48",
+        "tipo": "TRF",
+        "monto": 300001.0,
+        "moneda": "ARS",
+        "remitente": "Leonardo Ariel Aguirre",
+        "remitente_cuil": "20-25795836-2",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "164105479554",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: 76V4MR2Z747MW0W0NDEZOL. CUIT destinatario: 30-71728225-2. CVU receptor completo: 0000155300000000009977",
+        "_num": 1259,
+        "_fecha_carga": "18/06/2026 13:25",
+        "_origen": "grupo",
+        "_pie": "Leonardo Ariel Aguirre\nCUIT/CUIL: 20-25795836-2"
       }
     ],
     "errores": [],
