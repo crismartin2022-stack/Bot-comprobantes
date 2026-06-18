@@ -31411,6 +31411,28 @@
         "_fecha_carga": "18/06/2026 13:54",
         "_origen": "grupo",
         "_pie": "42196047 \nEzequiel Nicolás tejera"
+      },
+      {
+        "fecha": "15/06/2026",
+        "hora": "18:45",
+        "tipo": "TRF",
+        "monto": 200000.0,
+        "moneda": "ARS",
+        "remitente": "Claudio Daniel Weber",
+        "remitente_cuil": "20-35245699-4",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "164278592242",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: 8D0Q619L0WPMPE88N7JZ5R. CVU remitente: 0000003100008475755166. CVU destinatario: 0000155300000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 1425,
+        "_fecha_carga": "18/06/2026 13:54",
+        "_origen": "grupo",
+        "_pie": "Claudio Daniel Weber\nCUIT/CUIL: 20-35245699-4"
       }
     ],
     "errores": [],
