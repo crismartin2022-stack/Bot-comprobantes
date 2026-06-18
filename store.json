@@ -20076,6 +20076,28 @@
         "_fecha_carga": "18/06/2026 00:41",
         "_origen": "grupo",
         "_pie": ""
+      },
+      {
+        "fecha": "14/06/2026",
+        "hora": "14:31",
+        "tipo": "TRF",
+        "monto": 2400.0,
+        "moneda": "ARS",
+        "remitente": "Segundo Ezequiel Delgado",
+        "remitente_cuil": "24-42517540-4",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "164103155742",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: 1LMP68NKVEVP4LQ52R7OEV. CVU remitente: 0000003100067139276713. CVU destinatario: 0000155300000000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 911,
+        "_fecha_carga": "18/06/2026 00:41",
+        "_origen": "grupo",
+        "_pie": ""
       }
     ],
     "errores": [],
