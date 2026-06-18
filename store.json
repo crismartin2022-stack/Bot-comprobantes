@@ -5598,6 +5598,28 @@
         "_fecha_carga": "17/06/2026 21:34",
         "_origen": "grupo",
         "_pie": "Guillermo Federico Castro\nNaranja X\n4530000800017429942088\n20-32967978-1"
+      },
+      {
+        "fecha": "12/06/2026",
+        "hora": "23:13",
+        "tipo": "TRF",
+        "monto": 250000.0,
+        "moneda": "ARS",
+        "remitente": "Luna Jazmin Martinez",
+        "remitente_cuil": "",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Ualá",
+        "banco_destino": "",
+        "referencia": "Z0KV87940EGOKK10NPEYDX",
+        "concepto": "VAR",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CUIT destino: 30717282252. CBU destino: 0000155300000000009977",
+        "_num": 254,
+        "_fecha_carga": "17/06/2026 21:34",
+        "_origen": "grupo",
+        "_pie": "luna martinez  47.028.102"
       }
     ],
     "errores": [],
