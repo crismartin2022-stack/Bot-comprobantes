@@ -22477,6 +22477,28 @@
         "_fecha_carga": "18/06/2026 12:48",
         "_origen": "grupo",
         "_pie": "Milton Nahuel Rubinich\n20-39146911/4"
+      },
+      {
+        "fecha": "15/06/2026",
+        "hora": "12:00",
+        "tipo": "TRF",
+        "monto": 400000.0,
+        "moneda": "ARS",
+        "remitente": "Milton Nahuel Rubinich",
+        "remitente_cuil": "20-39146911-4",
+        "destinatario": "SASTEUP SRL",
+        "banco_origen": "AstroPay",
+        "banco_destino": "",
+        "referencia": "46YGOW9M1KX0Y1WYNEXD8J",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CVU remitente: 0000177500095188036110. CVU receptor: 0000155300000000009977. CUIT receptor SASTEUP SRL: 30717282252. Alias receptor: cvu.977",
+        "_num": 1020,
+        "_fecha_carga": "18/06/2026 12:48",
+        "_origen": "grupo",
+        "_pie": "Milton Nahuel Rubinich\n20-39146911/4"
       }
     ],
     "errores": [],
