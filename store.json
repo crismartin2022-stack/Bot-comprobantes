@@ -28300,6 +28300,28 @@
         "_fecha_carga": "18/06/2026 13:33",
         "_origen": "grupo",
         "_pie": "Juan Pablo Moran \n20-33261977-3"
+      },
+      {
+        "fecha": "14/06/2026",
+        "hora": "18:16",
+        "tipo": "TRF",
+        "monto": 500000.03,
+        "moneda": "ARS",
+        "remitente": "Rodrigo Hernan Gomez",
+        "remitente_cuil": "20-37995973-4",
+        "destinatario": "Sasteup SRL",
+        "banco_origen": "BANCOR",
+        "banco_destino": "BANCO COINAG S.A.",
+        "referencia": "D4R0172VZQPKY3PDNKJ3QE",
+        "concepto": "Varios",
+        "estado": "Pendiente",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Estado en comprobante: EN CURSO. CUIT destinatario: 30-71728225-2. CVU destino: 0000155300000000099977. Cod. transacción: F92888. Cuenta origen: CA $ 101 0001079708.",
+        "_num": 1284,
+        "_fecha_carga": "18/06/2026 13:33",
+        "_origen": "grupo",
+        "_pie": "Rodrigo Hernan Gómez\n20-37995973-4"
       }
     ],
     "errores": [],
