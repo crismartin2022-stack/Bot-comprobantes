@@ -5774,6 +5774,28 @@
         "_fecha_carga": "17/06/2026 21:35",
         "_origen": "grupo",
         "_pie": "JOHANA GABRIELA GRIMAZ\nCUIL-CUIT: 30-71728225-2"
+      },
+      {
+        "fecha": "12/06/2026",
+        "hora": "23:49",
+        "tipo": "TRF",
+        "monto": 250000.0,
+        "moneda": "ARS",
+        "remitente": "Emilse Noemi Peralta",
+        "remitente_cuil": "27-34491409-0",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163896044270",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: Z6OLMDN3V3MP45L62E7RQ5. CVU remitente: 0000003100038544645502. CVU destinatario: 0000155300000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 262,
+        "_fecha_carga": "17/06/2026 21:36",
+        "_origen": "grupo",
+        "_pie": "Emilse Noemi Peralta\nCUIT/CUIL: 27-34491409-0"
       }
     ],
     "errores": [],
