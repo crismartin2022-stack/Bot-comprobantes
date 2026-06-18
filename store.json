@@ -40718,6 +40718,28 @@
         "_fecha_carga": "18/06/2026 15:30",
         "_origen": "grupo",
         "_pie": "Natalia nazarena cea Gutiérrez\n36.679.470"
+      },
+      {
+        "fecha": "15/06/2026",
+        "hora": "18:20",
+        "tipo": "TRF",
+        "monto": 100000.0,
+        "moneda": "ARS",
+        "remitente": "Murua, Pablo Dario",
+        "remitente_cuil": "20-29805817-1",
+        "destinatario": "Sastcup Srl",
+        "banco_origen": "Personal Pay",
+        "banco_destino": "",
+        "referencia": "2744812911",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CoelsaID: 3D5W612E6Z76V8VQ2GXYVR - Id Bancario. CUIL/CUIT destinatario: 30-71728225-2. CBU/CVU receptor: 0000155300000000009977",
+        "_num": 1847,
+        "_fecha_carga": "18/06/2026 15:30",
+        "_origen": "grupo",
+        "_pie": "Pablo Dario Murua \n29805817"
       }
     ],
     "errores": [],
