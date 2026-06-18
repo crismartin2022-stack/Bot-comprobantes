@@ -45432,6 +45432,28 @@
         "_fecha_carga": "18/06/2026 19:55",
         "_origen": "grupo",
         "_pie": "Natalia Ailen Di Giorgio Suarez\nCUIT/CUIL: 27-47758744-0"
+      },
+      {
+        "fecha": "12/06/2026",
+        "hora": "00:40",
+        "tipo": "TRF",
+        "monto": 300000.0,
+        "moneda": "ARS",
+        "remitente": "Brisa Lucia Aylen Alvarenga",
+        "remitente_cuil": "27-46100608-1",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163724561844",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: ORD6LEN8P1WD6LDYNM1Y30. CVU remitente: 0000003100020424962283. CVU destinatario: 0000155300000000009977. CUIL destinatario: 30-71728225-2.",
+        "_num": 98,
+        "_fecha_carga": "18/06/2026 19:55",
+        "_origen": "grupo",
+        "_pie": "Brisa Alvarenga\n27-46100608-1"
       }
     ],
     "errores": [],
