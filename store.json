@@ -39044,6 +39044,28 @@
         "_fecha_carga": "18/06/2026 15:08",
         "_origen": "grupo",
         "_pie": "Monica rosana lagoria\n28982716"
+      },
+      {
+        "fecha": "14/06/2026",
+        "hora": "20:20",
+        "tipo": "TRF",
+        "monto": 50000.0,
+        "moneda": "ARS",
+        "remitente": "Walter Alejandro Forgia",
+        "remitente_cuil": "20-40191889-3",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Supervielle",
+        "banco_destino": "Lohas Sas",
+        "referencia": "ORD6LEN8PYMLPPW4NM1Y30",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CBU origen: 0270144420054973950019. CBU destino: 0000155300000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 1771,
+        "_fecha_carga": "18/06/2026 15:08",
+        "_origen": "grupo",
+        "_pie": "Walter alejandro forgia 40191889"
       }
     ],
     "errores": [],
