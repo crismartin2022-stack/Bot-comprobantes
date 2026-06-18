@@ -31477,6 +31477,28 @@
         "_fecha_carga": "18/06/2026 13:55",
         "_origen": "grupo",
         "_pie": "Brian David Munoz\nCUIT/CUIL: 20-44141951-2"
+      },
+      {
+        "fecha": "15/06/2026",
+        "hora": "19:38",
+        "tipo": "TRF",
+        "monto": 150000.0,
+        "moneda": "ARS",
+        "remitente": "Cyntia Vanesa Cuestas",
+        "remitente_cuil": "27-28831006-3",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "164285859500",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: ORD6LEN8PYRDV86GNM1Y30. CVU destinatario: 0000155300000000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 1428,
+        "_fecha_carga": "18/06/2026 13:55",
+        "_origen": "grupo",
+        "_pie": "Cyntia Vanesa Cuestas\nCUIT/CUIL: 27-28831006-3"
       }
     ],
     "errores": [],
