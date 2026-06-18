@@ -30130,6 +30130,28 @@
         "_fecha_carga": "18/06/2026 13:45",
         "_origen": "grupo",
         "_pie": "Reynoso Rosa Claudia\nDNI: 18.592.683"
+      },
+      {
+        "fecha": "14/06/2026",
+        "hora": "22:23",
+        "tipo": "TRF",
+        "monto": 500000.02,
+        "moneda": "ARS",
+        "remitente": "Marcelo David Lopez",
+        "remitente_cuil": "23-41988340-9",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Naranja X",
+        "banco_destino": "Cuenta Virtual",
+        "referencia": "L18MKX9RXJPQ1K719O6WYV",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CBU origen: 4530000800016501694015. CVU destino: 0000155300000000009977. CUIL destinatario: 30-71728225-2. Código de transacción: fbb32212-01bb-4a28-8dd2-3d008fb3fdf0",
+        "_num": 1367,
+        "_fecha_carga": "18/06/2026 13:46",
+        "_origen": "grupo",
+        "_pie": "López Marcelo David \nDNI: 41.988.340"
       }
     ],
     "errores": [],
