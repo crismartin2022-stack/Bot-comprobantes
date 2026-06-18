@@ -27529,6 +27529,28 @@
         "_fecha_carga": "18/06/2026 13:23",
         "_origen": "grupo",
         "_pie": "Medero, Marianela Alessandra\nCUIL/CUIT 27-47081108-6"
+      },
+      {
+        "fecha": "14/06/2026",
+        "hora": "14:02",
+        "tipo": "TRF",
+        "monto": 500000.0,
+        "moneda": "ARS",
+        "remitente": "Yesica Noemi Morales",
+        "remitente_cuil": "23-30853348-4",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163289882173",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: XJ8G7V95DWDLRVRD9EMPYR. CUIT destinatario: 30-71728225-2. CVU remitente: 0000003100010145781779. CVU destinatario: 0000155300000000009977",
+        "_num": 1249,
+        "_fecha_carga": "18/06/2026 13:23",
+        "_origen": "grupo",
+        "_pie": "Yesica Noemi Morales\nCUIT/CUIL: 23-30853348-4"
       }
     ],
     "errores": [],
