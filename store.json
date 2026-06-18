@@ -11243,6 +11243,28 @@
         "_fecha_carga": "17/06/2026 23:35",
         "_origen": "grupo",
         "_pie": "Foto de Ges"
+      },
+      {
+        "fecha": "13/06/2026",
+        "hora": "16:37",
+        "tipo": "TRF",
+        "monto": 6800.0,
+        "moneda": "ARS",
+        "remitente": "Aldo Gustavo Videla",
+        "remitente_cuil": "20-34832114-6",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163177886649",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: ORD6LEN8PYQX8OYYNM1Y30. CVU remitente: 0000003100027089827841. CVU destinatario: 0000155300000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 510,
+        "_fecha_carga": "17/06/2026 23:36",
+        "_origen": "grupo",
+        "_pie": "Foto de Ges"
       }
     ],
     "errores": [],
