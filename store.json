@@ -28036,6 +28036,28 @@
         "_fecha_carga": "18/06/2026 13:27",
         "_origen": "grupo",
         "_pie": "Leonela Sabrina Braga"
+      },
+      {
+        "fecha": "14/06/2026",
+        "hora": "17:57",
+        "tipo": "TRF",
+        "monto": 400004.0,
+        "moneda": "ARS",
+        "remitente": "Maria Alejandra Leiva",
+        "remitente_cuil": "27-36023022-3",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "164127884354",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: R7ZG0QNDW1KKZXGD9EXYPO. CVU remitente: 0000003100043458006297. CVU destinatario: 0000155300000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 1272,
+        "_fecha_carga": "18/06/2026 13:27",
+        "_origen": "grupo",
+        "_pie": "Leiva María Alejandra \n36023022"
       }
     ],
     "errores": [],
