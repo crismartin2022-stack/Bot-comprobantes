@@ -50372,6 +50372,28 @@
         "_fecha_carga": "18/06/2026 20:25",
         "_origen": "grupo",
         "_pie": "Matias Nicolas Richard\nCUIT/CUIL: 20-30804619-3"
+      },
+      {
+        "fecha": "13/06/2026",
+        "hora": "11:09",
+        "tipo": "TRF",
+        "monto": 50000.0,
+        "moneda": "ARS",
+        "remitente": "Fabian Nicolas Alvarez",
+        "remitente_cuil": "20-37810983-4",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163124255479",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: 0V1JXON1LMGZO37NZ64EL. CVU remitente: 0000003100114177922693. CVU destinatario: 0000155300000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 322,
+        "_fecha_carga": "18/06/2026 20:26",
+        "_origen": "grupo",
+        "_pie": "Fabian Nicolas Alvarez\nCUIT/CUIL: 20-37810983-4"
       }
     ],
     "errores": [],
