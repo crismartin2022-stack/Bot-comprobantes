@@ -24752,6 +24752,28 @@
         "_fecha_carga": "18/06/2026 13:04",
         "_origen": "grupo",
         "_pie": "Leiva María Alejandra \n36023022"
+      },
+      {
+        "fecha": "13/06/2026",
+        "hora": "19:58",
+        "tipo": "TRF",
+        "monto": 500000.0,
+        "moneda": "ARS",
+        "remitente": "Juliana Ayelen Palavecino",
+        "remitente_cuil": "27-47337453-1",
+        "destinatario": "SASTEUP SRL",
+        "banco_origen": "Brubank",
+        "banco_destino": "",
+        "referencia": "1796427581",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Transferencia enviada desde Caja de ahorro en pesos en Brubank. CVU destino: 0000155300000000009977. CUIT destinatario: 30-71728225-2. ID Operación: 26061600001515289062 84.",
+        "_num": 1123,
+        "_fecha_carga": "18/06/2026 13:04",
+        "_origen": "grupo",
+        "_pie": "Juliana palavecino \n47337453"
       }
     ],
     "errores": [],
