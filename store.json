@@ -34383,6 +34383,28 @@
         "_fecha_carga": "18/06/2026 14:35",
         "_origen": "grupo",
         "_pie": "Ever kobs Benítez 20949070108"
+      },
+      {
+        "fecha": "13/06/2026",
+        "hora": "23:53",
+        "tipo": "TRF",
+        "monto": 250000.0,
+        "moneda": "ARS",
+        "remitente": "BENITEZ EVER KOBS",
+        "remitente_cuil": "20-94907010-8",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Banco De Galicia S.A.U",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "42101641714",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CVU receptor completo: 0000155300000000009977. ID COELSA: RD06ZO9WVR1RW1PKN5GP7X. CUIT destinatario: 30-71728225-2.",
+        "_num": 1560,
+        "_fecha_carga": "18/06/2026 14:36",
+        "_origen": "grupo",
+        "_pie": "Ever kobs Benítez 20949070108"
       }
     ],
     "errores": [],
