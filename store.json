@@ -30747,6 +30747,28 @@
         "_fecha_carga": "18/06/2026 13:50",
         "_origen": "grupo",
         "_pie": "Bruno Alexander Peredo Artigas\n20474568734"
+      },
+      {
+        "fecha": "15/06/2026",
+        "hora": "15:25",
+        "tipo": "TRF",
+        "monto": 500000.0,
+        "moneda": "ARS",
+        "remitente": "Matías Iván Velazquez",
+        "remitente_cuil": "",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Ualá",
+        "banco_destino": "",
+        "referencia": "D4RO172VZQKX5L50NKJ3QE",
+        "concepto": "VAR",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CBU destino: 0000155300000000009977. CUIT destino: 30717282252",
+        "_num": 1395,
+        "_fecha_carga": "18/06/2026 13:50",
+        "_origen": "grupo",
+        "_pie": "Matias Ivan Velazquez\nCUIT/CUIL: 20-45498711-0"
       }
     ],
     "errores": [],
