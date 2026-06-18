@@ -47903,6 +47903,28 @@
         "_fecha_carga": "18/06/2026 20:10",
         "_origen": "grupo",
         "_pie": "Dylan Godoy \n47403587"
+      },
+      {
+        "fecha": "12/06/2026",
+        "hora": "21:56",
+        "tipo": "TRF",
+        "monto": 150000.0,
+        "moneda": "ARS",
+        "remitente": "Micaela Acosta",
+        "remitente_cuil": "27-37679548-4",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163882323250",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: 46YGOW9M1KDJWJZMNEXD8J. CVU remitente: 0000003100057615083524. CVU destinatario: 0000155300000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 210,
+        "_fecha_carga": "18/06/2026 20:10",
+        "_origen": "grupo",
+        "_pie": "Micaela Acosta\nCUIT/CUIL: 27-37679548-4"
       }
     ],
     "errores": [],
