@@ -12145,6 +12145,28 @@
         "_fecha_carga": "17/06/2026 23:41",
         "_origen": "grupo",
         "_pie": "Foto de Johanna Cáceres 💜"
+      },
+      {
+        "fecha": "12/06/2026",
+        "hora": "22:50",
+        "tipo": "TRF",
+        "monto": 20000.0,
+        "moneda": "ARS",
+        "remitente": "Benita Laurentina Vega",
+        "remitente_cuil": "27-05356084-4",
+        "destinatario": "SASTEUP SRL",
+        "banco_origen": "Banco Columbia",
+        "banco_destino": "Banco Coinag S.A.",
+        "referencia": "WGRXJE27DXE6R48PN7MYQL",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CVU destinatario: 0000155300000000009977. Alias: cvu.977. Cuenta origen número: 416400015813598 (caja de ahorro pesos).",
+        "_num": 551,
+        "_fecha_carga": "17/06/2026 23:42",
+        "_origen": "grupo",
+        "_pie": "Foto de Johanna Cáceres 💜"
       }
     ],
     "errores": [],
