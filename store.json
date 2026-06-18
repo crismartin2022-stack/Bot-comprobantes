@@ -9170,6 +9170,28 @@
         "_fecha_carga": "17/06/2026 23:21",
         "_origen": "grupo",
         "_pie": "Foto de Ges"
+      },
+      {
+        "fecha": "10/06/2026",
+        "hora": "16:11",
+        "tipo": "TRF",
+        "monto": 10000.0,
+        "moneda": "ARS",
+        "remitente": "Micaela Adriana Macellaro",
+        "remitente_cuil": "27-42232280-4",
+        "destinatario": "SASTEUP SRL",
+        "banco_origen": "Brubank",
+        "banco_destino": "",
+        "referencia": "",
+        "concepto": "Caja de ahorro en Pesos",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CVU/CBU del destinatario: 0000155300000000009977. CUIT destinatario: 30-71728225-2. Transferencia enviada desde cuenta Caja de ahorro en Pesos en Brubank.",
+        "_num": 416,
+        "_fecha_carga": "17/06/2026 23:21",
+        "_origen": "grupo",
+        "_pie": "Foto de Ges"
       }
     ],
     "errores": [],
