@@ -6634,6 +6634,28 @@
         "_fecha_carga": "17/06/2026 21:41",
         "_origen": "grupo",
         "_pie": "lara Anael Ballesteros\n27429452460"
+      },
+      {
+        "fecha": "13/06/2026",
+        "hora": "09:20",
+        "tipo": "TRF",
+        "monto": 500001.0,
+        "moneda": "ARS",
+        "remitente": "Cristian Eduardo Ramirez",
+        "remitente_cuil": "20-30942047-1",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163921508262",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: WY7ZEPN6MKL7MKDW2Q0M51. CVU remitente: 0000003100019978279132. CVU destinatario: 0000155300000000000009977.",
+        "_num": 301,
+        "_fecha_carga": "17/06/2026 21:41",
+        "_origen": "grupo",
+        "_pie": "Cristian Eduardo Ramirez\nCUIT/CUIL: 20-30942047-1"
       }
     ],
     "errores": [],
