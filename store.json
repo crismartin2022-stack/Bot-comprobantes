@@ -43694,6 +43694,28 @@
         "_fecha_carga": "18/06/2026 19:44",
         "_origen": "grupo",
         "_pie": "Luque Miguez, Ariadna Abigail\n27-48299541-7"
+      },
+      {
+        "fecha": "11/06/2026",
+        "hora": "20:52",
+        "tipo": "TRF",
+        "monto": 400000.0,
+        "moneda": "ARS",
+        "remitente": "Brisa Lucia Aylen Alvarenga",
+        "remitente_cuil": "27-46100608-1",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163700329826",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: 67REZ8NPQV0VKW5R94KVGO. CVU remitente: 0000003100020424962283. CVU destinatario: 0001553000000000009977",
+        "_num": 19,
+        "_fecha_carga": "18/06/2026 19:44",
+        "_origen": "grupo",
+        "_pie": "• De\nBrisa Lucia Aylen Alvarenga\nCUIT/CUIL: 27-46100608-1"
       }
     ],
     "errores": [],
