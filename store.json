@@ -31653,6 +31653,28 @@
         "_fecha_carga": "18/06/2026 13:56",
         "_origen": "grupo",
         "_pie": "Monica Beatriz Varela\nNaranja X\nCBU\n4530000800012563817681\nCUIL\n27-23839818-0"
+      },
+      {
+        "fecha": "13/06/2026",
+        "hora": "05:19",
+        "tipo": "TRF",
+        "monto": 1600000.0,
+        "moneda": "ARS",
+        "remitente": "Espinoza, Emilio Orlando",
+        "remitente_cuil": "20-36716807-3",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Personal Pay",
+        "banco_destino": "",
+        "referencia": "2739484006",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CoelsaID: Z0KV87940EG10JKJNPEYDX - Id Bancario. CBU/CVU destinatario: 0000155300000000009977. CUIL/CUIT destinatario: 30-71728225-2.",
+        "_num": 1436,
+        "_fecha_carga": "18/06/2026 13:56",
+        "_origen": "grupo",
+        "_pie": "Espinoza, Emilio Orlando\nCUIL/CUIT\n20-36716807-3"
       }
     ],
     "errores": [],
