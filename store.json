@@ -33436,6 +33436,28 @@
         "_fecha_carga": "18/06/2026 14:08",
         "_origen": "grupo",
         "_pie": "Micaela Anahi Gonzalez\nCUIT/CUIL: 23-44972632-4"
+      },
+      {
+        "fecha": "11/06/2026",
+        "hora": "15:46",
+        "tipo": "TRF",
+        "monto": 825000.0,
+        "moneda": "ARS",
+        "remitente": "Palma, Carlos Alejandro",
+        "remitente_cuil": "20-35592827-7",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Personal Pay",
+        "banco_destino": "",
+        "referencia": "2733186329",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CoelsaID: 1-30572975831-000002733186329-1 - Id Bancario. CBU/CVU destinatario: 0000155300000000009977. CUIL/CUIT destinatario: 30-71728225-2.",
+        "_num": 1517,
+        "_fecha_carga": "18/06/2026 14:08",
+        "_origen": "grupo",
+        "_pie": "Palma, Carlos Alejandro\nCUIL/ CUIT\n20-35592827-7"
       }
     ],
     "errores": [],
