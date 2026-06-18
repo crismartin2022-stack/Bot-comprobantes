@@ -50860,6 +50860,28 @@
         "_fecha_carga": "18/06/2026 20:28",
         "_origen": "grupo",
         "_pie": "Agostina Albarracín \n40.434.417"
+      },
+      {
+        "fecha": "13/06/2026",
+        "hora": "22:12",
+        "tipo": "TRF",
+        "monto": 10000.0,
+        "moneda": "ARS",
+        "remitente": "Julieta Anahi Del Valle Albarracin",
+        "remitente_cuil": "27-39141833-6",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Naranja X",
+        "banco_destino": "Cuenta Virtual",
+        "referencia": "0V1JXON1LMDZ1XOGNZ64EL",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CBU origen: 4530000800015500537527. CVU destino: 0000155300000000009977. CUIL destinatario: 30-71728225-2. Código de transacción: b82521c3-3605-4285-81e0-b48878f41938.",
+        "_num": 344,
+        "_fecha_carga": "18/06/2026 20:29",
+        "_origen": "grupo",
+        "_pie": "Julieta albarracin\n 39.141.833"
       }
     ],
     "errores": [],
