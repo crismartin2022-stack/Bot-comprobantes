@@ -35199,6 +35199,28 @@
         "_fecha_carga": "18/06/2026 14:41",
         "_origen": "grupo",
         "_pie": "leonardo jauregui \n32174420"
+      },
+      {
+        "fecha": "12/06/2026",
+        "hora": "15:40:57",
+        "tipo": "TRF",
+        "monto": 70000.0,
+        "moneda": "ARS",
+        "remitente": "LISANDRO MAXIMILIANO SILVA",
+        "remitente_cuil": "20-33142617-3",
+        "destinatario": "SASTEUP SRL",
+        "banco_origen": "Pago Fácil",
+        "banco_destino": "",
+        "referencia": "86SG-12U3-CF07",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CVU origen: 0000077200132502792117. CVU destino: 0000155300000000009977. CUIT destinatario: 30-71728225-2. Total transacción: $70.000,00. Retenciones y cargos: $0,00.",
+        "_num": 1597,
+        "_fecha_carga": "18/06/2026 14:41",
+        "_origen": "grupo",
+        "_pie": "Lisandro silva\n\n33142617"
       }
     ],
     "errores": [],
