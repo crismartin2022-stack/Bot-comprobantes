@@ -49535,6 +49535,28 @@
         "_fecha_carga": "18/06/2026 20:20",
         "_origen": "grupo",
         "_pie": "Brian Alberto Gonzalez\nCUIT/CUIL: 20-44383583-1"
+      },
+      {
+        "fecha": "13/06/2026",
+        "hora": "00:26",
+        "tipo": "TRF",
+        "monto": 300000.0,
+        "moneda": "ARS",
+        "remitente": "Luzdary Falla",
+        "remitente_cuil": "27-96142180-8",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163898059688",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CUIT destinatario: 30-71728225-2. CVU destinatario: 0000155300000000000009977. Código de identificación: Z4K6DVNOWYOLZQY125J8LQ",
+        "_num": 284,
+        "_fecha_carga": "18/06/2026 20:20",
+        "_origen": "grupo",
+        "_pie": "Luzdary Falla\nCUIT/CUIL: 27-96142180-8"
       }
     ],
     "errores": [],
