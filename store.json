@@ -2464,6 +2464,28 @@
         "_fecha_carga": "17/06/2026 21:14",
         "_origen": "grupo",
         "_pie": "Zoraida Nunez Sanchez\nNaranja X\n4530000800016777376312\nCUIL\n27-92394168-7"
+      },
+      {
+        "fecha": "12/06/2026",
+        "hora": "10:22",
+        "tipo": "TRF",
+        "monto": 250000.0,
+        "moneda": "ARS",
+        "remitente": "Nadia Acosta",
+        "remitente_cuil": "",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Ualá",
+        "banco_destino": "",
+        "referencia": "Z0KV87940P3JE3OQNPEYDX",
+        "concepto": "VAR",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CBU destino: 0000155300000000009977. CUIT destino: 30717282252",
+        "_num": 112,
+        "_fecha_carga": "17/06/2026 21:15",
+        "_origen": "grupo",
+        "_pie": "Brenda castellanos"
       }
     ],
     "errores": [],
