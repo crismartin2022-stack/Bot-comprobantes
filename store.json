@@ -22122,6 +22122,28 @@
         "_fecha_carga": "18/06/2026 12:46",
         "_origen": "grupo",
         "_pie": "Jimena Rodriguez\n34.146.817"
+      },
+      {
+        "fecha": "14/06/2026",
+        "hora": "21:51",
+        "tipo": "TRF",
+        "monto": 55000.0,
+        "moneda": "ARS",
+        "remitente": "Cristian Alejandro Alvarez",
+        "remitente_cuil": "20-39113784-7",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "164156676394",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: WGRXJE27DX6OOM6EN7MYQL. CVU remitente: 0000003100029468663200. CVU destinatario: 0000155300000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 1004,
+        "_fecha_carga": "18/06/2026 12:46",
+        "_origen": "grupo",
+        "_pie": "Cristian Alejandro Alvarez 39113784"
       }
     ],
     "errores": [],
