@@ -45344,6 +45344,28 @@
         "_fecha_carga": "18/06/2026 19:54",
         "_origen": "grupo",
         "_pie": "Lucas Sebastian González \n20-44678682-3"
+      },
+      {
+        "fecha": "12/06/2026",
+        "hora": "00:07",
+        "tipo": "TRF",
+        "monto": 500001.0,
+        "moneda": "ARS",
+        "remitente": "Leonardo Ezequiel Villalba",
+        "remitente_cuil": "27-36089060-6",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Naranja X",
+        "banco_destino": "Cuenta Virtual",
+        "referencia": "76V4MR2Z7QM5067ENDEZOL",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CBU origen: 4530000800013666289397. CVU destino: 0000155300000000009977. CUIL destinatario: 30-71728225-2. Código de transacción: 46e1d6da-7606-470d-9db1-c06159f74ae1",
+        "_num": 94,
+        "_fecha_carga": "18/06/2026 19:55",
+        "_origen": "grupo",
+        "_pie": "Leonardo Ezequiel Villalba \n27-36089060-6"
       }
     ],
     "errores": [],
