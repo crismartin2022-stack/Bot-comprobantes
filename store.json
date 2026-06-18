@@ -19042,6 +19042,28 @@
         "_fecha_carga": "18/06/2026 00:36",
         "_origen": "grupo",
         "_pie": "Luciana Alvarenga \n95029202"
+      },
+      {
+        "fecha": "12/06/2026",
+        "hora": "00:10",
+        "tipo": "TRF",
+        "monto": 140000.0,
+        "moneda": "ARS",
+        "remitente": "Claudia Lourdes Rodriguez",
+        "remitente_cuil": "27-33303408-0",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "162916034683",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: LMORZP908RMQ4OXPNEGJ46. CVU destinatario: 0000155300000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 864,
+        "_fecha_carga": "18/06/2026 00:36",
+        "_origen": "grupo",
+        "_pie": "Claudia Rodríguez \n37-33303408-0"
       }
     ],
     "errores": [],
