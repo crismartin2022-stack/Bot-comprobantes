@@ -44640,6 +44640,28 @@
         "_fecha_carga": "18/06/2026 19:50",
         "_origen": "grupo",
         "_pie": "A nombre de \nMatias Quevedo\n40640486"
+      },
+      {
+        "fecha": "11/06/2026",
+        "hora": "22:56",
+        "tipo": "TRF",
+        "monto": 500001.0,
+        "moneda": "ARS",
+        "remitente": "Cristian Eduardo Ramirez",
+        "remitente_cuil": "20-30942047-1",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "162907834071",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: Z4K6DVNOWZK1D8Z425J8LQ. CVU remitente: 0000003100019978279132. CVU destinatario: 0000155300000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 62,
+        "_fecha_carga": "18/06/2026 19:50",
+        "_origen": "grupo",
+        "_pie": "Cristian Eduardo Ramirez\nCUIT/CUIL: 20-30942047-1\nMercado Pago"
       }
     ],
     "errores": [],
