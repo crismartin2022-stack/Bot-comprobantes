@@ -39066,6 +39066,28 @@
         "_fecha_carga": "18/06/2026 15:08",
         "_origen": "grupo",
         "_pie": "Walter alejandro forgia 40191889"
+      },
+      {
+        "fecha": "14/06/2026",
+        "hora": "23:01",
+        "tipo": "TRF",
+        "monto": 100000.0,
+        "moneda": "ARS",
+        "remitente": "Josefina Silvestri",
+        "remitente_cuil": "27-45915783-8",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163350509177",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: Z4K6DVNOWYPQ3W8K25J8LQ. CUIT destinatario: 30-71728225-2. CVU remitente: 0000003100065645241959. CVU destinatario: 0000155300000000000009977.",
+        "_num": 1772,
+        "_fecha_carga": "18/06/2026 15:08",
+        "_origen": "grupo",
+        "_pie": "Josefina silvestri\n\n45915783"
       }
     ],
     "errores": [],
