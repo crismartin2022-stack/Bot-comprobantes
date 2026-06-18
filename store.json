@@ -32688,6 +32688,28 @@
         "_fecha_carga": "18/06/2026 14:03",
         "_origen": "grupo",
         "_pie": "Mathias Federico Cardarelli\nCUIT/CUIL: 20-41334529-5\nMercado Pago\nCVU: 0000003100057784605992"
+      },
+      {
+        "fecha": "12/06/2026",
+        "hora": "23:33",
+        "tipo": "TRF",
+        "monto": 26000.0,
+        "moneda": "ARS",
+        "remitente": "Figueroa, Oriana Milagros",
+        "remitente_cuil": "27-45662407-9",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Personal Pay",
+        "banco_destino": "",
+        "referencia": "2739186721",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CoelsaID: L18MKX9RXJRZRRLK9O6WYV - Id Bancario. CBU/CVU destinatario: 0000155300000000009977. CUIL/CUIT destinatario: 30-71728225-2.",
+        "_num": 1483,
+        "_fecha_carga": "18/06/2026 14:03",
+        "_origen": "grupo",
+        "_pie": "Figueroa, Oriana Milagros\n27-45662407-9"
       }
     ],
     "errores": [],
