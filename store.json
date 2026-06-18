@@ -32578,6 +32578,28 @@
         "_fecha_carga": "18/06/2026 14:02",
         "_origen": "grupo",
         "_pie": "Damian Alejandro Mansilla\nCuenta Claro Pay\nCVU: 0000085700204865947652\nAlias: 20486594765.claropay"
+      },
+      {
+        "fecha": "13/06/2026",
+        "hora": "15:31",
+        "tipo": "TRF",
+        "monto": 250000.0,
+        "moneda": "ARS",
+        "remitente": "Rocio Soledad Gieco",
+        "remitente_cuil": "27-40109926-9",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163168418579",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: LMORZP908LK0XKKPNEGJ46. CUIT destinatario: 30-71728225-2. CVU destinatario completo: 0000155300000000000009977",
+        "_num": 1478,
+        "_fecha_carga": "18/06/2026 14:02",
+        "_origen": "grupo",
+        "_pie": ""
       }
     ],
     "errores": [],
