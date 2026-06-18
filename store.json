@@ -35397,6 +35397,28 @@
         "_fecha_carga": "18/06/2026 14:43",
         "_origen": "grupo",
         "_pie": "tomas miloni \n44113022"
+      },
+      {
+        "fecha": "13/06/2026",
+        "hora": "12:09",
+        "tipo": "TRF",
+        "monto": 200000.0,
+        "moneda": "ARS",
+        "remitente": "Leandro Artigas",
+        "remitente_cuil": "20-31560335-9",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Naranja X",
+        "banco_destino": "Cuenta Virtual",
+        "referencia": "PDX4OGNYGPJ1VD3VN0L6EY",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CBU origen: 4530000800016537865135. CVU destino: 0000155300000000009977. CUIL destinatario: 30-71728225-2. Código de transacción: 19310e6d-0242-408a-a035-8d6d4bf532ea.",
+        "_num": 1606,
+        "_fecha_carga": "18/06/2026 14:43",
+        "_origen": "grupo",
+        "_pie": "leandro artigas\n31560335"
       }
     ],
     "errores": [],
