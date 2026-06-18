@@ -39176,6 +39176,28 @@
         "_fecha_carga": "18/06/2026 15:09",
         "_origen": "grupo",
         "_pie": "•500k (Tony 90)\n•*Sasteup SRL*\n•13/06\n•Juan Marcelo Barrios\n•27-35830446-0"
+      },
+      {
+        "fecha": "13/06/2026",
+        "hora": "12:40",
+        "tipo": "TRF",
+        "monto": 300000.0,
+        "moneda": "ARS",
+        "remitente": "Maximiliano Mansilla",
+        "remitente_cuil": "20-34957607-5",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163140822585",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: ORD6LEN8PYQ80L0YNM1Y30. CVU remitente: 0000003100014806005776. CVU destinatario: 0000155300000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 1777,
+        "_fecha_carga": "18/06/2026 15:09",
+        "_origen": "grupo",
+        "_pie": "300 k (Tony90) \n*Sasteup Srl* \n13/6 \nMaximiliano Mansilla\n20-34957607-5"
       }
     ],
     "errores": [],
