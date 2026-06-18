@@ -31917,6 +31917,28 @@
         "_fecha_carga": "18/06/2026 13:58",
         "_origen": "grupo",
         "_pie": "Lucas Patricio Baptista\nCUIT/CUIL: 20-41435081-0"
+      },
+      {
+        "fecha": "13/06/2026",
+        "hora": "01:27",
+        "tipo": "TRF",
+        "monto": 170000.0,
+        "moneda": "ARS",
+        "remitente": "Franco Manuel Caluva",
+        "remitente_cuil": "20-41562532-5",
+        "destinatario": "SASTEUP SRL",
+        "banco_origen": "Brubank",
+        "banco_destino": "",
+        "referencia": "",
+        "concepto": "Envío de dinero",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CVU destino: 0000155300000000009977. CUIT/CUIL destinatario: 30-71728225-2. Cuenta origen: Caja de ahorro en pesos. Entidad destino: CVU.",
+        "_num": 1448,
+        "_fecha_carga": "18/06/2026 13:58",
+        "_origen": "grupo",
+        "_pie": "Franco Manuel Caluva\nCUIT / CUIL\n20-41562532-5"
       }
     ],
     "errores": [],
