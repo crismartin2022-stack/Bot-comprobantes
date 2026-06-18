@@ -31189,6 +31189,28 @@
         "_fecha_carga": "18/06/2026 13:53",
         "_origen": "grupo",
         "_pie": "Adriana vanesa Garcia\n27-35684164-1"
+      },
+      {
+        "fecha": "15/06/2026",
+        "hora": "16:54",
+        "tipo": "TRF",
+        "monto": 500000.02,
+        "moneda": "ARS",
+        "remitente": "Leonardo Ezequiel Villalba",
+        "remitente_cuil": "27-36089060-6",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Naranja X",
+        "banco_destino": "Cuenta Virtual",
+        "referencia": "0V1JXON1LMVMX003NZ64EL",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CBU origen: 4530000800013666289397. CVU destino: 0000155300000000009977. CUIL destinatario: 30-71728225-2. Código de transacción: 78f57646-a420-40b9-8713-6ce9acf3e2ec.",
+        "_num": 1415,
+        "_fecha_carga": "18/06/2026 13:53",
+        "_origen": "grupo",
+        "_pie": "Leonardo Ezequiel Villalba \n27-36089060-6"
       }
     ],
     "errores": [],
