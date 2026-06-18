@@ -19680,6 +19680,28 @@
         "_fecha_carga": "18/06/2026 00:39",
         "_origen": "grupo",
         "_pie": ""
+      },
+      {
+        "fecha": "14/06/2026",
+        "hora": "14:53",
+        "tipo": "TRF",
+        "monto": 40000.0,
+        "moneda": "ARS",
+        "remitente": "Fabian Alejandro Saez",
+        "remitente_cuil": "20-28002842-9",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "164105523972",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: 8D0Q619L0W0RQX5ZN7JZ5R. CUIT destinatario: 30-71728225-2. CVU destinatario: 000015530000000000009977",
+        "_num": 893,
+        "_fecha_carga": "18/06/2026 00:39",
+        "_origen": "grupo",
+        "_pie": ""
       }
     ],
     "errores": [],
