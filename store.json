@@ -35022,6 +35022,28 @@
         "_fecha_carga": "18/06/2026 14:40",
         "_origen": "grupo",
         "_pie": "Carlos Daniel silva \n\nDNI: 29.165.124"
+      },
+      {
+        "fecha": "11/06/2026",
+        "hora": "22:43",
+        "tipo": "TRF",
+        "monto": 272000.0,
+        "moneda": "ARS",
+        "remitente": "Tamara Solange Leguizamon",
+        "remitente_cuil": "27-38779063-8",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "162907700879",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: L18MKX9RX84PDQ0O9O6WYV. CVU destinatario: 0000155300000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 1589,
+        "_fecha_carga": "18/06/2026 14:40",
+        "_origen": "grupo",
+        "_pie": "Tamara Solange Leguizamon\nCuil: 27.38779063.8"
       }
     ],
     "errores": [],
