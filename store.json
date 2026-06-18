@@ -19064,6 +19064,28 @@
         "_fecha_carga": "18/06/2026 00:36",
         "_origen": "grupo",
         "_pie": "Claudia Rodríguez \n37-33303408-0"
+      },
+      {
+        "fecha": "12/06/2026",
+        "hora": "00:28",
+        "tipo": "TRF",
+        "monto": 175000.0,
+        "moneda": "ARS",
+        "remitente": "luciana alvarenga",
+        "remitente_cuil": "",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Ualá",
+        "banco_destino": "",
+        "referencia": "D4RO172VZG0JZZZ0NKJ3QE",
+        "concepto": "VAR",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CBU destino: 0000155300000000009977. CUIT destino: 30717282252",
+        "_num": 865,
+        "_fecha_carga": "18/06/2026 00:36",
+        "_origen": "grupo",
+        "_pie": "Luciana Alvarenga \n95029202"
       }
     ],
     "errores": [],
