@@ -42968,6 +42968,28 @@
         "_fecha_carga": "18/06/2026 15:46",
         "_origen": "grupo",
         "_pie": "Marcos campos 33415464"
+      },
+      {
+        "fecha": "15/06/2026",
+        "hora": "17:52",
+        "tipo": "TRF",
+        "monto": 25000.0,
+        "moneda": "ARS",
+        "remitente": "Ariana Araujo",
+        "remitente_cuil": "27-45070798-3",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163456552525",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: RD06ZO9WVRX1P0EKN5GP7X. CVU remitente: 0000003100031270076286. CVU destinatario: 0000155300000000009977",
+        "_num": 1949,
+        "_fecha_carga": "18/06/2026 15:46",
+        "_origen": "grupo",
+        "_pie": "• De\nAriana Araujo\nCUIT/CUIL: 27-45070798-3"
       }
     ],
     "errores": [],
