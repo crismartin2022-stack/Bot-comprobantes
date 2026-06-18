@@ -22056,6 +22056,28 @@
         "_fecha_carga": "18/06/2026 12:45",
         "_origen": "grupo",
         "_pie": "Lucas brandi\n36701402"
+      },
+      {
+        "fecha": "13/06/2026",
+        "hora": "14:40",
+        "tipo": "TRF",
+        "monto": 100000.0,
+        "moneda": "ARS",
+        "remitente": "Eliana Isabel Correa",
+        "remitente_cuil": "27-39561241-2",
+        "destinatario": "SASTEUP SRL",
+        "banco_origen": "AstroPay",
+        "banco_destino": "",
+        "referencia": "ORD6LEN8PYQ5EGJONM1Y30",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CVU remitente: 0000177507835008852385. CVU receptor: 0000155300000000009977. CUIT receptor: 30717282252. Alias receptor: cvu.977",
+        "_num": 1001,
+        "_fecha_carga": "18/06/2026 12:45",
+        "_origen": "grupo",
+        "_pie": "Eliana correa\n39561241"
       }
     ],
     "errores": [],
