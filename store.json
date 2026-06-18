@@ -25544,6 +25544,28 @@
         "_fecha_carga": "18/06/2026 13:09",
         "_origen": "grupo",
         "_pie": "Veronica Eugenia Gil\nCUIT/CUIL: 27-29128117-1"
+      },
+      {
+        "fecha": "13/06/2026",
+        "hora": "22:11",
+        "tipo": "TRF",
+        "monto": 500000.0,
+        "moneda": "ARS",
+        "remitente": "Albornoz, Nicolas Eduardo",
+        "remitente_cuil": "20-12580879-5",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Personal Pay",
+        "banco_destino": "",
+        "referencia": "2741563839",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CoelsaID: LMORZP908L5X7O4RNEGJ46 - Id Bancario. CUIL/CUIT destinatario: 30-71728225-2. CBU/CVU receptor: 0000155300000000009977",
+        "_num": 1159,
+        "_fecha_carga": "18/06/2026 13:10",
+        "_origen": "grupo",
+        "_pie": "a Albornoz, Nicolas Eduardo\nCUIL/CUIT 20-12580879-5"
       }
     ],
     "errores": [],
