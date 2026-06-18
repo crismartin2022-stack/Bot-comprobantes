@@ -2574,6 +2574,28 @@
         "_fecha_carga": "17/06/2026 21:15",
         "_origen": "grupo",
         "_pie": "Leonardo Sebastian Taboada\nCuil 20349021200"
+      },
+      {
+        "fecha": "11/06/2026",
+        "hora": "13:05",
+        "tipo": "TRF",
+        "monto": 100000.0,
+        "moneda": "ARS",
+        "remitente": "Natalia Ailen Di Giorgio Suarez",
+        "remitente_cuil": "27-47758744-0",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163624786962",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: XJ8G7V95DXLY45Q49EMPYR. CUIT destinatario: 30-71728225-2. CVU destinatario: 0000155300000000000009977.",
+        "_num": 117,
+        "_fecha_carga": "17/06/2026 21:15",
+        "_origen": "grupo",
+        "_pie": "Natalia Ailen Di Giorgio Suarez\nCUIT/CUIL: 27-47758744-0"
       }
     ],
     "errores": [],
