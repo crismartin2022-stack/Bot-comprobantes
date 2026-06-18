@@ -15756,6 +15756,28 @@
         "_fecha_carga": "18/06/2026 00:14",
         "_origen": "grupo",
         "_pie": "Pamela Ocampo \n38.305.873"
+      },
+      {
+        "fecha": "14/06/2026",
+        "hora": "19:59",
+        "tipo": "TRF",
+        "monto": 500000.0,
+        "moneda": "ARS",
+        "remitente": "Sandra Patricia Sotelo",
+        "remitente_cuil": "23-22460036-4",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163330038803",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: LOEJWV9JZ3XW31R82QMD0G. CUIT destinatario: 30-71728225-2. CVU destinatario completo: 0000155300000000000009977",
+        "_num": 715,
+        "_fecha_carga": "18/06/2026 00:14",
+        "_origen": "grupo",
+        "_pie": "Sandra Sotelo \n22.460.036"
       }
     ],
     "errores": [],
