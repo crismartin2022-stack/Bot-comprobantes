@@ -5156,6 +5156,28 @@
         "_fecha_carga": "17/06/2026 21:32",
         "_origen": "grupo",
         "_pie": "Mariana Diaz 36608895"
+      },
+      {
+        "fecha": "12/06/2026",
+        "hora": "23:21",
+        "tipo": "TRF",
+        "monto": 150000.0,
+        "moneda": "ARS",
+        "remitente": "Liliana Beatriz Anrriquez",
+        "remitente_cuil": "",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Ualá",
+        "banco_destino": "",
+        "referencia": "D4RO172VZQ8W4Q61NKJ3QE",
+        "concepto": "VAR",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CUIT destino: 30717282252. CBU destino: 000015530000000000009977",
+        "_num": 234,
+        "_fecha_carga": "17/06/2026 21:32",
+        "_origen": "grupo",
+        "_pie": "Liliana Beatriz anrriquez \nDNI: 21.104.254"
       }
     ],
     "errores": [],
