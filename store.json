@@ -4914,6 +4914,28 @@
         "_fecha_carga": "17/06/2026 21:30",
         "_origen": "grupo",
         "_pie": "Monica Susana Santillan\nNaranja X\n4530000800012051233102\n27-17299591-3"
+      },
+      {
+        "fecha": "12/06/2026",
+        "hora": "22:58",
+        "tipo": "TRF",
+        "monto": 80000.0,
+        "moneda": "ARS",
+        "remitente": "Juan Elias Marquez De Olivera",
+        "remitente_cuil": "20-36520946-5",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163890402936",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: D4RO172VZQ8KJZEKNKJ3QE. CVU remitente: 0000003100081086392324. CVU destinatario: 0000155300000000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 223,
+        "_fecha_carga": "17/06/2026 21:30",
+        "_origen": "grupo",
+        "_pie": "Juan Elias Marquez De Olivera\nCUIT/CUIL: 20-36520946-5"
       }
     ],
     "errores": [],
