@@ -33920,6 +33920,28 @@
         "_fecha_carga": "18/06/2026 14:11",
         "_origen": "grupo",
         "_pie": "Lorena Elizabeth paolini \n35800760"
+      },
+      {
+        "fecha": "11/06/2026",
+        "hora": "22:23",
+        "tipo": "TRF",
+        "monto": 19000.0,
+        "moneda": "ARS",
+        "remitente": "Caterina Noeli Gomez",
+        "remitente_cuil": "27-37394391-1",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Naranja X",
+        "banco_destino": "Cuenta Virtual",
+        "referencia": "8D0Q619L04R0J6XLN7JZ5R",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CVU destinatario: 0000155300000000009977. CUIL destinatario: 30-71728225-2. Código de transacción: c0e9987a-a275-40fe-8441-bfedde3067cb. CBU remitente: 4530000800016678327967.",
+        "_num": 1539,
+        "_fecha_carga": "18/06/2026 14:11",
+        "_origen": "grupo",
+        "_pie": "Caterina noeli gomez \n37394391"
       }
     ],
     "errores": [],
