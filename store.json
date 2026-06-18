@@ -46910,6 +46910,28 @@
         "_fecha_carga": "18/06/2026 20:04",
         "_origen": "grupo",
         "_pie": "Lucas Roman Cardozo Zevallos\nCUIT/CUIL: 20-47650455-5"
+      },
+      {
+        "fecha": "12/06/2026",
+        "hora": "18:45",
+        "tipo": "TRF",
+        "monto": 500000.0,
+        "moneda": "ARS",
+        "remitente": "Maria De Los Angeles Rodriguez",
+        "remitente_cuil": "",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Lemon",
+        "banco_destino": "CVU",
+        "referencia": "PDX4OGNYG3PLZDOQN0L6EY",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CUIT destinatario: 30717282252. CBU destinatario: 00001553000000000009977. ID de la transacción: 42d803e5-1899-48f0-89db-4ff19d144723. Comprobante emitido por Lemon, powered by Digifin.",
+        "_num": 165,
+        "_fecha_carga": "18/06/2026 20:04",
+        "_origen": "grupo",
+        "_pie": "María de Los Ángeles Rodríguez \n33711557879"
       }
     ],
     "errores": [],
