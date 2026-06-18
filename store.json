@@ -21110,6 +21110,28 @@
         "_fecha_carga": "18/06/2026 00:47",
         "_origen": "grupo",
         "_pie": "Jairo Mateo Ovejero\nD.N.I: 45.958.946"
+      },
+      {
+        "fecha": "13/06/2026",
+        "hora": "15:21",
+        "tipo": "TRF",
+        "monto": 500000.17,
+        "moneda": "ARS",
+        "remitente": "Jose Martin Rodriguez",
+        "remitente_cuil": "20-19068066-6",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163166976497",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: 8D0Q619L0WY8M7Y3N7JZ5R. CVU remitente: 0000003100010733015046. CVU destinatario: 0000155300000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 958,
+        "_fecha_carga": "18/06/2026 00:47",
+        "_origen": "grupo",
+        "_pie": "Jose Martin Rodriguez\nDNI: 19.068.066"
       }
     ],
     "errores": [],
