@@ -44288,6 +44288,28 @@
         "_fecha_carga": "18/06/2026 19:48",
         "_origen": "grupo",
         "_pie": "Rocio Ailen Malaguenxxo\nCUIT/CUIL: 27-47191340-0"
+      },
+      {
+        "fecha": "11/06/2026",
+        "hora": "23:18",
+        "tipo": "TRF",
+        "monto": 200000.0,
+        "moneda": "ARS",
+        "remitente": "MATIAS EMMANUEL TORRES MOYANO",
+        "remitente_cuil": "20-32356439-7",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Banco De Galicia S.A.U",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "42079565193",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CVU destinatario: 0000155300000000009977. CUIT destinatario: 30-71728225-2. ID COELSA: 46YGOW9M1YWXYLY8NEXD8J",
+        "_num": 46,
+        "_fecha_carga": "18/06/2026 19:48",
+        "_origen": "grupo",
+        "_pie": "Matias torres 32356439"
       }
     ],
     "errores": [],
