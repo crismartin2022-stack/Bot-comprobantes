@@ -3966,6 +3966,28 @@
         "_fecha_carga": "17/06/2026 21:24",
         "_origen": "grupo",
         "_pie": "Adrian Ramón Gonzáles\nCUIT/CUIL: 20-21332410-2"
+      },
+      {
+        "fecha": "12/06/2026",
+        "hora": "20:13",
+        "tipo": "TRF",
+        "monto": 200000.0,
+        "moneda": "ARS",
+        "remitente": "Marcia Veronica Arce",
+        "remitente_cuil": "27-30085425-2",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163865481112",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: D4RO172VZGQ5ZPD0NKJ3QE. CVU remitente: 0000003100042818757657. CVU destinatario: 0000155300000000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 180,
+        "_fecha_carga": "17/06/2026 21:24",
+        "_origen": "grupo",
+        "_pie": "Marcia Verónica arce\nCUIT/CUIL: 27-30085425-2"
       }
     ],
     "errores": [],
