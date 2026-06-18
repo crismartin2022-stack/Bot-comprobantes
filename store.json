@@ -4892,6 +4892,28 @@
         "_fecha_carga": "17/06/2026 21:30",
         "_origen": "grupo",
         "_pie": "Luque Miguez, Ariadna Abigail\n27-48299541-7"
+      },
+      {
+        "fecha": "12/06/2026",
+        "hora": "22:37",
+        "tipo": "TRF",
+        "monto": 200000.0,
+        "moneda": "ARS",
+        "remitente": "Monica Susana Santillan",
+        "remitente_cuil": "27-17299591-3",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Naranja X",
+        "banco_destino": "Cuenta Virtual",
+        "referencia": "67REZ8NPQ6XMKJVK94KVGO",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de transacción adicional: 38472d53-1efc-4e6d-bb06-be2d292504cb. CBU origen: 4530000800012051233102. CVU destino: 0000155300000000009977. CUIL destinatario: 30-71728225-2.",
+        "_num": 222,
+        "_fecha_carga": "17/06/2026 21:30",
+        "_origen": "grupo",
+        "_pie": "Monica Susana Santillan\nNaranja X\n4530000800012051233102\n27-17299591-3"
       }
     ],
     "errores": [],
