@@ -23934,6 +23934,28 @@
         "_fecha_carga": "18/06/2026 12:58",
         "_origen": "grupo",
         "_pie": "Martin aranda 39487346"
+      },
+      {
+        "fecha": "12/06/2026",
+        "hora": "21:54",
+        "tipo": "TRF",
+        "monto": 100000.0,
+        "moneda": "ARS",
+        "remitente": "Reinaldo Elias Cisneros",
+        "remitente_cuil": "20-11876567-3",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163073274809",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: LOEJWV9JZ3Y0JW7M2QMD0G. CVU remitente: 0000003100092459356160. CVU destinatario: 0000155300000000009977.",
+        "_num": 1086,
+        "_fecha_carga": "18/06/2026 12:58",
+        "_origen": "grupo",
+        "_pie": "Reinaldo Elías Cisneros Dni:  11876567"
       }
     ],
     "errores": [],
