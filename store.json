@@ -6832,6 +6832,28 @@
         "_fecha_carga": "17/06/2026 21:42",
         "_origen": "grupo",
         "_pie": "Matias Nicolas Richard\nCUIT/CUIL: 20-30804619-3"
+      },
+      {
+        "fecha": "13/06/2026",
+        "hora": "11:34",
+        "tipo": "TRF",
+        "monto": 300000.0,
+        "moneda": "ARS",
+        "remitente": "Fernando Javier Morinigo Rodriguez",
+        "remitente_cuil": "20-94692255-3",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163937927470",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: D4RO172VZQ8Q6YQ1NKJ3QE. CUIT destinatario: 30-71728225-2. CVU remitente: 0000003100076679014150. CVU destinatario: 0000155300000000000009977",
+        "_num": 310,
+        "_fecha_carga": "17/06/2026 21:42",
+        "_origen": "grupo",
+        "_pie": "Fernando Javier Morinigo Rodriguez\nCUIT/CUIL: 20-94692255-3"
       }
     ],
     "errores": [],
