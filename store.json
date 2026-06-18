@@ -44002,6 +44002,28 @@
         "_fecha_carga": "18/06/2026 19:46",
         "_origen": "grupo",
         "_pie": "• De\nGuillermo Federico Castro\nCUIT/CUIL: 20-32967978-1"
+      },
+      {
+        "fecha": "11/06/2026",
+        "hora": "21:51",
+        "tipo": "TRF",
+        "monto": 40000.0,
+        "moneda": "ARS",
+        "remitente": "Ariel Sebastian Lezama",
+        "remitente_cuil": "20-33608013-5",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "162902164581",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: XJ8G7V95DXQED6ZD9EMPYR. CVU destinatario: 0000155300000000009977. CVU remitente: 0000003100032889190406.",
+        "_num": 33,
+        "_fecha_carga": "18/06/2026 19:46",
+        "_origen": "grupo",
+        "_pie": "Ariel Sebastian Lezama\nCUIT/CUIL: 20-33608013-5"
       }
     ],
     "errores": [],
