@@ -2885,6 +2885,28 @@
         "_fecha_carga": "17/06/2026 21:17",
         "_origen": "grupo",
         "_pie": "Fatima Alfonzo\nCUIT/CUIL: 27-95859382-7"
+      },
+      {
+        "fecha": "12/06/2026",
+        "hora": "14:53",
+        "tipo": "TRF",
+        "monto": 80000.0,
+        "moneda": "ARS",
+        "remitente": "Juan Elias Marquez De Olivera",
+        "remitente_cuil": "20-36520946-5",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163809902146",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: PDX4OGNYG33YQLLRN0L6EY. CVU remitente: 0000003100081086392324. CVU destinatario: 0000155300000000000009977. CUIT destinatario: 30-71728225-2",
+        "_num": 131,
+        "_fecha_carga": "17/06/2026 21:17",
+        "_origen": "grupo",
+        "_pie": "Juan Elias Marquez De Olivera\nCUIT/CUIL: 20-36520946-5"
       }
     ],
     "errores": [],
