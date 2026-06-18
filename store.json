@@ -38956,6 +38956,28 @@
         "_fecha_carga": "18/06/2026 15:07",
         "_origen": "grupo",
         "_pie": "Ruth Otazo \n377065889 \nPlutonos"
+      },
+      {
+        "fecha": "15/06/2026",
+        "hora": "21:20",
+        "tipo": "TRF",
+        "monto": 100000.0,
+        "moneda": "ARS",
+        "remitente": "Julieta Anahi Otazo",
+        "remitente_cuil": "27-44331955-2",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "164299582068",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: L18MKX9RXJ3DXQWV9O6WYV. CVU remitente: 0000003100063653210534. CVU destinatario: 0000155300000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 1767,
+        "_fecha_carga": "18/06/2026 15:07",
+        "_origen": "grupo",
+        "_pie": "Julieta Otazo \n44331952\nPlutonos"
       }
     ],
     "errores": [],
