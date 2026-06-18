@@ -23647,6 +23647,28 @@
         "_fecha_carga": "18/06/2026 12:56",
         "_origen": "grupo",
         "_pie": "Carmen silvero Dni 96208464"
+      },
+      {
+        "fecha": "13/06/2026",
+        "hora": "14:24",
+        "tipo": "TRF",
+        "monto": 100000.0,
+        "moneda": "ARS",
+        "remitente": "Nancy Carolina Cardozo Rodas",
+        "remitente_cuil": "27-95467596-9",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163967269496",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: PDX4OGNYGPJ7GJ64N0L6EY. CUIT destinatario: 30-71728225-2. CVU destinatario completo: 0000155300000000000009977",
+        "_num": 1073,
+        "_fecha_carga": "18/06/2026 12:56",
+        "_origen": "grupo",
+        "_pie": "Nancy Carolina Cardozo Rodas\nCUIT/CUIL: 27-95467596-9"
       }
     ],
     "errores": [],
