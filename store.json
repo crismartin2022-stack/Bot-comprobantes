@@ -31101,6 +31101,28 @@
         "_fecha_carga": "18/06/2026 13:52",
         "_origen": "grupo",
         "_pie": "Carmen silvero Dni 96208464"
+      },
+      {
+        "fecha": "15/06/2026",
+        "hora": "16:57",
+        "tipo": "TRF",
+        "monto": 100000.0,
+        "moneda": "ARS",
+        "remitente": "Matias Nicolas Quevedo Hermosilla",
+        "remitente_cuil": "",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Ualá",
+        "banco_destino": "",
+        "referencia": "PDX4OGNYGPWP7E5VN0L6EY",
+        "concepto": "VAR",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CBU destino: 0000155300000000009977. CUIT destinatario: 30717282252 (Sasteup Srl).",
+        "_num": 1411,
+        "_fecha_carga": "18/06/2026 13:52",
+        "_origen": "grupo",
+        "_pie": "A nombre de \nMatias Quevedo\n40640486"
       }
     ],
     "errores": [],
