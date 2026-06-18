@@ -55750,6 +55750,28 @@
         "_fecha_carga": "18/06/2026 20:59",
         "_origen": "grupo",
         "_pie": "Foto de Johanna Cáceres 💜"
+      },
+      {
+        "fecha": "06/06/2026",
+        "hora": "18:42",
+        "tipo": "TRF",
+        "monto": 30000.0,
+        "moneda": "ARS",
+        "remitente": "Daniela Fernanda Garcia",
+        "remitente_cuil": "27-20478205-4",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "162088437703",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: D4RO172VZGL4KLVVNKJ3QE. CUIT destinatario: 30-71728225-2. CVU destinatario: 0000155300000000000009977.",
+        "_num": 566,
+        "_fecha_carga": "18/06/2026 20:59",
+        "_origen": "grupo",
+        "_pie": ""
       }
     ],
     "errores": [],
