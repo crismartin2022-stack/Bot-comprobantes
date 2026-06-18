@@ -1540,6 +1540,28 @@
         "_fecha_carga": "17/06/2026 21:08",
         "_origen": "grupo",
         "_pie": "Giuliana Nicole Luna\nDNI 44.586.345"
+      },
+      {
+        "fecha": "11/06/2026",
+        "hora": "23:16",
+        "tipo": "TRF",
+        "monto": 500000.02,
+        "moneda": "ARS",
+        "remitente": "Sena Tramujas, Octavio Nicolas",
+        "remitente_cuil": "20-47559359-7",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Personal Pay",
+        "banco_destino": "",
+        "referencia": "2734408386",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CBU/CVU del receptor: 00001553000000000009977. CoelsaID: 1LMP68NKVX83P83R2R7OEV - Id Bancario. CUIL/CUIT del receptor (Sasteup Srl): 30-71728225-2.",
+        "_num": 70,
+        "_fecha_carga": "17/06/2026 21:08",
+        "_origen": "grupo",
+        "_pie": "OCTAVIO NICOLÁS SENA TRAMUJAS\n47.559.359"
       }
     ],
     "errores": [],
