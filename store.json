@@ -53834,6 +53834,28 @@
         "_fecha_carga": "18/06/2026 20:47",
         "_origen": "grupo",
         "_pie": "Foto de Ges"
+      },
+      {
+        "fecha": "11/06/2026",
+        "hora": "22:26",
+        "tipo": "TRF",
+        "monto": 100000.0,
+        "moneda": "ARS",
+        "remitente": "Lucia Beatriz Godoy",
+        "remitente_cuil": "27-43732934-1",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163714262104",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: WGRXJE27DYRDP51ON7MYQL. CVU remitente: 0000003100005331428642. CVU destinatario: 0000155300000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 479,
+        "_fecha_carga": "18/06/2026 20:47",
+        "_origen": "grupo",
+        "_pie": "Ganamos"
       }
     ],
     "errores": [],
