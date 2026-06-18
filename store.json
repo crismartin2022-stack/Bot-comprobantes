@@ -21990,6 +21990,28 @@
         "_fecha_carga": "18/06/2026 12:45",
         "_origen": "grupo",
         "_pie": "Joana luna 36581218"
+      },
+      {
+        "fecha": "12/06/2026",
+        "hora": "20:51",
+        "tipo": "TRF",
+        "monto": 50000.0,
+        "moneda": "ARS",
+        "remitente": "Debora Samanta Weingartner",
+        "remitente_cuil": "27-32512981-1",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Naranja X",
+        "banco_destino": "Cuenta Virtual",
+        "referencia": "Z0KV87940PE3QW40NPEYDX",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CBU origen: 4530000800014582968335. CVU destino: 0000155300000000009977. CUIL destinatario: 30-71728225-2. Código de transacción: 4913ee40-56c2-44a7-b392-52b6ceab748f",
+        "_num": 998,
+        "_fecha_carga": "18/06/2026 12:45",
+        "_origen": "grupo",
+        "_pie": "Debora Samanta Weingartner\n32512981"
       }
     ],
     "errores": [],
