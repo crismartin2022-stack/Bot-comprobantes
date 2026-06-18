@@ -42418,6 +42418,28 @@
         "_fecha_carga": "18/06/2026 15:42",
         "_origen": "grupo",
         "_pie": "Jhonatan Leonardo Espinola\nNaranja X\n4530000800014353782944\n20-45791550-1"
+      },
+      {
+        "fecha": "15/06/2026",
+        "hora": "23:19",
+        "tipo": "TRF",
+        "monto": 250000.0,
+        "moneda": "ARS",
+        "remitente": "Jhonatan Leonardo Espinola",
+        "remitente_cuil": "20-45791550-1",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Naranja X",
+        "banco_destino": "Cuenta Virtual",
+        "referencia": "JMQKYZ9QQV137D6V9V50P3",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CBU origen: 4530000800014353782944. CVU destino: 0000155300000000009977. CUIL destinatario: 30-71728225-2. Código de transacción adicional: 200c0faa-6b55-481c-bd29-b71ffb162fc3",
+        "_num": 1924,
+        "_fecha_carga": "18/06/2026 15:42",
+        "_origen": "grupo",
+        "_pie": "Jhonatan Leonardo Espinola\nNaranja X\n4530000800014353782944\n20-45791550-1"
       }
     ],
     "errores": [],
