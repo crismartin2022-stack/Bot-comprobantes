@@ -22610,6 +22610,28 @@
         "_fecha_carga": "18/06/2026 12:49",
         "_origen": "grupo",
         "_pie": "Angelina Rodriguez \n27175279216"
+      },
+      {
+        "fecha": "15/06/2026",
+        "hora": "13:31",
+        "tipo": "TRF",
+        "monto": 100000.0,
+        "moneda": "ARS",
+        "remitente": "Angelina Rodriguez",
+        "remitente_cuil": "27-17527921-6",
+        "destinatario": "SASTEUP SRL",
+        "banco_origen": "AstroPay",
+        "banco_destino": "",
+        "referencia": "76V4MR2Z74KRZLL0NDEZOL",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CVU remitente: 0000177505107008769667. CVU receptor: 0000155300000000009977. CUIT receptor: 30717282252. Alias receptor: cvu.977",
+        "_num": 1026,
+        "_fecha_carga": "18/06/2026 12:49",
+        "_origen": "grupo",
+        "_pie": "Angelina Rodriguez \n27175279216"
       }
     ],
     "errores": [],
