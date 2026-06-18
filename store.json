@@ -27948,6 +27948,28 @@
         "_fecha_carga": "18/06/2026 13:26",
         "_origen": "grupo",
         "_pie": "Lucas Alexis Garay\nPrex\nCUIL/CUIT\n20-45429334-8"
+      },
+      {
+        "fecha": "14/06/2026",
+        "hora": "16:37",
+        "tipo": "TRF",
+        "monto": 250000.0,
+        "moneda": "ARS",
+        "remitente": "LUCAS ALEXIS GARAY",
+        "remitente_cuil": "20-45429334-8",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Banco De Galicia S.A.U",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "42105484483",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CVU destinatario: 0000155300000000009977. CUIT destinatario: 30-71728225-2. ID COELSA: 8D0Q619L0W3YGD4LN7JZ5R. Cuenta origen: CA $ N° 4067972-0 043-6.",
+        "_num": 1268,
+        "_fecha_carga": "18/06/2026 13:26",
+        "_origen": "grupo",
+        "_pie": "LUCAS ALEXIS GARAY\nCUIT 20-45429334-8"
       }
     ],
     "errores": [],
