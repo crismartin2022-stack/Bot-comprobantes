@@ -45718,6 +45718,28 @@
         "_fecha_carga": "18/06/2026 19:57",
         "_origen": "grupo",
         "_pie": "Roberto Sergio Lopez\nCUIT/CUIL: 23-25185980-9"
+      },
+      {
+        "fecha": "12/06/2026",
+        "hora": "01:02",
+        "tipo": "TRF",
+        "monto": 40000.0,
+        "moneda": "ARS",
+        "remitente": "Keila Nadine Indice",
+        "remitente_cuil": "27-46194282-8",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "162919036097",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: LOEJWV9JZPQOQ43Z2QMD0G. CVU remitente: 0000003100081674132916. CVU destinatario: 0000155300000000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 111,
+        "_fecha_carga": "18/06/2026 19:57",
+        "_origen": "grupo",
+        "_pie": "Keila Nadine Indice\nCUIT/CUIL: 27-46194282-8"
       }
     ],
     "errores": [],
