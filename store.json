@@ -36701,6 +36701,28 @@
         "_fecha_carga": "18/06/2026 14:51",
         "_origen": "grupo",
         "_pie": "shaka srl"
+      },
+      {
+        "fecha": "13/06/2026",
+        "hora": "21:40",
+        "tipo": "TRF",
+        "monto": 20000.0,
+        "moneda": "ARS",
+        "remitente": "Araceli Sabrina Sajama",
+        "remitente_cuil": "27-41476867-4",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "164032237770",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: 76V4MR2Z74PZJVXLNDEZOL. CUIT destinatario: 30-71728225-2. CVU remitente: 0000003100028551126185. CVU destinatario: 0000155300000000009977",
+        "_num": 1665,
+        "_fecha_carga": "18/06/2026 14:52",
+        "_origen": "grupo",
+        "_pie": "Bet30click"
       }
     ],
     "errores": [],
