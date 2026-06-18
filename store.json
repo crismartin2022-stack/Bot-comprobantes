@@ -32666,6 +32666,28 @@
         "_fecha_carga": "18/06/2026 14:03",
         "_origen": "grupo",
         "_pie": "Damian Alejandro Mansilla\nCuenta Claro Pay\nCVU: 0000085700204865947652"
+      },
+      {
+        "fecha": "12/06/2026",
+        "hora": "23:32",
+        "tipo": "TRF",
+        "monto": 190000.0,
+        "moneda": "ARS",
+        "remitente": "Mathias Federico Cardarelli",
+        "remitente_cuil": "20-41334529-5",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163085096617",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: PDX4OGNYGPR83PO4N0L6EY. CVU remitente: 0000003100057784605992. CVU destinatario: 0000155300000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 1482,
+        "_fecha_carga": "18/06/2026 14:03",
+        "_origen": "grupo",
+        "_pie": "Mathias Federico Cardarelli\nCUIT/CUIL: 20-41334529-5\nMercado Pago\nCVU: 0000003100057784605992"
       }
     ],
     "errores": [],
