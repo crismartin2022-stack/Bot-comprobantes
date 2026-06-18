@@ -43012,6 +43012,28 @@
         "_fecha_carga": "18/06/2026 15:46",
         "_origen": "grupo",
         "_pie": "Rocio Ailen Malaguenxxo\nCUIT/CUIL: 27-47191340-0"
+      },
+      {
+        "fecha": "15/06/2026",
+        "hora": "21:25",
+        "tipo": "TRF",
+        "monto": 25000.0,
+        "moneda": "ARS",
+        "remitente": "Brenda Ailen Caceres",
+        "remitente_cuil": "27-42836850-4",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163487539633",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: 8D0Q619L0WP1Q68ZN7JZ5R. CVU destinatario: 0000155300000000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 1951,
+        "_fecha_carga": "18/06/2026 15:46",
+        "_origen": "grupo",
+        "_pie": "Brenda Ailen Caceres\nCUIT/CUIL: 27-42836850-4"
       }
     ],
     "errores": [],
