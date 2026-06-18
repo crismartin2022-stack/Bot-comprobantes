@@ -5002,6 +5002,28 @@
         "_fecha_carga": "17/06/2026 21:31",
         "_origen": "grupo",
         "_pie": "Vicchio, Lautaro Fernando\n23-44961652-9"
+      },
+      {
+        "fecha": "12/06/2026",
+        "hora": "23:03",
+        "tipo": "TRF",
+        "monto": 100000.0,
+        "moneda": "ARS",
+        "remitente": "Alan Gabriel Salvatierra",
+        "remitente_cuil": "24-42055465-2",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163890725152",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: JMQKYZ9QQVWKZ0589V50P3. CVU remitente: 0000003100033564286571. CVU destinatario: 0000155300000000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 227,
+        "_fecha_carga": "17/06/2026 21:31",
+        "_origen": "grupo",
+        "_pie": "Alan Gabriel Salvatierra\nCUIT/CUIL: 24-42055465-2"
       }
     ],
     "errores": [],
