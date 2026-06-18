@@ -41380,6 +41380,28 @@
         "_fecha_carga": "18/06/2026 15:35",
         "_origen": "grupo",
         "_pie": "Lucas Roman Cardozo Zevallos\nCUIT/CUIL: 20-47650455-5"
+      },
+      {
+        "fecha": "15/06/2026",
+        "hora": "21:32",
+        "tipo": "TRF",
+        "monto": 25000.0,
+        "moneda": "ARS",
+        "remitente": "Ermelinda Lobo",
+        "remitente_cuil": "27-96330852-9",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163489968207",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: L18MKX9RXJ3DQZ319O6WYV. CUIT destinatario: 30-71728225-2. CVU destinatario: 0000155300000000009977.",
+        "_num": 1877,
+        "_fecha_carga": "18/06/2026 15:35",
+        "_origen": "grupo",
+        "_pie": "Ermelinda Lobo\nCUIT/CUIL: 27-96330852-9"
       }
     ],
     "errores": [],
