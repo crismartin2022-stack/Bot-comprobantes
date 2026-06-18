@@ -42152,6 +42152,28 @@
         "_fecha_carga": "18/06/2026 15:40",
         "_origen": "grupo",
         "_pie": "Juliana palavecino \n47337453"
+      },
+      {
+        "fecha": "15/06/2026",
+        "hora": "20:58",
+        "tipo": "TRF",
+        "monto": 600000.0,
+        "moneda": "ARS",
+        "remitente": "Monica Susana Santillan",
+        "remitente_cuil": "27-17299591-3",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Naranja X",
+        "banco_destino": "Cuenta Virtual",
+        "referencia": "3D5W612E6Z743Z7G2GXYVR",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CBU origen: 4530000800012051233102. CVU destino: 0000155300000000009977. CUIL destinatario: 30-71728225-2. Código de transacción: 6b631e17-a4ab-4e06-be86-978b15af6476.",
+        "_num": 1912,
+        "_fecha_carga": "18/06/2026 15:40",
+        "_origen": "grupo",
+        "_pie": "Monica Susana Santillan\nNaranja X\n4530000800012051233102\n27-17299591-3"
       }
     ],
     "errores": [],
