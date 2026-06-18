@@ -770,6 +770,28 @@
         "_fecha_carga": "17/06/2026 21:02",
         "_origen": "grupo",
         "_pie": "Mariana Diaz 36608895"
+      },
+      {
+        "fecha": "11/06/2026",
+        "hora": "21:58",
+        "tipo": "TRF",
+        "monto": 300001.0,
+        "moneda": "ARS",
+        "remitente": "Pablo Agustin Franco",
+        "remitente_cuil": "20-42176164-8",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "162903126559",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: WGRXJE27DYRGJJWON7MYQL. CUIT destinatario: 30-71728225-2. CVU remitente: 0000003100082368064083. CVU destinatario: 0000155300000000009977",
+        "_num": 35,
+        "_fecha_carga": "17/06/2026 21:02",
+        "_origen": "grupo",
+        "_pie": "Pablo Agustin Franco\nCUIT/CUIL: 20-42176164-8"
       }
     ],
     "errores": [],
