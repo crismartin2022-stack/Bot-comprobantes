@@ -55706,6 +55706,28 @@
         "_fecha_carga": "18/06/2026 20:59",
         "_origen": "grupo",
         "_pie": "Foto de Johanna Cáceres 💜"
+      },
+      {
+        "fecha": "12/06/2026",
+        "hora": "21:58",
+        "tipo": "TRF",
+        "monto": 40000.0,
+        "moneda": "ARS",
+        "remitente": "Aldo Javier Penayo Parra",
+        "remitente_cuil": "94.481.846",
+        "destinatario": "SASTEUP SRL",
+        "banco_origen": "Cuenta DNI",
+        "banco_destino": "",
+        "referencia": "8D0Q619L0WLYW67ZN7JZ5R",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CVU destinatario: 0000155300000000009977. CUIL destinatario: 30717282252. Código de referencia usado como identificador de transacción.",
+        "_num": 564,
+        "_fecha_carga": "18/06/2026 20:59",
+        "_origen": "grupo",
+        "_pie": "Foto de Johanna Cáceres 💜"
       }
     ],
     "errores": [],
