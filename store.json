@@ -37342,6 +37342,28 @@
         "_fecha_carga": "18/06/2026 14:56",
         "_origen": "grupo",
         "_pie": "Juliana Belén nunes 35988529"
+      },
+      {
+        "fecha": "14/06/2026",
+        "hora": "23:07",
+        "tipo": "TRF",
+        "monto": 45000.0,
+        "moneda": "ARS",
+        "remitente": "Cynthia Noelia Mino Gonzalez",
+        "remitente_cuil": "27-40421715-7",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Naranja X",
+        "banco_destino": "Cuenta Virtual",
+        "referencia": "67REZ8NPQ6MEY15K94KVGO",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CBU origen: 4530000800018822454187. CVU destino: 0000155300000000009977. CUIL destinatario: 30-71728225-2. Código de transacción: 638fb126-98c1-4c00-9cbb-1a7e91566f50",
+        "_num": 1694,
+        "_fecha_carga": "18/06/2026 14:56",
+        "_origen": "grupo",
+        "_pie": "Foto de 🤗🤗🤗"
       }
     ],
     "errores": [],
