@@ -27045,6 +27045,28 @@
         "_fecha_carga": "18/06/2026 13:20",
         "_origen": "grupo",
         "_pie": "Juan Pablo Juani\nNaranja X\n4530000800019921086521\n20-42904568-2"
+      },
+      {
+        "fecha": "14/06/2026",
+        "hora": "00:40",
+        "tipo": "TRF",
+        "monto": 50000.0,
+        "moneda": "ARS",
+        "remitente": "Edgar Anselmo Nunez Rojas",
+        "remitente_cuil": "20-38175389-2",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163238566037",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: PDX4OGNYGPGJGKPMN0L6EY. CUIT destinatario: 30-71728225-2. CVU remitente: 0000003100050664447220. CVU destinatario: 0000155300000000000009977",
+        "_num": 1227,
+        "_fecha_carga": "18/06/2026 13:20",
+        "_origen": "grupo",
+        "_pie": "Edgar Anselmo Nunez Rojas\nCUIT/CUIL: 20-38175389-2"
       }
     ],
     "errores": [],
