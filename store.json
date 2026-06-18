@@ -23051,6 +23051,28 @@
         "_fecha_carga": "18/06/2026 12:52",
         "_origen": "grupo",
         "_pie": "Matias Chaves \n20-41416949-0"
+      },
+      {
+        "fecha": "15/06/2026",
+        "hora": "15:40",
+        "tipo": "TRF",
+        "monto": 70000.0,
+        "moneda": "ARS",
+        "remitente": "Carlos Alberto Forno Seoane",
+        "remitente_cuil": "20-13851827-3",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Naranja X",
+        "banco_destino": "Cuenta Virtual",
+        "referencia": "D4RO172VZQK7JLPRNKJ3QE",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CBU origen: 4530000800019421893845. CVU destino: 0000155300000000009977. CUIL destinatario: 30-71728225-2. Código de transacción: cde7826f-b54d-4773-98e8-8d94240062a3.",
+        "_num": 1046,
+        "_fecha_carga": "18/06/2026 12:52",
+        "_origen": "grupo",
+        "_pie": "Carlos Seoane \n20-13851827-3"
       }
     ],
     "errores": [],
