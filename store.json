@@ -2685,6 +2685,28 @@
         "_fecha_carga": "17/06/2026 21:16",
         "_origen": "grupo",
         "_pie": "Albornoz, Nicolas Eduardo\nCUIL/CUIT 20-12580879-5"
+      },
+      {
+        "fecha": "12/06/2026",
+        "hora": "13:51",
+        "tipo": "TRF",
+        "monto": 500000.0,
+        "moneda": "ARS",
+        "remitente": "Walter Daniel Arroyo",
+        "remitente_cuil": "20-29905401-3",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "162991029151",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: Z4K6DVNOWZZJ8DXK25J8LQ. CVU remitente: 0000003100002928152757. CVU destinatario: 0000155300000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 122,
+        "_fecha_carga": "17/06/2026 21:16",
+        "_origen": "grupo",
+        "_pie": "Walter Daniel Arroyo\nCUIT/CUIL: 20-29905401-3"
       }
     ],
     "errores": [],
