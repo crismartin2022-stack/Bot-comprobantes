@@ -38205,6 +38205,28 @@
         "_fecha_carga": "18/06/2026 15:02",
         "_origen": "grupo",
         "_pie": "Maximiliano Fioriti DNI 36443205"
+      },
+      {
+        "fecha": "13/06/2026",
+        "hora": "22:39",
+        "tipo": "TRF",
+        "monto": 45000.0,
+        "moneda": "ARS",
+        "remitente": "Nestor Carlos Alejandro Pardo",
+        "remitente_cuil": "20-35414869-3",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163231124279",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: 8D0Q619L0WOXXYP8N7JZ5R. CVU destinatario: 0000155300000000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 1733,
+        "_fecha_carga": "18/06/2026 15:02",
+        "_origen": "grupo",
+        "_pie": "Alejandro pardo \n35414869\nCargalos en ganamos.co"
       }
     ],
     "errores": [],
