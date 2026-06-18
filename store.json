@@ -13356,6 +13356,28 @@
         "_fecha_carga": "17/06/2026 23:50",
         "_origen": "grupo",
         "_pie": "Foto de Clohe😎"
+      },
+      {
+        "fecha": "10/06/2026",
+        "hora": "13:47",
+        "tipo": "TRF",
+        "monto": 13000.0,
+        "moneda": "ARS",
+        "remitente": "Olga Azucena Ramos",
+        "remitente_cuil": "27-17512292-9",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Naranja X",
+        "banco_destino": "Cuenta Virtual",
+        "referencia": "7L8GYKNX0OYO7O4X2MPRZ5",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CBU origen: 4530000800014098798480. CVU destino: 0000155300000000009977. CUIL destinatario: 30-71728225-2. Código de transacción: e4e84512-c939-4e44-9d60-280c6e81aee8",
+        "_num": 606,
+        "_fecha_carga": "17/06/2026 23:50",
+        "_origen": "grupo",
+        "_pie": "Foto de Clohe😎"
       }
     ],
     "errores": [],
