@@ -42396,6 +42396,28 @@
         "_fecha_carga": "18/06/2026 15:42",
         "_origen": "grupo",
         "_pie": "Karina Alejandra Del Carmen Lucca\nCUIT/CUIL: 27-23583004-9"
+      },
+      {
+        "fecha": "15/06/2026",
+        "hora": "23:18",
+        "tipo": "TRF",
+        "monto": 250000.0,
+        "moneda": "ARS",
+        "remitente": "Jhonatan Leonardo Espinola",
+        "remitente_cuil": "20-45791550-1",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Naranja X",
+        "banco_destino": "Cuenta Virtual",
+        "referencia": "PDX4OGNYGP8ZYDXYN0L6EY",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CBU origen: 4530000800014353782944. CVU destinatario: 0000155300000000009977. CUIL destinatario: 30-71728225-2. Código de transacción adicional: e8e7c6f6-1d86-40b9-8fd6-2027f522f021",
+        "_num": 1923,
+        "_fecha_carga": "18/06/2026 15:42",
+        "_origen": "grupo",
+        "_pie": "Jhonatan Leonardo Espinola\nNaranja X\n4530000800014353782944\n20-45791550-1"
       }
     ],
     "errores": [],
