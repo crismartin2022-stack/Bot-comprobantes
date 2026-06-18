@@ -19658,6 +19658,28 @@
         "_fecha_carga": "18/06/2026 00:39",
         "_origen": "grupo",
         "_pie": ""
+      },
+      {
+        "fecha": "14/06/2026",
+        "hora": "12:27",
+        "tipo": "TRF",
+        "monto": 20000.0,
+        "moneda": "ARS",
+        "remitente": "Cristian Adrian Basterrechea",
+        "remitente_cuil": "20-32067092-7",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163276293393",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: D4RO172VZQZDX8QVNKJ3QE. CUIT destinatario: 30-71728225-2. CVU remitente: 0000003100089080324615. CVU destinatario: 0000155300000000000009977",
+        "_num": 892,
+        "_fecha_carga": "18/06/2026 00:39",
+        "_origen": "grupo",
+        "_pie": ""
       }
     ],
     "errores": [],
