@@ -46821,6 +46821,28 @@
         "_fecha_carga": "18/06/2026 20:04",
         "_origen": "grupo",
         "_pie": "Pablo Agustin Franco\nCUIT/CUIL: 20-42176164-8"
+      },
+      {
+        "fecha": "12/06/2026",
+        "hora": "18:08",
+        "tipo": "TRF",
+        "monto": 200001.0,
+        "moneda": "ARS",
+        "remitente": "Aylen Maria Ester Gonzalez",
+        "remitente_cuil": "27-47506525-0",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163031295535",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: 8D0Q619L04WPPW73N7JZ5R. CVU remitente: 0000003100043365068812. CVU destinatario: 0000155300000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 161,
+        "_fecha_carga": "18/06/2026 20:04",
+        "_origen": "grupo",
+        "_pie": "Aylen Maria Ester Gonzalez\nCUIT/CUIL: 27-47506525-0"
       }
     ],
     "errores": [],
