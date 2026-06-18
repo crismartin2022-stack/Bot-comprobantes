@@ -6546,6 +6546,28 @@
         "_fecha_carga": "17/06/2026 21:40",
         "_origen": "grupo",
         "_pie": "Rocio Ailen Malaguenxxo\nCUIT/CUIL: 27-47191340-0"
+      },
+      {
+        "fecha": "12/06/2026",
+        "hora": "23:20",
+        "tipo": "TRF",
+        "monto": 25000.0,
+        "moneda": "ARS",
+        "remitente": "Fiamma Antonella Cabrera",
+        "remitente_cuil": "27-45287146-2",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163892255516",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: RD06ZO9WVR8X0KZ7N5GP7X. CVU remitente: 0000003100027623406460. CVU destinatario: 0000155300000000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 297,
+        "_fecha_carga": "17/06/2026 21:40",
+        "_origen": "grupo",
+        "_pie": "Fiamma Antonella Cabrera\nCUIT/CUIL: 27-45287146-2"
       }
     ],
     "errores": [],
