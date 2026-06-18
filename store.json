@@ -41600,6 +41600,28 @@
         "_fecha_carga": "18/06/2026 15:36",
         "_origen": "grupo",
         "_pie": "Diego Luis Garcia\nCUIT/CUIL: 20-25809829-4"
+      },
+      {
+        "fecha": "15/06/2026",
+        "hora": "22:01",
+        "tipo": "TRF",
+        "monto": 500000.0,
+        "moneda": "ARS",
+        "remitente": "Maria De Los Angeles Rodriguez",
+        "remitente_cuil": "",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Lemon",
+        "banco_destino": "CVU",
+        "referencia": "76V4MR2Z74WY1WY8NDEZOL",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CUIT destinatario: 30717282252. CBU destinatario: 0000155300000000009977. ID de la transacción: 3cec0f7d-57b5-41f0-a662-b252e3c8fea6. Comprobante emitido por Lemon, powered by Digifin.",
+        "_num": 1887,
+        "_fecha_carga": "18/06/2026 15:37",
+        "_origen": "grupo",
+        "_pie": "María de Los Ángeles Rodríguez \n33711557879"
       }
     ],
     "errores": [],
