@@ -28234,6 +28234,28 @@
         "_fecha_carga": "18/06/2026 13:32",
         "_origen": "grupo",
         "_pie": "Diego Rodrigo Bellora \nD.N.I 46.193.425"
+      },
+      {
+        "fecha": "14/06/2026",
+        "hora": "18:19",
+        "tipo": "TRF",
+        "monto": 500000.03,
+        "moneda": "ARS",
+        "remitente": "Estefania Magali Zayas",
+        "remitente_cuil": "27-48771464-5",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "164128391368",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: LOEJWV9JZ3X7KXGZ2QMD0G. CVU remitente: 0000003100080511764495. CVU destinatario: 0000155300000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 1281,
+        "_fecha_carga": "18/06/2026 13:32",
+        "_origen": "grupo",
+        "_pie": "Estefania Magali Zayas\nDNI: 48.771.464"
       }
     ],
     "errores": [],
