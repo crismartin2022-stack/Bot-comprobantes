@@ -34317,6 +34317,28 @@
         "_fecha_carga": "18/06/2026 14:35",
         "_origen": "grupo",
         "_pie": "TROSERO JUAN MATEO\nDNI: 42.162.406\n\n$50.000\nGANAMOS IO"
+      },
+      {
+        "fecha": "13/06/2026",
+        "hora": "22:38",
+        "tipo": "TRF",
+        "monto": 520000.0,
+        "moneda": "ARS",
+        "remitente": "Braian Damian Gerez",
+        "remitente_cuil": "20-35659614-6",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Naranja X",
+        "banco_destino": "Cuenta Virtual",
+        "referencia": "D4RO172VZQE7XLMVNKJ3QE",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CUIL destinatario: 30-71728225-2. CVU destinatario: 0000155300000000009977. CBU origen: 4530000800014505656712. Código de transacción adicional: 662d5872-76b0-49b9-a472-4b29c03e79c0",
+        "_num": 1557,
+        "_fecha_carga": "18/06/2026 14:35",
+        "_origen": "grupo",
+        "_pie": "Braian Damian Gerez\n20356596146\nPlutonos"
       }
     ],
     "errores": [],
