@@ -49358,6 +49358,28 @@
         "_fecha_carga": "18/06/2026 20:19",
         "_origen": "grupo",
         "_pie": "Axel Matias Lopez\nCUIT/CUIL: 20-38949607-4"
+      },
+      {
+        "fecha": "13/06/2026",
+        "hora": "00:01",
+        "tipo": "TRF",
+        "monto": 25000.0,
+        "moneda": "ARS",
+        "remitente": "Roberto Sergio Lopez",
+        "remitente_cuil": "23-25185980-9",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163086786089",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CUIT destinatario: 30-71728225-2. CVU remitente: 0000003100008486765312. CVU destinatario: 0000155300000000000009977. Código de identificación: LOEJWV9JZ3YOL0RR2QMD0G",
+        "_num": 276,
+        "_fecha_carga": "18/06/2026 20:19",
+        "_origen": "grupo",
+        "_pie": "Roberto Sergio Lopez\nCUIT/CUIL: 23-25185980-9"
       }
     ],
     "errores": [],
