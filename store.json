@@ -38249,6 +38249,28 @@
         "_fecha_carga": "18/06/2026 15:02",
         "_origen": "grupo",
         "_pie": "Marcelo serra \n23776474\nCargalos en ganamos"
+      },
+      {
+        "fecha": "13/06/2026",
+        "hora": "23:09",
+        "tipo": "TRF",
+        "monto": 280000.0,
+        "moneda": "ARS",
+        "remitente": "Romina Soledad Basualdo",
+        "remitente_cuil": "27-32331874-9",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Naranja X",
+        "banco_destino": "Cuenta Virtual",
+        "referencia": "67REZ8NPQ6WVWGJ194KVGO",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CBU origen: 4530000800010974733686. CVU destino: 0000155300000000009977. CUIL destinatario: 30-71728225-2. Código de transacción: 93d514f8-d144-4f78-920c-92a276dd8218",
+        "_num": 1735,
+        "_fecha_carga": "18/06/2026 15:02",
+        "_origen": "grupo",
+        "_pie": "Basualdo, Romina \nDni 32.331.874\nCargalos en agentes bet"
       }
     ],
     "errores": [],
