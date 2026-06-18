@@ -49336,6 +49336,28 @@
         "_fecha_carga": "18/06/2026 20:19",
         "_origen": "grupo",
         "_pie": "marcelo daniel gerez \n39350205"
+      },
+      {
+        "fecha": "12/06/2026",
+        "hora": "23:56",
+        "tipo": "TRF",
+        "monto": 500000.0,
+        "moneda": "ARS",
+        "remitente": "Axel Matias Lopez",
+        "remitente_cuil": "20-38949607-4",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163086567743",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: 0V1JXON1LMKYWRWPNZ64EL. CVU remitente: 0000003100084389127510. CVU destinatario: 0000155300000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 275,
+        "_fecha_carga": "18/06/2026 20:19",
+        "_origen": "grupo",
+        "_pie": "Axel Matias Lopez\nCUIT/CUIL: 20-38949607-4"
       }
     ],
     "errores": [],
