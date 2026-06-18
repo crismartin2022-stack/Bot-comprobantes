@@ -47572,6 +47572,28 @@
         "_fecha_carga": "18/06/2026 20:08",
         "_origen": "grupo",
         "_pie": "Leonardo Ariel Aguirre\nCUIT/CUIL: 20-25795836-2"
+      },
+      {
+        "fecha": "12/06/2026",
+        "hora": "20:55",
+        "tipo": "TRF",
+        "monto": 300001.0,
+        "moneda": "ARS",
+        "remitente": "Pablo Agustin Franco",
+        "remitente_cuil": "20-42176164-8",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163064048809",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: 67REZ8NPQV6PJJVP94KVGO. CVU destinatario: 0000155300000000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 195,
+        "_fecha_carga": "18/06/2026 20:08",
+        "_origen": "grupo",
+        "_pie": "Pablo Agustin Franco\nCUIT/CUIL: 20-42176164-8"
       }
     ],
     "errores": [],
