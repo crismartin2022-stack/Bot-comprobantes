@@ -23845,6 +23845,28 @@
         "_fecha_carga": "18/06/2026 12:57",
         "_origen": "grupo",
         "_pie": "Aylen Maria Ester Gonzalez\nCUIT/CUIL: 27-47506525-0"
+      },
+      {
+        "fecha": "13/06/2026",
+        "hora": "14:58",
+        "tipo": "TRF",
+        "monto": 25000.0,
+        "moneda": "ARS",
+        "remitente": "Fiamma Antonella Cabrera",
+        "remitente_cuil": "27-45287146-2",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163163430671",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: WY7ZEPN6MKR6R31V2Q0M51. CUIT destinatario: 30-71728225-2. CVU destinatario completo: 0000155300000000000009977",
+        "_num": 1082,
+        "_fecha_carga": "18/06/2026 12:58",
+        "_origen": "grupo",
+        "_pie": "Fiamma Antonella Cabrera\nCUIT/CUIL: 27-45287146-2"
       }
     ],
     "errores": [],
