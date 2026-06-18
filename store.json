@@ -38271,6 +38271,28 @@
         "_fecha_carga": "18/06/2026 15:02",
         "_origen": "grupo",
         "_pie": "Basualdo, Romina \nDni 32.331.874\nCargalos en agentes bet"
+      },
+      {
+        "fecha": "15/06/2026",
+        "hora": "00:40",
+        "tipo": "TRF",
+        "monto": 29000.0,
+        "moneda": "ARS",
+        "remitente": "Nestor Carlos Alejandro Pardo",
+        "remitente_cuil": "20-35414869-3",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "164170025100",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: 3D5W612E6ZWEWWPW2GXYVR. CVU remitente: 0000003100031155452752. CVU destinatario: 0000155300000000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 1736,
+        "_fecha_carga": "18/06/2026 15:02",
+        "_origen": "grupo",
+        "_pie": "Alejandro pardo \n35414869\nCargalos en ganamos.co"
       }
     ],
     "errores": [],
