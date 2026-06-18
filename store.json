@@ -8817,6 +8817,28 @@
         "_fecha_carga": "17/06/2026 23:19",
         "_origen": "grupo",
         "_pie": "Foto de Ges"
+      },
+      {
+        "fecha": "10/06/2026",
+        "hora": "14:03",
+        "tipo": "TRF",
+        "monto": 17200.0,
+        "moneda": "ARS",
+        "remitente": "Norma Viviana Wiedemann",
+        "remitente_cuil": "27-32712111-7",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163469263062",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: 67REZ8NPQVY64ZR194KVGO. CVU remitente: 0000003100049874702429. CVU destinatario: 0000155300000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 400,
+        "_fecha_carga": "17/06/2026 23:19",
+        "_origen": "grupo",
+        "_pie": "Foto de Ges"
       }
     ],
     "errores": [],
