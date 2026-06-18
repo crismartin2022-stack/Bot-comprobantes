@@ -15866,6 +15866,28 @@
         "_fecha_carga": "18/06/2026 00:15",
         "_origen": "grupo",
         "_pie": "Melany Viana \n38.048.882"
+      },
+      {
+        "fecha": "14/06/2026",
+        "hora": "19:58",
+        "tipo": "TRF",
+        "monto": 350000.0,
+        "moneda": "ARS",
+        "remitente": "MELANY NICOLE VIANA",
+        "remitente_cuil": "27-38048882-0",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Banco De Galicia S.A.U",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "42106908178",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CVU destinatario: 0000155300000000009977. ID COELSA: RD06ZO9WVR45R8Y1N5GP7X. Cuenta origen: CA $ N° 4105156-3 132-9. CUIT destinatario: 30-71728225-2.",
+        "_num": 720,
+        "_fecha_carga": "18/06/2026 00:15",
+        "_origen": "grupo",
+        "_pie": "Melany Viana \n38.048.882"
       }
     ],
     "errores": [],
