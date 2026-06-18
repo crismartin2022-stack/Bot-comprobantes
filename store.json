@@ -6150,6 +6150,28 @@
         "_fecha_carga": "17/06/2026 21:38",
         "_origen": "grupo",
         "_pie": "Aylen Maria Ester Gonzalez\nCUIT/CUIL: 27-47506525-0"
+      },
+      {
+        "fecha": "13/06/2026",
+        "hora": "00:38",
+        "tipo": "TRF",
+        "monto": 50000.0,
+        "moneda": "ARS",
+        "remitente": "Keila Nadine Indice",
+        "remitente_cuil": "27-46194282-8",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163899021956",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: PDX4OGNYGPRLM8V4N0L6EY. CUIT destinatario: 30-71728225-2. CVU remitente: 0000003100081674132916.",
+        "_num": 279,
+        "_fecha_carga": "17/06/2026 21:38",
+        "_origen": "grupo",
+        "_pie": "Keila Nadine Indice\nCUIT/CUIL: 27-46194282-8"
       }
     ],
     "errores": [],
