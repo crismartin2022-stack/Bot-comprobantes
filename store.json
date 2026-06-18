@@ -40939,6 +40939,28 @@
         "_fecha_carga": "18/06/2026 15:32",
         "_origen": "grupo",
         "_pie": "David Galarza 38828519"
+      },
+      {
+        "fecha": "15/06/2026",
+        "hora": "00:46",
+        "tipo": "TRF",
+        "monto": 1300000.0,
+        "moneda": "ARS",
+        "remitente": "Torres, Gaston Elias",
+        "remitente_cuil": "20-34261599-7",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Personal Pay",
+        "banco_destino": "",
+        "referencia": "2743651770",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CoelsaID: LMORZP908LGRQZY6NEGJ46 - Id Bancario. CUIL/CUIT destinatario: 30-71728225-2. CBU/CVU destinatario: 0000155300000000009977",
+        "_num": 1857,
+        "_fecha_carga": "18/06/2026 15:32",
+        "_origen": "grupo",
+        "_pie": "Torres, Gaston Elias\nCUIL/CUIT\n20-34261599-7"
       }
     ],
     "errores": [],
