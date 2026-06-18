@@ -41094,6 +41094,28 @@
         "_fecha_carga": "18/06/2026 15:33",
         "_origen": "grupo",
         "_pie": "Daiana Antonela Rivero \n39.343.527"
+      },
+      {
+        "fecha": "14/06/2026",
+        "hora": "20:51",
+        "tipo": "TRF",
+        "monto": 1200000.0,
+        "moneda": "ARS",
+        "remitente": "Micaela Alexandra Middea",
+        "remitente_cuil": "",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Ualá",
+        "banco_destino": "",
+        "referencia": "RD06ZO9WVR4MKJV5N5GP7X",
+        "concepto": "VAR",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CUIT destino: 30717282252. CBU destino: 0000155300000000009977",
+        "_num": 1864,
+        "_fecha_carga": "18/06/2026 15:33",
+        "_origen": "grupo",
+        "_pie": "Micaela Alexandra middea \n35.202.873"
       }
     ],
     "errores": [],
