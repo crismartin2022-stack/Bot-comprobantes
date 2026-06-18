@@ -39705,6 +39705,28 @@
         "_fecha_carga": "18/06/2026 15:12",
         "_origen": "grupo",
         "_pie": "Alan Daniel Zarza Lopez \n40007918"
+      },
+      {
+        "fecha": "13/06/2026",
+        "hora": "17:35",
+        "tipo": "TRF",
+        "monto": 100000.0,
+        "moneda": "ARS",
+        "remitente": "Rodrigo Nicolas Nunez",
+        "remitente_cuil": "20-42404961-2",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "1LMP68NKVE6ERW1R2R7OEV",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Número de operación de Mercado Pago: 163995725294. CVU remitente: 0000003100007836497923. CVU destinatario: 0000155300000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 1801,
+        "_fecha_carga": "18/06/2026 15:12",
+        "_origen": "grupo",
+        "_pie": "Rodrigo Núñez \n42404961"
       }
     ],
     "errores": [],
