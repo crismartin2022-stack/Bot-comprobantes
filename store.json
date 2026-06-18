@@ -38382,6 +38382,28 @@
         "_fecha_carga": "18/06/2026 15:03",
         "_origen": "grupo",
         "_pie": "Maximiliano Ferreyra, 38.969.709"
+      },
+      {
+        "fecha": "15/06/2026",
+        "hora": "13:27",
+        "tipo": "TRF",
+        "monto": 250000.0,
+        "moneda": "ARS",
+        "remitente": "Cristian Rafael De Brito",
+        "remitente_cuil": "20-36096058-8",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Prex",
+        "banco_destino": "BANCO COINAG S.A.",
+        "referencia": "RD06ZO9WVRP3QVR3N5GP7X",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CVU remitente: 0000013000032193621287. CBU/CVU destinatario: 0000155300000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 1741,
+        "_fecha_carga": "18/06/2026 15:03",
+        "_origen": "grupo",
+        "_pie": "De brito Cristian.. 36096058"
       }
     ],
     "errores": [],
