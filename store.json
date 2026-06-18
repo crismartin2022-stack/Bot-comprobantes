@@ -34228,6 +34228,28 @@
         "_fecha_carga": "18/06/2026 14:34",
         "_origen": "grupo",
         "_pie": "Kiara Jara 27-43977553-5"
+      },
+      {
+        "fecha": "13/06/2026",
+        "hora": "19:14",
+        "tipo": "TRF",
+        "monto": 200000.0,
+        "moneda": "ARS",
+        "remitente": "Jessica Belen Juarez",
+        "remitente_cuil": "",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Ualá",
+        "banco_destino": "",
+        "referencia": "WGRXJE27DXGVV33JN7MYQL",
+        "concepto": "VAR",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CUIT destino: 30717282252. CBU destino completo: 0000155300000000009977",
+        "_num": 1553,
+        "_fecha_carga": "18/06/2026 14:34",
+        "_origen": "grupo",
+        "_pie": "Jessica Belen Juarez \n38108247"
       }
     ],
     "errores": [],
