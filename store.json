@@ -20670,6 +20670,28 @@
         "_fecha_carga": "18/06/2026 00:45",
         "_origen": "grupo",
         "_pie": "Evelyn leguiza\n46433396\nBet91"
+      },
+      {
+        "fecha": "13/06/2026",
+        "hora": "20:09",
+        "tipo": "TRF",
+        "monto": 500000.0,
+        "moneda": "ARS",
+        "remitente": "Oriana Paola Jular",
+        "remitente_cuil": "27-41712081-0",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163210479077",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: WGRXJE27DXG7ZKKON7MYQL. CVU remitente: 0000003100080067580044. CVU destinatario: 0000155300000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 938,
+        "_fecha_carga": "18/06/2026 00:45",
+        "_origen": "grupo",
+        "_pie": "oriana jular\n41712081\nbet91"
       }
     ],
     "errores": [],
