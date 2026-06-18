@@ -51454,6 +51454,28 @@
         "_fecha_carga": "18/06/2026 20:32",
         "_origen": "grupo",
         "_pie": "Foto de Ges"
+      },
+      {
+        "fecha": "09/06/2026",
+        "hora": "19:33",
+        "tipo": "TRF",
+        "monto": 14000.0,
+        "moneda": "ARS",
+        "remitente": "Roberto Raul Zarate",
+        "remitente_cuil": "20-22696827-0",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163355367224",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: 8D0Q619L04EO85XLN7JZ5R. CVU remitente: 0000003100034380216920. CVU destinatario: 0000155300000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 371,
+        "_fecha_carga": "18/06/2026 20:32",
+        "_origen": "grupo",
+        "_pie": "Foto de Ges"
       }
     ],
     "errores": [],
