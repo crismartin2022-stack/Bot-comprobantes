@@ -32116,6 +32116,28 @@
         "_fecha_carga": "18/06/2026 13:59",
         "_origen": "grupo",
         "_pie": "Estadella, Stefanía Daiana\nCUIL/CUIT\n27-41062149-0"
+      },
+      {
+        "fecha": "13/06/2026",
+        "hora": "21:32",
+        "tipo": "TRF",
+        "monto": 1600000.0,
+        "moneda": "ARS",
+        "remitente": "Goyano, Diego Javier",
+        "remitente_cuil": "20-27901274-8",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Personal Pay",
+        "banco_destino": "",
+        "referencia": "2741468322",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CoelsaID: 0V1JXON1LMD3YXLPNZ64EL - Id Bancario. CUIL/CUIT destinatario: 30-71728225-2. CBU/CVU receptor: 0000155300000000009977",
+        "_num": 1457,
+        "_fecha_carga": "18/06/2026 13:59",
+        "_origen": "grupo",
+        "_pie": "Goyano, Diego Javier\nCUIL/CUIT\n20-27901274-8"
       }
     ],
     "errores": [],
