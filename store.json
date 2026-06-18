@@ -47462,6 +47462,28 @@
         "_fecha_carga": "18/06/2026 20:07",
         "_origen": "grupo",
         "_pie": "Braian alexis Suarez \nCuit/Cuil : 20.40427871-2"
+      },
+      {
+        "fecha": "12/06/2026",
+        "hora": "20:13",
+        "tipo": "TRF",
+        "monto": 200000.0,
+        "moneda": "ARS",
+        "remitente": "Adrian Ramon Gonzalez",
+        "remitente_cuil": "20-21332410-2",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163864757834",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: PDX4OGNYG3PZGV7MN0L6EY. CVU remitente: 0000003100099144693775. CVU destinatario: 0000155300000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 190,
+        "_fecha_carga": "18/06/2026 20:08",
+        "_origen": "grupo",
+        "_pie": "Adrian Ramón Gonzáles\nCUIT/CUIL: 20-21332410-2"
       }
     ],
     "errores": [],
