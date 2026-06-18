@@ -16086,6 +16086,28 @@
         "_fecha_carga": "18/06/2026 00:16",
         "_origen": "grupo",
         "_pie": "Braian oliva \n40.591.347"
+      },
+      {
+        "fecha": "14/06/2026",
+        "hora": "19:49",
+        "tipo": "TRF",
+        "monto": 500000.0,
+        "moneda": "ARS",
+        "remitente": "Marcos Santiago Herrera",
+        "remitente_cuil": "20-41522738-9",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Naranja X",
+        "banco_destino": "Cuenta Virtual",
+        "referencia": "Z4K6DVNOWYP53W7E25J8LQ",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CBU origen: 4530000800013354359748. CVU destino: 0000155300000000009977. CUIL destinatario: 30-71728225-2. Código de transacción: ec3a1152-1247-4ff3-ade3-630fd3aad843",
+        "_num": 730,
+        "_fecha_carga": "18/06/2026 00:16",
+        "_origen": "grupo",
+        "_pie": "Marcos Herrera 41.522.738"
       }
     ],
     "errores": [],
