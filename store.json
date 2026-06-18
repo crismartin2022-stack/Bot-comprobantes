@@ -5134,6 +5134,28 @@
         "_fecha_carga": "17/06/2026 21:31",
         "_origen": "grupo",
         "_pie": "Braian alexis Suarez \nCuit/Cuil : 20.40427871-2"
+      },
+      {
+        "fecha": "12/06/2026",
+        "hora": "23:15",
+        "tipo": "TRF",
+        "monto": 150000.0,
+        "moneda": "ARS",
+        "remitente": "Mariana Ayelen Diaz",
+        "remitente_cuil": "",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Lemon",
+        "banco_destino": "CVU",
+        "referencia": "Z4K6DVNOWYORPMXG25J8LQ",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CUIT destinatario: 30717282252. CBU destinatario: 0000155300000000009977. ID de la transacción: 8db51965-4ad1-4c40-af81-406149e74c09. Comprobante emitido por Lemon, powered by Digifin.",
+        "_num": 233,
+        "_fecha_carga": "17/06/2026 21:32",
+        "_origen": "grupo",
+        "_pie": "Mariana Diaz 36608895"
       }
     ],
     "errores": [],
