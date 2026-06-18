@@ -18470,6 +18470,28 @@
         "_fecha_carga": "18/06/2026 00:32",
         "_origen": "grupo",
         "_pie": ""
+      },
+      {
+        "fecha": "14/06/2026",
+        "hora": "13:35",
+        "tipo": "TRF",
+        "monto": 10000.0,
+        "moneda": "ARS",
+        "remitente": "Patricia Santander Gutierrez",
+        "remitente_cuil": "27-95568928-9",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "164096186004",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: 3D5W612E6Z6RZR1Q2GXYVR. CVU remitente: 0000003100096770020409. CVU destinatario: 0001553000000000009977",
+        "_num": 838,
+        "_fecha_carga": "18/06/2026 00:32",
+        "_origen": "grupo",
+        "_pie": ""
       }
     ],
     "errores": [],
