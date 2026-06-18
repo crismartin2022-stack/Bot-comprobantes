@@ -13047,6 +13047,28 @@
         "_fecha_carga": "17/06/2026 23:48",
         "_origen": "grupo",
         "_pie": "Foto de Vivo"
+      },
+      {
+        "fecha": "13/06/2026",
+        "hora": "22:27",
+        "tipo": "TRF",
+        "monto": 84400.0,
+        "moneda": "ARS",
+        "remitente": "Norma Beatriz Villanueva",
+        "remitente_cuil": "27-18072713-8",
+        "destinatario": "SASTEUP SRL",
+        "banco_origen": "Brubank",
+        "banco_destino": "",
+        "referencia": "",
+        "concepto": "Caja de ahorro en Pesos",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CVU destinatario: 0000155300000000009977. CUIT destinatario: 30-71728225-2. Entidad destino: CVU.",
+        "_num": 592,
+        "_fecha_carga": "17/06/2026 23:48",
+        "_origen": "grupo",
+        "_pie": "Foto de Vivo"
       }
     ],
     "errores": [],
