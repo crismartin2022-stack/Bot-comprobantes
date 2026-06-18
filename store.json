@@ -45190,6 +45190,28 @@
         "_fecha_carga": "18/06/2026 19:54",
         "_origen": "grupo",
         "_pie": "Yanina Soledad Aparicio\nCUIT/CUIL\nEntidad\nAlias\nCVU\n27290347780"
+      },
+      {
+        "fecha": "12/06/2026",
+        "hora": "00:02",
+        "tipo": "TRF",
+        "monto": 500000.0,
+        "moneda": "ARS",
+        "remitente": "Fernandez, Luis Alberto",
+        "remitente_cuil": "23-29643124-9",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Personal Pay",
+        "banco_destino": "",
+        "referencia": "2734486675",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CoelsaID: 86VRPQ2GMW7Y88P02GLY0M - Id Bancario. CUIL/CUIT destinatario: 30-71728225-2. CBU/CVU destinatario: 0000155300000000009977",
+        "_num": 87,
+        "_fecha_carga": "18/06/2026 19:54",
+        "_origen": "grupo",
+        "_pie": "vía Fernandez, Luis Alberto\nCUIL/CUIT 23-29643124-9"
       }
     ],
     "errores": [],
