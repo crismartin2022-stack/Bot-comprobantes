@@ -43056,6 +43056,28 @@
         "_fecha_carga": "18/06/2026 15:47",
         "_origen": "grupo",
         "_pie": "Leandro Fabian Gabela\nCUIT/CUIL: 20-36728885-0"
+      },
+      {
+        "fecha": "15/06/2026",
+        "hora": "22:00",
+        "tipo": "TRF",
+        "monto": 100000.0,
+        "moneda": "ARS",
+        "remitente": "Natalia Ailen Di Giorgio Suarez",
+        "remitente_cuil": "27-47758744-0",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163492327235",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: 0V1IXON1LMEJKRXGNZ64EL. CUIT destinatario: 30-71728225-2. CVU destinatario: 0000155300000000009977.",
+        "_num": 1953,
+        "_fecha_carga": "18/06/2026 15:47",
+        "_origen": "grupo",
+        "_pie": "Natalia Ailen Di Giorgio Suarez\nCUIT/CUIL: 27-47758744-0"
       }
     ],
     "errores": [],
