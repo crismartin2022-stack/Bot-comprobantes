@@ -35552,6 +35552,28 @@
         "_fecha_carga": "18/06/2026 14:44",
         "_origen": "grupo",
         "_pie": "Guadalupe Gómez 39616957"
+      },
+      {
+        "fecha": "13/06/2026",
+        "hora": "23:51",
+        "tipo": "TRF",
+        "monto": 660000.0,
+        "moneda": "ARS",
+        "remitente": "Julio Fernando Gigena",
+        "remitente_cuil": "20-29504323-8",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Naranja X",
+        "banco_destino": "Cuenta Virtual",
+        "referencia": "LMORZP908L5L0J74NEGJ46",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CBU origen: 4530000800010120523705. CVU destino: 0000155300000000009977. CUIL destinatario: 30-71728225-2. Código de transacción: a4001f37-56ef-4055-a40c-1230d897d642",
+        "_num": 1613,
+        "_fecha_carga": "18/06/2026 14:44",
+        "_origen": "grupo",
+        "_pie": "Julio Fernando gigena \n29504323"
       }
     ],
     "errores": [],
