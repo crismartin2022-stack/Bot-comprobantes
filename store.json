@@ -42174,6 +42174,28 @@
         "_fecha_carga": "18/06/2026 15:40",
         "_origen": "grupo",
         "_pie": "Monica Susana Santillan\nNaranja X\n4530000800012051233102\n27-17299591-3"
+      },
+      {
+        "fecha": "15/06/2026",
+        "hora": "23:15",
+        "tipo": "TRF",
+        "monto": 200000.0,
+        "moneda": "ARS",
+        "remitente": "Alexis Gabriel Sanchez Correa",
+        "remitente_cuil": "20-48426972-7",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "164313578536",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: WY7ZEPN6MKOVPW3Q2Q0M51. CVU remitente: 0000003100061067967125. CVU destinatario: 0000155300000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 1913,
+        "_fecha_carga": "18/06/2026 15:40",
+        "_origen": "grupo",
+        "_pie": "Alexis Gabriel Sanchez Correa\nCUIT/CUIL: 20-48426972-7"
       }
     ],
     "errores": [],
