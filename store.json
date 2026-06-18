@@ -18844,6 +18844,28 @@
         "_fecha_carga": "18/06/2026 00:34",
         "_origen": "grupo",
         "_pie": ""
+      },
+      {
+        "fecha": "13/06/2026",
+        "hora": "21:38",
+        "tipo": "TRF",
+        "monto": 80000.0,
+        "moneda": "ARS",
+        "remitente": "Matias Jesus Casado",
+        "remitente_cuil": "20-38757877-4",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Naranja X",
+        "banco_destino": "Cuenta Virtual",
+        "referencia": "L18MKX9RXJ7OYKOK9O6WYV",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CBU origen: 4530000800018386446488. CVU destino: 0000155300000000009977. CUIL destinatario: 30-71728225-2. Código de transacción: 8cad1412-a47f-43e2-96fb-2db6e9bb8bca",
+        "_num": 855,
+        "_fecha_carga": "18/06/2026 00:34",
+        "_origen": "grupo",
+        "_pie": ""
       }
     ],
     "errores": [],
