@@ -3039,6 +3039,28 @@
         "_fecha_carga": "17/06/2026 21:18",
         "_origen": "grupo",
         "_pie": "Claudio Daniel Weber\nCUIT/CUIL: 20-35245699-4"
+      },
+      {
+        "fecha": "12/06/2026",
+        "hora": "15:52",
+        "tipo": "TRF",
+        "monto": 50000.0,
+        "moneda": "ARS",
+        "remitente": "Liliana Beatriz Anrriquez",
+        "remitente_cuil": "",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Ualá",
+        "banco_destino": "",
+        "referencia": "JMQKYZ9QQ00JMXM89V50P3",
+        "concepto": "VAR",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CUIT destino: 30717282252. CBU destino: 0000155300000000009977",
+        "_num": 138,
+        "_fecha_carga": "17/06/2026 21:18",
+        "_origen": "grupo",
+        "_pie": "Liliana Beatriz anrriquez \n21.104.254"
       }
     ],
     "errores": [],
