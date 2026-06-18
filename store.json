@@ -37674,6 +37674,28 @@
         "_fecha_carga": "18/06/2026 14:58",
         "_origen": "grupo",
         "_pie": "Celeste Ayala \nDni 43782623"
+      },
+      {
+        "fecha": "15/06/2026",
+        "hora": "16:27",
+        "tipo": "TRF",
+        "monto": 460000.0,
+        "moneda": "ARS",
+        "remitente": "Celeste Nicole Ayala",
+        "remitente_cuil": "23-43782623-4",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Naranja X",
+        "banco_destino": "Cuenta Virtual",
+        "referencia": "PDX4OGNYGPW3866VN0L6EY",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CBU origen: 4530000800014979227319. CVU destino: 0000155300000000009977. CUIL destinatario: 30-71728225-2. Código de transacción: b4ad957f-6b01-45cf-99f7-d8588d8042f5",
+        "_num": 1709,
+        "_fecha_carga": "18/06/2026 14:58",
+        "_origen": "grupo",
+        "_pie": "Celeste Ayala \nDni 43782623"
       }
     ],
     "errores": [],
