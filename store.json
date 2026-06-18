@@ -7892,6 +7892,28 @@
         "_fecha_carga": "17/06/2026 23:13",
         "_origen": "grupo",
         "_pie": "Foto de Ges"
+      },
+      {
+        "fecha": "09/06/2026",
+        "hora": "19:54",
+        "tipo": "TRF",
+        "monto": 51000.0,
+        "moneda": "ARS",
+        "remitente": "Eva Cecilia Gaitan Rojas",
+        "remitente_cuil": "27-26266877-6",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "162555371003",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: 3D5W612E6EDWDXMO2GXYVR. CVU remitente: 0000003100079066675200. CVU destinatario: 0000155300000000009977.",
+        "_num": 358,
+        "_fecha_carga": "17/06/2026 23:13",
+        "_origen": "grupo",
+        "_pie": "Foto de Ges"
       }
     ],
     "errores": [],
