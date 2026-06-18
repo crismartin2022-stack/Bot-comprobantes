@@ -9368,6 +9368,28 @@
         "_fecha_carga": "17/06/2026 23:22",
         "_origen": "grupo",
         "_pie": "Foto de Ges"
+      },
+      {
+        "fecha": "10/06/2026",
+        "hora": "19:40",
+        "tipo": "TRF",
+        "monto": 20000.0,
+        "moneda": "ARS",
+        "remitente": "Maria De Los Angeles Baldelli",
+        "remitente_cuil": "27-26104162-1",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Naranja X",
+        "banco_destino": "Cuenta Virtual",
+        "referencia": "Z4K6DVNOWZ7O5EMG25J8LQ",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CBU origen: 4530000800019271502814. CVU destino: 0000155300000000009977. CUIL destinatario: 30-71728225-2. Código de transacción: f3b8130e-9e71-4c6c-bbec-e2c0e06e3d85.",
+        "_num": 425,
+        "_fecha_carga": "17/06/2026 23:23",
+        "_origen": "grupo",
+        "_pie": "Foto de Ges"
       }
     ],
     "errores": [],
