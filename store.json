@@ -54694,6 +54694,28 @@
         "_fecha_carga": "18/06/2026 20:52",
         "_origen": "grupo",
         "_pie": "Foto de ."
+      },
+      {
+        "fecha": "13/06/2026",
+        "hora": "01:13",
+        "tipo": "TRF",
+        "monto": 30500.0,
+        "moneda": "ARS",
+        "remitente": "Evelin Soledad Saavedra",
+        "remitente_cuil": "27-37929781-7",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163902572428",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: LMORZP908LJPDGW4NEGJ46. CUIT destinatario: 30-71728225-2. CVU receptor: 0000155300000000000009977",
+        "_num": 518,
+        "_fecha_carga": "18/06/2026 20:52",
+        "_origen": "grupo",
+        "_pie": "Foto de ."
       }
     ],
     "errores": [],
