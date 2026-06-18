@@ -1254,6 +1254,28 @@
         "_fecha_carga": "17/06/2026 21:06",
         "_origen": "grupo",
         "_pie": "Mateo Lorenzo Ortiz\n20442077046"
+      },
+      {
+        "fecha": "11/06/2026",
+        "hora": "22:59",
+        "tipo": "TRF",
+        "monto": 100000.0,
+        "moneda": "ARS",
+        "remitente": "Norma Beatriz Vera",
+        "remitente_cuil": "27-22229828-3",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "162909239123",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: 8D0Q619L04RMMERZN7JZ5R. CVU destinatario: 0000155300000000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 57,
+        "_fecha_carga": "17/06/2026 21:06",
+        "_origen": "grupo",
+        "_pie": "Norma Beatriz Vera\nCUIT/CUIL: 27-22229828-3"
       }
     ],
     "errores": [],
