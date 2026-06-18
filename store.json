@@ -40454,6 +40454,28 @@
         "_fecha_carga": "18/06/2026 15:28",
         "_origen": "grupo",
         "_pie": "Foto de icdp santa fe"
+      },
+      {
+        "fecha": "15/06/2026",
+        "hora": "13:36",
+        "tipo": "TRF",
+        "monto": 20000.0,
+        "moneda": "ARS",
+        "remitente": "Julio Andres Acosta",
+        "remitente_cuil": "20-35386320-8",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "164233728242",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CUIT destinatario: 30-71728225-2. Código de identificación: Z4K6DVNOWY16OX8425J8LQ. CVU remitente: 0000003100096356025781. CVU destinatario: 0000155300000000000009977",
+        "_num": 1835,
+        "_fecha_carga": "18/06/2026 15:29",
+        "_origen": "grupo",
+        "_pie": "Foto de icdp santa fe"
       }
     ],
     "errores": [],
