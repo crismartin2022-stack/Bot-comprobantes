@@ -18778,6 +18778,28 @@
         "_fecha_carga": "18/06/2026 00:34",
         "_origen": "grupo",
         "_pie": ""
+      },
+      {
+        "fecha": "14/06/2026",
+        "hora": "15:16",
+        "tipo": "TRF",
+        "monto": 60000.0,
+        "moneda": "ARS",
+        "remitente": "Bruno Ezequiel Sambrano",
+        "remitente_cuil": "20-33565645-9",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "164108679408",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CUIT destinatario: 30-71728225-2. CVU remitente: 0000003100087745960691. CVU destinatario: 0000155300000000009977. Código de identificación: WY7ZEPN6MKM4JD8P2Q0M51",
+        "_num": 852,
+        "_fecha_carga": "18/06/2026 00:34",
+        "_origen": "grupo",
+        "_pie": ""
       }
     ],
     "errores": [],
