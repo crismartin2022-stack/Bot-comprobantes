@@ -8134,6 +8134,28 @@
         "_fecha_carga": "17/06/2026 23:14",
         "_origen": "grupo",
         "_pie": "Foto de Ges"
+      },
+      {
+        "fecha": "09/06/2026",
+        "hora": "22:31",
+        "tipo": "TRF",
+        "monto": 10000.0,
+        "moneda": "ARS",
+        "remitente": "Ana Isabel Yapura",
+        "remitente_cuil": "27-21571942-7",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163379859890",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: WGRXJE27DY441DXJN7MYQL. CUIT destinatario: 30-71717282-2. CVU remitente: 0000003100079940589601. CVU destinatario: 0000155300000000009977.",
+        "_num": 369,
+        "_fecha_carga": "17/06/2026 23:14",
+        "_origen": "grupo",
+        "_pie": "Foto de Ges"
       }
     ],
     "errores": [],
