@@ -50416,6 +50416,28 @@
         "_fecha_carga": "18/06/2026 20:26",
         "_origen": "grupo",
         "_pie": "Fernando Javier Morinigo Rodriguez\nCUIT/CUIL: 20-94692255-3"
+      },
+      {
+        "fecha": "13/06/2026",
+        "hora": "11:36",
+        "tipo": "TRF",
+        "monto": 500000.0,
+        "moneda": "ARS",
+        "remitente": "Migliore, Sasha Aldana",
+        "remitente_cuil": "27-40428040-1",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Personal Pay",
+        "banco_destino": "",
+        "referencia": "2739912453",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CoelsaID: LOEJWV9JZ3Y3KRYM2QMD0G - Id Bancario. CUIL/CUIT destinatario: 30-71728225-2. CBU/CVU receptor: 0000155300000000009977",
+        "_num": 324,
+        "_fecha_carga": "18/06/2026 20:26",
+        "_origen": "grupo",
+        "_pie": "Migliore, Sasha Aldana\n27-40428040-1"
       }
     ],
     "errores": [],
