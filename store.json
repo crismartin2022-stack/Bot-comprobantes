@@ -23602,6 +23602,28 @@
         "_fecha_carga": "18/06/2026 12:56",
         "_origen": "grupo",
         "_pie": "Alexis Maximiliano Esteban\nNaranja X\n4530000800016540213330\n20-44901626-3"
+      },
+      {
+        "fecha": "13/06/2026",
+        "hora": "14:05",
+        "tipo": "TRF",
+        "monto": 80000.0,
+        "moneda": "ARS",
+        "remitente": "Juan Elias Marquez De Olivera",
+        "remitente_cuil": "20-36520946-5",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163154817169",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CUIT destinatario: 30-71728225-2. CVU remitente: 0000003100081086392324. CVU destinatario: 0000155300000000000009977. Código de identificación: Z4K6DVNOWYG3ZQMK25J8LQ",
+        "_num": 1071,
+        "_fecha_carga": "18/06/2026 12:56",
+        "_origen": "grupo",
+        "_pie": "Juan Elias Marquez De Olivera\nCUIT/CUIL: 20-36520946-5"
       }
     ],
     "errores": [],
