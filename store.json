@@ -53217,6 +53217,28 @@
         "_fecha_carga": "18/06/2026 20:43",
         "_origen": "grupo",
         "_pie": "Jesús Fernández \nDni: 43.847.444"
+      },
+      {
+        "fecha": "11/06/2026",
+        "hora": "13:08",
+        "tipo": "TRF",
+        "monto": 10000.0,
+        "moneda": "ARS",
+        "remitente": "Victor Sebastian Doello",
+        "remitente_cuil": "20-23702005-8",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Naranja X",
+        "banco_destino": "Cuenta Virtual",
+        "referencia": "76V4MR2Z7QJRE3M0NDEZOL",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CBU origen: 4530000800012876608514. CVU destino: 0000155300000000009977. CUIL destinatario: 30-71728225-2. Código de transacción adicional: 6207c37d-ebd5-4ce9-9769-5a203960bc38",
+        "_num": 451,
+        "_fecha_carga": "18/06/2026 20:43",
+        "_origen": "grupo",
+        "_pie": "Foto de Ges"
       }
     ],
     "errores": [],
