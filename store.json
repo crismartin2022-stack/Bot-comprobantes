@@ -35530,6 +35530,28 @@
         "_fecha_carga": "18/06/2026 14:43",
         "_origen": "grupo",
         "_pie": "Noelia Quispe \n38161947"
+      },
+      {
+        "fecha": "13/06/2026",
+        "hora": "23:18",
+        "tipo": "TRF",
+        "monto": 40000.0,
+        "moneda": "ARS",
+        "remitente": "Guadalupe Yolanda Elizabet Gomez",
+        "remitente_cuil": "39.616.957",
+        "destinatario": "SASTEUP SRL",
+        "banco_origen": "Cuenta DNI",
+        "banco_destino": "",
+        "referencia": "R7ZG0QNDW1JQYP849EXYPO",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CVU destinatario: 0000155300000000009977. CUIL destinatario: 30717282252. Comprobante de transferencia emitido por Cuenta DNI (Banco Provincia).",
+        "_num": 1612,
+        "_fecha_carga": "18/06/2026 14:44",
+        "_origen": "grupo",
+        "_pie": "Guadalupe Gómez 39616957"
       }
     ],
     "errores": [],
