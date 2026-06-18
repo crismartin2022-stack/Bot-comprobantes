@@ -38537,6 +38537,28 @@
         "_fecha_carga": "18/06/2026 15:04",
         "_origen": "grupo",
         "_pie": "Screenshot (13 jun. 2026 23:01:44)"
+      },
+      {
+        "fecha": "14/06/2026",
+        "hora": "19:30",
+        "tipo": "TRF",
+        "monto": 500000.0,
+        "moneda": "ARS",
+        "remitente": "Omar Alejandro Luis",
+        "remitente_cuil": "23-31052163-9",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163450346216",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: LMORZP908R040QZRNEGJ46. CUIT destinatario: 30-71728225-2. CVU remitente: 0000003100054478178435. CVU destinatario: 0000155300000000009977",
+        "_num": 1748,
+        "_fecha_carga": "18/06/2026 15:04",
+        "_origen": "grupo",
+        "_pie": "Foto de 😎"
       }
     ],
     "errores": [],
