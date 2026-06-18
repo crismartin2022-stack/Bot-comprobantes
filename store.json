@@ -38029,6 +38029,28 @@
         "_fecha_carga": "18/06/2026 15:01",
         "_origen": "grupo",
         "_pie": "Foto de 🤗🤗🤗"
+      },
+      {
+        "fecha": "15/06/2026",
+        "hora": "22:16",
+        "tipo": "TRF",
+        "monto": 300000.0,
+        "moneda": "ARS",
+        "remitente": "Fernandez, David Ruben",
+        "remitente_cuil": "20-29689655-2",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Personal Pay",
+        "banco_destino": "",
+        "referencia": "2745333241",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CBU/CVU destinatario: 0000155300000000009977. CUIL/CUIT destinatario: 30-71728225-2. CoelsaID: Z0KV87940EOM45JQNPEYDX - Id Bancario",
+        "_num": 1725,
+        "_fecha_carga": "18/06/2026 15:01",
+        "_origen": "grupo",
+        "_pie": "David Fernández\n\n29.689.655"
       }
     ],
     "errores": [],
