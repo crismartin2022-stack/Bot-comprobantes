@@ -41622,6 +41622,28 @@
         "_fecha_carga": "18/06/2026 15:37",
         "_origen": "grupo",
         "_pie": "María de Los Ángeles Rodríguez \n33711557879"
+      },
+      {
+        "fecha": "15/06/2026",
+        "hora": "21:54",
+        "tipo": "TRF",
+        "monto": 50000.0,
+        "moneda": "ARS",
+        "remitente": "Keila Nadine Indice",
+        "remitente_cuil": "27-46194282-8",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "164305244812",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: LOEJWV9JZ368JD3Z2QMD0G. CUIT destinatario: 30-71728225-2. CVU destinatario: 000015530000000000009977",
+        "_num": 1888,
+        "_fecha_carga": "18/06/2026 15:37",
+        "_origen": "grupo",
+        "_pie": "Keila Nadine Indice\nCUIT/CUIL: 27-46194282-8"
       }
     ],
     "errores": [],
