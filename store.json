@@ -34140,6 +34140,28 @@
         "_fecha_carga": "18/06/2026 14:13",
         "_origen": "grupo",
         "_pie": "Juarez joaquin isaac\n45483318"
+      },
+      {
+        "fecha": "12/06/2026",
+        "hora": "00:12",
+        "tipo": "TRF",
+        "monto": 10000.0,
+        "moneda": "ARS",
+        "remitente": "NAHUEL NICOLAS SOSA",
+        "remitente_cuil": "20-47163862-6",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Banco De Galicia S.A.U",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "42079828715",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CVU destinatario: 0000155300000000009977. ID COELSA: 46YGOW9M1YW35O8YNEXD8J. Cuenta origen: CA $ N° 4046298-5 094-0. CUIT destinatario: 30-71728225-2.",
+        "_num": 1549,
+        "_fecha_carga": "18/06/2026 14:13",
+        "_origen": "grupo",
+        "_pie": "Nahuel nicolas sosa\n47163862"
       }
     ],
     "errores": [],
