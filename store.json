@@ -26560,6 +26560,28 @@
         "_fecha_carga": "18/06/2026 13:17",
         "_origen": "grupo",
         "_pie": "Lautaro Facundo Santoro\nCUIT/CUIL: 20-45004844-6"
+      },
+      {
+        "fecha": "13/06/2026",
+        "hora": "23:44",
+        "tipo": "TRF",
+        "monto": 25000.0,
+        "moneda": "ARS",
+        "remitente": "Debora Gisele Carnuccio",
+        "remitente_cuil": "",
+        "destinatario": "SASTEUP SRL",
+        "banco_origen": "Reba",
+        "banco_destino": "",
+        "referencia": "30485667",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CVU origen: 4150999718005055200042. CBU/CVU destino: 0000155300000000009977. CUIT destinatario: 30717282252. Comprobante emitido por Reba.",
+        "_num": 1205,
+        "_fecha_carga": "18/06/2026 13:17",
+        "_origen": "grupo",
+        "_pie": "29462975 Debora Gisele Carnuccio"
       }
     ],
     "errores": [],
