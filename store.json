@@ -15558,6 +15558,28 @@
         "_fecha_carga": "18/06/2026 00:13",
         "_origen": "grupo",
         "_pie": "Foto de Clohe😎"
+      },
+      {
+        "fecha": "14/06/2026",
+        "hora": "22:41",
+        "tipo": "TRF",
+        "monto": 15000.0,
+        "moneda": "ARS",
+        "remitente": "Jamila Soledad Casem",
+        "remitente_cuil": "27-31165569-3",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Naranja X",
+        "banco_destino": "Cuenta Virtual",
+        "referencia": "RD06ZO9WVR4KKY03N5GP7X",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CBU origen: 4530000800012299950100. CVU destino: 0000155300000000009977. CUIL destinatario: 30-71728225-2. Código de transacción adicional: d4aaba44-bc61-43f2-abd1-2db3a1a9e73c",
+        "_num": 706,
+        "_fecha_carga": "18/06/2026 00:13",
+        "_origen": "grupo",
+        "_pie": "Foto de Clohe😎"
       }
     ],
     "errores": [],
