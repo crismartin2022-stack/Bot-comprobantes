@@ -36813,6 +36813,28 @@
         "_fecha_carga": "18/06/2026 14:52",
         "_origen": "grupo",
         "_pie": "Multi azul"
+      },
+      {
+        "fecha": "13/06/2026",
+        "hora": "22:51",
+        "tipo": "TRF",
+        "monto": 100000.0,
+        "moneda": "ARS",
+        "remitente": "Jorge Agustin Torres",
+        "remitente_cuil": "20-31209955-2",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "164040385910",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CUIT destinatario: 30-71728225-2. CVU remitente: 0000003100054892380173. CVU destinatario: 0000155300000000000009977. Código de identificación: R7ZG0QNDW1JDVY5G9EXYPO",
+        "_num": 1670,
+        "_fecha_carga": "18/06/2026 14:52",
+        "_origen": "grupo",
+        "_pie": "Ganamos"
       }
     ],
     "errores": [],
