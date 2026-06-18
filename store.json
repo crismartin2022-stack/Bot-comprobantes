@@ -50108,6 +50108,28 @@
         "_fecha_carga": "18/06/2026 20:24",
         "_origen": "grupo",
         "_pie": "Rocio Ailen Malaguenxxo\nCUIT/CUIL: 27-47191340-0"
+      },
+      {
+        "fecha": "13/06/2026",
+        "hora": "09:06",
+        "tipo": "TRF",
+        "monto": 30000.0,
+        "moneda": "ARS",
+        "remitente": "Fabian Nicolas Alvarez",
+        "remitente_cuil": "20-37810983-4",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163920426122",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: R7ZG0QNDW1PL50J49EXYPO. CVU remitente: 0000003100114177922693. CVU destinatario: 0000155300000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 310,
+        "_fecha_carga": "18/06/2026 20:24",
+        "_origen": "grupo",
+        "_pie": "Fabian Nicolas Alvarez\nCUIT/CUIL: 20-37810983-4"
       }
     ],
     "errores": [],
