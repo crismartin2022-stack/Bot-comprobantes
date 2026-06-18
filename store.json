@@ -50948,6 +50948,28 @@
         "_fecha_carga": "18/06/2026 20:29",
         "_origen": "grupo",
         "_pie": "Foto de Ges"
+      },
+      {
+        "fecha": "09/06/2026",
+        "hora": "13:50",
+        "tipo": "TRF",
+        "monto": 15000.0,
+        "moneda": "ARS",
+        "remitente": "Candela Mariel Martino",
+        "remitente_cuil": "27-46109668-4",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163301642154",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: D4RO172VZGOE6JDDNKJ3QE. CUIT destinatario: 30-71728225-2. CVU destinatario: 000015530000000000009977",
+        "_num": 348,
+        "_fecha_carga": "18/06/2026 20:29",
+        "_origen": "grupo",
+        "_pie": "Foto de Ges"
       }
     ],
     "errores": [],
