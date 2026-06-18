@@ -31056,6 +31056,28 @@
         "_fecha_carga": "18/06/2026 13:52",
         "_origen": "grupo",
         "_pie": "Natalia Ailen Di Giorgio Suarez\nCUIT/CUIL: 27-47758744-0"
+      },
+      {
+        "fecha": "15/06/2026",
+        "hora": "16:39",
+        "tipo": "TRF",
+        "monto": 150000.0,
+        "moneda": "ARS",
+        "remitente": "Leonardo Ezequiel Badcock",
+        "remitente_cuil": "20-42373256-4",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163445716543",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: 1LMP68NKVE3XGYWD2R7OEV. CVU remitente: 0000003100042977505294. CVU destinatario: 0000155300000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 1409,
+        "_fecha_carga": "18/06/2026 13:52",
+        "_origen": "grupo",
+        "_pie": "Leonardo Ezequiel Badcock\nCUIT/CUIL: 20-42373256-4"
       }
     ],
     "errores": [],
