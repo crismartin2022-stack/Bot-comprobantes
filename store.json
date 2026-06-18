@@ -44376,6 +44376,28 @@
         "_fecha_carga": "18/06/2026 19:48",
         "_origen": "grupo",
         "_pie": "Diego Fortunato Occhiato\nDni: 36.287.729"
+      },
+      {
+        "fecha": "",
+        "hora": "22:24",
+        "tipo": "TRF",
+        "monto": 520000.0,
+        "moneda": "ARS",
+        "remitente": "Dylan Toriano",
+        "remitente_cuil": "23-47478996-9",
+        "destinatario": "",
+        "banco_origen": "Brubank",
+        "banco_destino": "CVU",
+        "referencia": "26061200009873353533 34",
+        "concepto": "Caja de ahorro en pesos",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Número de transacción: 1792854387. CUIT/CUIL destinatario: 30-71728225-2. CBU/CVU destinatario: 0000155300000000009977.",
+        "_num": 50,
+        "_fecha_carga": "18/06/2026 19:49",
+        "_origen": "grupo",
+        "_pie": "Dylan Toriano  47478996"
       }
     ],
     "errores": [],
