@@ -43364,6 +43364,28 @@
         "_fecha_carga": "18/06/2026 19:42",
         "_origen": "grupo",
         "_pie": "Juliana palavecino \n47337453"
+      },
+      {
+        "fecha": "11/06/2026",
+        "hora": "19:00",
+        "tipo": "TRF",
+        "monto": 500000.0,
+        "moneda": "ARS",
+        "remitente": "Alberto Gimenez",
+        "remitente_cuil": "20-93084324-6",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163681643264",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: 3D5W612E6EQ515XO2GXYVR. CVU remitente: 0000003100026160855050. CVU destinatario: 0000155300000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 4,
+        "_fecha_carga": "18/06/2026 19:42",
+        "_origen": "grupo",
+        "_pie": "Alberto Gimenez\nCUIT/CUIL: 20-93084324-6"
       }
     ],
     "errores": [],
