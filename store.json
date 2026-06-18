@@ -26869,6 +26869,28 @@
         "_fecha_carga": "18/06/2026 13:19",
         "_origen": "grupo",
         "_pie": "Fabian Nicolas Alvarez\nCUIT/CUIL: 20-37810983-4"
+      },
+      {
+        "fecha": "14/06/2026",
+        "hora": "00:27",
+        "tipo": "TRF",
+        "monto": 100000.0,
+        "moneda": "ARS",
+        "remitente": "Alan Gabriel Salvatierra",
+        "remitente_cuil": "24-42055465-2",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "1632238559453",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: R7ZG0QNDW1WP51JV9EXYPO. CVU remitente: 0000003100033564286571. CVU destinatario: 0000155300000000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 1219,
+        "_fecha_carga": "18/06/2026 13:19",
+        "_origen": "grupo",
+        "_pie": "Alan Gabriel Salvatierra\nCUIT/CUIL: 24-42055465-2"
       }
     ],
     "errores": [],
