@@ -47836,6 +47836,28 @@
         "_fecha_carga": "18/06/2026 20:10",
         "_origen": "grupo",
         "_pie": "Natalia Noelia Moncalvo\nCUIT/CUIL: 27-30639838-0"
+      },
+      {
+        "fecha": "12/06/2026",
+        "hora": "21:44",
+        "tipo": "TRF",
+        "monto": 190000.0,
+        "moneda": "ARS",
+        "remitente": "Ariadna Abigail Luque Miguez",
+        "remitente_cuil": "27-48299541-7",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Naranja X",
+        "banco_destino": "Cuenta Virtual",
+        "referencia": "8D0Q619L0WLYO33VN7JZ5R",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de transacción adicional: 4bf6b77a-0942-41bd-a8d1-4d6d4b80ce31. CVU destinatario: 0000155300000000009977. CUIL destinatario: 30-71728225-2.",
+        "_num": 207,
+        "_fecha_carga": "18/06/2026 20:10",
+        "_origen": "grupo",
+        "_pie": "Ariadna Abigail Luque Miguez\nNaranja X\n4530000800010404231863\n27-48299541-7"
       }
     ],
     "errores": [],
