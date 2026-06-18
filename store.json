@@ -13444,6 +13444,28 @@
         "_fecha_carga": "17/06/2026 23:51",
         "_origen": "grupo",
         "_pie": "Foto de Clohe😎"
+      },
+      {
+        "fecha": "10/06/2026",
+        "hora": "16:08",
+        "tipo": "TRF",
+        "monto": 40000.0,
+        "moneda": "ARS",
+        "remitente": "Maria Del Carmen Fernandez",
+        "remitente_cuil": "12.682.652",
+        "destinatario": "SASTEUP SRL",
+        "banco_origen": "Cuenta DNI",
+        "banco_destino": "",
+        "referencia": "PDX4OGNYG3K518GMN0L6EY",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CVU destinatario: 0000155300000000000009977. CUIL destinatario: 30717282252. El remitente figura con DNI 12.682.652.",
+        "_num": 610,
+        "_fecha_carga": "17/06/2026 23:51",
+        "_origen": "grupo",
+        "_pie": "Foto de Clohe😎"
       }
     ],
     "errores": [],
