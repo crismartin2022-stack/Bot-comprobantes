@@ -38757,6 +38757,28 @@
         "_fecha_carga": "18/06/2026 15:06",
         "_origen": "grupo",
         "_pie": "Datos de la cuenta: Ance Fernanda Antonella\nDni 43995045\nPlataforma: Pink\nUsuario: Redsol252"
+      },
+      {
+        "fecha": "14/06/2026",
+        "hora": "00:03",
+        "tipo": "TRF",
+        "monto": 100000.0,
+        "moneda": "ARS",
+        "remitente": "Fernanda Antonella Ance",
+        "remitente_cuil": "27-43995045-0",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "164049018722",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CUIT destinatario: 30-71728225-2. CVU remitente: 0000003100026308459111. CVU destinatario: 0000155300000000000009977. Código de identificación: XJ8G7V95DWDKJ68M9EMPYR",
+        "_num": 1758,
+        "_fecha_carga": "18/06/2026 15:06",
+        "_origen": "grupo",
+        "_pie": "Datos de la cuenta: Ance Fernanda Antonella\nDni 43995045\nPlataforma: bet30 multi\nUsuario: Redsol"
       }
     ],
     "errores": [],
