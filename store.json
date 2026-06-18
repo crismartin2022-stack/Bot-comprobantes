@@ -36169,6 +36169,28 @@
         "_fecha_carga": "18/06/2026 14:48",
         "_origen": "grupo",
         "_pie": "Foto de Gustavo Volpe"
+      },
+      {
+        "fecha": "14/06/2026",
+        "hora": "18:38",
+        "tipo": "TRF",
+        "monto": 700000.0,
+        "moneda": "ARS",
+        "remitente": "Daniel Antonio Segovia",
+        "remitente_cuil": "20-25102714-6",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "164131474836",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: 46YGOW9M1KGPLRJQNEXD8J. CUIT destinatario: 30-71728225-2. CVU destinatario: 0000155300000000000009977",
+        "_num": 1641,
+        "_fecha_carga": "18/06/2026 14:48",
+        "_origen": "grupo",
+        "_pie": "Foto de Gustavo Volpe"
       }
     ],
     "errores": [],
