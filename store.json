@@ -5444,6 +5444,28 @@
         "_fecha_carga": "17/06/2026 21:33",
         "_origen": "grupo",
         "_pie": "Mauro Alejandro Perez\nNaranja X\n4530000800011386028249\n20-41553028-6"
+      },
+      {
+        "fecha": "12/06/2026",
+        "hora": "23:28",
+        "tipo": "TRF",
+        "monto": 250000.0,
+        "moneda": "ARS",
+        "remitente": "Mauro Alejandro Perez",
+        "remitente_cuil": "20-41553028-6",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Naranja X",
+        "banco_destino": "Cuenta Virtual",
+        "referencia": "D4RO172VZQ8WX8L1NKJ3QE",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CBU origen: 4530000800011386028249. CVU destino: 0000155300000000009977. CUIL destinatario: 30-71728225-2. Código de transacción: d9e26950-28c0-47f3-8033-7b82164cf329",
+        "_num": 247,
+        "_fecha_carga": "17/06/2026 21:33",
+        "_origen": "grupo",
+        "_pie": "Mauro Alejandro Perez\nNaranja X\n4530000800011386028249\n20-41553028-6"
       }
     ],
     "errores": [],
