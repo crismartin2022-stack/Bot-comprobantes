@@ -23029,6 +23029,28 @@
         "_fecha_carga": "18/06/2026 12:52",
         "_origen": "grupo",
         "_pie": "Matias Chaves \n20-41416949-0"
+      },
+      {
+        "fecha": "13/06/2026",
+        "hora": "22:21",
+        "tipo": "TRF",
+        "monto": 60000.0,
+        "moneda": "ARS",
+        "remitente": "Matias Ariel Chaves",
+        "remitente_cuil": "20-41416949-0",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "164039206668",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: Z0KV87940E8WG57JNPEYDX. CVU remitente: 0000003100097773494493. CVU destinatario: 0000155300000000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 1045,
+        "_fecha_carga": "18/06/2026 12:52",
+        "_origen": "grupo",
+        "_pie": "Matias Chaves \n20-41416949-0"
       }
     ],
     "errores": [],
