@@ -35177,6 +35177,28 @@
         "_fecha_carga": "18/06/2026 14:41",
         "_origen": "grupo",
         "_pie": "Federico Andrés espiño\n\n40477868"
+      },
+      {
+        "fecha": "13/06/2026",
+        "hora": "07:47",
+        "tipo": "TRF",
+        "monto": 117000.0,
+        "moneda": "ARS",
+        "remitente": "Leonardo Nestor Jauregui",
+        "remitente_cuil": "20-32174420-7",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Naranja X",
+        "banco_destino": "Cuenta Virtual",
+        "referencia": "L18MKX9RXJRD3MYV9O6WYV",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CBU origen: 4530000800011612646069. CVU destino: 0000155300000000009977. CUIL destinatario: 30-71728225-2. Código de transacción adicional: 109e19ff-7113-4d1a-a913-2d3b34ab2a6d",
+        "_num": 1596,
+        "_fecha_carga": "18/06/2026 14:41",
+        "_origen": "grupo",
+        "_pie": "leonardo jauregui \n32174420"
       }
     ],
     "errores": [],
