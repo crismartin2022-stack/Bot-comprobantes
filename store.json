@@ -49006,6 +49006,28 @@
         "_fecha_carga": "18/06/2026 20:17",
         "_origen": "grupo",
         "_pie": "Mauro Alejandro Perez\nNaranja X\n4530000800011386028249\n20-41553028-6"
+      },
+      {
+        "fecha": "12/06/2026",
+        "hora": "23:21",
+        "tipo": "TRF",
+        "monto": 250000.0,
+        "moneda": "ARS",
+        "remitente": "Guillermo Federico Castro",
+        "remitente_cuil": "20-32967978-1",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Naranja X",
+        "banco_destino": "Cuenta Virtual",
+        "referencia": "86VRPQ2GML360VDG2GLY0M",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CBU origen: 4530000800017429942088. CVU destinatario: 0000155300000000009977. CUIL destinatario: 30-71728225-2. Código de transacción: 66e52386-cd37-402c-81ea-cb611df8c9cb",
+        "_num": 260,
+        "_fecha_carga": "18/06/2026 20:17",
+        "_origen": "grupo",
+        "_pie": "Guillermo Federico Castro\nNaranja X\n4530000800017429942088\n20-32967978-1"
       }
     ],
     "errores": [],
