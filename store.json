@@ -33458,6 +33458,28 @@
         "_fecha_carga": "18/06/2026 14:08",
         "_origen": "grupo",
         "_pie": "Palma, Carlos Alejandro\nCUIL/ CUIT\n20-35592827-7"
+      },
+      {
+        "fecha": "11/06/2026",
+        "hora": "22:57",
+        "tipo": "TRF",
+        "monto": 40000.0,
+        "moneda": "ARS",
+        "remitente": "Cynthia Noelia Mino Gonzalez",
+        "remitente_cuil": "27-40421715-7",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Naranja X",
+        "banco_destino": "Cuenta Virtual",
+        "referencia": "LOEJWV9JZPQ7XYZR2QMD0G",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CBU origen: 4530000800018822454187. CVU destino: 0000155300000000009977. Código de transacción: 20c1e892-e9ff-4ac7-9aa2-f970ee2d8a19. CUIL destinatario: 30-71728225-2.",
+        "_num": 1518,
+        "_fecha_carga": "18/06/2026 14:08",
+        "_origen": "grupo",
+        "_pie": ""
       }
     ],
     "errores": [],
