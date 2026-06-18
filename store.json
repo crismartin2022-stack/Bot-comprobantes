@@ -20120,6 +20120,28 @@
         "_fecha_carga": "18/06/2026 00:41",
         "_origen": "grupo",
         "_pie": ""
+      },
+      {
+        "fecha": "14/06/2026",
+        "hora": "14:29",
+        "tipo": "TRF",
+        "monto": 20000.0,
+        "moneda": "ARS",
+        "remitente": "Noelia Noemi Romero",
+        "remitente_cuil": "27-41800267-6",
+        "destinatario": "SASTEUP SRL",
+        "banco_origen": "Brubank",
+        "banco_destino": "",
+        "referencia": "",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "0997",
+        "tiene_remitente": true,
+        "notas": "Transferencia enviada desde Caja de ahorro en pesos en Brubank. CVU destino: 0000155300000000009977. CUIT destinatario: 30-71728225-2. Entidad destino: CVU.",
+        "_num": 913,
+        "_fecha_carga": "18/06/2026 00:41",
+        "_origen": "grupo",
+        "_pie": ""
       }
     ],
     "errores": [],
