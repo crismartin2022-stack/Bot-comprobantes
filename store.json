@@ -46292,6 +46292,28 @@
         "_fecha_carga": "18/06/2026 20:00",
         "_origen": "grupo",
         "_pie": "Natalia Ailen Di Giorgio Suarez\nCUIT/CUIL: 27-47758744-0"
+      },
+      {
+        "fecha": "12/06/2026",
+        "hora": "13:17",
+        "tipo": "TRF",
+        "monto": 200001.0,
+        "moneda": "ARS",
+        "remitente": "Pablo Agustin Franco",
+        "remitente_cuil": "20-42176164-8",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "162985723063",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: 67REZ8NPQVV5WD6194KVGO. CUIT destinatario: 30-71728225-2. CVU remitente: 0000003100082368064083. CVU destinatario: 0000155300000000000009977",
+        "_num": 137,
+        "_fecha_carga": "18/06/2026 20:01",
+        "_origen": "grupo",
+        "_pie": "Pablo Agustin Franco\nCUIT/CUIL: 20-42176164-8"
       }
     ],
     "errores": [],
