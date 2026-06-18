@@ -46689,6 +46689,28 @@
         "_fecha_carga": "18/06/2026 20:03",
         "_origen": "grupo",
         "_pie": "Miriam Lili Nunez Fernandez\nCUIT/CUIL: 27-94216492-6"
+      },
+      {
+        "fecha": "12/06/2026",
+        "hora": "16:43",
+        "tipo": "TRF",
+        "monto": 300000.0,
+        "moneda": "ARS",
+        "remitente": "Rolando Adrian Martinez",
+        "remitente_cuil": "40.625.278",
+        "destinatario": "SASTEUP SRL",
+        "banco_origen": "Cuenta DNI",
+        "banco_destino": "",
+        "referencia": "L18MKX9RX88J0JZV9O6WYV",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CVU destinatario: 0000155300000000000009977. CUIL destinatario: 30717282252. Comprobante emitido desde la app Cuenta DNI (Banco Provincia).",
+        "_num": 155,
+        "_fecha_carga": "18/06/2026 20:03",
+        "_origen": "grupo",
+        "_pie": "ROLANDO ADRIAN MARTINEZ\nCUIT/CUIL: 20-40625278-8"
       }
     ],
     "errores": [],
