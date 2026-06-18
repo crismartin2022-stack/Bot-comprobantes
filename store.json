@@ -19570,6 +19570,28 @@
         "_fecha_carga": "18/06/2026 00:38",
         "_origen": "grupo",
         "_pie": ""
+      },
+      {
+        "fecha": "13/06/2026",
+        "hora": "18:43",
+        "tipo": "TRF",
+        "monto": 30000.0,
+        "moneda": "ARS",
+        "remitente": "Pablo Maximiliano Pagano",
+        "remitente_cuil": "23-27660072-9",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163195579847",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: WY7ZEPN6MKQYV3KO2Q0M51. CUIT destinatario: 30-71728225-2. CVU remitente: 0000003100050592487521. CVU destinatario: 0000155300000000009977.",
+        "_num": 888,
+        "_fecha_carga": "18/06/2026 00:39",
+        "_origen": "grupo",
+        "_pie": ""
       }
     ],
     "errores": [],
