@@ -42682,6 +42682,28 @@
         "_fecha_carga": "18/06/2026 15:44",
         "_origen": "grupo",
         "_pie": "Delia Carolina Ocampos Monges\nCUIT/CUIL: 27-95400070-8"
+      },
+      {
+        "fecha": "16/06/2026",
+        "hora": "00:36",
+        "tipo": "TRF",
+        "monto": 100000.0,
+        "moneda": "ARS",
+        "remitente": "Liliana Beatriz Anrriquez",
+        "remitente_cuil": "",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Ualá",
+        "banco_destino": "",
+        "referencia": "8D0Q619L0WPX5WJXN7JZ5R",
+        "concepto": "VAR",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CBU destino: 0000155300000000009977. CUIT destino: 30717282252 (Sasteup Srl).",
+        "_num": 1936,
+        "_fecha_carga": "18/06/2026 15:44",
+        "_origen": "grupo",
+        "_pie": "Liliana Beatriz anrriquez \nDNI: 21.104.254"
       }
     ],
     "errores": [],
