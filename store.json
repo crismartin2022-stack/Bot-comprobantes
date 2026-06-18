@@ -14414,6 +14414,28 @@
         "_fecha_carga": "17/06/2026 23:57",
         "_origen": "grupo",
         "_pie": "Foto de Clohe😎"
+      },
+      {
+        "fecha": "12/06/2026",
+        "hora": "10:45",
+        "tipo": "TRF",
+        "monto": 11100.0,
+        "moneda": "ARS",
+        "remitente": "Lucas Miguel Chavez",
+        "remitente_cuil": "20-36940362-2",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "162958754723",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: Z6OLMDN3VKO01Y052E7RQ5. CUIT destinatario: 30-71728225-2. CVU receptor completo: 0000155300000000000009977",
+        "_num": 654,
+        "_fecha_carga": "17/06/2026 23:57",
+        "_origen": "grupo",
+        "_pie": "Foto de Clohe😎"
       }
     ],
     "errores": [],
