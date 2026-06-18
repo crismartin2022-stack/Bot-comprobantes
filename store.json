@@ -21286,6 +21286,28 @@
         "_fecha_carga": "18/06/2026 00:48",
         "_origen": "grupo",
         "_pie": "Enzo Javier Enrique Robles\n46.739.852"
+      },
+      {
+        "fecha": "13/06/2026",
+        "hora": "20:14",
+        "tipo": "TRF",
+        "monto": 500000.25,
+        "moneda": "ARS",
+        "remitente": "Victor Roberto Taiguan",
+        "remitente_cuil": "20-21342026-8",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163212798223",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: JMQKYZ9QQVO800569V50P3. CUIT destinatario: 30-71728225-2. CVU remitente: 0000003100023599226884. CVU destinatario: 0000155300000000009977.",
+        "_num": 966,
+        "_fecha_carga": "18/06/2026 00:48",
+        "_origen": "grupo",
+        "_pie": "Victor Roberto Taiguan\n21.342.026"
       }
     ],
     "errores": [],
