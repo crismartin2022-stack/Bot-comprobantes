@@ -38227,6 +38227,28 @@
         "_fecha_carga": "18/06/2026 15:02",
         "_origen": "grupo",
         "_pie": "Alejandro pardo \n35414869\nCargalos en ganamos.co"
+      },
+      {
+        "fecha": "13/06/2026",
+        "hora": "22:50",
+        "tipo": "TRF",
+        "monto": 30000.0,
+        "moneda": "ARS",
+        "remitente": "Marcelo Ariel Serra",
+        "remitente_cuil": "23-23776474-9",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163232130469",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: 8D0Q619L0WORVMZ3N7JZ5R. CVU remitente: 0000003100047479647817. CVU destinatario: 0000155300000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 1734,
+        "_fecha_carga": "18/06/2026 15:02",
+        "_origen": "grupo",
+        "_pie": "Marcelo serra \n23776474\nCargalos en ganamos"
       }
     ],
     "errores": [],
