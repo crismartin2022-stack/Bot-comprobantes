@@ -19438,6 +19438,28 @@
         "_fecha_carga": "18/06/2026 00:38",
         "_origen": "grupo",
         "_pie": ""
+      },
+      {
+        "fecha": "14/06/2026",
+        "hora": "15:08",
+        "tipo": "TRF",
+        "monto": 20000.0,
+        "moneda": "ARS",
+        "remitente": "Sara Doris Coronel Godoy",
+        "remitente_cuil": "27-93970899-0",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163295999963",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: 3D5W612E6Z6E3DOG2GXYVR. CVU remitente: 0000003100006348517549. CVU destinatario: 0000155300000000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 882,
+        "_fecha_carga": "18/06/2026 00:38",
+        "_origen": "grupo",
+        "_pie": ""
       }
     ],
     "errores": [],
