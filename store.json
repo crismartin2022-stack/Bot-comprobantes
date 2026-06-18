@@ -19108,6 +19108,28 @@
         "_fecha_carga": "18/06/2026 00:36",
         "_origen": "grupo",
         "_pie": ""
+      },
+      {
+        "fecha": "13/06/2026",
+        "hora": "19:16",
+        "tipo": "TRF",
+        "monto": 4000.0,
+        "moneda": "ARS",
+        "remitente": "Simon Morsino",
+        "remitente_cuil": "20-49510250-6",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163202659119",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: 8D0Q619L0WOKZZGZN7JZ5R. CVU remitente: 0000003100088714194446. CVU destinatario: 0000155300000000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 867,
+        "_fecha_carga": "18/06/2026 00:36",
+        "_origen": "grupo",
+        "_pie": ""
       }
     ],
     "errores": [],
