@@ -3348,6 +3348,28 @@
         "_fecha_carga": "17/06/2026 21:20",
         "_origen": "grupo",
         "_pie": "Juan silvero 29557533"
+      },
+      {
+        "fecha": "12/06/2026",
+        "hora": "18:21",
+        "tipo": "TRF",
+        "monto": 1000000.0,
+        "moneda": "ARS",
+        "remitente": "Monica Susana Santillan",
+        "remitente_cuil": "27-17299591-3",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Naranja X",
+        "banco_destino": "Cuenta Virtual",
+        "referencia": "RD06ZO9WV7RDG3D3N5GP7X",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de transacción adicional: d7288605-bc5b-46f7-b550-634c8f650922. CBU origen: 4530000800012051233102. CVU destinatario: 0000155300000000009977. CUIL destinatario: 30-71728225-2.",
+        "_num": 152,
+        "_fecha_carga": "17/06/2026 21:20",
+        "_origen": "grupo",
+        "_pie": "Monica Susana Santillan\nNaranja X\n4530000800012051233102\n27-17299591-3"
       }
     ],
     "errores": [],
