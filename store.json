@@ -3259,6 +3259,28 @@
         "_fecha_carga": "17/06/2026 21:20",
         "_origen": "grupo",
         "_pie": "Ermelinda Lobo\nCUIT/CUIL: 27-96330852-9"
+      },
+      {
+        "fecha": "12/06/2026",
+        "hora": "17:25",
+        "tipo": "TRF",
+        "monto": 200000.0,
+        "moneda": "ARS",
+        "remitente": "Priscila Abigail Reynoso",
+        "remitente_cuil": "27-47308873-3",
+        "destinatario": "SASTEUP SRL",
+        "banco_origen": "AstroPay",
+        "banco_destino": "",
+        "referencia": "RD06ZO9WV7R1MPOKN5GP7X",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CVU remitente: 0000177500094113995038. CVU receptor: 0000155300000000009977. Alias receptor: cvu.977. CUIT receptor: 30-71728225-2.",
+        "_num": 148,
+        "_fecha_carga": "17/06/2026 21:20",
+        "_origen": "grupo",
+        "_pie": "47308873, Reynoso Priscila"
       }
     ],
     "errores": [],
