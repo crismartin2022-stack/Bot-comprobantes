@@ -20538,6 +20538,28 @@
         "_fecha_carga": "18/06/2026 00:44",
         "_origen": "grupo",
         "_pie": "ROSA TOBAR\n\nDNI: 29.631.858"
+      },
+      {
+        "fecha": "13/06/2026",
+        "hora": "13:25",
+        "tipo": "TRF",
+        "monto": 50000.0,
+        "moneda": "ARS",
+        "remitente": "Lorena Marilin Gomez",
+        "remitente_cuil": "27-36579065-0",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163148646869",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: L18MKX9RXJ1EX7KV9O6WYV. CVU remitente: 0000003100012371404808. CVU destinatario: 0000155300000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 932,
+        "_fecha_carga": "18/06/2026 00:44",
+        "_origen": "grupo",
+        "_pie": "LORENA GOMEZ\n\nDNI: 36.579.065"
       }
     ],
     "errores": [],
