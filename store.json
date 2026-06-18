@@ -30681,6 +30681,28 @@
         "_fecha_carga": "18/06/2026 13:49",
         "_origen": "grupo",
         "_pie": "De:\nBRENDA ANAHI CHAVEZ\nCUIT 27-45999352-0"
+      },
+      {
+        "fecha": "15/06/2026",
+        "hora": "14:34",
+        "tipo": "TRF",
+        "monto": 500000.0,
+        "moneda": "ARS",
+        "remitente": "Juliana Ayelen Palavecino",
+        "remitente_cuil": "27-47337453-1",
+        "destinatario": "SASTEUP SRL",
+        "banco_origen": "Brubank",
+        "banco_destino": "",
+        "referencia": "1798779067",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "ID Operación: 260616000304887042428. CVU destino: 0000155300000000009977. CUIT destinatario: 30-71728225-2. Cuenta origen: Caja de ahorro en pesos.",
+        "_num": 1392,
+        "_fecha_carga": "18/06/2026 13:49",
+        "_origen": "grupo",
+        "_pie": ""
       }
     ],
     "errores": [],
