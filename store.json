@@ -34184,6 +34184,28 @@
         "_fecha_carga": "18/06/2026 14:13",
         "_origen": "grupo",
         "_pie": "Juan cruz amundarain \n39321823"
+      },
+      {
+        "fecha": "12/06/2026",
+        "hora": "13:18",
+        "tipo": "TRF",
+        "monto": 20000.0,
+        "moneda": "ARS",
+        "remitente": "Lorena Elizabeth Paolini",
+        "remitente_cuil": "27-35800760-6",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "162986190741",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: JMQKYZ9QQ005QY6Q9V50P3. CVU remitente: 0000003100186761142442. CVU destinatario: 0000155300000000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 1551,
+        "_fecha_carga": "18/06/2026 14:14",
+        "_origen": "grupo",
+        "_pie": "Lorena Elizabeth paolini \n35800760"
       }
     ],
     "errores": [],
