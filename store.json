@@ -23404,6 +23404,28 @@
         "_fecha_carga": "18/06/2026 12:54",
         "_origen": "grupo",
         "_pie": "Carla Venencio \n39344851"
+      },
+      {
+        "fecha": "13/06/2026",
+        "hora": "23:46",
+        "tipo": "TRF",
+        "monto": 100000.0,
+        "moneda": "ARS",
+        "remitente": "Mirta Veronica Brito",
+        "remitente_cuil": "27-27823362-1",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "164047182910",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: Z6OLMDN3V3X3LK162E7RQ5. CVU remitente: 0000003100002207871869. CVU destinatario: 0000155300000000009977.",
+        "_num": 1062,
+        "_fecha_carga": "18/06/2026 12:55",
+        "_origen": "grupo",
+        "_pie": "Veronica Brito 27.823.362"
       }
     ],
     "errores": [],
