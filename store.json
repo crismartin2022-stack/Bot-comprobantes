@@ -2222,6 +2222,28 @@
         "_fecha_carga": "17/06/2026 21:12",
         "_origen": "grupo",
         "_pie": "Brepe, Kevin Agustin\n20-42196385-2"
+      },
+      {
+        "fecha": "12/06/2026",
+        "hora": "00:55",
+        "tipo": "TRF",
+        "monto": 50000.0,
+        "moneda": "ARS",
+        "remitente": "Roberto Sergio Lopez",
+        "remitente_cuil": "23-25185980-9",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163726249872",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: 86VRPQ2GMW7KZEJY2GLY0M. CUIT destinatario: 30-71728225-2. CVU remitente: 0000003100008486765312. CVU destinatario: 0000155300000000000009977",
+        "_num": 101,
+        "_fecha_carga": "17/06/2026 21:12",
+        "_origen": "grupo",
+        "_pie": "Roberto Sergio Lopez\nCUIT/CUIL: 23-25185980-9"
       }
     ],
     "errores": [],
