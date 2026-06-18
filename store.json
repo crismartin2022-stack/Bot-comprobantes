@@ -49712,6 +49712,28 @@
         "_fecha_carga": "18/06/2026 20:21",
         "_origen": "grupo",
         "_pie": "Brian David Munoz\nCUIT/CUIL: 20-44141951-2"
+      },
+      {
+        "fecha": "13/06/2026",
+        "hora": "00:42",
+        "tipo": "TRF",
+        "monto": 70000.0,
+        "moneda": "ARS",
+        "remitente": "Miriam Lili Nunez Fernandez",
+        "remitente_cuil": "27-94216492-6",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163091208109",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: 1LMP68NKVED7MD7K2R7OEV. CVU destinatario: 0000155300000000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 292,
+        "_fecha_carga": "18/06/2026 20:21",
+        "_origen": "grupo",
+        "_pie": "Miriam Lili Nunez Fernandez\nCUIT/CUIL: 27-94216492-6"
       }
     ],
     "errores": [],
