@@ -7254,6 +7254,28 @@
         "_fecha_carga": "17/06/2026 23:08",
         "_origen": "grupo",
         "_pie": "Walter lopez 41480285"
+      },
+      {
+        "fecha": "13/06/2026",
+        "hora": "21:42",
+        "tipo": "TRF",
+        "monto": 100000.0,
+        "moneda": "ARS",
+        "remitente": "Soledad Tamara Alanis",
+        "remitente_cuil": "27-33497792-2",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163224620205",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: 8D0Q619L0WOJ4VW3N7JZ5R. CVU remitente: 0000003100077739671315. CVU destinatario: 0000155300000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 329,
+        "_fecha_carga": "17/06/2026 23:09",
+        "_origen": "grupo",
+        "_pie": "Soledad Alanis \n33.497.792"
       }
     ],
     "errores": [],
