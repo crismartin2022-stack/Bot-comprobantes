@@ -31233,6 +31233,28 @@
         "_fecha_carga": "18/06/2026 13:53",
         "_origen": "grupo",
         "_pie": "Cesar Daniel Suarez\nCUIT/CUIL: 20-23937652-6"
+      },
+      {
+        "fecha": "15/06/2026",
+        "hora": "17:22",
+        "tipo": "TRF",
+        "monto": 400000.0,
+        "moneda": "ARS",
+        "remitente": "Emanuel De Jesus Diaz",
+        "remitente_cuil": "20-46420872-1",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Naranja X",
+        "banco_destino": "Cuenta Virtual",
+        "referencia": "76V4MR2Z74WLZ8ZYNDEZOL",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CBU origen: 4530000800016498008008. CVU destino: 0000155300000000009977. CUIL destinatario: 30-71728225-2. Código de transacción: 2ae5a8c5-f4f9-4609-b8ce-202eabd12f94.",
+        "_num": 1417,
+        "_fecha_carga": "18/06/2026 13:53",
+        "_origen": "grupo",
+        "_pie": "Emanuel De Jesus Diaz\nCUIL: 20-464208721-1"
       }
     ],
     "errores": [],
