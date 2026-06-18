@@ -5334,6 +5334,28 @@
         "_fecha_carga": "17/06/2026 21:33",
         "_origen": "grupo",
         "_pie": "Brian Ariel Salto\nNaranja X\n4530000800019637502810\n20-45315434-4"
+      },
+      {
+        "fecha": "12/06/2026",
+        "hora": "23:44",
+        "tipo": "TRF",
+        "monto": 250000.0,
+        "moneda": "ARS",
+        "remitente": "Ayelen Edith Gomez",
+        "remitente_cuil": "27-37140619-6",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163894563820",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CVU remitente: 0000003100022074814183. CVU destinatario: 0000155300000000009977. CUIL destinatario: 30-71728225-2",
+        "_num": 242,
+        "_fecha_carga": "17/06/2026 21:33",
+        "_origen": "grupo",
+        "_pie": "• De\nAyelen Edith Gomez\nCUIT/CUIL: 27-37140619-6"
       }
     ],
     "errores": [],
