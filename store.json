@@ -13908,6 +13908,28 @@
         "_fecha_carga": "17/06/2026 23:54",
         "_origen": "grupo",
         "_pie": "Gonzalez jorge Ivan 42.661.243"
+      },
+      {
+        "fecha": "11/06/2026",
+        "hora": "11:10",
+        "tipo": "TRF",
+        "monto": 20000.0,
+        "moneda": "ARS",
+        "remitente": "Jessica Nannyn Frances",
+        "remitente_cuil": "27-29565299-9",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163605226390",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: LOEJWV9JZPM6XPD82QMD0G. CVU destinatario: 0000155300000000009977. CVU remitente: 0000003100019838658743. CUIT destinatario: 30-71728225-2.",
+        "_num": 631,
+        "_fecha_carga": "17/06/2026 23:54",
+        "_origen": "grupo",
+        "_pie": "Foto de Clohe😎"
       }
     ],
     "errores": [],
