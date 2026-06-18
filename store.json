@@ -50218,6 +50218,28 @@
         "_fecha_carga": "18/06/2026 20:24",
         "_origen": "grupo",
         "_pie": "Fernando Nazareno Coronel\nCUIT/CUIL: 20-34445067-7"
+      },
+      {
+        "fecha": "13/06/2026",
+        "hora": "09:36",
+        "tipo": "TRF",
+        "monto": 30000.0,
+        "moneda": "ARS",
+        "remitente": "Mercedes Esther Aparicio",
+        "remitente_cuil": "27-30944459-6",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Naranja X",
+        "banco_destino": "Cuenta Virtual",
+        "referencia": "PDX4OGNYGPRYZG6VN0L6EY",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CBU origen: 4530000800015489478774. CVU destino: 0000155300000000009977. CUIL destinatario: 30-71728225-2. Código de transacción: 92fe2b44-86e2-44de-b15d-b96a6eaaa3de",
+        "_num": 315,
+        "_fecha_carga": "18/06/2026 20:25",
+        "_origen": "grupo",
+        "_pie": "Mercedes Esther Aparicio\nNaranja X\n4530000800015489478774\n27-30944459-6"
       }
     ],
     "errores": [],
