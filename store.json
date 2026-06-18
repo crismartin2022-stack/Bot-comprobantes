@@ -11595,6 +11595,28 @@
         "_fecha_carga": "17/06/2026 23:38",
         "_origen": "grupo",
         "_pie": "Foto de Ges"
+      },
+      {
+        "fecha": "13/06/2026",
+        "hora": "20:16",
+        "tipo": "TRF",
+        "monto": 10000.0,
+        "moneda": "ARS",
+        "remitente": "Susana Beatriz Blanco",
+        "remitente_cuil": "24.060.673",
+        "destinatario": "SASTEUP SRL",
+        "banco_origen": "Cuenta DNI",
+        "banco_destino": "",
+        "referencia": "RD06ZO9WVR1Q44L3N5GP7X",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CVU destinatario: 0000155300000000009977. CUIL destinatario: 30717282252. Referencia adicional: Va123rios.",
+        "_num": 526,
+        "_fecha_carga": "17/06/2026 23:38",
+        "_origen": "grupo",
+        "_pie": "Foto de Ges"
       }
     ],
     "errores": [],
