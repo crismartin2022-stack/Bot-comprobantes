@@ -46799,6 +46799,28 @@
         "_fecha_carga": "18/06/2026 20:03",
         "_origen": "grupo",
         "_pie": "47308873, Reynoso Priscila"
+      },
+      {
+        "fecha": "12/06/2026",
+        "hora": "17:46",
+        "tipo": "TRF",
+        "monto": 200001.0,
+        "moneda": "ARS",
+        "remitente": "Pablo Agustin Franco",
+        "remitente_cuil": "20-42176164-8",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163837392878",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: R7ZG0QNDWQ1KV50D9EXYPO. CUIT destinatario: 30-71728225-2. CVU destinatario: 0000155300000000000009977",
+        "_num": 160,
+        "_fecha_carga": "18/06/2026 20:04",
+        "_origen": "grupo",
+        "_pie": "Pablo Agustin Franco\nCUIT/CUIL: 20-42176164-8"
       }
     ],
     "errores": [],
