@@ -17567,6 +17567,28 @@
         "_fecha_carga": "18/06/2026 00:26",
         "_origen": "grupo",
         "_pie": "andrea soledad mansilla  27-35666625-4"
+      },
+      {
+        "fecha": "14/06/2026",
+        "hora": "13:51",
+        "tipo": "TRF",
+        "monto": 5000.0,
+        "moneda": "ARS",
+        "remitente": "Andrea Soledad Mansilla",
+        "remitente_cuil": "",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Ualá",
+        "banco_destino": "",
+        "referencia": "R7ZG0QNDW1W55ZGD9EXYPO",
+        "concepto": "VAR",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CBU destino: 0000155300000000009977. CUIT destino: 30717282252 (Sasteup Srl).",
+        "_num": 797,
+        "_fecha_carga": "18/06/2026 00:26",
+        "_origen": "grupo",
+        "_pie": "juan horacio orellana 20-35835348-8"
       }
     ],
     "errores": [],
