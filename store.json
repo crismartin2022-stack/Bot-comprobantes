@@ -43914,6 +43914,28 @@
         "_fecha_carga": "18/06/2026 19:46",
         "_origen": "grupo",
         "_pie": "• De\nGuillermo Federico Castro\nCUIT/CUIL: 20-32967978-1"
+      },
+      {
+        "fecha": "11/06/2026",
+        "hora": "21:46",
+        "tipo": "TRF",
+        "monto": 250000.0,
+        "moneda": "ARS",
+        "remitente": "Guillermo Federico Castro",
+        "remitente_cuil": "20-32967978-1",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163708239422",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CVU remitente: 0000003100073275678739. CVU destinatario: 0001553000000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 29,
+        "_fecha_carga": "18/06/2026 19:46",
+        "_origen": "grupo",
+        "_pie": "• De\nGuillermo Federico Castro\nCUIT/CUIL: 20-32967978-1"
       }
     ],
     "errores": [],
