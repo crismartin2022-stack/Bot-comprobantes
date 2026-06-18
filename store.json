@@ -27706,6 +27706,28 @@
         "_fecha_carga": "18/06/2026 13:24",
         "_origen": "grupo",
         "_pie": "Martin aranda"
+      },
+      {
+        "fecha": "14/06/2026",
+        "hora": "15:51",
+        "tipo": "TRF",
+        "monto": 100000.0,
+        "moneda": "ARS",
+        "remitente": "Rocio Ailen Malaguenxxo",
+        "remitente_cuil": "27-47191340-0",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163299675507",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: 67REZ8NPQ6Q6YVZK94KVGO. CVU remitente: 0000003100072484461848. CVU destinatario: 0000155300000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 1257,
+        "_fecha_carga": "18/06/2026 13:25",
+        "_origen": "grupo",
+        "_pie": "Rocio Ailen Malaguenxxo\nCUIT/CUIL: 27-47191340-0"
       }
     ],
     "errores": [],
