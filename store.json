@@ -5178,6 +5178,28 @@
         "_fecha_carga": "17/06/2026 21:32",
         "_origen": "grupo",
         "_pie": "Liliana Beatriz anrriquez \nDNI: 21.104.254"
+      },
+      {
+        "fecha": "12/06/2026",
+        "hora": "23:26",
+        "tipo": "TRF",
+        "monto": 70000.0,
+        "moneda": "ARS",
+        "remitente": "Miriam Lili Nunez Fernandez",
+        "remitente_cuil": "27-94216492-6",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163084696315",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: 67REZ8NPQ6X3GX8P94KVGO. CVU remitente: 0000003100098349467435. CVU destinatario: 0000155300000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 235,
+        "_fecha_carga": "17/06/2026 21:32",
+        "_origen": "grupo",
+        "_pie": "Miriam Lili Nunez Fernandez\nCUIT/CUIL: 27-94216492-6"
       }
     ],
     "errores": [],
