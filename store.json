@@ -5090,6 +5090,28 @@
         "_fecha_carga": "17/06/2026 21:31",
         "_origen": "grupo",
         "_pie": "Damian Gerardo Nunez\nNaranja X\n4530000800010115872571\n20-27636577-1"
+      },
+      {
+        "fecha": "12/06/2026",
+        "hora": "23:12",
+        "tipo": "TRF",
+        "monto": 100000.0,
+        "moneda": "ARS",
+        "remitente": "Adrian Palma Feltes",
+        "remitente_cuil": "20-95324736-5",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163083370153",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: D4RO172VZQ8W8G3DNKJ3QE. CUIT destinatario: 30-71728225-2. CVU destinatario: 0000155300000000009977",
+        "_num": 231,
+        "_fecha_carga": "17/06/2026 21:31",
+        "_origen": "grupo",
+        "_pie": "Adrian Palma Feltes\nCUIT/CUIL: 20-95324736-5"
       }
     ],
     "errores": [],
