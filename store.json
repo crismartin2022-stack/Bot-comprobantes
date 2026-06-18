@@ -22521,6 +22521,28 @@
         "_fecha_carga": "18/06/2026 12:48",
         "_origen": "grupo",
         "_pie": "Milton Nahuel Rubinich\n20-39146911/4"
+      },
+      {
+        "fecha": "15/06/2026",
+        "hora": "08:57",
+        "tipo": "TRF",
+        "monto": 300000.0,
+        "moneda": "ARS",
+        "remitente": "Milton Nahuel Rubinich",
+        "remitente_cuil": "",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "App YPF",
+        "banco_destino": "LOHAS",
+        "referencia": "1657729",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "ID Coelsa: cfbccfbb-a575-45f3-abf0-72f5abefea5d. CUIT/CUIL destinatario: 30-71728225-2. CVU receptor completo: 0000155300000000009977",
+        "_num": 1022,
+        "_fecha_carga": "18/06/2026 12:48",
+        "_origen": "grupo",
+        "_pie": "Milton Nahuel Rubinich\n20-39146911/4"
       }
     ],
     "errores": [],
