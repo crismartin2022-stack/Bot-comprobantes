@@ -38625,6 +38625,28 @@
         "_fecha_carga": "18/06/2026 15:05",
         "_origen": "grupo",
         "_pie": "Ismael Soria \n37563315"
+      },
+      {
+        "fecha": "15/06/2026",
+        "hora": "19:37",
+        "tipo": "TRF",
+        "monto": 10000.0,
+        "moneda": "ARS",
+        "remitente": "Michel Aaron Felix Vino",
+        "remitente_cuil": "20-42819672-5",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "164285875218",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: 76V4MR2Z74WG31KYNDEZOL. CVU destinatario: 0000155300000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 1752,
+        "_fecha_carga": "18/06/2026 15:05",
+        "_origen": "grupo",
+        "_pie": "Michel aaron felix vino \n42819672"
       }
     ],
     "errores": [],
