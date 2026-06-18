@@ -2486,6 +2486,28 @@
         "_fecha_carga": "17/06/2026 21:15",
         "_origen": "grupo",
         "_pie": "Brenda castellanos"
+      },
+      {
+        "fecha": "12/06/2026",
+        "hora": "12:31",
+        "tipo": "TRF",
+        "monto": 300000.0,
+        "moneda": "ARS",
+        "remitente": "Claudia Alejandra Jigena",
+        "remitente_cuil": "27-20030513-8",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Naranja X",
+        "banco_destino": "Cuenta Virtual",
+        "referencia": "RD06ZO9WV77X18W1N5GP7X",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CBU origen: 4530000800017431780250. CVU destino: 0000155300000000009977. CUIL destinatario: 30-71728225-2. Código de transacción: 20dbbff7-d610-4bd0-a881-7556cd0263af",
+        "_num": 113,
+        "_fecha_carga": "17/06/2026 21:15",
+        "_origen": "grupo",
+        "_pie": "Claudia Alejandra jigena\nNaranja X\n4530000800017431780250\n27-20030513-8"
       }
     ],
     "errores": [],
