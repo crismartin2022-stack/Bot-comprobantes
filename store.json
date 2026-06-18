@@ -3702,6 +3702,28 @@
         "_fecha_carga": "17/06/2026 21:22",
         "_origen": "grupo",
         "_pie": "46.095.234 guiliana otazo"
+      },
+      {
+        "fecha": "12/06/2026",
+        "hora": "19:26",
+        "tipo": "TRF",
+        "monto": 700000.0,
+        "moneda": "ARS",
+        "remitente": "",
+        "remitente_cuil": "",
+        "destinatario": "SASTEUP SRL",
+        "banco_origen": "BNA",
+        "banco_destino": "",
+        "referencia": "1LMP68NKVXE4RMRD2R7OEV",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": false,
+        "notas": "CUIT del destinatario: 30717282252. CVU destinatario: 0000155300000000009977",
+        "_num": 168,
+        "_fecha_carga": "17/06/2026 21:23",
+        "_origen": "grupo",
+        "_pie": ""
       }
     ],
     "errores": [],
