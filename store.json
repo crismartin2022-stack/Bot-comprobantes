@@ -23095,6 +23095,28 @@
         "_fecha_carga": "18/06/2026 12:52",
         "_origen": "grupo",
         "_pie": "Andres jara 24.473.490"
+      },
+      {
+        "fecha": "15/06/2026",
+        "hora": "20:16",
+        "tipo": "TRF",
+        "monto": 3108750.0,
+        "moneda": "ARS",
+        "remitente": "Romina Ivanna Llaneza",
+        "remitente_cuil": "27-31284221-7",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "164292206862",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: LOEJWV9JZ36WM6R32QMD0G. CVU remitente: 0000003100046504387238. CVU destinatario: 0000155300000000009977. CUIT destinatario: 30-71728225-2",
+        "_num": 1048,
+        "_fecha_carga": "18/06/2026 12:52",
+        "_origen": "grupo",
+        "_pie": "Romina Ivanna Llaneza \nDNI 31.284.221"
       }
     ],
     "errores": [],
