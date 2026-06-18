@@ -45762,6 +45762,28 @@
         "_fecha_carga": "18/06/2026 19:57",
         "_origen": "grupo",
         "_pie": "Zoraida Nunez Sanchez\nNaranja X\n4530000800016777376312\nCUIL\n27-92394168-7"
+      },
+      {
+        "fecha": "12/06/2026",
+        "hora": "09:28",
+        "tipo": "TRF",
+        "monto": 40000.0,
+        "moneda": "ARS",
+        "remitente": "Eriberta Herminia Fernandez Herrera",
+        "remitente_cuil": "27-92798572-7",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163755831062",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: Z0KV87940P3MWP7QNPEYDX. CVU remitente: 0000003100025464627204. CVU destinatario: 0000155300000000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 113,
+        "_fecha_carga": "18/06/2026 19:57",
+        "_origen": "grupo",
+        "_pie": "Eriberta Herminia Fernandez Herrera\nCUIT/CUIL: 27-92798572-7"
       }
     ],
     "errores": [],
