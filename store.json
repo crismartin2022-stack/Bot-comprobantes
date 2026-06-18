@@ -4870,6 +4870,28 @@
         "_fecha_carga": "17/06/2026 21:30",
         "_origen": "grupo",
         "_pie": "Diego Fortunato Occhiato\nDni: 36.287.729"
+      },
+      {
+        "fecha": "12/06/2026",
+        "hora": "22:52",
+        "tipo": "TRF",
+        "monto": 240000.0,
+        "moneda": "ARS",
+        "remitente": "Luque Miguez, Ariadna Abigail",
+        "remitente_cuil": "27-48299541-7",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Personal Pay",
+        "banco_destino": "",
+        "referencia": "2739095192",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CoelsaID: LMORZP908LJZJG36NEGJ46. CUIL/CUIT destinatario: 30-71728225-2. CBU/CVU receptor: 0000155300000000009977",
+        "_num": 221,
+        "_fecha_carga": "17/06/2026 21:30",
+        "_origen": "grupo",
+        "_pie": "Luque Miguez, Ariadna Abigail\n27-48299541-7"
       }
     ],
     "errores": [],
