@@ -22012,6 +22012,28 @@
         "_fecha_carga": "18/06/2026 12:45",
         "_origen": "grupo",
         "_pie": "Debora Samanta Weingartner\n32512981"
+      },
+      {
+        "fecha": "13/06/2026",
+        "hora": "00:24",
+        "tipo": "TRF",
+        "monto": 100000.0,
+        "moneda": "ARS",
+        "remitente": "Gonzalo Ezequiel Diaz",
+        "remitente_cuil": "20-42473407-2",
+        "destinatario": "SASTEUP SRL",
+        "banco_origen": "AstroPay",
+        "banco_destino": "",
+        "referencia": "Z4K6DVNOWYOLKOQK25J8LQ",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CVU remitente: 0000177506658008071366. CVU receptor: 0000155300000000009977. Alias receptor: cvu.977. CUIT receptor: 30717282252.",
+        "_num": 999,
+        "_fecha_carga": "18/06/2026 12:45",
+        "_origen": "grupo",
+        "_pie": "Diaz gonzalo ezequiel\n42473407"
       }
     ],
     "errores": [],
