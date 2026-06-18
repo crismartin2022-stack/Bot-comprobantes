@@ -38073,6 +38073,28 @@
         "_fecha_carga": "18/06/2026 15:01",
         "_origen": "grupo",
         "_pie": "Multi azul"
+      },
+      {
+        "fecha": "16/06/2026",
+        "hora": "00:39",
+        "tipo": "TRF",
+        "monto": 20000.0,
+        "moneda": "ARS",
+        "remitente": "PAOLA MARICEL ACOSTA CABRERA",
+        "remitente_cuil": "27-38071070-1",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Banco De Galicia S.A.U",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "42115522601",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "ID COELSA: XJ8G7V95DWO5MJRW9EMPYR. CVU destinatario: 0000155300000000009977. CUIT destinatario: 30-71728225-2. Cuenta origen: CA $ N° 4047132-1 160-7.",
+        "_num": 1727,
+        "_fecha_carga": "18/06/2026 15:01",
+        "_origen": "grupo",
+        "_pie": "Paola Maricel Acosta Cabrera 38071070"
       }
     ],
     "errores": [],
