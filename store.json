@@ -24110,6 +24110,28 @@
         "_fecha_carga": "18/06/2026 12:59",
         "_origen": "grupo",
         "_pie": "Noelia Silvana Romera\nCUIT/CUIL: 27-31823501-0"
+      },
+      {
+        "fecha": "13/06/2026",
+        "hora": "18:07",
+        "tipo": "TRF",
+        "monto": 500000.0,
+        "moneda": "ARS",
+        "remitente": "Albornoz, Nicolas Eduardo",
+        "remitente_cuil": "20-12580879-5",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Personal Pay",
+        "banco_destino": "",
+        "referencia": "2740889385",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CoelsaID: LMORZP908L5KLQX6NEGJ46 - Id Bancario. CBU/CVU destinatario: 00001553000000000009977. CUIL destinatario: 30-71728225-2.",
+        "_num": 1094,
+        "_fecha_carga": "18/06/2026 13:00",
+        "_origen": "grupo",
+        "_pie": "Nicolas Eduardo Albornoz\n20-12580879-5"
       }
     ],
     "errores": [],
