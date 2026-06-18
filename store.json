@@ -2730,6 +2730,28 @@
         "_fecha_carga": "17/06/2026 21:16",
         "_origen": "grupo",
         "_pie": "Lautaro Rigaudi"
+      },
+      {
+        "fecha": "12/06/2026",
+        "hora": "13:11",
+        "tipo": "TRF",
+        "monto": 200000.0,
+        "moneda": "ARS",
+        "remitente": "Gisela Noemi Benitez",
+        "remitente_cuil": "27-34643630-7",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163793336802",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: JMQKYZ9QQ00E6O7P9V50P3. CVU remitente: 0000003100031747430410. CVU destinatario: 0000155300000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 124,
+        "_fecha_carga": "17/06/2026 21:16",
+        "_origen": "grupo",
+        "_pie": "Gisela Benítez 34.643630"
       }
     ],
     "errores": [],
