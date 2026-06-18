@@ -23338,6 +23338,28 @@
         "_fecha_carga": "18/06/2026 12:54",
         "_origen": "grupo",
         "_pie": "Noelia romano\n45.609.998"
+      },
+      {
+        "fecha": "13/06/2026",
+        "hora": "22:50",
+        "tipo": "TRF",
+        "monto": 100000.0,
+        "moneda": "ARS",
+        "remitente": "Belen Katherine Quiñones",
+        "remitente_cuil": "27-40398893-1",
+        "destinatario": "SASTEUP SRL",
+        "banco_origen": "AstroPay",
+        "banco_destino": "",
+        "referencia": "67REZ8NPQ6WPD5OG94KVGO",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CVU remitente: 0000177503219007847951. CVU receptor: 0000155300000000009977. CUIL receptor: 30717282252. Alias receptor: cvu.977",
+        "_num": 1059,
+        "_fecha_carga": "18/06/2026 12:54",
+        "_origen": "grupo",
+        "_pie": "Belén quiñones \n40398893"
       }
     ],
     "errores": [],
