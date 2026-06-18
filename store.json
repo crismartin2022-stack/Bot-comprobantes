@@ -35133,6 +35133,28 @@
         "_fecha_carga": "18/06/2026 14:41",
         "_origen": "grupo",
         "_pie": "ezequiel finocchi\n26373742"
+      },
+      {
+        "fecha": "13/06/2026",
+        "hora": "07:40",
+        "tipo": "TRF",
+        "monto": 66000.0,
+        "moneda": "ARS",
+        "remitente": "Kevin Fabian Barbas",
+        "remitente_cuil": "20-43312108-3",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163915266144",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: 76V4MR2Z74LR8ZKGNDEZOL. CVU remitente: 0000003100006336665612. CVU destinatario: 0000155300000000009977",
+        "_num": 1594,
+        "_fecha_carga": "18/06/2026 14:41",
+        "_origen": "grupo",
+        "_pie": "kevin barbas\n43312108"
       }
     ],
     "errores": [],
