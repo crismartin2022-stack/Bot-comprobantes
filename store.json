@@ -6238,6 +6238,28 @@
         "_fecha_carga": "17/06/2026 21:38",
         "_origen": "grupo",
         "_pie": "MATIAS EMMANUEL TORRES MOYANO\nCUIT 20-32356439-7"
+      },
+      {
+        "fecha": "13/06/2026",
+        "hora": "00:45",
+        "tipo": "TRF",
+        "monto": 300001.0,
+        "moneda": "ARS",
+        "remitente": "Pablo Agustin Franco",
+        "remitente_cuil": "20-42176164-8",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163091082809",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: D4RO172VZQ8VDJXRNKJ3QE. CUIT destinatario: 30-71728225-2. CVU destinatario completo: 0000155300000000000009977",
+        "_num": 283,
+        "_fecha_carga": "17/06/2026 21:38",
+        "_origen": "grupo",
+        "_pie": "Pablo Agustin Franco\nCUIT/CUIL: 20-42176164-8"
       }
     ],
     "errores": [],
