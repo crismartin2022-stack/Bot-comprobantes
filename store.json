@@ -28542,6 +28542,28 @@
         "_fecha_carga": "18/06/2026 13:34",
         "_origen": "grupo",
         "_pie": "Alan Gabriel Salvatierra\nCUIT/CUIL: 24-42055465-2"
+      },
+      {
+        "fecha": "14/06/2026",
+        "hora": "20:06",
+        "tipo": "TRF",
+        "monto": 25000.0,
+        "moneda": "ARS",
+        "remitente": "Nicolas Daniel Isleno",
+        "remitente_cuil": "20-43810968-5",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Naranja X",
+        "banco_destino": "Cuenta Virtual",
+        "referencia": "RD06ZO9WVR4G0735N5GP7X",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CBU origen: 4530000800015520462883. CVU destino: 0000155300000000009977. CUIL destinatario: 30-71728225-2. Código de transacción: 788ad126-0cf7-43d5-b651-b13dc73f9ffe.",
+        "_num": 1295,
+        "_fecha_carga": "18/06/2026 13:35",
+        "_origen": "grupo",
+        "_pie": "Nicolas Daniel Isleno\nNaranja X\n4530000800015520462883\n20-43810968-5"
       }
     ],
     "errores": [],
