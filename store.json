@@ -2112,6 +2112,28 @@
         "_fecha_carga": "17/06/2026 21:11",
         "_origen": "grupo",
         "_pie": "Damaris Evelyn navedo Álvarez \n46275781"
+      },
+      {
+        "fecha": "12/06/2026",
+        "hora": "00:50",
+        "tipo": "TRF",
+        "monto": 150000.0,
+        "moneda": "ARS",
+        "remitente": "Juan Pablo Juani",
+        "remitente_cuil": "20-42904568-2",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Naranja X",
+        "banco_destino": "Cuenta Virtual",
+        "referencia": "1LMP68NKVX8ZQ5ZP2R7OEV",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CBU origen: 4530000800019921086521. CVU destino: 0000155300000000009977. CUIL destinatario: 30-71728225-2. Código de transacción: 6f4bd311-76cc-43db-a2aa-2db1534a3d7a",
+        "_num": 96,
+        "_fecha_carga": "17/06/2026 21:11",
+        "_origen": "grupo",
+        "_pie": "Juan Pablo Juani\nNaranja X\n4530000800019921086521\n20-42904568-2"
       }
     ],
     "errores": [],
