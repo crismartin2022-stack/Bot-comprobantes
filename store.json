@@ -26162,6 +26162,28 @@
         "_fecha_carga": "18/06/2026 13:14",
         "_origen": "grupo",
         "_pie": "GERALDINE ABRIL ACOSTA\nCUIT 27-47167364-7"
+      },
+      {
+        "fecha": "13/06/2026",
+        "hora": "22:51",
+        "tipo": "TRF",
+        "monto": 250000.0,
+        "moneda": "ARS",
+        "remitente": "BRENDA ANAHI CHAVEZ",
+        "remitente_cuil": "27-45999352-0",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Banco De Galicia S.A.U",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "42101342788",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "ID COELSA: PDX4OGNYGP1DM0X4N0L6EY. CVU destinatario: 0000155300000000009977. CUIT destinatario: 30-71728225-2",
+        "_num": 1187,
+        "_fecha_carga": "18/06/2026 13:14",
+        "_origen": "grupo",
+        "_pie": "De:\nBRENDA ANAHI CHAVEZ\nCUIT 27-45999352-0"
       }
     ],
     "errores": [],
