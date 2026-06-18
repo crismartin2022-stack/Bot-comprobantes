@@ -45454,6 +45454,28 @@
         "_fecha_carga": "18/06/2026 19:55",
         "_origen": "grupo",
         "_pie": "Brisa Alvarenga\n27-46100608-1"
+      },
+      {
+        "fecha": "12/06/2026",
+        "hora": "00:40",
+        "tipo": "TRF",
+        "monto": 25000.0,
+        "moneda": "ARS",
+        "remitente": "Leonel Nicolas Rinero",
+        "remitente_cuil": "20-45681786-7",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "162918166681",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: XJ8G7V95DXQ0PRRL9EMPYR. CVU remitente: 0000003100029360642554. CVU destinatario: 0000155300000000009977.",
+        "_num": 99,
+        "_fecha_carga": "18/06/2026 19:55",
+        "_origen": "grupo",
+        "_pie": "Leonel Nicolas Rinero\nCUIT/CUIL: 20-45681786-7"
       }
     ],
     "errores": [],
