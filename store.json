@@ -2134,6 +2134,28 @@
         "_fecha_carga": "17/06/2026 21:11",
         "_origen": "grupo",
         "_pie": "Juan Pablo Juani\nNaranja X\n4530000800019921086521\n20-42904568-2"
+      },
+      {
+        "fecha": "12/06/2026",
+        "hora": "00:50",
+        "tipo": "TRF",
+        "monto": 100000.0,
+        "moneda": "ARS",
+        "remitente": "Luis Alberto Martinez",
+        "remitente_cuil": "20-41920839-7",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163726760570",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: WGRXJE27DYRL445ON7MYQL. CVU remitente: 0000003100097933806399. CVU destinatario: 0000155300000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 97,
+        "_fecha_carga": "17/06/2026 21:12",
+        "_origen": "grupo",
+        "_pie": "Luis Alberto Martinez\nCUIT/CUIL: 20-41920839-7"
       }
     ],
     "errores": [],
