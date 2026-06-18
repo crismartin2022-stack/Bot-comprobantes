@@ -40564,6 +40564,28 @@
         "_fecha_carga": "18/06/2026 15:29",
         "_origen": "grupo",
         "_pie": "Natalia nazarena cea Gutiérrez\n36.679.470"
+      },
+      {
+        "fecha": "13/06/2026",
+        "hora": "19:02",
+        "tipo": "TRF",
+        "monto": 100000.0,
+        "moneda": "ARS",
+        "remitente": "Pablo Antonio Moscoso",
+        "remitente_cuil": "",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Ualá",
+        "banco_destino": "BILLETERA VIRTUAL",
+        "referencia": "585df715-6004-9e53-7372-8b761ded0221",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CVU destino: 0000155300000000009977. CBU emisor: 3840200500000011262374. CUIT/CUIL destino: 30-71728225-2. Comentario: Transferencia en pesos.",
+        "_num": 1840,
+        "_fecha_carga": "18/06/2026 15:29",
+        "_origen": "grupo",
+        "_pie": "Moscoso Pablo Antonio \n35.021.013"
       }
     ],
     "errores": [],
