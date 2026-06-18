@@ -50130,6 +50130,28 @@
         "_fecha_carga": "18/06/2026 20:24",
         "_origen": "grupo",
         "_pie": "Fabian Nicolas Alvarez\nCUIT/CUIL: 20-37810983-4"
+      },
+      {
+        "fecha": "12/06/2026",
+        "hora": "22:52",
+        "tipo": "TRF",
+        "monto": 500000.0,
+        "moneda": "ARS",
+        "remitente": "Brepe, Kevin Agustin",
+        "remitente_cuil": "20-42196385-2",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Personal Pay",
+        "banco_destino": "",
+        "referencia": "2739096940",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CoelsaID: 76V4MR2Z74LK17MYNDEZOL - Id Bancario. CBU/CVU destinatario: 0000155300000000009977. CUIL/CUIT destinatario: 30-71728225-2.",
+        "_num": 311,
+        "_fecha_carga": "18/06/2026 20:24",
+        "_origen": "grupo",
+        "_pie": "Brepe, Kevin Agustin\n20-42196385-2"
       }
     ],
     "errores": [],
