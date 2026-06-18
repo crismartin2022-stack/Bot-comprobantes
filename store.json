@@ -4230,6 +4230,28 @@
         "_fecha_carga": "17/06/2026 21:26",
         "_origen": "grupo",
         "_pie": "Fatima Alfonzo\nNaranja X\n4530000800012676709840\n27-95859382-7"
+      },
+      {
+        "fecha": "12/06/2026",
+        "hora": "21:11",
+        "tipo": "TRF",
+        "monto": 250000.0,
+        "moneda": "ARS",
+        "remitente": "Diego Sebastian Romero",
+        "remitente_cuil": "23-39350507-9",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163874776040",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: ORD6LEN8P1Y1XWM0NM1Y30. CVU remitente: 0000003100024483911688. CVU destinatario: 0000155300000000009977. CUIL destinatario: 30-71728225-2.",
+        "_num": 192,
+        "_fecha_carga": "17/06/2026 21:26",
+        "_origen": "grupo",
+        "_pie": "Diego Sebastian Romero\nCUIT/CUIL: 23-39350507-9"
       }
     ],
     "errores": [],
