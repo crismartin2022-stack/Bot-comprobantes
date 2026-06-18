@@ -47616,6 +47616,28 @@
         "_fecha_carga": "18/06/2026 20:08",
         "_origen": "grupo",
         "_pie": "Claudio Daniel Weber\nCUIT/CUIL: 20-35245699-4"
+      },
+      {
+        "fecha": "12/06/2026",
+        "hora": "21:05",
+        "tipo": "TRF",
+        "monto": 25000.0,
+        "moneda": "ARS",
+        "remitente": "Pablo Scotta",
+        "remitente_cuil": "20-46307447-0",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Naranja X",
+        "banco_destino": "Cuenta Virtual",
+        "referencia": "86VRPQ2GMWLW855L2GLY0M",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CBU origen: 4530000800010375412485. CVU destino: 0000155300000000009977. CUIL destinatario: 30-71728225-2. Código de transacción: e495f3a2-0f96-4a3d-8cdb-cca76099b080",
+        "_num": 197,
+        "_fecha_carga": "18/06/2026 20:09",
+        "_origen": "grupo",
+        "_pie": "Pablo Scotta\nNaranja X\n4530000800010375412485\n20-46307447-0"
       }
     ],
     "errores": [],
