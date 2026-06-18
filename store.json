@@ -4495,6 +4495,28 @@
         "_fecha_carga": "17/06/2026 21:27",
         "_origen": "grupo",
         "_pie": "MATIAS EMMANUEL TORRES MOYANO\nCUIT 20-32356439-7"
+      },
+      {
+        "fecha": "12/06/2026",
+        "hora": "22:10",
+        "tipo": "TRF",
+        "monto": 200000.0,
+        "moneda": "ARS",
+        "remitente": "Agustin Angel Alejandro Urquiza",
+        "remitente_cuil": "20-37433445-0",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Naranja X",
+        "banco_destino": "Cuenta Virtual",
+        "referencia": "86VRPQ2GML3VGXVL2GLY0M",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CBU origen: 4530000800011324003468. CVU destino: 0000155300000000009977. Código de transacción: 02294500-1e70-485f-b2f1-623c120d0966. CUIL destinatario: 30-71728225-2.",
+        "_num": 204,
+        "_fecha_carga": "17/06/2026 21:28",
+        "_origen": "grupo",
+        "_pie": "Agustin Angel Alejandro Urquiza\nCUIT/CUIL: 20-37433445-0"
       }
     ],
     "errores": [],
