@@ -25876,6 +25876,28 @@
         "_fecha_carga": "18/06/2026 13:12",
         "_origen": "grupo",
         "_pie": "DNI 94678069\nTitular Artemio David romero"
+      },
+      {
+        "fecha": "13/06/2026",
+        "hora": "22:28",
+        "tipo": "TRF",
+        "monto": 300000.0,
+        "moneda": "ARS",
+        "remitente": "Franco Gimenez",
+        "remitente_cuil": "20-47402527-7",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Naranja X",
+        "banco_destino": "Cuenta Virtual",
+        "referencia": "1LMP68NKVEJPZRRZ2R7OEV",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de transacción adicional: ca503c01-5acf-4263-b3cc-b61e826e70aa. CBU origen: 4530000800017084533296. CVU destino: 0000155300000000009977. CUIL destinatario: 30-71728225-2",
+        "_num": 1174,
+        "_fecha_carga": "18/06/2026 13:12",
+        "_origen": "grupo",
+        "_pie": "Franco Gimenez\nNaranja X\n4530000800017084533296\n20-47402527-7"
       }
     ],
     "errores": [],
