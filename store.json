@@ -2090,6 +2090,28 @@
         "_fecha_carga": "17/06/2026 21:11",
         "_origen": "grupo",
         "_pie": "nvía Molina, Yamila Antonella\nCUIL/CUIT 27-39154409-9"
+      },
+      {
+        "fecha": "12/06/2026",
+        "hora": "00:49",
+        "tipo": "TRF",
+        "monto": 50000.0,
+        "moneda": "ARS",
+        "remitente": "Damaris Evelyn Navedo Alvarez",
+        "remitente_cuil": "27-46275781-1",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163725455996",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: Z6OLMDN3VKOZ5OJX2E7RQ5. CVU remitente: 0000003100085872291840. CVU destinatario: 0000155300000000009977",
+        "_num": 95,
+        "_fecha_carga": "17/06/2026 21:11",
+        "_origen": "grupo",
+        "_pie": "Damaris Evelyn navedo Álvarez \n46275781"
       }
     ],
     "errores": [],
