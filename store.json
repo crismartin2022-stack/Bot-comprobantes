@@ -19504,6 +19504,28 @@
         "_fecha_carga": "18/06/2026 00:38",
         "_origen": "grupo",
         "_pie": ""
+      },
+      {
+        "fecha": "13/06/2026",
+        "hora": "17:24",
+        "tipo": "TRF",
+        "monto": 13550.0,
+        "moneda": "ARS",
+        "remitente": "Laureano Jorge Nogueira",
+        "remitente_cuil": "20-33269640-9",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163994284904",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: JMQKYZ9QQV400Y3R9V50P3. CVU remitente: 0000003100009658776192. CVU destinatario: 0000155300000000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 885,
+        "_fecha_carga": "18/06/2026 00:38",
+        "_origen": "grupo",
+        "_pie": ""
       }
     ],
     "errores": [],
