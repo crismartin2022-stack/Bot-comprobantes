@@ -50152,6 +50152,28 @@
         "_fecha_carga": "18/06/2026 20:24",
         "_origen": "grupo",
         "_pie": "Brepe, Kevin Agustin\n20-42196385-2"
+      },
+      {
+        "fecha": "13/06/2026",
+        "hora": "09:13",
+        "tipo": "TRF",
+        "monto": 250000.0,
+        "moneda": "ARS",
+        "remitente": "Iara Anael Ballesteros",
+        "remitente_cuil": "27-42945246-0",
+        "destinatario": "SASTEUP SRL",
+        "banco_origen": "AstroPay",
+        "banco_destino": "",
+        "referencia": "76V4MR2Z74L6Q13ENDEZOL",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CVU remitente: 0000177507069005412479. CVU receptor: 0000155300000000009977. CUIT receptor: 30717282252. Alias receptor: cvu.977",
+        "_num": 312,
+        "_fecha_carga": "18/06/2026 20:24",
+        "_origen": "grupo",
+        "_pie": "lara Anael Ballesteros\n27429452460"
       }
     ],
     "errores": [],
