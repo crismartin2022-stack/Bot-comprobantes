@@ -32204,6 +32204,28 @@
         "_fecha_carga": "18/06/2026 13:59",
         "_origen": "grupo",
         "_pie": "Karen Del Valle Varela\nCUIT/CUIL: 27-37635802-5\nMercado Pago"
+      },
+      {
+        "fecha": "11/06/2026",
+        "hora": "13:45",
+        "tipo": "TRF",
+        "monto": 250000.0,
+        "moneda": "ARS",
+        "remitente": "Victor Hugo Minue",
+        "remitente_cuil": "20-37491228-4",
+        "destinatario": "SASTEUP SRL",
+        "banco_origen": "AstroPay",
+        "banco_destino": "",
+        "referencia": "N8P1GZ763ONM1Y30",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Coelsa ID parcialmente visible: ...N8P1GZ763ONM1Y30. CVU remitente: 0000177500093701864712. CVU receptor: 0000155300000000009977. Alias receptor: cvu.977. CUIT receptor: 30717282252.",
+        "_num": 1461,
+        "_fecha_carga": "18/06/2026 14:00",
+        "_origen": "grupo",
+        "_pie": "Victor Hugo Minue\nCUIT/CUIL\n20374912284"
       }
     ],
     "errores": [],
