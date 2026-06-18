@@ -21506,6 +21506,28 @@
         "_fecha_carga": "18/06/2026 00:50",
         "_origen": "grupo",
         "_pie": "Santiago Alejo Reynozo\n46.142.612"
+      },
+      {
+        "fecha": "14/06/2026",
+        "hora": "00:05",
+        "tipo": "TRF",
+        "monto": 500000.35,
+        "moneda": "ARS",
+        "remitente": "Angel Damian Zurita",
+        "remitente_cuil": "20-16554662-9",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163236709691",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: XJ8G7V95DWDKEDVR9EMPYR. CUIL destinatario: 30-71728225-2. CVU remitente: 0000003100016261529615. CVU destinatario: 0000155300000000009977.",
+        "_num": 976,
+        "_fecha_carga": "18/06/2026 00:50",
+        "_origen": "grupo",
+        "_pie": "Ángel Damián Zurita\nDNI: 16.554.662"
       }
     ],
     "errores": [],
