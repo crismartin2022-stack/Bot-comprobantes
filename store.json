@@ -43540,6 +43540,28 @@
         "_fecha_carga": "18/06/2026 19:43",
         "_origen": "grupo",
         "_pie": "Aylen Maria Ester Gonzalez\nCUIT/CUIL: 27-47506525-0"
+      },
+      {
+        "fecha": "11/06/2026",
+        "hora": "20:37",
+        "tipo": "TRF",
+        "monto": 300000.0,
+        "moneda": "ARS",
+        "remitente": "Alan Javier Soto Sejas",
+        "remitente_cuil": "",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Ualá",
+        "banco_destino": "",
+        "referencia": "1LMP68NKVXP8DZ4D2R7OEV",
+        "concepto": "VAR",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CUIT destino: 30717282252. CBU destino: 0000155300000000009977",
+        "_num": 12,
+        "_fecha_carga": "18/06/2026 19:43",
+        "_origen": "grupo",
+        "_pie": "Alan soto\nCUIL-CUIT: 20-45176794-2"
       }
     ],
     "errores": [],
