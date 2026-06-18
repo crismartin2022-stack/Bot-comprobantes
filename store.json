@@ -26250,6 +26250,28 @@
         "_fecha_carga": "18/06/2026 13:14",
         "_origen": "grupo",
         "_pie": "Nancy Karina Nieto\nCUIT/CUIL: 27-25056249-2"
+      },
+      {
+        "fecha": "13/06/2026",
+        "hora": "23:04",
+        "tipo": "TRF",
+        "monto": 300000.0,
+        "moneda": "ARS",
+        "remitente": "Vallejos Brandala, Elias Alejandro",
+        "remitente_cuil": "20-46101453-5",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Personal Pay",
+        "banco_destino": "",
+        "referencia": "2741672703",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CoelsaID: 7L8GYKNX05WLO0YQ2MPRZ5 - Id Bancario. CBU/CVU destinatario: 0000155300000000009977. CUIL/CUIT destinatario: 30-71728225-2.",
+        "_num": 1191,
+        "_fecha_carga": "18/06/2026 13:15",
+        "_origen": "grupo",
+        "_pie": "Vallejos Brandala, Elias Alejandro\nCUIL/CUIT 20-46101453-5"
       }
     ],
     "errores": [],
