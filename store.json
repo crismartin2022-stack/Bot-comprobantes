@@ -50638,6 +50638,28 @@
         "_fecha_carga": "18/06/2026 20:27",
         "_origen": "grupo",
         "_pie": "Walter lopez 41480285"
+      },
+      {
+        "fecha": "13/06/2026",
+        "hora": "14:59",
+        "tipo": "TRF",
+        "monto": 12000.0,
+        "moneda": "ARS",
+        "remitente": "Julieta Anahi Del Valle Albarracin",
+        "remitente_cuil": "27-39141833-6",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Naranja X",
+        "banco_destino": "Cuenta Virtual",
+        "referencia": "D4RO172VZQ16ZLLRNKJ3QE",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CBU origen: 4530000800015500537527. CVU destino: 0000155300000000009977. CUIL destinatario: 30-71728225-2. Código de transacción: 0c26f5a7-8cdf-43b4-9c09-c26d947ddaaf",
+        "_num": 334,
+        "_fecha_carga": "18/06/2026 20:27",
+        "_origen": "grupo",
+        "_pie": "Julieta Albarracín \n39.141.833"
       }
     ],
     "errores": [],
