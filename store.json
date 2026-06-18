@@ -24884,6 +24884,28 @@
         "_fecha_carga": "18/06/2026 13:05",
         "_origen": "grupo",
         "_pie": "Luque Miguez, Ariadna Abigail\nCUIL/CUIT 27-48299541-7"
+      },
+      {
+        "fecha": "13/06/2026",
+        "hora": "20:14",
+        "tipo": "TRF",
+        "monto": 200000.0,
+        "moneda": "ARS",
+        "remitente": "Cesar Daniel Suarez",
+        "remitente_cuil": "",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Ualá",
+        "banco_destino": "",
+        "referencia": "Z4K6DVNOWYD3YW1125J8LQ",
+        "concepto": "VAR",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CBU destino: 0000155300000000009977. CUIT destino: 30717282252 (Sasteup Srl).",
+        "_num": 1129,
+        "_fecha_carga": "18/06/2026 13:05",
+        "_origen": "grupo",
+        "_pie": "Cesar Daniel Suarez\nCUIT/CUIL: 20-23937652-6"
       }
     ],
     "errores": [],
