@@ -41534,6 +41534,28 @@
         "_fecha_carga": "18/06/2026 15:36",
         "_origen": "grupo",
         "_pie": "Roma Rodrigo Benjamin Centeno \n20-45744680-3"
+      },
+      {
+        "fecha": "15/06/2026",
+        "hora": "21:45",
+        "tipo": "TRF",
+        "monto": 500000.03,
+        "moneda": "ARS",
+        "remitente": "Maximiliano Ezequiel Gamarra",
+        "remitente_cuil": "20-40767661-1",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163490465171",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: D4RO172VZQW6J4RVNKJ3QE. CVU remitente: 0000003100083054766083. CVU destinatario: 0001553000000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 1884,
+        "_fecha_carga": "18/06/2026 15:36",
+        "_origen": "grupo",
+        "_pie": "Maximiliano Ezequiel Gamarra \n 20-40767661-1"
       }
     ],
     "errores": [],
