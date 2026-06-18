@@ -1320,6 +1320,28 @@
         "_fecha_carga": "17/06/2026 21:06",
         "_origen": "grupo",
         "_pie": "Martina Analia Acosta\nCUIT/CUIL: 27-44887309-4"
+      },
+      {
+        "fecha": "11/06/2026",
+        "hora": "23:05",
+        "tipo": "TRF",
+        "monto": 200000.0,
+        "moneda": "ARS",
+        "remitente": "Luana Sol Garcia",
+        "remitente_cuil": "27-44141309-8",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Naranja X",
+        "banco_destino": "Cuenta Virtual",
+        "referencia": "Z6OLMDN3VKOJW3R52E7RQ5",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CBU origen: 4530000800014150819168. CVU destino: 0000155300000000009977. CUIL destinatario: 30-71728225-2. Código de transacción: f4974460-a798-4e33-a311-68e779f3b5f3",
+        "_num": 60,
+        "_fecha_carga": "17/06/2026 21:06",
+        "_origen": "grupo",
+        "_pie": "Luana Sol Garcia\nNaranja X\n4530000800014150819168\n27-44141309-8"
       }
     ],
     "errores": [],
