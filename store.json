@@ -6414,6 +6414,28 @@
         "_fecha_carga": "17/06/2026 21:39",
         "_origen": "grupo",
         "_pie": "Bernardo David Colman\nCUIT/CUIL: 20-41474843-1"
+      },
+      {
+        "fecha": "13/06/2026",
+        "hora": "01:03",
+        "tipo": "TRF",
+        "monto": 25000.0,
+        "moneda": "ARS",
+        "remitente": "Natalia Noelia Moncalvo",
+        "remitente_cuil": "27-30639838-0",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163092514599",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: PDX4OGNYGPRXJ0GRN0L6EY. CUIT destinatario: 30-71728225-2. CVU destinatario: 0000155300000000000009977",
+        "_num": 291,
+        "_fecha_carga": "17/06/2026 21:40",
+        "_origen": "grupo",
+        "_pie": "Natalia Noelia Moncalvo\nCUIT/CUIL: 27-30639838-0"
       }
     ],
     "errores": [],
