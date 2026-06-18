@@ -42660,6 +42660,28 @@
         "_fecha_carga": "18/06/2026 15:44",
         "_origen": "grupo",
         "_pie": "Brian David Munoz\nCUIT/CUIL: 20-44141951-2"
+      },
+      {
+        "fecha": "16/06/2026",
+        "hora": "00:21",
+        "tipo": "TRF",
+        "monto": 50000.0,
+        "moneda": "ARS",
+        "remitente": "Delia Carolina Ocampos Monges",
+        "remitente_cuil": "27-95400070-8",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "164318244094",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: JMQKYZ9QQV1JQ6X89V50P3. CVU remitente: 0000003100024888432649. CVU destinatario: 0000155300000000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 1935,
+        "_fecha_carga": "18/06/2026 15:44",
+        "_origen": "grupo",
+        "_pie": "Delia Carolina Ocampos Monges\nCUIT/CUIL: 27-95400070-8"
       }
     ],
     "errores": [],
