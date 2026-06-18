@@ -9809,6 +9809,28 @@
         "_fecha_carga": "17/06/2026 23:25",
         "_origen": "grupo",
         "_pie": "Foto de Ges"
+      },
+      {
+        "fecha": "11/06/2026",
+        "hora": "16:07",
+        "tipo": "TRF",
+        "monto": 6629.0,
+        "moneda": "ARS",
+        "remitente": "Paola Fabiana Cueliche",
+        "remitente_cuil": "27-32819267-0",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163652748580",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: 3D5W612E6EQLREP52GXYVR. CVU remitente: 0000003100091857281399. CVU destinatario: 0000155300000000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 445,
+        "_fecha_carga": "17/06/2026 23:26",
+        "_origen": "grupo",
+        "_pie": "Foto de Ges"
       }
     ],
     "errores": [],
