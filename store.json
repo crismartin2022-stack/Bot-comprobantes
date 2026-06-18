@@ -41138,6 +41138,28 @@
         "_fecha_carga": "18/06/2026 15:33",
         "_origen": "grupo",
         "_pie": "Rodrigo herrera\n36.395.429"
+      },
+      {
+        "fecha": "14/06/2026",
+        "hora": "23:14",
+        "tipo": "TRF",
+        "monto": 300000.0,
+        "moneda": "ARS",
+        "remitente": "Estefania Soledad Martinez",
+        "remitente_cuil": "27-37013605-5",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163351838927",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: 67REZ8NPQ6MEPEJP94KVGO. CUIT destinatario: 30-71728225-2. CVU remitente: 0000003100007743185784. CVU destinatario: 0000155300000000009977",
+        "_num": 1866,
+        "_fecha_carga": "18/06/2026 15:33",
+        "_origen": "grupo",
+        "_pie": "Estefania Soledad Martinez\nCUIT/CUIL: 27-37013605-5"
       }
     ],
     "errores": [],
