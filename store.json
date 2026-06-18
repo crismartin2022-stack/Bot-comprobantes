@@ -32072,6 +32072,28 @@
         "_fecha_carga": "18/06/2026 13:59",
         "_origen": "grupo",
         "_pie": "CUIT destino\n30717282252\nNombre remitente\nruben adrian suarez"
+      },
+      {
+        "fecha": "12/06/2026",
+        "hora": "00:06",
+        "tipo": "TRF",
+        "monto": 200000.0,
+        "moneda": "ARS",
+        "remitente": "Jessica Villarreal",
+        "remitente_cuil": "27-37435849-4",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Naranja X",
+        "banco_destino": "Cuenta Virtual",
+        "referencia": "Z6OLMDN3VKOPL0362E7RQ5",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de transacción adicional: 5e13a7bb-5584-40af-b094-e55b406ea5ff. CVU destinatario: 0000155300000000009977. CBU remitente: 4530000800012937018061.",
+        "_num": 1455,
+        "_fecha_carga": "18/06/2026 13:59",
+        "_origen": "grupo",
+        "_pie": "Jessica Villarreal\nNaranja X\nCBU\n4530000800012937018061\nCUIL\n27-37435849-4"
       }
     ],
     "errores": [],
