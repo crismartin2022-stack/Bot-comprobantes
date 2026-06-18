@@ -37254,6 +37254,28 @@
         "_fecha_carga": "18/06/2026 14:55",
         "_origen": "grupo",
         "_pie": "Bet30click"
+      },
+      {
+        "fecha": "14/06/2026",
+        "hora": "22:39",
+        "tipo": "TRF",
+        "monto": 20000.0,
+        "moneda": "ARS",
+        "remitente": "Lurdes Rocio Caballero",
+        "remitente_cuil": "27-33909361-5",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "164161190838",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: ORD6LEN8PYMJ3L0YNM1Y30. CVU remitente: 0000003100067540752833. CVU destinatario: 0000155300000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 1690,
+        "_fecha_carga": "18/06/2026 14:55",
+        "_origen": "grupo",
+        "_pie": "Lurdes caballero 33909361"
       }
     ],
     "errores": [],
