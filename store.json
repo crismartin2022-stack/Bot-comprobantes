@@ -44728,6 +44728,28 @@
         "_fecha_carga": "18/06/2026 19:51",
         "_origen": "grupo",
         "_pie": "20-95414902-2"
+      },
+      {
+        "fecha": "11/06/2026",
+        "hora": "23:04",
+        "tipo": "TRF",
+        "monto": 50000.0,
+        "moneda": "ARS",
+        "remitente": "Martina Analia Acosta",
+        "remitente_cuil": "27-44887309-4",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163716645950",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: 46YGOW9M1YWXQL4ZNEXD8J. CVU remitente: 0000003100056022040401. CVU destinatario: 0000155300000000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 66,
+        "_fecha_carga": "18/06/2026 19:51",
+        "_origen": "grupo",
+        "_pie": "Martina Analia Acosta\nCUIT/CUIL: 27-44887309-4"
       }
     ],
     "errores": [],
