@@ -51014,6 +51014,28 @@
         "_fecha_carga": "18/06/2026 20:29",
         "_origen": "grupo",
         "_pie": "Foto de Ges"
+      },
+      {
+        "fecha": "09/06/2026",
+        "hora": "14:06",
+        "tipo": "TRF",
+        "monto": 12000.0,
+        "moneda": "ARS",
+        "remitente": "Victor Sebastian Doello",
+        "remitente_cuil": "20-23702005-8",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Naranja X",
+        "banco_destino": "Cuenta Virtual",
+        "referencia": "RD06ZO9WV73VWP3XN5GP7X",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CBU origen: 4530000800012876608514. CVU destino: 0000155300000000009977. CUIL destinatario: 30-71728225-2. Código de transacción: 173c5468-2451-44ca-80a1-ea9d30aaa29f",
+        "_num": 351,
+        "_fecha_carga": "18/06/2026 20:30",
+        "_origen": "grupo",
+        "_pie": "Foto de Ges"
       }
     ],
     "errores": [],
