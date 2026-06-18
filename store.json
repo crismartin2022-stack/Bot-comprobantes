@@ -39198,6 +39198,28 @@
         "_fecha_carga": "18/06/2026 15:09",
         "_origen": "grupo",
         "_pie": "300 k (Tony90) \n*Sasteup Srl* \n13/6 \nMaximiliano Mansilla\n20-34957607-5"
+      },
+      {
+        "fecha": "13/06/2026",
+        "hora": "14:44",
+        "tipo": "TRF",
+        "monto": 600000.0,
+        "moneda": "ARS",
+        "remitente": "Walter Oscar Silvetti",
+        "remitente_cuil": "20-40495304-5",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163969827906",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: WGRXJE27DXQ5V3WLN7MYQL. CVU remitente: 0000003100058681241605. CVU destinatario: 0000155300000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 1778,
+        "_fecha_carga": "18/06/2026 15:09",
+        "_origen": "grupo",
+        "_pie": "Envío en total \n$2.040.000\n\n•600k (Tony 90)\n•*Sasteup Srl*\n•13/06\n•Walter Oscar Silvetti\n•20-40495304-5\n\n•440k (Tony 90)\n•*Sasteup Srl*\n•13/06\n•Eleonora Magali Gallardo\n•27-45534816-7\n\n•300k (Tony 90)\n•*Sasteup Srl*\n•13/06\n•Alicia Veronica Ledesma\n•27-23971189-3\n\n•700k (Tony 90)\n•*Sasteup Srl*\n•13/06\n•Walter Oscar Silvetti\n•20-40495304-5"
       }
     ],
     "errores": [],
