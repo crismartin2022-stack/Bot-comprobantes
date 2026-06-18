@@ -1188,6 +1188,28 @@
         "_fecha_carga": "17/06/2026 21:05",
         "_origen": "grupo",
         "_pie": "Rosalia Del Carmen Medina\nCUIT/CUIL: 27-14516073-7"
+      },
+      {
+        "fecha": "11/06/2026",
+        "hora": "22:53",
+        "tipo": "TRF",
+        "monto": 100000.0,
+        "moneda": "ARS",
+        "remitente": "Matias Nicolas Quevedo Hermosilla",
+        "remitente_cuil": "",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Ualá",
+        "banco_destino": "",
+        "referencia": "46YGOW9M1YWGKZWPNEXD8J",
+        "concepto": "VAR",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CUIT destino: 30717282252. CBU destino: 0000155300000000009977",
+        "_num": 54,
+        "_fecha_carga": "17/06/2026 21:05",
+        "_origen": "grupo",
+        "_pie": "A nombre de \nMatias Quevedo\n40640486"
       }
     ],
     "errores": [],
