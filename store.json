@@ -30527,6 +30527,28 @@
         "_fecha_carga": "18/06/2026 13:48",
         "_origen": "grupo",
         "_pie": "Juliana palavecino \n47337453"
+      },
+      {
+        "fecha": "15/06/2026",
+        "hora": "15:00",
+        "tipo": "TRF",
+        "monto": 300000.0,
+        "moneda": "ARS",
+        "remitente": "Fernando Javier Morinigo Rodriguez",
+        "remitente_cuil": "20-94692255-3",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "164245458434",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: LOEJWV9JZ37JV6G82QMD0G. CVU remitente: 0000003100076679014150. CVU destinatario: 0000155300000000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 1385,
+        "_fecha_carga": "18/06/2026 13:48",
+        "_origen": "grupo",
+        "_pie": "Fernando Javier Morinigo Rodriguez\nCUIT/CUIL: 20-94692255-3"
       }
     ],
     "errores": [],
