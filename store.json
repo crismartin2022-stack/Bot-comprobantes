@@ -23426,6 +23426,28 @@
         "_fecha_carga": "18/06/2026 12:55",
         "_origen": "grupo",
         "_pie": "Veronica Brito 27.823.362"
+      },
+      {
+        "fecha": "14/06/2026",
+        "hora": "01:14",
+        "tipo": "TRF",
+        "monto": 40000.0,
+        "moneda": "ARS",
+        "remitente": "Mijael David Silvestre",
+        "remitente_cuil": "",
+        "destinatario": "SASTEUP SRL",
+        "banco_origen": "Ualá",
+        "banco_destino": "",
+        "referencia": "7L8GYKNX050W16XP2MPRZ5",
+        "concepto": "VAR",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CUIT destinatario: 30717282252. CVU destino completo: 0000155300000000009977",
+        "_num": 1063,
+        "_fecha_carga": "18/06/2026 12:55",
+        "_origen": "grupo",
+        "_pie": "mijael silvestre\n45495880"
       }
     ],
     "errores": [],
