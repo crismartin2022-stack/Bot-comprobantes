@@ -29866,6 +29866,28 @@
         "_fecha_carga": "18/06/2026 13:44",
         "_origen": "grupo",
         "_pie": "Diego Luis Garcia\nCUIT/CUIL: 20-25809829-4"
+      },
+      {
+        "fecha": "14/06/2026",
+        "hora": "23:45",
+        "tipo": "TRF",
+        "monto": 400000.0,
+        "moneda": "ARS",
+        "remitente": "Ramon Neris Villan",
+        "remitente_cuil": "20-23230762-6",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Naranja X",
+        "banco_destino": "Cuenta Virtual",
+        "referencia": "7L8GYKNX054330YQ2MPRZ5",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CBU origen: 4530000800010452914699. CVU destino: 0000155300000000009977. CUIL destinatario: 30-71728225-2. Código de transacción: 35bc9730-3b64-47ba-8583-07576723e1e9",
+        "_num": 1355,
+        "_fecha_carga": "18/06/2026 13:44",
+        "_origen": "grupo",
+        "_pie": "Ramon Neris Villan\nNaranja X\n4530000800010452914699\n20-23230762-6"
       }
     ],
     "errores": [],
