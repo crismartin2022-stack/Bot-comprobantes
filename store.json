@@ -45916,6 +45916,28 @@
         "_fecha_carga": "18/06/2026 19:58",
         "_origen": "grupo",
         "_pie": "Nadia acosta 40887540"
+      },
+      {
+        "fecha": "12/06/2026",
+        "hora": "11:03",
+        "tipo": "TRF",
+        "monto": 60000.0,
+        "moneda": "ARS",
+        "remitente": "Miriam Lili Nunez Fernandez",
+        "remitente_cuil": "27-94216492-6",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163768879970",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: 3D5W612E6EMEQ57W2GXYVR. CUIT destinatario: 30-71728225-2. CVU remitente: 0000003100098349467435. CVU destinatario: 0000155300000000009977.",
+        "_num": 120,
+        "_fecha_carga": "18/06/2026 19:58",
+        "_origen": "grupo",
+        "_pie": "Miriam Lili Nunez Fernandez\nCUIT/CUIL: 27-94216492-6"
       }
     ],
     "errores": [],
