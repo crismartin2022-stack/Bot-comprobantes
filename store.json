@@ -28520,6 +28520,28 @@
         "_fecha_carga": "18/06/2026 13:34",
         "_origen": "grupo",
         "_pie": "Ezequiel Enrique Galeano\nNaranja X\n4530000800012426851421\n20-34571299-3"
+      },
+      {
+        "fecha": "14/06/2026",
+        "hora": "19:56",
+        "tipo": "TRF",
+        "monto": 100000.0,
+        "moneda": "ARS",
+        "remitente": "Alan Gabriel Salvatierra",
+        "remitente_cuil": "24-42055465-2",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163330384281",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: WGRXJE27DX6WP5O6N7MYQL. CUIT destinatario: 30-71728225-2. CVU remitente: 0000003100099547582195. CVU destinatario: 0000155300000000000009977",
+        "_num": 1294,
+        "_fecha_carga": "18/06/2026 13:34",
+        "_origen": "grupo",
+        "_pie": "Alan Gabriel Salvatierra\nCUIT/CUIL: 24-42055465-2"
       }
     ],
     "errores": [],
