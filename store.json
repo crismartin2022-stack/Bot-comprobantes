@@ -46557,6 +46557,28 @@
         "_fecha_carga": "18/06/2026 20:02",
         "_origen": "grupo",
         "_pie": "Liliana Beatriz anrriquez \n21.104.254"
+      },
+      {
+        "fecha": "12/06/2026",
+        "hora": "16:00",
+        "tipo": "TRF",
+        "monto": 500000.0,
+        "moneda": "ARS",
+        "remitente": "Yesica Noemi Morales",
+        "remitente_cuil": "23-30853348-4",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163010660501",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CUIT destinatario: 30-71728225-2. Código de identificación: RD06ZO9WV77OO0MKN5GP7X. CVU remitente: 0000003100010145781779. CVU destinatario: 0000155300000000000009977.",
+        "_num": 149,
+        "_fecha_carga": "18/06/2026 20:02",
+        "_origen": "grupo",
+        "_pie": "Yesica Noemi Morales\nCUIT/CUIL: 23-30853348-4"
       }
     ],
     "errores": [],
