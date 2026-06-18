@@ -25588,6 +25588,28 @@
         "_fecha_carga": "18/06/2026 13:10",
         "_origen": "grupo",
         "_pie": "Leonela Sabrina Braga\n30717282252"
+      },
+      {
+        "fecha": "13/06/2026",
+        "hora": "23:16",
+        "tipo": "TRF",
+        "monto": 200000.0,
+        "moneda": "ARS",
+        "remitente": "Juliana Ayelen Palavecino",
+        "remitente_cuil": "27-47337453-1",
+        "destinatario": "SASTEUP SRL",
+        "banco_origen": "Brubank",
+        "banco_destino": "",
+        "referencia": "1796798866",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CVU destino: 0000155300000000009977. CUIT destinatario: 30-71728225-2. ID Operación: 260616000163410022091. Cuenta origen: Caja de ahorro en pesos.",
+        "_num": 1161,
+        "_fecha_carga": "18/06/2026 13:10",
+        "_origen": "grupo",
+        "_pie": "Juliana palavecino \n47337453"
       }
     ],
     "errores": [],
