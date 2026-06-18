@@ -45960,6 +45960,28 @@
         "_fecha_carga": "18/06/2026 19:58",
         "_origen": "grupo",
         "_pie": "Zoraida Nunez Sanchez\nNaranja X\n4530000800016777376312\nCUIL\n27-92394168-7"
+      },
+      {
+        "fecha": "12/06/2026",
+        "hora": "11:44",
+        "tipo": "TRF",
+        "monto": 200000.0,
+        "moneda": "ARS",
+        "remitente": "Brenda Nair Castellanos",
+        "remitente_cuil": "",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Ualá",
+        "banco_destino": "BILLETERA VIRTUAL",
+        "referencia": "a2c5dea1-3555-ba58-4451-70fc41673430",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CVU destino: 0000155300000000009977. CBU emisor: 384020050000000030639247. CUIT/CUIL destino: 30-71728225-2. Comentario: Transferencia en pesos.",
+        "_num": 122,
+        "_fecha_carga": "18/06/2026 19:58",
+        "_origen": "grupo",
+        "_pie": "Brenda castellanos"
       }
     ],
     "errores": [],
