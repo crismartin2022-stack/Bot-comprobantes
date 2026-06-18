@@ -20428,6 +20428,28 @@
         "_fecha_carga": "18/06/2026 00:43",
         "_origen": "grupo",
         "_pie": "Sofía pilar Monteverde \n43142862"
+      },
+      {
+        "fecha": "13/06/2026",
+        "hora": "01:08",
+        "tipo": "TRF",
+        "monto": 60000.0,
+        "moneda": "ARS",
+        "remitente": "Matias Ariel Chaves",
+        "remitente_cuil": "20-41416949-0",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163901994812",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: 0V1JXON1LMKXV75PNZ64EL. CUIT destinatario: 30-71728225-2. CVU remitente: 0000003100097773494493. CVU destinatario: 0000155300000000000009977",
+        "_num": 927,
+        "_fecha_carga": "18/06/2026 00:43",
+        "_origen": "grupo",
+        "_pie": "Matias Chaves \n20-41416949-0"
       }
     ],
     "errores": [],
