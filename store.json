@@ -46403,6 +46403,28 @@
         "_fecha_carga": "18/06/2026 20:01",
         "_origen": "grupo",
         "_pie": "Juan Elias Marquez De Olivera\nCUIT/CUIL: 20-36520946-5"
+      },
+      {
+        "fecha": "12/06/2026",
+        "hora": "15:05",
+        "tipo": "TRF",
+        "monto": 300000.0,
+        "moneda": "ARS",
+        "remitente": "Hector Fabian Talavera Barreto",
+        "remitente_cuil": "20-94823970-2",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163001863393",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación adicional: 3D5W612E6EER10WW2GXYVR. CVU remitente: 0000003100032956964567. CVU destinatario: 0000155300000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 142,
+        "_fecha_carga": "18/06/2026 20:01",
+        "_origen": "grupo",
+        "_pie": "Hector Fabian Talavera Barreto\nCUIT/CUIL: 20-94823970-2"
       }
     ],
     "errores": [],
