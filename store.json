@@ -38889,6 +38889,28 @@
         "_fecha_carga": "18/06/2026 15:07",
         "_origen": "grupo",
         "_pie": "Datos de la cuenta: Ance Fernanda Antonella\nDni 43995045\nPlataforma: Pink\nUsuario: Redsol252"
+      },
+      {
+        "fecha": "13/06/2026",
+        "hora": "17:21",
+        "tipo": "TRF",
+        "monto": 100000.0,
+        "moneda": "ARS",
+        "remitente": "Ruth Elizabeth Otazo",
+        "remitente_cuil": "27-37706588-9",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Naranja X",
+        "banco_destino": "Cuenta Virtual",
+        "referencia": "RD06ZO9WVRE7KQ6KN5GP7X",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CBU origen: 4530000800012876099149. CVU destino: 0000155300000000009977. CUIL destinatario: 30-71728225-2. Código de transacción: 8e4ad1cf-4d5e-49d1-b050-c79d0f90c44c",
+        "_num": 1764,
+        "_fecha_carga": "18/06/2026 15:07",
+        "_origen": "grupo",
+        "_pie": "Ruth Otazo \n377065889\nPlutonos"
       }
     ],
     "errores": [],
