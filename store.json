@@ -1826,6 +1826,28 @@
         "_fecha_carga": "17/06/2026 21:09",
         "_origen": "grupo",
         "_pie": "ALDANA ROCIO ORELLANA\n27418807860"
+      },
+      {
+        "fecha": "12/06/2026",
+        "hora": "00:07",
+        "tipo": "TRF",
+        "monto": 25000.0,
+        "moneda": "ARS",
+        "remitente": "Micaela Daniela Godoy",
+        "remitente_cuil": "27-32010636-8",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "162915271355",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: D4RO172VZG0L33MKNKJ3QE. CUIT destinatario: 30-71728225-2. CVU remitente: 0000003100054159891541.",
+        "_num": 83,
+        "_fecha_carga": "17/06/2026 21:10",
+        "_origen": "grupo",
+        "_pie": "Micaela Daniela Godoy\nCUIT/CUIL: 27-32010636-8"
       }
     ],
     "errores": [],
