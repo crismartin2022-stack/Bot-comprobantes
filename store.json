@@ -22698,6 +22698,28 @@
         "_fecha_carga": "18/06/2026 12:49",
         "_origen": "grupo",
         "_pie": "Guillermo José Benedetti\n30323465"
+      },
+      {
+        "fecha": "13/06/2026",
+        "hora": "23:43",
+        "tipo": "TRF",
+        "monto": 50000.0,
+        "moneda": "ARS",
+        "remitente": "Johanna Soledad Gimenez",
+        "remitente_cuil": "27-36188870-2",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "164046942914",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: JMQKYZ9QQVOVM0D69V50P3. CUIT destinatario: 30-71728225-2. CVU remitente: 0000003100035919824845. CVU destinatario: 0000155300000000009977",
+        "_num": 1030,
+        "_fecha_carga": "18/06/2026 12:50",
+        "_origen": "grupo",
+        "_pie": "Johana Giménez\n30-71728225-2"
       }
     ],
     "errores": [],
