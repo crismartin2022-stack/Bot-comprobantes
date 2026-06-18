@@ -11045,6 +11045,28 @@
         "_fecha_carga": "17/06/2026 23:34",
         "_origen": "grupo",
         "_pie": "Foto de ."
+      },
+      {
+        "fecha": "13/06/2026",
+        "hora": "00:33",
+        "tipo": "TRF",
+        "monto": 10000.0,
+        "moneda": "ARS",
+        "remitente": "Agustina Micaela Carbajal",
+        "remitente_cuil": "27-39100260-1",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163899614390",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: Z0KV87940EGX7DY4NPEYDX. CVU remitente: 0000003100081248063765. CVU destinatario: 0000155300000000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 501,
+        "_fecha_carga": "17/06/2026 23:34",
+        "_origen": "grupo",
+        "_pie": "Foto de ."
       }
     ],
     "errores": [],
