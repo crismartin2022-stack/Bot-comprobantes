@@ -12277,6 +12277,28 @@
         "_fecha_carga": "17/06/2026 23:42",
         "_origen": "grupo",
         "_pie": ""
+      },
+      {
+        "fecha": "07/06/2026",
+        "hora": "22:03",
+        "tipo": "TRF",
+        "monto": 20000.0,
+        "moneda": "ARS",
+        "remitente": "Adriana Graciela Di Nenno",
+        "remitente_cuil": "27-16187028-0",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163048702710",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: 0V1JXON1LWXLD6RGNZ64EL. CVU remitente: 0000003100051474272321. CVU destinatario: 0000155300000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 557,
+        "_fecha_carga": "17/06/2026 23:42",
+        "_origen": "grupo",
+        "_pie": ""
       }
     ],
     "errores": [],
