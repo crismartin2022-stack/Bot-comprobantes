@@ -45014,6 +45014,28 @@
         "_fecha_carga": "18/06/2026 19:52",
         "_origen": "grupo",
         "_pie": "EVELYN MION\nCUIT 27-38893919-8"
+      },
+      {
+        "fecha": "11/06/2026",
+        "hora": "23:25",
+        "tipo": "TRF",
+        "monto": 30000.0,
+        "moneda": "ARS",
+        "remitente": "Miriam Lili Nunez Fernandez",
+        "remitente_cuil": "27-94216492-6",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163718731894",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: RD06ZO9WV7JX4641N5GP7X. CVU remitente: 0000003100098349467435. CVU destinatario: 0000155300000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 79,
+        "_fecha_carga": "18/06/2026 19:53",
+        "_origen": "grupo",
+        "_pie": "Miriam Lili Nunez Fernandez\nCUIT/CUIL: 27-94216492-6"
       }
     ],
     "errores": [],
