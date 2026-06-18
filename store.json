@@ -32292,6 +32292,28 @@
         "_fecha_carga": "18/06/2026 14:00",
         "_origen": "grupo",
         "_pie": "Alicia Mabel Lopez\nCBU de emisor\n3840200500000007023936"
+      },
+      {
+        "fecha": "12/06/2026",
+        "hora": "17:16",
+        "tipo": "TRF",
+        "monto": 175000.0,
+        "moneda": "ARS",
+        "remitente": "Ian David Ortie",
+        "remitente_cuil": "20-38919550-3",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163829713904",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: D4RO172VZGQ10Y71NKJ3QE. CVU remitente: 0000003100094878033934. CVU destinatario: 0000155300000000009977. CUIT destinatario: 30-71728225-2",
+        "_num": 1465,
+        "_fecha_carga": "18/06/2026 14:00",
+        "_origen": "grupo",
+        "_pie": "David Ortie\nCUIT/CUIL: 20-38919550-3\nMercado Pago\nCVU: 0000003100094878033934"
       }
     ],
     "errores": [],
