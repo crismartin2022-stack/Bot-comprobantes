@@ -43496,6 +43496,28 @@
         "_fecha_carga": "18/06/2026 19:43",
         "_origen": "grupo",
         "_pie": "Sergio Damian Gonzalez Aleon\nNaranja X\n4530000800011750138972\n23-95330380-9"
+      },
+      {
+        "fecha": "11/06/2026",
+        "hora": "20:30",
+        "tipo": "TRF",
+        "monto": 300001.0,
+        "moneda": "ARS",
+        "remitente": "Brian David Munoz",
+        "remitente_cuil": "20-44141951-2",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163697065638",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: ORD6LEN8P1XXOJPYNM1Y30. CVU remitente: 0000003100089189160967. CVU destinatario: 0000155300000000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 10,
+        "_fecha_carga": "18/06/2026 19:43",
+        "_origen": "grupo",
+        "_pie": "Brian David Munoz\nCUIT/CUIL: 20-44141951-2"
       }
     ],
     "errores": [],
