@@ -37985,6 +37985,28 @@
         "_fecha_carga": "18/06/2026 15:00",
         "_origen": "grupo",
         "_pie": "Foto de 🤗🤗🤗"
+      },
+      {
+        "fecha": "15/06/2025",
+        "hora": "22:17",
+        "tipo": "TRF",
+        "monto": 50000.0,
+        "moneda": "ARS",
+        "remitente": "FACUNDO JULIAN CARNOTO",
+        "remitente_cuil": "",
+        "destinatario": "SASTEUP SRL",
+        "banco_origen": "Claro Pay",
+        "banco_destino": "Lohas",
+        "referencia": "WB260615.2217.A70679",
+        "concepto": "Enviaste dinero",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CVU remitente: 0000085700233004800396, Alias: carfa.cp. CUIT destinatario: 30717282252. N° operación COELSA: LMORZP908LY0OOX4NEGJ46",
+        "_num": 1723,
+        "_fecha_carga": "18/06/2026 15:01",
+        "_origen": "grupo",
+        "_pie": "Fabian Augusto Villada Correa \n94956787"
       }
     ],
     "errores": [],
