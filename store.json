@@ -29337,6 +29337,28 @@
         "_fecha_carga": "18/06/2026 13:40",
         "_origen": "grupo",
         "_pie": "47308873, Reynoso Priscila"
+      },
+      {
+        "fecha": "14/06/2026",
+        "hora": "23:01",
+        "tipo": "TRF",
+        "monto": 200001.0,
+        "moneda": "ARS",
+        "remitente": "Brian David Munoz",
+        "remitente_cuil": "20-44141951-2",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163350389315",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: LMORZP908LGXVY0PNEGJ46. CVU remitente: 0000003100089189160967. CVU destinatario: 0000155300000000000009977. CUIT destinatario: 30-71728225-2",
+        "_num": 1331,
+        "_fecha_carga": "18/06/2026 13:40",
+        "_origen": "grupo",
+        "_pie": "Brian David Munoz\nCUIT/CUIL: 20-44141951-2"
       }
     ],
     "errores": [],
