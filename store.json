@@ -27287,6 +27287,28 @@
         "_fecha_carga": "18/06/2026 13:21",
         "_origen": "grupo",
         "_pie": "Norma Beatriz Vera\nCUIT/CUIL: 27-22229828-3"
+      },
+      {
+        "fecha": "14/06/2026",
+        "hora": "12:13",
+        "tipo": "TRF",
+        "monto": 100000.0,
+        "moneda": "ARS",
+        "remitente": "Natalia Ailen Di Giorgio Suarez",
+        "remitente_cuil": "27-47758744-0",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163274297661",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: D4RO172VZQZ3G6YRNKJ3QE. CUIT destinatario: 30-71728225-2. CVU remitente: 0000003100070476800015. CVU destinatario: 0000155300000000000009977",
+        "_num": 1238,
+        "_fecha_carga": "18/06/2026 13:22",
+        "_origen": "grupo",
+        "_pie": "Natalia Ailen Di Giorgio Suarez\nCUIT/CUIL: 27-47758744-0"
       }
     ],
     "errores": [],
