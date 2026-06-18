@@ -25082,6 +25082,28 @@
         "_fecha_carga": "18/06/2026 13:06",
         "_origen": "grupo",
         "_pie": "Ariel Sebastian Lezama\nCUIT/CUIL: 20-33608013-5"
+      },
+      {
+        "fecha": "13/06/2026",
+        "hora": "20:14",
+        "tipo": "TRF",
+        "monto": 500000.01,
+        "moneda": "ARS",
+        "remitente": "Candela Soledad Sotelo",
+        "remitente_cuil": "27-47119484-6",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163211097307",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: L18MKX9RXJ70JLGO9O6WYV. CVU remitente: 0000003100014894639451. CVU destinatario: 0000155300000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 1138,
+        "_fecha_carga": "18/06/2026 13:06",
+        "_origen": "grupo",
+        "_pie": "candela soledad sotelo \n47.119.484"
       }
     ],
     "errores": [],
