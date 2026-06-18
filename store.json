@@ -27926,6 +27926,28 @@
         "_fecha_carga": "18/06/2026 13:26",
         "_origen": "grupo",
         "_pie": "Rosalia Del Carmen Medina\nCUIT/CUIL: 27-14516073-7"
+      },
+      {
+        "fecha": "14/06/2026",
+        "hora": "16:33",
+        "tipo": "TRF",
+        "monto": 250000.0,
+        "moneda": "ARS",
+        "remitente": "Lucas Alexis Garay",
+        "remitente_cuil": "20-45429334-8",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Prex",
+        "banco_destino": "BANCO COINAG S.A.",
+        "referencia": "PDX4OGNYGP4J5M6YN0L6EY",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CVU remitente: 0000013000032385743722. CBU/CVU destinatario: 0000155300000000009977. CUIL destinatario: 30-71728225-2. ID COELSA: PDX4OGNYGP4J5M6YN0L6EY.",
+        "_num": 1267,
+        "_fecha_carga": "18/06/2026 13:26",
+        "_origen": "grupo",
+        "_pie": "Lucas Alexis Garay\nPrex\nCUIL/CUIT\n20-45429334-8"
       }
     ],
     "errores": [],
