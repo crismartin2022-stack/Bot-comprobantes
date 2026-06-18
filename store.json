@@ -23867,6 +23867,28 @@
         "_fecha_carga": "18/06/2026 12:58",
         "_origen": "grupo",
         "_pie": "Fiamma Antonella Cabrera\nCUIT/CUIL: 27-45287146-2"
+      },
+      {
+        "fecha": "12/06/2026",
+        "hora": "16:22",
+        "tipo": "TRF",
+        "monto": 500000.0,
+        "moneda": "ARS",
+        "remitente": "JONH KEVIN ABRAHAM",
+        "remitente_cuil": "20-47185460-4",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Banco De Galicia S.A.U",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "42086673831",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CVU destinatario: 0000155300000000009977. CUIT destinatario: 30-71728225-2. ID COELSA: RD06ZO9WV777V5Q7N5GP7X. Cuenta origen: CA $ N° 4067644-6 043-9.",
+        "_num": 1083,
+        "_fecha_carga": "18/06/2026 12:58",
+        "_origen": "grupo",
+        "_pie": "JONH KEVIN ABRAHAM\nCUIT 20-47185460-4"
       }
     ],
     "errores": [],
