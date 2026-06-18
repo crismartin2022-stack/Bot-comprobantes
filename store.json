@@ -52181,6 +52181,28 @@
         "_fecha_carga": "18/06/2026 20:37",
         "_origen": "grupo",
         "_pie": "Foto de Ges"
+      },
+      {
+        "fecha": "10/06/2026",
+        "hora": "12:41",
+        "tipo": "TRF",
+        "monto": 10000.0,
+        "moneda": "ARS",
+        "remitente": "Pablo Facundo Pianovi",
+        "remitente_cuil": "20-38360127-5",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "162650446443",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: LMORZP908R0OZDMRNEGJ46. CVU remitente: 0000003100064510863377. CVU destinatario: 0000155300000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 404,
+        "_fecha_carga": "18/06/2026 20:37",
+        "_origen": "grupo",
+        "_pie": "Foto de Ges"
       }
     ],
     "errores": [],
