@@ -1672,6 +1672,28 @@
         "_fecha_carga": "17/06/2026 21:08",
         "_origen": "grupo",
         "_pie": "Juan Pablo Juani\nNaranja X\n4530000800019921086521\n20-42904568-2"
+      },
+      {
+        "fecha": "11/06/2026",
+        "hora": "23:51",
+        "tipo": "TRF",
+        "monto": 50000.0,
+        "moneda": "ARS",
+        "remitente": "Bienvenida Rojas Chamorro",
+        "remitente_cuil": "",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Ualá",
+        "banco_destino": "",
+        "referencia": "WGRXJE27DYRVERGLN7MYQL",
+        "concepto": "VAR",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CBU destino: 0000155300000000009977. CUIT destino: 30717282252",
+        "_num": 76,
+        "_fecha_carga": "17/06/2026 21:09",
+        "_origen": "grupo",
+        "_pie": "92512930\nViranet\nBienvenida rojas"
       }
     ],
     "errores": [],
