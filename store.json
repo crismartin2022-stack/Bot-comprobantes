@@ -49314,6 +49314,28 @@
         "_fecha_carga": "18/06/2026 20:19",
         "_origen": "grupo",
         "_pie": "Emilse Noemi Peralta\nCUIT/CUIL: 27-34491409-0"
+      },
+      {
+        "fecha": "12/06/2026",
+        "hora": "23:55",
+        "tipo": "TRF",
+        "monto": 500000.0,
+        "moneda": "ARS",
+        "remitente": "Marcelo Daniel Gerez",
+        "remitente_cuil": "",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Ualá",
+        "banco_destino": "",
+        "referencia": "67REZ8NPQ6X7PXY194KVGO",
+        "concepto": "VAR",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CBU destino: 0000155300000000009977. CUIT destino: 30717282252",
+        "_num": 274,
+        "_fecha_carga": "18/06/2026 20:19",
+        "_origen": "grupo",
+        "_pie": "marcelo daniel gerez \n39350205"
       }
     ],
     "errores": [],
