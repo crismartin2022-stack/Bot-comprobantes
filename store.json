@@ -16064,6 +16064,28 @@
         "_fecha_carga": "18/06/2026 00:16",
         "_origen": "grupo",
         "_pie": "Milagros García\n45.021.094"
+      },
+      {
+        "fecha": "14/06/2026",
+        "hora": "21:39",
+        "tipo": "TRF",
+        "monto": 500000.0,
+        "moneda": "ARS",
+        "remitente": "Braian Leonel Icazatti Oliva",
+        "remitente_cuil": "20-40591347-0",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Naranja X",
+        "banco_destino": "Cuenta Virtual",
+        "referencia": "R7ZG0QNDW1KMW35D9EXYPO",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CVU destinatario: 0000155300000000009977. CUIL destinatario: 30-71728225-2. Código de transacción: 7f5e97c9-d812-4e20-8137-5a4d32abd070",
+        "_num": 729,
+        "_fecha_carga": "18/06/2026 00:16",
+        "_origen": "grupo",
+        "_pie": "Braian oliva \n40.591.347"
       }
     ],
     "errores": [],
