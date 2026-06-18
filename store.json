@@ -23580,6 +23580,28 @@
         "_fecha_carga": "18/06/2026 12:56",
         "_origen": "grupo",
         "_pie": "Jonathan Daniel Segovia \n47678975"
+      },
+      {
+        "fecha": "13/06/2026",
+        "hora": "13:36",
+        "tipo": "TRF",
+        "monto": 500000.0,
+        "moneda": "ARS",
+        "remitente": "Alexis Maximiliano Esteban",
+        "remitente_cuil": "20-44901626-3",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Naranja X",
+        "banco_destino": "Cuenta Virtual",
+        "referencia": "7L8GYKNX05RJO0DQ2MPRZ5",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CBU origen: 4530000800016540213330. CVU destino: 0000155300000000009977. CUIL destinatario: 30-71728225-2. Código de transacción: fa8b8a81-2a28-41ab-ad8d-2df8091434b1",
+        "_num": 1070,
+        "_fecha_carga": "18/06/2026 12:56",
+        "_origen": "grupo",
+        "_pie": "Alexis Maximiliano Esteban\nNaranja X\n4530000800016540213330\n20-44901626-3"
       }
     ],
     "errores": [],
