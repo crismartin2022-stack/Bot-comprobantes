@@ -42241,6 +42241,28 @@
         "_fecha_carga": "18/06/2026 15:41",
         "_origen": "grupo",
         "_pie": "Gisela Noemi Benitez\nCUIT/CUIL: 27-34643630-7"
+      },
+      {
+        "fecha": "15/06/2026",
+        "hora": "23:18",
+        "tipo": "TRF",
+        "monto": 350000.0,
+        "moneda": "ARS",
+        "remitente": "Jennifer Beatriz Tolaba",
+        "remitente_cuil": "27-42671042-6",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Naranja X",
+        "banco_destino": "Cuenta Virtual",
+        "referencia": "LMORZP908LY60LE6NEGJ46",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CBU origen: 4530000800010824008515. CVU destino: 0000155300000000009977. CUIL destinatario: 30-71728225-2. Código de transacción adicional: be4bdbd9-d685-4591-9e88-6b9620264827",
+        "_num": 1916,
+        "_fecha_carga": "18/06/2026 15:41",
+        "_origen": "grupo",
+        "_pie": "Jennifer Beatriz Tolaba\nNaranja X\n4530000800010824008515\n27-42671042-6"
       }
     ],
     "errores": [],
