@@ -7804,6 +7804,28 @@
         "_fecha_carga": "17/06/2026 23:12",
         "_origen": "grupo",
         "_pie": "Foto de Ges"
+      },
+      {
+        "fecha": "09/06/2026",
+        "hora": "18:54",
+        "tipo": "TRF",
+        "monto": 10000.0,
+        "moneda": "ARS",
+        "remitente": "Roberto Rodriguez",
+        "remitente_cuil": "20-16060610-0",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "162544387395",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CVU remitente: 0000003100018807772664. CVU destinatario: 0000155300000000009977. Código de identificación: L18MKX9RX8DJX3O49O6WYV",
+        "_num": 354,
+        "_fecha_carga": "17/06/2026 23:12",
+        "_origen": "grupo",
+        "_pie": "Foto de Ges"
       }
     ],
     "errores": [],
