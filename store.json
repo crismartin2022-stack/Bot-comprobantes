@@ -1452,6 +1452,28 @@
         "_fecha_carga": "17/06/2026 21:07",
         "_origen": "grupo",
         "_pie": "Fernando Nazareno Coronel\nCUIT/CUIL: 20-34445067-7"
+      },
+      {
+        "fecha": "11/06/2026",
+        "hora": "23:15",
+        "tipo": "TRF",
+        "monto": 700000.0,
+        "moneda": "ARS",
+        "remitente": "Maria Claudia Ibarra",
+        "remitente_cuil": "27-28120532-9",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Supervielle",
+        "banco_destino": "Lohas Sas",
+        "referencia": "",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CBU origen: 0270209620054266960017. CBU destino: 0000155300000000009977. Destinatario CUIT: 30-71728225-2. Comprobante página 1 de 2.",
+        "_num": 66,
+        "_fecha_carga": "17/06/2026 21:07",
+        "_origen": "grupo",
+        "_pie": "Maria claudia ibarra \n28120532"
       }
     ],
     "errores": [],
