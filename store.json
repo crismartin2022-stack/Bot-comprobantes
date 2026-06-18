@@ -8575,6 +8575,28 @@
         "_fecha_carga": "17/06/2026 23:17",
         "_origen": "grupo",
         "_pie": "Foto de Ges"
+      },
+      {
+        "fecha": "10/06/2026",
+        "hora": "12:36",
+        "tipo": "TRF",
+        "monto": 29800.0,
+        "moneda": "ARS",
+        "remitente": "Maria Georgina Ormaechea",
+        "remitente_cuil": "27-31234006-8",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163453307960",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: R7ZG0QNDWQMM3VQE9EXYPO. CUIT destinatario: 30-71728225-2. CVU destinatario completo: 0000155300000000000009977",
+        "_num": 389,
+        "_fecha_carga": "17/06/2026 23:17",
+        "_origen": "grupo",
+        "_pie": "Foto de Ges"
       }
     ],
     "errores": [],
