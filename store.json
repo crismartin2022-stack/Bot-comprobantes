@@ -33216,6 +33216,28 @@
         "_fecha_carga": "18/06/2026 14:06",
         "_origen": "grupo",
         "_pie": "Lorena Fabiana Aravena\nPrex\nCUIL/CUIT\n27-40112079-9\nCVU\n0000013000032390235515"
+      },
+      {
+        "fecha": "14/06/2026",
+        "hora": "01:47",
+        "tipo": "TRF",
+        "monto": 218700.0,
+        "moneda": "ARS",
+        "remitente": "Aravena, Lorena Fabiana",
+        "remitente_cuil": "27-40112079-9",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Personal Pay",
+        "banco_destino": "",
+        "referencia": "2741898637",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CBU/CVU del receptor: 0000155300000000009977. CoelsaID: 0V1JXON1LMD31Y1NZ64EL - Id Bancario. CUIL/CUIT destinatario: 30-71728225-2",
+        "_num": 1507,
+        "_fecha_carga": "18/06/2026 14:07",
+        "_origen": "grupo",
+        "_pie": "Aravena, Lorena Fabiana\n27-40112079-9\nPersonal Pay"
       }
     ],
     "errores": [],
