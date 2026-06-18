@@ -46711,6 +46711,28 @@
         "_fecha_carga": "18/06/2026 20:03",
         "_origen": "grupo",
         "_pie": "ROLANDO ADRIAN MARTINEZ\nCUIT/CUIL: 20-40625278-8"
+      },
+      {
+        "fecha": "12/06/2026",
+        "hora": "17:22",
+        "tipo": "TRF",
+        "monto": 100000.0,
+        "moneda": "ARS",
+        "remitente": "Matias Nicolas Quevedo Hermosilla",
+        "remitente_cuil": "",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Ualá",
+        "banco_destino": "",
+        "referencia": "86VRPQ2GMWLV84JL2GLY0M",
+        "concepto": "VAR",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CBU destino: 0000155300000000009977. CUIT destino: 30717282252",
+        "_num": 156,
+        "_fecha_carga": "18/06/2026 20:03",
+        "_origen": "grupo",
+        "_pie": "A nombre de \nMatias Quevedo\n40640486"
       }
     ],
     "errores": [],
