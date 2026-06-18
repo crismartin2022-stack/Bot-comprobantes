@@ -38095,6 +38095,28 @@
         "_fecha_carga": "18/06/2026 15:01",
         "_origen": "grupo",
         "_pie": "Paola Maricel Acosta Cabrera 38071070"
+      },
+      {
+        "fecha": "16/06/2026",
+        "hora": "01:03",
+        "tipo": "TRF",
+        "monto": 30000.0,
+        "moneda": "ARS",
+        "remitente": "Nicole Elizabeth Pereyra",
+        "remitente_cuil": "23-45529444-4",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163508232451",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: L18MKX9RXJ3LQL119O6WYV. CUIT destinatario: 30-71728225-2. CVU destinatario completo: 0000155300000000000009977",
+        "_num": 1728,
+        "_fecha_carga": "18/06/2026 15:01",
+        "_origen": "grupo",
+        "_pie": "Pereyra Nicole elizabeth \nDNI 45529444"
       }
     ],
     "errores": [],
