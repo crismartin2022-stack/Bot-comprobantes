@@ -15910,6 +15910,28 @@
         "_fecha_carga": "18/06/2026 00:15",
         "_origen": "grupo",
         "_pie": "Claudia Navarro \n32.333.234"
+      },
+      {
+        "fecha": "15/06/2026",
+        "hora": "00:35",
+        "tipo": "TRF",
+        "monto": 600000.0,
+        "moneda": "ARS",
+        "remitente": "German Nicolas Balbuena",
+        "remitente_cuil": "20-43653817-1",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "164169165818",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: Z0KV87940E7PKR10NPEYDX. CVU remitente: 0000003100074485490032. CVU destinatario: 0000155300000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 722,
+        "_fecha_carga": "18/06/2026 00:15",
+        "_origen": "grupo",
+        "_pie": "German Balbuena \n43.653.817"
       }
     ],
     "errores": [],
