@@ -17656,6 +17656,28 @@
         "_fecha_carga": "18/06/2026 00:27",
         "_origen": "grupo",
         "_pie": ""
+      },
+      {
+        "fecha": "13/06/2026",
+        "hora": "18:47",
+        "tipo": "TRF",
+        "monto": 25000.0,
+        "moneda": "ARS",
+        "remitente": "Sandra Laura Navarro",
+        "remitente_cuil": "27-20431759-9",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "164008882636",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: LMORZP908L5Z85P4NEGJ46. CUIT destinatario: 30-71728225-2. CVU remitente: 0000003100092796162866. CVU receptor: 0000155300000000009977.",
+        "_num": 801,
+        "_fecha_carga": "18/06/2026 00:27",
+        "_origen": "grupo",
+        "_pie": ""
       }
     ],
     "errores": [],
