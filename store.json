@@ -34206,6 +34206,28 @@
         "_fecha_carga": "18/06/2026 14:14",
         "_origen": "grupo",
         "_pie": "Lorena Elizabeth paolini \n35800760"
+      },
+      {
+        "fecha": "13/06/2026",
+        "hora": "18:10",
+        "tipo": "TRF",
+        "monto": 200000.0,
+        "moneda": "ARS",
+        "remitente": "Kiara Yamil Jara",
+        "remitente_cuil": "27-43977553-5",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "164003858146",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: D4RO172VZQEEPK8KNKJ3QE. CUIT destinatario: 30-71728225-2. CVU destinatario completo: 0000155300000000000009977.",
+        "_num": 1552,
+        "_fecha_carga": "18/06/2026 14:34",
+        "_origen": "grupo",
+        "_pie": "Kiara Jara 27-43977553-5"
       }
     ],
     "errores": [],
