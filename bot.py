@@ -1008,7 +1008,7 @@ async def callback_handler(update: Update, ctx: ContextTypes.DEFAULT_TYPE):
         try:
             if registros:
                 buf2 = generar_excel(registros, semana, n)
-                await query.bot.send_document(
+                await query.get_bot().send_document(
                     chat_id=ADMIN_ID,
                     document=buf2,
                     filename=f"BACKUP_antes_nueva_semana_{n.replace(' ','_')}_{fecha_arch}.xlsx",
@@ -1332,8 +1332,30 @@ async def handle_any(update: Update, ctx: ContextTypes.DEFAULT_TYPE):
     log.info(f"handle_any capturó mensaje con foto — chat:{update.effective_chat.id} msg:{msg.message_id}")
     await handle_photo(update, ctx)
 
-def main():
+async def health_server():
+    """Servidor HTTP mínimo para health check de Railway."""
+    from aiohttp import web
+    async def health(request):
+        return web.Response(text="OK")
+    server = web.Application()
+    server.router.add_get("/", health)
+    server.router.add_get("/health", health)
+    runner = web.AppRunner(server)
+    await runner.setup()
+    port = int(os.environ.get("PORT", 8080))
+    site = web.TCPSite(runner, "0.0.0.0", port)
+    await site.start()
+    log.info(f"Health server en puerto {port}")
+
+async def main_async():
     cargar_store()
+
+    # Iniciar health server
+    try:
+        await health_server()
+    except Exception as e:
+        log.warning(f"Health server no disponible: {e}")
+
     app = Application.builder().token(TELEGRAM_TOKEN).build()
 
     app.add_handler(CommandHandler("start",        cmd_start))
@@ -1349,18 +1371,29 @@ def main():
     app.add_handler(MessageHandler(filters.PHOTO,          handle_photo))
     app.add_handler(MessageHandler(filters.Document.IMAGE, handle_document))
     app.add_handler(MessageHandler(filters.TEXT & ~filters.COMMAND, handle_text))
-    # Handler genérico para capturar cualquier mensaje con foto (incluyendo reenvíos)
     app.add_handler(MessageHandler(filters.ALL, handle_any))
 
     scheduler = AsyncIOScheduler(timezone="America/Argentina/Buenos_Aires")
     scheduler.add_job(tarea_resumen_diario, CronTrigger(hour=20, minute=0, timezone="America/Argentina/Buenos_Aires"), args=[app], id="resumen_diario")
     scheduler.add_job(tarea_excel_semanal,  CronTrigger(day_of_week="thu", hour=21, minute=0, timezone="America/Argentina/Buenos_Aires"), args=[app], id="excel_semanal")
-    # Respaldo diario del Excel al admin a las 19:50 (antes del resumen)
     scheduler.add_job(tarea_excel_backup, CronTrigger(hour=19, minute=50, timezone="America/Argentina/Buenos_Aires"), args=[app], id="excel_backup")
     scheduler.start()
 
     log.info("🤖 Bot iniciado con verificación de pie")
-    app.run_polling(drop_pending_updates=True)
+    await app.initialize()
+    await app.start()
+    await app.updater.start_polling(drop_pending_updates=True)
+
+    # Mantener corriendo
+    try:
+        await asyncio.Event().wait()
+    finally:
+        await app.updater.stop()
+        await app.stop()
+        await app.shutdown()
+
+def main():
+    asyncio.run(main_async())
 
 if __name__ == "__main__":
     main()
