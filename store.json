@@ -43342,6 +43342,28 @@
         "_fecha_carga": "18/06/2026 19:42",
         "_origen": "grupo",
         "_pie": "Delia Rosa Delvalle Benitez\nNaranja X\n4530000800015630000375\n27-94929338-1"
+      },
+      {
+        "fecha": "11/06/2026",
+        "hora": "17:00",
+        "tipo": "TRF",
+        "monto": 500000.0,
+        "moneda": "ARS",
+        "remitente": "Juliana Ayelen Palavecino",
+        "remitente_cuil": "27-47337453-1",
+        "destinatario": "SASTEUP SRL",
+        "banco_origen": "Brubank",
+        "banco_destino": "",
+        "referencia": "1792164031",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "El CBU/CVU del destinatario es 0000155300000000009977. CUIT del destinatario: 30-71728225-2. ID Operación: 26061200096802624128. Cuenta origen: Caja de ahorro en pesos.",
+        "_num": 3,
+        "_fecha_carga": "18/06/2026 19:42",
+        "_origen": "grupo",
+        "_pie": "Juliana palavecino \n47337453"
       }
     ],
     "errores": [],
