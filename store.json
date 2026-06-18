@@ -43452,6 +43452,28 @@
         "_fecha_carga": "18/06/2026 19:43",
         "_origen": "grupo",
         "_pie": "Veronica Juarez\nCuil/cuit: 27-30569031-2"
+      },
+      {
+        "fecha": "11/06/2026",
+        "hora": "19:35",
+        "tipo": "TRF",
+        "monto": 300000.0,
+        "moneda": "ARS",
+        "remitente": "Micaela Belen Pacheco",
+        "remitente_cuil": "36.851.919",
+        "destinatario": "SASTEUP SRL",
+        "banco_origen": "Cuenta DNI",
+        "banco_destino": "",
+        "referencia": "LOEJWV9JZPK8M7Q32QMD0G",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CVU destinatario: 0000155300000000000009977. CUIL destinatario: 30717282252. Referencia tomada del campo 'Código de referencia'.",
+        "_num": 8,
+        "_fecha_carga": "18/06/2026 19:43",
+        "_origen": "grupo",
+        "_pie": "Micaela Belén Pacheco \n36.851.919"
       }
     ],
     "errores": [],
