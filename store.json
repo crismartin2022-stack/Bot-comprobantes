@@ -29159,6 +29159,28 @@
         "_fecha_carga": "18/06/2026 13:39",
         "_origen": "grupo",
         "_pie": "Noemi Ayda Duarte\nCUIT/CUIL: 27-24131220-3"
+      },
+      {
+        "fecha": "14/06/2026",
+        "hora": "22:25",
+        "tipo": "TRF",
+        "monto": 500000.0,
+        "moneda": "ARS",
+        "remitente": "Obejero, Brenda Soledad",
+        "remitente_cuil": "27-43469178-3",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Personal Pay",
+        "banco_destino": "",
+        "referencia": "2743456169",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CoelsaID: Z0KV87940E760KYJNPEYDX - Id Bancario. CUIL/CUIT destinatario: 30-71728225-2. CBU/CVU destinatario: 00001553000000000009977",
+        "_num": 1323,
+        "_fecha_carga": "18/06/2026 13:39",
+        "_origen": "grupo",
+        "_pie": "nvía Obejero, Brenda Soledad\nCUIL/CUIT 27-43469178-3"
       }
     ],
     "errores": [],
