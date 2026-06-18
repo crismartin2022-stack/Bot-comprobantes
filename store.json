@@ -26935,6 +26935,28 @@
         "_fecha_carga": "18/06/2026 13:19",
         "_origen": "grupo",
         "_pie": "Liliana Beatriz anrriquez \nDNI: 21.104.254"
+      },
+      {
+        "fecha": "13/06/2026",
+        "hora": "23:37",
+        "tipo": "TRF",
+        "monto": 500000.01,
+        "moneda": "ARS",
+        "remitente": "Marcelo David Lopez",
+        "remitente_cuil": "23-41988340-9",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Naranja X",
+        "banco_destino": "Cuenta Virtual",
+        "referencia": "8D0Q619L0WOW33D3N7JZ5R",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CBU origen: 4530000800016501694015. CVU destino: 0000155300000000009977. CUIL destinatario: 30-71728225-2. Código de transacción: 26e70ebf-d1ca-4c81-9378-6bc06615d23d",
+        "_num": 1222,
+        "_fecha_carga": "18/06/2026 13:19",
+        "_origen": "grupo",
+        "_pie": ""
       }
     ],
     "errores": [],
