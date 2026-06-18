@@ -17920,6 +17920,28 @@
         "_fecha_carga": "18/06/2026 00:29",
         "_origen": "grupo",
         "_pie": ""
+      },
+      {
+        "fecha": "14/06/2026",
+        "hora": "12:23",
+        "tipo": "TRF",
+        "monto": 100000.0,
+        "moneda": "ARS",
+        "remitente": "Julio Daniel Sanchez",
+        "remitente_cuil": "23-32589890-9",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "164086579990",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: 3D5W612E6Z645G1G2GXYVR. CUIT destinatario: 30-71728225-2. CVU remitente: 0000003100083343882258. CVU destinatario: 0000155300000000009977",
+        "_num": 813,
+        "_fecha_carga": "18/06/2026 00:29",
+        "_origen": "grupo",
+        "_pie": ""
       }
     ],
     "errores": [],
