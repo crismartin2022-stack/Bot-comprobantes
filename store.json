@@ -45476,6 +45476,28 @@
         "_fecha_carga": "18/06/2026 19:55",
         "_origen": "grupo",
         "_pie": "Leonel Nicolas Rinero\nCUIT/CUIL: 20-45681786-7"
+      },
+      {
+        "fecha": "12/06/2026",
+        "hora": "00:34",
+        "tipo": "TRF",
+        "monto": 200001.0,
+        "moneda": "ARS",
+        "remitente": "Leonardo Ariel Aguirre",
+        "remitente_cuil": "20-25795836-2",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163724125786",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: 3D5W612E6EMO7VOL2GXYVR. CVU remitente: 0000003100000832706576. CVU destinatario: 0000155300000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 100,
+        "_fecha_carga": "18/06/2026 19:55",
+        "_origen": "grupo",
+        "_pie": "Leonardo Ariel Aguirre\nCUIT/CUIL: 20-25795836-2"
       }
     ],
     "errores": [],
