@@ -29910,6 +29910,28 @@
         "_fecha_carga": "18/06/2026 13:44",
         "_origen": "grupo",
         "_pie": "Lucas Roman Cardozo Zevallos\nCUIT/CUIL: 20-47650455-5"
+      },
+      {
+        "fecha": "14/06/2026",
+        "hora": "23:50",
+        "tipo": "TRF",
+        "monto": 300000.0,
+        "moneda": "ARS",
+        "remitente": "Brisa Lucia Aylen Alvarenga",
+        "remitente_cuil": "27-46100608-1",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "164167386132",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: Z6OLMDN3V37R3LKY2E7RQ5. CVU remitente: 0000003100020424962283. CVU destinatario: 0000155300000000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 1357,
+        "_fecha_carga": "18/06/2026 13:44",
+        "_origen": "grupo",
+        "_pie": "Brisa Alvarenga\n27-46100608-1"
       }
     ],
     "errores": [],
