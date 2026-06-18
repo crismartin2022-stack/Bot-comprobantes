@@ -47264,6 +47264,28 @@
         "_fecha_carga": "18/06/2026 20:06",
         "_origen": "grupo",
         "_pie": "46.095.234 guiliana otazo"
+      },
+      {
+        "fecha": "12/06/2026",
+        "hora": "20:01",
+        "tipo": "TRF",
+        "monto": 40000.0,
+        "moneda": "ARS",
+        "remitente": "Gloria Felicia Nunez Fernandez",
+        "remitente_cuil": "27-94216488-8",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Naranja X",
+        "banco_destino": "Cuenta Virtual",
+        "referencia": "1LMP68NKVXE0D5X52R7OEV",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CBU origen: 4530000800011600193663. CVU destino: 0000155300000000009977. CUIL destinatario: 30-71728225-2. Código de transacción: 24456221-325d-42e6-9c62-67cf871cef6f",
+        "_num": 181,
+        "_fecha_carga": "18/06/2026 20:06",
+        "_origen": "grupo",
+        "_pie": "Gloria Felicia Nunez Fernandez\nNaranja X\n4530000800011600193663\n27-94216488-8"
       }
     ],
     "errores": [],
