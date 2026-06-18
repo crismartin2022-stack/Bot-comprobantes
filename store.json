@@ -29822,6 +29822,28 @@
         "_fecha_carga": "18/06/2026 13:43",
         "_origen": "grupo",
         "_pie": "Alexis Rafael Gil\nNaranja X\n4530000800012970507986\n20-35340420-3"
+      },
+      {
+        "fecha": "14/06/2026",
+        "hora": "23:51",
+        "tipo": "TRF",
+        "monto": 25000.0,
+        "moneda": "ARS",
+        "remitente": "Nicolas Daniel Isleno",
+        "remitente_cuil": "20-43810968-5",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163354111919",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: 3D5W612E6ZWML3VG2GXYVR. CVU remitente: 0000003100099687211036. CVU destinatario: 0000155300000000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 1353,
+        "_fecha_carga": "18/06/2026 13:43",
+        "_origen": "grupo",
+        "_pie": "Nicolas Daniel Isleno\nCUIT/CUIL: 20-43810968-5"
       }
     ],
     "errores": [],
