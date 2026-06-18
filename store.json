@@ -20560,6 +20560,28 @@
         "_fecha_carga": "18/06/2026 00:44",
         "_origen": "grupo",
         "_pie": "LORENA GOMEZ\n\nDNI: 36.579.065"
+      },
+      {
+        "fecha": "13/06/2026",
+        "hora": "00:30",
+        "tipo": "TRF",
+        "monto": 50000.0,
+        "moneda": "ARS",
+        "remitente": "Ludueña, Jesica Viviana",
+        "remitente_cuil": "27-40683762-4",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Personal Pay",
+        "banco_destino": "",
+        "referencia": "2739290839",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CoelsaID: R7ZG0QNDW1PVJ6YG9EXYPO - Id Bancario. CUIL/CUIT destinatario: 30-71728225-2. CBU/CVU destinatario: 0000155300000000009977",
+        "_num": 933,
+        "_fecha_carga": "18/06/2026 00:44",
+        "_origen": "grupo",
+        "_pie": "JESICA LUDUEÑA \n\nDNI: 40.683.762"
       }
     ],
     "errores": [],
