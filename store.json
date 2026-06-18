@@ -5200,6 +5200,28 @@
         "_fecha_carga": "17/06/2026 21:32",
         "_origen": "grupo",
         "_pie": "Miriam Lili Nunez Fernandez\nCUIT/CUIL: 27-94216492-6"
+      },
+      {
+        "fecha": "12/06/2026",
+        "hora": "23:32",
+        "tipo": "TRF",
+        "monto": 454461.0,
+        "moneda": "ARS",
+        "remitente": "Villan, Juan Ignacio",
+        "remitente_cuil": "23-43383392-9",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Personal Pay",
+        "banco_destino": "",
+        "referencia": "2739184540",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CoelsaID: Z6OLMDN3V3MYKKVW2E7RQ5 - Id Bancario. CUIL/CUIT destinatario: 30-71728225-2. CBU/CVU receptor: 0000155300000000009977",
+        "_num": 236,
+        "_fecha_carga": "17/06/2026 21:32",
+        "_origen": "grupo",
+        "_pie": "Villan, Juan Ignacio\nCUIL/CUIT 23-43383392-9"
       }
     ],
     "errores": [],
