@@ -46248,6 +46248,28 @@
         "_fecha_carga": "18/06/2026 20:00",
         "_origen": "grupo",
         "_pie": "Gisela Benítez 34.643630"
+      },
+      {
+        "fecha": "12/06/2026",
+        "hora": "13:16",
+        "tipo": "TRF",
+        "monto": 500000.0,
+        "moneda": "ARS",
+        "remitente": "Obejero, Brenda Soledad",
+        "remitente_cuil": "27-43469178-3",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Personal Pay",
+        "banco_destino": "",
+        "referencia": "2737553600",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CBU/CVU del receptor: 0000155300000000009977. CoelsaID: LMORZP908RRPJ6PPNEGJ46 - Id Bancario. CUIL/CUIT destinatario: 30-71728225-2.",
+        "_num": 135,
+        "_fecha_carga": "18/06/2026 20:00",
+        "_origen": "grupo",
+        "_pie": "Obejero, Brenda Soledad\nCUIL/CUIT 27-43469178-3"
       }
     ],
     "errores": [],
