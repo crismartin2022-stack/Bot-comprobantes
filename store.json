@@ -25566,6 +25566,28 @@
         "_fecha_carga": "18/06/2026 13:10",
         "_origen": "grupo",
         "_pie": "a Albornoz, Nicolas Eduardo\nCUIL/CUIT 20-12580879-5"
+      },
+      {
+        "fecha": "13/06/2026",
+        "hora": "22:19",
+        "tipo": "TRF",
+        "monto": 200000.0,
+        "moneda": "ARS",
+        "remitente": "Leonela Sabrina Braga",
+        "remitente_cuil": "",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Ualá",
+        "banco_destino": "",
+        "referencia": "LMORZP908L5XM0R4NEGJ46",
+        "concepto": "VAR",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CUIT destino: 30717282252. CBU destino completo: 0000155300000000009977",
+        "_num": 1160,
+        "_fecha_carga": "18/06/2026 13:10",
+        "_origen": "grupo",
+        "_pie": "Leonela Sabrina Braga\n30717282252"
       }
     ],
     "errores": [],
