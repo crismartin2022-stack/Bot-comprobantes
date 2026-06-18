@@ -16550,6 +16550,28 @@
         "_fecha_carga": "18/06/2026 00:19",
         "_origen": "grupo",
         "_pie": "Foto de Ges"
+      },
+      {
+        "fecha": "14/06/2026",
+        "hora": "18:57",
+        "tipo": "TRF",
+        "monto": 14000.0,
+        "moneda": "ARS",
+        "remitente": "Natali Pereira",
+        "remitente_cuil": "27-37229562-2",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "164132519358",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: D4RO172VZQPL605DNKJ3QE. CUIT destinatario: 30-71728225-2. CVU destinatario completo: 0000155300000000009977",
+        "_num": 751,
+        "_fecha_carga": "18/06/2026 00:19",
+        "_origen": "grupo",
+        "_pie": "Foto de Ges"
       }
     ],
     "errores": [],
