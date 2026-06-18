@@ -5907,6 +5907,28 @@
         "_fecha_carga": "17/06/2026 21:36",
         "_origen": "grupo",
         "_pie": "38439712 \n\nRodrigo Andrés Márquez de Olivera"
+      },
+      {
+        "fecha": "13/06/2026",
+        "hora": "00:22",
+        "tipo": "TRF",
+        "monto": 300003.0,
+        "moneda": "ARS",
+        "remitente": "Maria Alejandra Leiva",
+        "remitente_cuil": "27-36023022-3",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163897815678",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: WGRXJE27DXELM47PN7MYQL. CUIL destinatario: 30-71728225-2. CVU remitente: 0000003100043458006297. CVU destinatario: 0000155300000000009977.",
+        "_num": 268,
+        "_fecha_carga": "17/06/2026 21:36",
+        "_origen": "grupo",
+        "_pie": "Leiva María Alejandra \n36023022"
       }
     ],
     "errores": [],
