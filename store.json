@@ -42440,6 +42440,28 @@
         "_fecha_carga": "18/06/2026 15:42",
         "_origen": "grupo",
         "_pie": "Jhonatan Leonardo Espinola\nNaranja X\n4530000800014353782944\n20-45791550-1"
+      },
+      {
+        "fecha": "15/06/2026",
+        "hora": "23:36",
+        "tipo": "TRF",
+        "monto": 35000.0,
+        "moneda": "ARS",
+        "remitente": "Miriam Lili Nunez Fernandez",
+        "remitente_cuil": "27-94216492-6",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "164315416662",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: XJ8G7V95DWOL7EPL9EMPYR. CVU remitente: 0000003100098349467435. CVU destinatario: 0000155300000000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 1925,
+        "_fecha_carga": "18/06/2026 15:42",
+        "_origen": "grupo",
+        "_pie": "Miriam Lili Nunez Fernandez\nCUIT/CUIL: 27-94216492-6"
       }
     ],
     "errores": [],
