@@ -46026,6 +46026,28 @@
         "_fecha_carga": "18/06/2026 19:59",
         "_origen": "grupo",
         "_pie": "Brian Ariel Salto\nNaranja X\n4530000800019637502810\n20-45315434-4"
+      },
+      {
+        "fecha": "12/06/2026",
+        "hora": "00:15",
+        "tipo": "TRF",
+        "monto": 200000.0,
+        "moneda": "ARS",
+        "remitente": "Kevin Nahuel Ledesma",
+        "remitente_cuil": "20-40471888-7",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163723764998",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: LMORZP908RMQ6V66NEGJ46. CVU remitente: 0000003100064007687686. CVU destinatario: 0000155300000000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 125,
+        "_fecha_carga": "18/06/2026 19:59",
+        "_origen": "grupo",
+        "_pie": "Kevin Ledesma\n40471888\nGanamos"
       }
     ],
     "errores": [],
