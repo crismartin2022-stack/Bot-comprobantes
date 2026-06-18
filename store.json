@@ -41976,6 +41976,28 @@
         "_fecha_carga": "18/06/2026 15:39",
         "_origen": "grupo",
         "_pie": "Paula Sofia Cruz 40463800"
+      },
+      {
+        "fecha": "15/06/2026",
+        "hora": "22:42",
+        "tipo": "TRF",
+        "monto": 250000.0,
+        "moneda": "ARS",
+        "remitente": "CRISTIAN EDGARDO MACHUCA",
+        "remitente_cuil": "20-36174575-3",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Banco De Galicia S.A.U",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "42115118112",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CVU destinatario: 0000155300000000009977. CUIT destinatario: 30-71728225-2. ID COELSA: Z6OLMDN3V3YE5JOY2E7RQ5. Cuenta origen CA $ N° 4067003-0 043-0.",
+        "_num": 1904,
+        "_fecha_carga": "18/06/2026 15:39",
+        "_origen": "grupo",
+        "_pie": "CRISTIAN EDGARDO MACHUCA\nCUIT 20-36174575-3"
       }
     ],
     "errores": [],
