@@ -24487,6 +24487,28 @@
         "_fecha_carga": "18/06/2026 13:02",
         "_origen": "grupo",
         "_pie": "Zoe aguilar 46682878"
+      },
+      {
+        "fecha": "13/06/2026",
+        "hora": "19:07",
+        "tipo": "TRF",
+        "monto": 25000.0,
+        "moneda": "ARS",
+        "remitente": "Marco Emmiliano Barrera",
+        "remitente_cuil": "20-39596546-9",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Naranja X",
+        "banco_destino": "Cuenta Virtual",
+        "referencia": "R7ZG0QNDW1J7566D9EXYPO",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CBU origen: 4530000800012271420814. CVU destino: 0000155300000000009977. CUIL destinatario: 30-71728225-2. Código de transacción adicional: 27ada395-ffb6-483c-9af3-4ea7dda347d3",
+        "_num": 1111,
+        "_fecha_carga": "18/06/2026 13:02",
+        "_origen": "grupo",
+        "_pie": "Marco Emmiliano Barrera\nNaranja X\n4530000800012271420814\n20-39596546-9"
       }
     ],
     "errores": [],
