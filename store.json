@@ -18910,6 +18910,28 @@
         "_fecha_carga": "18/06/2026 00:34",
         "_origen": "grupo",
         "_pie": ""
+      },
+      {
+        "fecha": "14/06/2026",
+        "hora": "13:06",
+        "tipo": "TRF",
+        "monto": 20000.0,
+        "moneda": "ARS",
+        "remitente": "Martha Ines Figueroa",
+        "remitente_cuil": "27-16439506-0",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "164094344188",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: Z6OLMDN3V3VDPKJ52E7RQ5. CVU remitente: 0000003100097496289615. CVU destinatario: 0000155300000000009977. CUIL destinatario: 30-71728225-2.",
+        "_num": 858,
+        "_fecha_carga": "18/06/2026 00:34",
+        "_origen": "grupo",
+        "_pie": ""
       }
     ],
     "errores": [],
