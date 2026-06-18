@@ -33964,6 +33964,28 @@
         "_fecha_carga": "18/06/2026 14:12",
         "_origen": "grupo",
         "_pie": "Lorena Elizabeth paolini \n35800760"
+      },
+      {
+        "fecha": "13/06/2026",
+        "hora": "20:29",
+        "tipo": "TRF",
+        "monto": 200000.0,
+        "moneda": "ARS",
+        "remitente": "Fabian Augusto Villada Correa",
+        "remitente_cuil": "20-94956787-8",
+        "destinatario": "SASTEUP SRL",
+        "banco_origen": "AstroPay",
+        "banco_destino": "",
+        "referencia": "LMORZP908L518676NEGJ46",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CVU remitente: 0000177507613004433315. CVU receptor: 0000155300000000009977. CUIT receptor: 30717282252. Alias receptor: cvu.977",
+        "_num": 1541,
+        "_fecha_carga": "18/06/2026 14:12",
+        "_origen": "grupo",
+        "_pie": ""
       }
     ],
     "errores": [],
