@@ -44662,6 +44662,28 @@
         "_fecha_carga": "18/06/2026 19:50",
         "_origen": "grupo",
         "_pie": "Cristian Eduardo Ramirez\nCUIT/CUIL: 20-30942047-1\nMercado Pago"
+      },
+      {
+        "fecha": "11/06/2026",
+        "hora": "22:57",
+        "tipo": "TRF",
+        "monto": 25000.0,
+        "moneda": "ARS",
+        "remitente": "Mateo Lorenzo Ortiz",
+        "remitente_cuil": "20-44207704-6",
+        "destinatario": "SASTEUP SRL",
+        "banco_origen": "AstroPay",
+        "banco_destino": "",
+        "referencia": "LOEJWV9JZPQ7X7V82QMD0G",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CVU remitente: 0000177509829006714833. CVU receptor: 0000155300000000009977. CUIT receptor SASTEUP SRL: 30717282252. Alias receptor: cvu.977",
+        "_num": 63,
+        "_fecha_carga": "18/06/2026 19:50",
+        "_origen": "grupo",
+        "_pie": "Mateo Lorenzo Ortiz\n20442077046"
       }
     ],
     "errores": [],
