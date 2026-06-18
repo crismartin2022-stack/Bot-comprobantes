@@ -12431,6 +12431,28 @@
         "_fecha_carga": "17/06/2026 23:43",
         "_origen": "grupo",
         "_pie": "Foto de Johanna Cáceres 💜"
+      },
+      {
+        "fecha": "13/06/2026",
+        "hora": "23:52",
+        "tipo": "TRF",
+        "monto": 20000.0,
+        "moneda": "ARS",
+        "remitente": "Maria Elena Romero",
+        "remitente_cuil": "27-22568537-7",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "164047047216",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: Z0KV87940E8EMXXJNPEYDX. CUIT destinatario: 30-71728225-2. CVU remitente: 0000003100055875994459. CVU destinatario: 0000155300000000009977.",
+        "_num": 564,
+        "_fecha_carga": "17/06/2026 23:43",
+        "_origen": "grupo",
+        "_pie": "Foto de Johanna Cáceres 💜"
       }
     ],
     "errores": [],
