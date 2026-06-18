@@ -22210,6 +22210,28 @@
         "_fecha_carga": "18/06/2026 12:46",
         "_origen": "grupo",
         "_pie": "Marina rapalin 46.092.924"
+      },
+      {
+        "fecha": "13/06/2026",
+        "hora": "01:46",
+        "tipo": "TRF",
+        "monto": 55000.0,
+        "moneda": "ARS",
+        "remitente": "Candela Ariadna Coronel",
+        "remitente_cuil": "27-44303044-7",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163095093153",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: 86VRPQ2GML303GM02GLY0M. CVU remitente: 0000003100010408146738. CVU destinatario: 0000155300000000009977",
+        "_num": 1008,
+        "_fecha_carga": "18/06/2026 12:46",
+        "_origen": "grupo",
+        "_pie": "44303044\nCandela Ariadna Coronel"
       }
     ],
     "errores": [],
