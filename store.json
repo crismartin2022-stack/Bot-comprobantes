@@ -54606,6 +54606,28 @@
         "_fecha_carga": "18/06/2026 20:52",
         "_origen": "grupo",
         "_pie": "Foto de ."
+      },
+      {
+        "fecha": "13/06/2026",
+        "hora": "00:21",
+        "tipo": "TRF",
+        "monto": 37000.0,
+        "moneda": "ARS",
+        "remitente": "Marta Mercedes Grillo",
+        "remitente_cuil": "23-16406093-4",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163898504614",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: 46YGOW9M1KD0O3Z8NEXD8J. CVU remitente: 0000003100088151045224. CVU destinatario: 0000155300000000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 514,
+        "_fecha_carga": "18/06/2026 20:52",
+        "_origen": "grupo",
+        "_pie": "Foto de ."
       }
     ],
     "errores": [],
