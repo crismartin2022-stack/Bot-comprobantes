@@ -47660,6 +47660,28 @@
         "_fecha_carga": "18/06/2026 20:09",
         "_origen": "grupo",
         "_pie": "Marco Emmiliano Barrera\nNaranja X\n4530000800012271420814\n20-39596546-9"
+      },
+      {
+        "fecha": "12/06/2026",
+        "hora": "21:06",
+        "tipo": "TRF",
+        "monto": 150000.0,
+        "moneda": "ARS",
+        "remitente": "Micaela Acosta",
+        "remitente_cuil": "27-37679548-4",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163875838168",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: WY7ZEPN6M4K4GPXO2Q0M51. CVU destinatario: 0000155300000000009977. CVU remitente: 0000003100057615083524. CUIT destinatario: 30-71728225-2.",
+        "_num": 199,
+        "_fecha_carga": "18/06/2026 20:09",
+        "_origen": "grupo",
+        "_pie": "Micaela Acosta\nCUIT/CUIL: 27-37679548-4"
       }
     ],
     "errores": [],
