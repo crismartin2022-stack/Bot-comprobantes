@@ -54474,6 +54474,28 @@
         "_fecha_carga": "18/06/2026 20:51",
         "_origen": "grupo",
         "_pie": "Foto de ."
+      },
+      {
+        "fecha": "12/06/2026",
+        "hora": "21:53",
+        "tipo": "TRF",
+        "monto": 20000.0,
+        "moneda": "ARS",
+        "remitente": "Juan Antonio Quiroz",
+        "remitente_cuil": "20-26629073-0",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163881783284",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: LMORZP908LJK0GJ6NEGJ46. CVU remitente: 0000003100037583978075. CVU destinatario: 0000155300000000009977",
+        "_num": 508,
+        "_fecha_carga": "18/06/2026 20:51",
+        "_origen": "grupo",
+        "_pie": "Foto de ."
       }
     ],
     "errores": [],
