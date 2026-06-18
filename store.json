@@ -22321,6 +22321,28 @@
         "_fecha_carga": "18/06/2026 12:47",
         "_origen": "grupo",
         "_pie": "Vega Romina Liz \n27343282481"
+      },
+      {
+        "fecha": "15/06/2026",
+        "hora": "12:56",
+        "tipo": "TRF",
+        "monto": 300000.0,
+        "moneda": "ARS",
+        "remitente": "Gonzalo Simón Vega",
+        "remitente_cuil": "",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Ualá",
+        "banco_destino": "Billetera Virtual",
+        "referencia": "e04f896f-c302-3c8c-d5cc-bbe7c378cad9",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CVU destino: 0000155300000000009977. CBU emisor: 38402005000000038149528. CUIT/CUIL destinatario: 30-71728225-2. Comentario: Transferencia en pesos.",
+        "_num": 1013,
+        "_fecha_carga": "18/06/2026 12:47",
+        "_origen": "grupo",
+        "_pie": "Vega Gonzalo Simon \nCuil: 20-45436495-4"
       }
     ],
     "errores": [],
