@@ -29447,6 +29447,28 @@
         "_fecha_carga": "18/06/2026 13:41",
         "_origen": "grupo",
         "_pie": "Juliana palavecino \n47337453"
+      },
+      {
+        "fecha": "14/06/2026",
+        "hora": "23:13",
+        "tipo": "TRF",
+        "monto": 50000.0,
+        "moneda": "ARS",
+        "remitente": "Eriberta Herminia Fernandez Herrera",
+        "remitente_cuil": "27-92798572-7",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163351075789",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: D4RO172VZQPX70ERNKJ3QE. CUIT destinatario: 30-71728225-2. CVU remitente: 0000003100025464627204. CVU destinatario: 0000155300000000000009977",
+        "_num": 1336,
+        "_fecha_carga": "18/06/2026 13:41",
+        "_origen": "grupo",
+        "_pie": "Eriberta Herminia Fernandez Herrera\nCUIT/CUIL: 27-92798572-7"
       }
     ],
     "errores": [],
