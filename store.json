@@ -18074,6 +18074,28 @@
         "_fecha_carga": "18/06/2026 00:30",
         "_origen": "grupo",
         "_pie": ""
+      },
+      {
+        "fecha": "13/06/2026",
+        "hora": "23:26",
+        "tipo": "TRF",
+        "monto": 60000.0,
+        "moneda": "ARS",
+        "remitente": "Brenda Tiziana Munoz",
+        "remitente_cuil": "27-42471278-2",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163235352703",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: 86VRPQ2GMLVWZ14Y2GLY0M. CVU remitente: 0000003100086452013803. CVU destinatario: 0000155300000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 820,
+        "_fecha_carga": "18/06/2026 00:30",
+        "_origen": "grupo",
+        "_pie": ""
       }
     ],
     "errores": [],
