@@ -15668,6 +15668,28 @@
         "_fecha_carga": "18/06/2026 00:14",
         "_origen": "grupo",
         "_pie": "Foto de Clohe😎"
+      },
+      {
+        "fecha": "14/06/2026",
+        "hora": "20:19",
+        "tipo": "TRF",
+        "monto": 500000.0,
+        "moneda": "ARS",
+        "remitente": "Mariano Victor Manuel Matarazzo",
+        "remitente_cuil": "20-26725225-5",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Naranja X",
+        "banco_destino": "Cuenta Virtual",
+        "referencia": "LMORZP908LG75WVRNEGJ46",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CBU origen: 4530000800018695208933. CVU destino: 0000155300000000009977. CUIL destinatario: 30-71728225-2. Código de transacción: 77744c18-9d3a-4262-a0c7-1c1cc47df20a",
+        "_num": 711,
+        "_fecha_carga": "18/06/2026 00:14",
+        "_origen": "grupo",
+        "_pie": "Mariano Matarazzo \n26.725.225"
       }
     ],
     "errores": [],
