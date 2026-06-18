@@ -42528,6 +42528,28 @@
         "_fecha_carga": "18/06/2026 15:43",
         "_origen": "grupo",
         "_pie": "Zoraida Ailen Perez\n27418352723"
+      },
+      {
+        "fecha": "15/06/2026",
+        "hora": "23:40",
+        "tipo": "TRF",
+        "monto": 30000.0,
+        "moneda": "ARS",
+        "remitente": "Roberto Sergio Lopez",
+        "remitente_cuil": "23-25185980-9",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163502620287",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CUIT destinatario: 30-71728225-2. Código de identificación: ORD6LEN8PYRGRO04NM1Y30. CVU remitente: 0000003100008486765312. CVU destinatario: 0000155300000000000009977.",
+        "_num": 1929,
+        "_fecha_carga": "18/06/2026 15:43",
+        "_origen": "grupo",
+        "_pie": "Roberto Sergio Lopez\nCUIT/CUIL: 23-25185980-9"
       }
     ],
     "errores": [],
