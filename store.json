@@ -12387,6 +12387,28 @@
         "_fecha_carga": "17/06/2026 23:43",
         "_origen": "grupo",
         "_pie": "Foto de Johanna Cáceres 💜"
+      },
+      {
+        "fecha": "13/06/2026",
+        "hora": "19:50",
+        "tipo": "TRF",
+        "monto": 30000.0,
+        "moneda": "ARS",
+        "remitente": "Mirta Graciela Mureide",
+        "remitente_cuil": "27-13621225-2",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "16401807711 8",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: D4RO172VZQE4EK41NKJ3QE. CVU remitente: 0000003100090978236725. CVU destinatario: 0000155300000000000009977. CUIT destinatario: 30-71728225-2",
+        "_num": 562,
+        "_fecha_carga": "17/06/2026 23:43",
+        "_origen": "grupo",
+        "_pie": "Foto de Johanna Cáceres 💜"
       }
     ],
     "errores": [],
