@@ -41248,6 +41248,28 @@
         "_fecha_carga": "18/06/2026 15:34",
         "_origen": "grupo",
         "_pie": "Ah nombre de Fabrizio tomas Carabajal"
+      },
+      {
+        "fecha": "15/06/2026",
+        "hora": "23:16",
+        "tipo": "TRF",
+        "monto": 300000.0,
+        "moneda": "ARS",
+        "remitente": "Walter Maximiliano Brandan",
+        "remitente_cuil": "20-34637169-3",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Naranja X",
+        "banco_destino": "Cuenta Virtual",
+        "referencia": "WY7ZEPN6MKOV6P6O2Q0M51",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CBU origen: 4530000800016362432311. CVU destino: 0000155300000000009977. CUIL destinatario: 30-71728225-2. Código de transacción: d4e0c9f3-7f5a-4eb8-b5a3-a2556d8defb5",
+        "_num": 1871,
+        "_fecha_carga": "18/06/2026 15:34",
+        "_origen": "grupo",
+        "_pie": "44-585-341"
       }
     ],
     "errores": [],
