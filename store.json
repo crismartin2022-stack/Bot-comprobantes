@@ -37919,6 +37919,28 @@
         "_fecha_carga": "18/06/2026 15:00",
         "_origen": "grupo",
         "_pie": "Acosta natali\n35902877"
+      },
+      {
+        "fecha": "15/06/2026",
+        "hora": "21:56",
+        "tipo": "TRF",
+        "monto": 100000.0,
+        "moneda": "ARS",
+        "remitente": "Camila Martina Lencina",
+        "remitente_cuil": "27-43647809-2",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "164304565594",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: L18MKX9RXJ36LP849O6WYV. CVU remitente: 0000003100025130603493. CVU destinatario: 0000155300000000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 1720,
+        "_fecha_carga": "18/06/2026 15:00",
+        "_origen": "grupo",
+        "_pie": "Camila Lencina"
       }
     ],
     "errores": [],
