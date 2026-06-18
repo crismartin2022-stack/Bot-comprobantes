@@ -48079,6 +48079,28 @@
         "_fecha_carga": "18/06/2026 20:11",
         "_origen": "grupo",
         "_pie": "Brian David Munoz\nCUIT/CUIL: 20-44141951-2"
+      },
+      {
+        "fecha": "12/06/2026",
+        "hora": "22:21",
+        "tipo": "TRF",
+        "monto": 300001.0,
+        "moneda": "ARS",
+        "remitente": "Jonathan Daniel Segovia",
+        "remitente_cuil": "",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Ualá",
+        "banco_destino": "",
+        "referencia": "76V4MR2Z74L7WE8YNDEZOL",
+        "concepto": "VAR",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CUIT destino: 30717282252. CBU destino: 0000155300000000009977",
+        "_num": 218,
+        "_fecha_carga": "18/06/2026 20:11",
+        "_origen": "grupo",
+        "_pie": "Jonathan Daniel Segovia \n47678975"
       }
     ],
     "errores": [],
