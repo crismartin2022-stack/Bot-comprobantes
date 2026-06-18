@@ -44992,6 +44992,28 @@
         "_fecha_carga": "18/06/2026 19:52",
         "_origen": "grupo",
         "_pie": "OCTAVIO NICOLÁS SENA TRAMUJAS\n47.559.359"
+      },
+      {
+        "fecha": "11/06/2026",
+        "hora": "23:24",
+        "tipo": "TRF",
+        "monto": 80000.0,
+        "moneda": "ARS",
+        "remitente": "EVELYN MION",
+        "remitente_cuil": "27-38893919-8",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Banco De Galicia S.A.U",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "42079594278",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "ID COELSA: D4RO172VZG0WZR01NKJ3QE. CVU receptor completo: 0000155300000000009977. CUIT destinatario: 30-71728225-2",
+        "_num": 78,
+        "_fecha_carga": "18/06/2026 19:52",
+        "_origen": "grupo",
+        "_pie": "EVELYN MION\nCUIT 27-38893919-8"
       }
     ],
     "errores": [],
