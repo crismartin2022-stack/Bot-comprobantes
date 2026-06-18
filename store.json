@@ -41690,6 +41690,28 @@
         "_fecha_carga": "18/06/2026 15:37",
         "_origen": "grupo",
         "_pie": "Maria claudia ibarra \n28120532"
+      },
+      {
+        "fecha": "15/06/2026",
+        "hora": "22:06",
+        "tipo": "TRF",
+        "monto": 500000.0,
+        "moneda": "ARS",
+        "remitente": "Angelina Nair Coceres Cancelliere",
+        "remitente_cuil": "",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Ualá",
+        "banco_destino": "LOHAS S.A.S.",
+        "referencia": "7b121c44-dd73-1c80-f37f-a46e38ab6443",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CBU emisor: 3840200500000041942417. CUIT/CUIL destino: 30-71728225-2. CVU destino: 0000155300000000009977. Comentario: Transferencia en pesos.",
+        "_num": 1891,
+        "_fecha_carga": "18/06/2026 15:37",
+        "_origen": "grupo",
+        "_pie": "Angelina Nair Coceres\n46819773"
       }
     ],
     "errores": [],
