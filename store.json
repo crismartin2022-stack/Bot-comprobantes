@@ -39374,6 +39374,28 @@
         "_fecha_carga": "18/06/2026 15:10",
         "_origen": "grupo",
         "_pie": "Envío en total \n$1.000.000\n\n•500k (Tony90)\n• *Sasteup Srl*\n• 14/06\n•Sergio Nahuel Sequeira\n•Cuil: 20-41753424-6\n\n•500k (Tony90)\n• *Sasteup Srl*\n• 14/06\n•Julio Andres Caballero\n•Cuil: 20-38660370-8"
+      },
+      {
+        "fecha": "13/06/2026",
+        "hora": "15:40",
+        "tipo": "TRF",
+        "monto": 440000.0,
+        "moneda": "ARS",
+        "remitente": "Eleonora Magali Gallardo",
+        "remitente_cuil": "27-45534816-7",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "46YGOW9M1KJLXY3QNEXD8J",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Número de operación de Mercado Pago: 163169714443. CVU remitente: 0000003100087324989448. CVU destinatario: 0000155300000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 1786,
+        "_fecha_carga": "18/06/2026 15:10",
+        "_origen": "grupo",
+        "_pie": ""
       }
     ],
     "errores": [],
