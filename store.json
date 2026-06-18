@@ -924,6 +924,28 @@
         "_fecha_carga": "17/06/2026 21:03",
         "_origen": "grupo",
         "_pie": "Donato Acosta Britez\nCUIT/CUIL: 20-94744382-9"
+      },
+      {
+        "fecha": "11/06/2026",
+        "hora": "21:42",
+        "tipo": "TRF",
+        "monto": 100000.0,
+        "moneda": "ARS",
+        "remitente": "Rocio Ailen Malaguenxxo",
+        "remitente_cuil": "27-47191340-0",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163709064232",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: 46YGOW9M1YWJZM0QNEXD8J. CVU remitente: 0000003100072484461848. CVU destinatario: 0000155300000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 42,
+        "_fecha_carga": "17/06/2026 21:03",
+        "_origen": "grupo",
+        "_pie": "Rocio Ailen Malaguenxxo\nCUIT/CUIL: 27-47191340-0"
       }
     ],
     "errores": [],
