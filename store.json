@@ -23536,6 +23536,28 @@
         "_fecha_carga": "18/06/2026 12:55",
         "_origen": "grupo",
         "_pie": "María de Los Ángeles Rodríguez \n33711557879"
+      },
+      {
+        "fecha": "13/06/2026",
+        "hora": "13:38",
+        "tipo": "TRF",
+        "monto": 100000.0,
+        "moneda": "ARS",
+        "remitente": "Matias Nicolas Quevedo Hermosilla",
+        "remitente_cuil": "",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Ualá",
+        "banco_destino": "",
+        "referencia": "0V1JXON1LM7XDL07NZ64EL",
+        "concepto": "VAR",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CBU destino: 0000155300000000009977 | CUIT destino: 30717282252",
+        "_num": 1068,
+        "_fecha_carga": "18/06/2026 12:55",
+        "_origen": "grupo",
+        "_pie": "A nombre de \nMatias Quevedo\n40640486"
       }
     ],
     "errores": [],
