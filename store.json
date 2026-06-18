@@ -41468,6 +41468,28 @@
         "_fecha_carga": "18/06/2026 15:36",
         "_origen": "grupo",
         "_pie": "JOHANA GABRIELA GRIMAZ\nCUIL-CUIT: 30-71728225-2"
+      },
+      {
+        "fecha": "15/06/2026",
+        "hora": "21:39",
+        "tipo": "TRF",
+        "monto": 200000.0,
+        "moneda": "ARS",
+        "remitente": "Enzo Alexis Solis",
+        "remitente_cuil": "46.682.028",
+        "destinatario": "SASTEUP SRL",
+        "banco_origen": "Cuenta DNI",
+        "banco_destino": "",
+        "referencia": "L18MKX9RXJ367Z7K9O6WYV",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CVU destinatario: 0000155300000000000009977. CUIL destinatario: 30717282252.",
+        "_num": 1881,
+        "_fecha_carga": "18/06/2026 15:36",
+        "_origen": "grupo",
+        "_pie": "JOHANA GABRIELA GRIMAZ\nCUIL-CUIT: 30-71728225-2"
       }
     ],
     "errores": [],
