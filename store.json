@@ -28917,6 +28917,28 @@
         "_fecha_carga": "18/06/2026 13:37",
         "_origen": "grupo",
         "_pie": "Pablo Gaspar Carreno\nCUIT/CUIL: 20-38106862-6"
+      },
+      {
+        "fecha": "14/06/2026",
+        "hora": "19:26",
+        "tipo": "TRF",
+        "monto": 38000.0,
+        "moneda": "ARS",
+        "remitente": "Leonardo Sebastian Taboada",
+        "remitente_cuil": "",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Lemon",
+        "banco_destino": "CVU",
+        "referencia": "1LMP68NKVEK733RK2R7OEV",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CUIT destinatario: 30717282252. CBU destinatario: 0000155300000000009977. ID de la transacción: d1bd47aa-5bca-4e30-a99d-fffc759937d4. Comprobante emitido por Lemon powered by Digifin.",
+        "_num": 1312,
+        "_fecha_carga": "18/06/2026 13:37",
+        "_origen": "grupo",
+        "_pie": "Leonardo Sebastian Taboada\nCuil 20349021200"
       }
     ],
     "errores": [],
