@@ -40476,6 +40476,28 @@
         "_fecha_carga": "18/06/2026 15:29",
         "_origen": "grupo",
         "_pie": "Foto de icdp santa fe"
+      },
+      {
+        "fecha": "14/06/2026",
+        "hora": "20:55",
+        "tipo": "TRF",
+        "monto": 40000.0,
+        "moneda": "ARS",
+        "remitente": "Andrea Maria Loza",
+        "remitente_cuil": "27-27243192-8",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Naranja X",
+        "banco_destino": "Cuenta Virtual",
+        "referencia": "RD06ZO9WVR438VK7N5GP7X",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CBU origen: 4530000800011089188277. CVU destino: 0000155300000000009977. CUIL destinatario: 30-71728225-2. Código de transacción: 53e5c698-82b0-4c3a-97af-ac3047fde3aa",
+        "_num": 1836,
+        "_fecha_carga": "18/06/2026 15:29",
+        "_origen": "grupo",
+        "_pie": "Foto de icdp santa fe"
       }
     ],
     "errores": [],
