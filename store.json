@@ -39440,6 +39440,28 @@
         "_fecha_carga": "18/06/2026 15:10",
         "_origen": "grupo",
         "_pie": ""
+      },
+      {
+        "fecha": "14/06/2026",
+        "hora": "20:54",
+        "tipo": "TRF",
+        "monto": 300000.0,
+        "moneda": "ARS",
+        "remitente": "Hernan Ariel Alvarenga",
+        "remitente_cuil": "23-37790603-9",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "164149558862",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: 46YGOW9M1KG6WLVMNEXD8J. CVU remitente: 0000003100071435925862. CVU destinatario: 0000155300000000009977.",
+        "_num": 1789,
+        "_fecha_carga": "18/06/2026 15:11",
+        "_origen": "grupo",
+        "_pie": "300 k (Tony90) \n*Sasteup Srl* \n14/6 \nHernán Ariel Alvarenga \n23-37790603-9"
       }
     ],
     "errores": [],
