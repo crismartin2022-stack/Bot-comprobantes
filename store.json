@@ -24686,6 +24686,28 @@
         "_fecha_carga": "18/06/2026 13:03",
         "_origen": "grupo",
         "_pie": "Agustin Ezequiel Villan\nNaranja X\n4530000800016039564844\n20-42237251-3"
+      },
+      {
+        "fecha": "13/06/2026",
+        "hora": "19:43",
+        "tipo": "TRF",
+        "monto": 30000.0,
+        "moneda": "ARS",
+        "remitente": "Eriberta Herminia Fernandez Herrera",
+        "remitente_cuil": "27-92798572-7",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "164017167008",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: L18MKX9RXJ7EMWQ49O6WYV. CVU remitente: 0000003100025464627204. CVU destinatario: 0000155300000000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 1120,
+        "_fecha_carga": "18/06/2026 13:03",
+        "_origen": "grupo",
+        "_pie": "Eriberta Herminia Fernandez Herrera\nCUIT/CUIL: 27-92798572-7"
       }
     ],
     "errores": [],
