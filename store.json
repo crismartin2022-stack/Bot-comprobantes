@@ -39528,6 +39528,28 @@
         "_fecha_carga": "18/06/2026 15:11",
         "_origen": "grupo",
         "_pie": "100k (Tony90)\n*SASTEUP SRL*\n15/06\nOsvaldo Yandet\n20-24927095-5"
+      },
+      {
+        "fecha": "13/06/2026",
+        "hora": "23:00",
+        "tipo": "TRF",
+        "monto": 400000.0,
+        "moneda": "ARS",
+        "remitente": "Alvaro Gerardine Coria",
+        "remitente_cuil": "20-41479775-0",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163233020595",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: 67REZ8NPQ6WPO57G94KVGO. CVU destinatario: 0000155300000000009977. CVU remitente: 0000003100036296714240",
+        "_num": 1793,
+        "_fecha_carga": "18/06/2026 15:11",
+        "_origen": "grupo",
+        "_pie": ""
       }
     ],
     "errores": [],
