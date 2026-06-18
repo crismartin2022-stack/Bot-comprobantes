@@ -4429,6 +4429,28 @@
         "_fecha_carga": "17/06/2026 21:27",
         "_origen": "grupo",
         "_pie": "Carolina Soraya López 25572398"
+      },
+      {
+        "fecha": "12/06/2026",
+        "hora": "22:03",
+        "tipo": "TRF",
+        "monto": 200000.0,
+        "moneda": "ARS",
+        "remitente": "Hector Fabian Talavera Barreto",
+        "remitente_cuil": "20-94823970-2",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163883682786",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: Z6OLMDN3V3MXY8862E7RQ5. CVU remitente: 0000003100032956964567. CVU destinatario: 0000155300000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 201,
+        "_fecha_carga": "17/06/2026 21:27",
+        "_origen": "grupo",
+        "_pie": "Hector Fabian Talavera Barreto\nCUIT/CUIL: 20-94823970-2"
       }
     ],
     "errores": [],
