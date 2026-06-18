@@ -33304,6 +33304,28 @@
         "_fecha_carga": "18/06/2026 14:07",
         "_origen": "grupo",
         "_pie": "Cynthia Noelia Mino Gonzalez\nCUIL\n27-40421715-7"
+      },
+      {
+        "fecha": "11/06/2026",
+        "hora": "23:02",
+        "tipo": "TRF",
+        "monto": 50000.0,
+        "moneda": "ARS",
+        "remitente": "Diana Natali Juncos",
+        "remitente_cuil": "27-34990372-0",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163717552774",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: D4RO172VZG0KJ67VNKJ3QE. CVU remitente: 0000003100045692079198. CVU destinatario: 0000155300000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 1511,
+        "_fecha_carga": "18/06/2026 14:07",
+        "_origen": "grupo",
+        "_pie": "Diana Natali Juncos\nCUIT/CUIL: 27-34990372-0"
       }
     ],
     "errores": [],
