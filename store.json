@@ -12915,6 +12915,28 @@
         "_fecha_carga": "17/06/2026 23:47",
         "_origen": "grupo",
         "_pie": "Foto de Vivo"
+      },
+      {
+        "fecha": "12/06/2026",
+        "hora": "18:35",
+        "tipo": "TRF",
+        "monto": 30000.0,
+        "moneda": "ARS",
+        "remitente": "Silvia Hayde Dominguez",
+        "remitente_cuil": "27-21781859-7",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163037534935",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: 76V4MR2Z7Q4GJW48NDEZOL. CVU remitente: 0000003100024824350590. CVU destinatario: 0000155300000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 586,
+        "_fecha_carga": "17/06/2026 23:47",
+        "_origen": "grupo",
+        "_pie": "Foto de Vivo"
       }
     ],
     "errores": [],
