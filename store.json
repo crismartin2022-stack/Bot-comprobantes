@@ -46955,6 +46955,28 @@
         "_fecha_carga": "18/06/2026 20:04",
         "_origen": "grupo",
         "_pie": "Carlos Silvero 95021897"
+      },
+      {
+        "fecha": "12/06/2026",
+        "hora": "19:15",
+        "tipo": "TRF",
+        "monto": 150000.0,
+        "moneda": "ARS",
+        "remitente": "Noemi Ayda Duarte",
+        "remitente_cuil": "27-24131220-3",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163044827751",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: 3D5W612E6EZ5GM152GXYVR. CVU destinatario: 0000155300000000000009977. CUIT destinatario: 30-71728225-2",
+        "_num": 167,
+        "_fecha_carga": "18/06/2026 20:04",
+        "_origen": "grupo",
+        "_pie": "Noemi Ayda Duarte\nCUIT/CUIL: 27-24131220-3"
       }
     ],
     "errores": [],
