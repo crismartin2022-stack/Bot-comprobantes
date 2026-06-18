@@ -36213,6 +36213,28 @@
         "_fecha_carga": "18/06/2026 14:48",
         "_origen": "grupo",
         "_pie": "Foto de Gustavo Volpe"
+      },
+      {
+        "fecha": "14/06/2026",
+        "hora": "21:27",
+        "tipo": "TRF",
+        "monto": 30000.0,
+        "moneda": "ARS",
+        "remitente": "Cristian Gabriel Godoy",
+        "remitente_cuil": "20-38839812-5",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163341078999",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: R7ZG0QNDW1KL8WZ09EXYPO. CVU destinatario: 0000155300000000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 1643,
+        "_fecha_carga": "18/06/2026 14:48",
+        "_origen": "grupo",
+        "_pie": "Una más porfa"
       }
     ],
     "errores": [],
