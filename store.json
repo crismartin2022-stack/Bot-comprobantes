@@ -6084,6 +6084,28 @@
         "_fecha_carga": "17/06/2026 21:37",
         "_origen": "grupo",
         "_pie": "Angelina Nair Coceres\n46819773"
+      },
+      {
+        "fecha": "13/06/2026",
+        "hora": "00:08",
+        "tipo": "TRF",
+        "monto": 150000.0,
+        "moneda": "ARS",
+        "remitente": "Rodrigo Andres Marquez de Olivera",
+        "remitente_cuil": "",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Ualá",
+        "banco_destino": "",
+        "referencia": "Z4K6DVNOWYOLLRZ125J8LQ",
+        "concepto": "VAR",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CUIT destinatario: 30717282252. CBU destino completo: 0000155300000000009977",
+        "_num": 276,
+        "_fecha_carga": "17/06/2026 21:37",
+        "_origen": "grupo",
+        "_pie": ""
       }
     ],
     "errores": [],
