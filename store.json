@@ -50262,6 +50262,28 @@
         "_fecha_carga": "18/06/2026 20:25",
         "_origen": "grupo",
         "_pie": "Rosalia medina 14516073"
+      },
+      {
+        "fecha": "13/06/2026",
+        "hora": "09:44",
+        "tipo": "TRF",
+        "monto": 100000.0,
+        "moneda": "ARS",
+        "remitente": "Daniel Ojeda Fernandez",
+        "remitente_cuil": "20-95414902-2",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Naranja X",
+        "banco_destino": "Cuenta Virtual",
+        "referencia": "Z4K6DVNOWYOMG31M25J8LQ",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CBU origen: 4530000800019253182465. CVU destino: 0000155300000000009977. CUIL destinatario: 30-71728225-2. Código de transacción: 869894d3-f5a8-4b3a-a9e5-1bf5e860df10.",
+        "_num": 317,
+        "_fecha_carga": "18/06/2026 20:25",
+        "_origen": "grupo",
+        "_pie": "Daniel Ojeda Fernandez\nNaranja X\n4530000800019253182465\n20-95414902-2"
       }
     ],
     "errores": [],
