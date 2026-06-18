@@ -31322,6 +31322,28 @@
         "_fecha_carga": "18/06/2026 13:54",
         "_origen": "grupo",
         "_pie": "Juan silvero 29557533"
+      },
+      {
+        "fecha": "15/06/2026",
+        "hora": "18:27",
+        "tipo": "TRF",
+        "monto": 260000.0,
+        "moneda": "ARS",
+        "remitente": "Luque Miguez, Ariadna Abigail",
+        "remitente_cuil": "27-48299541-7",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Personal Pay",
+        "banco_destino": "",
+        "referencia": "PDX4OGNYGP844EWQN0L6EY",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CUIL/CUIT destinatario: 30-71728225-2. CBU/CVU receptor: 0000155300000000009977. N° de operación: 2744826775. CoelsaID: PDX4OGNYGP844EWQN0L6EY - Id Bancario.",
+        "_num": 1421,
+        "_fecha_carga": "18/06/2026 13:54",
+        "_origen": "grupo",
+        "_pie": "Luque Miguez, Ariadna Abigail\n27-48299541-7"
       }
     ],
     "errores": [],
