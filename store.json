@@ -26361,6 +26361,28 @@
         "_fecha_carga": "18/06/2026 13:15",
         "_origen": "grupo",
         "_pie": "Fabian Nicolas Alvarez\nCUIT/CUIL: 20-37810983-4"
+      },
+      {
+        "fecha": "13/06/2026",
+        "hora": "23:11",
+        "tipo": "TRF",
+        "monto": 300000.0,
+        "moneda": "ARS",
+        "remitente": "MATIAS EMMANUEL TORRES MOYANO",
+        "remitente_cuil": "20-32356439-7",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Banco De Galicia S.A.U",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "42101447654",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CVU destinatario: 0000155300000000009977. CUIT destinatario: 30-71728225-2. ID COELSA: Z0KV87940E8P7WXJNPEYDX",
+        "_num": 1196,
+        "_fecha_carga": "18/06/2026 13:15",
+        "_origen": "grupo",
+        "_pie": "Matias torres 32356439"
       }
     ],
     "errores": [],
