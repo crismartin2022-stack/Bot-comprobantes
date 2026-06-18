@@ -21374,6 +21374,28 @@
         "_fecha_carga": "18/06/2026 00:49",
         "_origen": "grupo",
         "_pie": "María Silvina Montero\nDNI: 22.089.285"
+      },
+      {
+        "fecha": "13/06/2026",
+        "hora": "21:21",
+        "tipo": "TRF",
+        "monto": 500000.29,
+        "moneda": "ARS",
+        "remitente": "Ezequiel Mauricio Lopez",
+        "remitente_cuil": "20-32279298-1",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "164031214688",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación adicional: 67REZ8NPQ6WYJ7PR94KVGO. CVU remitente: 0000003100089313382416. CVU destinatario: 0000155300000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 970,
+        "_fecha_carga": "18/06/2026 00:49",
+        "_origen": "grupo",
+        "_pie": "Ezequiel Mauricio López \nDNI: 32.279.298"
       }
     ],
     "errores": [],
