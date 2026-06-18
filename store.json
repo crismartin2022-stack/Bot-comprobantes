@@ -1958,6 +1958,28 @@
         "_fecha_carga": "17/06/2026 21:10",
         "_origen": "grupo",
         "_pie": "Sandy margorit Quicaño rucoba \n29-94097313-4"
+      },
+      {
+        "fecha": "12/06/2026",
+        "hora": "00:29",
+        "tipo": "TRF",
+        "monto": 100000.0,
+        "moneda": "ARS",
+        "remitente": "Donato Acosta Britez",
+        "remitente_cuil": "20-94744382-9",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163724982586",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: 76V4MR2Z7QMG7MJENDEZOL. CVU remitente: 0000003100073580892165. CVU destinatario: 0000155300000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 89,
+        "_fecha_carga": "17/06/2026 21:10",
+        "_origen": "grupo",
+        "_pie": "Donato Acosta Britez\nCUIT/CUIL: 20-94744382-9"
       }
     ],
     "errores": [],
