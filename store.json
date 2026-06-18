@@ -29071,6 +29071,28 @@
         "_fecha_carga": "18/06/2026 13:38",
         "_origen": "grupo",
         "_pie": "Daniel Ojeda Fernandez\nNaranja X\n4530000800019253182465\n20-95414902-2"
+      },
+      {
+        "fecha": "14/06/2026",
+        "hora": "21:52",
+        "tipo": "TRF",
+        "monto": 60000.0,
+        "moneda": "ARS",
+        "remitente": "Delia Carolina Ocampos Monges",
+        "remitente_cuil": "27-95400070-8",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "164155114098",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: D4RO172VZQPYR7ZRNKJ3QE. CUIT destinatario: 30-71728225-2. CVU remitente: 0000003100024888432649. CVU destinatario: 0000155300000000000009977",
+        "_num": 1319,
+        "_fecha_carga": "18/06/2026 13:38",
+        "_origen": "grupo",
+        "_pie": "Delia Carolina Ocampos Monges\nCUIT/CUIL: 27-95400070-8"
       }
     ],
     "errores": [],
