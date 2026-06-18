@@ -23183,6 +23183,28 @@
         "_fecha_carga": "18/06/2026 12:53",
         "_origen": "grupo",
         "_pie": "Miguel Ángel Gómez 36462022"
+      },
+      {
+        "fecha": "15/06/2026",
+        "hora": "19:27",
+        "tipo": "TRF",
+        "monto": 100000.0,
+        "moneda": "ARS",
+        "remitente": "Vargas, Jesica Adriana",
+        "remitente_cuil": "27-37808377-5",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Personal Pay",
+        "banco_destino": "",
+        "referencia": "2744965025",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CoelsaID: R7ZG0QNDW17RDR4V9EXYPO - Id Bancario. CUIL/CUIT destinatario: 30-71728225-2. CBU/CVU receptor: 0000155300000000009977",
+        "_num": 1052,
+        "_fecha_carga": "18/06/2026 12:53",
+        "_origen": "grupo",
+        "_pie": "JESICA VARGAS\n\nDNI: 37.808.377"
       }
     ],
     "errores": [],
