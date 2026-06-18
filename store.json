@@ -45168,6 +45168,28 @@
         "_fecha_carga": "18/06/2026 19:53",
         "_origen": "grupo",
         "_pie": "MATIAS EMMANUEL TORRES MOYANO\nCUIT 20-32356439-7"
+      },
+      {
+        "fecha": "12/06/2026",
+        "hora": "00:01",
+        "tipo": "TRF",
+        "monto": 25000.0,
+        "moneda": "ARS",
+        "remitente": "Yanina Soledad Aparicio",
+        "remitente_cuil": "27-29034778-0",
+        "destinatario": "SASTEUP SRL",
+        "banco_origen": "AstroPay",
+        "banco_destino": "",
+        "referencia": "Z0KV87940P3QVQLJNPEYDX",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CVU remitente: 0000177509645006754633 (Alias: Rouge2). CVU receptor: 0000155300000000009977 (Alias: cvu.977). CUIT receptor: 30717282252.",
+        "_num": 86,
+        "_fecha_carga": "18/06/2026 19:54",
+        "_origen": "grupo",
+        "_pie": "Yanina Soledad Aparicio\nCUIT/CUIL\nEntidad\nAlias\nCVU\n27290347780"
       }
     ],
     "errores": [],
