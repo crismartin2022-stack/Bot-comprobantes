@@ -42064,6 +42064,28 @@
         "_fecha_carga": "18/06/2026 15:39",
         "_origen": "grupo",
         "_pie": "De:\nCELINA FLORENCIA SORIA\nCUIT 27-41727066-9"
+      },
+      {
+        "fecha": "15/06/2026",
+        "hora": "22:50",
+        "tipo": "TRF",
+        "monto": 50000.0,
+        "moneda": "ARS",
+        "remitente": "Leandro Fabian Gabela",
+        "remitente_cuil": "20-36728885-0",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "164311020860",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CUIT destinatario: 30-71728225-2. CVU remitente: 0000003100048749131739. CVU destinatario: 0000155300000000000009977. Código de identificación: L18MKX9RXJ3OLPR49O6WYV",
+        "_num": 1908,
+        "_fecha_carga": "18/06/2026 15:40",
+        "_origen": "grupo",
+        "_pie": "Leandro Fabian Gabela\nCUIT/CUIL: 20-36728885-0"
       }
     ],
     "errores": [],
