@@ -28652,6 +28652,28 @@
         "_fecha_carga": "18/06/2026 13:35",
         "_origen": "grupo",
         "_pie": "JUAN PABLO DIAZ \nCUIL: 20-44141674-2"
+      },
+      {
+        "fecha": "14/06/2026",
+        "hora": "20:09",
+        "tipo": "TRF",
+        "monto": 200000.0,
+        "moneda": "ARS",
+        "remitente": "Adrian Ramon Gonzalez",
+        "remitente_cuil": "20-21332410-2",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "164141662022",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación adicional: 3D5W612E6ZW84X6Q2GXYVR. CVU remitente: 0000003100099144693775. CVU destinatario: 0000155300000000009977.",
+        "_num": 1300,
+        "_fecha_carga": "18/06/2026 13:35",
+        "_origen": "grupo",
+        "_pie": "adrian ramon gonzales\nCUIT/CUIL: 20-21332410-2"
       }
     ],
     "errores": [],
