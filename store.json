@@ -28410,6 +28410,28 @@
         "_fecha_carga": "18/06/2026 13:34",
         "_origen": "grupo",
         "_pie": "De:\nNAIARA NAYME SORIA\nCUIT 27-45128328-1"
+      },
+      {
+        "fecha": "14/06/2026",
+        "hora": "19:18",
+        "tipo": "TRF",
+        "monto": 30000.0,
+        "moneda": "ARS",
+        "remitente": "Ignacio Ruben Aquino Delvalle",
+        "remitente_cuil": "20-94570748-9",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163325126315",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: 0V1JXON1LMR86DJ7NZ64EL. CUIT destinatario: 30-71728225-2. CVU remitente: 0000003100042041829778.",
+        "_num": 1289,
+        "_fecha_carga": "18/06/2026 13:34",
+        "_origen": "grupo",
+        "_pie": "Ignacio Ruben Aquino Delvalle\nCUIT/CUIL: 20-94570748-9"
       }
     ],
     "errores": [],
