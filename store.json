@@ -4649,6 +4649,28 @@
         "_fecha_carga": "17/06/2026 21:28",
         "_origen": "grupo",
         "_pie": "Luque Miguez, Ariadna Abigail\n27-48299541-7"
+      },
+      {
+        "fecha": "12/06/2026",
+        "hora": "23:10",
+        "tipo": "TRF",
+        "monto": 250000.0,
+        "moneda": "ARS",
+        "remitente": "Maria De Los Angeles Rodriguez",
+        "remitente_cuil": "",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Lemon",
+        "banco_destino": "CVU",
+        "referencia": "Z4K6DVNOWYO1ZLZM25J8LQ",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CUIT destinatario: 30717282252. CBU receptor: 0000155300000000009977. ID de la transacción: 50fe32aa-aac4-42e6-84f5-40f214bc23a9. Comprobante emitido por Lemon powered by Digifin.",
+        "_num": 211,
+        "_fecha_carga": "17/06/2026 21:29",
+        "_origen": "grupo",
+        "_pie": "María de Los Ángeles Rodríguez \n33711557879"
       }
     ],
     "errores": [],
