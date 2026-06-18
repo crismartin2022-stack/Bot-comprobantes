@@ -20186,6 +20186,28 @@
         "_fecha_carga": "18/06/2026 00:42",
         "_origen": "grupo",
         "_pie": ""
+      },
+      {
+        "fecha": "11/06/2026",
+        "hora": "16:37",
+        "tipo": "TRF",
+        "monto": 90000.0,
+        "moneda": "ARS",
+        "remitente": "Karina Soledad Palacios",
+        "remitente_cuil": "",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Ualá",
+        "banco_destino": "",
+        "referencia": "ORD6LEN8P1X7D6PYNM1Y30",
+        "concepto": "VAR",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CUIT destino: 30717282252. CBU destino completo: 0000155300000000009977",
+        "_num": 916,
+        "_fecha_carga": "18/06/2026 00:42",
+        "_origen": "grupo",
+        "_pie": "Palacios Karina 40738356"
       }
     ],
     "errores": [],
