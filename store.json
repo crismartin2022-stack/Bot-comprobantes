@@ -2841,6 +2841,28 @@
         "_fecha_carga": "17/06/2026 21:17",
         "_origen": "grupo",
         "_pie": "Carmen silvero DNI 96208464"
+      },
+      {
+        "fecha": "12/06/2026",
+        "hora": "14:06",
+        "tipo": "TRF",
+        "monto": 200001.0,
+        "moneda": "ARS",
+        "remitente": "Aylen Maria Ester Gonzalez",
+        "remitente_cuil": "27-47506525-0",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163801287662",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: WGRXJE27DYYZ0K5JN7MYQL. CVU remitente: 0000003100043365068812. CVU destinatario: 0000155300000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 129,
+        "_fecha_carga": "17/06/2026 21:17",
+        "_origen": "grupo",
+        "_pie": "Aylen Maria Ester Gonzalez\nCUIT/CUIL: 27-47506525-0"
       }
     ],
     "errores": [],
