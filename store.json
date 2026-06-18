@@ -32160,6 +32160,28 @@
         "_fecha_carga": "18/06/2026 13:59",
         "_origen": "grupo",
         "_pie": "Karen Del Valle Varela\nCUIT/CUIL: 27-37635802-5\nMercado Pago"
+      },
+      {
+        "fecha": "13/06/2026",
+        "hora": "18:23",
+        "tipo": "TRF",
+        "monto": 100000.0,
+        "moneda": "ARS",
+        "remitente": "Karen Del Valle Varela",
+        "remitente_cuil": "27-37635802-5",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163194170569",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: 76V4MR2Z74P77VJGNDEZOL. CVU remitente: 0000003100037027984206. CVU destinatario: 0000155300000000009977. CUIT destinatario: 30-71728225-2",
+        "_num": 1459,
+        "_fecha_carga": "18/06/2026 13:59",
+        "_origen": "grupo",
+        "_pie": "Karen Del Valle Varela\nCUIT/CUIL: 27-37635802-5\nMercado Pago"
       }
     ],
     "errores": [],
