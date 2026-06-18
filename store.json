@@ -9148,6 +9148,28 @@
         "_fecha_carga": "17/06/2026 23:21",
         "_origen": "grupo",
         "_pie": "Denis Leonel Cascino \nCuit/CUIL: 20-34494394-0"
+      },
+      {
+        "fecha": "10/06/2026",
+        "hora": "16:01",
+        "tipo": "TRF",
+        "monto": 20000.0,
+        "moneda": "ARS",
+        "remitente": "Diana Valeria MuÑoz",
+        "remitente_cuil": "26.597.148",
+        "destinatario": "SASTEUP SRL",
+        "banco_origen": "Cuenta DNI",
+        "banco_destino": "",
+        "referencia": "76V4MR2Z7QZWYJRLNDEZOL",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CVU destinatario: 0000155300000000009977. CUIL destinatario: 30717282252. El remitente figura con DNI 26.597.148 sin formato CUIL completo.",
+        "_num": 415,
+        "_fecha_carga": "17/06/2026 23:21",
+        "_origen": "grupo",
+        "_pie": "Foto de Ges"
       }
     ],
     "errores": [],
