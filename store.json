@@ -50482,6 +50482,28 @@
         "_fecha_carga": "18/06/2026 20:26",
         "_origen": "grupo",
         "_pie": "Matias Nicolas Richard\nCUIT/CUIL: 20-30804619-3"
+      },
+      {
+        "fecha": "13/06/2026",
+        "hora": "12:13",
+        "tipo": "TRF",
+        "monto": 200001.0,
+        "moneda": "ARS",
+        "remitente": "Brian David Munoz",
+        "remitente_cuil": "20-44141951-2",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163136058301",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: JMQKYZ9QQV4OJ6V69V50P3. CUIT destinatario: 30-71728225-2. CVU destinatario: 0000155300000000000009977",
+        "_num": 327,
+        "_fecha_carga": "18/06/2026 20:26",
+        "_origen": "grupo",
+        "_pie": "Brian David Munoz\nCUIT/CUIL: 20-44141951-2"
       }
     ],
     "errores": [],
