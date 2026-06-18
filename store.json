@@ -946,6 +946,28 @@
         "_fecha_carga": "17/06/2026 21:03",
         "_origen": "grupo",
         "_pie": "Rocio Ailen Malaguenxxo\nCUIT/CUIL: 27-47191340-0"
+      },
+      {
+        "fecha": "11/06/2026",
+        "hora": "22:01",
+        "tipo": "TRF",
+        "monto": 100000.0,
+        "moneda": "ARS",
+        "remitente": "Silva Pinasco, Marco Antonio",
+        "remitente_cuil": "27-39459640-5",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Personal Pay",
+        "banco_destino": "",
+        "referencia": "2734253192",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CoelsaID: ORD6LEN8P1W730Q0NM1Y30 - Id Bancario. CBU/CVU destinatario: 00001553000000000009977. CUIL/CUIT destinatario: 30-71728225-2",
+        "_num": 43,
+        "_fecha_carga": "17/06/2026 21:03",
+        "_origen": "grupo",
+        "_pie": "Marco Silva pinasco DNI: 39.459.640"
       }
     ],
     "errores": [],
