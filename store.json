@@ -39308,6 +39308,28 @@
         "_fecha_carga": "18/06/2026 15:10",
         "_origen": "grupo",
         "_pie": "56 k (Tony90)\n*SASTEUP SRL*\n13/06\nDahyana Albarracín \n27-38002223-6"
+      },
+      {
+        "fecha": "13/06/2026",
+        "hora": "12:08",
+        "tipo": "TRF",
+        "monto": 400000.0,
+        "moneda": "ARS",
+        "remitente": "Eleonora Magali Gallardo",
+        "remitente_cuil": "27-45534816-7",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163135150355",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: Z0KV87940EK8D3R0NPEYDX. CVU remitente: 0000003100087324989448. CVU destinatario: 0000155300000000009977",
+        "_num": 1783,
+        "_fecha_carga": "18/06/2026 15:10",
+        "_origen": "grupo",
+        "_pie": ""
       }
     ],
     "errores": [],
