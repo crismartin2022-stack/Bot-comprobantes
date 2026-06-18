@@ -37078,6 +37078,28 @@
         "_fecha_carga": "18/06/2026 14:54",
         "_origen": "grupo",
         "_pie": "Pereyra Nicole elizabeth \nDNI 45529444"
+      },
+      {
+        "fecha": "14/06/2026",
+        "hora": "16:54",
+        "tipo": "TRF",
+        "monto": 20000.0,
+        "moneda": "ARS",
+        "remitente": "Valeria Del Valle Luna",
+        "remitente_cuil": "27-26759061-9",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "164119262948",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: JMQKYZ9QQVGOQ5P69V50P3. CUIL destinatario: 30-71728225-2. CVU remitente: 0000003100085386041821. CVU destinatario: 0000155300000000000009977",
+        "_num": 1682,
+        "_fecha_carga": "18/06/2026 14:54",
+        "_origen": "grupo",
+        "_pie": "Ganamos"
       }
     ],
     "errores": [],
