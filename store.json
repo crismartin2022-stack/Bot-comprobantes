@@ -1716,6 +1716,28 @@
         "_fecha_carga": "17/06/2026 21:09",
         "_origen": "grupo",
         "_pie": "Juan Elias Marquez De Olivera\nCUIT/CUIL: 20-36520946-5"
+      },
+      {
+        "fecha": "12/06/2026",
+        "hora": "00:00",
+        "tipo": "TRF",
+        "monto": 300000.0,
+        "moneda": "ARS",
+        "remitente": "MATIAS EMMANUEL TORRES MOYANO",
+        "remitente_cuil": "20-32356439-7",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Banco De Galicia S.A.U",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "42079763941",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "ID COELSA: 1LMP68NKVX8OO7LD2R7OEV. CVU destinatario: 0000155300000000009977. CUIT destinatario: 30-71728225-2",
+        "_num": 78,
+        "_fecha_carga": "17/06/2026 21:09",
+        "_origen": "grupo",
+        "_pie": "MATIAS EMMANUEL TORRES MOYANO\nCUIT 20-32356439-7"
       }
     ],
     "errores": [],
