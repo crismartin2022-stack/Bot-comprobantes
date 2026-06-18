@@ -27199,6 +27199,28 @@
         "_fecha_carga": "18/06/2026 13:21",
         "_origen": "grupo",
         "_pie": "Zoraida Nunez Sanchez\nNaranja X\n4530000800016777376312\nCUIL\n27-92394168-7"
+      },
+      {
+        "fecha": "14/06/2026",
+        "hora": "00:55",
+        "tipo": "TRF",
+        "monto": 300000.0,
+        "moneda": "ARS",
+        "remitente": "Luque Miguez, Ariadna Abigail",
+        "remitente_cuil": "27-48299541-7",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Personal Pay",
+        "banco_destino": "",
+        "referencia": "2741846053",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CoelsaID: JMQKYZ9QQV Q4Z6QR9V50P3 - Id Bancario. CBU/CVU destinatario: 0000155300000000009977. CUIL/CUIT destinatario: 30-71728225-2",
+        "_num": 1234,
+        "_fecha_carga": "18/06/2026 13:21",
+        "_origen": "grupo",
+        "_pie": "Luque Miguez, Ariadna Abigail\nCUIL/CUIT 27-48299541-7"
       }
     ],
     "errores": [],
