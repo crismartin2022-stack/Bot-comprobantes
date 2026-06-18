@@ -53062,6 +53062,28 @@
         "_fecha_carga": "18/06/2026 20:42",
         "_origen": "grupo",
         "_pie": "Foto de Ges"
+      },
+      {
+        "fecha": "10/06/2026",
+        "hora": "20:49",
+        "tipo": "TRF",
+        "monto": 32000.0,
+        "moneda": "ARS",
+        "remitente": "Stella Maris Sotelo",
+        "remitente_cuil": "27-24731919-6",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163537498850",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: Z6OLMDN3VK6J6W752E7RQ5. CUIT destinatario: 30-71728225-2. CVU destinatario completo: 0000155300000000009977",
+        "_num": 444,
+        "_fecha_carga": "18/06/2026 20:42",
+        "_origen": "grupo",
+        "_pie": "Foto de Ges"
       }
     ],
     "errores": [],
