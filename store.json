@@ -29425,6 +29425,28 @@
         "_fecha_carga": "18/06/2026 13:41",
         "_origen": "grupo",
         "_pie": ""
+      },
+      {
+        "fecha": "14/06/2024",
+        "hora": "22:12",
+        "tipo": "TRF",
+        "monto": 500000.0,
+        "moneda": "ARS",
+        "remitente": "Pehuen Dure",
+        "remitente_cuil": "",
+        "destinatario": "SASTEUP SRL",
+        "banco_origen": "Claro Pay",
+        "banco_destino": "Lohas",
+        "referencia": "WB260614.2212.E51850",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CVU remitente: 0000085700204284269171. CVU destinatario: 0000155300000000009977. CUIT/CUIL destinatario: 30717282252. N° operación COELSA: RD06ZO9WVR4W3D61N5GP7X",
+        "_num": 1335,
+        "_fecha_carga": "18/06/2026 13:41",
+        "_origen": "grupo",
+        "_pie": "Juliana palavecino \n47337453"
       }
     ],
     "errores": [],
