@@ -26339,6 +26339,28 @@
         "_fecha_carga": "18/06/2026 13:15",
         "_origen": "grupo",
         "_pie": "Miriam Lili Nunez Fernandez\nCUIT/CUIL: 27-94216492-6"
+      },
+      {
+        "fecha": "13/06/2026",
+        "hora": "23:09",
+        "tipo": "TRF",
+        "monto": 50000.0,
+        "moneda": "ARS",
+        "remitente": "Fabian Nicolas Alvarez",
+        "remitente_cuil": "20-37810983-4",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "164044192644",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: WGRXJE27DXGYGYV6N7MYQL. CVU remitente: 0000003100114177922693. CVU destinatario: 0000155300000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 1195,
+        "_fecha_carga": "18/06/2026 13:15",
+        "_origen": "grupo",
+        "_pie": "Fabian Nicolas Alvarez\nCUIT/CUIL: 20-37810983-4"
       }
     ],
     "errores": [],
