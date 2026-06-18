@@ -47814,6 +47814,28 @@
         "_fecha_carga": "18/06/2026 20:10",
         "_origen": "grupo",
         "_pie": "Liliana Beatriz anrriquez \nDNI: 21.104.254"
+      },
+      {
+        "fecha": "12/06/2026",
+        "hora": "21:46",
+        "tipo": "TRF",
+        "monto": 25000.0,
+        "moneda": "ARS",
+        "remitente": "Natalia Noelia Moncalvo",
+        "remitente_cuil": "27-30639838-0",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163072384413",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: XJ8G7V95DWKJ60VD9EMPYR. CUIT destinatario: 30-71728225-2. CVU destinatario completo: 0000155300000000000009977",
+        "_num": 206,
+        "_fecha_carga": "18/06/2026 20:10",
+        "_origen": "grupo",
+        "_pie": "Natalia Noelia Moncalvo\nCUIT/CUIL: 27-30639838-0"
       }
     ],
     "errores": [],
