@@ -39882,6 +39882,28 @@
         "_fecha_carga": "18/06/2026 15:13",
         "_origen": "grupo",
         "_pie": "Araceli hernandez 40.295.069"
+      },
+      {
+        "fecha": "13/06/2026",
+        "hora": "23:53",
+        "tipo": "TRF",
+        "monto": 40000.0,
+        "moneda": "ARS",
+        "remitente": "Karen Araceli Jara",
+        "remitente_cuil": "27-36453480-4",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Naranja X",
+        "banco_destino": "Cuenta Virtual",
+        "referencia": "WGRXJE27DXGXKZOJN7MYQL",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CBU origen: 4530000800011713624443. CVU destino: 0000155300000000009977. CUIL destinatario: 30-71728225-2. Código de transacción: a6a266bc-b8ea-45c1-b773-a05f13385be5",
+        "_num": 1809,
+        "_fecha_carga": "18/06/2026 15:13",
+        "_origen": "grupo",
+        "_pie": "Jara karen araceli \n36453480"
       }
     ],
     "errores": [],
