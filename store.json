@@ -13798,6 +13798,28 @@
         "_fecha_carga": "17/06/2026 23:53",
         "_origen": "grupo",
         "_pie": "Foto de Clohe😎"
+      },
+      {
+        "fecha": "10/06/2026",
+        "hora": "23:42",
+        "tipo": "TRF",
+        "monto": 30000.0,
+        "moneda": "ARS",
+        "remitente": "Ezequiel Gabriel Barrios",
+        "remitente_cuil": "20-36188176-2",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163558244922",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: RD06ZO9WV7K3D7V5N5GP7X. CUIT destinatario: 30-71728225-2. CVU remitente: 0000003100036589800593. CVU destinatario: 0000155300000000009977.",
+        "_num": 626,
+        "_fecha_carga": "17/06/2026 23:53",
+        "_origen": "grupo",
+        "_pie": "Foto de Clohe😎"
       }
     ],
     "errores": [],
