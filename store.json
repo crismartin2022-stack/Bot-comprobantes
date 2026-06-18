@@ -43760,6 +43760,28 @@
         "_fecha_carga": "18/06/2026 19:45",
         "_origen": "grupo",
         "_pie": "Luque Miguez, Ariadna Abigail\n27-48299541-7"
+      },
+      {
+        "fecha": "11/06/2026",
+        "hora": "20:55",
+        "tipo": "TRF",
+        "monto": 350000.0,
+        "moneda": "ARS",
+        "remitente": "Aldana Yamila Frachia",
+        "remitente_cuil": "",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Ualá",
+        "banco_destino": "BILLETERA VIRTUAL",
+        "referencia": "b316c1ee-4ba9-80c4-16fe-c7cd934d0790",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CVU destino: 0000155300000000009977. CBU emisor: 3840200500000042373861. CUIT/CUIL destino: 30-71728225-2. Comentario: Transferencia en pesos.",
+        "_num": 22,
+        "_fecha_carga": "18/06/2026 19:45",
+        "_origen": "grupo",
+        "_pie": "Aldana Yamila frachia 27-41777290-7"
       }
     ],
     "errores": [],
