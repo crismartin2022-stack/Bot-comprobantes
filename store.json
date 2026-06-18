@@ -16020,6 +16020,28 @@
         "_fecha_carga": "18/06/2026 00:16",
         "_origen": "grupo",
         "_pie": "Brian Leiva \n45.159.245"
+      },
+      {
+        "fecha": "14/06/2026",
+        "hora": "19:42",
+        "tipo": "TRF",
+        "monto": 500000.0,
+        "moneda": "ARS",
+        "remitente": "Milagros Luciana Garcia",
+        "remitente_cuil": "27-45021094-9",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163326993387",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: Z6OLMDN3V37WG6RW2E7RQ5. CUIT destinatario: 30-71728225-2. CVU remitente: 0000003100013525912341. CVU destinatario: 0000155300000000009977.",
+        "_num": 727,
+        "_fecha_carga": "18/06/2026 00:16",
+        "_origen": "grupo",
+        "_pie": "Milagros García\n45.021.094"
       }
     ],
     "errores": [],
