@@ -25390,6 +25390,28 @@
         "_fecha_carga": "18/06/2026 13:08",
         "_origen": "grupo",
         "_pie": "Lautaro Facundo Santoro\nCUIT/CUIL: 20-45004844-6"
+      },
+      {
+        "fecha": "13/06/2026",
+        "hora": "21:32",
+        "tipo": "TRF",
+        "monto": 25000.0,
+        "moneda": "ARS",
+        "remitente": "Nicolas Daniel Isleno",
+        "remitente_cuil": "20-43810968-5",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163222800445",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: WGRXJE27DXGKVOK6N7MYQL. CVU remitente: 0000003100099687211036. CVU destinatario: 0000155300000000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 1152,
+        "_fecha_carga": "18/06/2026 13:09",
+        "_origen": "grupo",
+        "_pie": "Nicolas Daniel Isleno\nCUIT/CUIL: 20-43810968-5"
       }
     ],
     "errores": [],
