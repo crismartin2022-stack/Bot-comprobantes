@@ -49998,6 +49998,28 @@
         "_fecha_carga": "18/06/2026 20:23",
         "_origen": "grupo",
         "_pie": "JIMENA BELEN BREST\nCUIT 27-39984557-8"
+      },
+      {
+        "fecha": "13/06/2026",
+        "hora": "01:06",
+        "tipo": "TRF",
+        "monto": 25000.0,
+        "moneda": "ARS",
+        "remitente": "Micaela Daniela Godoy",
+        "remitente_cuil": "27-32010636-8",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163092800505",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: 86VRPQ2GML3QM7LY2GLY0M. CVU remitente: 0000003100054159891541. CVU destinatario: 0000155300000000000009977.",
+        "_num": 305,
+        "_fecha_carga": "18/06/2026 20:23",
+        "_origen": "grupo",
+        "_pie": "Micaela Daniela Godoy\nCUIT/CUIL: 27-32010636-8"
       }
     ],
     "errores": [],
