@@ -1650,6 +1650,28 @@
         "_fecha_carga": "17/06/2026 21:08",
         "_origen": "grupo",
         "_pie": "Juliana palavecino \n47337453"
+      },
+      {
+        "fecha": "11/06/2026",
+        "hora": "23:44",
+        "tipo": "TRF",
+        "monto": 100000.0,
+        "moneda": "ARS",
+        "remitente": "Juan Pablo Juani",
+        "remitente_cuil": "20-42904568-2",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Naranja X",
+        "banco_destino": "Cuenta Virtual",
+        "referencia": "D4RO172VZG0WXVWVNKJ3QE",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CBU origen: 4530000800019921086521. CVU destino: 0000155300000000009977. CUIL destinatario: 30-71728225-2. Código de transacción: c61b4b07-8223-4038-816a-b46f2796081f",
+        "_num": 75,
+        "_fecha_carga": "17/06/2026 21:08",
+        "_origen": "grupo",
+        "_pie": "Juan Pablo Juani\nNaranja X\n4530000800019921086521\n20-42904568-2"
       }
     ],
     "errores": [],
