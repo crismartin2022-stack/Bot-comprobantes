@@ -27485,6 +27485,28 @@
         "_fecha_carga": "18/06/2026 13:23",
         "_origen": "grupo",
         "_pie": "Micaela Garay CUIL MICA: 20-45786073-1"
+      },
+      {
+        "fecha": "14/06/2026",
+        "hora": "14:08",
+        "tipo": "TRF",
+        "monto": 150000.0,
+        "moneda": "ARS",
+        "remitente": "Lucas Hernan Soidler",
+        "remitente_cuil": "20-41913076-2",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "164101085288",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: XJ8G7V95DWDLYPKR9EMPYR. CVU remitente: 0000003100096894729675. CVU destinatario: 0000155300000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 1247,
+        "_fecha_carga": "18/06/2026 13:23",
+        "_origen": "grupo",
+        "_pie": "Lucas Hernan Soidler\nCUIT/CUIL: 20-41913076-2"
       }
     ],
     "errores": [],
