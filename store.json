@@ -6326,6 +6326,28 @@
         "_fecha_carga": "17/06/2026 21:39",
         "_origen": "grupo",
         "_pie": "Juan Pablo Juani\nNaranja X\n4530000800019921086521\n20-42904568-2"
+      },
+      {
+        "fecha": "13/06/2026",
+        "hora": "00:50",
+        "tipo": "TRF",
+        "monto": 100000.0,
+        "moneda": "ARS",
+        "remitente": "Liliana Beatriz Anrriquez",
+        "remitente_cuil": "",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Ualá",
+        "banco_destino": "",
+        "referencia": "LOEJWV9JZ3YGER5M2QMD0G",
+        "concepto": "VAR",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CUIT destino: 30717282252. CBU destino: 0000155300000000009977",
+        "_num": 287,
+        "_fecha_carga": "17/06/2026 21:39",
+        "_origen": "grupo",
+        "_pie": "Liliana Beatriz anrriquez \nDNI: 21.104.254"
       }
     ],
     "errores": [],
