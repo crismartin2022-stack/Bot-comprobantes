@@ -25522,6 +25522,28 @@
         "_fecha_carga": "18/06/2026 13:09",
         "_origen": "grupo",
         "_pie": "Rocio Ailen Malaguenxxo\nCUIT/CUIL: 27-47191340-0"
+      },
+      {
+        "fecha": "13/06/2026",
+        "hora": "23:49",
+        "tipo": "TRF",
+        "monto": 25000.0,
+        "moneda": "ARS",
+        "remitente": "Veronica Eugenia Gil",
+        "remitente_cuil": "27-29128117-1",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "164048106668",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: LMORZP908L5L1314NEGJ46. CVU remitente: 0000003100018873095982. CVU destinatario: 0000155300000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 1158,
+        "_fecha_carga": "18/06/2026 13:09",
+        "_origen": "grupo",
+        "_pie": "Veronica Eugenia Gil\nCUIT/CUIL: 27-29128117-1"
       }
     ],
     "errores": [],
