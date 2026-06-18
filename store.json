@@ -49888,6 +49888,28 @@
         "_fecha_carga": "18/06/2026 20:22",
         "_origen": "grupo",
         "_pie": "Paula Sofia Cruz 40463800"
+      },
+      {
+        "fecha": "13/06/2026",
+        "hora": "00:55",
+        "tipo": "TRF",
+        "monto": 50000.0,
+        "moneda": "ARS",
+        "remitente": "Zoraida Nunez Sanchez",
+        "remitente_cuil": "27-92394168-7",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Naranja X",
+        "banco_destino": "Cuenta Virtual",
+        "referencia": "LOEJWV9JZ3YGMPGZ2QMD0G",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CBU origen: 4530000800016777376312. CVU destino: 0000155300000000009977. CUIL destinatario: 30-71728225-2. Código de transacción: 89c5a3d1-e746-4073-8893-e97f09f11cfe.",
+        "_num": 300,
+        "_fecha_carga": "18/06/2026 20:22",
+        "_origen": "grupo",
+        "_pie": "Zoraida Nunez Sanchez\nNaranja X\n4530000800016777376312\nCUIL\n27-92394168-7"
       }
     ],
     "errores": [],
