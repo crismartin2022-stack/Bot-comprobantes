@@ -48189,6 +48189,28 @@
         "_fecha_carga": "18/06/2026 20:12",
         "_origen": "grupo",
         "_pie": "María de Los Ángeles Rodríguez \n33711557879"
+      },
+      {
+        "fecha": "12/06/2026",
+        "hora": "23:27",
+        "tipo": "TRF",
+        "monto": 500000.0,
+        "moneda": "ARS",
+        "remitente": "Walter Daniel Arroyo",
+        "remitente_cuil": "20-29905401-3",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163083979293",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: LMORZP908LJYOQ1RNEGJ46. CVU remitente: 0000003100002928152757. CVU destinatario: 0000155300000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 223,
+        "_fecha_carga": "18/06/2026 20:12",
+        "_origen": "grupo",
+        "_pie": "Walter Daniel Arroyo\nCUIT/CUIL: 20-29905401-3"
       }
     ],
     "errores": [],
