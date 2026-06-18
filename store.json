@@ -19350,6 +19350,28 @@
         "_fecha_carga": "18/06/2026 00:37",
         "_origen": "grupo",
         "_pie": ""
+      },
+      {
+        "fecha": "13/06/2026",
+        "hora": "18:22",
+        "tipo": "TRF",
+        "monto": 50000.0,
+        "moneda": "ARS",
+        "remitente": "ROLANDO CABRAL CENTURION",
+        "remitente_cuil": "20-94596977-7",
+        "destinatario": "SASTEUP SRL",
+        "banco_origen": "Brubank",
+        "banco_destino": "CVU",
+        "referencia": "",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CVU/CBU del destinatario: 0000155300000000009977. CUIT del destinatario: 30-71728225-2",
+        "_num": 878,
+        "_fecha_carga": "18/06/2026 00:37",
+        "_origen": "grupo",
+        "_pie": ""
       }
     ],
     "errores": [],
