@@ -27639,6 +27639,28 @@
         "_fecha_carga": "18/06/2026 13:24",
         "_origen": "grupo",
         "_pie": "Marisol Yanina Tabares \n38085069"
+      },
+      {
+        "fecha": "14/06/2026",
+        "hora": "00:53",
+        "tipo": "TRF",
+        "monto": 30000.0,
+        "moneda": "ARS",
+        "remitente": "Marciana Martinez",
+        "remitente_cuil": "27-94752813-6",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163242538343",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CUIT destinatario: 30-71728225-2. CVU destinatario: 0000155300000000009977. Código de identificación: RD06ZO9WVRVEQ4VXN5GP7X",
+        "_num": 1254,
+        "_fecha_carga": "18/06/2026 13:24",
+        "_origen": "grupo",
+        "_pie": "Marciana Martinez\nCUIT/CUIL: 27-94752813-6"
       }
     ],
     "errores": [],
