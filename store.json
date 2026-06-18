@@ -6106,6 +6106,28 @@
         "_fecha_carga": "17/06/2026 21:37",
         "_origen": "grupo",
         "_pie": ""
+      },
+      {
+        "fecha": "13/06/2026",
+        "hora": "00:40",
+        "tipo": "TRF",
+        "monto": 30000.0,
+        "moneda": "ARS",
+        "remitente": "Gloria Felicia Nunez Fernandez",
+        "remitente_cuil": "27-94216488-8",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Naranja X",
+        "banco_destino": "Cuenta Virtual",
+        "referencia": "Z6OLMDN3V3M88WGY2E7RQ5",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CBU origen: 4530000800011600193663. CVU destino: 0000155300000000009977. CUIL destinatario: 30-71728225-2. Código de transacción: 2e346444-b653-4d68-95cf-a629e82a374a",
+        "_num": 277,
+        "_fecha_carga": "17/06/2026 21:37",
+        "_origen": "grupo",
+        "_pie": "Gloria Felicia Nunez Fernandez\nNaranja X\n4530000800011600193663\n27-94216488-8"
       }
     ],
     "errores": [],
