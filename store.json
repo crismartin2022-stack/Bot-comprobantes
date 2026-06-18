@@ -27375,6 +27375,28 @@
         "_fecha_carga": "18/06/2026 13:22",
         "_origen": "grupo",
         "_pie": "Yesica Noemi Morales\nCUIT/CUIL: 23-30853348-4"
+      },
+      {
+        "fecha": "14/06/2026",
+        "hora": "13:08",
+        "tipo": "TRF",
+        "monto": 500000.0,
+        "moneda": "ARS",
+        "remitente": "Obejero, Brenda Soledad",
+        "remitente_cuil": "27-43469178-3",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Personal Pay",
+        "banco_destino": "",
+        "referencia": "2742437412",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CoelsaID: LOEJWV9JZ3ZEW6L32QMD0G - Id Bancario. CUIL/CUIT destinatario: 30-71728225-2. CBU/CVU receptor: 00001553000000000009977",
+        "_num": 1242,
+        "_fecha_carga": "18/06/2026 13:22",
+        "_origen": "grupo",
+        "_pie": "Envía Obejero, Brenda Soledad\nCUIL/CUIT 27-43469178-3"
       }
     ],
     "errores": [],
