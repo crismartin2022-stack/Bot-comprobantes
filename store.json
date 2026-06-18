@@ -37122,6 +37122,28 @@
         "_fecha_carga": "18/06/2026 14:54",
         "_origen": "grupo",
         "_pie": "Bet30click"
+      },
+      {
+        "fecha": "14/06/2026",
+        "hora": "18:48",
+        "tipo": "TRF",
+        "monto": 100000.0,
+        "moneda": "ARS",
+        "remitente": "Carlos Maximiliano Funes",
+        "remitente_cuil": "20-34530806-8",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163318945835",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: 46YGOW9M1KG3P8VYNEXD8J. CVU remitente: 0000003100031385636856. CVU destinatario: 0000155300000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 1684,
+        "_fecha_carga": "18/06/2026 14:54",
+        "_origen": "grupo",
+        "_pie": "Bet30click"
       }
     ],
     "errores": [],
