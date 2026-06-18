@@ -20978,6 +20978,28 @@
         "_fecha_carga": "18/06/2026 00:46",
         "_origen": "grupo",
         "_pie": "Enzo Javier Enrique Robles\n46.739.852"
+      },
+      {
+        "fecha": "13/06/2026",
+        "hora": "04:23",
+        "tipo": "TRF",
+        "monto": 500000.11,
+        "moneda": "ARS",
+        "remitente": "Juan Carlos Ovejero",
+        "remitente_cuil": "20-14765356-6",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163100983845",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: 46YGOW9M1KDVM4WMNEXD8J. CVU destinatario: 0000155300000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 952,
+        "_fecha_carga": "18/06/2026 00:47",
+        "_origen": "grupo",
+        "_pie": "Juan Carlos Ovejero\n14.765.356"
       }
     ],
     "errores": [],
