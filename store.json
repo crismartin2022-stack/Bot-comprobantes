@@ -36147,6 +36147,28 @@
         "_fecha_carga": "18/06/2026 14:48",
         "_origen": "grupo",
         "_pie": "Aquiles Copini\nDNI 45942453"
+      },
+      {
+        "fecha": "14/06/2026",
+        "hora": "18:37",
+        "tipo": "TRF",
+        "monto": 700000.0,
+        "moneda": "ARS",
+        "remitente": "Daniel Antonio Segovia",
+        "remitente_cuil": "20-25102714-6",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Naranja X",
+        "banco_destino": "Cuenta Virtual",
+        "referencia": "3D5W612E6ZW7GK7G2GXYVR",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CBU origen: 4530000800015446398886. CVU destino: 0000155300000000009977. CUIL destinatario: 30-71728225-2. Código de transacción: f066d6d6-06ea-4009-b20f-932b327edce1",
+        "_num": 1640,
+        "_fecha_carga": "18/06/2026 14:48",
+        "_origen": "grupo",
+        "_pie": "Foto de Gustavo Volpe"
       }
     ],
     "errores": [],
