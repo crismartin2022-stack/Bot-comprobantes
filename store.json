@@ -3503,6 +3503,28 @@
         "_fecha_carga": "17/06/2026 21:21",
         "_origen": "grupo",
         "_pie": "Rocio Ailen Malaguenxxo\nCUIT/CUIL: 27-47191340-0"
+      },
+      {
+        "fecha": "12/06/2026",
+        "hora": "19:35",
+        "tipo": "TRF",
+        "monto": 1000000.0,
+        "moneda": "ARS",
+        "remitente": "Baloh, Maria Silvana",
+        "remitente_cuil": "23-13476634-4",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Personal Pay",
+        "banco_destino": "",
+        "referencia": "2738545982",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CBU/CVU receptor: 0000155300000000009977. CoelsaID: 76V4MR2Z7Q4R6DQYNDEZOL - Id Bancario. CUIL destinatario: 30-71728225-2.",
+        "_num": 159,
+        "_fecha_carga": "17/06/2026 21:21",
+        "_origen": "grupo",
+        "_pie": "Baloh, Maria Silvana\nCUIL/CUIT 23-13476634-4"
       }
     ],
     "errores": [],
