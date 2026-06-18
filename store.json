@@ -18998,6 +18998,28 @@
         "_fecha_carga": "18/06/2026 00:35",
         "_origen": "grupo",
         "_pie": ""
+      },
+      {
+        "fecha": "14/06/2026",
+        "hora": "03:47",
+        "tipo": "TRF",
+        "monto": 50000.0,
+        "moneda": "ARS",
+        "remitente": "Fabian Alejandro Saez",
+        "remitente_cuil": "20-28002842-9",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Naranja X",
+        "banco_destino": "Cuenta Virtual",
+        "referencia": "R7ZG0QNDW1WKOWGD9EXYPO",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CVU destinatario: 0000155300000000009977. CUIL destinatario: 30-71728225-2. Código de transacción: 9f458f45-73aa-4d36-97ba-142ede85970e",
+        "_num": 862,
+        "_fecha_carga": "18/06/2026 00:35",
+        "_origen": "grupo",
+        "_pie": ""
       }
     ],
     "errores": [],
