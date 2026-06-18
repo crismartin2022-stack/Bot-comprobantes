@@ -42086,6 +42086,28 @@
         "_fecha_carga": "18/06/2026 15:40",
         "_origen": "grupo",
         "_pie": "Leandro Fabian Gabela\nCUIT/CUIL: 20-36728885-0"
+      },
+      {
+        "fecha": "15/06/2026",
+        "hora": "22:52",
+        "tipo": "TRF",
+        "monto": 250000.0,
+        "moneda": "ARS",
+        "remitente": "ALDANA ROCIO ORELLANA",
+        "remitente_cuil": "27-41880786-0",
+        "destinatario": "SASTEUP SRL",
+        "banco_origen": "AstroPay",
+        "banco_destino": "",
+        "referencia": "8D0Q619L0WPJRV1LN7JZ5R",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CVU remitente: 0000177500096292611143. CVU receptor: 0000155300000000009977. Alias receptor: cvu.977. CUIT receptor: 30717282252. Coelsa ID: 8D0Q619L0WPJRV1LN7JZ5R",
+        "_num": 1909,
+        "_fecha_carga": "18/06/2026 15:40",
+        "_origen": "grupo",
+        "_pie": "ALDANA ROCIO ORELLANA\n27418807860"
       }
     ],
     "errores": [],
