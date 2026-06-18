@@ -24198,6 +24198,28 @@
         "_fecha_carga": "18/06/2026 13:00",
         "_origen": "grupo",
         "_pie": "Juan Elias Marquez De Olivera\nCUIT/CUIL: 20-36520946-5"
+      },
+      {
+        "fecha": "13/06/2026",
+        "hora": "16:49",
+        "tipo": "TRF",
+        "monto": 200000.0,
+        "moneda": "ARS",
+        "remitente": "David Ernesto Collajovsky",
+        "remitente_cuil": "20-34922538-8",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Naranja X",
+        "banco_destino": "Cuenta Virtual",
+        "referencia": "Z6OLMDN3V3GRR1ZW2E7RQ5",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CVU destinatario: 0000155300000000009977. CUIL destinatario: 30-71728225-2. Código de transacción: 425ffc54-4ba6-4f40-98ab-84f61bc4af58",
+        "_num": 1098,
+        "_fecha_carga": "18/06/2026 13:00",
+        "_origen": "grupo",
+        "_pie": "David Ernesto Collajovsky\nNaranja X\n4530000800014198320031\n20-34922538-8"
       }
     ],
     "errores": [],
