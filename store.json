@@ -38360,6 +38360,28 @@
         "_fecha_carga": "18/06/2026 15:03",
         "_origen": "grupo",
         "_pie": "Kevin pichimil\n40807015\nPara orage"
+      },
+      {
+        "fecha": "13/06/2026",
+        "hora": "20:34",
+        "tipo": "TRF",
+        "monto": 150000.0,
+        "moneda": "ARS",
+        "remitente": "Ferreyra, Maximiliano",
+        "remitente_cuil": "20-38969709-6",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Personal Pay",
+        "banco_destino": "",
+        "referencia": "2741314178",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CoelsaID: 7L8GYKNX05WG7XZO2MPRZ5 - Id Bancario. CUIL/CUIT destinatario: 30-71728225-2. CBU/CVU receptor: 0000155300000000009977",
+        "_num": 1740,
+        "_fecha_carga": "18/06/2026 15:03",
+        "_origen": "grupo",
+        "_pie": "Maximiliano Ferreyra, 38.969.709"
       }
     ],
     "errores": [],
