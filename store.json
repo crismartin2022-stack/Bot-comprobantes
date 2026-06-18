@@ -30990,6 +30990,28 @@
         "_fecha_carga": "18/06/2026 13:51",
         "_origen": "grupo",
         "_pie": "Marcia Verónica arce\nCUIT/CUIL: 27-30085425-2"
+      },
+      {
+        "fecha": "15/06/2026",
+        "hora": "16:23",
+        "tipo": "TRF",
+        "monto": 200000.0,
+        "moneda": "ARS",
+        "remitente": "Loreley Liliana Silva",
+        "remitente_cuil": "27-48036934-9",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Naranja X",
+        "banco_destino": "Cuenta Virtual",
+        "referencia": "PDX4OGNYGPW31P3MN0L6EY",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CBU origen: 4530000800013936694609. CVU destino: 000015530000000000009977. CUIL destinatario: 30-71728225-2. Código de transacción: 0c8eaa2f-8baf-4b60-974c-86050caa79bb",
+        "_num": 1406,
+        "_fecha_carga": "18/06/2026 13:51",
+        "_origen": "grupo",
+        "_pie": "LORELEY SILVA\nCUIL: 27-48036934-9"
       }
     ],
     "errores": [],
