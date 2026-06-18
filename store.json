@@ -26140,6 +26140,28 @@
         "_fecha_carga": "18/06/2026 13:13",
         "_origen": "grupo",
         "_pie": "JOHANA GABRIELA GRIMAZ\nCUIL-CUIT: 30-71728225-2"
+      },
+      {
+        "fecha": "13/06/2026",
+        "hora": "22:50",
+        "tipo": "TRF",
+        "monto": 250000.0,
+        "moneda": "ARS",
+        "remitente": "GERALDINE ABRIL ACOSTA",
+        "remitente_cuil": "27-47167364-7",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Banco De Galicia S.A.U",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "42101338822",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CVU destinatario: 0000155300000000009977. ID COELSA: XJ8G7V95DWEQ0KR49EMPYR. Cuenta origen: CA $ N° 4121312-1 139-1. CUIT destinatario: 30-71728225-2.",
+        "_num": 1186,
+        "_fecha_carga": "18/06/2026 13:14",
+        "_origen": "grupo",
+        "_pie": "GERALDINE ABRIL ACOSTA\nCUIT 27-47167364-7"
       }
     ],
     "errores": [],
