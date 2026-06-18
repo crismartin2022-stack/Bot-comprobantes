@@ -23360,6 +23360,28 @@
         "_fecha_carga": "18/06/2026 12:54",
         "_origen": "grupo",
         "_pie": "Belén quiñones \n40398893"
+      },
+      {
+        "fecha": "13/06/2026",
+        "hora": "23:25",
+        "tipo": "TRF",
+        "monto": 30000.0,
+        "moneda": "ARS",
+        "remitente": "Carla Aldana Venencio",
+        "remitente_cuil": "27-39344851-8",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163233019903",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: 7L8GYKNX05WO883O2MPRZ5. CVU destinatario (Sasteup Srl): 0000155300000000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 1060,
+        "_fecha_carga": "18/06/2026 12:54",
+        "_origen": "grupo",
+        "_pie": "Carla Venencio \n39344851"
       }
     ],
     "errores": [],
