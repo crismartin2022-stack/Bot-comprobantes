@@ -38183,6 +38183,28 @@
         "_fecha_carga": "18/06/2026 15:02",
         "_origen": "grupo",
         "_pie": "Leandro badie\n20338943599"
+      },
+      {
+        "fecha": "13/06/2026",
+        "hora": "23:26",
+        "tipo": "TRF",
+        "monto": 15000.0,
+        "moneda": "ARS",
+        "remitente": "Maximiliano Fioriti",
+        "remitente_cuil": "36.443.205",
+        "destinatario": "SASTEUP SRL",
+        "banco_origen": "Cuenta DNI",
+        "banco_destino": "",
+        "referencia": "Z6OLMDN3V3XK6LOK2E7RQ5",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CVU destinatario: 0000155300000000009977. CUIL destinatario: 30717282252. Comprobante emitido por Cuenta DNI (Banco Provincia).",
+        "_num": 1732,
+        "_fecha_carga": "18/06/2026 15:02",
+        "_origen": "grupo",
+        "_pie": "Maximiliano Fioriti DNI 36443205"
       }
     ],
     "errores": [],
