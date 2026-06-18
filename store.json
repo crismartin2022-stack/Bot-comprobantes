@@ -2354,6 +2354,28 @@
         "_fecha_carga": "17/06/2026 21:14",
         "_origen": "grupo",
         "_pie": "Cristofer Ignacio Amarillo\nNaranja X\n4530000800011830560950\n20-39551023-2"
+      },
+      {
+        "fecha": "12/06/2026",
+        "hora": "09:30",
+        "tipo": "TRF",
+        "monto": 250000.0,
+        "moneda": "ARS",
+        "remitente": "Marina Elizabeth Aguilar",
+        "remitente_cuil": "27-27125105-5",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163756200928",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: 46YGOW9M1YW5K6QQNEXD8J. CVU remitente: 0000003100071542093980. CVU destinatario: 0000155300000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 107,
+        "_fecha_carga": "17/06/2026 21:14",
+        "_origen": "grupo",
+        "_pie": "Marina Elizabeth Aguilar\nCUIT/CUIL: 27-27125105-5"
       }
     ],
     "errores": [],
