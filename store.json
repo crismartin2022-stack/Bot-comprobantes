@@ -14458,6 +14458,28 @@
         "_fecha_carga": "17/06/2026 23:57",
         "_origen": "grupo",
         "_pie": "Buen día"
+      },
+      {
+        "fecha": "12/06/2026",
+        "hora": "14:01",
+        "tipo": "TRF",
+        "monto": 19000.0,
+        "moneda": "ARS",
+        "remitente": "Gabriela Alejandra Antenucci",
+        "remitente_cuil": "20-14927392-2",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163801033098",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: 46YGOW9M1YY6EL4PNEXD8J. CVU remitente: 0000003100059007892927. CVU destinatario: 0000155300000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 656,
+        "_fecha_carga": "17/06/2026 23:57",
+        "_origen": "grupo",
+        "_pie": "Foto de Clohe😎"
       }
     ],
     "errores": [],
