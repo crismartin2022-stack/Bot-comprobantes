@@ -45806,6 +45806,28 @@
         "_fecha_carga": "18/06/2026 19:57",
         "_origen": "grupo",
         "_pie": "THIAGO EMILIANO OVEJERO\nCUIT 20-48382384-4"
+      },
+      {
+        "fecha": "12/06/2026",
+        "hora": "09:33",
+        "tipo": "TRF",
+        "monto": 250000.0,
+        "moneda": "ARS",
+        "remitente": "Cristofer Ignacio Amarillo",
+        "remitente_cuil": "20-39551023-2",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Naranja X",
+        "banco_destino": "Cuenta Virtual",
+        "referencia": "WY7ZEPN6M4E5QK5Q2Q0M51",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CBU origen: 4530000800011830560950. CVU destino: 0000155300000000009977. CUIL destinatario: 30-71728225-2. Código de transacción: c6a65d9d-0e99-4268-a603-8f50850a7140",
+        "_num": 115,
+        "_fecha_carga": "18/06/2026 19:58",
+        "_origen": "grupo",
+        "_pie": "Cristofer Ignacio Amarillo\nNaranja X\n4530000800011830560950\n20-39551023-2"
       }
     ],
     "errores": [],
