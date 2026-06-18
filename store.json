@@ -38735,6 +38735,28 @@
         "_fecha_carga": "18/06/2026 15:06",
         "_origen": "grupo",
         "_pie": "Ana Laura Ruiz \n35301713"
+      },
+      {
+        "fecha": "13/06/2026",
+        "hora": "21:30",
+        "tipo": "TRF",
+        "monto": 230000.0,
+        "moneda": "ARS",
+        "remitente": "Fernanda Antonella Ance",
+        "remitente_cuil": "27-43995045-0",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "164032001222",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: XJ8G7V95DWE8630R9EMPYR. CUIT destinatario: 30-71728225-2. CVU destinatario: 0000155300000000000009977.",
+        "_num": 1757,
+        "_fecha_carga": "18/06/2026 15:06",
+        "_origen": "grupo",
+        "_pie": "Datos de la cuenta: Ance Fernanda Antonella\nDni 43995045\nPlataforma: Pink\nUsuario: Redsol252"
       }
     ],
     "errores": [],
