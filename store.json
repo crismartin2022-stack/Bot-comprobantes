@@ -25324,6 +25324,28 @@
         "_fecha_carga": "18/06/2026 13:08",
         "_origen": "grupo",
         "_pie": "Alan soto\nCUIL-CUIT: 20-45176794-2"
+      },
+      {
+        "fecha": "13/06/2026",
+        "hora": "21:04",
+        "tipo": "TRF",
+        "monto": 250000.0,
+        "moneda": "ARS",
+        "remitente": "GERALDINE ABRIL ACOSTA",
+        "remitente_cuil": "27-47167364-7",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Banco De Galicia S.A.U",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "42100547716",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "ID COELSA: 76V4MR2Z74P60XWLNDEZOL. CVU destinatario: 0000155300000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 1149,
+        "_fecha_carga": "18/06/2026 13:08",
+        "_origen": "grupo",
+        "_pie": "GERALDINE ABRIL ACOSTA\nCUIT 27-47167364-7"
       }
     ],
     "errores": [],
