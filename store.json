@@ -2995,6 +2995,28 @@
         "_fecha_carga": "17/06/2026 21:18",
         "_origen": "grupo",
         "_pie": "Joel Agustín Aguirre \nCUIL-CUIT: 20-44216696-0"
+      },
+      {
+        "fecha": "12/06/2026",
+        "hora": "15:41",
+        "tipo": "TRF",
+        "monto": 450000.0,
+        "moneda": "ARS",
+        "remitente": "Braian Ezequiel Rodriguez",
+        "remitente_cuil": "20-39801045-1",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Naranja X",
+        "banco_destino": "Cuenta Virtual",
+        "referencia": "76V4MR2Z7QQJYJW0NDEZOL",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CVU destinatario: 0000155300000000009977. CUIL destinatario: 30-71728225-2. Código de transacción adicional: 7730b0ed-489d-4a87-98bd-a11de1f04138",
+        "_num": 136,
+        "_fecha_carga": "17/06/2026 21:18",
+        "_origen": "grupo",
+        "_pie": "Braian Rodríguez\n39801045"
       }
     ],
     "errores": [],
