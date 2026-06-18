@@ -35838,6 +35838,28 @@
         "_fecha_carga": "18/06/2026 14:46",
         "_origen": "grupo",
         "_pie": "mario starna\n16355712"
+      },
+      {
+        "fecha": "12/06/2026",
+        "hora": "09:38",
+        "tipo": "TRF",
+        "monto": 144000.0,
+        "moneda": "ARS",
+        "remitente": "Ferreyra, Juan Jose",
+        "remitente_cuil": "20-29160334-4",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Personal Pay",
+        "banco_destino": "",
+        "referencia": "46YGOW9M1YWLEPMQNEXD8J",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CBU/CVU del receptor: 0000155300000000009977. CUIL/CUIT del receptor: 30-71728225-2. N° de operación: 2734925985. CoelsaID: 46YGOW9M1YWLEPMQNEXD8J - Id Bancario.",
+        "_num": 1626,
+        "_fecha_carga": "18/06/2026 14:46",
+        "_origen": "grupo",
+        "_pie": "juan ferreyra \n29160334"
       }
     ],
     "errores": [],
