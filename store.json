@@ -6810,6 +6810,28 @@
         "_fecha_carga": "17/06/2026 21:42",
         "_origen": "grupo",
         "_pie": "42196047 \nEzequiel Nicolás tejera"
+      },
+      {
+        "fecha": "13/06/2026",
+        "hora": "11:06",
+        "tipo": "TRF",
+        "monto": 25000.0,
+        "moneda": "ARS",
+        "remitente": "Matias Nicolas Richard",
+        "remitente_cuil": "20-30804619-3",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163124778295",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: WGRXJE27DXER51JJN7MYQL. CVU remitente: 0000003100082764130328. CVU destinatario: 0000155300000000009977. CUIT destinatario: 30-71728225-2",
+        "_num": 309,
+        "_fecha_carga": "17/06/2026 21:42",
+        "_origen": "grupo",
+        "_pie": "Matias Nicolas Richard\nCUIT/CUIL: 20-30804619-3"
       }
     ],
     "errores": [],
