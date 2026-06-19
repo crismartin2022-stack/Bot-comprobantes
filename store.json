@@ -87264,6 +87264,28 @@
         "_fecha_carga": "19/06/2026 00:18",
         "_origen": "grupo",
         "_pie": "Medero, Marianela Alessandra\nCUIL/CUIT 27-47081108-6"
+      },
+      {
+        "fecha": "15/06/2026",
+        "hora": "23:44",
+        "tipo": "TRF",
+        "monto": 200001.0,
+        "moneda": "ARS",
+        "remitente": "Pablo Agustin Franco",
+        "remitente_cuil": "20-42176164-8",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "164315413890",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: XJ8G7V95DWOL0LQ49EMPYR. CUIT destinatario: 30-71728225-2. CVU remitente: 0000003100082368064083. CVU destinatario: 0000155300000000000009977",
+        "_num": 1996,
+        "_fecha_carga": "19/06/2026 00:18",
+        "_origen": "grupo",
+        "_pie": "Pablo Agustin Franco\nCUIT/CUIL: 20-42176164-8"
       }
     ],
     "errores": [],
