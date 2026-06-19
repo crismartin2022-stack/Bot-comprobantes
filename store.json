@@ -50095,6 +50095,28 @@
         "_fecha_carga": "19/06/2026 20:33",
         "_origen": "grupo",
         "_pie": "Matias Burtre\n\n42234520"
+      },
+      {
+        "fecha": "16/06/2026",
+        "hora": "12:07",
+        "tipo": "TRF",
+        "monto": 150000.0,
+        "moneda": "ARS",
+        "remitente": "Gallardo, Martin Armando",
+        "remitente_cuil": "20-40918416-3",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Personal Pay",
+        "banco_destino": "",
+        "referencia": "2746199892",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CoelsaID: 86VRPQ2GMLY4QY6G2GLY0M - Id Bancario. CUIL/CUIT destinatario: 30-71728225-2. CBU/CVU completo: 0000155300000000009977",
+        "_num": 288,
+        "_fecha_carga": "19/06/2026 20:33",
+        "_origen": "grupo",
+        "_pie": "Martin Gallardo \n40.918.416"
       }
     ],
     "errores": [],
