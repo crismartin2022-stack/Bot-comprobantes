@@ -75760,6 +75760,28 @@
         "_fecha_carga": "18/06/2026 23:04",
         "_origen": "grupo",
         "_pie": "Rocio Soledad Gieco\nCUIT/CUIL: 27-40109926-9"
+      },
+      {
+        "fecha": "13/06/2026",
+        "hora": "20:25",
+        "tipo": "TRF",
+        "monto": 585000.0,
+        "moneda": "ARS",
+        "remitente": "Lorena Del Valle Peralta",
+        "remitente_cuil": "27-47909061-6",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Naranja X",
+        "banco_destino": "Cuenta Virtual",
+        "referencia": "XJ8G7V95DWEV5JXW9EMPYR",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CBU origen: 4530000800015528115703. CVU destino: 0000155300000000009977. CUIL destinatario: 30-71728225-2. Código de transacción: 429ecc10-6a55-4cdc-b486-3d0371bcf7d1",
+        "_num": 1474,
+        "_fecha_carga": "18/06/2026 23:04",
+        "_origen": "grupo",
+        "_pie": "Lorena Del Valle Peralta\nNaranja X\nCBU\n4530000800015528115703\nCUIL\n27-47909061-6"
       }
     ],
     "errores": [],
