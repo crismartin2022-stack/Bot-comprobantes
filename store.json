@@ -52189,6 +52189,28 @@
         "_fecha_carga": "19/06/2026 20:47",
         "_origen": "grupo",
         "_pie": ""
+      },
+      {
+        "fecha": "14/06/2026",
+        "hora": "20:40",
+        "tipo": "TRF",
+        "monto": 200000.0,
+        "moneda": "ARS",
+        "remitente": "Kiara Yamil Jara",
+        "remitente_cuil": "27-43977553-5",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "164147311436",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: 86VRPQ2GMLX4EQ5G2GLY0M. CVU remitente: 0000003100005303067347. CVU destinatario: 0000155300000000000009977.",
+        "_num": 383,
+        "_fecha_carga": "19/06/2026 20:47",
+        "_origen": "grupo",
+        "_pie": "Kiara Jara 27-43977553-5"
       }
     ],
     "errores": [],
