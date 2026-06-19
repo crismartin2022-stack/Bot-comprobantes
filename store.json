@@ -56873,6 +56873,28 @@
         "_fecha_carga": "18/06/2026 21:07",
         "_origen": "grupo",
         "_pie": "Paez sofia lorena 39.852.449"
+      },
+      {
+        "fecha": "10/06/2026",
+        "hora": "13:06",
+        "tipo": "TRF",
+        "monto": 20000.0,
+        "moneda": "ARS",
+        "remitente": "Ramon Oscar Perez",
+        "remitente_cuil": "20-32519071-0",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "162654808723",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: 7L8GYKNX0OYVMOXQ2MPRZ5. CVU remitente: 0000003100029749629606. CVU destinatario: 0000155300000000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 617,
+        "_fecha_carga": "18/06/2026 21:07",
+        "_origen": "grupo",
+        "_pie": "Foto de Clohe😎"
       }
     ],
     "errores": [],
