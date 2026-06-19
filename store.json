@@ -69608,6 +69608,28 @@
         "_fecha_carga": "18/06/2026 22:26",
         "_origen": "grupo",
         "_pie": "Natalia Ailen Di Giorgio Suarez\nCUIT/CUIL: 27-47758744-0"
+      },
+      {
+        "fecha": "13/06/2026",
+        "hora": "23:18",
+        "tipo": "TRF",
+        "monto": 100000.0,
+        "moneda": "ARS",
+        "remitente": "Juan Pablo Juani",
+        "remitente_cuil": "20-42904568-2",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Naranja X",
+        "banco_destino": "Cuenta Virtual",
+        "referencia": "7L8GYKNX05WO7VOQ2MPRZ5",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CBU origen: 4530000800019921086521. CVU destino: 0000155300000000009977. CUIL destinatario: 30-71728225-2. Código de transacción: b75da763-7e78-4d36-8f17-5203d0ef5a84",
+        "_num": 1195,
+        "_fecha_carga": "18/06/2026 22:26",
+        "_origen": "grupo",
+        "_pie": "Juan Pablo Juani\nNaranja X\n4530000800019921086521\n20-42904568-2"
       }
     ],
     "errores": [],
