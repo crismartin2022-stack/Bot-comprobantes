@@ -52894,6 +52894,28 @@
         "_fecha_carga": "19/06/2026 20:52",
         "_origen": "grupo",
         "_pie": "Jonathan David Caponnetto\n2336257999\nPlutonos"
+      },
+      {
+        "fecha": "17/06/2026",
+        "hora": "13:22",
+        "tipo": "TRF",
+        "monto": 1275000.0,
+        "moneda": "ARS",
+        "remitente": "Leandro Nahuel Ponce",
+        "remitente_cuil": "20-19033670-1",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Naranja X",
+        "banco_destino": "Cuenta Virtual",
+        "referencia": "R7ZG0QNDW1OOL5MD9EXYPO",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "COELSA ID: R7ZG0QNDW1OOL5MD9EXYPO. Código de transacción: 56472f2f-339d-4e62-904c-75ff20a29df8. CBU origen: 4530000800012705531952. CVU destino: 0000155300000000009977.",
+        "_num": 415,
+        "_fecha_carga": "19/06/2026 20:52",
+        "_origen": "grupo",
+        "_pie": "Leandro Nahuel ponce\n20190336701\nPlutonos"
       }
     ],
     "errores": [],
