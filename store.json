@@ -44915,6 +44915,28 @@
         "_fecha_carga": "19/06/2026 19:57",
         "_origen": "grupo",
         "_pie": "Walter alejandro forgia 40191889"
+      },
+      {
+        "fecha": "15/06/2026",
+        "hora": "14:47",
+        "tipo": "TRF",
+        "monto": 794100.0,
+        "moneda": "ARS",
+        "remitente": "Maria Jose Gabutti",
+        "remitente_cuil": "27-27395633-1",
+        "destinatario": "Sercob Sa",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "Billetera BILLETERAPAIS SA",
+        "referencia": "163430069123",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "7745",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: 67REZ8NPQ6KOKDV194KVGO. CVU remitente: 0000003100029644921935. CVU destinatario: 0000133100000000587745",
+        "_num": 53,
+        "_fecha_carga": "19/06/2026 19:58",
+        "_origen": "grupo",
+        "_pie": "Maria José Gabutti 27395633"
       }
     ],
     "errores": [],
