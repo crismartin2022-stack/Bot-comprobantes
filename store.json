@@ -48530,6 +48530,28 @@
         "_fecha_carga": "19/06/2026 20:22",
         "_origen": "grupo",
         "_pie": "Victor Hugo de Gregorio\n DNI: 33.328.943"
+      },
+      {
+        "fecha": "15/06/2026",
+        "hora": "16:39",
+        "tipo": "TRF",
+        "monto": 500000.76,
+        "moneda": "ARS",
+        "remitente": "Alejandro Antonio Ramirez",
+        "remitente_cuil": "20-46243309-4",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163445766377",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: L18MKX9RXJK8QM7E9O6WYV. CVU origen: 0000003100034736539475. CVU destino: 0000155300000000009977",
+        "_num": 217,
+        "_fecha_carga": "19/06/2026 20:23",
+        "_origen": "grupo",
+        "_pie": "Alejandro Antonio Ramirez\nDNI: 46.243.309"
       }
     ],
     "errores": [],
