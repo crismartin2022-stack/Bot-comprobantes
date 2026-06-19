@@ -69101,6 +69101,28 @@
         "_fecha_carga": "18/06/2026 22:23",
         "_origen": "grupo",
         "_pie": "Franco Gimenez\nNaranja X\n4530000800017084533296\n20-47402527-7"
+      },
+      {
+        "fecha": "13/06/2026",
+        "hora": "22:28",
+        "tipo": "TRF",
+        "monto": 300000.0,
+        "moneda": "ARS",
+        "remitente": "Pablo Ezequiel Caceres Cruz",
+        "remitente_cuil": "20-37200745-2",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Naranja X",
+        "banco_destino": "Cuenta Virtual",
+        "referencia": "Z4K6DVNOWYDVLDDG25J8LQ",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CBU origen: 4530000800014635180040. CVU destino: 0000155300000000009977. CUIL destinatario: 30-71728225-2. Código de transacción: 3be85871-2085-4e1a-9757-65f2ca0b13f0",
+        "_num": 1172,
+        "_fecha_carga": "18/06/2026 22:23",
+        "_origen": "grupo",
+        "_pie": "Pablo Ezequiel Caceres Cruz\nNaranja X\n4530000800014635180040\n20-37200745-2"
       }
     ],
     "errores": [],
