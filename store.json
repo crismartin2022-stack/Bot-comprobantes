@@ -89358,6 +89358,28 @@
         "_fecha_carga": "19/06/2026 00:31",
         "_origen": "grupo",
         "_pie": "Noelia Primavera Chirino\nDNI 43.664.090"
+      },
+      {
+        "fecha": "16/06/2026",
+        "hora": "09:17",
+        "tipo": "TRF",
+        "monto": 50000.0,
+        "moneda": "ARS",
+        "remitente": "Maria Cecilia Cruz",
+        "remitente_cuil": "",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Ualá",
+        "banco_destino": "BILLETERA VIRTUAL",
+        "referencia": "416302be-7e9e-a4bd-8eb4-8fe7543e57d9",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CVU destino: 0000155300000000009977. CBU emisor: 3840200500000028050973. CUIT/CUIL destino: 30-71728225-2. Comentario: Transferencia en pesos.",
+        "_num": 2091,
+        "_fecha_carga": "19/06/2026 00:31",
+        "_origen": "grupo",
+        "_pie": "Maria Cecilia Cruz \n36.790.811"
       }
     ],
     "errores": [],
