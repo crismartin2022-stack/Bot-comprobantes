@@ -45179,6 +45179,28 @@
         "_fecha_carga": "19/06/2026 19:59",
         "_origen": "grupo",
         "_pie": "Tobias Letona 43227784"
+      },
+      {
+        "fecha": "15/06/2026",
+        "hora": "15:11",
+        "tipo": "TRF",
+        "monto": 387500.0,
+        "moneda": "ARS",
+        "remitente": "Martina Florio",
+        "remitente_cuil": "27-45595201-3",
+        "destinatario": "Sercob Sa",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "Billetera BILLETERAPAIS SA",
+        "referencia": "164246307124",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "7745",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: WY7ZEPN6MKXDMK0Q2Q0M51. CVU remitente: 0000003100061917709354. CVU destinatario: 0000133100000000587745. CUIT destinatario: 30-70828227-4",
+        "_num": 65,
+        "_fecha_carga": "19/06/2026 19:59",
+        "_origen": "grupo",
+        "_pie": "Martina Florio 45595201"
       }
     ],
     "errores": [],
