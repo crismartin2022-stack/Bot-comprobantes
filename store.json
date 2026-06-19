@@ -79480,6 +79480,28 @@
         "_fecha_carga": "18/06/2026 23:29",
         "_origen": "grupo",
         "_pie": "Andrea rosales 43860910"
+      },
+      {
+        "fecha": "13/06/2026",
+        "hora": "21:42",
+        "tipo": "TRF",
+        "monto": 120000.0,
+        "moneda": "ARS",
+        "remitente": "Andrea Celeste Rosales",
+        "remitente_cuil": "27-43860910-0",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Naranja X",
+        "banco_destino": "Cuenta Virtual",
+        "referencia": "",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CBU origen: 4530000800011777010428. CVU destino: 0000155300000000009977. CUIL destinatario: 30-71728225-2. La sección 'Información de la operación' con el COELSA ID está parcialmente visible pero no legible.",
+        "_num": 1643,
+        "_fecha_carga": "18/06/2026 23:29",
+        "_origen": "grupo",
+        "_pie": "Andrea rosales 43860910"
       }
     ],
     "errores": [],
