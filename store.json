@@ -84526,6 +84526,29 @@
         "_origen": "grupo",
         "_pie": "Envío en total \n$2.040.000\n\n•600k (Tony 90)\n•*Sasteup Srl*\n•13/06\n•Walter Oscar Silvetti\n•20-40495304-5\n\n•440k (Tony 90)\n•*Sasteup Srl*\n•13/06\n•Eleonora Magali Gallardo\n•27-45534816-7\n\n•300k (Tony 90)\n•*Sasteup Srl*\n•13/06\n•Alicia Veronica Ledesma\n•27-23971189-3\n\n•700k (Tony 90)\n•*Sasteup Srl*\n•13/06\n•Walter Oscar Silvetti\n•20-40495304-5",
         "_duplicado": true
+      },
+      {
+        "fecha": "13/06/2026",
+        "hora": "20:50",
+        "tipo": "TRF",
+        "monto": 500000.0,
+        "moneda": "ARS",
+        "remitente": "Caballero, Julio Andres",
+        "remitente_cuil": "20-38660370-8",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Personal Pay",
+        "banco_destino": "",
+        "referencia": "2741359107",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CoelsaID: RD06ZO9WVR136ED1N5GP7X - Id Bancario. CUIL/CUIT destinatario: 30-71728225-2. CBU/CVU receptor: 0000155300000000009977",
+        "_num": 1858,
+        "_fecha_carga": "18/06/2026 23:58",
+        "_origen": "grupo",
+        "_pie": "Buenas \nEnvío en total \n$1.500.000\n\n•500k (Tony90)\n• *Sasteup Srl*\n• 13/06\n•Julio Andres Caballero\n•Cuil: 20-38660370-8\n\n•400k (Tony90)\n• *Sasteup Srl*\n• 13/06\n•Alvaro Gerardine Coria\n•Cuil: 20-41479775-0\n\n•600k (Tony90)\n• *Sasteup Srl*\n• 13/06\n•Vanesa Barrionuevo \n•Cuil: 27-31966284-2",
+        "_duplicado": true
       }
     ]
   }
