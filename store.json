@@ -64363,6 +64363,28 @@
         "_fecha_carga": "18/06/2026 21:53",
         "_origen": "grupo",
         "_pie": "Juan Carlos Ovejero\n14.765.356"
+      },
+      {
+        "fecha": "12/06/2026",
+        "hora": "23:20",
+        "tipo": "TRF",
+        "monto": 500000.05,
+        "moneda": "ARS",
+        "remitente": "Oscar Martin Nunez",
+        "remitente_cuil": "20-43581368-3",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163084066399",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: 7L8GYKNX051KXG4P2MPRZ5. CVU remitente: 0000003100066680657936. CVU destinatario: 0000155300000000009977. CUIT destinatario: 30-71728225-2",
+        "_num": 957,
+        "_fecha_carga": "18/06/2026 21:54",
+        "_origen": "grupo",
+        "_pie": "__100__"
       }
     ],
     "errores": [],
