@@ -75980,6 +75980,28 @@
         "_fecha_carga": "18/06/2026 23:05",
         "_origen": "grupo",
         "_pie": ""
+      },
+      {
+        "fecha": "12/06/2026",
+        "hora": "19:59",
+        "tipo": "TRF",
+        "monto": 95000.0,
+        "moneda": "ARS",
+        "remitente": "Figueroa, Oriana Milagros",
+        "remitente_cuil": "27-45662407-9",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Personal Pay",
+        "banco_destino": "",
+        "referencia": "2738626068",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CoelsaID: 67REZ8NPQV6YPQ6P94KVGO - Id Bancario. CBU/CVU destinatario: 0000155300000000009977. CUIL/CUIT destinatario: 30-71728225-2",
+        "_num": 1484,
+        "_fecha_carga": "18/06/2026 23:06",
+        "_origen": "grupo",
+        "_pie": "Figueroa, Oriana Milagros\nCUIL/CUIT\n27-45662407-9"
       }
     ],
     "errores": [],
