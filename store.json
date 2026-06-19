@@ -51614,6 +51614,28 @@
         "_fecha_carga": "19/06/2026 20:43",
         "_origen": "grupo",
         "_pie": "Maximo Luciano Mendieta\nCuenta Claro Pay\nCVU: 0000085700204557648915\nAlias: 20455764891.claropay"
+      },
+      {
+        "fecha": "15/06/2024",
+        "hora": "16:57",
+        "tipo": "TRF",
+        "monto": 210000.0,
+        "moneda": "ARS",
+        "remitente": "Maximo Luciano Mendieta",
+        "remitente_cuil": "20455764891",
+        "destinatario": "SASTEUP SRL",
+        "banco_origen": "Claro Pay",
+        "banco_destino": "Lohas",
+        "referencia": "WB260615.1657.E28943",
+        "concepto": "Enviaste dinero",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CVU remitente: 0000085700204557648915. Alias remitente: 20455764891.claropay. CUIT/CUIL destinatario: 30717282252. CVU destinatario: 0000155300000000009977. N° operación COELSA: Z6OLM0N3V3J31J852E7RQ5",
+        "_num": 357,
+        "_fecha_carga": "19/06/2026 20:43",
+        "_origen": "grupo",
+        "_pie": "Maximo Luciano Mendieta\nCuenta Claro Pay\nCVU: 0000085700204557648915\nAlias: 20455764891.claropay"
       }
     ],
     "errores": [],
