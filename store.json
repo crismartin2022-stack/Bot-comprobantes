@@ -65859,6 +65859,28 @@
         "_fecha_carga": "18/06/2026 22:02",
         "_origen": "grupo",
         "_pie": ""
+      },
+      {
+        "fecha": "15/06/2026",
+        "hora": "12:48",
+        "tipo": "TRF",
+        "monto": 300000.0,
+        "moneda": "ARS",
+        "remitente": "Álvaro Miguel Vides",
+        "remitente_cuil": "",
+        "destinatario": "SASTEUP SRL",
+        "banco_origen": "Banco Coinag S.A.",
+        "banco_destino": "",
+        "referencia": "PDX4OGNYGPWV1XGVN0L6EY",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Comprobante emitido por GARPA S.A., Proveedor de Servicios de Pago. CBU/CVU del destinatario: 0000155300000000009977",
+        "_num": 1025,
+        "_fecha_carga": "18/06/2026 22:02",
+        "_origen": "grupo",
+        "_pie": ""
       }
     ],
     "errores": [],
