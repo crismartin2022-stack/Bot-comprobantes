@@ -53225,6 +53225,28 @@
         "_fecha_carga": "19/06/2026 20:54",
         "_origen": "grupo",
         "_pie": "ramiro falcato\n47736782"
+      },
+      {
+        "fecha": "17/06/2026",
+        "hora": "09:54",
+        "tipo": "TRF",
+        "monto": 500000.0,
+        "moneda": "ARS",
+        "remitente": "Qing Huang",
+        "remitente_cuil": "23-95605648-9",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "164518142808",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: Z0KV87940EXWPM34NPEYDX. CVU remitente: 0000003100055299246082. CVU destinatario: 0000155300000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 430,
+        "_fecha_carga": "19/06/2026 20:54",
+        "_origen": "grupo",
+        "_pie": "quing huang\n95605648"
       }
     ],
     "errores": [],
