@@ -84176,6 +84176,28 @@
         "_fecha_carga": "18/06/2026 23:58",
         "_origen": "grupo",
         "_pie": ""
+      },
+      {
+        "fecha": "13/06/2026",
+        "hora": "22:58",
+        "tipo": "TRF",
+        "monto": 300000.0,
+        "moneda": "ARS",
+        "remitente": "Maximiliano Mansilla",
+        "remitente_cuil": "20-34957607-5",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163233496199",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: 0V1JXON1LMDG46X1NZ64EL. CVU remitente: 0000003100014806005776. CVU destinatario: 0000155300000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 1856,
+        "_fecha_carga": "18/06/2026 23:58",
+        "_origen": "grupo",
+        "_pie": "300 k (Tony90) \n*Sasteup Srl* \n13/6 \nMaximiliano Mansilla\n20-34957607-5"
       }
     ],
     "errores": [],
