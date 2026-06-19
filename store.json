@@ -64869,6 +64869,28 @@
         "_fecha_carga": "18/06/2026 21:56",
         "_origen": "grupo",
         "_pie": ""
+      },
+      {
+        "fecha": "13/06/2026",
+        "hora": "21:20",
+        "tipo": "TRF",
+        "monto": 500000.28,
+        "moneda": "ARS",
+        "remitente": "Maria Silvina Montero",
+        "remitente_cuil": "27-22089285-4",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163220279087",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: ORD6LEN8PY73VKJONM1Y30. CVU destinatario: 0000155300000000009977. CVU remitente: 0000003100005611335330. CUIL destinatario: 30-71728225-2.",
+        "_num": 980,
+        "_fecha_carga": "18/06/2026 21:56",
+        "_origen": "grupo",
+        "_pie": ""
       }
     ],
     "errores": [],
