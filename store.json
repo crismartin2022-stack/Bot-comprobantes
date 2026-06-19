@@ -51990,6 +51990,28 @@
         "_fecha_carga": "19/06/2026 20:46",
         "_origen": "grupo",
         "_pie": "AGRO STORINO ELICHIRI CYNTIA ANTONE"
+      },
+      {
+        "fecha": "15/06/2026",
+        "hora": "00:15",
+        "tipo": "TRF",
+        "monto": 95000.0,
+        "moneda": "ARS",
+        "remitente": "Lara Zeballos",
+        "remitente_cuil": "27-44268753-1",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163356194851",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: WY7ZEPN6MKYE6LGW2Q0M51. CVU remitente: 0000003100003235640683. CVU destinatario: 0000155300000000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 374,
+        "_fecha_carga": "19/06/2026 20:46",
+        "_origen": "grupo",
+        "_pie": "Lara zeballos\n44268753\n500k bet30 multiskin"
       }
     ],
     "errores": [],
