@@ -53335,6 +53335,28 @@
         "_fecha_carga": "19/06/2026 20:55",
         "_origen": "grupo",
         "_pie": "Walter Enrique Sayago \n23-40686774-9"
+      },
+      {
+        "fecha": "15/06/2026",
+        "hora": "20:47",
+        "tipo": "TRF",
+        "monto": 18000.0,
+        "moneda": "ARS",
+        "remitente": "Abril Agostina Mendoza",
+        "remitente_cuil": "27-46426543-6",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "164295691808",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: PDX4OGNYGP8VV7MRN0L6EY. CVU remitente: 0000003100043950653458. CVU destinatario: 0000155300000000000009977. CUIT destinatario: 30-71728225-2",
+        "_num": 435,
+        "_fecha_carga": "19/06/2026 20:55",
+        "_origen": "grupo",
+        "_pie": "Abril Agostina Mendoza 46426543"
       }
     ],
     "errores": [],
