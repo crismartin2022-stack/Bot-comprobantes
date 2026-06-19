@@ -71613,6 +71613,28 @@
         "_fecha_carga": "18/06/2026 22:39",
         "_origen": "grupo",
         "_pie": "María de Los Ángeles Rodríguez \n33711557879"
+      },
+      {
+        "fecha": "14/06/2026",
+        "hora": "19:18",
+        "tipo": "TRF",
+        "monto": 250000.0,
+        "moneda": "ARS",
+        "remitente": "NAIARA NAYME SORIA",
+        "remitente_cuil": "27-45128328-1",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Banco De Galicia S.A.U",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "42106593447",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "ID COELSA: 1LMP68NKVEKZLJ1P2R7OEV. CVU destinatario: 0000155300000000009977. CUIT destinatario: 30-71728225-2. Cuenta origen: CA $ N° 4068262-4 043-3.",
+        "_num": 1286,
+        "_fecha_carga": "18/06/2026 22:39",
+        "_origen": "grupo",
+        "_pie": "De:\nNAIARA NAYME SORIA\nCUIT 27-45128328-1"
       }
     ],
     "errores": [],
