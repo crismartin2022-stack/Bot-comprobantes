@@ -64451,6 +64451,28 @@
         "_fecha_carga": "18/06/2026 21:54",
         "_origen": "grupo",
         "_pie": "Gonzalo hernan Méndez\n 39.811.451"
+      },
+      {
+        "fecha": "13/06/2026",
+        "hora": "04:22",
+        "tipo": "TRF",
+        "monto": 500000.09,
+        "moneda": "ARS",
+        "remitente": "Santiago Alejo Reynozo",
+        "remitente_cuil": "20-46142612-4",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163100888013",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: 76V4MR2Z74L0VJ3LNDEZOL. CVU remitente: 0000003100049681180294. CVU destinatario: 0000155300000000009977. Destinatario CUIT: 30-71728225-2.",
+        "_num": 961,
+        "_fecha_carga": "18/06/2026 21:54",
+        "_origen": "grupo",
+        "_pie": ""
       }
     ],
     "errores": [],
