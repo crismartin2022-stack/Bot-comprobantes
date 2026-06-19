@@ -69321,6 +69321,28 @@
         "_fecha_carga": "18/06/2026 22:24",
         "_origen": "grupo",
         "_pie": "PAOLA MARCELA TOGNASSO\nCUIT 27-30758610-5"
+      },
+      {
+        "fecha": "13/06/2026",
+        "hora": "22:52",
+        "tipo": "TRF",
+        "monto": 250000.0,
+        "moneda": "ARS",
+        "remitente": "Paola Marcela Togñasso",
+        "remitente_cuil": "27-30758610-5",
+        "destinatario": "SASTEUP SRL",
+        "banco_origen": "AstroPay",
+        "banco_destino": "",
+        "referencia": "76V4MR2Z74PMGZDGNDEZOL",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CVU remitente: 0000177500099963407168. CVU receptor (SASTEUP SRL): 0000155300000000009977. Alias receptor: cvu.977. CUIT receptor: 30717282252.",
+        "_num": 1182,
+        "_fecha_carga": "18/06/2026 22:25",
+        "_origen": "grupo",
+        "_pie": "Paola Marcela Togñasso\n27307586105"
       }
     ],
     "errores": [],
