@@ -78136,6 +78136,28 @@
         "_fecha_carga": "18/06/2026 23:20",
         "_origen": "grupo",
         "_pie": "Guillermo ariel robledo\n29835333"
+      },
+      {
+        "fecha": "13/06/2026",
+        "hora": "14:08",
+        "tipo": "TRF",
+        "monto": 17000.0,
+        "moneda": "ARS",
+        "remitente": "Daiana Ada Luz Diaz",
+        "remitente_cuil": "27-39753021-9",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163154805617",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: LMORZP908LK78WLYNEGJ46. CUIT destinatario: 30-71728225-2. CVU destinatario: 0000155300000000000009977",
+        "_num": 1582,
+        "_fecha_carga": "18/06/2026 23:20",
+        "_origen": "grupo",
+        "_pie": "Daiana ada luz\n39753021"
       }
     ],
     "errores": [],
