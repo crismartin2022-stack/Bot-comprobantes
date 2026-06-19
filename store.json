@@ -65661,6 +65661,28 @@
         "_fecha_carga": "18/06/2026 22:01",
         "_origen": "grupo",
         "_pie": ""
+      },
+      {
+        "fecha": "13/06/2026",
+        "hora": "16:38",
+        "tipo": "TRF",
+        "monto": 40000.0,
+        "moneda": "ARS",
+        "remitente": "Marina Yolanda Milagros Rapalin",
+        "remitente_cuil": "27-46092924-0",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163986953370",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: LMORZP908LK3YQW5NEGJ46. CVU remitente: 0000003100096860805123. CVU destinatario: 0000155300000000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 1016,
+        "_fecha_carga": "18/06/2026 22:01",
+        "_origen": "grupo",
+        "_pie": ""
       }
     ],
     "errores": [],
