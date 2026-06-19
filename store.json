@@ -50888,6 +50888,28 @@
         "_fecha_carga": "19/06/2026 20:38",
         "_origen": "grupo",
         "_pie": "Caterina noeli gomez\n37394391"
+      },
+      {
+        "fecha": "15/06/2026",
+        "hora": "23:36",
+        "tipo": "TRF",
+        "monto": 80000.0,
+        "moneda": "ARS",
+        "remitente": "Ailen Estefania Ozuna",
+        "remitente_cuil": "27-46738702-8",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163501399807",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: 46YGOW9M1KPOG1DYNEXD8J. CVU remitente: 0000003100094492347585. CVU destinatario: 0000155300000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 324,
+        "_fecha_carga": "19/06/2026 20:38",
+        "_origen": "grupo",
+        "_pie": ""
       }
     ],
     "errores": [],
