@@ -53911,6 +53911,28 @@
         "_fecha_carga": "19/06/2026 20:58",
         "_origen": "grupo",
         "_pie": ""
+      },
+      {
+        "fecha": "15/06/2026",
+        "hora": "22:59",
+        "tipo": "TRF",
+        "monto": 440000.0,
+        "moneda": "ARS",
+        "remitente": "HELGA GEORGINA Millet",
+        "remitente_cuil": "37434206",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Ualá",
+        "banco_destino": "",
+        "referencia": "ORD6LEN8PYRJPDEONM1Y30",
+        "concepto": "VAR",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CBU destino: 0000155300000000009977. CUIT destino: 30717282252 (corresponde al destinatario Sasteup Srl). No se visualiza CUIL del remitente en el comprobante.",
+        "_num": 461,
+        "_fecha_carga": "19/06/2026 20:58",
+        "_origen": "grupo",
+        "_pie": "Helga georgina millet\n37434206"
       }
     ],
     "errores": [],
