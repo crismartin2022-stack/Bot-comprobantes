@@ -61789,6 +61789,28 @@
         "_fecha_carga": "18/06/2026 21:37",
         "_origen": "grupo",
         "_pie": ""
+      },
+      {
+        "fecha": "13/06/2026",
+        "hora": "18:11",
+        "tipo": "TRF",
+        "monto": 3900.0,
+        "moneda": "ARS",
+        "remitente": "Alejandro Nicolás Bautista",
+        "remitente_cuil": "20-45519883-7",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Naranja X",
+        "banco_destino": "Cuenta Virtual",
+        "referencia": "3D5W612E6ZJJXRDQ2GXYVR",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CBU origen: 4530000800011302918036. CVU destino: 0000155300000000009977. CUIL destinatario: 30-71728225-2. Código de transacción: 88c765ae-59ef-449b-9b41-d647be84e8ef",
+        "_num": 840,
+        "_fecha_carga": "18/06/2026 21:37",
+        "_origen": "grupo",
+        "_pie": ""
       }
     ],
     "errores": [],
