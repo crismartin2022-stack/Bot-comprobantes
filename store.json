@@ -72164,6 +72164,28 @@
         "_fecha_carga": "18/06/2026 22:42",
         "_origen": "grupo",
         "_pie": "Carlos Silvero 95021897"
+      },
+      {
+        "fecha": "14/06/2026",
+        "hora": "15:51",
+        "tipo": "TRF",
+        "monto": 25000.0,
+        "moneda": "ARS",
+        "remitente": "Karina Rosana Rodriguez",
+        "remitente_cuil": "27-34498490-0",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163299643513",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: Z0KV87940E0EMMK0NPEYDX. CVU remitente: 0000003100028986439696. CVU destinatario: 0000155300000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 1311,
+        "_fecha_carga": "18/06/2026 22:42",
+        "_origen": "grupo",
+        "_pie": "Karina Rosana Rodriguez\nCUIT/CUIL: 27-34498490-0"
       }
     ],
     "errores": [],
