@@ -55816,6 +55816,28 @@
         "_fecha_carga": "18/06/2026 21:00",
         "_origen": "grupo",
         "_pie": ""
+      },
+      {
+        "fecha": "07/06/2026",
+        "hora": "18:26",
+        "tipo": "TRF",
+        "monto": 29000.0,
+        "moneda": "ARS",
+        "remitente": "Aldo Javier Penayo Parra",
+        "remitente_cuil": "20-94481846-5",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "162220802619",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: 8D0Q619L045EREP8N7JZ5R. CVU remitente: 0000003100030324127262. CVU destinatario: 0000155300000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 569,
+        "_fecha_carga": "18/06/2026 21:00",
+        "_origen": "grupo",
+        "_pie": ""
       }
     ],
     "errores": [],
