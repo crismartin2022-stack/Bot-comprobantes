@@ -52982,6 +52982,28 @@
         "_fecha_carga": "19/06/2026 20:52",
         "_origen": "grupo",
         "_pie": "Carlos Daniel silva \n\nDNI: 29.165.124"
+      },
+      {
+        "fecha": "17/06/2026",
+        "hora": "14:24",
+        "tipo": "TRF",
+        "monto": 272000.0,
+        "moneda": "ARS",
+        "remitente": "Rodrigo Nicolas Leguizamon",
+        "remitente_cuil": "20-36516818-1",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "164559097954",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: 76V4MR2Z74XRG0OGNDEZOL. CVU origen (remitente): 0000003100028933033179. CVU destino (receptor): 0000155300000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 419,
+        "_fecha_carga": "19/06/2026 20:52",
+        "_origen": "grupo",
+        "_pie": "Rodrigo Nicolas Leguizamon\nCUIT/CUIL: 20365168181"
       }
     ],
     "errores": [],
