@@ -71173,6 +71173,28 @@
         "_fecha_carga": "18/06/2026 22:36",
         "_origen": "grupo",
         "_pie": ""
+      },
+      {
+        "fecha": "14/06/2026",
+        "hora": "16:45",
+        "tipo": "TRF",
+        "monto": 300000.0,
+        "moneda": "ARS",
+        "remitente": "Rosalia Del Carmen Medina",
+        "remitente_cuil": "27-14516073-7",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163307718243",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: ORD6LEN8PYMQJVEONM1Y30. CUIL destinatario: 30-71728225-2. CVU remitente: 0000003100070381835089. CVU destinatario: 0000155300000000009977",
+        "_num": 1266,
+        "_fecha_carga": "18/06/2026 22:36",
+        "_origen": "grupo",
+        "_pie": "Rosalia Del Carmen Medina\nCUIT/CUIL: 27-14516073-7"
       }
     ],
     "errores": [],
