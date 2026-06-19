@@ -78026,6 +78026,28 @@
         "_fecha_carga": "18/06/2026 23:19",
         "_origen": "grupo",
         "_pie": "matias leonel albornoz \n40721596"
+      },
+      {
+        "fecha": "13/06/2026",
+        "hora": "19:47",
+        "tipo": "TRF",
+        "monto": 50000.0,
+        "moneda": "ARS",
+        "remitente": "Maria Del Rosario Arroyo",
+        "remitente_cuil": "27-35504773-9",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Naranja X",
+        "banco_destino": "Cuenta Virtual",
+        "referencia": "",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CBU origen: 4530000800015549900128. CVU destino: 0000155300000000000009977. CUIL destinatario: 30-71728225-2",
+        "_num": 1577,
+        "_fecha_carga": "18/06/2026 23:19",
+        "_origen": "grupo",
+        "_pie": "Maria del rosario arroyo\n35504773"
       }
     ],
     "errores": [],
