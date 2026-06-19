@@ -47936,6 +47936,28 @@
         "_fecha_carga": "19/06/2026 20:18",
         "_origen": "grupo",
         "_pie": "Ángel Damián Zurita\nDNI: 16.554.662"
+      },
+      {
+        "fecha": "14/06/2026",
+        "hora": "17:31",
+        "tipo": "TRF",
+        "monto": 500000.49,
+        "moneda": "ARS",
+        "remitente": "Maria Silvina Montero",
+        "remitente_cuil": "27-22089285-4",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163311443015",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: 76V4MR2Z74876EVYNDEZOL. CVU origen: 0000003100005611335330. CVU destino: 0000155300000000009977.",
+        "_num": 190,
+        "_fecha_carga": "19/06/2026 20:19",
+        "_origen": "grupo",
+        "_pie": "María Silvina Montero\nDNI: 22.089.285"
       }
     ],
     "errores": [],
