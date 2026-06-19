@@ -51636,6 +51636,28 @@
         "_fecha_carga": "19/06/2026 20:43",
         "_origen": "grupo",
         "_pie": "Maximo Luciano Mendieta\nCuenta Claro Pay\nCVU: 0000085700204557648915\nAlias: 20455764891.claropay"
+      },
+      {
+        "fecha": "16/06/2026",
+        "hora": "00:42",
+        "tipo": "TRF",
+        "monto": 20000.0,
+        "moneda": "ARS",
+        "remitente": "Figueroa, Oriana Milagros",
+        "remitente_cuil": "27-45662407-9",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Personal Pay",
+        "banco_destino": "",
+        "referencia": "2745529527",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CoelsaID: 46YGOW9M1KP4VGRMNEXD8J - Id Bancario. CUIL/CUIT del destinatario: 30-71728225-2. CBU/CVU del receptor: 0000155300000000009977",
+        "_num": 358,
+        "_fecha_carga": "19/06/2026 20:44",
+        "_origen": "grupo",
+        "_pie": "Figueroa, Oriana Milagros\n27-45662407-9"
       }
     ],
     "errores": [],
