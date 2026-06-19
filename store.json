@@ -67624,6 +67624,28 @@
         "_fecha_carga": "18/06/2026 22:14",
         "_origen": "grupo",
         "_pie": "Walter Daniel Arroyo\nCUIT/CUIL: 20-29905401-3"
+      },
+      {
+        "fecha": "13/06/2026",
+        "hora": "18:22",
+        "tipo": "TRF",
+        "monto": 50000.0,
+        "moneda": "ARS",
+        "remitente": "Juan Pablo Juani",
+        "remitente_cuil": "20-42904568-2",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Naranja X",
+        "banco_destino": "Cuenta Virtual",
+        "referencia": "D4RO172VZQEZZZWVNKJ3QE",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CBU origen: 4530000800019921086521. CVU destino: 0000155300000000009977. CUIL destinatario: 30-71728225-2. Código de transacción: 7c720f6f-c7f3-4afe-a8b3-d2234c842917",
+        "_num": 1105,
+        "_fecha_carga": "18/06/2026 22:14",
+        "_origen": "grupo",
+        "_pie": "Juan Pablo Juani\nNaranja X\n4530000800019921086521\n20-42904568-2"
       }
     ],
     "errores": [],
