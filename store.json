@@ -75320,6 +75320,28 @@
         "_fecha_carga": "18/06/2026 23:01",
         "_origen": "grupo",
         "_pie": "Marcela Claudia Rodriguez\nCUIT/CUIL: 27-18525403-7"
+      },
+      {
+        "fecha": "12/06/2026",
+        "hora": "12:19",
+        "tipo": "TRF",
+        "monto": 100000.0,
+        "moneda": "ARS",
+        "remitente": "Lucas Martin Bonetto",
+        "remitente_cuil": "20-34335344-9",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "Z0KV87940PPL8V5ENPEYDX",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Número de operación de Mercado Pago: 163782585622. CVU remitente: 0000003100000077287922. CVU destinatario: 0000155300000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 1454,
+        "_fecha_carga": "18/06/2026 23:01",
+        "_origen": "grupo",
+        "_pie": ""
       }
     ],
     "errores": [],
