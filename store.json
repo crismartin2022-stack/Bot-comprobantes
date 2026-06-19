@@ -46569,6 +46569,28 @@
         "_fecha_carga": "19/06/2026 20:09",
         "_origen": "grupo",
         "_pie": "Multi azul"
+      },
+      {
+        "fecha": "16/06/2026",
+        "hora": "21:54",
+        "tipo": "TRF",
+        "monto": 30000.0,
+        "moneda": "ARS",
+        "remitente": "Gisela Vanesa Nunez",
+        "remitente_cuil": "27-34581983-0",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Naranja X",
+        "banco_destino": "Cuenta Virtual",
+        "referencia": "86VRPQ2GML8KVMJM2GLY0M",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de transacción adicional: ba39bb1a-d364-4204-bcd9-880ebe096cb8. CBU origen: 4530000800011473799522. CVU destino: 0000155300000000009977. CUIL destinatario: 30-71728225-2.",
+        "_num": 128,
+        "_fecha_carga": "19/06/2026 20:09",
+        "_origen": "grupo",
+        "_pie": "Gisela Vanesa Nuñez \n34581983"
       }
     ],
     "errores": [],
