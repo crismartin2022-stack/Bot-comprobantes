@@ -78268,6 +78268,28 @@
         "_fecha_carga": "18/06/2026 23:21",
         "_origen": "grupo",
         "_pie": "Modesto Aquino Hernández\n20949706525 Plutonos"
+      },
+      {
+        "fecha": "11/06/2026",
+        "hora": "23:50",
+        "tipo": "TRF",
+        "monto": 100000.0,
+        "moneda": "ARS",
+        "remitente": "Enzo Gabriel Albarracin",
+        "remitente_cuil": "23-43056491-9",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Naranja X",
+        "banco_destino": "Cuenta Virtual",
+        "referencia": "RD06ZO9WV7JXRKE3N5GP7X",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CBU origen: 4530000800019866273750. CVU destino: 0000155300000000009977. CUIL destinatario: 30-71728225-2. Código de transacción: fb0a4677-52d9-4887-84c4-4a10316defb6",
+        "_num": 1588,
+        "_fecha_carga": "18/06/2026 23:21",
+        "_origen": "grupo",
+        "_pie": "ENZO GABRIEL ALBARRACIN 23-43056491-9 1OO.OOO"
       }
     ],
     "errores": [],
