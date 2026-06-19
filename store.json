@@ -74370,6 +74370,28 @@
         "_fecha_carga": "18/06/2026 22:56",
         "_origen": "grupo",
         "_pie": "PATRICIO LEONEL ORELLANA\nCUIL/CUIT 20-41881016-6"
+      },
+      {
+        "fecha": "15/06/2026",
+        "hora": "16:35",
+        "tipo": "TRF",
+        "monto": 100000.0,
+        "moneda": "ARS",
+        "remitente": "Natalia Ailen Di Giorgio Suarez",
+        "remitente_cuil": "27-47758744-0",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163443999709",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: L18MKX9RXJK8D0XK9O6WYV. CVU remitente: 0000003100070476800015. CVU destinatario: 0000155300000000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 1411,
+        "_fecha_carga": "18/06/2026 22:56",
+        "_origen": "grupo",
+        "_pie": "Natalia Ailen Di Giorgio Suarez\nCUIT/CUIL: 27-47758744-0"
       }
     ],
     "errores": [],
