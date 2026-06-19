@@ -76508,6 +76508,28 @@
         "_fecha_carga": "18/06/2026 23:09",
         "_origen": "grupo",
         "_pie": "Eduardo David Galarza\nCUIT/CUIL: 20-38828519-3"
+      },
+      {
+        "fecha": "14/06/2026",
+        "hora": "04:02",
+        "tipo": "TRF",
+        "monto": 450000.0,
+        "moneda": "ARS",
+        "remitente": "Evelin Oriana Chavarria Santucho",
+        "remitente_cuil": "27-40143733-4",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Naranja X",
+        "banco_destino": "Cuenta Virtual",
+        "referencia": "ORD6LEN8PYPMV6GYNM1Y30",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CBU origen: 4530000800010668664616. CVU destino: 0000155300000000009977. CUIL destinatario: 30-71728225-2. Código de transacción: 33597211-f120-415e-ae4a-e8d10650c6c1",
+        "_num": 1508,
+        "_fecha_carga": "18/06/2026 23:09",
+        "_origen": "grupo",
+        "_pie": "origen\nNX\nEvelin Oriana Chavarria Santucho\nNaranja X\nCBU\n4530000800010668664616\nCUIL\n27-40143733-4"
       }
     ],
     "errores": [],
