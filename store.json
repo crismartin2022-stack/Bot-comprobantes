@@ -75958,6 +75958,28 @@
         "_fecha_carga": "18/06/2026 23:05",
         "_origen": "grupo",
         "_pie": ""
+      },
+      {
+        "fecha": "13/06/2026",
+        "hora": "20:20",
+        "tipo": "TRF",
+        "monto": 125000.0,
+        "moneda": "ARS",
+        "remitente": "Rocio Soledad Gieco",
+        "remitente_cuil": "27-40109926-9",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "164023326670",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: 76V4MR2Z74P0XQELNDEZOL. CVU remitente: 0000003100024161276690. CVU destinatario: 0000155300000000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 1483,
+        "_fecha_carga": "18/06/2026 23:05",
+        "_origen": "grupo",
+        "_pie": ""
       }
     ],
     "errores": [],
