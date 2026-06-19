@@ -79590,6 +79590,28 @@
         "_fecha_carga": "18/06/2026 23:29",
         "_origen": "grupo",
         "_pie": "Franco villar 48166092"
+      },
+      {
+        "fecha": "12/06/2026",
+        "hora": "18:23",
+        "tipo": "TRF",
+        "monto": 300000.0,
+        "moneda": "ARS",
+        "remitente": "Ortega, Ivan Ezequiel",
+        "remitente_cuil": "23-47878010-9",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Personal Pay",
+        "banco_destino": "",
+        "referencia": "2738300782",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CoelsaID: 0V1JXON1LWMY4ZWPNZ64EL - Id Bancario. CUIL/CUIT destinatario: 30-71728225-2. CBU/CVU receptor: 0000155300000000009977",
+        "_num": 1648,
+        "_fecha_carga": "18/06/2026 23:29",
+        "_origen": "grupo",
+        "_pie": "Ivan ortega 47878010"
       }
     ],
     "errores": [],
