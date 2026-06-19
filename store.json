@@ -51460,6 +51460,28 @@
         "_fecha_carga": "19/06/2026 20:42",
         "_origen": "grupo",
         "_pie": "Pablo caceres 46634315"
+      },
+      {
+        "fecha": "16/06/2026",
+        "hora": "21:06",
+        "tipo": "TRF",
+        "monto": 250000.0,
+        "moneda": "ARS",
+        "remitente": "Alejandra Antonia Bottero",
+        "remitente_cuil": "27-28820452-2",
+        "destinatario": "SASTEUP SRL",
+        "banco_origen": "Billetera País",
+        "banco_destino": "Billetera País",
+        "referencia": "Z4K6DVNOWYE1OK5125J8LQ",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Cuenta Emisor: 0000133100000000531148. Cuenta Receptor: 0000155300000000009977. CUIT Receptor: 30717282252.",
+        "_num": 350,
+        "_fecha_carga": "19/06/2026 20:42",
+        "_origen": "grupo",
+        "_pie": "Alejandra Antonia Bottero\n27288204522"
       }
     ],
     "errores": [],
