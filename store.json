@@ -85721,6 +85721,28 @@
         "_fecha_carga": "19/06/2026 00:08",
         "_origen": "grupo",
         "_pie": "Ruiz Diaz Yanina 36440128"
+      },
+      {
+        "fecha": "12/06/2026",
+        "hora": "20:39",
+        "tipo": "TRF",
+        "monto": 42000.0,
+        "moneda": "ARS",
+        "remitente": "Ricardo Alcides Gonzalez",
+        "remitente_cuil": "20-12426493-7",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Naranja X",
+        "banco_destino": "Cuenta Virtual",
+        "referencia": "46YGOW9M1YK403PYNEXD8J",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CBU origen: 4530000800018508293493. CVU destino: 0000155300000000009977. CUIL destinatario: 30-71728225-2. Código de transacción: 32a9b2ed-db4a-4f39-94fa-43dd7e2dd9b6",
+        "_num": 1926,
+        "_fecha_carga": "19/06/2026 00:08",
+        "_origen": "grupo",
+        "_pie": "Foto de Rosa Negra"
       }
     ],
     "errores": [],
