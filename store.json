@@ -68263,6 +68263,28 @@
         "_fecha_carga": "18/06/2026 22:18",
         "_origen": "grupo",
         "_pie": "36608895 mariana Diaz"
+      },
+      {
+        "fecha": "13/06/2026",
+        "hora": "20:32",
+        "tipo": "TRF",
+        "monto": 100000.0,
+        "moneda": "ARS",
+        "remitente": "Alan Gabriel Salvatierra",
+        "remitente_cuil": "24-42055465-2",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "164025006732",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CUIT destinatario: 30-71728225-2. CVU remitente: 0000003100033564286571. CVU destinatario: 0000155300000000000009977. Código de identificación: WY7ZEPN6MKQ1ZK5P2Q0M51",
+        "_num": 1134,
+        "_fecha_carga": "18/06/2026 22:18",
+        "_origen": "grupo",
+        "_pie": "Alan Gabriel Salvatierra\nCUIT/CUIL: 24-42055465-2"
       }
     ],
     "errores": [],
