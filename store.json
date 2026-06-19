@@ -66389,6 +66389,28 @@
         "_fecha_carga": "18/06/2026 22:05",
         "_origen": "grupo",
         "_pie": "Valeria Soledad abba \n27-26426851-1"
+      },
+      {
+        "fecha": "15/06/2026",
+        "hora": "02:08",
+        "tipo": "TRF",
+        "monto": 180000.0,
+        "moneda": "ARS",
+        "remitente": "Katherina Elisa Medina Martinez",
+        "remitente_cuil": "27-38410644-2",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "164173998692",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: WGRXJE27DX6X5EX6N7MYQL. CVU remitente: 0000003100054549483051. CVU destinatario: 0000155300000000000009977. CUIT destinatario: 30-71728225-2",
+        "_num": 1049,
+        "_fecha_carga": "18/06/2026 22:05",
+        "_origen": "grupo",
+        "_pie": "Katherine Elisa Medina Martínez \n27-38410644-2"
       }
     ],
     "errores": [],
