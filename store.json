@@ -86536,6 +86536,28 @@
         "_fecha_carga": "19/06/2026 00:13",
         "_origen": "grupo",
         "_pie": "Foto de icdp santa fe"
+      },
+      {
+        "fecha": "13/06/2026",
+        "hora": "15:35",
+        "tipo": "TRF",
+        "monto": 230000.0,
+        "moneda": "ARS",
+        "remitente": "Natalia Nazarena Cea Gutierrez",
+        "remitente_cuil": "27-36679470-6",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Naranja X",
+        "banco_destino": "Cuenta Virtual",
+        "referencia": "LMORZP908LK0L1QYNEGJ46",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CBU origen: 4530000800010377760384. CVU destino: 0000155300000000009977. CUIL destinatario: 30-71728225-2. Código de transacción: 559f9130-b811-4018-b17d-e9b32d2f6cab",
+        "_num": 1963,
+        "_fecha_carga": "19/06/2026 00:14",
+        "_origen": "grupo",
+        "_pie": "Moscoso Pablo Antonio \n35.021.013"
       }
     ],
     "errores": [],
