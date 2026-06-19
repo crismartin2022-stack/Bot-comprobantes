@@ -50447,6 +50447,28 @@
         "_fecha_carga": "19/06/2026 20:35",
         "_origen": "grupo",
         "_pie": "lata federico martin\n34233763"
+      },
+      {
+        "fecha": "15/06/2026",
+        "hora": "00:59",
+        "tipo": "TRF",
+        "monto": 10000.0,
+        "moneda": "ARS",
+        "remitente": "Carlos Emanuel Viveros",
+        "remitente_cuil": "20-45273297-2",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163358425387",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: XJ8G7V95DW7X1M3M9EMPYR. CVU remitente: 0000003100078084341762. CVU destinatario: 0000155300000000000009977",
+        "_num": 304,
+        "_fecha_carga": "19/06/2026 20:35",
+        "_origen": "grupo",
+        "_pie": "EMANUEL VIVEROS\n45.273.297"
       }
     ],
     "errores": [],
