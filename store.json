@@ -45666,6 +45666,28 @@
         "_fecha_carga": "19/06/2026 20:03",
         "_origen": "grupo",
         "_pie": "Foto de icdp santa fe"
+      },
+      {
+        "fecha": "16/06/2026",
+        "hora": "18:31",
+        "tipo": "TRF",
+        "monto": 150000.0,
+        "moneda": "ARS",
+        "remitente": "Juan Carlos Bagnato",
+        "remitente_cuil": "20-12237569-3",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163621782543",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: XJ8G7V95DW046ZOD9EMPYR. CVU origen: 0000003100044541371728. CVU destino: 0000155300000000000009977",
+        "_num": 87,
+        "_fecha_carga": "19/06/2026 20:03",
+        "_origen": "grupo",
+        "_pie": "Juan Carlos bagnato"
       }
     ],
     "errores": [],
