@@ -75452,6 +75452,28 @@
         "_fecha_carga": "18/06/2026 23:02",
         "_origen": "grupo",
         "_pie": "Goyano, Diego Javier\nCUIL/CUIT\n20-27901274-8"
+      },
+      {
+        "fecha": "12/06/2026",
+        "hora": "00:16",
+        "tipo": "TRF",
+        "monto": 100000.0,
+        "moneda": "ARS",
+        "remitente": "Karen Del Valle Varela",
+        "remitente_cuil": "27-37635802-5",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "162915427893",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: 8D0Q619L04RK7L3XN7JZ5R. CVU remitente: 0000003100037027984206. CVU destinatario: 0000155300000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 1460,
+        "_fecha_carga": "18/06/2026 23:02",
+        "_origen": "grupo",
+        "_pie": "Karen Del Valle Varela\nCUIT/CUIL: 27-37635802-5\nMercado Pago"
       }
     ],
     "errores": [],
