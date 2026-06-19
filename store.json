@@ -66675,6 +66675,28 @@
         "_fecha_carga": "18/06/2026 22:07",
         "_origen": "grupo",
         "_pie": ""
+      },
+      {
+        "fecha": "15/06/2026",
+        "hora": "18:38",
+        "tipo": "TRF",
+        "monto": 400000.0,
+        "moneda": "ARS",
+        "remitente": "Andres Roberto Jara",
+        "remitente_cuil": "20-24473490-2",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163463177257",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: Z6OLMDN3V3Y7OJMY2E7RQ5. CVU remitente: 0000003100038543255308. CVU destinatario: 0000155300000000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 1062,
+        "_fecha_carga": "18/06/2026 22:07",
+        "_origen": "grupo",
+        "_pie": ""
       }
     ],
     "errores": [],
