@@ -46437,6 +46437,28 @@
         "_fecha_carga": "19/06/2026 20:08",
         "_origen": "grupo",
         "_pie": "Multi azul"
+      },
+      {
+        "fecha": "15/06/2026",
+        "hora": "22:31",
+        "tipo": "TRF",
+        "monto": 50000.0,
+        "moneda": "ARS",
+        "remitente": "Gabriela Judith Ibazeta",
+        "remitente_cuil": "",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Ualá",
+        "banco_destino": "",
+        "referencia": "Z4K6DVNOWYRMP77125J8LQ",
+        "concepto": "VAR",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CBU destino: 0000155300000000009977. CUIT destino: 30717282252 (Sasteup Srl). Comentario visible: 'Venta Fichas Gabriela Izabeta'.",
+        "_num": 122,
+        "_fecha_carga": "19/06/2026 20:08",
+        "_origen": "grupo",
+        "_pie": "Bet30click"
       }
     ],
     "errores": [],
