@@ -53357,6 +53357,28 @@
         "_fecha_carga": "19/06/2026 20:55",
         "_origen": "grupo",
         "_pie": "Abril Agostina Mendoza 46426543"
+      },
+      {
+        "fecha": "15/06/2026",
+        "hora": "18:51",
+        "tipo": "TRF",
+        "monto": 30000.0,
+        "moneda": "ARS",
+        "remitente": "Carlos Daniel Silva",
+        "remitente_cuil": "20-29165124-1",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "164279260562",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: 7L8GYKNX05KE6ZZQ2MPRZ5. CVU origen: 0000003100072776693764. CVU destino: 0000155300000000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 436,
+        "_fecha_carga": "19/06/2026 20:55",
+        "_origen": "grupo",
+        "_pie": "Carlos Daniel silva \n\nDNI: 29.165.124"
       }
     ],
     "errores": [],
