@@ -84640,6 +84640,28 @@
         "_fecha_carga": "19/06/2026 00:01",
         "_origen": "grupo",
         "_pie": "Oscar borras 14630581"
+      },
+      {
+        "fecha": "13/06/2026",
+        "hora": "20:52",
+        "tipo": "TRF",
+        "monto": 35000.0,
+        "moneda": "ARS",
+        "remitente": "Karen Araceli Jara",
+        "remitente_cuil": "",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Lemon",
+        "banco_destino": "CVU",
+        "referencia": "0V1JXON1LMD53EJ1NZ64EL",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CUIT destinatario: 30717282252. CBU destinatario: 0000155300000000009977. ID de la transacción: 2314f59a-4cc8-4dea-ba42-ebda11042b9f. Comprobante emitido por Lemon, powered by Digifin.",
+        "_num": 1877,
+        "_fecha_carga": "19/06/2026 00:01",
+        "_origen": "grupo",
+        "_pie": "Jara karen Araceli 36453480"
       }
     ],
     "errores": [],
