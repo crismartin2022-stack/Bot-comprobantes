@@ -45710,6 +45710,28 @@
         "_fecha_carga": "19/06/2026 20:03",
         "_origen": "grupo",
         "_pie": "Foto de Racing Club"
+      },
+      {
+        "fecha": "16/06/2026",
+        "hora": "15:56",
+        "tipo": "TRF",
+        "monto": 100000.0,
+        "moneda": "ARS",
+        "remitente": "Mario Alfredo Pacheco",
+        "remitente_cuil": "20-41341222-7",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "164409299310",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: XJ8G7V95DW07RD449EMPYR. CVU origen: 0000003100030384616995. CVU destino: 0000155300000000009977.",
+        "_num": 89,
+        "_fecha_carga": "19/06/2026 20:03",
+        "_origen": "grupo",
+        "_pie": "Mario Alfredo Pacheco \n41341222"
       }
     ],
     "errores": [],
