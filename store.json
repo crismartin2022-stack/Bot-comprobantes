@@ -73731,6 +73731,28 @@
         "_fecha_carga": "18/06/2026 22:52",
         "_origen": "grupo",
         "_pie": "Pablo Gaspar Carreno\nCUIT/CUIL: 20-38106862-6"
+      },
+      {
+        "fecha": "15/06/2026",
+        "hora": "13:39",
+        "tipo": "TRF",
+        "monto": 100000.0,
+        "moneda": "ARS",
+        "remitente": "Natalia Ailen Di Giorgio Suarez",
+        "remitente_cuil": "27-47758744-0",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163421086211",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: Z6OLMDN3V3J4V58X2E7RQ5. CUIT destinatario: 30-71728225-2. CVU remitente: 0000003100070476800015.",
+        "_num": 1382,
+        "_fecha_carga": "18/06/2026 22:52",
+        "_origen": "grupo",
+        "_pie": "Natalia Ailen Di Giorgio Suarez\nCUIT/CUIL: 27-47758744-0"
       }
     ],
     "errores": [],
