@@ -47562,6 +47562,28 @@
         "_fecha_carga": "19/06/2026 20:16",
         "_origen": "grupo",
         "_pie": "Franco Nahuel Crocci\nDNI: 37.844.562"
+      },
+      {
+        "fecha": "16/06/2026",
+        "hora": "17:21",
+        "tipo": "TRF",
+        "monto": 600000.0,
+        "moneda": "ARS",
+        "remitente": "Sasteup Srl",
+        "remitente_cuil": "",
+        "destinatario": "Lohas S.A.S.",
+        "banco_origen": "",
+        "banco_destino": "Ualá",
+        "referencia": "LOEJWV9JZ3OGD0632QMD0G",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CUIT/CUIL destino: 30-71728225-2. CVU completo del destinatario: 0000155300000000009977. Comentario indica banco Ualá como destino.",
+        "_num": 173,
+        "_fecha_carga": "19/06/2026 20:16",
+        "_origen": "grupo",
+        "_pie": "Antonia Rafaela López\nDNI 18.748.624"
       }
     ],
     "errores": [],
