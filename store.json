@@ -85810,6 +85810,28 @@
         "_fecha_carga": "19/06/2026 00:09",
         "_origen": "grupo",
         "_pie": "DAPA SRL\nCBU:\n0000151500033225409105\nCUIT:\n33717708119"
+      },
+      {
+        "fecha": "13/06/2026",
+        "hora": "23:51",
+        "tipo": "TRF",
+        "monto": 100000.0,
+        "moneda": "ARS",
+        "remitente": "NATALIA SOLEDAD VASQUEZ",
+        "remitente_cuil": "27-38058814-0",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Banco De Galicia S.A.U",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "42101634916",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "ID COELSA: WY7ZEPN6MKQK6G8Q2Q0M51. CUIT destinatario: 30-71728225-2. CVU destinatario: 0000155300000000009977.",
+        "_num": 1930,
+        "_fecha_carga": "19/06/2026 00:09",
+        "_origen": "grupo",
+        "_pie": ""
       }
     ],
     "errores": [],
