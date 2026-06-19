@@ -70688,6 +70688,28 @@
         "_fecha_carga": "18/06/2026 22:33",
         "_origen": "grupo",
         "_pie": "Victor Hugo Alvarenga Monges\nCUIT/CUIL: 20-94829065-1\nMercado Pago"
+      },
+      {
+        "fecha": "14/06/2026",
+        "hora": "13:45",
+        "tipo": "TRF",
+        "monto": 500000.0,
+        "moneda": "ARS",
+        "remitente": "Monica Susana Santillan",
+        "remitente_cuil": "27-17299591-3",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Naranja X",
+        "banco_destino": "Cuenta Virtual",
+        "referencia": "Z6OLMDN3V3V6Q5LY2E7RQ5",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CBU origen: 4530000800012051233102. CVU destino: 0000155300000000009977. CUIL destinatario: 30-71728225-2. Código de transacción: 43956b8d-6901-46c8-b797-d265679f7417",
+        "_num": 1244,
+        "_fecha_carga": "18/06/2026 22:33",
+        "_origen": "grupo",
+        "_pie": "Monica Susana Santillan\nNaranja X\n4530000800012051233102\n27-17299591-3"
       }
     ],
     "errores": [],
