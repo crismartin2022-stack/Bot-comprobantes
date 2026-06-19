@@ -51350,6 +51350,28 @@
         "_fecha_carga": "19/06/2026 20:41",
         "_origen": "grupo",
         "_pie": "CUIT destino\n30717282252\nNombre remitente\nMaria Rosa Mancuso"
+      },
+      {
+        "fecha": "16/06/2026",
+        "hora": "13:43",
+        "tipo": "TRF",
+        "monto": 450000.0,
+        "moneda": "ARS",
+        "remitente": "Ortega, Ivan Ezequiel",
+        "remitente_cuil": "23-47878010-9",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Personal Pay",
+        "banco_destino": "",
+        "referencia": "2748652243",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CoelsaID: Z6OLMDN3V3PRRG4W2E7RQ5 - Id Bancario. CUIL/CUIT destinatario: 30-71728225-2. CBU/CVU receptor: 0000155300000000009977",
+        "_num": 345,
+        "_fecha_carga": "19/06/2026 20:41",
+        "_origen": "grupo",
+        "_pie": "Ivan ortega 47878010"
       }
     ],
     "errores": [],
