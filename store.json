@@ -48156,6 +48156,28 @@
         "_fecha_carga": "19/06/2026 20:20",
         "_origen": "grupo",
         "_pie": "Micaela Rocio Correa\nDNI: 41.362.259"
+      },
+      {
+        "fecha": "14/06/2026",
+        "hora": "22:16",
+        "tipo": "TRF",
+        "monto": 500000.59,
+        "moneda": "ARS",
+        "remitente": "Micaela Rocio Correa",
+        "remitente_cuil": "27-41362259-5",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "1LMP68NKVEK0LYP52R7OEV",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Número de operación de Mercado Pago: 164157674072. CVU remitente: 0000003100089855005831. CVU destinatario: 0000155300000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 200,
+        "_fecha_carga": "19/06/2026 20:20",
+        "_origen": "grupo",
+        "_pie": "Micaela Rocio Correa\nDNI: 41.362.259"
       }
     ],
     "errores": [],
