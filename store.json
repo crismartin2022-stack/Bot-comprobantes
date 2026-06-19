@@ -43462,6 +43462,29 @@
         "_origen": "grupo",
         "_pie": "",
         "_duplicado": true
+      },
+      {
+        "fecha": "17/06/2026",
+        "hora": "20:44",
+        "tipo": "TRF",
+        "monto": 250000.0,
+        "moneda": "ARS",
+        "remitente": "Cesar Enrique Paz",
+        "remitente_cuil": "",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Ualá",
+        "banco_destino": "",
+        "referencia": "RD06ZO9WVRG61DGKN5GP7X",
+        "concepto": "VAR",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CBU destino: 0000155300000000009977. CUIT destino: 30717282252 (Sasteup Srl).",
+        "_num": 1968,
+        "_fecha_carga": "19/06/2026 01:29",
+        "_origen": "grupo",
+        "_pie": "",
+        "_duplicado": true
       }
     ]
   },
