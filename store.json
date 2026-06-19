@@ -78731,6 +78731,28 @@
         "_fecha_carga": "18/06/2026 23:24",
         "_origen": "grupo",
         "_pie": "Maximiliano lujan 35749221"
+      },
+      {
+        "fecha": "13/06/2026",
+        "hora": "00:42",
+        "tipo": "TRF",
+        "monto": 520000.0,
+        "moneda": "ARS",
+        "remitente": "Braian Damian Gerez",
+        "remitente_cuil": "20-35659614-6",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Naranja X",
+        "banco_destino": "Cuenta Virtual",
+        "referencia": "86VRPQ2GML3806PJ2GLY0M",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CBU origen: 4530000800014505656712. CVU destino: 0000155300000000009977. CUIL destinatario: 30-71728225-2. Código de transacción: 91f2966e-fba5-4810-b9d9-392187699265",
+        "_num": 1609,
+        "_fecha_carga": "18/06/2026 23:24",
+        "_origen": "grupo",
+        "_pie": "Braian Damian Gerez\n20356596146\nPlutonos"
       }
     ],
     "errores": [],
