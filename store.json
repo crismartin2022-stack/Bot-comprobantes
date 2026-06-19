@@ -83560,6 +83560,28 @@
         "_fecha_carga": "18/06/2026 23:54",
         "_origen": "grupo",
         "_pie": "Ahí está"
+      },
+      {
+        "fecha": "13/06/2026",
+        "hora": "20:07",
+        "tipo": "TRF",
+        "monto": 100000.0,
+        "moneda": "ARS",
+        "remitente": "Solange Abigail Juncos",
+        "remitente_cuil": "27-37821677-5",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163209973039",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CVU remitente: 0000003100063365675521. CVU destinatario: 0000155300000000009977. CUIT destinatario: 30-71728225-2",
+        "_num": 1828,
+        "_fecha_carga": "18/06/2026 23:54",
+        "_origen": "grupo",
+        "_pie": "Elías Zárate \n43334956"
       }
     ],
     "errores": [],
