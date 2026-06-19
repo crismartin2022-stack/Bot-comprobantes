@@ -81068,6 +81068,28 @@
         "_fecha_carga": "18/06/2026 23:39",
         "_origen": "grupo",
         "_pie": "Una más porfa"
+      },
+      {
+        "fecha": "13/06/2026",
+        "hora": "23:43",
+        "tipo": "TRF",
+        "monto": 800000.0,
+        "moneda": "ARS",
+        "remitente": "INSUMOS Y ACCESORIOS BAROGA SA",
+        "remitente_cuil": "30-71875706-8",
+        "destinatario": "SASTEUP SRL",
+        "banco_origen": "",
+        "banco_destino": "",
+        "referencia": "b10ede83-4155-4065-9355-f13de20143df",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código COELSA: R7ZG0QNDW1J1V88D9EXYPO. CBU remitente: 000015150003720060411​8. CBU destinatario: 000015530000000000009977. CUIT destinatario: 30717282252.",
+        "_num": 1715,
+        "_fecha_carga": "18/06/2026 23:39",
+        "_origen": "grupo",
+        "_pie": "Alan Espinola 39.715.159"
       }
     ],
     "errores": [],
