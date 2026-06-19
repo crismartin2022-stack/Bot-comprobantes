@@ -71965,6 +71965,28 @@
         "_fecha_carga": "18/06/2026 22:41",
         "_origen": "grupo",
         "_pie": "Martina Analia Acosta\nCUIT/CUIL: 27-44887309-4"
+      },
+      {
+        "fecha": "14/06/2026",
+        "hora": "20:36",
+        "tipo": "TRF",
+        "monto": 300001.0,
+        "moneda": "ARS",
+        "remitente": "Leonardo Ariel Aguirre",
+        "remitente_cuil": "20-25795836-2",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "164146963330",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: 7L8GYKNX054Z5YOP2MPRZ5. CUIT destinatario: 30-71728225-2. CVU remitente: 0000003100000832706576. CVU destinatario: 0000155300000000009977.",
+        "_num": 1302,
+        "_fecha_carga": "18/06/2026 22:41",
+        "_origen": "grupo",
+        "_pie": "Leonardo Ariel Aguirre\nCUIT/CUIL: 20-25795836-2"
       }
     ],
     "errores": [],
