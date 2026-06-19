@@ -74525,6 +74525,28 @@
         "_fecha_carga": "18/06/2026 22:57",
         "_origen": "grupo",
         "_pie": "Marciana Martinez\nCUIT/CUIL: 27-94752813-6"
+      },
+      {
+        "fecha": "15/06/2026",
+        "hora": "17:50",
+        "tipo": "TRF",
+        "monto": 150000.0,
+        "moneda": "ARS",
+        "remitente": "Noemi Ayda Duarte",
+        "remitente_cuil": "27-24131220-3",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "164267869956",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: Z6OLMDN3V3YXX0552E7RQ5. CUIT destinatario: 30-71728225-2. CVU destinatario completo: 0000155300000000000009977",
+        "_num": 1418,
+        "_fecha_carga": "18/06/2026 22:57",
+        "_origen": "grupo",
+        "_pie": "Noemi Ayda Duarte\nCUIT/CUIL: 27-24131220-3"
       }
     ],
     "errores": [],
