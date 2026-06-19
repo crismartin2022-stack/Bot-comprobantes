@@ -50998,6 +50998,28 @@
         "_fecha_carga": "19/06/2026 20:39",
         "_origen": "grupo",
         "_pie": "Luis Alberto Llanos\nCUIT/CUIL: 20-24473556-9"
+      },
+      {
+        "fecha": "16/06/2026",
+        "hora": "19:46",
+        "tipo": "TRF",
+        "monto": 120000.0,
+        "moneda": "ARS",
+        "remitente": "Evelyn Malena Yedro",
+        "remitente_cuil": "27-35724019-6",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Naranja X",
+        "banco_destino": "Cuenta Virtual",
+        "referencia": "",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CBU origen: 4530000800013008270850. CVU destino: 0000155300000000009977. CUIL destinatario: 30-71728225-2",
+        "_num": 329,
+        "_fecha_carga": "19/06/2026 20:39",
+        "_origen": "grupo",
+        "_pie": "Evelyn yedro 35724019"
       }
     ],
     "errores": [],
