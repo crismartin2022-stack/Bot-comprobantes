@@ -85169,6 +85169,28 @@
         "_fecha_carga": "19/06/2026 00:04",
         "_origen": "grupo",
         "_pie": "Medina Martín 35286867"
+      },
+      {
+        "fecha": "15/06/2026",
+        "hora": "19:54",
+        "tipo": "TRF",
+        "monto": 185000.0,
+        "moneda": "ARS",
+        "remitente": "Jose Luis Gomez",
+        "remitente_cuil": "20-20076120-1",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163475079427",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: JMQKYZ9QQV1E5YP89V50P3. CVU remitente: 0000003100014948481771. CVU destinatario: 0000155300000000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 1901,
+        "_fecha_carga": "19/06/2026 00:04",
+        "_origen": "grupo",
+        "_pie": "josé luis gómez 20076120 zeus"
       }
     ],
     "errores": [],
