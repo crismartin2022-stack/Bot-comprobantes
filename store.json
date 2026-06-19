@@ -84551,6 +84551,28 @@
         "_fecha_carga": "19/06/2026 00:00",
         "_origen": "grupo",
         "_pie": "Alan Daniel Zarza Lopez \n40007918"
+      },
+      {
+        "fecha": "13/06/2026",
+        "hora": "17:15",
+        "tipo": "TRF",
+        "monto": 50000.0,
+        "moneda": "ARS",
+        "remitente": "Abril Celeste Diaz",
+        "remitente_cuil": "27-46635498-3",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163183982293",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: 0V1JXON1LM7WPEP3NZ64EL. CVU remitente: 0000003100005515042091. CVU destinatario: 0000155300000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 1873,
+        "_fecha_carga": "19/06/2026 00:01",
+        "_origen": "grupo",
+        "_pie": "Abril Celeste Diaz\n46635498"
       }
     ],
     "errores": [],
