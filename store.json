@@ -81377,6 +81377,28 @@
         "_fecha_carga": "18/06/2026 23:41",
         "_origen": "grupo",
         "_pie": "Torres Diego 45218233"
+      },
+      {
+        "fecha": "15/06/2026",
+        "hora": "22:31",
+        "tipo": "TRF",
+        "monto": 800000.0,
+        "moneda": "ARS",
+        "remitente": "Yakelin Nahiara Silva",
+        "remitente_cuil": "27-47384751-0",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163495587389",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: LOEJWV9JZ36V7LRR2QMD0G. CVU remitente: 0000003100098863045351. CVU destinatario: 0000155300000000009977.",
+        "_num": 1729,
+        "_fecha_carga": "18/06/2026 23:41",
+        "_origen": "grupo",
+        "_pie": "30717794628"
       }
     ],
     "errores": [],
