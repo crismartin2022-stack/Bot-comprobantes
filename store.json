@@ -74039,6 +74039,28 @@
         "_fecha_carga": "18/06/2026 22:54",
         "_origen": "grupo",
         "_pie": ""
+      },
+      {
+        "fecha": "15/06/2026",
+        "hora": "15:24",
+        "tipo": "TRF",
+        "monto": 250000.0,
+        "moneda": "ARS",
+        "remitente": "Bruno Alexander Peredo Artigas",
+        "remitente_cuil": "20-47456873-4",
+        "destinatario": "SASTEUP SRL",
+        "banco_origen": "AstroPay",
+        "banco_destino": "",
+        "referencia": "D4RO172VZQKXYGY1NKJ3QE",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Comprobante de Transferencia AstroPay. CVU remitente: 0000177500096356428146. CVU receptor (SASTEUP SRL): 0000155300000000009977. CUIT receptor: 30717282252. Alias receptor: cvu.977.",
+        "_num": 1396,
+        "_fecha_carga": "18/06/2026 22:54",
+        "_origen": "grupo",
+        "_pie": "Bruno Alexander Peredo Artigas\n20474568734"
       }
     ],
     "errores": [],
