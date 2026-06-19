@@ -53269,6 +53269,28 @@
         "_fecha_carga": "19/06/2026 20:54",
         "_origen": "grupo",
         "_pie": "Noelia Quispe \n38161947"
+      },
+      {
+        "fecha": "16/06/2026",
+        "hora": "11:13",
+        "tipo": "TRF",
+        "monto": 30000.0,
+        "moneda": "ARS",
+        "remitente": "Carlos Daniel Silva",
+        "remitente_cuil": "20-29165124-1",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163550204785",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: LOEJWV9JZ3RGWQ8R2QMD0G. CVU remitente: 0000003100072776693764. CVU destinatario: 0000155300000000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 432,
+        "_fecha_carga": "19/06/2026 20:54",
+        "_origen": "grupo",
+        "_pie": "Carlos Daniel silva \n\nDNI: 29.165.124"
       }
     ],
     "errores": [],
