@@ -49190,6 +49190,28 @@
         "_fecha_carga": "19/06/2026 20:27",
         "_origen": "grupo",
         "_pie": "Jonatan zitelli 37.076.263"
+      },
+      {
+        "fecha": "16/06/2026",
+        "hora": "23:28",
+        "tipo": "TRF",
+        "monto": 500000.0,
+        "moneda": "ARS",
+        "remitente": "Evelyn Milagros Leguiza",
+        "remitente_cuil": "27-46433396-2",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163664181541",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: 76V4MR2Z74DXQXLYNDEZOL. CVU origen: 0000003100008833658896. CVU destino: 0000155300000000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 247,
+        "_fecha_carga": "19/06/2026 20:27",
+        "_origen": "grupo",
+        "_pie": "Evelyn leguiza\n46433396\nBet91"
       }
     ],
     "errores": [],
