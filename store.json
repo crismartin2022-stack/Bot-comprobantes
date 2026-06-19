@@ -53933,6 +53933,28 @@
         "_fecha_carga": "19/06/2026 20:58",
         "_origen": "grupo",
         "_pie": "Helga georgina millet\n37434206"
+      },
+      {
+        "fecha": "15/06/2026",
+        "hora": "21:23",
+        "tipo": "TRF",
+        "monto": 285000.0,
+        "moneda": "ARS",
+        "remitente": "Mario Gustavo Starna",
+        "remitente_cuil": "16355712",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Ualá",
+        "banco_destino": "BILLETERA VIRTUAL",
+        "referencia": "7f5b4a2a-17b0-655b-e421-301dd624f235",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CBU emisor: 3840200500000014932568. CVU destino completo: 0000155300000000009977. CUIT/CUIL destino (Sasteup Srl): 30-71728225-2. Comentario: Transferencia en pesos.",
+        "_num": 462,
+        "_fecha_carga": "19/06/2026 20:59",
+        "_origen": "grupo",
+        "_pie": "mario starna\n16355712"
       }
     ],
     "errores": [],
