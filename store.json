@@ -53004,6 +53004,28 @@
         "_fecha_carga": "19/06/2026 20:52",
         "_origen": "grupo",
         "_pie": "Rodrigo Nicolas Leguizamon\nCUIT/CUIL: 20365168181"
+      },
+      {
+        "fecha": "17/06/2026",
+        "hora": "01:14",
+        "tipo": "TRF",
+        "monto": 30000.0,
+        "moneda": "ARS",
+        "remitente": "Carlos Daniel Silva",
+        "remitente_cuil": "20-29165124-1",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Naranja X",
+        "banco_destino": "Cuenta Virtual",
+        "referencia": "46YGOW9M1KE6E0VMNEXD8J",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de transacción: 2df73207-2f32-461f-af69-f2fb4b0b16cd. CBU origen: 4530000800012217841561. CVU destino: 0000155300000000009977. CUIL destinatario: 30-71728225-2.",
+        "_num": 420,
+        "_fecha_carga": "19/06/2026 20:53",
+        "_origen": "grupo",
+        "_pie": "Carlos Daniel silva \n\nDNI: 29.165.124"
       }
     ],
     "errores": [],
