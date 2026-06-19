@@ -81597,6 +81597,28 @@
         "_fecha_carga": "18/06/2026 23:42",
         "_origen": "grupo",
         "_pie": "Saúl herrera 37216153"
+      },
+      {
+        "fecha": "13/06/2026",
+        "hora": "01:01",
+        "tipo": "TRF",
+        "monto": 100000.0,
+        "moneda": "ARS",
+        "remitente": "",
+        "remitente_cuil": "",
+        "destinatario": "SASTEUP SRL",
+        "banco_origen": "",
+        "banco_destino": "",
+        "referencia": "Z6OLMDN3V3MWMZZX2E7RQ5",
+        "concepto": "Pago de Servicios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": false,
+        "notas": "Referencia secundaria: 69832ec9-73a8-4436-b671-351cbab77373. CVU origen: 0000151500035440528160. CVU destino: 0000155300000000009977. CUIT destinatario: 30717282252.",
+        "_num": 1739,
+        "_fecha_carga": "18/06/2026 23:42",
+        "_origen": "grupo",
+        "_pie": ""
       }
     ],
     "errores": [],
