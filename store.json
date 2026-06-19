@@ -83714,6 +83714,28 @@
         "_fecha_carga": "18/06/2026 23:55",
         "_origen": "grupo",
         "_pie": ""
+      },
+      {
+        "fecha": "14/06/2026",
+        "hora": "01:31",
+        "tipo": "TRF",
+        "monto": 230000.0,
+        "moneda": "ARS",
+        "remitente": "Fernanda Antonella Ance",
+        "remitente_cuil": "27-43995045-0",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163244319083",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: PDX4OGNYGPG1L66MN0L6EY. CUIT destinatario: 30-71728225-2. CVU destinatario completo: 0000155300000000000009977",
+        "_num": 1835,
+        "_fecha_carga": "18/06/2026 23:55",
+        "_origen": "grupo",
+        "_pie": ""
       }
     ],
     "errores": [],
