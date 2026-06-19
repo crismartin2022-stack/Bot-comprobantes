@@ -43900,6 +43900,28 @@
         "_fecha_carga": "19/06/2026 19:51",
         "_origen": "grupo",
         "_pie": "Alejandro pardo \n35414869\nCargalos en ganamos.co"
+      },
+      {
+        "fecha": "16/06/2026",
+        "hora": "22:10",
+        "tipo": "TRF",
+        "monto": 50000.0,
+        "moneda": "ARS",
+        "remitente": "Cisnero, Rodrigo Ezequiel",
+        "remitente_cuil": "20-40686197-0",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Personal Pay",
+        "banco_destino": "",
+        "referencia": "2749997537",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CoelsaID: RD06ZO9WVR0L6RM7N5GP7X - Id Bancario. CUIL/CUIT destinatario: 30-71728225-2. CVU destinatario: 0000155300000000009977",
+        "_num": 7,
+        "_fecha_carga": "19/06/2026 19:51",
+        "_origen": "grupo",
+        "_pie": "RODRIGO CISNERO\n40686197\nTODO PAGO"
       }
     ],
     "errores": [],
