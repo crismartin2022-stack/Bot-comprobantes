@@ -85565,6 +85565,28 @@
         "_fecha_carga": "19/06/2026 00:07",
         "_origen": "grupo",
         "_pie": "Fichas multiplaneta divertite252 \nMarquez Nahuel Nicolas\n48545888"
+      },
+      {
+        "fecha": "15/06/2026",
+        "hora": "20:55",
+        "tipo": "TRF",
+        "monto": 400000.0,
+        "moneda": "ARS",
+        "remitente": "Benitez, Gonzalo Andres",
+        "remitente_cuil": "20-41936329-5",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Personal Pay",
+        "banco_destino": "",
+        "referencia": "2745168745",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CoelsaID: Z4K6DVNOWYRJZELG25J8LQ - Id Bancario. CUIL/CUIT destinatario: 30-71728225-2. CBU/CVU receptor: 0000155300000000009977",
+        "_num": 1919,
+        "_fecha_carga": "19/06/2026 00:07",
+        "_origen": "grupo",
+        "_pie": "Benítez Gonzalo Andrés"
       }
     ],
     "errores": [],
