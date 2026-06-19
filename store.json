@@ -47075,6 +47075,28 @@
         "_fecha_carga": "19/06/2026 20:13",
         "_origen": "grupo",
         "_pie": "Ganamos"
+      },
+      {
+        "fecha": "18/06/2026",
+        "hora": "00:47",
+        "tipo": "TRF",
+        "monto": 140000.0,
+        "moneda": "ARS",
+        "remitente": "Griselda Hebe Cimino",
+        "remitente_cuil": "27-12444180-9",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "LB Finanzas",
+        "banco_destino": "",
+        "referencia": "TIDB90E1EE2B7",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "ID Coelsa: LMORZP908L7J4KORNEGJ46. CBU/CVU destinatario: 0000155300000000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 151,
+        "_fecha_carga": "19/06/2026 20:13",
+        "_origen": "grupo",
+        "_pie": "Ariel barrios \n32472349"
       }
     ],
     "errores": [],
