@@ -47407,6 +47407,28 @@
         "_fecha_carga": "19/06/2026 20:15",
         "_origen": "grupo",
         "_pie": "tomas eocha 46186158"
+      },
+      {
+        "fecha": "15/06/2026",
+        "hora": "14:41",
+        "tipo": "TRF",
+        "monto": 100000.0,
+        "moneda": "ARS",
+        "remitente": "maia virgini barreiro",
+        "remitente_cuil": "27-46038781-2",
+        "destinatario": "SASTEUP SRL",
+        "banco_origen": "Brubank",
+        "banco_destino": "",
+        "referencia": "1798786960",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Transferencia enviada desde Caja de ahorro en pesos en Brubank. CBU/CVU destino: 0000155300000000009977. CUIT/CUIL destino (SASTEUP SRL): 30-71728225-2. ID Operación: 26061600003052740827​46.",
+        "_num": 166,
+        "_fecha_carga": "19/06/2026 20:15",
+        "_origen": "grupo",
+        "_pie": "maia barreiro \n46038781"
       }
     ],
     "errores": [],
