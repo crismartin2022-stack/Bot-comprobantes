@@ -60816,6 +60816,28 @@
         "_fecha_carga": "18/06/2026 21:31",
         "_origen": "grupo",
         "_pie": "Martín gallardo 40918416"
+      },
+      {
+        "fecha": "15/06/2026",
+        "hora": "23:19",
+        "tipo": "TRF",
+        "monto": 40000.0,
+        "moneda": "ARS",
+        "remitente": "Walter Fidel Lopez",
+        "remitente_cuil": "20-41480285-1",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "164313690910",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: JMQKYZ9QQV1375169V50P3. CVU remitente: 0000003100017095691912. CVU destinatario: 0000155300000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 796,
+        "_fecha_carga": "18/06/2026 21:31",
+        "_origen": "grupo",
+        "_pie": "Walter lopez \n41480285"
       }
     ],
     "errores": [],
