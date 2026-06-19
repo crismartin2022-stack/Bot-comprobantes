@@ -56212,6 +56212,28 @@
         "_fecha_carga": "18/06/2026 21:02",
         "_origen": "grupo",
         "_pie": "Foto de Vivo"
+      },
+      {
+        "fecha": "06/06/2026",
+        "hora": "23:48",
+        "tipo": "TRF",
+        "monto": 30000.0,
+        "moneda": "ARS",
+        "remitente": "Rojo, Pedro Luis",
+        "remitente_cuil": "20-36072817-0",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Personal Pay",
+        "banco_destino": "",
+        "referencia": "Z6OLMDN3VKZPWPR52E7RQ5",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Destinatario CUIL/CUIT: 30-71728225-2. CBU/CVU destinatario: 0000155300000000009977. N° de operación: 2713189449. CoelsaID: Z6OLMDN3VKZPWPR52E7RQ5 - Id Bancario.",
+        "_num": 587,
+        "_fecha_carga": "18/06/2026 21:02",
+        "_origen": "grupo",
+        "_pie": ""
       }
     ],
     "errores": [],
