@@ -50073,6 +50073,28 @@
         "_fecha_carga": "19/06/2026 20:33",
         "_origen": "grupo",
         "_pie": "Jonathan maisonave 40397920"
+      },
+      {
+        "fecha": "17/06/2026",
+        "hora": "13:20",
+        "tipo": "TRF",
+        "monto": 400000.0,
+        "moneda": "ARS",
+        "remitente": "Matias Nicolas Burtre",
+        "remitente_cuil": "42234520",
+        "destinatario": "SASTEUP SRL",
+        "banco_origen": "Ualá",
+        "banco_destino": "Lohas S.A.S.",
+        "referencia": "09823a7d-ba07-68b0-9516-70a6097089df",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CVU destino: 0000155300000000009977. CBU emisor: 384020050000028315012. CUIT/CUIL destino (SASTEUP SRL): 30-71728225-2. Comentario: Transferencia en pesos.",
+        "_num": 287,
+        "_fecha_carga": "19/06/2026 20:33",
+        "_origen": "grupo",
+        "_pie": "Matias Burtre\n\n42234520"
       }
     ],
     "errores": [],
