@@ -82345,6 +82345,28 @@
         "_fecha_carga": "18/06/2026 23:47",
         "_origen": "grupo",
         "_pie": "Foto de 🤗🤗🤗"
+      },
+      {
+        "fecha": "15/06/2026",
+        "hora": "11:56",
+        "tipo": "TRF",
+        "monto": 100000.0,
+        "moneda": "ARS",
+        "remitente": "Laura Susana Novillo Isasi",
+        "remitente_cuil": "27-28563174-8",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163402148047",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: Z4K6DVNOWY1L8V0K25J8LQ. CUIT destinatario: 30-71728225-2. CVU receptor: 0000155300000000000009977",
+        "_num": 1773,
+        "_fecha_carga": "18/06/2026 23:47",
+        "_origen": "grupo",
+        "_pie": "Buen día:  Bet30 click por fa"
       }
     ],
     "errores": [],
