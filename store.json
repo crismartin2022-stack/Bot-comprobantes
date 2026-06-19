@@ -53556,6 +53556,28 @@
         "_fecha_carga": "19/06/2026 20:56",
         "_origen": "grupo",
         "_pie": ""
+      },
+      {
+        "fecha": "15/06/2026",
+        "hora": "22:47",
+        "tipo": "TRF",
+        "monto": 170000.0,
+        "moneda": "ARS",
+        "remitente": "Alfonso Artigas",
+        "remitente_cuil": "20-46411944-3",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163498034313",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: RD06ZO9WVRXWK0Z5N5GP7X. CVU origen: 0000003100047558900802. CVU destino: 0000155300000000009977.",
+        "_num": 445,
+        "_fecha_carga": "19/06/2026 20:56",
+        "_origen": "grupo",
+        "_pie": "alfonso artigas \n46411944"
       }
     ],
     "errores": [],
