@@ -80517,6 +80517,28 @@
         "_fecha_carga": "18/06/2026 23:35",
         "_origen": "grupo",
         "_pie": "nilda velazquez\n11404997"
+      },
+      {
+        "fecha": "13/06/2026",
+        "hora": "18:21",
+        "tipo": "TRF",
+        "monto": 10000.0,
+        "moneda": "ARS",
+        "remitente": "Natasha Loreto",
+        "remitente_cuil": "27-40257678-8",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Naranja X",
+        "banco_destino": "Cuenta Virtual",
+        "referencia": "ORD6LEN8PY77YXEPNM1Y30",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de transacción adicional: 83ea3076-af5e-4701-98d5-79036672c624. CUIL destinatario: 30-71728225-2. CBU origen: 4530000800015574321040. CVU destino: 0000155300000000009977.",
+        "_num": 1690,
+        "_fecha_carga": "18/06/2026 23:35",
+        "_origen": "grupo",
+        "_pie": "Natasha loreto \n40257678"
       }
     ],
     "errores": [],
