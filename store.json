@@ -52475,6 +52475,28 @@
         "_fecha_carga": "19/06/2026 20:49",
         "_origen": "grupo",
         "_pie": "Braian Damian Gerez\n20356596146\nPLUTONOS"
+      },
+      {
+        "fecha": "15/06/2026",
+        "hora": "18:47",
+        "tipo": "TRF",
+        "monto": 23800.0,
+        "moneda": "ARS",
+        "remitente": "Veronica Lorena Sanabria",
+        "remitente_cuil": "27-25942598-6",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Fiwind Pay",
+        "banco_destino": "Lohas",
+        "referencia": "ORD6LEN8PYR86RXPNM1Y30",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CBU/CVU remitente: 0000267900000002037323. CBU/CVU destinatario: 0000155300000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 396,
+        "_fecha_carga": "19/06/2026 20:49",
+        "_origen": "grupo",
+        "_pie": "Veronica Lorena Sanabria\n27-25942598-6"
       }
     ],
     "errores": [],
