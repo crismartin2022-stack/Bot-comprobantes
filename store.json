@@ -84264,6 +84264,28 @@
         "_fecha_carga": "18/06/2026 23:59",
         "_origen": "grupo",
         "_pie": "Buenas \n\n100k (Tony90)\n*SASTEUP SRL*\n15/06\nOsvaldo Yandet\n20-24927095-5"
+      },
+      {
+        "fecha": "15/06/2026",
+        "hora": "18:52",
+        "tipo": "TRF",
+        "monto": 27000.0,
+        "moneda": "ARS",
+        "remitente": "Nicole Pastarnokas",
+        "remitente_cuil": "27-38355592-8",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Naranja X",
+        "banco_destino": "Cuenta Virtual",
+        "referencia": "R7ZG0QNDW17GM50V9EXYPO",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CBU origen: 4530000800017385387611. CVU destino: 0000155300000000009977. CUIL destinatario: 30-71728225-2. Código de transacción: d5a3770a-b555-4a39-8a59-24cebfa1d8ea",
+        "_num": 1860,
+        "_fecha_carga": "18/06/2026 23:59",
+        "_origen": "grupo",
+        "_pie": "27k (Tony90) \n *Sasteup srl* \n15/06\nNicole pastarnokas\n27-38355592-8"
       }
     ],
     "errores": [],
