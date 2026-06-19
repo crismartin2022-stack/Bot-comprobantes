@@ -79150,6 +79150,28 @@
         "_fecha_carga": "18/06/2026 23:26",
         "_origen": "grupo",
         "_pie": "CESAR ALBERTO MIRANDA\nDNI: 31.261.467\n\n$30.000\nVIRANET"
+      },
+      {
+        "fecha": "13/06/2026",
+        "hora": "21:07",
+        "tipo": "TRF",
+        "monto": 50000.0,
+        "moneda": "ARS",
+        "remitente": "Juan Mateo Trosero",
+        "remitente_cuil": "20-42162406-3",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "164029002930",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: 3D5W612E6ZJDGR852GXYVR. CVU remitente: 0000003100001396135952. CVU destinatario: 0000155300000000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 1628,
+        "_fecha_carga": "18/06/2026 23:27",
+        "_origen": "grupo",
+        "_pie": "TROSERO JUAN MATEO\nDNI: 42.162.406\n\n$50.000\nGANAMOS IO"
       }
     ],
     "errores": [],
