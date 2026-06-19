@@ -89028,6 +89028,28 @@
         "_fecha_carga": "19/06/2026 00:29",
         "_origen": "grupo",
         "_pie": "Florencia Sofia Garcia\nCUIT/CUIL: 27-41765707-5"
+      },
+      {
+        "fecha": "16/06/2026",
+        "hora": "01:03",
+        "tipo": "TRF",
+        "monto": 400000.0,
+        "moneda": "ARS",
+        "remitente": "Luis Eulalio Nunez",
+        "remitente_cuil": "23-94703872-9",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Naranja X",
+        "banco_destino": "Cuenta Virtual",
+        "referencia": "Z4K6DVNOWYRV7QE125J8LQ",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CBU origen: 4530000800013178685153. CVU destino: 0000155300000000009977. CUIL destinatario: 30-71728225-2. Código de transacción: 1d3cf9bb-4416-4796-a777-97a9b88ce99e",
+        "_num": 2076,
+        "_fecha_carga": "19/06/2026 00:29",
+        "_origen": "grupo",
+        "_pie": "Luis Eulalio Nunez\nNaranja X\n4530000800013178685153\n23-94703872-9"
       }
     ],
     "errores": [],
