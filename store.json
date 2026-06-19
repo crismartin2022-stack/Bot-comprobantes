@@ -77168,6 +77168,28 @@
         "_fecha_carga": "18/06/2026 23:13",
         "_origen": "grupo",
         "_pie": "Sonia Guadalupe Toledo\n27236191767"
+      },
+      {
+        "fecha": "13/06/2026",
+        "hora": "16:44",
+        "tipo": "TRF",
+        "monto": 108000.0,
+        "moneda": "ARS",
+        "remitente": "Laura Viviana Maidana",
+        "remitente_cuil": "27-23532327-9",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163988848672",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: ORD6LEN8PYQX5DWONM1Y30. CVU remitente: 0000003100003468999103. CVU destinatario: 0000155300000000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 1538,
+        "_fecha_carga": "18/06/2026 23:13",
+        "_origen": "grupo",
+        "_pie": "LAURA VIVIANA MAIDANA\nCUIT/CUIL\n27-23532327-9"
       }
     ],
     "errores": [],
