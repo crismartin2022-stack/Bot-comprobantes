@@ -81773,6 +81773,28 @@
         "_fecha_carga": "18/06/2026 23:43",
         "_origen": "grupo",
         "_pie": "Ganamos"
+      },
+      {
+        "fecha": "14/06/2026",
+        "hora": "01:36",
+        "tipo": "TRF",
+        "monto": 100000.0,
+        "moneda": "ARS",
+        "remitente": "Grageras, Maria Ines",
+        "remitente_cuil": "27-30728817-1",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Personal Pay",
+        "banco_destino": "",
+        "referencia": "2741888959",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CBU/CVU receptor: 0000155300000000009977. CoelsaID: 8D0Q619L0W0OZV4VN7JZ5R - Id Bancario. CUIL/CUIT destinatario: 30-71728225-2.",
+        "_num": 1747,
+        "_fecha_carga": "18/06/2026 23:43",
+        "_origen": "grupo",
+        "_pie": "Bet30click"
       }
     ],
     "errores": [],
