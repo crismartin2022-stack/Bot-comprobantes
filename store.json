@@ -75032,6 +75032,28 @@
         "_fecha_carga": "18/06/2026 23:00",
         "_origen": "grupo",
         "_pie": "Buda Emiliano Jose\nCUIT/CUIL: 20-30024369-0"
+      },
+      {
+        "fecha": "12/06/2026",
+        "hora": "08:30",
+        "tipo": "TRF",
+        "monto": 40000.0,
+        "moneda": "ARS",
+        "remitente": "Nestor Dario Alarcon",
+        "remitente_cuil": "20-35369284-5",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "162941660957",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: 86VRPQ2GMW71KV5G2GLY0M. CVU remitente: 0000003100002680913922. CVU destinatario: 0000155300000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 1441,
+        "_fecha_carga": "18/06/2026 23:00",
+        "_origen": "grupo",
+        "_pie": "Nestor Dario Alarcon\nCUIT/CUIL: 20-35369284-5\nMercado Pago\nCVU: 0000003100002680913922"
       }
     ],
     "errores": [],
