@@ -45157,6 +45157,28 @@
         "_fecha_carga": "19/06/2026 19:59",
         "_origen": "grupo",
         "_pie": "Julieta Pereyra 39324581"
+      },
+      {
+        "fecha": "15/06/2026",
+        "hora": "15:09",
+        "tipo": "TRF",
+        "monto": 387500.0,
+        "moneda": "ARS",
+        "remitente": "Tobias Pedro Letona",
+        "remitente_cuil": "20-43227784-5",
+        "destinatario": "Sercob Sa",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "Billetera BILLETERAPAIS SA",
+        "referencia": "164245042100",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "7745",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: RD06ZO9WVRPZ1KPKN5GP7X. CVU remitente: 0000003100020909600833. CVU destinatario: 0000133100000000587745. CUIT destinatario: 30-70828227-4",
+        "_num": 64,
+        "_fecha_carga": "19/06/2026 19:59",
+        "_origen": "grupo",
+        "_pie": "Tobias Letona 43227784"
       }
     ],
     "errores": [],
