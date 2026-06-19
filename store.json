@@ -86118,6 +86118,28 @@
         "_fecha_carga": "19/06/2026 00:11",
         "_origen": "grupo",
         "_pie": "41434359 Maylen Herrera\n\nViranet"
+      },
+      {
+        "fecha": "15/06/2026",
+        "hora": "23:26",
+        "tipo": "TRF",
+        "monto": 100000.0,
+        "moneda": "ARS",
+        "remitente": "Marcos Roberto Peiti",
+        "remitente_cuil": "20-42170591-8",
+        "destinatario": "SASTEUP SRL",
+        "banco_origen": "AstroPay",
+        "banco_destino": "",
+        "referencia": "0V1JXON1LME6G8PPNZ64EL",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Comprobante de Transferencia emitido por AstroPay. CVU remitente: 0000177501214010354821. CVU receptor: 0000155300000000009977. CUIT receptor: 30-71728225-2. Alias receptor: cvu.977. Coelsa ID: 0V1JXON1LME6G8PPNZ64EL.",
+        "_num": 1944,
+        "_fecha_carga": "19/06/2026 00:11",
+        "_origen": "grupo",
+        "_pie": ""
       }
     ],
     "errores": [],
