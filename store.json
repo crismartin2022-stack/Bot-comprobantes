@@ -83493,6 +83493,28 @@
         "_fecha_carga": "18/06/2026 23:53",
         "_origen": "grupo",
         "_pie": "Michel aaron felix vino \n42819672"
+      },
+      {
+        "fecha": "15/06/2026",
+        "hora": "01:43",
+        "tipo": "TRF",
+        "monto": 25000.0,
+        "moneda": "ARS",
+        "remitente": "Ruiz, Ana Laura",
+        "remitente_cuil": "27-35301713-1",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Personal Pay",
+        "banco_destino": "",
+        "referencia": "2743697479",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CoelsaID: ORD6LEN8PYMYR6XYNM1Y30 - Id Bancario. CUIL destinatario: 30-71728225-2. CBU/CVU receptor: 0000155300000000009977",
+        "_num": 1825,
+        "_fecha_carga": "18/06/2026 23:54",
+        "_origen": "grupo",
+        "_pie": "Ana Laura Ruiz \n35301713"
       }
     ],
     "errores": [],
