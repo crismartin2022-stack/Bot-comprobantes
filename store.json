@@ -77014,6 +77014,28 @@
         "_fecha_carga": "18/06/2026 23:12",
         "_origen": "grupo",
         "_pie": "Cynthia Noelia Mino Gonzalez\nCUIL\n27-40421715-7"
+      },
+      {
+        "fecha": "12/06/2026",
+        "hora": "20:00",
+        "tipo": "TRF",
+        "monto": 100000.0,
+        "moneda": "ARS",
+        "remitente": "Vanesa Esther Gomez",
+        "remitente_cuil": "27-28858313-2",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163863462920",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: ORD6LEN8P1Y3WGQONM1Y30. CVU remitente: 0000003100050067202266. CVU destinatario: 0000155300000000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 1531,
+        "_fecha_carga": "18/06/2026 23:12",
+        "_origen": "grupo",
+        "_pie": "Vanesa Esther Gomez\nCUIT/CUIL: 27-28858313-2"
       }
     ],
     "errores": [],
