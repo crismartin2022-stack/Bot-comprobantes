@@ -88389,6 +88389,28 @@
         "_fecha_carga": "19/06/2026 00:25",
         "_origen": "grupo",
         "_pie": "a Albornoz, Nicolas Eduardo\nCUIL/CUIT 20-12580879-5"
+      },
+      {
+        "fecha": "15/06/2026",
+        "hora": "23:25",
+        "tipo": "TRF",
+        "monto": 125000.0,
+        "moneda": "ARS",
+        "remitente": "Braian Leonel Rivero",
+        "remitente_cuil": "20-41310274-0",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "164314550556",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: 3D5W612E6Z7KMOPL2GXYVR. CVU remitente: 0000003100093521959496. CVU destinatario: 0000155300000000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 2047,
+        "_fecha_carga": "19/06/2026 00:25",
+        "_origen": "grupo",
+        "_pie": "Braian Leonel Rivero\nCUIT/CUIL: 20-41310274-0"
       }
     ],
     "errores": [],
