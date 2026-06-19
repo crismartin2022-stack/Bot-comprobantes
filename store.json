@@ -82546,6 +82546,28 @@
         "_fecha_carga": "18/06/2026 23:48",
         "_origen": "grupo",
         "_pie": "Bet30click"
+      },
+      {
+        "fecha": "15/06/2026",
+        "hora": "16:21",
+        "tipo": "TRF",
+        "monto": 400000.0,
+        "moneda": "ARS",
+        "remitente": "Ayala, Celeste Nicole",
+        "remitente_cuil": "23-43782623-4",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Personal Pay",
+        "banco_destino": "",
+        "referencia": "D4R0172VZQKG1ZWRNKJ3QE",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CUIL/CUIT destinatario: 30-71728225-2. CBU/CVU receptor: 0000015530000000009977. N° de operación: 2744595490. CoelsaID: D4R0172VZQKG1ZWRNKJ3QE - Id Bancario.",
+        "_num": 1782,
+        "_fecha_carga": "18/06/2026 23:48",
+        "_origen": "grupo",
+        "_pie": "Milagros Videla 38689279"
       }
     ],
     "errores": [],
