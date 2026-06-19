@@ -79017,6 +79017,28 @@
         "_fecha_carga": "18/06/2026 23:26",
         "_origen": "grupo",
         "_pie": "Sanabria, Melisa Elina 27-39340659-9  Monto: $1OO.OOO"
+      },
+      {
+        "fecha": "13/06/2026",
+        "hora": "16:15",
+        "tipo": "TRF",
+        "monto": 100000.0,
+        "moneda": "ARS",
+        "remitente": "Enzo Gabriel Albarracin",
+        "remitente_cuil": "23-43056491-9",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Naranja X",
+        "banco_destino": "Cuenta Virtual",
+        "referencia": "D4RO172VZQ1X10XVNKJ3QE",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CBU origen: 4530000800019866273750. CVU destino: 0000155300000000009977. CUIL destinatario: 30-71728225-2. Código de transacción: 0f035dfc-f007-410f-8856-ffb49e2283bd",
+        "_num": 1622,
+        "_fecha_carga": "18/06/2026 23:26",
+        "_origen": "grupo",
+        "_pie": "ENZO GABRIEL ALBARRACIN 23-43056491-9 1OO.OOO"
       }
     ],
     "errores": [],
