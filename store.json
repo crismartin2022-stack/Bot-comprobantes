@@ -63439,6 +63439,28 @@
         "_fecha_carga": "18/06/2026 21:48",
         "_origen": "grupo",
         "_pie": ""
+      },
+      {
+        "fecha": "13/06/2026",
+        "hora": "16:05",
+        "tipo": "TRF",
+        "monto": 10000.0,
+        "moneda": "ARS",
+        "remitente": "Cristian Ronaldo Lopez",
+        "remitente_cuil": "27-41251312-1",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163982349256",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: 8D0Q619L0WYD6D0ZN7JZ5R. CVU remitente: 0000003100079118284808. CVU destinatario: 0000155300000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 915,
+        "_fecha_carga": "18/06/2026 21:48",
+        "_origen": "grupo",
+        "_pie": ""
       }
     ],
     "errores": [],
