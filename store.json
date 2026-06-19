@@ -87926,6 +87926,28 @@
         "_fecha_carga": "19/06/2026 00:22",
         "_origen": "grupo",
         "_pie": "Pablo Agustin Franco\nCUIT/CUIL: 20-42176164-8"
+      },
+      {
+        "fecha": "15/06/2026",
+        "hora": "22:27",
+        "tipo": "TRF",
+        "monto": 200000.0,
+        "moneda": "ARS",
+        "remitente": "Julieta Abigail Caballero",
+        "remitente_cuil": "27-47118920-6",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163496068299",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: LMORZP908LYOK446NEGJ46. CVU remitente: 0000003100091123709022. CVU destinatario: 0000155300000000009977",
+        "_num": 2026,
+        "_fecha_carga": "19/06/2026 00:22",
+        "_origen": "grupo",
+        "_pie": "Julieta Abigail Caballero\nCUIT/CUIL: 27-47118920-6"
       }
     ],
     "errores": [],
