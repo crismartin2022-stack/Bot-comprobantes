@@ -81245,6 +81245,28 @@
         "_fecha_carga": "18/06/2026 23:40",
         "_origen": "grupo",
         "_pie": "Horizonte Blt S.A.S. - CUIT 30-71876498-6"
+      },
+      {
+        "fecha": "15/06/2026",
+        "hora": "21:20",
+        "tipo": "TRF",
+        "monto": 65000.0,
+        "moneda": "ARS",
+        "remitente": "Cristian Gabriel Godoy",
+        "remitente_cuil": "20-38839812-5",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "164299639990",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: ORD6LEN8PYR5PG54NM1Y30. CVU remitente: 0000003100068813459558. CVU destinatario: 0000155300000000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 1723,
+        "_fecha_carga": "18/06/2026 23:40",
+        "_origen": "grupo",
+        "_pie": "Cristian Godoy 38839812"
       }
     ],
     "errores": [],
