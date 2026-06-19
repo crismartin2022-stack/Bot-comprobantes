@@ -84419,6 +84419,28 @@
         "_fecha_carga": "19/06/2026 00:00",
         "_origen": "grupo",
         "_pie": ""
+      },
+      {
+        "fecha": "14/06/2026",
+        "hora": "11:55",
+        "tipo": "TRF",
+        "monto": 500000.0,
+        "moneda": "ARS",
+        "remitente": "Sergio Nahuel Sequeira",
+        "remitente_cuil": "20-41753424-6",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "164083790938",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: WY7ZEPN6MKMG81QQ2Q0M51. CVU remitente: 0000003100048720384013. CVU destinatario: 0000155300000000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 1867,
+        "_fecha_carga": "19/06/2026 00:00",
+        "_origen": "grupo",
+        "_pie": ""
       }
     ],
     "errores": [],
