@@ -50293,6 +50293,28 @@
         "_fecha_carga": "19/06/2026 20:34",
         "_origen": "grupo",
         "_pie": "Juan cruz amundarain \n39321823"
+      },
+      {
+        "fecha": "14/06/2026",
+        "hora": "01:36",
+        "tipo": "TRF",
+        "monto": 19000.0,
+        "moneda": "ARS",
+        "remitente": "Tamara Oriel Torrez",
+        "remitente_cuil": "20-38877052-0",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Naranja X",
+        "banco_destino": "Cuenta Virtual",
+        "referencia": "LOEJWV9JZ3ZLDPGZ2QMD0G",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CBU origen: 4530000800017275002200. CVU destino: 0000155300000000009977. Código de transacción: 530e20d1-fe46-43a1-8ad4-a566a2f15025.",
+        "_num": 297,
+        "_fecha_carga": "19/06/2026 20:34",
+        "_origen": "grupo",
+        "_pie": "Tamara oriel torrez\n38877052"
       }
     ],
     "errores": [],
