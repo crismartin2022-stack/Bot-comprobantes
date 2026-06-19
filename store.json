@@ -84485,6 +84485,28 @@
         "_fecha_carga": "19/06/2026 00:00",
         "_origen": "grupo",
         "_pie": "Gustavo Adrián Lange 31113339"
+      },
+      {
+        "fecha": "13/06/2026",
+        "hora": "15:44",
+        "tipo": "TRF",
+        "monto": 10000.0,
+        "moneda": "ARS",
+        "remitente": "Luis Andres Hubscher",
+        "remitente_cuil": "20-29874581-0",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163170246617",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: JMQKYZ9QQV478P869V50P3. CVU remitente: 0000003100048128006542. CVU destinatario: 0000155300000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 1870,
+        "_fecha_carga": "19/06/2026 00:00",
+        "_origen": "grupo",
+        "_pie": "Luis andres Hubscher \n29874581"
       }
     ],
     "errores": [],
