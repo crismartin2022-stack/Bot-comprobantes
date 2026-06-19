@@ -62559,6 +62559,28 @@
         "_fecha_carga": "18/06/2026 21:42",
         "_origen": "grupo",
         "_pie": ""
+      },
+      {
+        "fecha": "13/06/2026",
+        "hora": "17:27",
+        "tipo": "TRF",
+        "monto": 16800.0,
+        "moneda": "ARS",
+        "remitente": "Alan Fabian Ramos Gil",
+        "remitente_cuil": "20-40641580-6",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163185588317",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: 7L8GYKNX05R54DYX2MPRZ5. CVU destinatario: 0000155300000000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 875,
+        "_fecha_carga": "18/06/2026 21:43",
+        "_origen": "grupo",
+        "_pie": "__100___"
       }
     ],
     "errores": [],
