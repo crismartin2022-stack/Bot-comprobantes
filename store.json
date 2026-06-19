@@ -49831,6 +49831,28 @@
         "_fecha_carga": "19/06/2026 20:31",
         "_origen": "grupo",
         "_pie": "Gimena belen Aramburu \n41489768"
+      },
+      {
+        "fecha": "16/06/2026",
+        "hora": "14:00",
+        "tipo": "TRF",
+        "monto": 300000.0,
+        "moneda": "ARS",
+        "remitente": "Camila Aylen Benitez",
+        "remitente_cuil": "27-43814218-0",
+        "destinatario": "SASTEUP SRL",
+        "banco_origen": "Brubank",
+        "banco_destino": "",
+        "referencia": "",
+        "concepto": "Caja de ahorro en pesos",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CVU destino: 0000155300000000009977. CUIT/CUIL destinatario: 30-71728225-2. Entidad destino: CVU.",
+        "_num": 276,
+        "_fecha_carga": "19/06/2026 20:31",
+        "_origen": "grupo",
+        "_pie": "Camila Benítez 43814218"
       }
     ],
     "errores": [],
