@@ -52586,6 +52586,28 @@
         "_fecha_carga": "19/06/2026 20:50",
         "_origen": "grupo",
         "_pie": "Maria Fernanda Perea\nCUIT/CUIL: 23-30641002-4"
+      },
+      {
+        "fecha": "16/06/2026",
+        "hora": "14:27",
+        "tipo": "TRF",
+        "monto": 200000.0,
+        "moneda": "ARS",
+        "remitente": "Adrian Saul Sosa",
+        "remitente_cuil": "20-29273288-1",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163583300553",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: 3D5W612E6ZPZ8E5L2GXYVR. CVU origen: 0000003100093607690248. CVU destino: 0000155300000000009977.",
+        "_num": 401,
+        "_fecha_carga": "19/06/2026 20:50",
+        "_origen": "grupo",
+        "_pie": "Adrian Saul Sosa\n20292732881"
       }
     ],
     "errores": [],
