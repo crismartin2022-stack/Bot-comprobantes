@@ -69189,6 +69189,28 @@
         "_fecha_carga": "18/06/2026 22:24",
         "_origen": "grupo",
         "_pie": "47308873 Reynoso Priscila"
+      },
+      {
+        "fecha": "13/06/2026",
+        "hora": "22:44",
+        "tipo": "TRF",
+        "monto": 100000.0,
+        "moneda": "ARS",
+        "remitente": "Lucas Hernan Soidler",
+        "remitente_cuil": "20-41913076-2",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "164040107744",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: LMORZP908L5M5Q35NEGJ46. CUIT destinatario: 30-71728225-2. CVU remitente: 0000003100096894729675. CVU destinatario: 0000155300000000009977",
+        "_num": 1176,
+        "_fecha_carga": "18/06/2026 22:24",
+        "_origen": "grupo",
+        "_pie": "Lucas Hernan Soidler\nCUIT/CUIL: 20-41913076-2"
       }
     ],
     "errores": [],
