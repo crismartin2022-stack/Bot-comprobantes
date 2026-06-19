@@ -66587,6 +66587,28 @@
         "_fecha_carga": "18/06/2026 22:06",
         "_origen": "grupo",
         "_pie": "Ponce Lautaro 48756513"
+      },
+      {
+        "fecha": "15/06/2026",
+        "hora": "22:20",
+        "tipo": "TRF",
+        "monto": 500000.0,
+        "moneda": "ARS",
+        "remitente": "miguel angel gomez",
+        "remitente_cuil": "",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Ualá",
+        "banco_destino": "",
+        "referencia": "WGRXJE27DX1OMEW6N7MYQL",
+        "concepto": "VAR",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CUIT destino: 30717282252. CBU destino: 0000155300000000009977",
+        "_num": 1058,
+        "_fecha_carga": "18/06/2026 22:06",
+        "_origen": "grupo",
+        "_pie": "Miguel Ángel Gómez 36462022"
       }
     ],
     "errores": [],
