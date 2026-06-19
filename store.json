@@ -46635,6 +46635,28 @@
         "_fecha_carga": "19/06/2026 20:10",
         "_origen": "grupo",
         "_pie": "Zeus azul"
+      },
+      {
+        "fecha": "17/06/2026",
+        "hora": "00:30",
+        "tipo": "TRF",
+        "monto": 100000.0,
+        "moneda": "ARS",
+        "remitente": "Ariel Ricardo Barrios",
+        "remitente_cuil": "20-32472349-9",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "164484270910",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación adicional: 3D5W612E6Z050QVG2GXYVR. CVU origen: 0000003100040314583048. CVU destino: 0000155300000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 131,
+        "_fecha_carga": "19/06/2026 20:10",
+        "_origen": "grupo",
+        "_pie": "Ariel barrios \n32472349"
       }
     ],
     "errores": [],
