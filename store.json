@@ -49102,6 +49102,28 @@
         "_fecha_carga": "19/06/2026 20:26",
         "_origen": "grupo",
         "_pie": "Aylen Benitez \n41413165"
+      },
+      {
+        "fecha": "16/06/2026",
+        "hora": "20:48",
+        "tipo": "TRF",
+        "monto": 55000.0,
+        "moneda": "ARS",
+        "remitente": "Candela Ariadna Coronel",
+        "remitente_cuil": "27-44303044-7",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163644723971",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: LOEJWV9JZ3GZEG382QMD0G. CVU remitente: 0000003100010408146738. CVU destinatario: 0000155300000000009977.",
+        "_num": 243,
+        "_fecha_carga": "19/06/2026 20:26",
+        "_origen": "grupo",
+        "_pie": "44303044\nCandela Ariadna Coronel"
       }
     ],
     "errores": [],
