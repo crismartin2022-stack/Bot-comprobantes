@@ -63417,6 +63417,28 @@
         "_fecha_carga": "18/06/2026 21:48",
         "_origen": "grupo",
         "_pie": ""
+      },
+      {
+        "fecha": "14/06/2026",
+        "hora": "01:36",
+        "tipo": "TRF",
+        "monto": 30000.0,
+        "moneda": "ARS",
+        "remitente": "Perla Celeste Pacheco",
+        "remitente_cuil": "27-39555435-8",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163245178421",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: 7L8GYKNX050WZ4LW2MPRZ5. CVU remitente: 0000003100054899730285. CVU destinatario: 0000155300000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 914,
+        "_fecha_carga": "18/06/2026 21:48",
+        "_origen": "grupo",
+        "_pie": ""
       }
     ],
     "errores": [],
