@@ -43922,6 +43922,28 @@
         "_fecha_carga": "19/06/2026 19:51",
         "_origen": "grupo",
         "_pie": "RODRIGO CISNERO\n40686197\nTODO PAGO"
+      },
+      {
+        "fecha": "16/06/2026",
+        "hora": "12:43",
+        "tipo": "TRF",
+        "monto": 380000.0,
+        "moneda": "ARS",
+        "remitente": "Carlos Fernando Baissac Cayon",
+        "remitente_cuil": "20-39002466-6",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Naranja X",
+        "banco_destino": "Cuenta Virtual",
+        "referencia": "LMORZP908RDQZ8KPNEGJ46",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CBU origen: 4530000800017167958187. CVU destino: 000015530000000000009977. Código de transacción: ff7bc34c-26f9-4664-a4bb-e2c2c52b9e13. CUIL destinatario: 30-71728225-2.",
+        "_num": 8,
+        "_fecha_carga": "19/06/2026 19:51",
+        "_origen": "grupo",
+        "_pie": "Foto de 😎"
       }
     ],
     "errores": [],
