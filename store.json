@@ -44849,6 +44849,28 @@
         "_fecha_carga": "19/06/2026 19:57",
         "_origen": "grupo",
         "_pie": "Walter alejandro forgia 40191889"
+      },
+      {
+        "fecha": "17/06/2026",
+        "hora": "08:21",
+        "tipo": "TRF",
+        "monto": 750000.0,
+        "moneda": "ARS",
+        "remitente": "Ruben Hugo Scaldaferro",
+        "remitente_cuil": "20-13368849-9",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163692658381",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: JMQKYZ9QQVE78G3P9V50P3. CVU origen (remitente): 0000003100071863511040. CVU destino (receptor): 0000155300000000009977",
+        "_num": 50,
+        "_fecha_carga": "19/06/2026 19:57",
+        "_origen": "grupo",
+        "_pie": "Walter alejandro forgia 40191889"
       }
     ],
     "errores": [],
