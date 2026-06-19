@@ -59339,6 +59339,28 @@
         "_fecha_carga": "18/06/2026 21:22",
         "_origen": "grupo",
         "_pie": "Sandra Sotelo \n22.460.036"
+      },
+      {
+        "fecha": "14/06/2026",
+        "hora": "19:56",
+        "tipo": "TRF",
+        "monto": 700000.0,
+        "moneda": "ARS",
+        "remitente": "Lautaro Joel Romero",
+        "remitente_cuil": "20-45742306-4",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "164140485184",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: Z0KV87940E7YJPVENPEYDX. CVU remitente: 0000003100006484684817. CVU destinatario: 0000155300000000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 729,
+        "_fecha_carga": "18/06/2026 21:22",
+        "_origen": "grupo",
+        "_pie": "Lautaro Romero \n45.742.306"
       }
     ],
     "errores": [],
