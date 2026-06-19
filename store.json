@@ -50976,6 +50976,28 @@
         "_fecha_carga": "19/06/2026 20:39",
         "_origen": "grupo",
         "_pie": "Evelyn yedro 35724019"
+      },
+      {
+        "fecha": "16/06/2026",
+        "hora": "01:58",
+        "tipo": "TRF",
+        "monto": 100000.0,
+        "moneda": "ARS",
+        "remitente": "Luis Alberto Llanos",
+        "remitente_cuil": "20-24473556-9",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163510728557",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: R7ZG0QNDW17DRQ5D9EXYPO. CVU origen (remitente): 0000003100095156879365. CVU destino (receptor): 0000155300000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 328,
+        "_fecha_carga": "19/06/2026 20:39",
+        "_origen": "grupo",
+        "_pie": "Luis Alberto Llanos\nCUIT/CUIL: 20-24473556-9"
       }
     ],
     "errores": [],
