@@ -82501,6 +82501,28 @@
         "_fecha_carga": "18/06/2026 23:48",
         "_origen": "grupo",
         "_pie": "Multi azul"
+      },
+      {
+        "fecha": "15/06/2026",
+        "hora": "17:33",
+        "tipo": "TRF",
+        "monto": 40000.0,
+        "moneda": "ARS",
+        "remitente": "Maria De Los Angeles Pedernera",
+        "remitente_cuil": "27-37240587-8",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Naranja X",
+        "banco_destino": "Cuenta Virtual",
+        "referencia": "Z4K6DVNOWYRG10JK25J8LQ",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CBU origen: 4530000800015202522892. CVU destino: 0000155300000000009977. CUIL destinatario: 30-71728225-2. Código de transacción: c4fec25d-1932-4b47-9096-0a616890042c",
+        "_num": 1780,
+        "_fecha_carga": "18/06/2026 23:48",
+        "_origen": "grupo",
+        "_pie": "Zeus blanco"
       }
     ],
     "errores": [],
