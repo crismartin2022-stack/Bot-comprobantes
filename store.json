@@ -46085,6 +46085,28 @@
         "_fecha_carga": "19/06/2026 20:06",
         "_origen": "grupo",
         "_pie": "Alan Espinola 39.715.159"
+      },
+      {
+        "fecha": "17/06/2026",
+        "hora": "22:36",
+        "tipo": "TRF",
+        "monto": 150000.0,
+        "moneda": "ARS",
+        "remitente": "Anabella Ruiz diaz Fernandez",
+        "remitente_cuil": "27-45527187-3",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Prex",
+        "banco_destino": "BANCO COINAG S.A.",
+        "referencia": "PDX4OGNYGPOQ3K6MN0L6EY",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CVU origen (remitente): 0000013000032286324464. CBU/CVU destino: 00001553000000000009977. CUIL/CUIT destinatario: 30-71728225-2. ID COELSA usado como referencia.",
+        "_num": 106,
+        "_fecha_carga": "19/06/2026 20:06",
+        "_origen": "grupo",
+        "_pie": "Yanet Sánchez \nDNI 44.543.477"
       }
     ],
     "errores": [],
