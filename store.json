@@ -62823,6 +62823,28 @@
         "_fecha_carga": "18/06/2026 21:44",
         "_origen": "grupo",
         "_pie": ""
+      },
+      {
+        "fecha": "13/06/2026",
+        "hora": "18:02",
+        "tipo": "TRF",
+        "monto": 20000.0,
+        "moneda": "ARS",
+        "remitente": "Ivan Nicolas Cuello",
+        "remitente_cuil": "23-34840467-9",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163999091822",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: WY7ZEPN6MKQRPMMP2Q0M51. CUIT destinatario: 30-71728225-2. CVU destinatario: 0000155300000000000009977",
+        "_num": 887,
+        "_fecha_carga": "18/06/2026 21:45",
+        "_origen": "grupo",
+        "_pie": ""
       }
     ],
     "errores": [],
