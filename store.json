@@ -48882,6 +48882,28 @@
         "_fecha_carga": "19/06/2026 20:25",
         "_origen": "grupo",
         "_pie": "NATALIA DE LOS ANGELES OVEJERO\nD.N.I.: 43.795.290"
+      },
+      {
+        "fecha": "15/06/2026",
+        "hora": "23:05",
+        "tipo": "TRF",
+        "monto": 500000.93,
+        "moneda": "ARS",
+        "remitente": "Natalia De Los Angel Ovejero",
+        "remitente_cuil": "27-43795290-1",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163499516401",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: 86VRPQ2GML6ZY1DJ2GLY0M. CVU destinatario completo: 0000155300000000009977. CUIT/CUIL destinatario: 30-71728225-2.",
+        "_num": 233,
+        "_fecha_carga": "19/06/2026 20:25",
+        "_origen": "grupo",
+        "_pie": "NATALIA DE LOS ANGELES OVEJERO\nD.N.I.: 43.795.290"
       }
     ],
     "errores": [],
