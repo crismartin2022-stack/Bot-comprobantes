@@ -63769,6 +63769,28 @@
         "_fecha_carga": "18/06/2026 21:49",
         "_origen": "grupo",
         "_pie": "Micaela Huergo \n27-36521744-6"
+      },
+      {
+        "fecha": "12/06/2026",
+        "hora": "11:07",
+        "tipo": "TRF",
+        "monto": 60000.0,
+        "moneda": "ARS",
+        "remitente": "Matias Ariel Chaves",
+        "remitente_cuil": "20-41416949-0",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "162961229997",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: Z0KV87940P3E05KDNPEYDX. CVU remitente: 0000003100097773494493. CVU destinatario: 0000155300000000009977",
+        "_num": 930,
+        "_fecha_carga": "18/06/2026 21:50",
+        "_origen": "grupo",
+        "_pie": "Matias Chaves \n20-41416949-0"
       }
     ],
     "errores": [],
