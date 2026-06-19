@@ -69431,6 +69431,28 @@
         "_fecha_carga": "18/06/2026 22:25",
         "_origen": "grupo",
         "_pie": "Luis Alberto Martinez\nCUIT/CUIL: 20-41920839-7"
+      },
+      {
+        "fecha": "13/06/2026",
+        "hora": "22:58",
+        "tipo": "TRF",
+        "monto": 30000.0,
+        "moneda": "ARS",
+        "remitente": "Nicolas Daniel Isleno",
+        "remitente_cuil": "20-43810968-5",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "164040910050",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: D4RO172VZQE0YKQRNKJ3QE. CVU destinatario: 0000155300000000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 1187,
+        "_fecha_carga": "18/06/2026 22:25",
+        "_origen": "grupo",
+        "_pie": "Nicolas Daniel Isleno\nCUIT/CUIL: 20-43810968-5"
       }
     ],
     "errores": [],
