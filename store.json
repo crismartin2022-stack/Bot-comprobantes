@@ -84330,6 +84330,28 @@
         "_fecha_carga": "18/06/2026 23:59",
         "_origen": "grupo",
         "_pie": "josé luis gómez 20076120 zeus"
+      },
+      {
+        "fecha": "13/06/2026",
+        "hora": "14:37",
+        "tipo": "TRF",
+        "monto": 30000.0,
+        "moneda": "ARS",
+        "remitente": "Giuliana Belen Brest",
+        "remitente_cuil": "27-43250071-9",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Naranja X",
+        "banco_destino": "Cuenta Virtual",
+        "referencia": "67REZ8NPQ614P83P94KVGO",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CBU origen: 4530000800011680998378. CVU destino: 0000155300000000009977. CUIL destinatario: 30-71728225-2. Código de transacción: f1c3d0c6-fd01-4614-9cd3-bf206c6d84f8",
+        "_num": 1863,
+        "_fecha_carga": "18/06/2026 23:59",
+        "_origen": "grupo",
+        "_pie": "Brest Giuliana 43250071"
       }
     ],
     "errores": [],
