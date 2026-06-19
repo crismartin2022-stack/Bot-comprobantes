@@ -49499,6 +49499,28 @@
         "_fecha_carga": "19/06/2026 20:29",
         "_origen": "grupo",
         "_pie": "Estefania garayoa \n38.441.538"
+      },
+      {
+        "fecha": "14/06/2026",
+        "hora": "18:43",
+        "tipo": "TRF",
+        "monto": 50000.0,
+        "moneda": "ARS",
+        "remitente": "Roberto Daniel Romero",
+        "remitente_cuil": "20-28950764-8",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Naranja X",
+        "banco_destino": "Cuenta Virtual",
+        "referencia": "LOEJWV9JZ3X633EM2QMD0G",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de transacción: a912cdcf-5114-433a-8558-d67d68c3be3a. CBU origen: 4530000800017325624374. CUIL destinatario: 30-71728225-2.",
+        "_num": 261,
+        "_fecha_carga": "19/06/2026 20:29",
+        "_origen": "grupo",
+        "_pie": "Roberto romero \n28.950.764"
       }
     ],
     "errores": [],
