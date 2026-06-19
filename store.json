@@ -44274,6 +44274,28 @@
         "_fecha_carga": "19/06/2026 19:53",
         "_origen": "grupo",
         "_pie": "Roberto yappert \n28521917"
+      },
+      {
+        "fecha": "16/06/2026",
+        "hora": "11:14",
+        "tipo": "TRF",
+        "monto": 500000.0,
+        "moneda": "ARS",
+        "remitente": "Juan Jose Coria",
+        "remitente_cuil": "",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Lemon",
+        "banco_destino": "CVU",
+        "referencia": "86VRPQ2GMLY8P5GJ2GLY0M",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CUIT destinatario: 30717282252. CBU destinatario: 0000155300000000009977. ID de transacción: 1cb48a26-e3af-431c-a4f7-33b4a1e8f50d. Comprobante emitido por Lemon, powered by Digifin.",
+        "_num": 24,
+        "_fecha_carga": "19/06/2026 19:53",
+        "_origen": "grupo",
+        "_pie": "Juan José Coria \n28.149.654"
       }
     ],
     "errores": [],
