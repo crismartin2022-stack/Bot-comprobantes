@@ -87220,6 +87220,28 @@
         "_fecha_carga": "19/06/2026 00:17",
         "_origen": "grupo",
         "_pie": "Maira Elena Serrano\nNaranja X\nCBU\n4530000800016468295980\nCUIL\n27-38113451-8"
+      },
+      {
+        "fecha": "15/06/2026",
+        "hora": "23:29",
+        "tipo": "TRF",
+        "monto": 1000000.0,
+        "moneda": "ARS",
+        "remitente": "Torres, Gaston Elias",
+        "remitente_cuil": "20-34261599-7",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Personal Pay",
+        "banco_destino": "",
+        "referencia": "2745447817",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CoelsaID: 86VRPQ2GML6ZL0WY2GLY0M - Id Bancario. CUIL/CUIT destinatario: 30-71728225-2. CBU/CVU receptor: 0000155300000000009977",
+        "_num": 1994,
+        "_fecha_carga": "19/06/2026 00:18",
+        "_origen": "grupo",
+        "_pie": "Torres, Gaston Elias\n20-34261599-7\nPersonal Pay"
       }
     ],
     "errores": [],
