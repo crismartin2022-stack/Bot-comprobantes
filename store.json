@@ -44893,6 +44893,28 @@
         "_fecha_carga": "19/06/2026 19:57",
         "_origen": "grupo",
         "_pie": "Walter alejandro forgia 40191889"
+      },
+      {
+        "fecha": "17/06/2026",
+        "hora": "20:37",
+        "tipo": "TRF",
+        "monto": 100000.0,
+        "moneda": "ARS",
+        "remitente": "Walter Alejandro Forgia",
+        "remitente_cuil": "20-40191889-3",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Supervielle",
+        "banco_destino": "Lohas Sas",
+        "referencia": "67REZ8NPQ6ZJ813494KVGO",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CBU origen: 0270144420054973950019. CBU destino: 0000155300000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 52,
+        "_fecha_carga": "19/06/2026 19:57",
+        "_origen": "grupo",
+        "_pie": "Walter alejandro forgia 40191889"
       }
     ],
     "errores": [],
