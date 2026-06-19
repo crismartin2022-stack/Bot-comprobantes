@@ -76772,6 +76772,28 @@
         "_fecha_carga": "18/06/2026 23:11",
         "_origen": "grupo",
         "_pie": "Torres, Gaston Elias\nCUIL/CUIT\n20-34261599-7"
+      },
+      {
+        "fecha": "11/06/2026",
+        "hora": "13:42",
+        "tipo": "TRF",
+        "monto": 400000.0,
+        "moneda": "ARS",
+        "remitente": "Micaela Anahi Gonzalez",
+        "remitente_cuil": "23-44972632-4",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163630339600",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación adicional: 76V4MR2Z7QJYQV5ENDEZOL. CVU remitente: 0000003100000781894625. CVU destinatario: 0000155300000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 1520,
+        "_fecha_carga": "18/06/2026 23:11",
+        "_origen": "grupo",
+        "_pie": "Micaela Anahi Gonzalez\nCUIT/CUIL: 23-44972632-4"
       }
     ],
     "errores": [],
