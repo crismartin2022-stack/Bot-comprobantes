@@ -67691,6 +67691,28 @@
         "_fecha_carga": "18/06/2026 22:14",
         "_origen": "grupo",
         "_pie": "Juan silvero 29557533"
+      },
+      {
+        "fecha": "13/06/2026",
+        "hora": "18:45",
+        "tipo": "TRF",
+        "monto": 50000.0,
+        "moneda": "ARS",
+        "remitente": "Fabian Nicolas Alvarez",
+        "remitente_cuil": "20-37810983-4",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "164006605714",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: 7L8GYKNX05W4OX4X2MPRZ5. CVU remitente: 0000003100114177922693. CVU destinatario: 0000155300000000009977",
+        "_num": 1108,
+        "_fecha_carga": "18/06/2026 22:14",
+        "_origen": "grupo",
+        "_pie": "Fabian Nicolas Alvarez\nCUIT/CUIL: 20-37810983-4"
       }
     ],
     "errores": [],
