@@ -47496,6 +47496,28 @@
         "_fecha_carga": "19/06/2026 20:16",
         "_origen": "grupo",
         "_pie": "Marhaba Gustavo\n 30.686.014"
+      },
+      {
+        "fecha": "16/06/2026",
+        "hora": "14:06",
+        "tipo": "TRF",
+        "monto": 100000.0,
+        "moneda": "ARS",
+        "remitente": "maia virgini barreiro",
+        "remitente_cuil": "27-46038781-2",
+        "destinatario": "SASTEUP SRL",
+        "banco_origen": "Brubank",
+        "banco_destino": "",
+        "referencia": "1800298955",
+        "concepto": "Envío de dinero",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "ID Operación: 260616000038960268319. Destino CVU. CUIT/CUIL destinatario: 30-71728225-2. Cuenta origen: Caja de ahorro en pesos.",
+        "_num": 170,
+        "_fecha_carga": "19/06/2026 20:16",
+        "_origen": "grupo",
+        "_pie": "maia barreiro \n46038781"
       }
     ],
     "errores": [],
