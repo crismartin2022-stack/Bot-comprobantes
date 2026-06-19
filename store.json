@@ -67425,6 +67425,28 @@
         "_fecha_carga": "18/06/2026 22:11",
         "_origen": "grupo",
         "_pie": "GERALDINE ABRIL ACOSTA\nCUIT 27-47167364-7"
+      },
+      {
+        "fecha": "12/06/2026",
+        "hora": "22:59",
+        "tipo": "TRF",
+        "monto": 70000.0,
+        "moneda": "ARS",
+        "remitente": "EVELYN MION",
+        "remitente_cuil": "27-38893919-8",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Banco De Galicia S.A.U",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "42091737546",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CVU destinatario: 0000155300000000009977. CUIT destinatario: 30-71728225-2. ID COELSA: 7L8GYKNX051EJKJW2MPRZ5",
+        "_num": 1096,
+        "_fecha_carga": "18/06/2026 22:12",
+        "_origen": "grupo",
+        "_pie": "De:\nEVELYN MION\nCUIT 27-38893919-8"
       }
     ],
     "errores": [],
