@@ -83229,6 +83229,28 @@
         "_fecha_carga": "18/06/2026 23:52",
         "_origen": "grupo",
         "_pie": "Screenshot (13 jun. 2026 14:39:43)"
+      },
+      {
+        "fecha": "15/06/2026",
+        "hora": "00:43",
+        "tipo": "TRF",
+        "monto": 15000.0,
+        "moneda": "ARS",
+        "remitente": "Nestor Carlos Alejandro Pardo",
+        "remitente_cuil": "20-35414869-3",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163357238049",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: LMORZP908LGRY5J4NEGJ46. CUIT destinatario: 30-71728225-2. CVU remitente: 0000003100031155452752. CVU destinatario: 0000155300000000000009977",
+        "_num": 1813,
+        "_fecha_carga": "18/06/2026 23:52",
+        "_origen": "grupo",
+        "_pie": ""
       }
     ],
     "errores": [],
