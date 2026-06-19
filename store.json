@@ -68087,6 +68087,28 @@
         "_fecha_carga": "18/06/2026 22:17",
         "_origen": "grupo",
         "_pie": "Veronica Eugenia Gil\nCUIT/CUIL: 27-29128117-1"
+      },
+      {
+        "fecha": "13/06/2026",
+        "hora": "20:17",
+        "tipo": "TRF",
+        "monto": 420000.0,
+        "moneda": "ARS",
+        "remitente": "Luque Miguez, Ariadna Abigail",
+        "remitente_cuil": "27-48299541-7",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Personal Pay",
+        "banco_destino": "",
+        "referencia": "2741266644",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CBU/CVU destinatario: 0000155300000000009977. CUIL/CUIT destinatario: 30-71728225-2. CoelsaID: WGRXJE27DXGJ8KEON7MYQL - Id Bancario",
+        "_num": 1126,
+        "_fecha_carga": "18/06/2026 22:17",
+        "_origen": "grupo",
+        "_pie": "Luque Miguez, Ariadna Abigail\nCUIL/CUIT 27-48299541-7"
       }
     ],
     "errores": [],
