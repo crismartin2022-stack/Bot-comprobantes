@@ -74547,6 +74547,28 @@
         "_fecha_carga": "18/06/2026 22:57",
         "_origen": "grupo",
         "_pie": "Noemi Ayda Duarte\nCUIT/CUIL: 27-24131220-3"
+      },
+      {
+        "fecha": "15/06/2026",
+        "hora": "16:45",
+        "tipo": "TRF",
+        "monto": 500000.02,
+        "moneda": "ARS",
+        "remitente": "Samira Julieta Machado",
+        "remitente_cuil": "23-48056530-4",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "164258337842",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: Z0KV87940ELEG1Y0NPEYDX. CVU remitente: 0000003100022019379216. CVU destinatario: 0000155300000000009977",
+        "_num": 1419,
+        "_fecha_carga": "18/06/2026 22:57",
+        "_origen": "grupo",
+        "_pie": "Juan silvero 29557533"
       }
     ],
     "errores": [],
