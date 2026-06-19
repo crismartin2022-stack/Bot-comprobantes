@@ -63901,6 +63901,28 @@
         "_fecha_carga": "18/06/2026 21:50",
         "_origen": "grupo",
         "_pie": "Katherina Martínez \n27-38410644-2"
+      },
+      {
+        "fecha": "12/06/2026",
+        "hora": "16:30",
+        "tipo": "TRF",
+        "monto": 90000.0,
+        "moneda": "ARS",
+        "remitente": "Karina Soledad Palacios",
+        "remitente_cuil": "",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Ualá",
+        "banco_destino": "",
+        "referencia": "0V1JXON1LWW4707NZ64EL",
+        "concepto": "VAR",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CUIT destino: 30717282252. CBU destino: 0000155300000000009977",
+        "_num": 936,
+        "_fecha_carga": "18/06/2026 21:50",
+        "_origen": "grupo",
+        "_pie": "Palacios Karina 40738356"
       }
     ],
     "errores": [],
