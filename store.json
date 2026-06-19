@@ -52255,6 +52255,28 @@
         "_fecha_carga": "19/06/2026 20:47",
         "_origen": "grupo",
         "_pie": "Lucas Pomiglio: 20-41568721-5"
+      },
+      {
+        "fecha": "14/06/2026",
+        "hora": "21:34",
+        "tipo": "TRF",
+        "monto": 290000.0,
+        "moneda": "ARS",
+        "remitente": "Lucas Jonatan Pomiglio",
+        "remitente_cuil": "20-41568721-5",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "164155026216",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: WY7ZEPN6MKY64WQQ2Q0M51. CVU origen: 0000003100099255920643. CVU destino: 0000155300000000009977",
+        "_num": 386,
+        "_fecha_carga": "19/06/2026 20:47",
+        "_origen": "grupo",
+        "_pie": "Lucas Pomiglio: 20-41568721-5"
       }
     ],
     "errores": [],
