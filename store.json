@@ -88808,6 +88808,28 @@
         "_fecha_carga": "19/06/2026 00:28",
         "_origen": "grupo",
         "_pie": "Gregorio Fernandez Herrera\nCUIT/CUIL: 20-92877016-9"
+      },
+      {
+        "fecha": "16/06/2026",
+        "hora": "00:36",
+        "tipo": "TRF",
+        "monto": 100000.0,
+        "moneda": "ARS",
+        "remitente": "Liliana Beatriz Anrriquez",
+        "remitente_cuil": "",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Ualá",
+        "banco_destino": "",
+        "referencia": "8D0Q619L0WPX5WJXN7JZ5R",
+        "concepto": "VAR",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CUIT destino: 30717282252. CBU destino completo: 0000155300000000009977",
+        "_num": 2066,
+        "_fecha_carga": "19/06/2026 00:28",
+        "_origen": "grupo",
+        "_pie": "Liliana Beatriz anrriquez \nDNI: 21.104.254"
       }
     ],
     "errores": [],
