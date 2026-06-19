@@ -48926,6 +48926,28 @@
         "_fecha_carga": "19/06/2026 20:25",
         "_origen": "grupo",
         "_pie": "MARIO RAMON MENDIETA \nD.N.I: 40.962.146"
+      },
+      {
+        "fecha": "15/06/2026",
+        "hora": "23:06",
+        "tipo": "TRF",
+        "monto": 500000.95,
+        "moneda": "ARS",
+        "remitente": "Mario Ramon Mendieta",
+        "remitente_cuil": "20-40962146-6",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "164312273202",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: LOEJWV9JZ36JORQ82QMD0G. CVU origen: 0000003100005896161284. CVU destino: 0000155300000000009977. CUIT/CUIL destinatario: 30-71728225-2.",
+        "_num": 235,
+        "_fecha_carga": "19/06/2026 20:25",
+        "_origen": "grupo",
+        "_pie": "MARIO RAMON MENDIETA \nD.N.I: 40.962.146"
       }
     ],
     "errores": [],
