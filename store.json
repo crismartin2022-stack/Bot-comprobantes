@@ -74613,6 +74613,28 @@
         "_fecha_carga": "18/06/2026 22:57",
         "_origen": "grupo",
         "_pie": "Luque Miguez, Ariadna Abigail\n27-48299541-7"
+      },
+      {
+        "fecha": "15/06/2026",
+        "hora": "16:48",
+        "tipo": "TRF",
+        "monto": 500000.03,
+        "moneda": "ARS",
+        "remitente": "Alex Agustin Niz",
+        "remitente_cuil": "20-46906448-5",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "164259898664",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: 86VRPQ2GMLELMQD02GLY0M. CVU remitente: 0000003100080077115252. CVU destinatario: 0000155300000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 1422,
+        "_fecha_carga": "18/06/2026 22:57",
+        "_origen": "grupo",
+        "_pie": ""
       }
     ],
     "errores": [],
