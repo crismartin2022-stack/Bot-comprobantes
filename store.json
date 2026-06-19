@@ -50932,6 +50932,28 @@
         "_fecha_carga": "19/06/2026 20:38",
         "_origen": "grupo",
         "_pie": "Nicolas hugo torres\n38864961"
+      },
+      {
+        "fecha": "15/06/2026",
+        "hora": "22:19",
+        "tipo": "TRF",
+        "monto": 100000.0,
+        "moneda": "ARS",
+        "remitente": "Karen Del Valle Varela",
+        "remitente_cuil": "27-37635802-5",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163494277319",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: RD06ZO9WVRXYWR81N5GP7X. CVU remitente: 0000003100037027984206. CVU destinatario: 0000155300000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 326,
+        "_fecha_carga": "19/06/2026 20:39",
+        "_origen": "grupo",
+        "_pie": "Karen Del Valle Varela\nCUIT/CUIL: 27-37635802-5"
       }
     ],
     "errores": [],
