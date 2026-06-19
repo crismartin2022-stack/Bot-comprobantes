@@ -49543,6 +49543,28 @@
         "_fecha_carga": "19/06/2026 20:29",
         "_origen": "grupo",
         "_pie": "Patricia Villanueva DNI 21817606"
+      },
+      {
+        "fecha": "14/06/2026",
+        "hora": "22:08",
+        "tipo": "TRF",
+        "monto": 100000.0,
+        "moneda": "ARS",
+        "remitente": "Aaron Marino Villalba Romano",
+        "remitente_cuil": "20-53995885-3",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "164158480382",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: XJ8G7V95DW7835X49EMPYR. CVU origen: 0000003100047759759375. CVU destino: 0001553000000000009977. CUIT/CUIL destinatario: 30-71728225-2",
+        "_num": 263,
+        "_fecha_carga": "19/06/2026 20:29",
+        "_origen": "grupo",
+        "_pie": "Aaron Marino Villalba Romano 53995885"
       }
     ],
     "errores": [],
