@@ -48794,6 +48794,28 @@
         "_fecha_carga": "19/06/2026 20:24",
         "_origen": "grupo",
         "_pie": "Jose Martin Rodriguez\nDNI: 19.068.066"
+      },
+      {
+        "fecha": "15/06/2026",
+        "hora": "20:43",
+        "tipo": "TRF",
+        "monto": 500000.89,
+        "moneda": "ARS",
+        "remitente": "Micaela Rocio Correa",
+        "remitente_cuil": "27-41362259-5",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "164296992140",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: R7ZG0QNDW17XRQMG9EXYPO. CVU origen: 0000003100089855005831. CVU destino: 0000155300000000009977. Destinatario CUIT: 30-71228225-2.",
+        "_num": 229,
+        "_fecha_carga": "19/06/2026 20:24",
+        "_origen": "grupo",
+        "_pie": "Micaela Rocio Correa\nDNI: 41.362.259"
       }
     ],
     "errores": [],
