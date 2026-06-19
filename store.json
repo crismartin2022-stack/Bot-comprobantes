@@ -82059,6 +82059,28 @@
         "_fecha_carga": "18/06/2026 23:45",
         "_origen": "grupo",
         "_pie": ""
+      },
+      {
+        "fecha": "14/06/2026",
+        "hora": "22:45",
+        "tipo": "TRF",
+        "monto": 60000.0,
+        "moneda": "ARS",
+        "remitente": "Melisa Ailen Lazarte",
+        "remitente_cuil": "39.913.854",
+        "destinatario": "SASTEUP SRL",
+        "banco_origen": "Cuenta DNI",
+        "banco_destino": "",
+        "referencia": "Z6OLMDN3V376O6YW2E7RQ5",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CVU destinatario: 0000155300000000009977. CUIL destinatario: 30717282252. Comprobante emitido por Cuenta DNI (Banco Provincia).",
+        "_num": 1760,
+        "_fecha_carga": "18/06/2026 23:45",
+        "_origen": "grupo",
+        "_pie": "Pink"
       }
     ],
     "errores": [],
