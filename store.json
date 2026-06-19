@@ -56718,6 +56718,28 @@
         "_fecha_carga": "18/06/2026 21:06",
         "_origen": "grupo",
         "_pie": "Foto de Vivo"
+      },
+      {
+        "fecha": "14/06/2026",
+        "hora": "15:37",
+        "tipo": "TRF",
+        "monto": 23000.0,
+        "moneda": "ARS",
+        "remitente": "Leandro Agustin Villafane",
+        "remitente_cuil": "20-36897590-8",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "XJ8G7V95DWDW7OKW9EMPYR",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Número de operación de Mercado Pago: 164111484534. CVU remitente: 0000003100058773555346. CVU destinatario: 0000155300000000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 610,
+        "_fecha_carga": "18/06/2026 21:06",
+        "_origen": "grupo",
+        "_pie": "Foto de Vivo"
       }
     ],
     "errores": [],
