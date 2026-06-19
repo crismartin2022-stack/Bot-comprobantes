@@ -82103,6 +82103,28 @@
         "_fecha_carga": "18/06/2026 23:45",
         "_origen": "grupo",
         "_pie": "Multi azul"
+      },
+      {
+        "fecha": "14/06/2026",
+        "hora": "21:09",
+        "tipo": "TRF",
+        "monto": 500000.0,
+        "moneda": "ARS",
+        "remitente": "Diego Elias Torres",
+        "remitente_cuil": "27-45218233-0",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "164150450004",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: PDX4OGNYGP4EKV7MN0L6EY. CUIT destinatario: 30-71728225-2. CVU destinatario: 0000155300000000000009977",
+        "_num": 1762,
+        "_fecha_carga": "18/06/2026 23:45",
+        "_origen": "grupo",
+        "_pie": "Saúl herrera 37216153"
       }
     ],
     "errores": [],
