@@ -78929,6 +78929,28 @@
         "_fecha_carga": "18/06/2026 23:25",
         "_origen": "grupo",
         "_pie": "Emiliano Gaston Castro CUIL:20-46112894-8 $100.000"
+      },
+      {
+        "fecha": "13/06/2026",
+        "hora": "04:58",
+        "tipo": "TRF",
+        "monto": 100000.0,
+        "moneda": "ARS",
+        "remitente": "Ruben Roberto Russo",
+        "remitente_cuil": "20-20503242-9",
+        "destinatario": "SASTEUP SRL",
+        "banco_origen": "AstroPay",
+        "banco_destino": "",
+        "referencia": "8D0Q619L0WL6LVQXN7JZ5R",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CVU remitente: 0000177500090503513190. CVU receptor: 0000155300000000009977. CUIT receptor: 30-71728225-2.",
+        "_num": 1618,
+        "_fecha_carga": "18/06/2026 23:25",
+        "_origen": "grupo",
+        "_pie": "RUBEN ROBERTO RUSSO CUIL: 20-20503242-9 $100.000"
       }
     ],
     "errores": [],
