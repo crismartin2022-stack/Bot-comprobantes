@@ -88212,6 +88212,28 @@
         "_fecha_carga": "19/06/2026 00:24",
         "_origen": "grupo",
         "_pie": "Juan Elias Marquez De Olivera\nCUIT/CUIL: 20-36520946-5"
+      },
+      {
+        "fecha": "15/06/2026",
+        "hora": "23:03",
+        "tipo": "TRF",
+        "monto": 500000.0,
+        "moneda": "ARS",
+        "remitente": "Juliana Ayelen Palavecino",
+        "remitente_cuil": "27-47337453-1",
+        "destinatario": "SASTEUP SRL",
+        "banco_origen": "Brubank",
+        "banco_destino": "",
+        "referencia": "1799516344",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Transferencia enviada desde cuenta Caja de ahorro en pesos en Brubank. CVU destino: 0000155300000000009977. CUIT destinatario: 30-71728225-2. ID Operación: 260616000033543009289",
+        "_num": 2039,
+        "_fecha_carga": "19/06/2026 00:24",
+        "_origen": "grupo",
+        "_pie": "Juliana palavecino \n47337453"
       }
     ],
     "errores": [],
