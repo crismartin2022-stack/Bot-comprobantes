@@ -88654,6 +88654,28 @@
         "_fecha_carga": "19/06/2026 00:27",
         "_origen": "grupo",
         "_pie": "Roberto Sergio Lopez\nCUIT/CUIL: 23-25185980-9"
+      },
+      {
+        "fecha": "15/06/2026",
+        "hora": "23:42",
+        "tipo": "TRF",
+        "monto": 500000.0,
+        "moneda": "ARS",
+        "remitente": "Librada Galeano",
+        "remitente_cuil": "27-13197885-0",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "164316290120",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: 86VRPQ2GML6JY7LY2GLY0M. CVU remitente: 0000003100049733272221. CVU destinatario: 0000155300000000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 2059,
+        "_fecha_carga": "19/06/2026 00:27",
+        "_origen": "grupo",
+        "_pie": "Librada Galeano\nCUIT/CUIL: 27-13197885-0"
       }
     ],
     "errores": [],
