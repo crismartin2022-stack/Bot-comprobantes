@@ -66036,6 +66036,28 @@
         "_fecha_carga": "18/06/2026 22:03",
         "_origen": "grupo",
         "_pie": "Angelina Rodriguez \n27175279216"
+      },
+      {
+        "fecha": "13/06/2026",
+        "hora": "23:43",
+        "tipo": "TRF",
+        "monto": 50000.0,
+        "moneda": "ARS",
+        "remitente": "Johanna Soledad Gimenez",
+        "remitente_cuil": "27-36188870-2",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "164046942914",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: JMQKYZ9QQVOVM0D69V50P3. CVU remitente: 0000003100035919824845. CVU destinatario: 0000155300000000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 1033,
+        "_fecha_carga": "18/06/2026 22:03",
+        "_origen": "grupo",
+        "_pie": "Johana Giménez\n30-71728225-2"
       }
     ],
     "errores": [],
