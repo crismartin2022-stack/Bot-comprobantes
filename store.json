@@ -59779,6 +59779,28 @@
         "_fecha_carga": "18/06/2026 21:25",
         "_origen": "grupo",
         "_pie": "Agostina Albarracín \n40.434.417"
+      },
+      {
+        "fecha": "14/06/2026",
+        "hora": "20:48",
+        "tipo": "TRF",
+        "monto": 40000.0,
+        "moneda": "ARS",
+        "remitente": "Walter Fidel Lopez",
+        "remitente_cuil": "20-41480285-1",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "164148804888",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: WY7ZEPN6MKY1P5PQ2Q0M51. CUIT destinatario: 30-71728225-2. CVU remitente: 0000003100017095691912. CVU destinatario: 0000155300000000009977.",
+        "_num": 749,
+        "_fecha_carga": "18/06/2026 21:25",
+        "_origen": "grupo",
+        "_pie": "Walter lopez 41480285"
       }
     ],
     "errores": [],
