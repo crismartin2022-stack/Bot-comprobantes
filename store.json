@@ -62031,6 +62031,28 @@
         "_fecha_carga": "18/06/2026 21:39",
         "_origen": "grupo",
         "_pie": ""
+      },
+      {
+        "fecha": "14/06/2026",
+        "hora": "13:27",
+        "tipo": "TRF",
+        "monto": 50000.0,
+        "moneda": "ARS",
+        "remitente": "Gladys Karina Torres NuÑez",
+        "remitente_cuil": "23-23608138-",
+        "destinatario": "SASTEUP SRL",
+        "banco_origen": "Cuenta DNI",
+        "banco_destino": "",
+        "referencia": "86VRPQ2GMLM54JJ02GLY0M",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CVU destinatario: 0000155300000000000009977. CUIL destinatario: 30717282252. DNI remitente: 23.608.138. Código de referencia usado como identificador de transacción.",
+        "_num": 851,
+        "_fecha_carga": "18/06/2026 21:40",
+        "_origen": "grupo",
+        "_pie": ""
       }
     ],
     "errores": [],
