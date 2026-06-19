@@ -84662,6 +84662,28 @@
         "_fecha_carga": "19/06/2026 00:01",
         "_origen": "grupo",
         "_pie": "Jara karen Araceli 36453480"
+      },
+      {
+        "fecha": "13/06/2026",
+        "hora": "21:51",
+        "tipo": "TRF",
+        "monto": 100000.0,
+        "moneda": "ARS",
+        "remitente": "Ivana Valeria Romano",
+        "remitente_cuil": "27-38084487-2",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "164034001680",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CUIT destinatario: 30-71728225-2. CVU destinatario: 0000155300000000000009977. Código de identificación: 46YGOW9M1K8MQD6MNEXD8J",
+        "_num": 1878,
+        "_fecha_carga": "19/06/2026 00:01",
+        "_origen": "grupo",
+        "_pie": "Romano Ivana Valeria \n38084487"
       }
     ],
     "errores": [],
