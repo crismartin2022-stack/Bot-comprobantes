@@ -51306,6 +51306,28 @@
         "_fecha_carga": "19/06/2026 20:41",
         "_origen": "grupo",
         "_pie": "CUIT destino\nNombre remitente\nConcepto\nId Op.\nComprobante de transferencia\n17/06/2026 00:42 hs\n$195.000,00\nSasteup Srl\n0000155300000000009977\n30717282252\nAnselmo German Martinez"
+      },
+      {
+        "fecha": "15/06/2026",
+        "hora": "19:34",
+        "tipo": "TRF",
+        "monto": 150000.0,
+        "moneda": "ARS",
+        "remitente": "Maidana, Leonel Esteban",
+        "remitente_cuil": "20-34211400-9",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Personal Pay",
+        "banco_destino": "",
+        "referencia": "2744981377",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CoelsaID: Z0KV87940EOVQYWDNPEYDX - Id Bancario. CBU/CVU destinatario: 0000155300000000009977. CUIL/CUIT destinatario: 30-71728225-2.",
+        "_num": 343,
+        "_fecha_carga": "19/06/2026 20:41",
+        "_origen": "grupo",
+        "_pie": "Maidana leonel 34211400"
       }
     ],
     "errores": [],
