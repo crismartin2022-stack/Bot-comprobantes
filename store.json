@@ -46965,6 +46965,28 @@
         "_fecha_carga": "19/06/2026 20:12",
         "_origen": "grupo",
         "_pie": "Ariel barrios \n32472349"
+      },
+      {
+        "fecha": "17/06/2026",
+        "hora": "22:47",
+        "tipo": "TRF",
+        "monto": 300000.0,
+        "moneda": "ARS",
+        "remitente": "Diego Elias Torres",
+        "remitente_cuil": "27-45218233-0",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163816881505",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: WY7ZEPN6MKGE3OQ42Q0M51. CVU remitente: 0000003100006321336323. CVU destinatario: 0000155300000000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 146,
+        "_fecha_carga": "19/06/2026 20:12",
+        "_origen": "grupo",
+        "_pie": "Torres Diego ,45218233"
       }
     ],
     "errores": [],
