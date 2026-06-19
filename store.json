@@ -48860,6 +48860,28 @@
         "_fecha_carga": "19/06/2026 20:25",
         "_origen": "grupo",
         "_pie": "GUSTAVO ALBERTO LUNA\nDNI : 23.921.890"
+      },
+      {
+        "fecha": "15/06/2026",
+        "hora": "23:04",
+        "tipo": "TRF",
+        "monto": 500000.92,
+        "moneda": "ARS",
+        "remitente": "Natalia De Los Angel Ovejero",
+        "remitente_cuil": "27-43795290-1",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163498745325",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: 8D0Q619L0WPDPR7LN7JZ5R. CVU origen: 0000003100095876312335. CUIT destinatario: 30-71728225-2.",
+        "_num": 232,
+        "_fecha_carga": "19/06/2026 20:25",
+        "_origen": "grupo",
+        "_pie": "NATALIA DE LOS ANGELES OVEJERO\nD.N.I.: 43.795.290"
       }
     ],
     "errores": [],
