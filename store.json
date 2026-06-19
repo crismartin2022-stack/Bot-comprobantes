@@ -78334,6 +78334,28 @@
         "_fecha_carga": "18/06/2026 23:21",
         "_origen": "grupo",
         "_pie": "46306077"
+      },
+      {
+        "fecha": "12/06/2026",
+        "hora": "18:36",
+        "tipo": "TRF",
+        "monto": 30000.0,
+        "moneda": "ARS",
+        "remitente": "Juan Mateo Trosero",
+        "remitente_cuil": "20-42162406-3",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163848166136",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: WGRXJE27DYXLYGRPN7MYQL. CVU remitente: 0000003100001396135952. CVU destinatario: 0000155300000000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 1591,
+        "_fecha_carga": "18/06/2026 23:21",
+        "_origen": "grupo",
+        "_pie": "TROSERO JUAN MATEO\nDNI: 42.162.406\n\n$30.000\nVIRANET"
       }
     ],
     "errores": [],
