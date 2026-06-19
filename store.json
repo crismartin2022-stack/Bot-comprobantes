@@ -69785,6 +69785,28 @@
         "_fecha_carga": "18/06/2026 22:27",
         "_origen": "grupo",
         "_pie": ""
+      },
+      {
+        "fecha": "13/06/2026",
+        "hora": "23:56",
+        "tipo": "TRF",
+        "monto": 75000.0,
+        "moneda": "ARS",
+        "remitente": "Lautaro Facundo Santoro",
+        "remitente_cuil": "20-45004844-6",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163235387961",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: LOEJWV9JZ3L3M40M2QMD0G. CVU remitente: 0000003100057970247690. CVU destinatario: 0000155300000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 1203,
+        "_fecha_carga": "18/06/2026 22:27",
+        "_origen": "grupo",
+        "_pie": "Lautaro Facundo Santoro\nCUIT/CUIL: 20-45004844-6"
       }
     ],
     "errores": [],
