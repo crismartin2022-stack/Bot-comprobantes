@@ -57093,6 +57093,28 @@
         "_fecha_carga": "18/06/2026 21:08",
         "_origen": "grupo",
         "_pie": "Foto de Clohe😎"
+      },
+      {
+        "fecha": "10/06/2026",
+        "hora": "17:42",
+        "tipo": "TRF",
+        "monto": 140000.0,
+        "moneda": "ARS",
+        "remitente": "Brian Arian Seijas",
+        "remitente_cuil": "20-40717824-7",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "162697527241",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: 67REZ8NPQVG4JOZR94KVGO. CVU remitente: 0000003100089240621242. CVU destinatario: 0000155300000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 627,
+        "_fecha_carga": "18/06/2026 21:08",
+        "_origen": "grupo",
+        "_pie": "Foto de Clohe😎"
       }
     ],
     "errores": [],
