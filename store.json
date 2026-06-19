@@ -50469,6 +50469,28 @@
         "_fecha_carga": "19/06/2026 20:35",
         "_origen": "grupo",
         "_pie": "EMANUEL VIVEROS\n45.273.297"
+      },
+      {
+        "fecha": "14/06/2026",
+        "hora": "21:26",
+        "tipo": "TRF",
+        "monto": 20000.0,
+        "moneda": "ARS",
+        "remitente": "Nestor Dario Alarcon",
+        "remitente_cuil": "20-35369284-5",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163340122013",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: XJ8G7V95DW74VGER9EMPYR. CVU origen: 0000003100002680913922. CVU destino: 0000155300000000009977",
+        "_num": 305,
+        "_fecha_carga": "19/06/2026 20:35",
+        "_origen": "grupo",
+        "_pie": "Nestor Dario Alarcon\nCUIT/CUIL: 20-35369284-5\nMercado Pago\nCVU: 0000003100002680913922"
       }
     ],
     "errores": [],
