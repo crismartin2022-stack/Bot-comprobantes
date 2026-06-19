@@ -72960,6 +72960,28 @@
         "_fecha_carga": "18/06/2026 22:47",
         "_origen": "grupo",
         "_pie": "Brian David Munoz\nCUIT/CUIL: 20-44141951-2"
+      },
+      {
+        "fecha": "14/06/2026",
+        "hora": "23:06",
+        "tipo": "TRF",
+        "monto": 200000.0,
+        "moneda": "ARS",
+        "remitente": "Sergio Damian Gonzalez Aleon",
+        "remitente_cuil": "",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Ualá",
+        "banco_destino": "",
+        "referencia": "L0EJWV9JZ3XM8WYM2QMD0G",
+        "concepto": "VAR",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CUIT destino: 30717282252. CBU destino: 00001553000000009977",
+        "_num": 1347,
+        "_fecha_carga": "18/06/2026 22:47",
+        "_origen": "grupo",
+        "_pie": "__100_"
       }
     ],
     "errores": [],
