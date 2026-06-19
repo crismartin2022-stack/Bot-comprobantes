@@ -88301,6 +88301,28 @@
         "_fecha_carga": "19/06/2026 00:24",
         "_origen": "grupo",
         "_pie": "DNI 94678069\nTitular Artemio David romero"
+      },
+      {
+        "fecha": "15/06/2026",
+        "hora": "23:17",
+        "tipo": "TRF",
+        "monto": 100000.0,
+        "moneda": "ARS",
+        "remitente": "Gisela Noemi Benitez",
+        "remitente_cuil": "27-34643630-7",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163500828109",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: ORD6LEN8PYRJ30J4NM1Y30. CVU remitente: 0000003100031747430410. CVU destinatario: 0000155300000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 2043,
+        "_fecha_carga": "19/06/2026 00:24",
+        "_origen": "grupo",
+        "_pie": "Gisela Noemi Benitez\nCUIT/CUIL: 27-34643630-7"
       }
     ],
     "errores": [],
