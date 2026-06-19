@@ -59515,6 +59515,28 @@
         "_fecha_carga": "18/06/2026 21:23",
         "_origen": "grupo",
         "_pie": "Brian Leiva \n45.159.245"
+      },
+      {
+        "fecha": "15/06/2026",
+        "hora": "00:39",
+        "tipo": "TRF",
+        "monto": 600000.0,
+        "moneda": "ARS",
+        "remitente": "Brian Anibal Leiva",
+        "remitente_cuil": "24-45159245-5",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "164170072826",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: R7ZG0QNDW1KQWQ4V9EXYPO. CVU destinatario: 0000155300000000009977. CVU remitente: 0000003100044307123237. CUIT destinatario: 30-71728225-2.",
+        "_num": 737,
+        "_fecha_carga": "18/06/2026 21:23",
+        "_origen": "grupo",
+        "_pie": "Brian Leiva \n45.159.245"
       }
     ],
     "errores": [],
