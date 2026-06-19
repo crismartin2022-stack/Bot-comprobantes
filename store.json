@@ -65287,6 +65287,28 @@
         "_fecha_carga": "18/06/2026 21:58",
         "_origen": "grupo",
         "_pie": ""
+      },
+      {
+        "fecha": "12/06/2026",
+        "hora": "20:04",
+        "tipo": "TRF",
+        "monto": 100000.0,
+        "moneda": "ARS",
+        "remitente": "Abigail Johana Rodriguez",
+        "remitente_cuil": "",
+        "destinatario": "SASTEUP SRL",
+        "banco_origen": "Ualá",
+        "banco_destino": "Billetera Virtual",
+        "referencia": "6fc6a2df-8b26-29c2-1db2-d484a66327ff",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CBU del emisor: 3840200500000015847009. CUIT/CUIL destino: 30-71728225-2. CVU destino completo: 0000155300000000009977. Comentario: Transferencia en pesos.",
+        "_num": 999,
+        "_fecha_carga": "18/06/2026 21:58",
+        "_origen": "grupo",
+        "_pie": ""
       }
     ],
     "errores": [],
