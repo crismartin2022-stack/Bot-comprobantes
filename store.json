@@ -52696,6 +52696,28 @@
         "_fecha_carga": "19/06/2026 20:50",
         "_origen": "grupo",
         "_pie": "Jessica Belen Juarez \n38108247"
+      },
+      {
+        "fecha": "15/06/2026",
+        "hora": "23:49",
+        "tipo": "TRF",
+        "monto": 130000.0,
+        "moneda": "ARS",
+        "remitente": "Karen Ivana Prado",
+        "remitente_cuil": "27-39824899-1",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163502425977",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: Z4K6DVNOWYRQ37J125J8LQ. CVU remitente: 0000003100026802247692. CVU destinatario: 0000155300000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 406,
+        "_fecha_carga": "19/06/2026 20:50",
+        "_origen": "grupo",
+        "_pie": ""
       }
     ],
     "errores": [],
