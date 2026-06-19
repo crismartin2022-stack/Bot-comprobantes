@@ -75408,6 +75408,28 @@
         "_fecha_carga": "18/06/2026 23:02",
         "_origen": "grupo",
         "_pie": "Jessica Villarreal\nNaranja X\nCBU\n4530000800012937018061\nCUIL\n27-37435849-4"
+      },
+      {
+        "fecha": "11/06/2026",
+        "hora": "19:36",
+        "tipo": "TRF",
+        "monto": 1600000.0,
+        "moneda": "ARS",
+        "remitente": "Estadella, Stefanía Daiana",
+        "remitente_cuil": "27-41062149-0",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Personal Pay",
+        "banco_destino": "",
+        "referencia": "2733817911",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CoelsaID: 1LMP68NKVXPQ8Y0Z2R7OEV - Id Bancario. CUIL/CUIT destinatario: 30-71728225-2. CBU/CVU receptor: 0000155300000000009977",
+        "_num": 1458,
+        "_fecha_carga": "18/06/2026 23:02",
+        "_origen": "grupo",
+        "_pie": "Estadella, Stefanía Daiana\nCUIL/CUIT\n27-41062149-0"
       }
     ],
     "errores": [],
