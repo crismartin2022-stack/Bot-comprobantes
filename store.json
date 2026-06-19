@@ -59185,6 +59185,28 @@
         "_fecha_carga": "18/06/2026 21:21",
         "_origen": "grupo",
         "_pie": "Foto de Clohe😎"
+      },
+      {
+        "fecha": "15/06/2026",
+        "hora": "00:53",
+        "tipo": "TRF",
+        "monto": 45000.0,
+        "moneda": "ARS",
+        "remitente": "Sonia Patricia Bugallo",
+        "remitente_cuil": "27-13649143-7",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "164170331810",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: LMORZP908LGRP4D6NEGJ46. CVU remitente: 0000003100097452130649. CVU destinatario: 0000155300000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 722,
+        "_fecha_carga": "18/06/2026 21:21",
+        "_origen": "grupo",
+        "_pie": "Foto de Clohe😎"
       }
     ],
     "errores": [],
