@@ -52542,6 +52542,28 @@
         "_fecha_carga": "19/06/2026 20:49",
         "_origen": "grupo",
         "_pie": "Alexis naz \n39324950"
+      },
+      {
+        "fecha": "15/06/2026",
+        "hora": "23:29",
+        "tipo": "TRF",
+        "monto": 50000.0,
+        "moneda": "ARS",
+        "remitente": "Perez, Estela Yanina",
+        "remitente_cuil": "27-35990075-4",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Personal Pay",
+        "banco_destino": "",
+        "referencia": "2745448009",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CoelsaID: L18MKX9RXJ3QJDXO9O6WYV - Id Bancario. CBU/CVU destinatario: 0000155300000000009977. CUIL/CUIT destinatario: 30-71728225-2.",
+        "_num": 399,
+        "_fecha_carga": "19/06/2026 20:49",
+        "_origen": "grupo",
+        "_pie": "35990075\nYanina Pérez\nGanamos prichumoon"
       }
     ],
     "errores": [],
