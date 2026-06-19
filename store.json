@@ -43966,6 +43966,28 @@
         "_fecha_carga": "19/06/2026 19:51",
         "_origen": "grupo",
         "_pie": "Foto de 😎"
+      },
+      {
+        "fecha": "17/06/2026",
+        "hora": "01:25",
+        "tipo": "TRF",
+        "monto": 25000.0,
+        "moneda": "ARS",
+        "remitente": "Ruiz, Ana Laura",
+        "remitente_cuil": "27-35301713-1",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Personal Pay",
+        "banco_destino": "",
+        "referencia": "2750238129",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CoelsaID: 0V1JXON1LMP114G1NZ64EL - Id Bancario. CUIL/CUIT del destinatario: 30-71728225-2. CBU/CVU completo del receptor: 0000155300000000009977.",
+        "_num": 10,
+        "_fecha_carga": "19/06/2026 19:51",
+        "_origen": "grupo",
+        "_pie": "Cain Iván vera"
       }
     ],
     "errores": [],
