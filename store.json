@@ -44164,6 +44164,28 @@
         "_fecha_carga": "19/06/2026 19:52",
         "_origen": "grupo",
         "_pie": "Paola pintos\n26623507"
+      },
+      {
+        "fecha": "14/06/2026",
+        "hora": "11:37",
+        "tipo": "TRF",
+        "monto": 500000.0,
+        "moneda": "ARS",
+        "remitente": "Pardo, Franco Ariel",
+        "remitente_cuil": "20-41293466-1",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Personal Pay",
+        "banco_destino": "",
+        "referencia": "2742245384",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CoelsaID: L18MKX9RXJX548M49O6WYV. CBU/CVU destinatario: 0000155300000000009977. CUIL/CUIT destinatario: 30-71728225-2.",
+        "_num": 19,
+        "_fecha_carga": "19/06/2026 19:53",
+        "_origen": "grupo",
+        "_pie": "Pardo Franco Ariel\n41.293.466"
       }
     ],
     "errores": [],
