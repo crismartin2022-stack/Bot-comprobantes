@@ -46481,6 +46481,28 @@
         "_fecha_carga": "19/06/2026 20:09",
         "_origen": "grupo",
         "_pie": "Lurdes caballero 33909361"
+      },
+      {
+        "fecha": "16/06/2026",
+        "hora": "18:12",
+        "tipo": "TRF",
+        "monto": 60000.0,
+        "moneda": "ARS",
+        "remitente": "Melisa Ailen Lazarte",
+        "remitente_cuil": "39.913.854",
+        "destinatario": "SASTEUP SRL",
+        "banco_origen": "Cuenta DNI",
+        "banco_destino": "",
+        "referencia": "PDX4OGNYGPM7ORWMN0L6EY",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CVU destinatario: 0000155300000000009977. CUIL destinatario: 30717282252. El remitente figura con DNI 39.913.854 sin formato CUIL completo.",
+        "_num": 124,
+        "_fecha_carga": "19/06/2026 20:09",
+        "_origen": "grupo",
+        "_pie": "Melisa ailen lazarte \n39913854"
       }
     ],
     "errores": [],
