@@ -44472,6 +44472,28 @@
         "_fecha_carga": "19/06/2026 19:54",
         "_origen": "grupo",
         "_pie": "Julieta Otazo \n443319552 \nPlutonos"
+      },
+      {
+        "fecha": "17/06/2026",
+        "hora": "20:09",
+        "tipo": "TRF",
+        "monto": 125000.0,
+        "moneda": "ARS",
+        "remitente": "Julieta Anahi Otazo",
+        "remitente_cuil": "27-44331955-2",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163796330097",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: 86VRPQ2GML0PG15M2GLY0M. CVU remitente: 0000003100063653210534. CVU destinatario: 0000155300000000000009977.",
+        "_num": 33,
+        "_fecha_carga": "19/06/2026 19:55",
+        "_origen": "grupo",
+        "_pie": "Julieta Otazo \n443319552\nPlutonos"
       }
     ],
     "errores": [],
