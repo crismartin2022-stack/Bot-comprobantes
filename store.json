@@ -69918,6 +69918,28 @@
         "_fecha_carga": "18/06/2026 22:28",
         "_origen": "grupo",
         "_pie": "Maria claudia ibarra \n28120532"
+      },
+      {
+        "fecha": "13/06/2026",
+        "hora": "23:56",
+        "tipo": "TRF",
+        "monto": 300000.0,
+        "moneda": "ARS",
+        "remitente": "Cintia Bettiana Alvarez",
+        "remitente_cuil": "27-34120207-3",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "164046749672",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CVU remitente: 0000003100002893383691. CVU destinatario: 0000155300000000009977. CUIT destinatario: 30-71728225-2",
+        "_num": 1209,
+        "_fecha_carga": "18/06/2026 22:28",
+        "_origen": "grupo",
+        "_pie": "Cintia Bettiana Alvarez\nCuit: 27-3412207-3"
       }
     ],
     "errores": [],
