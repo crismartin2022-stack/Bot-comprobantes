@@ -43408,6 +43408,28 @@
         "_fecha_carga": "19/06/2026 01:32",
         "_origen": "grupo",
         "_pie": "Debora centurión \n36242230"
+      },
+      {
+        "fecha": "16/06/2026",
+        "hora": "22:32",
+        "tipo": "TRF",
+        "monto": 50000.0,
+        "moneda": "ARS",
+        "remitente": "Mariel Analia Hormaeche",
+        "remitente_cuil": "27-24435485-3",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163659325083",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: 67REZ8NPQ6RR3E5G94KVGO. CVU remitente: 0000003100077718236580. CVU destinatario: 0000155300000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 1969,
+        "_fecha_carga": "19/06/2026 01:32",
+        "_origen": "grupo",
+        "_pie": "Mariel hormaeche\n24435485"
       }
     ],
     "errores": [],
