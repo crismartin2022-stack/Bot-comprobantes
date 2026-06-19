@@ -84220,6 +84220,28 @@
         "_fecha_carga": "18/06/2026 23:58",
         "_origen": "grupo",
         "_pie": "Buenas \nEnvío en total \n$1.500.000\n\n•500k (Tony90)\n• *Sasteup Srl*\n• 13/06\n•Julio Andres Caballero\n•Cuil: 20-38660370-8\n\n•400k (Tony90)\n• *Sasteup Srl*\n• 13/06\n•Alvaro Gerardine Coria\n•Cuil: 20-41479775-0\n\n•600k (Tony90)\n• *Sasteup Srl*\n• 13/06\n•Vanesa Barrionuevo \n•Cuil: 27-31966284-2"
+      },
+      {
+        "fecha": "14/06/2026",
+        "hora": "20:54",
+        "tipo": "TRF",
+        "monto": 300000.0,
+        "moneda": "ARS",
+        "remitente": "Hernan Ariel Alvarenga",
+        "remitente_cuil": "23-37790603-9",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "164149558862",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: 46YGOW9M1KG6WLVMNEXD8J. CVU remitente: 0000003100071435925862. CVU destinatario: 0000155300000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 1858,
+        "_fecha_carga": "18/06/2026 23:59",
+        "_origen": "grupo",
+        "_pie": "300 k (Tony90) \n*Sasteup Srl* \n14/6 \nHernán Ariel Alvarenga \n23-37790603-9"
       }
     ],
     "errores": [],
