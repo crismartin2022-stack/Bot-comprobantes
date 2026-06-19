@@ -49941,6 +49941,28 @@
         "_fecha_carga": "19/06/2026 20:32",
         "_origen": "grupo",
         "_pie": "Marisa Velázquez 38875901"
+      },
+      {
+        "fecha": "16/06/2025",
+        "hora": "22:47",
+        "tipo": "TRF",
+        "monto": 20010.0,
+        "moneda": "ARS",
+        "remitente": "Nair Daiana Gallardo",
+        "remitente_cuil": "38598584",
+        "destinatario": "SASTEUP SRL",
+        "banco_origen": "Claro Pay",
+        "banco_destino": "Lohas",
+        "referencia": "WB260616.2247.E02772",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CVU remitente: 0000085700273859858498, Alias: rufi.14.23. CUIT/CUIL destinatario: 30717282252. CVU destinatario: 0000155300000000009977. Nº de operación COELSA: ORD6LEN8PYKK3MZ0NM1Y30",
+        "_num": 281,
+        "_fecha_carga": "19/06/2026 20:32",
+        "_origen": "grupo",
+        "_pie": "Nair Daiana gallardo \n38598584"
       }
     ],
     "errores": [],
