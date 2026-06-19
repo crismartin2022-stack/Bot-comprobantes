@@ -52409,6 +52409,28 @@
         "_fecha_carga": "19/06/2026 20:48",
         "_origen": "grupo",
         "_pie": "30mil viranet \nDaniela cardo\n27332615152"
+      },
+      {
+        "fecha": "14/06/2026",
+        "hora": "23:37",
+        "tipo": "TRF",
+        "monto": 250000.0,
+        "moneda": "ARS",
+        "remitente": "BENITEZ EVER KOBS",
+        "remitente_cuil": "20-94907010-8",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Banco De Galicia S.A.U",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "42108291803",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "ID COELSA: Z4K6DVNOWYPV0KDM25J8LQ. CVU destinatario: 0000155300000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 393,
+        "_fecha_carga": "19/06/2026 20:49",
+        "_origen": "grupo",
+        "_pie": "Ever kobs Benítez 20949070108"
       }
     ],
     "errores": [],
