@@ -67646,6 +67646,28 @@
         "_fecha_carga": "18/06/2026 22:14",
         "_origen": "grupo",
         "_pie": "Juan Pablo Juani\nNaranja X\n4530000800019921086521\n20-42904568-2"
+      },
+      {
+        "fecha": "13/06/2026",
+        "hora": "17:46",
+        "tipo": "TRF",
+        "monto": 500002.0,
+        "moneda": "ARS",
+        "remitente": "Cristian Eduardo Ramirez",
+        "remitente_cuil": "20-30942047-1",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163997543170",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: R7ZG0QNDW1JPV3EE9EXYPO. CVU remitente: 0000003100019978279132. CVU destinatario: 0000155300000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 1106,
+        "_fecha_carga": "18/06/2026 22:14",
+        "_origen": "grupo",
+        "_pie": "Delia Delvalle \n94929338"
       }
     ],
     "errores": [],
