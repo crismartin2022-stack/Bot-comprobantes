@@ -64121,6 +64121,28 @@
         "_fecha_carga": "18/06/2026 21:52",
         "_origen": "grupo",
         "_pie": "Miguel Ángel Gómez 36462022"
+      },
+      {
+        "fecha": "14/06/2026",
+        "hora": "00:01",
+        "tipo": "TRF",
+        "monto": 500000.0,
+        "moneda": "ARS",
+        "remitente": "Oriana Paola Jular",
+        "remitente_cuil": "27-41712081-0",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "164047303476",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: Z4K6DVNOWYDYY6QM25J8LQ. CVU remitente: 0000003100080067580044. CVU destinatario: 0000155300000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 946,
+        "_fecha_carga": "18/06/2026 21:52",
+        "_origen": "grupo",
+        "_pie": "oriana jular\n41712081\nbet91"
       }
     ],
     "errores": [],
