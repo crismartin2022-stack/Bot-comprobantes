@@ -74790,6 +74790,28 @@
         "_fecha_carga": "18/06/2026 22:58",
         "_origen": "grupo",
         "_pie": ""
+      },
+      {
+        "fecha": "15/06/2026",
+        "hora": "19:38",
+        "tipo": "TRF",
+        "monto": 150000.0,
+        "moneda": "ARS",
+        "remitente": "Cyntia Vanesa Cuestas",
+        "remitente_cuil": "27-28831006-3",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "164285859500",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: ORD6LEN8PYRDV86GNM1Y30. CVU remitente: 0000003100058113260460. CVU destinatario: 0000155300000000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 1430,
+        "_fecha_carga": "18/06/2026 22:58",
+        "_origen": "grupo",
+        "_pie": "Cyntia Vanesa Cuestas\nCUIT/CUIL: 27-28831006-3"
       }
     ],
     "errores": [],
