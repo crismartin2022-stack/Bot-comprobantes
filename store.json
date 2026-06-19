@@ -76398,6 +76398,28 @@
         "_fecha_carga": "18/06/2026 23:08",
         "_origen": "grupo",
         "_pie": "Karen Ayelen Bravo\n27414845474"
+      },
+      {
+        "fecha": "12/06/2026",
+        "hora": "22:14",
+        "tipo": "TRF",
+        "monto": 500000.0,
+        "moneda": "ARS",
+        "remitente": "Pedro Edgardo Villalba",
+        "remitente_cuil": "20-38368945-8",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163884131848",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: LOEJWV9JZ3YLQXPM2QMD0G. CVU remitente: 0000003100078818858205. CVU destinatario: 0000155300000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 1503,
+        "_fecha_carga": "18/06/2026 23:08",
+        "_origen": "grupo",
+        "_pie": "Pedro Edgardo Villalba\nCUIT/CUIL: 20-38368945-8\nMercado Pago\nCVU: 0000003100078818858205"
       }
     ],
     "errores": [],
