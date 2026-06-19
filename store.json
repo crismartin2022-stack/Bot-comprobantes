@@ -51858,6 +51858,28 @@
         "_fecha_carga": "19/06/2026 20:45",
         "_origen": "grupo",
         "_pie": ""
+      },
+      {
+        "fecha": "16/06/2021",
+        "hora": "20:21",
+        "tipo": "TRF",
+        "monto": 265000.0,
+        "moneda": "ARS",
+        "remitente": "Maximo Luciano Mendieta",
+        "remitente_cuil": "",
+        "destinatario": "SASTEUP SRL",
+        "banco_origen": "Claro Pay",
+        "banco_destino": "Claro Pay",
+        "referencia": "WB260616.2021.A45357",
+        "concepto": "Enviaste dinero",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CVU origen: 0000085700204557648915. CVU destino: 0000155300000000009977. CUIT/CUIL destinatario: 30717282252. Alias origen: 20455764891.clarapay. Alias destino: Lohas. N° operación COELSA: 1LMP68NKVE76W56D2R7OEV",
+        "_num": 368,
+        "_fecha_carga": "19/06/2026 20:45",
+        "_origen": "grupo",
+        "_pie": ""
       }
     ],
     "errores": [],
