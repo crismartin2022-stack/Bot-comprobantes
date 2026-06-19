@@ -71371,6 +71371,28 @@
         "_fecha_carga": "18/06/2026 22:37",
         "_origen": "grupo",
         "_pie": "Claudia Beatriz Molina\nCUIT/CUIL: 27-18565414-7"
+      },
+      {
+        "fecha": "14/06/2026",
+        "hora": "18:28",
+        "tipo": "TRF",
+        "monto": 300000.0,
+        "moneda": "ARS",
+        "remitente": "Fernando Nazareno Coronel",
+        "remitente_cuil": "20-34445067-7",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163318624657",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: WGRXJE27DX6118EJN7MYQL. CUIT destinatario: 30-71728225-2. CVU remitente: 0000003100048939910944. CVU destinatario: 0000155300000000000009977",
+        "_num": 1275,
+        "_fecha_carga": "18/06/2026 22:37",
+        "_origen": "grupo",
+        "_pie": "Fernando Nazareno Coronel\nCUIT/CUIL: 20-34445067-7"
       }
     ],
     "errores": [],
