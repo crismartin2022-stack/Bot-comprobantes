@@ -69453,6 +69453,28 @@
         "_fecha_carga": "18/06/2026 22:25",
         "_origen": "grupo",
         "_pie": "Nicolas Daniel Isleno\nCUIT/CUIL: 20-43810968-5"
+      },
+      {
+        "fecha": "13/06/2026",
+        "hora": "22:59",
+        "tipo": "TRF",
+        "monto": 150000.0,
+        "moneda": "ARS",
+        "remitente": "Nancy Karina Nieto",
+        "remitente_cuil": "27-25056249-2",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163231445197",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: Z6OLMDN3V3XOEV752E7RQ5. CVU receptor completo: 0000155300000000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 1188,
+        "_fecha_carga": "18/06/2026 22:25",
+        "_origen": "grupo",
+        "_pie": "Nancy Karina Nieto\nCUIT/CUIL: 27-25056249-2"
       }
     ],
     "errores": [],
