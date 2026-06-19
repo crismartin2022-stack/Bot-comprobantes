@@ -77960,6 +77960,28 @@
         "_fecha_carga": "18/06/2026 23:18",
         "_origen": "grupo",
         "_pie": "Lorena Elizabeth paolini \n35800760"
+      },
+      {
+        "fecha": "13/06/2026",
+        "hora": "23:54",
+        "tipo": "TRF",
+        "monto": 38000.0,
+        "moneda": "ARS",
+        "remitente": "Juan Cruz Amundarain",
+        "remitente_cuil": "20-39321823-2",
+        "destinatario": "SASTEUP SRL",
+        "banco_origen": "Brubank",
+        "banco_destino": "",
+        "referencia": "",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CVU destino: 0000155300000000009977. CUIT destinatario: 30-71728225-2. Transferencia enviada desde Brubank. Entidad destino identificada como CVU.",
+        "_num": 1574,
+        "_fecha_carga": "18/06/2026 23:19",
+        "_origen": "grupo",
+        "_pie": "Juan cruz amundarain \n39321823"
       }
     ],
     "errores": [],
