@@ -45644,6 +45644,28 @@
         "_fecha_carga": "19/06/2026 20:02",
         "_origen": "grupo",
         "_pie": "41434359 Maylen Herrera\n\nViranet"
+      },
+      {
+        "fecha": "15/06/2026",
+        "hora": "22:48",
+        "tipo": "TRF",
+        "monto": 100000.0,
+        "moneda": "ARS",
+        "remitente": "Rosa Soledad Tobar",
+        "remitente_cuil": "27-29631858-8",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "164311476124",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: LOEJWV9JZ36VJE5R2QMD0G. CVU origen: 0000003100030721843206. CVU destino: 0000155300000000009977.",
+        "_num": 86,
+        "_fecha_carga": "19/06/2026 20:03",
+        "_origen": "grupo",
+        "_pie": "Foto de icdp santa fe"
       }
     ],
     "errores": [],
