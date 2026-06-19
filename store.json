@@ -67911,6 +67911,28 @@
         "_fecha_carga": "18/06/2026 22:15",
         "_origen": "grupo",
         "_pie": "94739490"
+      },
+      {
+        "fecha": "13/06/2026",
+        "hora": "19:24",
+        "tipo": "TRF",
+        "monto": 200000.0,
+        "moneda": "ARS",
+        "remitente": "Agustin Ezequiel Villan",
+        "remitente_cuil": "20-42237251-3",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Naranja X",
+        "banco_destino": "Cuenta Virtual",
+        "referencia": "Z6OLMDN3V3XZV6WX2E7RQ5",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CBU origen: 4530000800016039564844. CVU destino: 0000155300000000009977. CUIL destinatario: 30-71728225-2. Código de transacción: 77d5120c-846b-4bec-bf36-9876a1f11dd9",
+        "_num": 1118,
+        "_fecha_carga": "18/06/2026 22:16",
+        "_origen": "grupo",
+        "_pie": "Agustin Ezequiel Villan\nNaranja X\n4530000800016039564844\n20-42237251-3"
       }
     ],
     "errores": [],
