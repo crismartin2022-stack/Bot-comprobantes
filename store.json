@@ -59361,6 +59361,28 @@
         "_fecha_carga": "18/06/2026 21:22",
         "_origen": "grupo",
         "_pie": "Lautaro Romero \n45.742.306"
+      },
+      {
+        "fecha": "14/06/2026",
+        "hora": "19:57",
+        "tipo": "TRF",
+        "monto": 300000.0,
+        "moneda": "ARS",
+        "remitente": "Esteban Manuel Torres",
+        "remitente_cuil": "20-38468479-4",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "164141638820",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: Z6OLMDN3V37WOZR52E7RQ5. CUIL destinatario: 30-71728225-2. CVU receptor: 0000155300000000009977",
+        "_num": 730,
+        "_fecha_carga": "18/06/2026 21:22",
+        "_origen": "grupo",
+        "_pie": "Esteban Torres \n38.468.479"
       }
     ],
     "errores": [],
