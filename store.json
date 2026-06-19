@@ -65683,6 +65683,28 @@
         "_fecha_carga": "18/06/2026 22:01",
         "_origen": "grupo",
         "_pie": ""
+      },
+      {
+        "fecha": "13/06/2026",
+        "hora": "01:46",
+        "tipo": "TRF",
+        "monto": 55000.0,
+        "moneda": "ARS",
+        "remitente": "Candela Ariadna Coronel",
+        "remitente_cuil": "27-44303044-7",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163095093153",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: 86VRPQ2GML303GM02GLY0M. CVU remitente: 0000003100010408146738. CVU destinatario: 0000155300000000009977",
+        "_num": 1017,
+        "_fecha_carga": "18/06/2026 22:01",
+        "_origen": "grupo",
+        "_pie": "Milton Nahuel Rubinich\n20-39146911/4"
       }
     ],
     "errores": [],
