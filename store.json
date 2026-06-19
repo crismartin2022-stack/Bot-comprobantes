@@ -47606,6 +47606,28 @@
         "_fecha_carga": "19/06/2026 20:16",
         "_origen": "grupo",
         "_pie": "Joana luna 36581218"
+      },
+      {
+        "fecha": "16/06/2026",
+        "hora": "17:57",
+        "tipo": "TRF",
+        "monto": 200000.0,
+        "moneda": "ARS",
+        "remitente": "Joana Giselle Luna",
+        "remitente_cuil": "27-36581218-2",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "164428665790",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: 76V4MR2Z74G0KE5YNDEZOL. CVU remitente: 0000003100061274341145. CVU destinatario: 0000155300000000000009977",
+        "_num": 175,
+        "_fecha_carga": "19/06/2026 20:16",
+        "_origen": "grupo",
+        "_pie": "Joana luna 36581218"
       }
     ],
     "errores": [],
