@@ -73026,6 +73026,28 @@
         "_fecha_carga": "18/06/2026 22:47",
         "_origen": "grupo",
         "_pie": "De:\nJIMENA BELEN BREST\nCUIT 27-39984557-8"
+      },
+      {
+        "fecha": "14/06/2026",
+        "hora": "23:31",
+        "tipo": "TRF",
+        "monto": 200000.0,
+        "moneda": "ARS",
+        "remitente": "David Ernesto Collajovsky",
+        "remitente_cuil": "20-34922538-8",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Naranja X",
+        "banco_destino": "Cuenta Virtual",
+        "referencia": "67REZ8NPQ6M0546194KVGO",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CBU origen: 4530000800014198320031. CVU destino: 0000155300000000009977. CUIL destinatario: 30-71728225-2. Código de transacción: ce762f2b-8907-438e-82d9-184c7a5aa882",
+        "_num": 1350,
+        "_fecha_carga": "18/06/2026 22:48",
+        "_origen": "grupo",
+        "_pie": "David Ernesto Collajovsky\nNaranja X\n4530000800014198320031\n20-34922538-8"
       }
     ],
     "errores": [],
