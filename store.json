@@ -69984,6 +69984,28 @@
         "_fecha_carga": "18/06/2026 22:29",
         "_origen": "grupo",
         "_pie": "Delia Carolina Ocampos Monges\nCUIT/CUIL: 27-95400070-8"
+      },
+      {
+        "fecha": "14/06/2026",
+        "hora": "00:05",
+        "tipo": "TRF",
+        "monto": 400000.0,
+        "moneda": "ARS",
+        "remitente": "Pablo Ezequiel Bogado",
+        "remitente_cuil": "20-35352784-4",
+        "destinatario": "SASTEUP SRL",
+        "banco_origen": "AstroPay",
+        "banco_destino": "",
+        "referencia": "7L8GYKNX0501R3PO2MPRZ5",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Transferencia realizada desde AstroPay. CVU remitente: 0000177507505008552104. CVU receptor (SASTEUP SRL): 0000155300000000009977. CUIT receptor: 30-71728225-2. Alias receptor: cvu.977. Coelsa ID usado como referencia.",
+        "_num": 1212,
+        "_fecha_carga": "18/06/2026 22:29",
+        "_origen": "grupo",
+        "_pie": "Pablo Ezequiel Bogado\nCUIT/CUIL\n20353527844"
       }
     ],
     "errores": [],
