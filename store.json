@@ -68219,6 +68219,28 @@
         "_fecha_carga": "18/06/2026 22:18",
         "_origen": "grupo",
         "_pie": "Eriberta Herminia Fernandez Herrera\nCUIT/CUIL: 27-92798572-7"
+      },
+      {
+        "fecha": "13/06/2026",
+        "hora": "20:23",
+        "tipo": "TRF",
+        "monto": 500000.0,
+        "moneda": "ARS",
+        "remitente": "Antonella Abril Mastroianni",
+        "remitente_cuil": "27-48056211-4",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Naranja X",
+        "banco_destino": "Cuenta Virtual",
+        "referencia": "D4RO172VZQE3Y4DDNKJ3QE",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CBU origen: 4530000800019801951055. CVU destino: 0000155300000000009977. CUIL destinatario: 30-71728225-2. Código de transacción: e413e4d6-cb91-4ed3-a596-3f2900cd70dc.",
+        "_num": 1132,
+        "_fecha_carga": "18/06/2026 22:18",
+        "_origen": "grupo",
+        "_pie": "Antonella Abril Mastroianni\nNaranja X\n4530000800019801951055\n27-48056211-4"
       }
     ],
     "errores": [],
