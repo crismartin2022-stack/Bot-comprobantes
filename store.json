@@ -67094,6 +67094,28 @@
         "_fecha_carga": "18/06/2026 22:09",
         "_origen": "grupo",
         "_pie": "Nancy Carolina Cardozo Rodas\nCUIT/CUIL: 27-95467596-9"
+      },
+      {
+        "fecha": "13/06/2026",
+        "hora": "14:50",
+        "tipo": "TRF",
+        "monto": 375000.0,
+        "moneda": "ARS",
+        "remitente": "Alejandro Fabian Gaspar",
+        "remitente_cuil": "",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Ualá",
+        "banco_destino": "BILLETERA VIRTUAL",
+        "referencia": "20f42f32-4904-054b-2905-6d8c88bf86fd",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CVU destino: 0000155300000000009977. CUIT/CUIL destino: 30-71728225-2. CBU emisor: 3840200500000007905384. Comentario: Transferencia en pesos.",
+        "_num": 1081,
+        "_fecha_carga": "18/06/2026 22:09",
+        "_origen": "grupo",
+        "_pie": "Alejandro Gaspar \n30610558"
       }
     ],
     "errores": [],
