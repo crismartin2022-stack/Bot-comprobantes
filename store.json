@@ -46040,6 +46040,28 @@
         "_fecha_carga": "19/06/2026 20:06",
         "_origen": "grupo",
         "_pie": "Jorge kowalczuk 31895635"
+      },
+      {
+        "fecha": "17/06/2026",
+        "hora": "20:09",
+        "tipo": "TRF",
+        "monto": 300000.0,
+        "moneda": "ARS",
+        "remitente": "Jorge Alberto Kowalczuk",
+        "remitente_cuil": "23-31895635-9",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163797878827",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: Z0KV87940EDZ4MW4NPEYDX. CVU origen (remitente): 0000003100070052871378. CVU destino (receptor): 0000155300000000000009977.",
+        "_num": 104,
+        "_fecha_carga": "19/06/2026 20:06",
+        "_origen": "grupo",
+        "_pie": "Jorge kowalczuk 31895635"
       }
     ],
     "errores": [],
