@@ -44406,6 +44406,28 @@
         "_fecha_carga": "19/06/2026 19:54",
         "_origen": "grupo",
         "_pie": "Pardo franco Ariel \n41.293.466"
+      },
+      {
+        "fecha": "17/06/2026",
+        "hora": "18:31",
+        "tipo": "TRF",
+        "monto": 500000.0,
+        "moneda": "ARS",
+        "remitente": "Juan Jose Coria",
+        "remitente_cuil": "",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Lemon",
+        "banco_destino": "CVU",
+        "referencia": "PDX4OGNYGPO405QVNOL6EY",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CUIT destinatario: 30717282252. CBU destino: 0000155300000000009977. ID de la transacción: d71c3262-1698-4299-870b-65e5f4188cd2. Comprobante emitido por Lemon powered by Digifin.",
+        "_num": 30,
+        "_fecha_carga": "19/06/2026 19:54",
+        "_origen": "grupo",
+        "_pie": "Juan José Coria \n28.149.654"
       }
     ],
     "errores": [],
