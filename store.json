@@ -75782,6 +75782,28 @@
         "_fecha_carga": "18/06/2026 23:04",
         "_origen": "grupo",
         "_pie": "Lorena Del Valle Peralta\nNaranja X\nCBU\n4530000800015528115703\nCUIL\n27-47909061-6"
+      },
+      {
+        "fecha": "12/06/2026",
+        "hora": "19:54",
+        "tipo": "TRF",
+        "monto": 175000.0,
+        "moneda": "ARS",
+        "remitente": "Ian David Ortie",
+        "remitente_cuil": "20-38919550-3",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163862027298",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: JMQKYZ9QQ0VYEYZQ9V50P3. CVU remitente: 0000003100094878033934. CVU destinatario: 0000155300000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 1475,
+        "_fecha_carga": "18/06/2026 23:04",
+        "_origen": "grupo",
+        "_pie": ""
       }
     ],
     "errores": [],
