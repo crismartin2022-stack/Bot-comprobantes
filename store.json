@@ -80274,6 +80274,28 @@
         "_fecha_carga": "18/06/2026 23:34",
         "_origen": "grupo",
         "_pie": "Mario Alejandro Ledesma \n20-29897918-8"
+      },
+      {
+        "fecha": "13/06/2026",
+        "hora": "10:51",
+        "tipo": "TRF",
+        "monto": 462000.0,
+        "moneda": "ARS",
+        "remitente": "Tomas Miloni",
+        "remitente_cuil": "",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Lemon",
+        "banco_destino": "CVU",
+        "referencia": "LOEJWV9JZ3YK14QR2QMD0G",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CUIT destinatario: 30717282252. CBU destinatario: 0000155300000000009977. ID de la transacción: bd23bcb5-19e1-45da-9597-9b4974325374. Comprobante emitido por Lemon (Powered by Digifin).",
+        "_num": 1679,
+        "_fecha_carga": "18/06/2026 23:34",
+        "_origen": "grupo",
+        "_pie": "tomas miloni \n44113022"
       }
     ],
     "errores": [],
