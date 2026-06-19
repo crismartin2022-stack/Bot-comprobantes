@@ -56278,6 +56278,28 @@
         "_fecha_carga": "18/06/2026 21:02",
         "_origen": "grupo",
         "_pie": "Foto de Vivo"
+      },
+      {
+        "fecha": "11/06/2026",
+        "hora": "18:40",
+        "tipo": "TRF",
+        "monto": 50000.0,
+        "moneda": "ARS",
+        "remitente": "Nestor Mauricio Ramirez",
+        "remitente_cuil": "20-29958432-2",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Naranja X",
+        "banco_destino": "Cuenta Virtual",
+        "referencia": "R7ZG0QNDWQ3O18GV9EXYPO",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CBU origen: 4530000800013812645536. CVU destino: 0000155300000000009977. CUIL destinatario: 30-71728225-2. Código de transacción: f977ef59-b237-4170-8195-0a23ebbd15e9",
+        "_num": 590,
+        "_fecha_carga": "18/06/2026 21:03",
+        "_origen": "grupo",
+        "_pie": "Foto de Vivo"
       }
     ],
     "errores": [],
