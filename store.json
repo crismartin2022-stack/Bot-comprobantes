@@ -50711,6 +50711,28 @@
         "_fecha_carga": "19/06/2026 20:37",
         "_origen": "grupo",
         "_pie": "Lucas Patricio Baptista\nCUIT/CUIL: 20-41435081-0\nMercado Pago\nCVU: 0000003100088705167370"
+      },
+      {
+        "fecha": "15/06/2026",
+        "hora": "15:48",
+        "tipo": "TRF",
+        "monto": 200000.0,
+        "moneda": "ARS",
+        "remitente": "Martin Ignacio Herrera",
+        "remitente_cuil": "",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Lemon",
+        "banco_destino": "CVU",
+        "referencia": "3D5W612E6ZXQDEQ52GXYVR",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CUIT destinatario: 30717282252. CBU receptor: 0000155300000000009977. ID de la transacción: e7f45234-7494-42c3-9a36-2efdefe4faeb. Comprobante emitido por Lemon, powered by Digifin.",
+        "_num": 316,
+        "_fecha_carga": "19/06/2026 20:37",
+        "_origen": "grupo",
+        "_pie": "Martin Ignacio Herrera"
       }
     ],
     "errores": [],
