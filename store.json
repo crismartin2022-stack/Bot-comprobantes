@@ -48178,6 +48178,28 @@
         "_fecha_carga": "19/06/2026 20:20",
         "_origen": "grupo",
         "_pie": "Micaela Rocio Correa\nDNI: 41.362.259"
+      },
+      {
+        "fecha": "14/06/2026",
+        "hora": "22:30",
+        "tipo": "TRF",
+        "monto": 500000.6,
+        "moneda": "ARS",
+        "remitente": "Juan Carlos Ovejero",
+        "remitente_cuil": "20-14765356-6",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163348286433",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: WY7ZEPN6MKYVZ67V2Q0M51. CVU remitente: 0000003100089844810725. CVU destinatario: 0000155300000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 201,
+        "_fecha_carga": "19/06/2026 20:20",
+        "_origen": "grupo",
+        "_pie": "Juan Carlos Ovejero\n14.765.356"
       }
     ],
     "errores": [],
