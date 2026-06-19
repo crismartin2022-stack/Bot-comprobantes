@@ -81355,6 +81355,28 @@
         "_fecha_carga": "18/06/2026 23:41",
         "_origen": "grupo",
         "_pie": "Griselda cimino 12444180"
+      },
+      {
+        "fecha": "15/06/2026",
+        "hora": "12:16",
+        "tipo": "TRF",
+        "monto": 300000.0,
+        "moneda": "ARS",
+        "remitente": "Rolando Daniel Bordon",
+        "remitente_cuil": "20-30987195-3",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Naranja X",
+        "banco_destino": "Cuenta Virtual",
+        "referencia": "0V1JXON1LMVPM5M7NZ64EL",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CBU origen: 4530000800017568959640. CVU destino: 0000155300000000009977. CUIL destinatario: 30-71728225-2. Código de transacción adicional: e4fae445-7a83-400e-b6fa-ae6c0d508cde.",
+        "_num": 1728,
+        "_fecha_carga": "18/06/2026 23:41",
+        "_origen": "grupo",
+        "_pie": "Torres Diego 45218233"
       }
     ],
     "errores": [],
