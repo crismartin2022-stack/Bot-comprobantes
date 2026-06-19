@@ -76376,6 +76376,28 @@
         "_fecha_carga": "18/06/2026 23:08",
         "_origen": "grupo",
         "_pie": "Karen Ayelen Bravo\n27414845474"
+      },
+      {
+        "fecha": "13/06/2026",
+        "hora": "23:45",
+        "tipo": "TRF",
+        "monto": 100000.0,
+        "moneda": "ARS",
+        "remitente": "Karen Ayelen Bravo",
+        "remitente_cuil": "27-41484547-4",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Prex",
+        "banco_destino": "BANCO COINAG S.A.",
+        "referencia": "134027471",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "",
+        "tiene_remitente": true,
+        "notas": "CVU origen: 0000013000032291776720. El CVU/CBU del destinatario no es visible en la imagen (la sección Cuenta de destino está cortada). Referencia extraída del nombre de archivo prex_134027471.pdf.",
+        "_num": 1502,
+        "_fecha_carga": "18/06/2026 23:08",
+        "_origen": "grupo",
+        "_pie": "Karen Ayelen Bravo\n27414845474"
       }
     ],
     "errores": [],
