@@ -45952,6 +45952,28 @@
         "_fecha_carga": "19/06/2026 20:05",
         "_origen": "grupo",
         "_pie": "Jorge kowalczuk 31895635"
+      },
+      {
+        "fecha": "16/06/2026",
+        "hora": "22:18:28",
+        "tipo": "TRF",
+        "monto": 500000.0,
+        "moneda": "ARS",
+        "remitente": "INSUMOS Y ACCESORIOS BAROGA SA",
+        "remitente_cuil": "30-71875706-8",
+        "destinatario": "SASTEUP SRL",
+        "banco_origen": "",
+        "banco_destino": "",
+        "referencia": "ae20b7b5-4ffd-437f-972f-a0253fbed0c5",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código COELSA: 7L8GYKNX05JDLQ7Q2MPRZ5. CBU origen: 000015150003720060411. CBU destino: 00001553000000000009977. CUIT destinatario: 30717282252.",
+        "_num": 100,
+        "_fecha_carga": "19/06/2026 20:05",
+        "_origen": "grupo",
+        "_pie": "Insumos Baroga\nCUIT 30-71875706-8"
       }
     ],
     "errores": [],
