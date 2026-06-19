@@ -53070,6 +53070,28 @@
         "_fecha_carga": "19/06/2026 20:53",
         "_origen": "grupo",
         "_pie": "Ramiro Daniel Gómez \n20443122789"
+      },
+      {
+        "fecha": "16/06/2026",
+        "hora": "19:08",
+        "tipo": "TRF",
+        "monto": 30000.0,
+        "moneda": "ARS",
+        "remitente": "Carlos Daniel Silva",
+        "remitente_cuil": "20-29165124-1",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "164444198144",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: 7L8GYKNX05DPP8WQ2MPRZ5. CVU origen: 0000003100072776693764. CVU destino: 0000155300000000000009977.",
+        "_num": 423,
+        "_fecha_carga": "19/06/2026 20:53",
+        "_origen": "grupo",
+        "_pie": "Carlos Daniel silva \n\nDNI: 29.165.124"
       }
     ],
     "errores": [],
