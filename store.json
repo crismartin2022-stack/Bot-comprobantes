@@ -46679,6 +46679,28 @@
         "_fecha_carga": "19/06/2026 20:10",
         "_origen": "grupo",
         "_pie": "Bet30click"
+      },
+      {
+        "fecha": "17/06/2026",
+        "hora": "00:49",
+        "tipo": "TRF",
+        "monto": 100000.0,
+        "moneda": "ARS",
+        "remitente": "VANESA BEATRIZ SANDOVAL",
+        "remitente_cuil": "27-30066153-5",
+        "destinatario": "SASTEUP SRL",
+        "banco_origen": "Brubank",
+        "banco_destino": "",
+        "referencia": "",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Transferencia enviada desde Caja de ahorro en Pesos en Brubank. CUIT/CUIL del destinatario: 30-71728225-2. CVU destino: 0000155300000000009977.",
+        "_num": 133,
+        "_fecha_carga": "19/06/2026 20:10",
+        "_origen": "grupo",
+        "_pie": "Vanesa Beatriz Sandoval 30066153"
       }
     ],
     "errores": [],
