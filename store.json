@@ -71151,6 +71151,28 @@
         "_fecha_carga": "18/06/2026 22:36",
         "_origen": "grupo",
         "_pie": ""
+      },
+      {
+        "fecha": "13/06/2026",
+        "hora": "22:22",
+        "tipo": "TRF",
+        "monto": 100000.0,
+        "moneda": "ARS",
+        "remitente": "Kevin Nahuel Ledesma",
+        "remitente_cuil": "20-40471888-7",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "164038562996",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: RD06ZO9WVR1OEQQ1N5GP7X. CVU remitente: 0000003100064007687686. CVU destinatario: 0000155300000000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 1265,
+        "_fecha_carga": "18/06/2026 22:36",
+        "_origen": "grupo",
+        "_pie": ""
       }
     ],
     "errores": [],
