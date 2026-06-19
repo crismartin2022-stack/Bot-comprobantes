@@ -61657,6 +61657,28 @@
         "_fecha_carga": "18/06/2026 21:36",
         "_origen": "grupo",
         "_pie": ""
+      },
+      {
+        "fecha": "14/06/2026",
+        "hora": "13:52",
+        "tipo": "TRF",
+        "monto": 70000.0,
+        "moneda": "ARS",
+        "remitente": "Victor Hugo Parafiniuk",
+        "remitente_cuil": "20-12669666-4",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Naranja X",
+        "banco_destino": "Cuenta Virtual",
+        "referencia": "R7ZG0QNDW1W53WDG9EXYPO",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de transacción adicional: e1e671e0-1af7-4068-853b-6bb88dd5a456. CVU destinatario: 0000155300000000009977. CBU remitente: 4530000800016100813718.",
+        "_num": 834,
+        "_fecha_carga": "18/06/2026 21:37",
+        "_origen": "grupo",
+        "_pie": ""
       }
     ],
     "errores": [],
