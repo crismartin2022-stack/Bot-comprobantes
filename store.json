@@ -78180,6 +78180,28 @@
         "_fecha_carga": "18/06/2026 23:20",
         "_origen": "grupo",
         "_pie": "Carmen Alejandra Vera\nCUIT/CUIL: 27-23514318-1\nMercado Pago\nCVU: 0000003100026876755842"
+      },
+      {
+        "fecha": "11/06/2026",
+        "hora": "18:47",
+        "tipo": "TRF",
+        "monto": 200000.0,
+        "moneda": "ARS",
+        "remitente": "Maria Laura Ferreyra",
+        "remitente_cuil": "27-32462491-6",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "162872754559",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: Z6OLMDN3VKRLQ5MK2E7RQ5. CUIT destinatario: 30-71728225-2. CVU remitente: 0000003100097107671044. CVU destinatario: 0000155300000000009977",
+        "_num": 1584,
+        "_fecha_carga": "18/06/2026 23:20",
+        "_origen": "grupo",
+        "_pie": "Maria Laura Ferreyra\n\n32462491\n\n200mil \n\nGanamos io"
       }
     ],
     "errores": [],
