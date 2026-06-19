@@ -70710,6 +70710,28 @@
         "_fecha_carga": "18/06/2026 22:33",
         "_origen": "grupo",
         "_pie": "Monica Susana Santillan\nNaranja X\n4530000800012051233102\n27-17299591-3"
+      },
+      {
+        "fecha": "14/06/2026",
+        "hora": "13:44",
+        "tipo": "TRF",
+        "monto": 500000.0,
+        "moneda": "ARS",
+        "remitente": "Micaela Alejandra Garay",
+        "remitente_cuil": "",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Ualá",
+        "banco_destino": "",
+        "referencia": "L18MKX9RXJXQ0RRV9O6WYV",
+        "concepto": "VAR",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CBU destino: 0000155300000000009977. CUIT destino: 30717282252. Comprobante de transferencia emitido por Ualá.",
+        "_num": 1245,
+        "_fecha_carga": "18/06/2026 22:33",
+        "_origen": "grupo",
+        "_pie": "Micaela Garay CUIL MICA: 20-45786073-1"
       }
     ],
     "errores": [],
