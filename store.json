@@ -52608,6 +52608,28 @@
         "_fecha_carga": "19/06/2026 20:50",
         "_origen": "grupo",
         "_pie": "Adrian Saul Sosa\n20292732881"
+      },
+      {
+        "fecha": "16/06/2026",
+        "hora": "14:28",
+        "tipo": "TRF",
+        "monto": 60000.0,
+        "moneda": "ARS",
+        "remitente": "Jonathan David Caponnetto",
+        "remitente_cuil": "23-36258799-9",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Naranja X",
+        "banco_destino": "Cuenta Virtual",
+        "referencia": "LOEJWV9JZ3R34OVD2QMD0G",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de transacción: 18fd0f3b-f8d3-44fc-9f74-085d6e3c9684. CBU origen: 4530000800018927276668. CVU destino: 0000155300000000009977. CUIL destinatario: 30-71728225-2.",
+        "_num": 402,
+        "_fecha_carga": "19/06/2026 20:50",
+        "_origen": "grupo",
+        "_pie": "Jonathan David Caponnetto\n23362587999"
       }
     ],
     "errores": [],
