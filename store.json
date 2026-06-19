@@ -50029,6 +50029,28 @@
         "_fecha_carga": "19/06/2026 20:32",
         "_origen": "grupo",
         "_pie": "Gian Escobar 44888305"
+      },
+      {
+        "fecha": "17/06/2026",
+        "hora": "10:39",
+        "tipo": "TRF",
+        "monto": 30000.0,
+        "moneda": "ARS",
+        "remitente": "Rita Maria Itati Romero",
+        "remitente_cuil": "27-30432899-7",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Naranja X",
+        "banco_destino": "Cuenta Virtual",
+        "referencia": "LMORZP908LELQPXYNEGJ46",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de transacción: 6d34985c-76a5-4668-915b-84e893902243. CBU origen: 4530000800016346664055. CVU destino: 0000155300000000009977. CUIL destinatario: 30-71728225-2.",
+        "_num": 285,
+        "_fecha_carga": "19/06/2026 20:32",
+        "_origen": "grupo",
+        "_pie": "Rita romero 30432899"
       }
     ],
     "errores": [],
