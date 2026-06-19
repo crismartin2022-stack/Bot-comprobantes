@@ -70292,6 +70292,28 @@
         "_fecha_carga": "18/06/2026 22:30",
         "_origen": "grupo",
         "_pie": "Edgar Anselmo Nunez Rojas\nCUIT/CUIL: 20-38175389-2"
+      },
+      {
+        "fecha": "14/06/2026",
+        "hora": "00:41",
+        "tipo": "TRF",
+        "monto": 40000.0,
+        "moneda": "ARS",
+        "remitente": "EVELYN MION",
+        "remitente_cuil": "27-38893919-8",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Banco De Galicia S.A.U",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "42101839857",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CVU destinatario: 0000155300000000009977. ID COELSA: RD06ZO9WVRVE4WW7N5GP7X. CUIT destinatario: 30-71728225-2.",
+        "_num": 1226,
+        "_fecha_carga": "18/06/2026 22:31",
+        "_origen": "grupo",
+        "_pie": "De:\nEVELYN MION\nCUIT 27-38893919-8"
       }
     ],
     "errores": [],
