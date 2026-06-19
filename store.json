@@ -44761,6 +44761,28 @@
         "_fecha_carga": "19/06/2026 19:56",
         "_origen": "grupo",
         "_pie": "Buenas,  envío en total \n$ 1.000.000\n\n•500k (Tony90)\n• *Sasteup Srl*\n• 16/06\n•Cesar Enrique Paz\n•Cuil: 20-31159691-9\n\n•500k (Tony90)\n• *Sasteup Srl*\n• 16/06\n•Alvaro Gerardine Coria\n•Cuil: 20-41479775-0"
+      },
+      {
+        "fecha": "16/06/2026",
+        "hora": "23:57",
+        "tipo": "TRF",
+        "monto": 550000.0,
+        "moneda": "ARS",
+        "remitente": "Julio Daniel Magno",
+        "remitente_cuil": "20-36758594-4",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163666705183",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: WY7ZEPN6MK3GGX742Q0M51. CVU origen (remitente): 0000003100081400257249. CVU destino (receptor): 0000155300000000009977",
+        "_num": 46,
+        "_fecha_carga": "19/06/2026 19:57",
+        "_origen": "grupo",
+        "_pie": "Envío en total \n$ 1.300.000\n\n550 k (Tony90) \n *Sasteup SRL* \n16/6\nJULIO DANIEL MAGNO \n20-36758594-4\n\n750 K (TONY90)\n *Sasteup Srl* \n17/6\nRuben Hugo Scaldaferro\n 20-13368849-9"
       }
     ],
     "errores": [],
