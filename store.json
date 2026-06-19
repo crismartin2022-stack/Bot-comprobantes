@@ -46503,6 +46503,28 @@
         "_fecha_carga": "19/06/2026 20:09",
         "_origen": "grupo",
         "_pie": "Melisa ailen lazarte \n39913854"
+      },
+      {
+        "fecha": "16/06/2026",
+        "hora": "19:14",
+        "tipo": "TRF",
+        "monto": 50000.0,
+        "moneda": "ARS",
+        "remitente": "Micaela Sosa",
+        "remitente_cuil": "37133725",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Ualá",
+        "banco_destino": "BILLETERA VIRTUAL",
+        "referencia": "d0fea828-6a9e-4e3c-5952-ce",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CVU destino: 0000155300000000009977. CBU de emisor: 3840200500000014357860. CUIT/CUIL destino (Sasteup Srl): 30-71728225-2. Comentario: Transferencia en pesos. Referencia parcialmente visible en el pie del comprobante.",
+        "_num": 125,
+        "_fecha_carga": "19/06/2026 20:09",
+        "_origen": "grupo",
+        "_pie": "Micaela sosa 37133725"
       }
     ],
     "errores": [],
