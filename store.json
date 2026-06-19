@@ -85788,6 +85788,28 @@
         "_fecha_carga": "19/06/2026 00:09",
         "_origen": "grupo",
         "_pie": "Filomea renna 4512414"
+      },
+      {
+        "fecha": "15/06/2026",
+        "hora": "21:41:02",
+        "tipo": "TRF",
+        "monto": 1000000.0,
+        "moneda": "ARS",
+        "remitente": "DAPA SRL",
+        "remitente_cuil": "33-71770811-9",
+        "destinatario": "SASTEUP SRL",
+        "banco_origen": "",
+        "banco_destino": "",
+        "referencia": "ee94a064-be14-432f-81f6-b21f7c43aa67",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código COELSA: Z4K6DVNOWYR6WQO425J8LQ. CBU remitente: 00001515000033225409105. CBU destinatario: 00001553000000000009977. CUIT destinatario: 30717282252.",
+        "_num": 1929,
+        "_fecha_carga": "19/06/2026 00:09",
+        "_origen": "grupo",
+        "_pie": "DAPA SRL\nCBU:\n0000151500033225409105\nCUIT:\n33717708119"
       }
     ],
     "errores": [],
