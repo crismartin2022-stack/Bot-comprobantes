@@ -65727,6 +65727,28 @@
         "_fecha_carga": "18/06/2026 22:01",
         "_origen": "grupo",
         "_pie": ""
+      },
+      {
+        "fecha": "15/06/2026",
+        "hora": "00:10",
+        "tipo": "TRF",
+        "monto": 500000.0,
+        "moneda": "ARS",
+        "remitente": "Priscila Belen Zeoli",
+        "remitente_cuil": "27-44003143-4",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "164168492374",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: Z0KV87940E73Z7VENPEYDX. CUIT destinatario: 30-71728225-2. CVU remitente: 0000003100047826009086. CVU destinatario: 0000155300000000009977",
+        "_num": 1019,
+        "_fecha_carga": "18/06/2026 22:01",
+        "_origen": "grupo",
+        "_pie": ""
       }
     ],
     "errores": [],
