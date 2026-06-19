@@ -47275,6 +47275,28 @@
         "_fecha_carga": "19/06/2026 20:14",
         "_origen": "grupo",
         "_pie": "Marisa Ferreyra 23852075"
+      },
+      {
+        "fecha": "13/06/2026",
+        "hora": "21:39",
+        "tipo": "TRF",
+        "monto": 50000.0,
+        "moneda": "ARS",
+        "remitente": "Myrian Teresa Olivera",
+        "remitente_cuil": "27-23284695-5",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163223340707",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: LOEJWV9JZ3LVV1ED2QMD0G. CVU origen: 0000003100030677257496. CVU destino: 0000155300000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 160,
+        "_fecha_carga": "19/06/2026 20:14",
+        "_origen": "grupo",
+        "_pie": "Olivera myrian 23284695"
       }
     ],
     "errores": [],
