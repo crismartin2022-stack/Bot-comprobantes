@@ -87970,6 +87970,28 @@
         "_fecha_carga": "19/06/2026 00:22",
         "_origen": "grupo",
         "_pie": "Luzdary Falla\nCUIT/CUIL: 27-96142180-8"
+      },
+      {
+        "fecha": "15/06/2026",
+        "hora": "22:26",
+        "tipo": "TRF",
+        "monto": 300000.0,
+        "moneda": "ARS",
+        "remitente": "Juan Ramon Lobo",
+        "remitente_cuil": "20-22357667-3",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "164309086528",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: 1LMP68NKVEY0DX0K2R7OEV. CVU destinatario: 0000155300000000000009977. CUIT destinatario: 30-71728225-2",
+        "_num": 2028,
+        "_fecha_carga": "19/06/2026 00:22",
+        "_origen": "grupo",
+        "_pie": "Juan Ramon Lobo\nCUIT/CUIL: 20-22357667-3"
       }
     ],
     "errores": [],
