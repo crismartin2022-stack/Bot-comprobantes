@@ -82921,6 +82921,28 @@
         "_fecha_carga": "18/06/2026 23:50",
         "_origen": "grupo",
         "_pie": ""
+      },
+      {
+        "fecha": "15/06/2026",
+        "hora": "22:15",
+        "tipo": "TRF",
+        "monto": 50000.0,
+        "moneda": "ARS",
+        "remitente": "Carnoto, Facundo Julian",
+        "remitente_cuil": "23-30048003-9",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Personal Pay",
+        "banco_destino": "",
+        "referencia": "2745330516",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CoelsaID: 76V4MR2Z74WYRG00NDEZOL - Id Bancario. CBU/CVU del receptor: 0000155300000000009977. CUIL/CUIT del receptor: 30-71728225-2.",
+        "_num": 1799,
+        "_fecha_carga": "18/06/2026 23:50",
+        "_origen": "grupo",
+        "_pie": ""
       }
     ],
     "errores": [],
