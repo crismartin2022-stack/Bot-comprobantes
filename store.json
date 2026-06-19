@@ -72805,6 +72805,28 @@
         "_fecha_carga": "18/06/2026 22:46",
         "_origen": "grupo",
         "_pie": "Mariana Diaz 36608895"
+      },
+      {
+        "fecha": "14/06/2026",
+        "hora": "23:16",
+        "tipo": "TRF",
+        "monto": 25000.0,
+        "moneda": "ARS",
+        "remitente": "Marco Emmiliano Barrera",
+        "remitente_cuil": "20-39596546-9",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Naranja X",
+        "banco_destino": "Cuenta Virtual",
+        "referencia": "XJ8G7V95DW7LWP4R9EMPYR",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CBU origen: 4530000800012271420814. CVU destino: 0000155300000000009977. CUIL destinatario: 30-71728225-2. Código de transacción: 9a662f2b-34e4-4e5c-8d06-b2a28bd056f1",
+        "_num": 1340,
+        "_fecha_carga": "18/06/2026 22:46",
+        "_origen": "grupo",
+        "_pie": "Marco Emmiliano Barrera\nNaranja X\n4530000800012271420814\n20-39596546-9"
       }
     ],
     "errores": [],
