@@ -48618,6 +48618,28 @@
         "_fecha_carga": "19/06/2026 20:23",
         "_origen": "grupo",
         "_pie": "Cesar Nicolas Maltez\nDNI: 40.350.083"
+      },
+      {
+        "fecha": "15/06/2026",
+        "hora": "17:21",
+        "tipo": "TRF",
+        "monto": 500000.81,
+        "moneda": "ARS",
+        "remitente": "Pedro Alberto Escobar",
+        "remitente_cuil": "20-34694126-0",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163451512715",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: Z0KV87940EOG4E7ENPEYDX. CVU origen: 0000003100097656954883. CVU destino: 0000155300000000009977. CUIT/CUIL destinatario: 30-71728225-2.",
+        "_num": 221,
+        "_fecha_carga": "19/06/2026 20:23",
+        "_origen": "grupo",
+        "_pie": "Pedro Alberto Escobar\nDNI: 34.694.126"
       }
     ],
     "errores": [],
