@@ -64209,6 +64209,28 @@
         "_fecha_carga": "18/06/2026 21:52",
         "_origen": "grupo",
         "_pie": "oriana jular\n41712081\nbet91"
+      },
+      {
+        "fecha": "13/06/2026",
+        "hora": "18:31",
+        "tipo": "TRF",
+        "monto": 200000.0,
+        "moneda": "ARS",
+        "remitente": "Marcia Marina Maria Moreira",
+        "remitente_cuil": "27-33645445-5",
+        "destinatario": "SASTEUP SRL",
+        "banco_origen": "AstroPay",
+        "banco_destino": "",
+        "referencia": "67REZ8NPQ6WQO4OG94KVGO",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Transferencia realizada desde AstroPay. CVU remitente: 0000177500099256890321 (alias: Mr25.astropay). CVU receptor: 0000155300000000009977 (alias: cvu.977). CUIT receptor: 30-71728225-2",
+        "_num": 950,
+        "_fecha_carga": "18/06/2026 21:52",
+        "_origen": "grupo",
+        "_pie": "Marcia moreira \n33645445"
       }
     ],
     "errores": [],
