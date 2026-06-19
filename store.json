@@ -83207,6 +83207,28 @@
         "_fecha_carga": "18/06/2026 23:52",
         "_origen": "grupo",
         "_pie": "Foto de Racing Club"
+      },
+      {
+        "fecha": "13/06/2026",
+        "hora": "14:38",
+        "tipo": "TRF",
+        "monto": 200000.0,
+        "moneda": "ARS",
+        "remitente": "Luis, Omar Alejandro",
+        "remitente_cuil": "23-31052163-9",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Personal Pay",
+        "banco_destino": "",
+        "referencia": "2740416754",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Destinatario CUIT: 30-71728225-2. CVU receptor: 0000155300000000009977. CoelsaID: 1LMP68NKVE64XX8K2R7OEV - Id Bancario.",
+        "_num": 1812,
+        "_fecha_carga": "18/06/2026 23:52",
+        "_origen": "grupo",
+        "_pie": "Screenshot (13 jun. 2026 14:39:43)"
       }
     ],
     "errores": [],
