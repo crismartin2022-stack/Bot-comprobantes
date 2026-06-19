@@ -52916,6 +52916,28 @@
         "_fecha_carga": "19/06/2026 20:52",
         "_origen": "grupo",
         "_pie": "Leandro Nahuel ponce\n20190336701\nPlutonos"
+      },
+      {
+        "fecha": "17/06/2026",
+        "hora": "19:54",
+        "tipo": "TRF",
+        "monto": 30000.0,
+        "moneda": "ARS",
+        "remitente": "LEANDRO GABRIEL CORONEL",
+        "remitente_cuil": "35354238",
+        "destinatario": "Sercob Sa",
+        "banco_origen": "Ualá",
+        "banco_destino": "",
+        "referencia": "LOEJWV9JZ3DDDKE82QMD0G",
+        "concepto": "VAR",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "6872",
+        "tiene_remitente": true,
+        "notas": "CUIT destino: 30708282274. CBU destino: 0000133100000000586872",
+        "_num": 416,
+        "_fecha_carga": "19/06/2026 20:52",
+        "_origen": "grupo",
+        "_pie": "Coronel Leandro 35354238"
       }
     ],
     "errores": [],
