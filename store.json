@@ -48068,6 +48068,28 @@
         "_fecha_carga": "19/06/2026 20:19",
         "_origen": "grupo",
         "_pie": "Juan Carlos Ovejero\n14.765.356"
+      },
+      {
+        "fecha": "14/06/2026",
+        "hora": "20:30",
+        "tipo": "TRF",
+        "monto": 500000.55,
+        "moneda": "ARS",
+        "remitente": "Santiago Alejo Reynozo",
+        "remitente_cuil": "20-46142612-4",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163333755369",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: LOEJWV9JZ3X5E0XM2QMD0G. CVU origen: 0000003100049681180294. CVU destino: 0000155300000000009977",
+        "_num": 196,
+        "_fecha_carga": "19/06/2026 20:19",
+        "_origen": "grupo",
+        "_pie": "Santiago Alejo Reynozo\n46.142.612"
       }
     ],
     "errores": [],
