@@ -489,8 +489,7 @@ async def procesar_comprobante(image_bytes: bytes, mime: str, pie: str,
         try:
             await bot.send_message(
                 chat_id=chat_id,
-                text=f"✅ #{num} | {remitente}{cuil_txt} | {monto_fmt} | {cvu_txt}",
-                reply_to_message_id=chat_msg_id
+                text=f"✅ #{num} | {remitente}{cuil_txt} | {monto_fmt} | {cvu_txt}"
             )
         except Exception as e:
             log.error(f"Error enviando confirmación: {e}")
