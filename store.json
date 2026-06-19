@@ -83515,6 +83515,28 @@
         "_fecha_carga": "18/06/2026 23:54",
         "_origen": "grupo",
         "_pie": "Ana Laura Ruiz \n35301713"
+      },
+      {
+        "fecha": "13/06/2026",
+        "hora": "17:21",
+        "tipo": "TRF",
+        "monto": 100000.0,
+        "moneda": "ARS",
+        "remitente": "Ruth Elizabeth Otazo",
+        "remitente_cuil": "27-37706588-9",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Naranja X",
+        "banco_destino": "Cuenta Virtual",
+        "referencia": "RD06ZO9WVRE7KQ6KN5GP7X",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de transacción adicional: 8e4ad1cf-4d5e-49d1-b050-c79d0f90c44c. CVU destinatario: 0000155300000000009977. CUIL destinatario: 30-71728225-2.",
+        "_num": 1826,
+        "_fecha_carga": "18/06/2026 23:54",
+        "_origen": "grupo",
+        "_pie": "Ruth Otazo \n377065889\nPlutonos"
       }
     ],
     "errores": [],
