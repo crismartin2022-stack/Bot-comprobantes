@@ -78797,6 +78797,28 @@
         "_fecha_carga": "18/06/2026 23:24",
         "_origen": "grupo",
         "_pie": "39824899"
+      },
+      {
+        "fecha": "13/06/2026",
+        "hora": "00:25",
+        "tipo": "TRF",
+        "monto": 1040000.0,
+        "moneda": "ARS",
+        "remitente": "Braian Damian Gerez",
+        "remitente_cuil": "20-35659614-6",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Naranja X",
+        "banco_destino": "Cuenta Virtual",
+        "referencia": "RD06ZO9WVR8L7GO3N5GP7X",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CBU origen: 4530000800014505656712. CVU destino: 0000155300000000009977. CUIL destinatario: 30-71728225-2. Código de transacción: ebc7e015-2ddd-4947-b4e2-74c32f094577.",
+        "_num": 1612,
+        "_fecha_carga": "18/06/2026 23:24",
+        "_origen": "grupo",
+        "_pie": "Braian Damian Gerez\n20356596146\nPlutonos"
       }
     ],
     "errores": [],
