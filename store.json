@@ -70160,6 +70160,28 @@
         "_fecha_carga": "18/06/2026 22:30",
         "_origen": "grupo",
         "_pie": ""
+      },
+      {
+        "fecha": "14/06/2026",
+        "hora": "00:31",
+        "tipo": "TRF",
+        "monto": 100000.0,
+        "moneda": "ARS",
+        "remitente": "Alexis Rafael Gil",
+        "remitente_cuil": "20-35340420-3",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Naranja X",
+        "banco_destino": "Cuenta Virtual",
+        "referencia": "RD06ZO9WVRV8JO17N5GP7X",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CBU origen: 4530000800012970507986. CVU destino: 0000155300000000009977. CUIL destinatario: 30-71728225-2. Código de transacción: 2a4c2ddd-e9f4-4bb8-b773-97af2e950aff",
+        "_num": 1220,
+        "_fecha_carga": "18/06/2026 22:30",
+        "_origen": "grupo",
+        "_pie": "Alexis Rafael Gil\nNaranja X\n4530000800012970507986\n20-35340420-3"
       }
     ],
     "errores": [],
