@@ -1390,17 +1390,22 @@ async def handle_any(update: Update, ctx: ContextTypes.DEFAULT_TYPE):
 
 async def health_server():
     """Servidor HTTP mínimo para health check de Railway."""
-    from aiohttp import web
-    async def health(request):
-        return web.Response(text="OK")
-    server = web.Application()
-    server.router.add_get("/", health)
-    server.router.add_get("/health", health)
-    runner = web.AppRunner(server)
-    await runner.setup()
+    import asyncio
+    from http.server import BaseHTTPRequestHandler, HTTPServer
+    import threading
+
+    class Handler(BaseHTTPRequestHandler):
+        def do_GET(self):
+            self.send_response(200)
+            self.end_headers()
+            self.wfile.write(b"OK")
+        def log_message(self, format, *args):
+            pass  # Silenciar logs
+
     port = int(os.environ.get("PORT", 8080))
-    site = web.TCPSite(runner, "0.0.0.0", port)
-    await site.start()
+    server = HTTPServer(("0.0.0.0", port), Handler)
+    thread = threading.Thread(target=server.serve_forever, daemon=True)
+    thread.start()
     log.info(f"Health server en puerto {port}")
 
 async def main_async():
