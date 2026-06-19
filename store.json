@@ -44827,6 +44827,28 @@
         "_fecha_carga": "19/06/2026 19:57",
         "_origen": "grupo",
         "_pie": "Walter alejandro forgia 40191889"
+      },
+      {
+        "fecha": "16/06/2026",
+        "hora": "20:30",
+        "tipo": "TRF",
+        "monto": 500000.0,
+        "moneda": "ARS",
+        "remitente": "Alvaro Gerardine Coria",
+        "remitente_cuil": "20-41479775-0",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "164458178642",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: 3D5W612E6Z0JW0DO2GXYVR. CVU origen: 0000003100036296714240. CVU destino: 0000155300000000009977",
+        "_num": 49,
+        "_fecha_carga": "19/06/2026 19:57",
+        "_origen": "grupo",
+        "_pie": "Walter alejandro forgia 40191889"
       }
     ],
     "errores": [],
