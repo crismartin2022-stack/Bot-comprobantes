@@ -87594,6 +87594,28 @@
         "_fecha_carga": "19/06/2026 00:20",
         "_origen": "grupo",
         "_pie": "Lucas Samuel Ramirez \n20-40767535-6"
+      },
+      {
+        "fecha": "15/06/2026",
+        "hora": "21:43",
+        "tipo": "TRF",
+        "monto": 500000.02,
+        "moneda": "ARS",
+        "remitente": "Roma Rodrigo Benjamin Centeno",
+        "remitente_cuil": "20-45744680-3",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "164304176486",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: Z0KV87940EO4O3GENPEYDX. CVU remitente: 0000003100097618985762. CVU destinatario: 0000155300000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 2011,
+        "_fecha_carga": "19/06/2026 00:20",
+        "_origen": "grupo",
+        "_pie": "Roma Rodrigo Benjamin Centeno \n20-45744680-3"
       }
     ],
     "errores": [],
