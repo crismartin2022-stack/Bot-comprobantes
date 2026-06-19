@@ -48596,6 +48596,28 @@
         "_fecha_carga": "19/06/2026 20:23",
         "_origen": "grupo",
         "_pie": "Jairo Mateo Ovejero\nDNI: 45.958.946"
+      },
+      {
+        "fecha": "15/06/2026",
+        "hora": "17:19",
+        "tipo": "TRF",
+        "monto": 500000.79,
+        "moneda": "ARS",
+        "remitente": "Cesar Nicolas Maltez",
+        "remitente_cuil": "20-40350083-7",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163451594405",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: JMQKYZ9QQV1WZDOV9V50P3. CVU remitente: 0000003100080313518081. CVU destinatario: 0000155300000000009977. CUIT destinatario: 30-71728225-2",
+        "_num": 220,
+        "_fecha_carga": "19/06/2026 20:23",
+        "_origen": "grupo",
+        "_pie": "Cesar Nicolas Maltez\nDNI: 40.350.083"
       }
     ],
     "errores": [],
