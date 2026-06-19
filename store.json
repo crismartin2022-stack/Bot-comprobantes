@@ -76530,6 +76530,28 @@
         "_fecha_carga": "18/06/2026 23:09",
         "_origen": "grupo",
         "_pie": "origen\nNX\nEvelin Oriana Chavarria Santucho\nNaranja X\nCBU\n4530000800010668664616\nCUIL\n27-40143733-4"
+      },
+      {
+        "fecha": "14/06/2026",
+        "hora": "01:46",
+        "tipo": "TRF",
+        "monto": 520500.0,
+        "moneda": "ARS",
+        "remitente": "LORENA FABIANA ARAVENA",
+        "remitente_cuil": "27-40112079-9",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Banco De Galicia S.A.U",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "42102011976",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "ID COELSA: WY7ZEPN6MKMQ7VMQ2Q0M51. CVU receptor: 0000155300000000009977. CUIT destinatario: 30-71728225-2. Cuenta origen CA $ N° 4060086-5 031-1.",
+        "_num": 1509,
+        "_fecha_carga": "18/06/2026 23:09",
+        "_origen": "grupo",
+        "_pie": "LORENA FABIANA ARAVENA\nCUIT 27-40112079-9\nCA $ N° 4060086-5 031-1\nCuenta en Banco De Galicia S.A.U"
       }
     ],
     "errores": [],
