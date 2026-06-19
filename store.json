@@ -78621,6 +78621,28 @@
         "_fecha_carga": "18/06/2026 23:23",
         "_origen": "grupo",
         "_pie": "Emiliano Gaston Castro\nCUIL:20-46112894-8\n$100.000"
+      },
+      {
+        "fecha": "12/06/2026",
+        "hora": "20:44",
+        "tipo": "TRF",
+        "monto": 100000.0,
+        "moneda": "ARS",
+        "remitente": "Enzo Gabriel Albarracin",
+        "remitente_cuil": "23-43056491-9",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Naranja X",
+        "banco_destino": "Cuenta Virtual",
+        "referencia": "XJ8G7V95DXW5881M9EMPYR",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CBU origen: 4530000800019866273750. CVU destino: 0000155300000000009977. CUIL destinatario: 30-71728225-2. Código de transacción: aedf517d-94e5-4b2e-a3a0-65bd6db167f9",
+        "_num": 1604,
+        "_fecha_carga": "18/06/2026 23:23",
+        "_origen": "grupo",
+        "_pie": "ENZO GABRIEL ALBARRACIN 23-43056491-9 1OO.OOO"
       }
     ],
     "errores": [],
