@@ -71569,6 +71569,28 @@
         "_fecha_carga": "18/06/2026 22:38",
         "_origen": "grupo",
         "_pie": "Rodrigo Hernan Gómez\n20-37995973-4"
+      },
+      {
+        "fecha": "14/06/2026",
+        "hora": "19:27",
+        "tipo": "TRF",
+        "monto": 25000.0,
+        "moneda": "ARS",
+        "remitente": "Pablo Scotta",
+        "remitente_cuil": "20-46307447-0",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Naranja X",
+        "banco_destino": "Cuenta Virtual",
+        "referencia": "LMORZP908LGEY8P4NEGJ46",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CBU origen: 4530000800010375412485. CVU destino: 0000155300000000009977. CUIL destinatario: 30-71728225-2. Código de transacción: bd323953-58dd-49a1-9033-79e8b557966a",
+        "_num": 1284,
+        "_fecha_carga": "18/06/2026 22:39",
+        "_origen": "grupo",
+        "_pie": "Pablo Scotta\nNaranja X\n4530000800010375412485\n20-46307447-0"
       }
     ],
     "errores": [],
