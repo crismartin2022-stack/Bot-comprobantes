@@ -50822,6 +50822,28 @@
         "_fecha_carga": "19/06/2026 20:38",
         "_origen": "grupo",
         "_pie": "Arroyo María 35504773"
+      },
+      {
+        "fecha": "16/06/2026",
+        "hora": "17:14",
+        "tipo": "TRF",
+        "monto": 34000.0,
+        "moneda": "ARS",
+        "remitente": "Juarez, Jazmin Jacqueline",
+        "remitente_cuil": "27-43443250-8",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Personal Pay",
+        "banco_destino": "",
+        "referencia": "2749118040",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CoelsaID: 8D0Q619L0WVVR6L8N7JZ5R - Id Bancario. CBU/CVU destinatario: 0000155300000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 321,
+        "_fecha_carga": "19/06/2026 20:38",
+        "_origen": "grupo",
+        "_pie": "Juarez jacqueline\n43443250"
       }
     ],
     "errores": [],
