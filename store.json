@@ -89314,6 +89314,28 @@
         "_fecha_carga": "19/06/2026 00:31",
         "_origen": "grupo",
         "_pie": "Brian Joel Peloso\nD.N.I 36.079.150"
+      },
+      {
+        "fecha": "15/06/2026",
+        "hora": "22:42",
+        "tipo": "TRF",
+        "monto": 500000.01,
+        "moneda": "ARS",
+        "remitente": "Candela Soledad Sotelo",
+        "remitente_cuil": "27-47119484-6",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163496203981",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: RD06ZO9WVRXW33P5N5GP7X. CVU remitente: 0000003100014894639451. CVU destinatario: 0000155300000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 2089,
+        "_fecha_carga": "19/06/2026 00:31",
+        "_origen": "grupo",
+        "_pie": "Noelia Primavera Chirino\nDNI 43.664.090"
       }
     ],
     "errores": [],
