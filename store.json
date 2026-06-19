@@ -67116,6 +67116,28 @@
         "_fecha_carga": "18/06/2026 22:09",
         "_origen": "grupo",
         "_pie": "Alejandro Gaspar \n30610558"
+      },
+      {
+        "fecha": "13/06/2026",
+        "hora": "15:02",
+        "tipo": "TRF",
+        "monto": 40000.0,
+        "moneda": "ARS",
+        "remitente": "Eriberta Herminia Fernandez Herrera",
+        "remitente_cuil": "27-92798572-7",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163162873819",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: 76V4MR2Z7416WMLLNDEZOL. CVU remitente: 0000003100025464627204. CVU destinatario: 0000155300000000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 1082,
+        "_fecha_carga": "18/06/2026 22:09",
+        "_origen": "grupo",
+        "_pie": "Eriberta Herminia Fernandez Herrera\nCUIT/CUIL: 27-92798572-7"
       }
     ],
     "errores": [],
