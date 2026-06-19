@@ -70820,6 +70820,28 @@
         "_fecha_carga": "18/06/2026 22:34",
         "_origen": "grupo",
         "_pie": "Eduardo Adrian Perez\nCUIT/CUIL: 20-31598874-9"
+      },
+      {
+        "fecha": "13/06/2026",
+        "hora": "23:55",
+        "tipo": "TRF",
+        "monto": 100000.0,
+        "moneda": "ARS",
+        "remitente": "Leandro Fabian Gabela",
+        "remitente_cuil": "20-36728885-0",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "164047543160",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: LMORZP908L5L6M35NEGJ46. CUIT destinatario: 30-71728225-2. CVU remitente: 0000003100048749131739. CVU destinatario: 0000155300000000000009977",
+        "_num": 1250,
+        "_fecha_carga": "18/06/2026 22:34",
+        "_origen": "grupo",
+        "_pie": "Leandro Fabian Gabela\nCUIT/CUIL: 20-36728885-0"
       }
     ],
     "errores": [],
