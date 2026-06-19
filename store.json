@@ -79370,6 +79370,28 @@
         "_fecha_carga": "18/06/2026 23:28",
         "_origen": "grupo",
         "_pie": "Lorena enriquez 33080851"
+      },
+      {
+        "fecha": "11/06/2026",
+        "hora": "23:45",
+        "tipo": "TRF",
+        "monto": 120000.0,
+        "moneda": "ARS",
+        "remitente": "Sabrina Macarena Yedro",
+        "remitente_cuil": "27-34248472-2",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Naranja X",
+        "banco_destino": "Cuenta Virtual",
+        "referencia": "",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CBU origen: 4530000800017845016293. CVU destino: 0000155300000000009977. CUIL destinatario: 30-71728225-2. La sección 'Información de la operación' está parcialmente visible, no se pudo extraer número de referencia.",
+        "_num": 1638,
+        "_fecha_carga": "18/06/2026 23:28",
+        "_origen": "grupo",
+        "_pie": "Sabrina yedro 34248472"
       }
     ],
     "errores": [],
