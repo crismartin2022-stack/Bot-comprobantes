@@ -58767,6 +58767,28 @@
         "_fecha_carga": "18/06/2026 21:19",
         "_origen": "grupo",
         "_pie": "Foto de Clohe😎"
+      },
+      {
+        "fecha": "14/06/2026",
+        "hora": "17:00",
+        "tipo": "TRF",
+        "monto": 15000.0,
+        "moneda": "ARS",
+        "remitente": "Nicolas Oscar Fuentes",
+        "remitente_cuil": "20-11348571-0",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "164119529164",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: 76V4MR2Z748PD65GNDEZOL. CVU remitente: 0000003100028226892113. CVU destinatario: 0000155300000000009977",
+        "_num": 703,
+        "_fecha_carga": "18/06/2026 21:19",
+        "_origen": "grupo",
+        "_pie": "Foto de Clohe😎"
       }
     ],
     "errores": [],
