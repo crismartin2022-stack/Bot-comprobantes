@@ -53203,6 +53203,28 @@
         "_fecha_carga": "19/06/2026 20:54",
         "_origen": "grupo",
         "_pie": "Ayala maría \n32179584"
+      },
+      {
+        "fecha": "17/06/2026",
+        "hora": "10:18",
+        "tipo": "TRF",
+        "monto": 121000.0,
+        "moneda": "ARS",
+        "remitente": "Ramiro Falcato",
+        "remitente_cuil": "20-47736782-9",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163705440785",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: RD06ZO9WVR07VZYXN5GP7X. CVU origen (remitente): 0000003100015346692475. CVU destino (receptor): 0000155300000000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 429,
+        "_fecha_carga": "19/06/2026 20:54",
+        "_origen": "grupo",
+        "_pie": "ramiro falcato\n47736782"
       }
     ],
     "errores": [],
