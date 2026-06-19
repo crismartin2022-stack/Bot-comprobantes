@@ -69741,6 +69741,28 @@
         "_fecha_carga": "18/06/2026 22:27",
         "_origen": "grupo",
         "_pie": "ALDANA ROCIO ORELLANA\n27418807860"
+      },
+      {
+        "fecha": "13/06/2026",
+        "hora": "23:37",
+        "tipo": "TRF",
+        "monto": 60000.0,
+        "moneda": "ARS",
+        "remitente": "FLORES SHEILA ESTEFANIA",
+        "remitente_cuil": "",
+        "destinatario": "SASTEUP SRL",
+        "banco_origen": "BBVA",
+        "banco_destino": "",
+        "referencia": "70295644010260613",
+        "concepto": "VARIOS",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Cuenta de origen: CA$ 130-131743/3. CUIT destinatario: 30717282252. CBU/CVU destinatario: 0000155300000000009977. Operación realizada en BBVA Móvil.",
+        "_num": 1201,
+        "_fecha_carga": "18/06/2026 22:27",
+        "_origen": "grupo",
+        "_pie": "Sheila Estefania Flores \n44.509.091"
       }
     ],
     "errores": [],
