@@ -85411,6 +85411,28 @@
         "_fecha_carga": "19/06/2026 00:06",
         "_origen": "grupo",
         "_pie": "23701197 borda andrea"
+      },
+      {
+        "fecha": "15/06/2026",
+        "hora": "16:31",
+        "tipo": "TRF",
+        "monto": 220000.0,
+        "moneda": "ARS",
+        "remitente": "Andrea Mariana Borda",
+        "remitente_cuil": "",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Lemon",
+        "banco_destino": "CVU",
+        "referencia": "WY7ZEPN6MKX4W46W2Q0M51",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CUIT destinatario: 30717282252. CBU destinatario: 0000155300000000009977. ID de la transacción: 5d284a5d-555b-44be-8880-4329de73ee64. Comprobante emitido por Lemon (Powered by Digifin).",
+        "_num": 1912,
+        "_fecha_carga": "19/06/2026 00:06",
+        "_origen": "grupo",
+        "_pie": "23701197 borda andrea"
       }
     ],
     "errores": [],
