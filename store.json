@@ -49124,6 +49124,28 @@
         "_fecha_carga": "19/06/2026 20:26",
         "_origen": "grupo",
         "_pie": "44303044\nCandela Ariadna Coronel"
+      },
+      {
+        "fecha": "15/06/2026",
+        "hora": "21:49",
+        "tipo": "TRF",
+        "monto": 200000.0,
+        "moneda": "ARS",
+        "remitente": "Marcia Marina Maria Moreira",
+        "remitente_cuil": "27-33645445-5",
+        "destinatario": "SASTEUP SRL",
+        "banco_origen": "AstroPay",
+        "banco_destino": "",
+        "referencia": "76V4MR2Z74W604VLNDEZOL",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CVU remitente: 0000177500099256890321 (alias Mr25.astropay). CVU receptor: 0000155300000000009977 (alias cvu.977). CUIT/CUIL receptor SASTEUP SRL: 30717282252.",
+        "_num": 244,
+        "_fecha_carga": "19/06/2026 20:26",
+        "_origen": "grupo",
+        "_pie": "Marcia moreira \n33645445"
       }
     ],
     "errores": [],
