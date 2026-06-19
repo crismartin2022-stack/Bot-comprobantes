@@ -46173,6 +46173,28 @@
         "_fecha_carga": "19/06/2026 20:07",
         "_origen": "grupo",
         "_pie": "Insumos Baroga\nCUIT 30-71875706-8"
+      },
+      {
+        "fecha": "18/06/2026",
+        "hora": "00:03:20",
+        "tipo": "TRF",
+        "monto": 1000000.0,
+        "moneda": "ARS",
+        "remitente": "INSUMOS Y ACCESORIOS BAROGA SA",
+        "remitente_cuil": "30-71875706-8",
+        "destinatario": "SASTEUP SRL",
+        "banco_origen": "",
+        "banco_destino": "",
+        "referencia": "8D0Q619L0WGWJLE3N7JZ5R",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "ID Operación: 3b6c82ff-fb8b-46a4-b2ec-5879e20b0479. CBU origen: 0000151500037200604118. CBU destino: 0000155300000000009977. CUIT destinatario: 30717282252.",
+        "_num": 110,
+        "_fecha_carga": "19/06/2026 20:07",
+        "_origen": "grupo",
+        "_pie": "Marcos Bazán\n39.176.725"
       }
     ],
     "errores": [],
