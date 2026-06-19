@@ -45113,6 +45113,28 @@
         "_fecha_carga": "19/06/2026 19:59",
         "_origen": "grupo",
         "_pie": "Estella Alaniz 27896804"
+      },
+      {
+        "fecha": "15/06/2026",
+        "hora": "15:02",
+        "tipo": "TRF",
+        "monto": 405000.0,
+        "moneda": "ARS",
+        "remitente": "Isabella Eunice Dondo Robledo",
+        "remitente_cuil": "27-45244555-2",
+        "destinatario": "Sercob Sa",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "Billetera BILLETERAPAIS SA",
+        "referencia": "164244423634",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "7745",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: L18MKX9RXJKQW3G19O6WYV. CVU origen: 0000003100091006056388. CVU destino: 0000133100000000587745. CUIT destinatario: 30-70828227-4",
+        "_num": 62,
+        "_fecha_carga": "19/06/2026 19:59",
+        "_origen": "grupo",
+        "_pie": "Isabella Robledo 45244555"
       }
     ],
     "errores": [],
