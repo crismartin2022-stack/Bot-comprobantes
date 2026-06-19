@@ -72009,6 +72009,28 @@
         "_fecha_carga": "18/06/2026 22:41",
         "_origen": "grupo",
         "_pie": "Claudio Daniel Weber\nCUIT/CUIL: 20-35245699-4"
+      },
+      {
+        "fecha": "14/06/2026",
+        "hora": "20:45",
+        "tipo": "TRF",
+        "monto": 300000.0,
+        "moneda": "ARS",
+        "remitente": "Rodrigo Andres Marquez de Olivera",
+        "remitente_cuil": "",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Ualá",
+        "banco_destino": "",
+        "referencia": "WGRXJE27DX6ZW6WPN7MYQL",
+        "concepto": "VAR",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CBU destino: 0000155300000000009977. CUIT destino: 30717282252",
+        "_num": 1304,
+        "_fecha_carga": "18/06/2026 22:41",
+        "_origen": "grupo",
+        "_pie": "Rodrigo Andrés Márquez de Olivera\n38439712"
       }
     ],
     "errores": [],
