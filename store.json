@@ -51042,6 +51042,28 @@
         "_fecha_carga": "19/06/2026 20:39",
         "_origen": "grupo",
         "_pie": "Karen Del Valle Varela\nCUIT/CUIL: 27-37635802-5"
+      },
+      {
+        "fecha": "16/06/2026",
+        "hora": "22:24",
+        "tipo": "TRF",
+        "monto": 120000.0,
+        "moneda": "ARS",
+        "remitente": "David Alejandro Lugren",
+        "remitente_cuil": "20-33022295-7",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Naranja X",
+        "banco_destino": "Cuenta Virtual",
+        "referencia": "L18MKX9RXJEE13D19O6WYV",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de transacción adicional: 630569c8-9ec9-45fa-97c7-78c3ef4598be. CBU origen: 4530000800016771658559. CVU destino: 0000155300000000009977. CUIL destinatario: 30-71728225-2",
+        "_num": 331,
+        "_fecha_carga": "19/06/2026 20:39",
+        "_origen": "grupo",
+        "_pie": "David lugren 33022295"
       }
     ],
     "errores": [],
