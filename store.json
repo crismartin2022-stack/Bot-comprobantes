@@ -66807,6 +66807,28 @@
         "_fecha_carga": "18/06/2026 22:07",
         "_origen": "grupo",
         "_pie": "27358311615\nLeonela Sabrina Braga"
+      },
+      {
+        "fecha": "14/06/2026",
+        "hora": "14:17",
+        "tipo": "TRF",
+        "monto": 100000.0,
+        "moneda": "ARS",
+        "remitente": "Noelia Giselle Romano",
+        "remitente_cuil": "27-45609998-5",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "164101987482",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: LOEJWV9JZ3ZKY7682QMD0G. CVU remitente: 0000003100095227758371. CVU destinatario: 0000155300000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 1068,
+        "_fecha_carga": "18/06/2026 22:08",
+        "_origen": "grupo",
+        "_pie": "María de Los Ángeles Rodríguez \n33711557879"
       }
     ],
     "errores": [],
