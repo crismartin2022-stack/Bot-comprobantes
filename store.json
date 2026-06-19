@@ -66433,6 +66433,28 @@
         "_fecha_carga": "18/06/2026 22:05",
         "_origen": "grupo",
         "_pie": "Sofía pilar Monteverde \n43142862"
+      },
+      {
+        "fecha": "15/06/2026",
+        "hora": "13:14",
+        "tipo": "TRF",
+        "monto": 50000.0,
+        "moneda": "ARS",
+        "remitente": "Medina, Miria Elisabel",
+        "remitente_cuil": "23-25210582-4",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Personal Pay",
+        "banco_destino": "",
+        "referencia": "2744254557",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CoelsaID: Z6OLMDN3V3J1E3WW2E7RQ5 - Id Bancario. CUIL/CUIT destinatario: 30-71728225-2. CBU/CVU destinatario: 0000155300000000009977",
+        "_num": 1051,
+        "_fecha_carga": "18/06/2026 22:05",
+        "_origen": "grupo",
+        "_pie": "Reina elisabel\n23-25210582-4"
       }
     ],
     "errores": [],
