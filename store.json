@@ -83758,6 +83758,28 @@
         "_fecha_carga": "18/06/2026 23:55",
         "_origen": "grupo",
         "_pie": ""
+      },
+      {
+        "fecha": "14/06/2026",
+        "hora": "21:30",
+        "tipo": "TRF",
+        "monto": 230000.0,
+        "moneda": "ARS",
+        "remitente": "Karina Gabriela Del Valle Nuñez",
+        "remitente_cuil": "23-26187724-4",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Naranja X",
+        "banco_destino": "Cuenta Virtual",
+        "referencia": "1LMP68NKVEKQ041D2R7OEV",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CBU origen: 4530000800013055539968. CVU destino: 0000155300000000009977. CUIL destinatario: 30-71728225-2. Código de transacción adicional: 1bfa04df-573b-4789-a4a6-f414f0a9eb9a",
+        "_num": 1837,
+        "_fecha_carga": "18/06/2026 23:55",
+        "_origen": "grupo",
+        "_pie": ""
       }
     ],
     "errores": [],
