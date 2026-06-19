@@ -72717,6 +72717,28 @@
         "_fecha_carga": "18/06/2026 22:45",
         "_origen": "grupo",
         "_pie": "Brian David Munoz\nCUIT/CUIL: 20-44141951-2"
+      },
+      {
+        "fecha": "14/06/2026",
+        "hora": "23:05",
+        "tipo": "TRF",
+        "monto": 30000.0,
+        "moneda": "ARS",
+        "remitente": "Marlene Aylen Delvalle Candia",
+        "remitente_cuil": "27-43655374-4",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Naranja X",
+        "banco_destino": "Cuenta Virtual",
+        "referencia": "LOEJWV9JZ3XM1VPD2QMD0G",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CBU origen: 4530000800019471393708. CVU destino: 0000155300000000009977. CUIL destinatario: 30-71728225-2. Código de transacción: 5d50cf9e-b0a0-421a-80ec-b1b4ddbf6bbb",
+        "_num": 1336,
+        "_fecha_carga": "18/06/2026 22:46",
+        "_origen": "grupo",
+        "_pie": "Marlene Aylen Delvalle Candia\nNaranja X\n4530000800019471393708\n27-43655374-4"
       }
     ],
     "errores": [],
