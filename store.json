@@ -76266,6 +76266,28 @@
         "_fecha_carga": "18/06/2026 23:07",
         "_origen": "grupo",
         "_pie": "Joaquin Fernández \n46682753\n500k zeus"
+      },
+      {
+        "fecha": "14/06/2025",
+        "hora": "00:01",
+        "tipo": "TRF",
+        "monto": 105000.0,
+        "moneda": "ARS",
+        "remitente": "Damian Alejandro Mansilla",
+        "remitente_cuil": "",
+        "destinatario": "SASTEUP SRL",
+        "banco_origen": "Claro Pay",
+        "banco_destino": "Lohas",
+        "referencia": "WB260614.0001.B82564",
+        "concepto": "Enviaste dinero",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CVU remitente: 0000085700204865947652. CVU destinatario: 0000155300000000009977. CUIT destinatario: 30-71728225-2. N° operación COELSA: 0V1JXON1LMDMMLMGNZ64EL",
+        "_num": 1497,
+        "_fecha_carga": "18/06/2026 23:08",
+        "_origen": "grupo",
+        "_pie": ""
       }
     ],
     "errores": [],
