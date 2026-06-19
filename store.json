@@ -49322,6 +49322,28 @@
         "_fecha_carga": "19/06/2026 20:28",
         "_origen": "grupo",
         "_pie": "35094994\nSusana Kmicaela Balbuena"
+      },
+      {
+        "fecha": "17/06/2026",
+        "hora": "00:56",
+        "tipo": "TRF",
+        "monto": 55000.0,
+        "moneda": "ARS",
+        "remitente": "Candela Ariadna Coronel",
+        "remitente_cuil": "27-44303044-7",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "164485849394",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: WY7ZEPN6MK31RRL42Q0M51. CVU remitente: 0000003100010408146738. CVU destinatario: 0000155300000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 253,
+        "_fecha_carga": "19/06/2026 20:28",
+        "_origen": "grupo",
+        "_pie": "44303044\nCandela Ariadna Coronel"
       }
     ],
     "errores": [],
