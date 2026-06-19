@@ -71899,6 +71899,28 @@
         "_fecha_carga": "18/06/2026 22:41",
         "_origen": "grupo",
         "_pie": "ENZO SOLIS\n20-46682028-9"
+      },
+      {
+        "fecha": "14/06/2026",
+        "hora": "20:09",
+        "tipo": "TRF",
+        "monto": 300000.0,
+        "moneda": "ARS",
+        "remitente": "Juan Pablo Diaz",
+        "remitente_cuil": "44.141.674",
+        "destinatario": "SASTEUP SRL",
+        "banco_origen": "Cuenta DNI",
+        "banco_destino": "",
+        "referencia": "LOEJWV9JZ3XD4RXD2QMD0G",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CVU destinatario: 0000155300000000000009977. CUIL destinatario: 30717282252. Referencia/Motivo: Varios.",
+        "_num": 1299,
+        "_fecha_carga": "18/06/2026 22:41",
+        "_origen": "grupo",
+        "_pie": "JUAN PABLO DIAZ \nCUIL: 20-44141674-2"
       }
     ],
     "errores": [],
