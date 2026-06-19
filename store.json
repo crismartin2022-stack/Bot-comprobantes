@@ -74746,6 +74746,28 @@
         "_fecha_carga": "18/06/2026 22:58",
         "_origen": "grupo",
         "_pie": "Dylan Godoy \n47403587"
+      },
+      {
+        "fecha": "15/06/2026",
+        "hora": "19:21",
+        "tipo": "TRF",
+        "monto": 400000.0,
+        "moneda": "ARS",
+        "remitente": "Luque Miguez, Ariadna Abigail",
+        "remitente_cuil": "27-48299541-7",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Personal Pay",
+        "banco_destino": "",
+        "referencia": "2744950316",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CoelsaID: Z6OLMDN3V3YPQ7R52E7RQ5 - Id Bancario. CUIL destinatario: 30-71728225-2. CBU/CVU receptor: 00001553000000000009977",
+        "_num": 1428,
+        "_fecha_carga": "18/06/2026 22:58",
+        "_origen": "grupo",
+        "_pie": "Luque Miguez, Ariadna Abigail\nCUIL/CUIT 27-48299541-7"
       }
     ],
     "errores": [],
