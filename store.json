@@ -88456,6 +88456,28 @@
         "_fecha_carga": "19/06/2026 00:25",
         "_origen": "grupo",
         "_pie": "Karina Alejandra Del Carmen Lucca\nCUIT/CUIL: 27-23583004-9"
+      },
+      {
+        "fecha": "15/06/2026",
+        "hora": "23:21",
+        "tipo": "TRF",
+        "monto": 250000.0,
+        "moneda": "ARS",
+        "remitente": "Karina Alejandra Del Carmen Lucca",
+        "remitente_cuil": "27-23583004-9",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "164313371618",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: WGRXJE27DX100ZX6N7MYQL. CVU remitente: 0000003100076448030730. CVU destinatario: 0000155300000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 2050,
+        "_fecha_carga": "19/06/2026 00:25",
+        "_origen": "grupo",
+        "_pie": "Karina Alejandra Del Carmen Lucca\nCUIT/CUIL: 27-23583004-9"
       }
     ],
     "errores": [],
