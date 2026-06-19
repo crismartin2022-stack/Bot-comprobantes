@@ -65573,6 +65573,28 @@
         "_fecha_carga": "18/06/2026 22:00",
         "_origen": "grupo",
         "_pie": ""
+      },
+      {
+        "fecha": "15/06/2026",
+        "hora": "00:14",
+        "tipo": "TRF",
+        "monto": 100000.0,
+        "moneda": "ARS",
+        "remitente": "Jimena Noemi Rodriguez",
+        "remitente_cuil": "27-34146817-0",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163355423951",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: 7L8GYKNX054LQJQO2MPRZ5. CUIT destinatario: 30-71728225-2. CVU remitente: 0000003100080096336906. CVU destinatario: 0000155300000000009977",
+        "_num": 1012,
+        "_fecha_carga": "18/06/2026 22:00",
+        "_origen": "grupo",
+        "_pie": ""
       }
     ],
     "errores": [],
