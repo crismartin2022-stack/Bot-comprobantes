@@ -51372,6 +51372,28 @@
         "_fecha_carga": "19/06/2026 20:41",
         "_origen": "grupo",
         "_pie": "Ivan ortega 47878010"
+      },
+      {
+        "fecha": "17/06/2026",
+        "hora": "01:14",
+        "tipo": "TRF",
+        "monto": 820000.0,
+        "moneda": "ARS",
+        "remitente": "Nicole Guadalupe Da Silva",
+        "remitente_cuil": "27-43172482-6",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "164486983436",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: R7ZG0QNDW1V4VOLE9EXYPO. CVU remitente: 0000003100089976714223. CVU destinatario: 0000155300000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 346,
+        "_fecha_carga": "19/06/2026 20:42",
+        "_origen": "grupo",
+        "_pie": "Nicole Guadalupe Da Silva\nCUIT/CUIL: 27-43172482-6\nMercado Pago\nCVU: 0000003100089976714223"
       }
     ],
     "errores": [],
