@@ -87330,6 +87330,28 @@
         "_fecha_carga": "19/06/2026 00:18",
         "_origen": "grupo",
         "_pie": "44-585-341"
+      },
+      {
+        "fecha": "15/06/2026",
+        "hora": "20:27",
+        "tipo": "TRF",
+        "monto": 200000.0,
+        "moneda": "ARS",
+        "remitente": "Juan Pablo Quiroz",
+        "remitente_cuil": "20-26206205-9",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Naranja X",
+        "banco_destino": "Cuenta Virtual",
+        "referencia": "ORD6LEN8PYRO63MGNM1Y30",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CBU origen: 4530000800019167166531. CVU destino: 0000155300000000009977. CUIL destinatario: 30-71728225-2. Código de transacción: 758f558a-e539-4b8d-b7dd-4d3cb1af4934",
+        "_num": 1999,
+        "_fecha_carga": "19/06/2026 00:18",
+        "_origen": "grupo",
+        "_pie": "Juan Pablo Quiroz\nNaranja X\n4530000800019167166531\n20-26206205-9"
       }
     ],
     "errores": [],
