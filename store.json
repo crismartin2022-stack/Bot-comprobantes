@@ -81178,6 +81178,28 @@
         "_fecha_carga": "18/06/2026 23:39",
         "_origen": "grupo",
         "_pie": "Transacción 84dae647-abca-4894-8b75-9ecae90e8451 - - ARS 900.000,00"
+      },
+      {
+        "fecha": "15/06/2026",
+        "hora": "10:19",
+        "tipo": "TRF",
+        "monto": 720000.0,
+        "moneda": "ARS",
+        "remitente": "AQUILES ALEJANDRO COPPINI",
+        "remitente_cuil": "",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Ualá",
+        "banco_destino": "",
+        "referencia": "WY7ZEPN6MKXYM60Q2Q0M51",
+        "concepto": "VAR",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CBU destino: 0000155300000000009977. CUIT destino: 30717282252 (Sasteup Srl).",
+        "_num": 1720,
+        "_fecha_carga": "18/06/2026 23:40",
+        "_origen": "grupo",
+        "_pie": "Aquiles Copini\nDNI 45942453"
       }
     ],
     "errores": [],
