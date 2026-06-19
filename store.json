@@ -52938,6 +52938,28 @@
         "_fecha_carga": "19/06/2026 20:52",
         "_origen": "grupo",
         "_pie": "Coronel Leandro 35354238"
+      },
+      {
+        "fecha": "17/06/2026",
+        "hora": "22:21",
+        "tipo": "TRF",
+        "monto": 50000.0,
+        "moneda": "ARS",
+        "remitente": "Noelia Lujan Quispe",
+        "remitente_cuil": "27-38161947-3",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "164631386516",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: LOEJWV9JZ3DKRJVZ2QMD0G. CVU origen: 0000003100072376422407. CVU destino: 0000155300000000009977",
+        "_num": 417,
+        "_fecha_carga": "19/06/2026 20:52",
+        "_origen": "grupo",
+        "_pie": "Noelia Quispe \n38161947"
       }
     ],
     "errores": [],
