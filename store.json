@@ -78114,6 +78114,28 @@
         "_fecha_carga": "18/06/2026 23:19",
         "_origen": "grupo",
         "_pie": "Franco daniel cordoba\n36187831"
+      },
+      {
+        "fecha": "13/06/2026",
+        "hora": "10:59",
+        "tipo": "TRF",
+        "monto": 250000.0,
+        "moneda": "ARS",
+        "remitente": "Guillermo Ariel Robledo",
+        "remitente_cuil": "20-29835333-5",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Naranja X",
+        "banco_destino": "Cuenta Virtual",
+        "referencia": "D4RO172VZQ80Z370NKJ3QE",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CBU origen: 4530000800014884233414. CVU destino: 0000155300000000009977. CUIL destinatario: 30-71728225-2. Código de transacción: d8cf4455-8651-4eaf-8a2a-eae1373ff2ae.",
+        "_num": 1581,
+        "_fecha_carga": "18/06/2026 23:20",
+        "_origen": "grupo",
+        "_pie": "Guillermo ariel robledo\n29835333"
       }
     ],
     "errores": [],
