@@ -70314,6 +70314,28 @@
         "_fecha_carga": "18/06/2026 22:31",
         "_origen": "grupo",
         "_pie": "De:\nEVELYN MION\nCUIT 27-38893919-8"
+      },
+      {
+        "fecha": "14/06/2026",
+        "hora": "00:49",
+        "tipo": "TRF",
+        "monto": 375000.0,
+        "moneda": "ARS",
+        "remitente": "Molina, Yamila Antonella",
+        "remitente_cuil": "27-39154409-9",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Personal Pay",
+        "banco_destino": "",
+        "referencia": "2741838667",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CoelsaID: Z4K6DVNOWYWGEKP125J8LQ - Id Bancario. CUIL/CUIT destinatario: 30-71728225-2. CBU/CVU destinatario: 00001553000000000009977",
+        "_num": 1227,
+        "_fecha_carga": "18/06/2026 22:31",
+        "_origen": "grupo",
+        "_pie": "Molina, Yamila Antonella\nCUIL/CUIT 27-39154409-9"
       }
     ],
     "errores": [],
