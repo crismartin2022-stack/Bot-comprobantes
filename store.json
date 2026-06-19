@@ -77608,6 +77608,28 @@
         "_fecha_carga": "18/06/2026 23:16",
         "_origen": "grupo",
         "_pie": "Nahuel nicolas sosa\n47163862"
+      },
+      {
+        "fecha": "12/06/2026",
+        "hora": "00:24",
+        "tipo": "TRF",
+        "monto": 38000.0,
+        "moneda": "ARS",
+        "remitente": "Juan Cruz Amundarain",
+        "remitente_cuil": "20-39321823-2",
+        "destinatario": "SASTEUP SRL",
+        "banco_origen": "Brubank",
+        "banco_destino": "",
+        "referencia": "",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CBU/CVU del destinatario: 0000155300000000009977. CUIT/CUIL del destinatario: 30-71728225-2. Entidad destino: CVU. Cuenta destino: Caja de ahorro en pesos.",
+        "_num": 1558,
+        "_fecha_carga": "18/06/2026 23:16",
+        "_origen": "grupo",
+        "_pie": "Juan cruz amundarain \n39321823"
       }
     ],
     "errores": [],
