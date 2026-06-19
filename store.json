@@ -85103,6 +85103,28 @@
         "_fecha_carga": "19/06/2026 00:04",
         "_origen": "grupo",
         "_pie": "Gustavo Adrián Lange 31113339"
+      },
+      {
+        "fecha": "15/06/2026",
+        "hora": "13:35",
+        "tipo": "TRF",
+        "monto": 30000.0,
+        "moneda": "ARS",
+        "remitente": "Paola Soledad Loustau",
+        "remitente_cuil": "27-27296146-3",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Naranja X",
+        "banco_destino": "Cuenta Virtual",
+        "referencia": "3D5W612E6ZX1ZPVG2GXYVR",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CBU origen: 4530000800013028600499. CVU destino: 0000155300000000009977. CUIL destinatario: 30-71728225-2. Código de transacción adicional: 64ad6463-d7f9-4482-aa29-134e91bb4fd2",
+        "_num": 1898,
+        "_fecha_carga": "19/06/2026 00:04",
+        "_origen": "grupo",
+        "_pie": "Paola soledad loustau\n27296146"
       }
     ],
     "errores": [],
