@@ -65771,6 +65771,28 @@
         "_fecha_carga": "18/06/2026 22:01",
         "_origen": "grupo",
         "_pie": ""
+      },
+      {
+        "fecha": "15/06/2026",
+        "hora": "13:09:11",
+        "tipo": "TRF",
+        "monto": 300000.0,
+        "moneda": "ARS",
+        "remitente": "",
+        "remitente_cuil": "",
+        "destinatario": "SASTEUP SRL",
+        "banco_origen": "Banco del Sol",
+        "banco_destino": "",
+        "referencia": "LMORZP908LZ1PX45NEGJ46",
+        "concepto": "Cuota",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": false,
+        "notas": "CVU Destino: 0000155300000000009977. CBU Origen: 3108100900010005480376. Cuenta Origen: CA N° 1000548037. NRO. CTRL.: LMORZP908LZ1PX45NEGJ46",
+        "_num": 1021,
+        "_fecha_carga": "18/06/2026 22:01",
+        "_origen": "grupo",
+        "_pie": ""
       }
     ],
     "errores": [],
