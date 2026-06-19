@@ -79502,6 +79502,28 @@
         "_fecha_carga": "18/06/2026 23:29",
         "_origen": "grupo",
         "_pie": "Andrea rosales 43860910"
+      },
+      {
+        "fecha": "14/06/2026",
+        "hora": "00:28",
+        "tipo": "TRF",
+        "monto": 240000.0,
+        "moneda": "ARS",
+        "remitente": "Andrea Celeste Rosales",
+        "remitente_cuil": "27-43860910-0",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Naranja X",
+        "banco_destino": "Cuenta Virtual",
+        "referencia": "8D0Q619L0W0L7RLVN7JZ5R",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CBU origen: 4530000800011777010428. CVU destino: 0000155300000000009977. CUIL destinatario: 30-71728225-2. Código de transacción: ee011bbd-1b28-417e-8b36-4baa69bae23c",
+        "_num": 1644,
+        "_fecha_carga": "18/06/2026 23:29",
+        "_origen": "grupo",
+        "_pie": "Andrea rosales 43860910"
       }
     ],
     "errores": [],
