@@ -43878,6 +43878,28 @@
         "_fecha_carga": "19/06/2026 19:50",
         "_origen": "grupo",
         "_pie": "Datos de la cuenta: Ance Fernanda Antonella\nDni 43995045\nPlataforma: Pink\nUsuario: Redsol252"
+      },
+      {
+        "fecha": "16/06/2026",
+        "hora": "21:45",
+        "tipo": "TRF",
+        "monto": 40000.0,
+        "moneda": "ARS",
+        "remitente": "Nestor Carlos Alejandro Pardo",
+        "remitente_cuil": "20-35414869-3",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163653755561",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: 3D5W612E6Z0P116Q2GXYVR. CVU origen: 0000003100031155452752. CVU destino: 0000155300000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 6,
+        "_fecha_carga": "19/06/2026 19:51",
+        "_origen": "grupo",
+        "_pie": "Alejandro pardo \n35414869\nCargalos en ganamos.co"
       }
     ],
     "errores": [],
