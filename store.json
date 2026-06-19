@@ -62273,6 +62273,28 @@
         "_fecha_carga": "18/06/2026 21:41",
         "_origen": "grupo",
         "_pie": ""
+      },
+      {
+        "fecha": "14/06/2026",
+        "hora": "01:11",
+        "tipo": "TRF",
+        "monto": 100000.0,
+        "moneda": "ARS",
+        "remitente": "Ramiro David Charette",
+        "remitente_cuil": "20-37255956-0",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "164053306840",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: Z4K6DVNOWYWGZ73125J8LQ. CVU remitente: 0000003100057916205368. CVU destinatario: 0000155300000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 862,
+        "_fecha_carga": "18/06/2026 21:41",
+        "_origen": "grupo",
+        "_pie": ""
       }
     ],
     "errores": [],
