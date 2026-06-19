@@ -88918,6 +88918,28 @@
         "_fecha_carga": "19/06/2026 00:28",
         "_origen": "grupo",
         "_pie": "Diego Fermin Bogado\nCUIT/CUIL: 20-30803198-6"
+      },
+      {
+        "fecha": "16/06/2026",
+        "hora": "00:48",
+        "tipo": "TRF",
+        "monto": 150000.0,
+        "moneda": "ARS",
+        "remitente": "Diego Luis Garcia",
+        "remitente_cuil": "20-25809829-4",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163506678079",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CUIT destinatario: 30-71728225-2. CVU receptor completo: 0000155300000000000009977. Código de identificación: 0V1JXON1LMEQ5V7GNZ64EL",
+        "_num": 2071,
+        "_fecha_carga": "19/06/2026 00:28",
+        "_origen": "grupo",
+        "_pie": "Diego Luis Garcia\nCUIT/CUIL: 20-25809829-4"
       }
     ],
     "errores": [],
