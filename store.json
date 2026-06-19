@@ -85191,6 +85191,28 @@
         "_fecha_carga": "19/06/2026 00:04",
         "_origen": "grupo",
         "_pie": "josé luis gómez 20076120 zeus"
+      },
+      {
+        "fecha": "15/06/2026",
+        "hora": "21:49",
+        "tipo": "TRF",
+        "monto": 800000.0,
+        "moneda": "ARS",
+        "remitente": "Claudia Soledad Aguirre",
+        "remitente_cuil": "27-41594992-3",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Naranja X",
+        "banco_destino": "Cuenta Virtual",
+        "referencia": "46YGOW9M1KPR6XRYNEXD8J",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CBU origen: 4530000800019488073862. CVU destino: 0000155300000000009977. CUIL destinatario: 30-71728225-2. Código de transacción: e4d7117c-ee69-4d88-b90d-e91704085732.",
+        "_num": 1902,
+        "_fecha_carga": "19/06/2026 00:05",
+        "_origen": "grupo",
+        "_pie": "Claudia aguirre \n41594992"
       }
     ],
     "errores": [],
