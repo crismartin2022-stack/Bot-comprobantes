@@ -86999,6 +86999,28 @@
         "_fecha_carga": "19/06/2026 00:16",
         "_origen": "grupo",
         "_pie": ""
+      },
+      {
+        "fecha": "14/06/2026",
+        "hora": "20:42",
+        "tipo": "TRF",
+        "monto": 300000.0,
+        "moneda": "ARS",
+        "remitente": "Eliana Vanesa Lopez",
+        "remitente_cuil": "27-38059081-1",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Naranja X",
+        "banco_destino": "Cuenta Virtual",
+        "referencia": "76V4MR2Z748OWEOYNDEZOL",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CBU origen: 4530000800016150190775. CVU destino: 0000155300000000009977. CUIL destinatario: 30-71728225-2. Código de transacción: 3015bc0d-fb9c-4b3c-a536-33ce5262cf3d",
+        "_num": 1984,
+        "_fecha_carga": "19/06/2026 00:16",
+        "_origen": "grupo",
+        "_pie": "Eliana vanesa Lopez \nDNI 38059081"
       }
     ],
     "errores": [],
