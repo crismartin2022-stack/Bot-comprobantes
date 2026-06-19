@@ -68109,6 +68109,28 @@
         "_fecha_carga": "18/06/2026 22:17",
         "_origen": "grupo",
         "_pie": "Luque Miguez, Ariadna Abigail\nCUIL/CUIT 27-48299541-7"
+      },
+      {
+        "fecha": "13/06/2026",
+        "hora": "19:59",
+        "tipo": "TRF",
+        "monto": 400004.0,
+        "moneda": "ARS",
+        "remitente": "Maria Alejandra Leiva",
+        "remitente_cuil": "27-36023022-3",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163210478197",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: XJ8G7V95DWEPZ1J49EMPYR. CVU remitente: 0000003100043458006297. CVU destinatario: 0000155300000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 1127,
+        "_fecha_carga": "18/06/2026 22:17",
+        "_origen": "grupo",
+        "_pie": "Cesar Daniel Suarez\nCUIT/CUIL: 20-23937652-6"
       }
     ],
     "errores": [],
