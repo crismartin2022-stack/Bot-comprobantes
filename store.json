@@ -49919,6 +49919,28 @@
         "_fecha_carga": "19/06/2026 20:32",
         "_origen": "grupo",
         "_pie": "RUZS SANTIAGO TOMÁS \n42412685S"
+      },
+      {
+        "fecha": "16/06/2026",
+        "hora": "22:32",
+        "tipo": "TRF",
+        "monto": 250000.0,
+        "moneda": "ARS",
+        "remitente": "MARISA DIANA VELAZQUEZ",
+        "remitente_cuil": "38875901",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Ualá",
+        "banco_destino": "",
+        "referencia": "Z0KV87940EXXOD0JNPEYDX",
+        "concepto": "VAR",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CUIT destino: 30717282252. CBU destino: 0000155300000000009977",
+        "_num": 280,
+        "_fecha_carga": "19/06/2026 20:32",
+        "_origen": "grupo",
+        "_pie": "Marisa Velázquez 38875901"
       }
     ],
     "errores": [],
