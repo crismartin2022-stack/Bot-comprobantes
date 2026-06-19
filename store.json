@@ -72850,6 +72850,28 @@
         "_fecha_carga": "18/06/2026 22:46",
         "_origen": "grupo",
         "_pie": "DNI 94678069\nTitular Artemio David romero"
+      },
+      {
+        "fecha": "14/06/2026",
+        "hora": "23:16",
+        "tipo": "TRF",
+        "monto": 250000.0,
+        "moneda": "ARS",
+        "remitente": "Micaela Acosta",
+        "remitente_cuil": "27-37679548-4",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163351946997",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: 1LMP68NKVEKGEJ8P2R7OEV. CVU remitente: 0000003100057615083524. CVU destinatario: 0000155300000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 1342,
+        "_fecha_carga": "18/06/2026 22:46",
+        "_origen": "grupo",
+        "_pie": "Micaela Acosta\nCUIT/CUIL: 27-37679548-4"
       }
     ],
     "errores": [],
