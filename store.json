@@ -52564,6 +52564,28 @@
         "_fecha_carga": "19/06/2026 20:49",
         "_origen": "grupo",
         "_pie": "35990075\nYanina Pérez\nGanamos prichumoon"
+      },
+      {
+        "fecha": "16/06/2026",
+        "hora": "11:59",
+        "tipo": "TRF",
+        "monto": 40000.0,
+        "moneda": "ARS",
+        "remitente": "Maria Fernanda Perea",
+        "remitente_cuil": "23-30641002-4",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "164371441712",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: PDX4OGNYGP5VQEKYN0L6EY. CVU origen: 0000003100042905455002. CVU destino: 0000155300000000009977. CUIT/CUIL destinatario: 30-71728225-2",
+        "_num": 400,
+        "_fecha_carga": "19/06/2026 20:50",
+        "_origen": "grupo",
+        "_pie": "Maria Fernanda Perea\nCUIT/CUIL: 23-30641002-4"
       }
     ],
     "errores": [],
