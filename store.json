@@ -47319,6 +47319,28 @@
         "_fecha_carga": "19/06/2026 20:14",
         "_origen": "grupo",
         "_pie": "Ángel Damián Zurita\nDNI: 16.554.662"
+      },
+      {
+        "fecha": "14/06/2026",
+        "hora": "21:07",
+        "tipo": "TRF",
+        "monto": 50000.0,
+        "moneda": "ARS",
+        "remitente": "Miriam Marcela Campodonico",
+        "remitente_cuil": "27-31879211-4",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "164150973156",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: Z0KV87940E755PKQNPEYDX. CVU origen: 0000003100000091373638. CVU destino: 0000155300000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 162,
+        "_fecha_carga": "19/06/2026 20:15",
+        "_origen": "grupo",
+        "_pie": "Mirian Campodónico \n27318792114"
       }
     ],
     "errores": [],
