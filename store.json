@@ -68395,6 +68395,28 @@
         "_fecha_carga": "18/06/2026 22:19",
         "_origen": "grupo",
         "_pie": "Elvia Antonia Fumachi Rucoba \n 27-94444016-5"
+      },
+      {
+        "fecha": "13/06/2026",
+        "hora": "20:23",
+        "tipo": "TRF",
+        "monto": 500000.02,
+        "moneda": "ARS",
+        "remitente": "Leonardo Ezequiel Villalba",
+        "remitente_cuil": "27-36089060-6",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Naranja X",
+        "banco_destino": "Cuenta Virtual",
+        "referencia": "R7ZG0QNDW1JXEWJ49EXYPO",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de transacción adicional: 686d3b21-8671-4ef9-8836-a716f9e1e897. CBU origen: 4530000800013666289397. CVU destino: 0000155300000000009977. CUIL destinatario: 30-71728225-2",
+        "_num": 1140,
+        "_fecha_carga": "18/06/2026 22:19",
+        "_origen": "grupo",
+        "_pie": "Leonardo Ezequiel Villalba\nNaranja X\n4530000800013666289397\n27-36089060-6"
       }
     ],
     "errores": [],
