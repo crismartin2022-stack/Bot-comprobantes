@@ -78819,6 +78819,28 @@
         "_fecha_carga": "18/06/2026 23:24",
         "_origen": "grupo",
         "_pie": "Braian Damian Gerez\n20356596146\nPlutonos"
+      },
+      {
+        "fecha": "13/06/2026",
+        "hora": "00:16",
+        "tipo": "TRF",
+        "monto": 200000.0,
+        "moneda": "ARS",
+        "remitente": "Emiliano Gaston Castro",
+        "remitente_cuil": "",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Lemon",
+        "banco_destino": "CVU",
+        "referencia": "L18MKX9RXJRGDJDV9O6WYV",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CUIT destinatario: 30717282252. CBU receptor: 0000155300000000009977. ID de la transacción: 36142372-7fe2-409b-87b1-c5ee11df789c. Comprobante emitido por Lemon, powered by Digifin.",
+        "_num": 1613,
+        "_fecha_carga": "18/06/2026 23:24",
+        "_origen": "grupo",
+        "_pie": "Emiliano Gaston Castro CUIL:20-46112894-8 $200.000"
       }
     ],
     "errores": [],
