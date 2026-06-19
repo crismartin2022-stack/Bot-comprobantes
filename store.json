@@ -65177,6 +65177,28 @@
         "_fecha_carga": "18/06/2026 21:58",
         "_origen": "grupo",
         "_pie": ""
+      },
+      {
+        "fecha": "12/06/2026",
+        "hora": "21:36",
+        "tipo": "TRF",
+        "monto": 100000.0,
+        "moneda": "ARS",
+        "remitente": "Franco Agustin Mujica",
+        "remitente_cuil": "20-42674111-4",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163880076554",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: 1LMP68NKVEDD1LDR2R7OEV. CVU destinatario: 0000155300000000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 994,
+        "_fecha_carga": "18/06/2026 21:58",
+        "_origen": "grupo",
+        "_pie": ""
       }
     ],
     "errores": [],
