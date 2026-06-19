@@ -71415,6 +71415,28 @@
         "_fecha_carga": "18/06/2026 22:37",
         "_origen": "grupo",
         "_pie": "Fernandez, Luis Alberto\nCUIL/CUIT 23-29643124-9"
+      },
+      {
+        "fecha": "14/06/2026",
+        "hora": "18:38",
+        "tipo": "TRF",
+        "monto": 70000.0,
+        "moneda": "ARS",
+        "remitente": "Bernardo David Colman",
+        "remitente_cuil": "20-41474843-1",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163317977575",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: 0V1JXON1LMR E6KYGNZ64EL. CVU remitente: 0000003100033842569073. CVU destinatario: 0000155300000000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 1277,
+        "_fecha_carga": "18/06/2026 22:38",
+        "_origen": "grupo",
+        "_pie": "Bernardo David Colman\nCUIT/CUIL: 20-41474843-1"
       }
     ],
     "errores": [],
