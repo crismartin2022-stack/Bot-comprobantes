@@ -62097,6 +62097,28 @@
         "_fecha_carga": "18/06/2026 21:40",
         "_origen": "grupo",
         "_pie": ""
+      },
+      {
+        "fecha": "14/06/2026",
+        "hora": "14:39",
+        "tipo": "TRF",
+        "monto": 20000.0,
+        "moneda": "ARS",
+        "remitente": "Estella Maris Iglesias",
+        "remitente_cuil": "27-24596951-7",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "164105712172",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: 8D0Q619L0W0X4373N7JZ5R. CVU remitente: 0000003100056963109289. CVU destinatario: 0000155300000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 854,
+        "_fecha_carga": "18/06/2026 21:40",
+        "_origen": "grupo",
+        "_pie": ""
       }
     ],
     "errores": [],
