@@ -45776,6 +45776,28 @@
         "_fecha_carga": "19/06/2026 20:04",
         "_origen": "grupo",
         "_pie": "Mario Alfredo Pacheco \n41341222"
+      },
+      {
+        "fecha": "17/06/2026",
+        "hora": "11:05",
+        "tipo": "TRF",
+        "monto": 300000.0,
+        "moneda": "ARS",
+        "remitente": "Cristina Veronica Ruiz",
+        "remitente_cuil": "27-34868571-1",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "164527369538",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: 0V1JXON1LMXGL7VNZ64EL. CVU remitente: 0000003100058003792040. CVU destinatario: 0000155300000000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 92,
+        "_fecha_carga": "19/06/2026 20:04",
+        "_origen": "grupo",
+        "_pie": "Cristina Verónica Ruiz \n34.868.571"
       }
     ],
     "errores": [],
