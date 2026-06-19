@@ -80495,6 +80495,28 @@
         "_fecha_carga": "18/06/2026 23:35",
         "_origen": "grupo",
         "_pie": "Julio Fernando gigena \n29504323"
+      },
+      {
+        "fecha": "14/06/2026",
+        "hora": "02:42",
+        "tipo": "TRF",
+        "monto": 130000.0,
+        "moneda": "ARS",
+        "remitente": "Nilda Aurora Velazquez",
+        "remitente_cuil": "27-11404997-8",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163247922617",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: 86VRPQ2GMLMMGKJ02GLY0M. CVU remitente: 0000003100049656023050. CVU destinatario: 0000155300000000009977. CUIL destinatario: 30-71728225-2.",
+        "_num": 1689,
+        "_fecha_carga": "18/06/2026 23:35",
+        "_origen": "grupo",
+        "_pie": "nilda velazquez\n11404997"
       }
     ],
     "errores": [],
