@@ -59735,6 +59735,28 @@
         "_fecha_carga": "18/06/2026 21:24",
         "_origen": "grupo",
         "_pie": "Melany Carpinacci \n40.303.268"
+      },
+      {
+        "fecha": "14/06/2026",
+        "hora": "12:30",
+        "tipo": "TRF",
+        "monto": 140000.0,
+        "moneda": "ARS",
+        "remitente": "Gallardo, Martin Armando",
+        "remitente_cuil": "20-40918416-3",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Personal Pay",
+        "banco_destino": "",
+        "referencia": "2742352696",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CoelsaID: 7L8GYKNX050G5JEK2MPRZ5 - Id Bancario. CBU/CVU destinatario: 0000155300000000009977. CUIL/CUIT destinatario: 30-71728225-2.",
+        "_num": 747,
+        "_fecha_carga": "18/06/2026 21:25",
+        "_origen": "grupo",
+        "_pie": "Martín gallardo 40918416"
       }
     ],
     "errores": [],
