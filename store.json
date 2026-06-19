@@ -60882,6 +60882,28 @@
         "_fecha_carga": "18/06/2026 21:32",
         "_origen": "grupo",
         "_pie": "virginia celia artiles   27-22123917-8"
+      },
+      {
+        "fecha": "13/06/2026",
+        "hora": "16:18",
+        "tipo": "TRF",
+        "monto": 50000.0,
+        "moneda": "ARS",
+        "remitente": "Virginia Celia Artiles",
+        "remitente_cuil": "",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Lemon",
+        "banco_destino": "CVU",
+        "referencia": "RD06ZO9WVREZP5Y5N5GP7X",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CUIT destinatario: 30717282252. CBU destinatario: 0000155300000000009977. ID de la transacción: 54ab0bc0-7071-4382-ae0b-06d6a5a645f5. Comprobante emitido por Lemon, powered by Digifin.",
+        "_num": 799,
+        "_fecha_carga": "18/06/2026 21:32",
+        "_origen": "grupo",
+        "_pie": "Paez Marcelo Alejandro  20-41236852-6"
       }
     ],
     "errores": [],
