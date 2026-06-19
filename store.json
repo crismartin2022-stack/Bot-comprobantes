@@ -46217,6 +46217,28 @@
         "_fecha_carga": "19/06/2026 20:07",
         "_origen": "grupo",
         "_pie": "Marquez Belén Yelen \n46300903"
+      },
+      {
+        "fecha": "18/06/2026",
+        "hora": "00:39",
+        "tipo": "TRF",
+        "monto": 1000000.0,
+        "moneda": "ARS",
+        "remitente": "Marcos Ezequiel Bazan",
+        "remitente_cuil": "20-39176725-5",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "164641710052",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: 76V4MR2Z740LXEXYNDEZOL. CVU origen: 0000003100030566159287. CVU destino: 0000155300000000000009977.",
+        "_num": 112,
+        "_fecha_carga": "19/06/2026 20:07",
+        "_origen": "grupo",
+        "_pie": "Msruqez Nahuel"
       }
     ],
     "errores": [],
