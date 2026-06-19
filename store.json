@@ -68417,6 +68417,28 @@
         "_fecha_carga": "18/06/2026 22:19",
         "_origen": "grupo",
         "_pie": "Leonardo Ezequiel Villalba\nNaranja X\n4530000800013666289397\n27-36089060-6"
+      },
+      {
+        "fecha": "13/06/2026",
+        "hora": "20:24",
+        "tipo": "TRF",
+        "monto": 500000.03,
+        "moneda": "ARS",
+        "remitente": "Leonardo Ezequiel Villalba",
+        "remitente_cuil": "27-36089060-6",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Naranja X",
+        "banco_destino": "Cuenta Virtual",
+        "referencia": "ORD6LEN8PY7LJG5PNM1Y30",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CVU destinatario: 0000155300000000009977. CUIL destinatario: 30-71728225-2. Código de transacción: 48512671-f82c-422f-a24f-e3567e5266dc",
+        "_num": 1141,
+        "_fecha_carga": "18/06/2026 22:19",
+        "_origen": "grupo",
+        "_pie": "Leonardo Ezequiel Villalba \n27-36089060-6"
       }
     ],
     "errores": [],
