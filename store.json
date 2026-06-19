@@ -79524,6 +79524,28 @@
         "_fecha_carga": "18/06/2026 23:29",
         "_origen": "grupo",
         "_pie": "Andrea rosales 43860910"
+      },
+      {
+        "fecha": "13/06/2026",
+        "hora": "14:19",
+        "tipo": "TRF",
+        "monto": 70000.0,
+        "moneda": "ARS",
+        "remitente": "Rocio Pamela Oberti",
+        "remitente_cuil": "27-37355800-7",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163965826092",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: 67REZ8NPQ61L0ZE494KVGO. CUIT destinatario: 30-71728225-2. CVU destinatario: 0000155300000000000009977",
+        "_num": 1645,
+        "_fecha_carga": "18/06/2026 23:29",
+        "_origen": "grupo",
+        "_pie": "Rocio oberti 37355800"
       }
     ],
     "errores": [],
