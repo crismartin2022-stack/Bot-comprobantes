@@ -53645,6 +53645,28 @@
         "_fecha_carga": "19/06/2026 20:57",
         "_origen": "grupo",
         "_pie": "Ayala maría \n32179584"
+      },
+      {
+        "fecha": "15/06/2026",
+        "hora": "14:16",
+        "tipo": "TRF",
+        "monto": 15000.0,
+        "moneda": "ARS",
+        "remitente": "Gaston Gonzalez Gramajo",
+        "remitente_cuil": "20-37443763-2",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163425085939",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: 67REZ8NPQ6KYVKX194KVGO. CVU remitente: 0000003100079956878094. CVU destinatario: 0000155300000000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 449,
+        "_fecha_carga": "19/06/2026 20:57",
+        "_origen": "grupo",
+        "_pie": "Gastón González gramajo \n20-37443763-2"
       }
     ],
     "errores": [],
