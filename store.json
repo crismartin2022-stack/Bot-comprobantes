@@ -52299,6 +52299,28 @@
         "_fecha_carga": "19/06/2026 20:48",
         "_origen": "grupo",
         "_pie": ""
+      },
+      {
+        "fecha": "14/06/2026",
+        "hora": "21:37",
+        "tipo": "TRF",
+        "monto": 300000.0,
+        "moneda": "ARS",
+        "remitente": "Lucas Alberto Cuevas",
+        "remitente_cuil": "20-42289798-5",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "164154439258",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: RD06ZO9WVR4YEZXKN5GP7X. CVU origen: 0000003100001908971520. CVU destino: 0000155300000000009977. CUIT/CUIL destinatario: 30-71728225-2.",
+        "_num": 388,
+        "_fecha_carga": "19/06/2026 20:48",
+        "_origen": "grupo",
+        "_pie": "Lucas Pomiglio: 20-41568721-5"
       }
     ],
     "errores": [],
