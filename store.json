@@ -49809,6 +49809,28 @@
         "_fecha_carga": "19/06/2026 20:31",
         "_origen": "grupo",
         "_pie": "Valentina Riveros Martínez \n46839421"
+      },
+      {
+        "fecha": "16/06/2026",
+        "hora": "13:26",
+        "tipo": "TRF",
+        "monto": 180000.0,
+        "moneda": "ARS",
+        "remitente": "Aramburu, Gimena Beln",
+        "remitente_cuil": "27-41489768-7",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Personal Pay",
+        "banco_destino": "",
+        "referencia": "2748608338",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CoelsaID: 86VRPQ2GMLYJO47L2GLY0M - Id Bancario. CBU/CVU destinatario: 0000155300000000009977. CUIL/CUIT destinatario: 30-71728225-2.",
+        "_num": 275,
+        "_fecha_carga": "19/06/2026 20:31",
+        "_origen": "grupo",
+        "_pie": "Gimena belen Aramburu \n41489768"
       }
     ],
     "errores": [],
