@@ -62955,6 +62955,28 @@
         "_fecha_carga": "18/06/2026 21:45",
         "_origen": "grupo",
         "_pie": ""
+      },
+      {
+        "fecha": "14/06/2026",
+        "hora": "15:45",
+        "tipo": "TRF",
+        "monto": 20000.0,
+        "moneda": "ARS",
+        "remitente": "Natalia Vanesa Safita",
+        "remitente_cuil": "27-31305195-7",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Naranja X",
+        "banco_destino": "Cuenta Virtual",
+        "referencia": "0V1JXON1LML M0Y1GNZ64EL",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CBU origen: 4530000800017891871787. CVU destino: 0000155300000000009977. CUIL destinatario: 30-71728225-2. Código de transacción: da2fc214-f240-48fe-9600-b710b57900df. COELSA ID: 0V1JXON1LMLM0Y1GNZ64EL",
+        "_num": 893,
+        "_fecha_carga": "18/06/2026 21:45",
+        "_origen": "grupo",
+        "_pie": ""
       }
     ],
     "errores": [],
