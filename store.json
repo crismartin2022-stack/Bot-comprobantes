@@ -59847,6 +59847,28 @@
         "_fecha_carga": "18/06/2026 21:25",
         "_origen": "grupo",
         "_pie": "Albornoz Paola del valle \n29639614"
+      },
+      {
+        "fecha": "14/06/2026",
+        "hora": "23:51",
+        "tipo": "TRF",
+        "monto": 40000.0,
+        "moneda": "ARS",
+        "remitente": "Walter Fidel Lopez",
+        "remitente_cuil": "20-41480285-1",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163354483157",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: 8D0Q619L0W3RLPD3N7JZ5R. CVU remitente: 0000003100017095691912. CVU destinatario: 0000155300000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 752,
+        "_fecha_carga": "18/06/2026 21:25",
+        "_origen": "grupo",
+        "_pie": "Walter lopez 41480285"
       }
     ],
     "errores": [],
