@@ -49853,6 +49853,28 @@
         "_fecha_carga": "19/06/2026 20:31",
         "_origen": "grupo",
         "_pie": "Camila Benítez 43814218"
+      },
+      {
+        "fecha": "16/06/2026",
+        "hora": "15:58",
+        "tipo": "TRF",
+        "monto": 150000.0,
+        "moneda": "ARS",
+        "remitente": "Camila Aylen Benitez",
+        "remitente_cuil": "27-43814218-0",
+        "destinatario": "SASTEUP SRL",
+        "banco_origen": "Brubank",
+        "banco_destino": "",
+        "referencia": "",
+        "concepto": "Envío de dinero",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Transferencia a CVU. CBU/CVU destino: 0000155300000000009977. CUIT/CUIL destinatario: 30-71728225-2. Cuenta origen: Caja de ahorro en pesos.",
+        "_num": 277,
+        "_fecha_carga": "19/06/2026 20:31",
+        "_origen": "grupo",
+        "_pie": "Camila Benítez 43814218"
       }
     ],
     "errores": [],
