@@ -79039,6 +79039,28 @@
         "_fecha_carga": "18/06/2026 23:26",
         "_origen": "grupo",
         "_pie": "ENZO GABRIEL ALBARRACIN 23-43056491-9 1OO.OOO"
+      },
+      {
+        "fecha": "13/06/2026",
+        "hora": "16:14",
+        "tipo": "TRF",
+        "monto": 100000.0,
+        "moneda": "ARS",
+        "remitente": "Cristian Emanuel Reynoso",
+        "remitente_cuil": "20-39288696-7",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163984596530",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: JMQKYZ9QQV4R44QV9V50P3. CVU destinatario: 0000155300000000009977. CVU remitente: 0000003100018708325453",
+        "_num": 1623,
+        "_fecha_carga": "18/06/2026 23:26",
+        "_origen": "grupo",
+        "_pie": "Cristian Emanuel Reynoso CUIL: 20-39288696-7 1OO.OOO"
       }
     ],
     "errores": [],
