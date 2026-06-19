@@ -51724,6 +51724,28 @@
         "_fecha_carga": "19/06/2026 20:44",
         "_origen": "grupo",
         "_pie": "Acosta, Brian Nestor\n20-47017028-0\nPersonal Pay"
+      },
+      {
+        "fecha": "15/06/2026",
+        "hora": "04:49",
+        "tipo": "TRF",
+        "monto": 100000.0,
+        "moneda": "ARS",
+        "remitente": "Marcela Claudia Rodriguez",
+        "remitente_cuil": "27-18625403-7",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "164179605680",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: ORD6LEN8PY8EZGP0NM1Y30. CVU origen: 0000003100072127836172. CVU destino: 0000155300000000009977.",
+        "_num": 362,
+        "_fecha_carga": "19/06/2026 20:44",
+        "_origen": "grupo",
+        "_pie": "Marcela Claudia Rodriguez\nCUIT/CUIL: 27-18525403-7"
       }
     ],
     "errores": [],
