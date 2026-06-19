@@ -82257,6 +82257,28 @@
         "_fecha_carga": "18/06/2026 23:46",
         "_origen": "grupo",
         "_pie": "Federico Jofre 35200029"
+      },
+      {
+        "fecha": "14/06/2026",
+        "hora": "23:55",
+        "tipo": "TRF",
+        "monto": 2000000.0,
+        "moneda": "ARS",
+        "remitente": "Federico Ruben Jofre",
+        "remitente_cuil": "23-35200029-9",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163355172349",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: D4RO172VZQP0EX4KNKJ3QE. CUIT destinatario: 30-71728225-2. CVU remitente: 0000003100023036323844. CVU destinatario: 0000155300000000009977.",
+        "_num": 1769,
+        "_fecha_carga": "18/06/2026 23:46",
+        "_origen": "grupo",
+        "_pie": "Shaka s.r.l"
       }
     ],
     "errores": [],
