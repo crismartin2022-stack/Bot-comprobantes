@@ -78775,6 +78775,28 @@
         "_fecha_carga": "18/06/2026 23:24",
         "_origen": "grupo",
         "_pie": "Gaston Cruz Moyano\n20-46306077-1"
+      },
+      {
+        "fecha": "12/06/2026",
+        "hora": "21:35",
+        "tipo": "TRF",
+        "monto": 130000.0,
+        "moneda": "ARS",
+        "remitente": "Karen Ivana Prado",
+        "remitente_cuil": "",
+        "destinatario": "SASTEUP SRL",
+        "banco_origen": "Reba",
+        "banco_destino": "",
+        "referencia": "30477426",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CBU origen: 4150999718015967720024. CBU/cuenta destino: 0000155300000000009977. CUIT destinatario: 30717282252. Comprobante emitido por Reba.",
+        "_num": 1611,
+        "_fecha_carga": "18/06/2026 23:24",
+        "_origen": "grupo",
+        "_pie": "39824899"
       }
     ],
     "errores": [],
