@@ -44450,6 +44450,28 @@
         "_fecha_carga": "19/06/2026 19:54",
         "_origen": "grupo",
         "_pie": "Maximiliano Fioriti DNI 36443205"
+      },
+      {
+        "fecha": "16/06/2026",
+        "hora": "23:56",
+        "tipo": "TRF",
+        "monto": 100000.0,
+        "moneda": "ARS",
+        "remitente": "Julieta Anahi Otazo",
+        "remitente_cuil": "27-44331955-2",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "164481496990",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: Z0KV87940EXDYP7DNPEYDX. CVU origen: 0000003100063653210534. CVU destino: 0000155300000000009977. CUIT/CUIL destinatario: 30-71728225-2.",
+        "_num": 32,
+        "_fecha_carga": "19/06/2026 19:54",
+        "_origen": "grupo",
+        "_pie": "Julieta Otazo \n443319552 \nPlutonos"
       }
     ],
     "errores": [],
