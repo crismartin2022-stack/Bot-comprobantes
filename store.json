@@ -48992,6 +48992,28 @@
         "_fecha_carga": "19/06/2026 20:26",
         "_origen": "grupo",
         "_pie": "PATRICIA ELIZABETH ENRIQUE\nD.N.I.: 18.029.576"
+      },
+      {
+        "fecha": "15/06/2026",
+        "hora": "23:56",
+        "tipo": "TRF",
+        "monto": 500000.98,
+        "moneda": "ARS",
+        "remitente": "Micaela Rocio Correa",
+        "remitente_cuil": "27-41362259-5",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "164317206264",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: D4RO172VZQWX6PJVNKJ3QE. CVU remitente: 0000003100089855005831. CVU destinatario: 0000155300000000009977",
+        "_num": 238,
+        "_fecha_carga": "19/06/2026 20:26",
+        "_origen": "grupo",
+        "_pie": "Micaela Rocio Correa\nDNI: 41.362.259"
       }
     ],
     "errores": [],
