@@ -81156,6 +81156,28 @@
         "_fecha_carga": "18/06/2026 23:39",
         "_origen": "grupo",
         "_pie": ""
+      },
+      {
+        "fecha": "14/06/2026",
+        "hora": "22:59:53",
+        "tipo": "TRF",
+        "monto": 900000.0,
+        "moneda": "ARS",
+        "remitente": "HORIZONTE BLT S.A.S.",
+        "remitente_cuil": "30-71876498-6",
+        "destinatario": "SASTEUP SRL",
+        "banco_origen": "",
+        "banco_destino": "",
+        "referencia": "84dae647-abca-4894-8b75-9ecae90e8451",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código COELSA: L18MKX9RXJPW57Y19O6WYV. CBU remitente: 0000151500034588529161. CBU destinatario: 0000155300000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 1719,
+        "_fecha_carga": "18/06/2026 23:39",
+        "_origen": "grupo",
+        "_pie": "Transacción 84dae647-abca-4894-8b75-9ecae90e8451 - - ARS 900.000,00"
       }
     ],
     "errores": [],
