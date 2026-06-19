@@ -51968,6 +51968,28 @@
         "_fecha_carga": "19/06/2026 20:45",
         "_origen": "grupo",
         "_pie": "Rodrigo Leonel Cuellar\nCUIT/CUIL: 20-48169259-9"
+      },
+      {
+        "fecha": "",
+        "hora": "",
+        "tipo": "TRF",
+        "monto": 3900000.0,
+        "moneda": "ARS",
+        "remitente": "AGRO STORINO ELICHIRI CYNTIA ANTONE",
+        "remitente_cuil": "",
+        "destinatario": "SASTEUP SRL",
+        "banco_origen": "",
+        "banco_destino": "",
+        "referencia": "69fbd64a-4372-4216-800f-a481075ede9a",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CVU destino: 0000155300000000009977. CUIT destino (SASTEUP SRL): 30717282252. La fecha no es visible en el comprobante. El campo Destino (CBU) aparece vacío.",
+        "_num": 373,
+        "_fecha_carga": "19/06/2026 20:46",
+        "_origen": "grupo",
+        "_pie": "AGRO STORINO ELICHIRI CYNTIA ANTONE"
       }
     ],
     "errores": [],
