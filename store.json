@@ -80429,6 +80429,28 @@
         "_fecha_carga": "18/06/2026 23:35",
         "_origen": "grupo",
         "_pie": "Noelia Quispe \n38161947"
+      },
+      {
+        "fecha": "13/06/2026",
+        "hora": "20:34",
+        "tipo": "TRF",
+        "monto": 440000.0,
+        "moneda": "ARS",
+        "remitente": "Carlos Alberto Ialea",
+        "remitente_cuil": "20-33799870-5",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Naranja X",
+        "banco_destino": "Cuenta Virtual",
+        "referencia": "LOEJWV9JZ3L4D0EM2QMD0G",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CBU origen: 4530000800018348292421. CVU destino: 0000155300000000009977. CUIL destinatario: 30-71728225-2. Código de transacción: 81e95053-3f93-4d83-b39a-678845d8a848",
+        "_num": 1686,
+        "_fecha_carga": "18/06/2026 23:35",
+        "_origen": "grupo",
+        "_pie": "Carlos Alberto ialea \n33799870"
       }
     ],
     "errores": [],
