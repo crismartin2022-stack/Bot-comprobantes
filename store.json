@@ -75914,6 +75914,28 @@
         "_fecha_carga": "18/06/2026 23:05",
         "_origen": "grupo",
         "_pie": "Damian Alejandro Mansilla\nCuenta Claro Pay\nCVU: 0000085700204865947652\nAlias: 20486594765.claropay"
+      },
+      {
+        "fecha": "12/06/2024",
+        "hora": "0:34",
+        "tipo": "TRF",
+        "monto": 20000.0,
+        "moneda": "ARS",
+        "remitente": "Damian Alejandro Mansilla",
+        "remitente_cuil": "",
+        "destinatario": "SASTEUP SRL",
+        "banco_origen": "Claro Pay",
+        "banco_destino": "Lohas",
+        "referencia": "WB260612.0034.E81453",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CVU remitente: 0000085700204865947652. CVU destinatario: 0000155300000000009977. CUIT destinatario: 30-71728225-2. Alias remitente: 20486594765.claropay. N° operación COELSA: RD06ZO9WV7JLXYK3N5GP7X",
+        "_num": 1481,
+        "_fecha_carga": "18/06/2026 23:05",
+        "_origen": "grupo",
+        "_pie": "Damian Alejandro Mansilla\nCuenta Claro Pay\nCVU: 0000085700204865947652\nAlias: 20486594765.claropay"
       }
     ],
     "errores": [],
