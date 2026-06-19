@@ -52872,6 +52872,28 @@
         "_fecha_carga": "19/06/2026 20:52",
         "_origen": "grupo",
         "_pie": "Jonathan David Caponnetto\nNaranja X\nCBU\n4530000800018927276668\nCUIL\n23-36258799-9"
+      },
+      {
+        "fecha": "17/06/2026",
+        "hora": "11:58",
+        "tipo": "TRF",
+        "monto": 20000.0,
+        "moneda": "ARS",
+        "remitente": "Jonathan David Caponnetto",
+        "remitente_cuil": "23-36258799-9",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Naranja X",
+        "banco_destino": "Cuenta Virtual",
+        "referencia": "LOEJWV9JZ3WXDY332QMD0G",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CBU origen: 4530000800018927276668. CVU destino: 0000155300000000009977. Código de transacción: 8ffcc0f4-5695-479a-9fa0-20ce4845f932. CUIL destinatario: 30-71728225-2.",
+        "_num": 414,
+        "_fecha_carga": "19/06/2026 20:52",
+        "_origen": "grupo",
+        "_pie": "Jonathan David Caponnetto\n2336257999\nPlutonos"
       }
     ],
     "errores": [],
