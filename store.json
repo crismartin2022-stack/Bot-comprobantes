@@ -68351,6 +68351,28 @@
         "_fecha_carga": "18/06/2026 22:18",
         "_origen": "grupo",
         "_pie": "candela soledad sotelo \n47.119.484"
+      },
+      {
+        "fecha": "13/06/2026",
+        "hora": "20:58",
+        "tipo": "TRF",
+        "monto": 80000.0,
+        "moneda": "ARS",
+        "remitente": "Juan Elias Marquez De Olivera",
+        "remitente_cuil": "20-36520946-5",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "164027167350",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CUIT destinatario: 30-71728225-2. CVU remitente: 0000003100081086392324. CVU receptor: 0000155300000000000009977. Código de identificación: RD06ZO9WVR16VYW5N5GP7X",
+        "_num": 1138,
+        "_fecha_carga": "18/06/2026 22:19",
+        "_origen": "grupo",
+        "_pie": "Juan Elias Marquez De Olivera\nCUIT/CUIL: 20-36520946-5"
       }
     ],
     "errores": [],
