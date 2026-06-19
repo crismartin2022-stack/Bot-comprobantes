@@ -77102,6 +77102,28 @@
         "_fecha_carga": "18/06/2026 23:13",
         "_origen": "grupo",
         "_pie": "Maria Noelia Aguero Villagran\nCUIT/CUIL: 27-32415051-5\nMercado Pago\nCVU: 0000003100014770248878"
+      },
+      {
+        "fecha": "13/06/2026",
+        "hora": "14:13",
+        "tipo": "TRF",
+        "monto": 100000.0,
+        "moneda": "ARS",
+        "remitente": "Daiana Beatriz Echague",
+        "remitente_cuil": "27-38133266-2",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Prex",
+        "banco_destino": "BANCO COINAG S.A.",
+        "referencia": "LMORZP908LK7VZ36NEGJ46",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CVU origen (Prex): 0000013000032205426846. CBU/CVU destino (Banco Coinag): 0000155300000000009977. CUIL/CUIT destinatario: 30-71728225-2.",
+        "_num": 1535,
+        "_fecha_carga": "18/06/2026 23:13",
+        "_origen": "grupo",
+        "_pie": "Daiana Beatriz Echague \nCUIL/CUIT \n27-38133266-2"
       }
     ],
     "errores": [],
