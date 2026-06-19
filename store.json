@@ -75716,6 +75716,28 @@
         "_fecha_carga": "18/06/2026 23:04",
         "_origen": "grupo",
         "_pie": "CUIT destino\n30717282252\nNombre remitente\nDesiree Anabel Toranzo\nConcepto\nVAR"
+      },
+      {
+        "fecha": "12/06/2026",
+        "hora": "18:58",
+        "tipo": "TRF",
+        "monto": 390000.0,
+        "moneda": "ARS",
+        "remitente": "Viviana d valle Gonzalez",
+        "remitente_cuil": "",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Ualá",
+        "banco_destino": "",
+        "referencia": "67REZ8NPQV6Z1RW194KVGO",
+        "concepto": "VAR",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CBU destino: 0000155300000000009977. CUIT destino: 30717282252",
+        "_num": 1472,
+        "_fecha_carga": "18/06/2026 23:04",
+        "_origen": "grupo",
+        "_pie": "CUIT destino\n30717282252\nNombre remitente\nDesiree Anabel Toranzo\nConcepto\nVAR"
       }
     ],
     "errores": [],
