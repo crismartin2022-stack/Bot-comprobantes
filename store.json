@@ -51284,6 +51284,28 @@
         "_fecha_carga": "19/06/2026 20:41",
         "_origen": "grupo",
         "_pie": "Rocio oberti 37355800"
+      },
+      {
+        "fecha": "17/06/2026",
+        "hora": "00:42",
+        "tipo": "TRF",
+        "monto": 195000.0,
+        "moneda": "ARS",
+        "remitente": "Anselmo German Martinez",
+        "remitente_cuil": "30717282252",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Ualá",
+        "banco_destino": "",
+        "referencia": "3D5W612E6Z05RQYQ2GXYVR",
+        "concepto": "VAR",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CBU destino: 0000155300000000009977. CUIT destino (Sasteup Srl): 30717282252. No se visualiza CUIL del remitente en el comprobante.",
+        "_num": 342,
+        "_fecha_carga": "19/06/2026 20:41",
+        "_origen": "grupo",
+        "_pie": "CUIT destino\nNombre remitente\nConcepto\nId Op.\nComprobante de transferencia\n17/06/2026 00:42 hs\n$195.000,00\nSasteup Srl\n0000155300000000009977\n30717282252\nAnselmo German Martinez"
       }
     ],
     "errores": [],
