@@ -44717,6 +44717,28 @@
         "_fecha_carga": "19/06/2026 19:56",
         "_origen": "grupo",
         "_pie": "200 k (Tony90) \n*Sasteup Srl* \n16/6 \nHernán Ariel Alvarenga \n23-37790603-9"
+      },
+      {
+        "fecha": "16/06/2026",
+        "hora": "23:32",
+        "tipo": "TRF",
+        "monto": 56000.0,
+        "moneda": "ARS",
+        "remitente": "Dahyana Maribel Albarracin",
+        "remitente_cuil": "27-38002223-6",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Naranja X",
+        "banco_destino": "Cuenta Virtual",
+        "referencia": "D4RO172VZQVM8P7RNKJ3QE",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de transacción: ee28ceab-d78b-4317-8395-260159d9f83b. CBU origen: 4530000800016617991688. CVU destino: 0000155300000000009977. CUIL destinatario: 30-71728225-2.",
+        "_num": 44,
+        "_fecha_carga": "19/06/2026 19:56",
+        "_origen": "grupo",
+        "_pie": "56 k (Tony90)\n*SASTEUP SRL*\n16/06\nDahyana Albarracín \n27-38002223-6"
       }
     ],
     "errores": [],
