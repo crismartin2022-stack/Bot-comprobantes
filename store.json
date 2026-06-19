@@ -71921,6 +71921,28 @@
         "_fecha_carga": "18/06/2026 22:41",
         "_origen": "grupo",
         "_pie": "JUAN PABLO DIAZ \nCUIL: 20-44141674-2"
+      },
+      {
+        "fecha": "14/06/2026",
+        "hora": "20:15",
+        "tipo": "TRF",
+        "monto": 500000.05,
+        "moneda": "ARS",
+        "remitente": "Brian Joel Peloso",
+        "remitente_cuil": "",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Ualá",
+        "banco_destino": "BILLETERA VIRTUAL",
+        "referencia": "5d1c985b-6385-0872-6992-1116cf175462",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CVU destino: 0000155300000000009977. CBU emisor: 384020050000003916594. CUIT/CUIL destino: 30-71728225-2. Comentario: Transferencia en pesos.",
+        "_num": 1300,
+        "_fecha_carga": "18/06/2026 22:41",
+        "_origen": "grupo",
+        "_pie": "Brian Joel Peloso\nD.N.I 36.079.150"
       }
     ],
     "errores": [],
