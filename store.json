@@ -83934,6 +83934,28 @@
         "_fecha_carga": "18/06/2026 23:57",
         "_origen": "grupo",
         "_pie": "300 k (Tony90) \n*Sasteup Srl* \n13/6 \nMaximiliano Mansilla\n20-34957607-5"
+      },
+      {
+        "fecha": "13/06/2026",
+        "hora": "21:53",
+        "tipo": "TRF",
+        "monto": 200000.0,
+        "moneda": "ARS",
+        "remitente": "Acuña Molinas, Nilza",
+        "remitente_cuil": "27-94802177-9",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Personal Pay",
+        "banco_destino": "",
+        "referencia": "2741521581",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CoelsaID: LMORZP908L5610ERNEGJ46 - Id Bancario. CUIL/CUIT destinatario: 30-71728225-2. CBU/CVU receptor: 0000155300000000009977",
+        "_num": 1845,
+        "_fecha_carga": "18/06/2026 23:57",
+        "_origen": "grupo",
+        "_pie": ""
       }
     ],
     "errores": [],
