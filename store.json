@@ -79988,6 +79988,28 @@
         "_fecha_carga": "18/06/2026 23:32",
         "_origen": "grupo",
         "_pie": "leandro artigas\n31560335"
+      },
+      {
+        "fecha": "13/06/2026",
+        "hora": "07:34",
+        "tipo": "TRF",
+        "monto": 106000.0,
+        "moneda": "ARS",
+        "remitente": "Ezequiel Jose Maria Finocchi",
+        "remitente_cuil": "",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Lemon",
+        "banco_destino": "CVU",
+        "referencia": "LOEJWV9JZ3Y1Z7ER2QMD0G",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CUIT destinatario: 30717282252. CBU destinatario: 0000155300000000009977. ID de la transacción: 3ec7fbf9-66c6-4efa-92f9-470eb3949164. Comprobante emitido por Lemon powered by Digifin.",
+        "_num": 1666,
+        "_fecha_carga": "18/06/2026 23:32",
+        "_origen": "grupo",
+        "_pie": "ezequiel finocchi\n26373742"
       }
     ],
     "errores": [],
