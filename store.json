@@ -54021,6 +54021,28 @@
         "_fecha_carga": "19/06/2026 20:59",
         "_origen": "grupo",
         "_pie": "GABRIELA ROCIO CASTILLO\nCUIL: 27-43588296-5"
+      },
+      {
+        "fecha": "16/06/2026",
+        "hora": "11:02",
+        "tipo": "TRF",
+        "monto": 200000.0,
+        "moneda": "ARS",
+        "remitente": "Julieta Abigail Caballero",
+        "remitente_cuil": "27-47118920-6",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "164362804676",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: 7L8GYKNX05MDYVJW2MPRZ5. CVU origen: 0000003100091123709022. CVU destino: 0000155300000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 466,
+        "_fecha_carga": "19/06/2026 20:59",
+        "_origen": "grupo",
+        "_pie": "Julieta Abigail Caballero\nCUIT/CUIL: 27-47118920-6"
       }
     ],
     "errores": [],
