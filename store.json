@@ -58745,6 +58745,28 @@
         "_fecha_carga": "18/06/2026 21:18",
         "_origen": "grupo",
         "_pie": "Buenas tardes"
+      },
+      {
+        "fecha": "14/06/2026",
+        "hora": "16:43",
+        "tipo": "TRF",
+        "monto": 15000.0,
+        "moneda": "ARS",
+        "remitente": "Juana Beatriz Di Biasi",
+        "remitente_cuil": "27-11295977-2",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "164119244348",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: 3D5W612E6ZW3RPP52GXYVR. CVU remitente: 0000003100043199110530. CVU destinatario: 0000155300000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 702,
+        "_fecha_carga": "18/06/2026 21:19",
+        "_origen": "grupo",
+        "_pie": "Foto de Clohe😎"
       }
     ],
     "errores": [],
