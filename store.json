@@ -43364,6 +43364,28 @@
         "_fecha_carga": "19/06/2026 01:22",
         "_origen": "grupo",
         "_pie": ""
+      },
+      {
+        "fecha": "17/06/2026",
+        "hora": "20:44",
+        "tipo": "TRF",
+        "monto": 500000.0,
+        "moneda": "ARS",
+        "remitente": "Alvaro Gerardine Coria",
+        "remitente_cuil": "20-41479775-0",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163803484399",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: 86VRPQ2GML0GDRYJ2GLY0M. CVU remitente: 0000003100036296714240. CVU destinatario: 0000155300000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 1967,
+        "_fecha_carga": "19/06/2026 01:22",
+        "_origen": "grupo",
+        "_pie": ""
       }
     ],
     "errores": [],
