@@ -76222,6 +76222,28 @@
         "_fecha_carga": "18/06/2026 23:07",
         "_origen": "grupo",
         "_pie": "Joaquin Fernández \n46682753\n250k zeus"
+      },
+      {
+        "fecha": "10/06/2026",
+        "hora": "22:50",
+        "tipo": "TRF",
+        "monto": 95000.0,
+        "moneda": "ARS",
+        "remitente": "Lara Zeballos",
+        "remitente_cuil": "27-44268753-1",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "162746449905",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: PDX4OGNYG3ZVV01RN0L6EY. CUIT destinatario: 30-71728225-2. CVU remitente: 0000003100003235640683. CVU destinatario: 0000155300000000000009977",
+        "_num": 1495,
+        "_fecha_carga": "18/06/2026 23:07",
+        "_origen": "grupo",
+        "_pie": "Lara zeballos\n44268753\n500k bet30 multiskin"
       }
     ],
     "errores": [],
