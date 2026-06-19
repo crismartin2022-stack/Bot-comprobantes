@@ -80913,6 +80913,28 @@
         "_fecha_carga": "18/06/2026 23:38",
         "_origen": "grupo",
         "_pie": "Aquiles Copini\nDNI 45942453"
+      },
+      {
+        "fecha": "14/06/2026",
+        "hora": "12:03",
+        "tipo": "TRF",
+        "monto": 30000.0,
+        "moneda": "ARS",
+        "remitente": "Cristian Gabriel Godoy",
+        "remitente_cuil": "20-38839812-5",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163272617843",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CUIT destinatario: 30-71728225-2. Código de identificación: 0V1JXON1LMLOYW43NZ64EL. CVU remitente: 0000003100068813459558. CVU destinatario: 0000155300000000009977",
+        "_num": 1708,
+        "_fecha_carga": "18/06/2026 23:38",
+        "_origen": "grupo",
+        "_pie": "Cristian Godoy 38839812"
       }
     ],
     "errores": [],
