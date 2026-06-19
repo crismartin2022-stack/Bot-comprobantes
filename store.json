@@ -89336,6 +89336,28 @@
         "_fecha_carga": "19/06/2026 00:31",
         "_origen": "grupo",
         "_pie": "Noelia Primavera Chirino\nDNI 43.664.090"
+      },
+      {
+        "fecha": "15/06/2026",
+        "hora": "22:47",
+        "tipo": "TRF",
+        "monto": 500000.03,
+        "moneda": "ARS",
+        "remitente": "Noelia Primavera Chirino",
+        "remitente_cuil": "",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Ualá",
+        "banco_destino": "",
+        "referencia": "1LMP68NKVEY00PEK2R7OEV",
+        "concepto": "VAR",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CBU destino: 0000155300000000009977. CUIT destino: 30717282252",
+        "_num": 2090,
+        "_fecha_carga": "19/06/2026 00:31",
+        "_origen": "grupo",
+        "_pie": "Noelia Primavera Chirino\nDNI 43.664.090"
       }
     ],
     "errores": [],
