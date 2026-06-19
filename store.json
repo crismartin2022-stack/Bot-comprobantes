@@ -70028,6 +70028,28 @@
         "_fecha_carga": "18/06/2026 22:29",
         "_origen": "grupo",
         "_pie": "Villegas Santiago Alexis\nDNI: 39.344.138"
+      },
+      {
+        "fecha": "14/06/2026",
+        "hora": "00:25",
+        "tipo": "TRF",
+        "monto": 50000.0,
+        "moneda": "ARS",
+        "remitente": "Bernardo David Colman",
+        "remitente_cuil": "20-41474843-1",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163240622373",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: 76V4MR2Z747LZZDYNDEZOL. CUIT destinatario: 30-71728225-2. CVU receptor: 0000155300000000000009977",
+        "_num": 1214,
+        "_fecha_carga": "18/06/2026 22:29",
+        "_origen": "grupo",
+        "_pie": "Bernardo David Colman\nCUIT/CUIL: 20-41474843-1"
       }
     ],
     "errores": [],
