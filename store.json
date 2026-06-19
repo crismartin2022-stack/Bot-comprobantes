@@ -78863,6 +78863,28 @@
         "_fecha_carga": "18/06/2026 23:25",
         "_origen": "grupo",
         "_pie": "ENZO GABRIEL ALBARRACIN 23-43056491-9 1OO.OOO"
+      },
+      {
+        "fecha": "13/06/2026",
+        "hora": "04:56",
+        "tipo": "TRF",
+        "monto": 100000.0,
+        "moneda": "ARS",
+        "remitente": "Robañera, Bruno Nicolas",
+        "remitente_cuil": "23-40373367-9",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Personal Pay",
+        "banco_destino": "",
+        "referencia": "2739476852",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CoelsalD: 8D0Q619L0WL6LVOZN7JZ5R - Id Bancario. CBU/CVU destinatario: 0000155300000000009977. CUIL/CUIT destinatario: 30-71728225-2",
+        "_num": 1615,
+        "_fecha_carga": "18/06/2026 23:25",
+        "_origen": "grupo",
+        "_pie": "Robañera, Bruno Nicolas\nCUIL/CUIT\n23-40373367-9\nDesde\nPersonal Pay"
       }
     ],
     "errores": [],
