@@ -86867,6 +86867,28 @@
         "_fecha_carga": "19/06/2026 00:15",
         "_origen": "grupo",
         "_pie": ""
+      },
+      {
+        "fecha": "15/06/2026",
+        "hora": "18:20",
+        "tipo": "TRF",
+        "monto": 100000.0,
+        "moneda": "ARS",
+        "remitente": "Murua, Pablo Dario",
+        "remitente_cuil": "20-29805817-1",
+        "destinatario": "Sastcup Srl",
+        "banco_origen": "Personal Pay",
+        "banco_destino": "",
+        "referencia": "2744812911",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CoelsaID: 3D5W612E6Z76V8VQ2GXYVR - Id Bancario. CUIL/CUIT destinatario: 30-71728225-2. CBU/CVU destinatario: 0000155300000000009977.",
+        "_num": 1978,
+        "_fecha_carga": "19/06/2026 00:16",
+        "_origen": "grupo",
+        "_pie": ""
       }
     ],
     "errores": [],
