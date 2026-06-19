@@ -79921,6 +79921,28 @@
         "_fecha_carga": "18/06/2026 23:31",
         "_origen": "grupo",
         "_pie": "Tamara Solange Leguizamon\nCuil: 27.38779063.8"
+      },
+      {
+        "fecha": "12/06/2026",
+        "hora": "00:05",
+        "tipo": "TRF",
+        "monto": 10000.0,
+        "moneda": "ARS",
+        "remitente": "Rosa Belen Balenzuela",
+        "remitente_cuil": "23-37788085-4",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163723050946",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: Z4K6DVNOWZKX3E0M25J8LQ. CVU remitente: 0000003100091695415123. CVU destinatario: 0000155300000000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 1663,
+        "_fecha_carga": "18/06/2026 23:32",
+        "_origen": "grupo",
+        "_pie": "Rosa belen balenzuela\n\n37788085"
       }
     ],
     "errores": [],
