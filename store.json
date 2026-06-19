@@ -51086,6 +51086,28 @@
         "_fecha_carga": "19/06/2026 20:40",
         "_origen": "grupo",
         "_pie": "David lugren 33022295"
+      },
+      {
+        "fecha": "15/06/2026",
+        "hora": "00:15",
+        "tipo": "TRF",
+        "monto": 100000.0,
+        "moneda": "ARS",
+        "remitente": "Karen Del Valle Varela",
+        "remitente_cuil": "27-37635802-5",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163355573699",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: 67REZ8NPQ6MPJEPP94KVGO. CVU origen: 0000003100037027984206. CVU destino: 0000155300000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 333,
+        "_fecha_carga": "19/06/2026 20:40",
+        "_origen": "grupo",
+        "_pie": ""
       }
     ],
     "errores": [],
