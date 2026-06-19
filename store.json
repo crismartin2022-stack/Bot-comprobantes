@@ -81905,6 +81905,28 @@
         "_fecha_carga": "18/06/2026 23:44",
         "_origen": "grupo",
         "_pie": "Bet30click"
+      },
+      {
+        "fecha": "14/06/2026",
+        "hora": "12:19",
+        "tipo": "TRF",
+        "monto": 100000.0,
+        "moneda": "ARS",
+        "remitente": "",
+        "remitente_cuil": "",
+        "destinatario": "SASTEUP SRL",
+        "banco_origen": "",
+        "banco_destino": "",
+        "referencia": "Z6OLMDN3V3VM1LO52E7RQ5",
+        "concepto": "Pago de Servicios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": false,
+        "notas": "CVU origen: 000015150003440528160. CVU destino: 000015530000000009977. CUIT destinatario: 30717282252. Referencia interna: 20d013ef-29df-4b59-bf42-53d9ca659e48. Coelsa ID: Z6OLMDN3V3VM1LO52E7RQ5.",
+        "_num": 1753,
+        "_fecha_carga": "18/06/2026 23:44",
+        "_origen": "grupo",
+        "_pie": ""
       }
     ],
     "errores": [],
