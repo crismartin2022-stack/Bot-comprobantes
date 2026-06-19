@@ -62141,6 +62141,28 @@
         "_fecha_carga": "18/06/2026 21:40",
         "_origen": "grupo",
         "_pie": ""
+      },
+      {
+        "fecha": "13/06/2026",
+        "hora": "18:08",
+        "tipo": "TRF",
+        "monto": 10000.0,
+        "moneda": "ARS",
+        "remitente": "Wilfrido Waldemar Gomez",
+        "remitente_cuil": "20-46393532-8",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Naranja X",
+        "banco_destino": "Cuenta Virtual",
+        "referencia": "LMORZP908L5KL4L4NEGJ46",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CBU origen: 4530000800016816419286. CVU destino: 0000155300000000009977. CUIL destinatario: 30-71728225-2. Código de transacción: 37c2c737-2aa8-41a8-ab79-468bbe4ad81b",
+        "_num": 856,
+        "_fecha_carga": "18/06/2026 21:40",
+        "_origen": "grupo",
+        "_pie": ""
       }
     ],
     "errores": [],
