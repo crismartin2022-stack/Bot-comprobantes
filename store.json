@@ -49787,6 +49787,28 @@
         "_fecha_carga": "19/06/2026 20:31",
         "_origen": "grupo",
         "_pie": "Jonathan ippoliti DNI 92911314"
+      },
+      {
+        "fecha": "16/06/2026",
+        "hora": "11:56",
+        "tipo": "TRF",
+        "monto": 243000.0,
+        "moneda": "ARS",
+        "remitente": "Valentina Riveros Martinez",
+        "remitente_cuil": "27-46839421-4",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Naranja X",
+        "banco_destino": "Cuenta Virtual",
+        "referencia": "XJ8G7V95DWRVYQVL9EMPYR",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de transacción: 61c42751-35a6-417a-a5c4-7d634615c8c6. CBU origen: 4530000800017368253207. CVU destino: 0000155300000000009977. CUIL destinatario: 30-71728225-2.",
+        "_num": 274,
+        "_fecha_carga": "19/06/2026 20:31",
+        "_origen": "grupo",
+        "_pie": "Valentina Riveros Martínez \n46839421"
       }
     ],
     "errores": [],
