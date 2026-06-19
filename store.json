@@ -88014,6 +88014,28 @@
         "_fecha_carga": "19/06/2026 00:23",
         "_origen": "grupo",
         "_pie": "Laura Ramona Diaz\nCuil/ 30-717282252"
+      },
+      {
+        "fecha": "15/06/2026",
+        "hora": "22:36",
+        "tipo": "TRF",
+        "monto": 300000.0,
+        "moneda": "ARS",
+        "remitente": "Luque Miguez, Ariadna Abigail",
+        "remitente_cuil": "27-48299541-7",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Personal Pay",
+        "banco_destino": "",
+        "referencia": "2745368137",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CoelsaID: 86VRPQ2GML6583GL2GLY0M - Id Bancario. CUIL destinatario: 30-71728225-2. CBU/CVU destinatario: 0000155300000000009977",
+        "_num": 2030,
+        "_fecha_carga": "19/06/2026 00:23",
+        "_origen": "grupo",
+        "_pie": "Luque Miguez, Ariadna Abigail\nCUIL/CUIT 27-48299541-7"
       }
     ],
     "errores": [],
