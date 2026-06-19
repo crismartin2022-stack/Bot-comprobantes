@@ -44318,6 +44318,28 @@
         "_fecha_carga": "19/06/2026 19:53",
         "_origen": "grupo",
         "_pie": "Pardo franco Ariel \n41.293.466"
+      },
+      {
+        "fecha": "16/06/2026",
+        "hora": "10:55",
+        "tipo": "TRF",
+        "monto": 480000.0,
+        "moneda": "ARS",
+        "remitente": "Pintos, Mónica Paulina",
+        "remitente_cuil": "27-45402988-2",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Personal Pay",
+        "banco_destino": "",
+        "referencia": "2746014590",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CoelsaID: R7ZG0QNDW1R6G3KD9EXYPO - Id Bancario. CBU/CVU destinatario: 0000155300000000009977. CUIL/CUIT destinatario: 30-71728225-2",
+        "_num": 26,
+        "_fecha_carga": "19/06/2026 19:54",
+        "_origen": "grupo",
+        "_pie": "27454029882\n\nPintos mónica paula"
       }
     ],
     "errores": [],
