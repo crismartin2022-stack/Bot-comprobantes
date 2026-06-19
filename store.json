@@ -82634,6 +82634,28 @@
         "_fecha_carga": "18/06/2026 23:48",
         "_origen": "grupo",
         "_pie": "Bet30click"
+      },
+      {
+        "fecha": "15/06/2026",
+        "hora": "17:54",
+        "tipo": "TRF",
+        "monto": 220000.0,
+        "moneda": "ARS",
+        "remitente": "Emanuel Francisco Enrique Ortiz",
+        "remitente_cuil": "20-35746270-4",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Naranja X",
+        "banco_destino": "Cuenta Virtual",
+        "referencia": "JMQKYZ9QQV1OMDGR9V50P3",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CBU origen: 4530000800014975695602. CVU destino: 0000155300000000009977. CUIL destinatario: 30-71728225-2. Código de transacción adicional: 365c46f9-f90a-4f45-b491-06ce30df6eed",
+        "_num": 1786,
+        "_fecha_carga": "18/06/2026 23:48",
+        "_origen": "grupo",
+        "_pie": ""
       }
     ],
     "errores": [],
