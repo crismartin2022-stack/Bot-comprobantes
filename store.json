@@ -51064,6 +51064,28 @@
         "_fecha_carga": "19/06/2026 20:39",
         "_origen": "grupo",
         "_pie": "David lugren 33022295"
+      },
+      {
+        "fecha": "16/06/2026",
+        "hora": "22:57",
+        "tipo": "TRF",
+        "monto": 240000.0,
+        "moneda": "ARS",
+        "remitente": "David Alejandro Lugren",
+        "remitente_cuil": "20-33022295-7",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Naranja X",
+        "banco_destino": "Cuenta Virtual",
+        "referencia": "ORD6LEN8PYKKYGLGNM1Y30",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de transacción adicional: 1b7ca5fa-b1b3-4a79-9996-3ef7641c14a4. CVU destinatario: 0000155300000000009977. CBU origen: 4530000800016771658559.",
+        "_num": 332,
+        "_fecha_carga": "19/06/2026 20:40",
+        "_origen": "grupo",
+        "_pie": "David lugren 33022295"
       }
     ],
     "errores": [],
