@@ -82767,6 +82767,28 @@
         "_fecha_carga": "18/06/2026 23:49",
         "_origen": "grupo",
         "_pie": "Foto de 🤗🤗🤗"
+      },
+      {
+        "fecha": "16/06/2026",
+        "hora": "00:25",
+        "tipo": "TRF",
+        "monto": 90000.0,
+        "moneda": "ARS",
+        "remitente": "Lautaro Nicolas Bengolea",
+        "remitente_cuil": "20-40755231-9",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Naranja X",
+        "banco_destino": "Cuenta Virtual",
+        "referencia": "Z6OLMDN3V3YRJ1V62E7RQ5",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CBU origen: 4530000800012492779845. CVU destino: 0000155300000000009977. CUIL destinatario: 30-71728225-2. Código de transacción: 790c6f63-9642-4e8e-a2bc-1fbec85a3e47",
+        "_num": 1792,
+        "_fecha_carga": "18/06/2026 23:49",
+        "_origen": "grupo",
+        "_pie": "Multi azul"
       }
     ],
     "errores": [],
