@@ -77542,6 +77542,28 @@
         "_fecha_carga": "18/06/2026 23:16",
         "_origen": "grupo",
         "_pie": "Mariano Rodrigo leiva\n42441030"
+      },
+      {
+        "fecha": "11/06/2026",
+        "hora": "09:31",
+        "tipo": "TRF",
+        "monto": 400000.0,
+        "moneda": "ARS",
+        "remitente": "Juarez, Joaquin Isaac",
+        "remitente_cuil": "20-45483318-0",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Personal Pay",
+        "banco_destino": "",
+        "referencia": "2730161800",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CoelsaID: Z0KV87940PJG85KQNPEYDX - Id Bancario. CUIL/CUIT destinatario: 30-71728225-2. CBU/CVU destinatario: 0000155300000000009977",
+        "_num": 1555,
+        "_fecha_carga": "18/06/2026 23:16",
+        "_origen": "grupo",
+        "_pie": "Juarez joaquin isaac\n45483318"
       }
     ],
     "errores": [],
