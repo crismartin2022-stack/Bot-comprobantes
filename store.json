@@ -50359,6 +50359,28 @@
         "_fecha_carga": "19/06/2026 20:34",
         "_origen": "grupo",
         "_pie": "richard sebastian lionel rojas\n40486544"
+      },
+      {
+        "fecha": "15/06/2026",
+        "hora": "19:54",
+        "tipo": "TRF",
+        "monto": 15000.0,
+        "moneda": "ARS",
+        "remitente": "Paolini, Lorena Elizabeth",
+        "remitente_cuil": "27-35800760-6",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Personal Pay",
+        "banco_destino": "",
+        "referencia": "2745026812",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CoelsaID: 67REZ8NPQ63RZD5K94KVGO - Id Bancario. CUIL/CUIT destinatario: 30-71728225-2. CBU/CVU destinatario: 0000155300000000009977",
+        "_num": 300,
+        "_fecha_carga": "19/06/2026 20:35",
+        "_origen": "grupo",
+        "_pie": "Lorena Elizabeth paolini \n35800760"
       }
     ],
     "errores": [],
