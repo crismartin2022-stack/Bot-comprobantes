@@ -46261,6 +46261,28 @@
         "_fecha_carga": "19/06/2026 20:07",
         "_origen": "grupo",
         "_pie": "Marquez Mariale Romina\n46300902"
+      },
+      {
+        "fecha": "18/06/2026",
+        "hora": "00:40",
+        "tipo": "TRF",
+        "monto": 400000.0,
+        "moneda": "ARS",
+        "remitente": "Marquez, Belén Yélen",
+        "remitente_cuil": "24-46300903-8",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Personal Pay",
+        "banco_destino": "",
+        "referencia": "2754583343",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CoelsaID: 3D5W6I2E6Z5L8WMW2GXYVR - Id Bancario. CBU/CVU del receptor: 0000155300000000009977. CUIL/CUIT del destinatario: 30-71728225-2.",
+        "_num": 114,
+        "_fecha_carga": "19/06/2026 20:07",
+        "_origen": "grupo",
+        "_pie": "Márquez belen yelen"
       }
     ],
     "errores": [],
