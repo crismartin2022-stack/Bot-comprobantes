@@ -81399,6 +81399,28 @@
         "_fecha_carga": "18/06/2026 23:41",
         "_origen": "grupo",
         "_pie": "30717794628"
+      },
+      {
+        "fecha": "15/06/2026",
+        "hora": "22:31",
+        "tipo": "TRF",
+        "monto": 800000.0,
+        "moneda": "ARS",
+        "remitente": "Diego Ramon Bogado",
+        "remitente_cuil": "20-47991621-8",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Naranja X",
+        "banco_destino": "Cuenta Virtual",
+        "referencia": "Z6OLMDN3V3YEJQPX2E7RQ5",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CBU origen: 4530000800019539603138. CVU destino: 0000155300000000009977. CUIL destinatario: 30-71728225-2. Código de transacción: 4b887d0b-ee7b-4350-8610-56644c56d3ac",
+        "_num": 1730,
+        "_fecha_carga": "18/06/2026 23:41",
+        "_origen": "grupo",
+        "_pie": "Shaka"
       }
     ],
     "errores": [],
