@@ -77850,6 +77850,28 @@
         "_fecha_carga": "18/06/2026 23:18",
         "_origen": "grupo",
         "_pie": "Lorena Elizabeth paolini \n35800760"
+      },
+      {
+        "fecha": "13/06/2026",
+        "hora": "19:06",
+        "tipo": "TRF",
+        "monto": 10000.0,
+        "moneda": "ARS",
+        "remitente": "Lorena Elizabeth Paolini",
+        "remitente_cuil": "27-35800760-6",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "164009956054",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: 8D0Q619L0WOPJQX3N7JZ5R. CVU destinatario: 0000155300000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 1569,
+        "_fecha_carga": "18/06/2026 23:18",
+        "_origen": "grupo",
+        "_pie": "Lorena Elizabeth paolini \n35800760"
       }
     ],
     "errores": [],
