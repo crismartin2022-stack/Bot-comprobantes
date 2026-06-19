@@ -81641,6 +81641,28 @@
         "_fecha_carga": "18/06/2026 23:42",
         "_origen": "grupo",
         "_pie": ""
+      },
+      {
+        "fecha": "13/06/2026",
+        "hora": "17:37",
+        "tipo": "TRF",
+        "monto": 40000.0,
+        "moneda": "ARS",
+        "remitente": "Lurdes Rocio Caballero",
+        "remitente_cuil": "27-33909361-5",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163995071584",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: D4RO172VZQ1Q5X1VNKJ3QE. CVU destinatario: 0000155300000000009977. CVU remitente: 0000003100067540752833.",
+        "_num": 1741,
+        "_fecha_carga": "18/06/2026 23:42",
+        "_origen": "grupo",
+        "_pie": ""
       }
     ],
     "errores": [],
