@@ -66521,6 +66521,28 @@
         "_fecha_carga": "18/06/2026 22:06",
         "_origen": "grupo",
         "_pie": "Romina Ivanna Llaneza \nDNI 31.284.221"
+      },
+      {
+        "fecha": "15/06/2026",
+        "hora": "20:50",
+        "tipo": "TRF",
+        "monto": 900000.0,
+        "moneda": "ARS",
+        "remitente": "Jesica Coimbra Guedes",
+        "remitente_cuil": "27-45541395-3",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163483866905",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: L18MKX9RXJ3MYP849O6WYV. CVU remitente: 0000003100007481935717. CVU destinatario: 0000155300000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 1055,
+        "_fecha_carga": "18/06/2026 22:06",
+        "_origen": "grupo",
+        "_pie": "Jesica Coimbra\n45.541.395"
       }
     ],
     "errores": [],
