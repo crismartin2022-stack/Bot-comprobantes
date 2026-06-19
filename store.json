@@ -77190,6 +77190,28 @@
         "_fecha_carga": "18/06/2026 23:13",
         "_origen": "grupo",
         "_pie": "LAURA VIVIANA MAIDANA\nCUIT/CUIL\n27-23532327-9"
+      },
+      {
+        "fecha": "13/06/2026",
+        "hora": "18:40",
+        "tipo": "TRF",
+        "monto": 25000.0,
+        "moneda": "ARS",
+        "remitente": "Maria Noelia Aguero Villagran",
+        "remitente_cuil": "27-32415051-5",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163197194727",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: PDX4OGNYGP14V3XQN0L6EY. CVU remitente: 0000003100014770248878. CVU destinatario: 0000155300000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 1539,
+        "_fecha_carga": "18/06/2026 23:14",
+        "_origen": "grupo",
+        "_pie": "Maria Noelia Aguero Villagran\nCUIT/CUIL: 27-32415051-5"
       }
     ],
     "errores": [],
