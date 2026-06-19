@@ -75826,6 +75826,28 @@
         "_fecha_carga": "18/06/2026 23:05",
         "_origen": "grupo",
         "_pie": "Nicole Guadalupe Da Silva\nCUIT/CUIL: 27-43172482-6"
+      },
+      {
+        "fecha": "14/06/2026",
+        "hora": "00:15",
+        "tipo": "TRF",
+        "monto": 820000.0,
+        "moneda": "ARS",
+        "remitente": "Nicole Guadalupe Da Silva",
+        "remitente_cuil": "27-43172482-6",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "164050808228",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: Z4K6DVNOWYWO507125J8LQ. CVU remitente: 0000003100089976714223. CVU destinatario: 0000155300000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 1477,
+        "_fecha_carga": "18/06/2026 23:05",
+        "_origen": "grupo",
+        "_pie": "Nicole Guadalupe Da Silva\nCUIT/CUIL: 27-43172482-6\nMercado Pago\nCVU: 0000003100089976714223"
       }
     ],
     "errores": [],
