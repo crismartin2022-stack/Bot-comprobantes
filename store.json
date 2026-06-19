@@ -53600,6 +53600,28 @@
         "_fecha_carga": "19/06/2026 20:56",
         "_origen": "grupo",
         "_pie": "ayrton starna\n40065075"
+      },
+      {
+        "fecha": "15/06/2026",
+        "hora": "20:56",
+        "tipo": "TRF",
+        "monto": 151000.0,
+        "moneda": "ARS",
+        "remitente": "Lautaro German Benitez",
+        "remitente_cuil": "23-39291149-9",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "164298324416",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: 67REZ8NPQ63L675G94KVGO. CVU remitente: 0000000310018586826509. CVU destinatario: 0000155300000000009977.",
+        "_num": 447,
+        "_fecha_carga": "19/06/2026 20:57",
+        "_origen": "grupo",
+        "_pie": "lautaro benitez\n39291149"
       }
     ],
     "errores": [],
