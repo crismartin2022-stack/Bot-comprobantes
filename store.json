@@ -56444,6 +56444,29 @@
         "_origen": "grupo",
         "_pie": "Foto de Vivo",
         "_duplicado": true
+      },
+      {
+        "fecha": "11/06/2026",
+        "hora": "18:48",
+        "tipo": "TRF",
+        "monto": 15000.0,
+        "moneda": "ARS",
+        "remitente": "KARINA PAOLA TEJEDA",
+        "remitente_cuil": "27-22562539-0",
+        "destinatario": "SASTEUP SRL",
+        "banco_origen": "",
+        "banco_destino": "",
+        "referencia": "0",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CVU destinatario: 0000155300000000009977. CBU remitente: 01400823030502951558191. CUIT destinatario: 30-71728225-2. Código de referencia: 0.",
+        "_num": 592,
+        "_fecha_carga": "18/06/2026 21:03",
+        "_origen": "grupo",
+        "_pie": "Foto de Vivo",
+        "_duplicado": true
       }
     ]
   }
