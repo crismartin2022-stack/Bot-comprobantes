@@ -84507,6 +84507,28 @@
         "_fecha_carga": "19/06/2026 00:00",
         "_origen": "grupo",
         "_pie": "Luis andres Hubscher \n29874581"
+      },
+      {
+        "fecha": "13/06/2026",
+        "hora": "15:46",
+        "tipo": "TRF",
+        "monto": 50000.0,
+        "moneda": "ARS",
+        "remitente": "Sandra Ester Benitez",
+        "remitente_cuil": "27-34938433-2",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163171132111",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: Z6OLMDN3V3GE5MP62E7RQ5. CUIT destinatario: 30-71728225-2. CVU destinatario completo: 0000155300000000000009977",
+        "_num": 1871,
+        "_fecha_carga": "19/06/2026 00:00",
+        "_origen": "grupo",
+        "_pie": "Sandra Benítez 34938433\nMega"
       }
     ],
     "errores": [],
