@@ -47031,6 +47031,28 @@
         "_fecha_carga": "19/06/2026 20:12",
         "_origen": "grupo",
         "_pie": "Ganamos"
+      },
+      {
+        "fecha": "17/06/2026",
+        "hora": "22:27",
+        "tipo": "TRF",
+        "monto": 100000.0,
+        "moneda": "ARS",
+        "remitente": "MORENO FLORENCIA DE DIOS",
+        "remitente_cuil": "12444180",
+        "destinatario": "SASTEUP SRL",
+        "banco_origen": "BBVA",
+        "banco_destino": "",
+        "referencia": "50391981009260617",
+        "concepto": "VARIOS",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Cuenta de origen: CA$ 81-546732/4. CUIT destinatario: 30717282252. Operación realizada en BBVA Móvil.",
+        "_num": 149,
+        "_fecha_carga": "19/06/2026 20:13",
+        "_origen": "grupo",
+        "_pie": "Griselda cimino 12444180"
       }
     ],
     "errores": [],
