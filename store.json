@@ -44296,6 +44296,28 @@
         "_fecha_carga": "19/06/2026 19:53",
         "_origen": "grupo",
         "_pie": "Juan José Coria \n28.149.654"
+      },
+      {
+        "fecha": "16/06/2026",
+        "hora": "11:17",
+        "tipo": "TRF",
+        "monto": 500000.0,
+        "moneda": "ARS",
+        "remitente": "Pardo, Franco Ariel",
+        "remitente_cuil": "20-41293466-1",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Personal Pay",
+        "banco_destino": "",
+        "referencia": "2746068214",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CoelsaID: Z6OLMDN3V3P8E4WK2E7RQ5 – Id Bancario. CUIL/CUIT del destinatario Sasteup Srl: 30-71728225-2. CBU/CVU destinatario: 0000155300000000009977",
+        "_num": 25,
+        "_fecha_carga": "19/06/2026 19:53",
+        "_origen": "grupo",
+        "_pie": "Pardo franco Ariel \n41.293.466"
       }
     ],
     "errores": [],
