@@ -75738,6 +75738,28 @@
         "_fecha_carga": "18/06/2026 23:04",
         "_origen": "grupo",
         "_pie": "CUIT destino\n30717282252\nNombre remitente\nDesiree Anabel Toranzo\nConcepto\nVAR"
+      },
+      {
+        "fecha": "13/06/2026",
+        "hora": "13:58",
+        "tipo": "TRF",
+        "monto": 125000.0,
+        "moneda": "ARS",
+        "remitente": "Rocio Soledad Gieco",
+        "remitente_cuil": "27-40109926-9",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163963305316",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: 46YGOW9M1KJ77Y5PNEXD8J. CVU remitente: 0000003100024161276690. CVU destinatario: 0000155300000000009977.",
+        "_num": 1473,
+        "_fecha_carga": "18/06/2026 23:04",
+        "_origen": "grupo",
+        "_pie": "Rocio Soledad Gieco\nCUIT/CUIL: 27-40109926-9"
       }
     ],
     "errores": [],
