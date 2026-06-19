@@ -86823,6 +86823,28 @@
         "_fecha_carga": "19/06/2026 00:15",
         "_origen": "grupo",
         "_pie": ""
+      },
+      {
+        "fecha": "14/06/2026",
+        "hora": "23:16",
+        "tipo": "TRF",
+        "monto": 100000.0,
+        "moneda": "ARS",
+        "remitente": "Pablo Antonio Moscoso",
+        "remitente_cuil": "20-35021013-0",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "164164762382",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: JMQKYZ9QQVGRVMW69V50P3. CUIT destinatario: 30-71728225-2. CVU remitente: 0000003100067628561551. CVU destinatario: 0000155300000000009977",
+        "_num": 1976,
+        "_fecha_carga": "19/06/2026 00:15",
+        "_origen": "grupo",
+        "_pie": ""
       }
     ],
     "errores": [],
