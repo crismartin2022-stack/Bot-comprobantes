@@ -44937,6 +44937,28 @@
         "_fecha_carga": "19/06/2026 19:58",
         "_origen": "grupo",
         "_pie": "Maria José Gabutti 27395633"
+      },
+      {
+        "fecha": "17/06/2026",
+        "hora": "21:46",
+        "tipo": "TRF",
+        "monto": 100000.0,
+        "moneda": "ARS",
+        "remitente": "Walter Alejandro Forgia",
+        "remitente_cuil": "20-40191889-3",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Supervielle",
+        "banco_destino": "Lohas Sas",
+        "referencia": "67REZ8NPQ6ZOG13R94KVGO",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CBU origen: 0270144420054973950019. CBU destino: 0000155300000000009977. CUIT destinatario: 30-71728225-2. Número de control utilizado como referencia.",
+        "_num": 54,
+        "_fecha_carga": "19/06/2026 19:58",
+        "_origen": "grupo",
+        "_pie": "Juan Carlos bagnato"
       }
     ],
     "errores": [],
