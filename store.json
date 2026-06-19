@@ -77080,6 +77080,28 @@
         "_fecha_carga": "18/06/2026 23:13",
         "_origen": "grupo",
         "_pie": "Fabian Augusto Villada Correa\nCUIT/CUIL: 20-94956787-8\nMercado Pago\nCVU: 0000003100092584818018"
+      },
+      {
+        "fecha": "12/06/2026",
+        "hora": "23:41",
+        "tipo": "TRF",
+        "monto": 20000.0,
+        "moneda": "ARS",
+        "remitente": "Maria Noelia Aguero Villagran",
+        "remitente_cuil": "27-32415051-5",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163895376180",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: 8D0Q619L0WLKVL8LN7JZ5R. CVU remitente: 0000003100014770248878. CVU destinatario: 0000155300000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 1534,
+        "_fecha_carga": "18/06/2026 23:13",
+        "_origen": "grupo",
+        "_pie": "Maria Noelia Aguero Villagran\nCUIT/CUIL: 27-32415051-5\nMercado Pago\nCVU: 0000003100014770248878"
       }
     ],
     "errores": [],
