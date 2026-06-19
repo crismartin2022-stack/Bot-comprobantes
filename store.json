@@ -61415,6 +61415,28 @@
         "_fecha_carga": "18/06/2026 21:35",
         "_origen": "grupo",
         "_pie": ""
+      },
+      {
+        "fecha": "13/06/2026",
+        "hora": "16:56",
+        "tipo": "TRF",
+        "monto": 35000.0,
+        "moneda": "ARS",
+        "remitente": "Mariela Vanesa Casado",
+        "remitente_cuil": "27-27941501-4",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163180816593",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: PDX4OGNYGPJD86EMN0L6EY. CVU remitente: 0000003100073175043325. CVU destinatario: 0000155300000000009977. CUIL destinatario: 30-71728225-2.",
+        "_num": 823,
+        "_fecha_carga": "18/06/2026 21:35",
+        "_origen": "grupo",
+        "_pie": ""
       }
     ],
     "errores": [],
