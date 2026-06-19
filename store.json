@@ -74172,6 +74172,28 @@
         "_fecha_carga": "18/06/2026 22:54",
         "_origen": "grupo",
         "_pie": "Carolina Soraya López 25572398"
+      },
+      {
+        "fecha": "15/06/2026",
+        "hora": "15:56",
+        "tipo": "TRF",
+        "monto": 200000.0,
+        "moneda": "ARS",
+        "remitente": "Coronel, Berta Lidia Maria",
+        "remitente_cuil": "27-34873685-5",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Personal Pay",
+        "banco_destino": "",
+        "referencia": "2744552936",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CoelsaID: WY7ZEPN6MKXEL0EV2Q0M51 - Id Bancario. CUIL destinatario: 30-71728225-2. CBU/CVU receptor: 0000155300000000009977",
+        "_num": 1402,
+        "_fecha_carga": "18/06/2026 22:55",
+        "_origen": "grupo",
+        "_pie": "Berta coronel 34873685"
       }
     ],
     "errores": [],
