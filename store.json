@@ -72031,6 +72031,28 @@
         "_fecha_carga": "18/06/2026 22:41",
         "_origen": "grupo",
         "_pie": "Rodrigo Andrés Márquez de Olivera\n38439712"
+      },
+      {
+        "fecha": "14/06/2026",
+        "hora": "20:50",
+        "tipo": "TRF",
+        "monto": 50000.0,
+        "moneda": "ARS",
+        "remitente": "Roberto Sergio Lopez",
+        "remitente_cuil": "23-25185980-9",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163335911691",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: LMORZP908LG1OXQ5NEGJ46. CUIT destinatario: 30-71728225-2. CVU remitente: 0000003100008486765312. CVU destinatario: 0000155300000000000009977",
+        "_num": 1305,
+        "_fecha_carga": "18/06/2026 22:41",
+        "_origen": "grupo",
+        "_pie": "Roberto Sergio Lopez\nCUIT/CUIL: 23-25185980-9"
       }
     ],
     "errores": [],
