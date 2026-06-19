@@ -52211,6 +52211,28 @@
         "_fecha_carga": "19/06/2026 20:47",
         "_origen": "grupo",
         "_pie": "Kiara Jara 27-43977553-5"
+      },
+      {
+        "fecha": "14/06/2026",
+        "hora": "21:26",
+        "tipo": "TRF",
+        "monto": 50000.0,
+        "moneda": "ARS",
+        "remitente": "SOLEDAD MABEL FUENTEZ",
+        "remitente_cuil": "27-38374760-6",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Banco De Galicia S.A.U",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "42107586772",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "ID COELSA: 7L8GYKNX0546Z3PO2MPRZ5. CVU destinatario: 0000155300000000009977. Cuenta origen: CA $ N° 4174220-5 121-1. CUIT destinatario: 30-71728225-2.",
+        "_num": 384,
+        "_fecha_carga": "19/06/2026 20:47",
+        "_origen": "grupo",
+        "_pie": "Soledad Fuentez 38374760"
       }
     ],
     "errores": [],
