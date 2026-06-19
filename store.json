@@ -51438,6 +51438,28 @@
         "_fecha_carga": "19/06/2026 20:42",
         "_origen": "grupo",
         "_pie": "Agustin bramardo 34579084"
+      },
+      {
+        "fecha": "17/06/2026",
+        "hora": "00:01",
+        "tipo": "TRF",
+        "monto": 300000.0,
+        "moneda": "ARS",
+        "remitente": "Pablo Maximiliano Caceres",
+        "remitente_cuil": "46634315",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Lemon",
+        "banco_destino": "CVU",
+        "referencia": "7L8GYKNX05J7ZP8K2MPRZ5",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CUIT destinatario: 30717282252. CBU destino: 0000155300000000000009977. ID de la transacción: 8dde1967-2107-41c2-825a-8288af9827d4. Plataforma: Lemon powered by Digifin.",
+        "_num": 349,
+        "_fecha_carga": "19/06/2026 20:42",
+        "_origen": "grupo",
+        "_pie": "Pablo caceres 46634315"
       }
     ],
     "errores": [],
