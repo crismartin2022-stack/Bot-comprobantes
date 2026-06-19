@@ -77762,6 +77762,28 @@
         "_fecha_carga": "18/06/2026 23:17",
         "_origen": "grupo",
         "_pie": "Guillermo Ariel robledo \n29835333"
+      },
+      {
+        "fecha": "13/06/2026",
+        "hora": "01:38",
+        "tipo": "TRF",
+        "monto": 38000.0,
+        "moneda": "ARS",
+        "remitente": "Caterina Noeli Gomez",
+        "remitente_cuil": "27-37394391-1",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Naranja X",
+        "banco_destino": "Cuenta Virtual",
+        "referencia": "D4RO172VZQ840E7VNKJ3QE",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CVU destinatario: 0000155300000000009977. CUIL destinatario: 30-71728225-2. Código de transacción adicional: cb80c491-ed82-4fae-8922-5d5d86f43cc3",
+        "_num": 1565,
+        "_fecha_carga": "18/06/2026 23:17",
+        "_origen": "grupo",
+        "_pie": "Caterina noeli gomez\n37394391"
       }
     ],
     "errores": [],
