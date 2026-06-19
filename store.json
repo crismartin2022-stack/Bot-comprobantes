@@ -69719,6 +69719,28 @@
         "_fecha_carga": "18/06/2026 22:27",
         "_origen": "grupo",
         "_pie": "Marciana Martinez\nCUIT/CUIL: 27-94752813-6"
+      },
+      {
+        "fecha": "13/06/2026",
+        "hora": "23:30",
+        "tipo": "TRF",
+        "monto": 150000.0,
+        "moneda": "ARS",
+        "remitente": "ALDANA ROCIO ORELLANA",
+        "remitente_cuil": "27-41880786-0",
+        "destinatario": "SASTEUP SRL",
+        "banco_origen": "AstroPay",
+        "banco_destino": "",
+        "referencia": "ORD6LEN8PY711R0PNM1Y30",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CVU remitente: 0000177500096292611143 | CVU receptor: 0000155300000000009977 | CUIT receptor: 30-71728225-2 | Alias receptor: cvu.977 | Coelsa ID: ORD6LEN8PY711R0PNM1Y30",
+        "_num": 1200,
+        "_fecha_carga": "18/06/2026 22:27",
+        "_origen": "grupo",
+        "_pie": "ALDANA ROCIO ORELLANA\n27418807860"
       }
     ],
     "errores": [],
