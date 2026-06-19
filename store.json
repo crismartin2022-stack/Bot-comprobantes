@@ -46767,6 +46767,28 @@
         "_fecha_carga": "19/06/2026 20:11",
         "_origen": "grupo",
         "_pie": "Foto de 🤗🤗🤗"
+      },
+      {
+        "fecha": "17/06/2026",
+        "hora": "11:42",
+        "tipo": "TRF",
+        "monto": 50000.0,
+        "moneda": "ARS",
+        "remitente": "Diaz, Yamila Gisela",
+        "remitente_cuil": "27-33266659-8",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Personal Pay",
+        "banco_destino": "",
+        "referencia": "2750782784",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CoelsaID: 76V4MR2Z74X75RQLNDEZOL - Id Bancario. CUIL/CUIT del destinatario: 30-71728225-2. CBU/CVU destinatario: 0000155300000000009977",
+        "_num": 137,
+        "_fecha_carga": "19/06/2026 20:11",
+        "_origen": "grupo",
+        "_pie": "Ariana Solari 43473949"
       }
     ],
     "errores": [],
