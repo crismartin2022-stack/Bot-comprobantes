@@ -87838,6 +87838,28 @@
         "_fecha_carga": "19/06/2026 00:21",
         "_origen": "grupo",
         "_pie": "Villegas Santiago Alexis\nDNI: 39.344.138"
+      },
+      {
+        "fecha": "15/06/2026",
+        "hora": "22:12",
+        "tipo": "TRF",
+        "monto": 50000.0,
+        "moneda": "ARS",
+        "remitente": "Maria Cecilia Cruz",
+        "remitente_cuil": "",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Ualá",
+        "banco_destino": "BILLETERA VIRTUAL",
+        "referencia": "7dc578d9-3afa-3d46-1101-6fc187812367",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CVU destino: 0000155300000000009977. CBU emisor: 3840200500000028050973. CUIT/CUIL destino: 30-71728225-2. Comentario: Transferencia en pesos.",
+        "_num": 2022,
+        "_fecha_carga": "19/06/2026 00:22",
+        "_origen": "grupo",
+        "_pie": "Maria Cecilia Cruz \n36.790.811"
       }
     ],
     "errores": [],
