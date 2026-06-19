@@ -71459,6 +71459,28 @@
         "_fecha_carga": "18/06/2026 22:38",
         "_origen": "grupo",
         "_pie": "Candela Soledad Sotelo\nCUIT/CUIL: 27-47119484-6"
+      },
+      {
+        "fecha": "14/06/2026",
+        "hora": "18:53",
+        "tipo": "TRF",
+        "monto": 400000.0,
+        "moneda": "ARS",
+        "remitente": "Hector Fabian Talavera Barreto",
+        "remitente_cuil": "20-94823970-2",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "164133480630",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación adicional: D4RO172VZQPLM4Q1NKJ3QE. CVU remitente: 0000003100032956964567. CVU destinatario: 0000155300000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 1279,
+        "_fecha_carga": "18/06/2026 22:38",
+        "_origen": "grupo",
+        "_pie": "Hector Fabian Talavera Barreto\nCUIT/CUIL: 20-94823970-2"
       }
     ],
     "errores": [],
