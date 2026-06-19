@@ -84971,6 +84971,28 @@
         "_fecha_carga": "19/06/2026 00:03",
         "_origen": "grupo",
         "_pie": "32983061\nQuinteros Diego Gaston"
+      },
+      {
+        "fecha": "14/06/2026",
+        "hora": "21:11",
+        "tipo": "TRF",
+        "monto": 400000.0,
+        "moneda": "ARS",
+        "remitente": "Franco David Zapata Sosa",
+        "remitente_cuil": "20-95045072-0",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Naranja X",
+        "banco_destino": "Cuenta Virtual",
+        "referencia": "7L8GYKNX054QV5YO2MPRZ5",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CBU origen: 4530000800016917419118. CVU destino: 0000155300000000009977. CUIL destinatario: 30-71728225-2. Código de transacción: 41faaf06-1e4a-46e3-86e8-c62ba049ec08.",
+        "_num": 1892,
+        "_fecha_carga": "19/06/2026 00:03",
+        "_origen": "grupo",
+        "_pie": "Franco zapata 95045072"
       }
     ],
     "errores": [],
