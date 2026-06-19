@@ -46613,6 +46613,28 @@
         "_fecha_carga": "19/06/2026 20:09",
         "_origen": "grupo",
         "_pie": "Santiago Carnoto DNI  46752110"
+      },
+      {
+        "fecha": "16/06/2026",
+        "hora": "23:51",
+        "tipo": "TRF",
+        "monto": 25000.0,
+        "moneda": "ARS",
+        "remitente": "David Roberto Mosquera",
+        "remitente_cuil": "20-26742967-8",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Naranja X",
+        "banco_destino": "Cuenta Virtual",
+        "referencia": "LOEJWV9JZ3GDOP082QMD0G",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de transacción: 790ff3b3-a0c9-4c96-a9c9-d959a7196684. CVU destino: 0000155300000000009977. CBU origen: 4530000800016665886743.",
+        "_num": 130,
+        "_fecha_carga": "19/06/2026 20:10",
+        "_origen": "grupo",
+        "_pie": "Zeus azul"
       }
     ],
     "errores": [],
