@@ -73929,6 +73929,28 @@
         "_fecha_carga": "18/06/2026 22:53",
         "_origen": "grupo",
         "_pie": "Fatima Alfonzo\nNaranja X\n4530000800012676709840\n27-95859382-7"
+      },
+      {
+        "fecha": "15/06/2026",
+        "hora": "11:29",
+        "tipo": "TRF",
+        "monto": 300000.0,
+        "moneda": "ARS",
+        "remitente": "Paola Alejandra MiÑo",
+        "remitente_cuil": "40.497.261",
+        "destinatario": "SASTEUP SRL",
+        "banco_origen": "Cuenta DNI",
+        "banco_destino": "",
+        "referencia": "LMORZP908LZQ5EZ5NEGJ46",
+        "concepto": "Alquileres",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CVU destinatario: 0000155300000000000009977. CUIL destinatario: 30717282252. Referencia adicional: Varios.",
+        "_num": 1391,
+        "_fecha_carga": "18/06/2026 22:53",
+        "_origen": "grupo",
+        "_pie": ""
       }
     ],
     "errores": [],
