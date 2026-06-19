@@ -65837,6 +65837,28 @@
         "_fecha_carga": "18/06/2026 22:02",
         "_origen": "grupo",
         "_pie": ""
+      },
+      {
+        "fecha": "15/06/2025",
+        "hora": "12:50",
+        "tipo": "TRF",
+        "monto": 300000.0,
+        "moneda": "ARS",
+        "remitente": "Alvaro Miguel Vides",
+        "remitente_cuil": "",
+        "destinatario": "SASTEUP SRL",
+        "banco_origen": "Claro Pay",
+        "banco_destino": "Lohas",
+        "referencia": "WB260615.1250.C58006",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CVU remitente: 0000085700203940119256. CVU destinatario: 0000155300000000009977. CUIT/CUIL destinatario: 30717282252. N° operación COELSA: Z0KV87940ELZL0Z0NPEYDX. Medio de pago: Con Saldo Claro Pay.",
+        "_num": 1024,
+        "_fecha_carga": "18/06/2026 22:02",
+        "_origen": "grupo",
+        "_pie": ""
       }
     ],
     "errores": [],
