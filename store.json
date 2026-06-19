@@ -47716,6 +47716,28 @@
         "_fecha_carga": "19/06/2026 20:17",
         "_origen": "grupo",
         "_pie": "Facundo Ariel Cáceres \n42310498"
+      },
+      {
+        "fecha": "15/06/2026",
+        "hora": "20:56",
+        "tipo": "TRF",
+        "monto": 200000.0,
+        "moneda": "ARS",
+        "remitente": "Franco Agustin Mujica",
+        "remitente_cuil": "20-42674111-4",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163484974629",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: Z6OLMDN3V3YQ363W2E7RQ5. CVU destinatario: 0000155300000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 180,
+        "_fecha_carga": "19/06/2026 20:17",
+        "_origen": "grupo",
+        "_pie": "Franco Agustín Mujica \nDNI: 42674111"
       }
     ],
     "errores": [],
