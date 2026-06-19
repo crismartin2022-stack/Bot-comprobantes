@@ -59251,6 +59251,28 @@
         "_fecha_carga": "18/06/2026 21:22",
         "_origen": "grupo",
         "_pie": "Pamela Ocampo \n38.305.873"
+      },
+      {
+        "fecha": "14/06/2026",
+        "hora": "23:02",
+        "tipo": "TRF",
+        "monto": 21500.0,
+        "moneda": "ARS",
+        "remitente": "Pamela Tamara Ocampo",
+        "remitente_cuil": "",
+        "destinatario": "SASTEUP SRL",
+        "banco_origen": "Reba",
+        "banco_destino": "",
+        "referencia": "30490429",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CBU origen: 4150999718014490030020. CBU/CVU destino: 0000155300000000009977. CUIT destinatario: 30717282252. Comprobante emitido por Reba.",
+        "_num": 725,
+        "_fecha_carga": "18/06/2026 21:22",
+        "_origen": "grupo",
+        "_pie": "Pamela Ocampo \n38.305.873"
       }
     ],
     "errores": [],
