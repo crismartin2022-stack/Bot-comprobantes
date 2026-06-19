@@ -48508,6 +48508,28 @@
         "_fecha_carga": "19/06/2026 20:22",
         "_origen": "grupo",
         "_pie": "Victor Hugo de Gregorio\n DNI: 33.328.943"
+      },
+      {
+        "fecha": "15/06/2026",
+        "hora": "06:11",
+        "tipo": "TRF",
+        "monto": 500000.75,
+        "moneda": "ARS",
+        "remitente": "Victor Hugo De Gregorio",
+        "remitente_cuil": "20-33328943-2",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163370604485",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: Z0KV87940ELKKJ0DNPEYDX. CVU remitente: 0000003100077161492485. CVU destinatario: 0000155300000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 216,
+        "_fecha_carga": "19/06/2026 20:22",
+        "_origen": "grupo",
+        "_pie": "Victor Hugo de Gregorio\n DNI: 33.328.943"
       }
     ],
     "errores": [],
