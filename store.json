@@ -79634,6 +79634,28 @@
         "_fecha_carga": "18/06/2026 23:30",
         "_origen": "grupo",
         "_pie": "Noelia Quispe \n38161947"
+      },
+      {
+        "fecha": "11/06/2026",
+        "hora": "13:52",
+        "tipo": "TRF",
+        "monto": 10000.0,
+        "moneda": "ARS",
+        "remitente": "Rosa Belen Balenzuela",
+        "remitente_cuil": "23-37788085-4",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "162825483057",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: 76V4MR2Z7QJZO5P0NDEZOL. CVU remitente: 0000003100091695415123. CVU destinatario: 0000155300000000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 1650,
+        "_fecha_carga": "18/06/2026 23:30",
+        "_origen": "grupo",
+        "_pie": "Rosa belen balenzuela\n\n37788085"
       }
     ],
     "errores": [],
