@@ -72296,6 +72296,28 @@
         "_fecha_carga": "18/06/2026 22:43",
         "_origen": "grupo",
         "_pie": "Coronel, Berta Lidia Maria\nCUIL/CUIT 27-34873685-5"
+      },
+      {
+        "fecha": "14/06/2026",
+        "hora": "21:38",
+        "tipo": "TRF",
+        "monto": 500001.0,
+        "moneda": "ARS",
+        "remitente": "Cristian Eduardo Ramirez",
+        "remitente_cuil": "20-30942047-1",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "164155290434",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: 3D5W612E6ZWGJZ4Q2GXYVR. CVU remitente: 0000003100019978279132. CVU destinatario: 0000155300000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 1317,
+        "_fecha_carga": "18/06/2026 22:43",
+        "_origen": "grupo",
+        "_pie": "Cristian Eduardo Ramirez\nCUIT/CUIL: 20-30942047-1"
       }
     ],
     "errores": [],
