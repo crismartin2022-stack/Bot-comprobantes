@@ -70666,6 +70666,28 @@
         "_fecha_carga": "18/06/2026 22:33",
         "_origen": "grupo",
         "_pie": "Estefania Abigail Cinquemani\nCUIT/CUIL: 23-44383127-4"
+      },
+      {
+        "fecha": "14/06/2026",
+        "hora": "13:30",
+        "tipo": "TRF",
+        "monto": 300000.0,
+        "moneda": "ARS",
+        "remitente": "Victor Hugo Alvarenga Monges",
+        "remitente_cuil": "20-94829065-1",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "164096291298",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: 76V4MR2Z747ZZORGNDEZOL. CVU remitente: 0000003100004683771585. CVU destinatario: 0000155300000000009977. CUIT destinatario: 30-71728225-2",
+        "_num": 1243,
+        "_fecha_carga": "18/06/2026 22:33",
+        "_origen": "grupo",
+        "_pie": "Victor Hugo Alvarenga Monges\nCUIT/CUIL: 20-94829065-1\nMercado Pago"
       }
     ],
     "errores": [],
