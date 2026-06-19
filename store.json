@@ -50689,6 +50689,28 @@
         "_fecha_carga": "19/06/2026 20:37",
         "_origen": "grupo",
         "_pie": "Julio Gabriel Cardozo \n43.063.928"
+      },
+      {
+        "fecha": "15/06/2026",
+        "hora": "00:38",
+        "tipo": "TRF",
+        "monto": 425000.0,
+        "moneda": "ARS",
+        "remitente": "Lucas Patricio Baptista",
+        "remitente_cuil": "20-41435081-0",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "164169535762",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: WGRXJE27DX6YDWQJN7MYQL. CVU origen (remitente): 0000003100088705167370. CVU destino (receptor): 0000155300000000009977.",
+        "_num": 315,
+        "_fecha_carga": "19/06/2026 20:37",
+        "_origen": "grupo",
+        "_pie": "Lucas Patricio Baptista\nCUIT/CUIL: 20-41435081-0\nMercado Pago\nCVU: 0000003100088705167370"
       }
     ],
     "errores": [],
