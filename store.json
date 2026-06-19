@@ -85059,6 +85059,28 @@
         "_fecha_carga": "19/06/2026 00:04",
         "_origen": "grupo",
         "_pie": "38692297 lucas alejandro marsico"
+      },
+      {
+        "fecha": "15/06/2026",
+        "hora": "13:20",
+        "tipo": "TRF",
+        "monto": 70000.0,
+        "moneda": "ARS",
+        "remitente": "Jonathan Gaston Esequiel Corvalan",
+        "remitente_cuil": "20-46651553-2",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163417113183",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: Z0KV87940EL58V30NPEYDX. CVU remitente: 0000003100008050051887. CVU destinatario: 0000155300000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 1896,
+        "_fecha_carga": "19/06/2026 00:04",
+        "_origen": "grupo",
+        "_pie": "Jonathan gaston corvalan 46.651.553 \n\n70 zeus"
       }
     ],
     "errores": [],
