@@ -73356,6 +73356,28 @@
         "_fecha_carga": "18/06/2026 22:49",
         "_origen": "grupo",
         "_pie": "Matias Mancilla 47.955.046"
+      },
+      {
+        "fecha": "14/06/2026",
+        "hora": "23:11",
+        "tipo": "TRF",
+        "monto": 250000.0,
+        "moneda": "ARS",
+        "remitente": "Matias Javier Mancilla",
+        "remitente_cuil": "",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Ualá",
+        "banco_destino": "",
+        "referencia": "XJ8G7V95DW7LL1YW9EMPYR",
+        "concepto": "VAR",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CBU destino: 0000155300000000009977. CUIT destino: 30717282252",
+        "_num": 1365,
+        "_fecha_carga": "18/06/2026 22:50",
+        "_origen": "grupo",
+        "_pie": "Matias Mancilla 47.955.046"
       }
     ],
     "errores": [],
