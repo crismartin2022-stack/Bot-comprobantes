@@ -67845,6 +67845,28 @@
         "_fecha_carga": "18/06/2026 22:15",
         "_origen": "grupo",
         "_pie": "Brian David Munoz\nCUIT/CUIL: 20-44141951-2"
+      },
+      {
+        "fecha": "13/06/2026",
+        "hora": "18:22",
+        "tipo": "TRF",
+        "monto": 250000.0,
+        "moneda": "ARS",
+        "remitente": "",
+        "remitente_cuil": "",
+        "destinatario": "SASTEUP SRL",
+        "banco_origen": "BNA",
+        "banco_destino": "",
+        "referencia": "Z6OLMDN3V3XVGK8X2E7RQ5",
+        "concepto": "Cuotas",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": false,
+        "notas": "CUIT del destinatario: 30717282252. CVU receptor: 0000155300000000000009977",
+        "_num": 1115,
+        "_fecha_carga": "18/06/2026 22:15",
+        "_origen": "grupo",
+        "_pie": ""
       }
     ],
     "errores": [],
