@@ -44208,6 +44208,28 @@
         "_fecha_carga": "19/06/2026 19:53",
         "_origen": "grupo",
         "_pie": "Juan José Coria\n28.149.654"
+      },
+      {
+        "fecha": "14/06/2026",
+        "hora": "11:32",
+        "tipo": "TRF",
+        "monto": 500000.0,
+        "moneda": "ARS",
+        "remitente": "Pereyra, Angel Nazareno",
+        "remitente_cuil": "20-40188262-7",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Personal Pay",
+        "banco_destino": "",
+        "referencia": "2742237165",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CoelsaID: 1LMP68NKVEVWRM1Z2R7OEV - Id Bancario. CBU/CVU destinatario: 0000155300000000009977. CUIL/CUIT destinatario: 30-71728225-2.",
+        "_num": 21,
+        "_fecha_carga": "19/06/2026 19:53",
+        "_origen": "grupo",
+        "_pie": "Pereyra Angel Nazareno \n40.188.262"
       }
     ],
     "errores": [],
