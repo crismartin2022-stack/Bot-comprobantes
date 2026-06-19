@@ -87794,6 +87794,28 @@
         "_fecha_carga": "19/06/2026 00:21",
         "_origen": "grupo",
         "_pie": "Angelina Nair Coceres\n46819773"
+      },
+      {
+        "fecha": "15/06/2026",
+        "hora": "21:56",
+        "tipo": "TRF",
+        "monto": 500000.01,
+        "moneda": "ARS",
+        "remitente": "Marcelo David Lopez",
+        "remitente_cuil": "",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Ualá",
+        "banco_destino": "",
+        "referencia": "Z6OLMDN3V3Y4R7MK2E7RQ5",
+        "concepto": "VAR",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CBU destino: 0000155300000000009977. CUIT destino: 30717282252",
+        "_num": 2020,
+        "_fecha_carga": "19/06/2026 00:21",
+        "_origen": "grupo",
+        "_pie": "López Marcelo David \nDNI: 41.988.340"
       }
     ],
     "errores": [],
