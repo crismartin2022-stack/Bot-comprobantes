@@ -65309,6 +65309,28 @@
         "_fecha_carga": "18/06/2026 21:58",
         "_origen": "grupo",
         "_pie": ""
+      },
+      {
+        "fecha": "13/06/2026",
+        "hora": "00:44",
+        "tipo": "TRF",
+        "monto": 200000.0,
+        "moneda": "ARS",
+        "remitente": "Gonzalo Hernan Mendez",
+        "remitente_cuil": "",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Ualá",
+        "banco_destino": "BILLETERA VIRTUAL",
+        "referencia": "ef4f9614-29bc-7a83-e707-1009d7df3cd7",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CVU destino: 0000155300000000009977. CBU emisor: 3840200500000027784046. CUIT/CUIL destino: 30-71728225-2. Comentario: Transferencia en pesos.",
+        "_num": 1000,
+        "_fecha_carga": "18/06/2026 21:59",
+        "_origen": "grupo",
+        "_pie": ""
       }
     ],
     "errores": [],
