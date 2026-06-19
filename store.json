@@ -53733,6 +53733,28 @@
         "_fecha_carga": "19/06/2026 20:57",
         "_origen": "grupo",
         "_pie": "Noelia Quispe \n38161947"
+      },
+      {
+        "fecha": "17/06/2026",
+        "hora": "15:59",
+        "tipo": "TRF",
+        "monto": 100000.0,
+        "moneda": "ARS",
+        "remitente": "Ferreyra, Juan Jose",
+        "remitente_cuil": "20-29160334-4",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Personal Pay",
+        "banco_destino": "",
+        "referencia": "2753427765",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CoelsaID: ORD6LEN8PY6JY3OONM1Y30 - Id Bancario. CBU/CVU destinatario: 000015530000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 453,
+        "_fecha_carga": "19/06/2026 20:57",
+        "_origen": "grupo",
+        "_pie": "juan ferreyra \n29160334"
       }
     ],
     "errores": [],
