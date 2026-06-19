@@ -45201,6 +45201,28 @@
         "_fecha_carga": "19/06/2026 19:59",
         "_origen": "grupo",
         "_pie": "Martina Florio 45595201"
+      },
+      {
+        "fecha": "15/06/2026",
+        "hora": "15:04",
+        "tipo": "TRF",
+        "monto": 662500.0,
+        "moneda": "ARS",
+        "remitente": "Mayra Kfouri Carreras",
+        "remitente_cuil": "27-44872819-1",
+        "destinatario": "Sercob Sa",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "Billetera BILLETERAPAIS SA",
+        "referencia": "163432940437",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "7745",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: ORD6LEN8PY8JWKKONM1Y30. CVU remitente: 0000003100043303255322. CVU destinatario: 0000133100000000587745.",
+        "_num": 66,
+        "_fecha_carga": "19/06/2026 19:59",
+        "_origen": "grupo",
+        "_pie": "Mayra Carreras 44872819"
       }
     ],
     "errores": [],
