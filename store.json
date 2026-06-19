@@ -49080,6 +49080,28 @@
         "_fecha_carga": "19/06/2026 20:26",
         "_origen": "grupo",
         "_pie": "oriana jular\n41712081"
+      },
+      {
+        "fecha": "16/06/2026",
+        "hora": "20:27",
+        "tipo": "TRF",
+        "monto": 50000.0,
+        "moneda": "ARS",
+        "remitente": "Aylen Noemi Benitez",
+        "remitente_cuil": "23-41413165-4",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "164458088450",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: RD06ZO9WVR0ERKJ1N5GP7X. CVU origen: 0000003100007625918523. CVU destino: 0000155300000000009977.",
+        "_num": 242,
+        "_fecha_carga": "19/06/2026 20:26",
+        "_origen": "grupo",
+        "_pie": "Aylen Benitez \n41413165"
       }
     ],
     "errores": [],
