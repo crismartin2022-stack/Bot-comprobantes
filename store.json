@@ -44230,6 +44230,28 @@
         "_fecha_carga": "19/06/2026 19:53",
         "_origen": "grupo",
         "_pie": "Pereyra Angel Nazareno \n40.188.262"
+      },
+      {
+        "fecha": "15/06/2026",
+        "hora": "11:52",
+        "tipo": "TRF",
+        "monto": 1400000.0,
+        "moneda": "ARS",
+        "remitente": "Emiliano German Marquez",
+        "remitente_cuil": "35336158",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Lemon",
+        "banco_destino": "CVU",
+        "referencia": "1LMP68NKVE3ZMDVK2R7OEV",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CUIT destinatario: 30717282252. CBU destino: 0000155300000000009977. ID de la transacción: 2a4334c5-2be7-4111-b96e-4dc7dec7d3e9. Comprobante emitido por Lemon (billetera digital).",
+        "_num": 22,
+        "_fecha_carga": "19/06/2026 19:53",
+        "_origen": "grupo",
+        "_pie": "Márquez Emiliano \nDNI 35336158"
       }
     ],
     "errores": [],
