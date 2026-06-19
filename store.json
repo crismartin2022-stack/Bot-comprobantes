@@ -81663,6 +81663,28 @@
         "_fecha_carga": "18/06/2026 23:42",
         "_origen": "grupo",
         "_pie": ""
+      },
+      {
+        "fecha": "13/06/2026",
+        "hora": "20:26",
+        "tipo": "TRF",
+        "monto": 30000.0,
+        "moneda": "ARS",
+        "remitente": "Julieta Rocio Gonzalez",
+        "remitente_cuil": "27-45786731-5",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Naranja X",
+        "banco_destino": "Cuenta Virtual",
+        "referencia": "3D5W612E6ZJ5MLDG2GXYVR",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CVU destinatario: 0000155300000000009977. CUIL destinatario: 30-71728225-2. Código de transacción adicional: 36388b4c-9a87-4540-a70d-6edb24857d59",
+        "_num": 1742,
+        "_fecha_carga": "18/06/2026 23:43",
+        "_origen": "grupo",
+        "_pie": ""
       }
     ],
     "errores": [],
