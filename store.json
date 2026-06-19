@@ -75010,6 +75010,28 @@
         "_fecha_carga": "18/06/2026 22:59",
         "_origen": "grupo",
         "_pie": "Espinoza, Emilio Orlando\nCUIL/CUIT\n20-36716807-3"
+      },
+      {
+        "fecha": "11/06/2026",
+        "hora": "23:33",
+        "tipo": "TRF",
+        "monto": 190000.0,
+        "moneda": "ARS",
+        "remitente": "Buda Emiliano Jose",
+        "remitente_cuil": "20-30024369-0",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "162912355411",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: 76V4MR2Z7QMWXJZ8NDEZOL. CVU remitente: 0000003100095585437385. CVU destinatario: 0000155300000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 1440,
+        "_fecha_carga": "18/06/2026 23:00",
+        "_origen": "grupo",
+        "_pie": "Buda Emiliano Jose\nCUIT/CUIL: 20-30024369-0"
       }
     ],
     "errores": [],
