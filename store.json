@@ -68571,6 +68571,28 @@
         "_fecha_carga": "18/06/2026 22:20",
         "_origen": "grupo",
         "_pie": "De:\nBRENDA ANAHI CHAVEZ\nCUIT 27-45999352-0"
+      },
+      {
+        "fecha": "13/06/2026",
+        "hora": "21:28",
+        "tipo": "TRF",
+        "monto": 50000.0,
+        "moneda": "ARS",
+        "remitente": "Lautaro Facundo Santoro",
+        "remitente_cuil": "20-45004844-6",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "164033360360",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: ORD6LEN8PY7ZQV7PNM1Y30. CVU remitente: 0000003100057970247690. CVU destinatario: 0000155300000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 1148,
+        "_fecha_carga": "18/06/2026 22:20",
+        "_origen": "grupo",
+        "_pie": "Lautaro Facundo Santoro\nCUIT/CUIL: 20-45004844-6"
       }
     ],
     "errores": [],
