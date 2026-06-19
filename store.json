@@ -58019,6 +58019,28 @@
         "_fecha_carga": "18/06/2026 21:14",
         "_origen": "grupo",
         "_pie": "Foto de Clohe😎"
+      },
+      {
+        "fecha": "12/06/2026",
+        "hora": "14:07",
+        "tipo": "TRF",
+        "monto": 17000.0,
+        "moneda": "ARS",
+        "remitente": "Ramon Oscar Perez",
+        "remitente_cuil": "20-32519071-0",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163802240972",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: D4RO172VZGGDX3XRNKJ3QE. CUIT destinatario: 30-71728225-2. CVU remitente: 0000003100029749629606. CVU destinatario: 0000155300000000000009977",
+        "_num": 669,
+        "_fecha_carga": "18/06/2026 21:14",
+        "_origen": "grupo",
+        "_pie": "Buenas"
       }
     ],
     "errores": [],
