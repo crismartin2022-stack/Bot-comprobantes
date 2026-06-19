@@ -80869,6 +80869,28 @@
         "_fecha_carga": "18/06/2026 23:38",
         "_origen": "grupo",
         "_pie": "Delia nocera"
+      },
+      {
+        "fecha": "13/06/2026",
+        "hora": "21:25",
+        "tipo": "TRF",
+        "monto": 400000.0,
+        "moneda": "ARS",
+        "remitente": "Aquiles Alejandro Coppini",
+        "remitente_cuil": "23-45942453-9",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "164032122808",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: ORD6LEN8PY73WW3PNM1Y30. CVU remitente: 0000003100015847331844. CVU destinatario: 0000155300000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 1706,
+        "_fecha_carga": "18/06/2026 23:38",
+        "_origen": "grupo",
+        "_pie": "Insumos Baroga\nCUIT 30-71875706-8"
       }
     ],
     "errores": [],
