@@ -67160,6 +67160,28 @@
         "_fecha_carga": "18/06/2026 22:09",
         "_origen": "grupo",
         "_pie": "Aquino, Nicolas Javier\nCUIL/CUIT 20-42836742-2"
+      },
+      {
+        "fecha": "13/06/2026",
+        "hora": "15:14",
+        "tipo": "TRF",
+        "monto": 25000.0,
+        "moneda": "ARS",
+        "remitente": "Pablo Scotta",
+        "remitente_cuil": "20-46307447-0",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Naranja X",
+        "banco_destino": "Cuenta Virtual",
+        "referencia": "LOEJWV9JZ308KK632QMD0G",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CBU origen: 4530000800010375412485. CVU destino: 0000155300000000009977. CUIL destinatario: 30-71728225-2. Código de transacción: 77b95d07-7dc6-4550-831c-8342f34f5e06",
+        "_num": 1084,
+        "_fecha_carga": "18/06/2026 22:10",
+        "_origen": "grupo",
+        "_pie": "Pablo Scotta\nNaranja X\n4530000800010375412485\n20-46307447-0"
       }
     ],
     "errores": [],
