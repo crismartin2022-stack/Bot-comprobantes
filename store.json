@@ -51880,6 +51880,28 @@
         "_fecha_carga": "19/06/2026 20:45",
         "_origen": "grupo",
         "_pie": ""
+      },
+      {
+        "fecha": "16/06/2024",
+        "hora": "20:38",
+        "tipo": "TRF",
+        "monto": 193000.0,
+        "moneda": "ARS",
+        "remitente": "Damian Alejandro Mansilla",
+        "remitente_cuil": "",
+        "destinatario": "SASTEUP SRL",
+        "banco_origen": "Claro Pay",
+        "banco_destino": "Lohas",
+        "referencia": "WB260616.2038.E27725",
+        "concepto": "Enviaste dinero",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CVU origen: 0000085700204865947652 / Alias origen: 20486594765.claropay / CUIT/CUIL destinatario: 30717282252 / CVU destinatario: 00001553000000000009977 / N° operación COELSA: 46YGOW9M1KE84ZZQNEXD8J",
+        "_num": 369,
+        "_fecha_carga": "19/06/2026 20:45",
+        "_origen": "grupo",
+        "_pie": ""
       }
     ],
     "errores": [],
