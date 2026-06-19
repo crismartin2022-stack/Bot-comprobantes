@@ -83141,6 +83141,28 @@
         "_fecha_carga": "18/06/2026 23:51",
         "_origen": "grupo",
         "_pie": "Natalia Albarracin, 29.743.043"
+      },
+      {
+        "fecha": "14/06/2026",
+        "hora": "16:47",
+        "tipo": "TRF",
+        "monto": 200000.0,
+        "moneda": "ARS",
+        "remitente": "Eduardo Alfredo Bagnato",
+        "remitente_cuil": "20-13872100-1",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "164118780688",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: WY7ZEPN6MKYR80042Q0M51. CVU remitente: 0000003100071723108780. CVU destinatario: 0000155300000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 1809,
+        "_fecha_carga": "18/06/2026 23:52",
+        "_origen": "grupo",
+        "_pie": "Foto de Racing Club"
       }
     ],
     "errores": [],
