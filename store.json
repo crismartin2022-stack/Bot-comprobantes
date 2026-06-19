@@ -61679,6 +61679,28 @@
         "_fecha_carga": "18/06/2026 21:37",
         "_origen": "grupo",
         "_pie": ""
+      },
+      {
+        "fecha": "13/06/2026",
+        "hora": "17:29",
+        "tipo": "TRF",
+        "monto": 100000.0,
+        "moneda": "ARS",
+        "remitente": "Dario Vega",
+        "remitente_cuil": "20-31721508-9",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163994994976",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: 7L8GYKNX05R5KW0K2MPRZ5. CUIT destinatario: 30-71728225-2. CVU remitente: 0000003100027817536632. CVU destinatario: 0000155300000000000009977",
+        "_num": 835,
+        "_fecha_carga": "18/06/2026 21:37",
+        "_origen": "grupo",
+        "_pie": ""
       }
     ],
     "errores": [],
