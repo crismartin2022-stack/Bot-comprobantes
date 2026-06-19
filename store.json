@@ -76420,6 +76420,28 @@
         "_fecha_carga": "18/06/2026 23:08",
         "_origen": "grupo",
         "_pie": "Pedro Edgardo Villalba\nCUIT/CUIL: 20-38368945-8\nMercado Pago\nCVU: 0000003100078818858205"
+      },
+      {
+        "fecha": "13/06/2026",
+        "hora": "00:19",
+        "tipo": "TRF",
+        "monto": 520000.0,
+        "moneda": "ARS",
+        "remitente": "Estefania Aylen Martinez",
+        "remitente_cuil": "27-37250966-5",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163088571485",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: 67REZ8NPQ6XDGWL494KVGO. CVU remitente: 0000003100002249966570. CVU destinatario: 0000155300000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 1504,
+        "_fecha_carga": "18/06/2026 23:08",
+        "_origen": "grupo",
+        "_pie": "Estefania Aylen Martinez\nCUIT/CUIL: 27-37250966-5"
       }
     ],
     "errores": [],
