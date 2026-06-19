@@ -82568,6 +82568,28 @@
         "_fecha_carga": "18/06/2026 23:48",
         "_origen": "grupo",
         "_pie": "Milagros Videla 38689279"
+      },
+      {
+        "fecha": "15/06/2026",
+        "hora": "18:50",
+        "tipo": "TRF",
+        "monto": 200000.0,
+        "moneda": "ARS",
+        "remitente": "Dylan Alex Ayarde",
+        "remitente_cuil": "23-43876733-9",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "164279286426",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: Z4K6DVNOWYR10PWG25J8LQ. CUIT destinatario: 30-71728225-2. CVU destinatario: 0000155300000000000009977",
+        "_num": 1783,
+        "_fecha_carga": "18/06/2026 23:48",
+        "_origen": "grupo",
+        "_pie": "Bet30click"
       }
     ],
     "errores": [],
