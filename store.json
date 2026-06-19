@@ -53777,6 +53777,28 @@
         "_fecha_carga": "19/06/2026 20:58",
         "_origen": "grupo",
         "_pie": "maria de las nievea monzon\n29495297"
+      },
+      {
+        "fecha": "17/06/2026",
+        "hora": "15:56",
+        "tipo": "TRF",
+        "monto": 100000.0,
+        "moneda": "ARS",
+        "remitente": "MARIA DE LAS NIEVES MALVINA MONZON",
+        "remitente_cuil": "27-29495297-2",
+        "destinatario": "SASTEUP SRL",
+        "banco_origen": "Brubank",
+        "banco_destino": "",
+        "referencia": "",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Transferencia desde Caja de ahorro en Pesos en Brubank. CVU destino: 0000155300000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 455,
+        "_fecha_carga": "19/06/2026 20:58",
+        "_origen": "grupo",
+        "_pie": "maria de las nievea monzon\n29495297"
       }
     ],
     "errores": [],
