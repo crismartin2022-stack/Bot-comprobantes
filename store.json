@@ -56036,6 +56036,28 @@
         "_fecha_carga": "18/06/2026 21:01",
         "_origen": "grupo",
         "_pie": "Foto de Johanna Cáceres 💜"
+      },
+      {
+        "fecha": "10/06/2026",
+        "hora": "21:23",
+        "tipo": "TRF",
+        "monto": 100000.0,
+        "moneda": "ARS",
+        "remitente": "Vanesa Soledad Gonzalez",
+        "remitente_cuil": "27-29822255-3",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163541975314",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: JMQKYZ9QQ03MW1R69V50P3. CVU remitente: 0000003100005514773929. CVU destinatario: 0000155300000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 579,
+        "_fecha_carga": "18/06/2026 21:01",
+        "_origen": "grupo",
+        "_pie": "Foto de Vivo"
       }
     ],
     "errores": [],
