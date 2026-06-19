@@ -67955,6 +67955,28 @@
         "_fecha_carga": "18/06/2026 22:16",
         "_origen": "grupo",
         "_pie": "Eriberta Herminia Fernandez Herrera\nCUIT/CUIL: 27-92798572-7"
+      },
+      {
+        "fecha": "13/06/2026",
+        "hora": "19:47",
+        "tipo": "TRF",
+        "monto": 250000.0,
+        "moneda": "ARS",
+        "remitente": "Molina, Yamila Antonella",
+        "remitente_cuil": "27-39154409-9",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Personal Pay",
+        "banco_destino": "",
+        "referencia": "2741175162",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CBU/CVU destinatario: 0000155300000000009977. CUIL/CUIT destinatario: 30-71728225-2. CoelsaID: PDX4OGNYGP1LQ7MMN0L6EY - Id Bancario.",
+        "_num": 1120,
+        "_fecha_carga": "18/06/2026 22:16",
+        "_origen": "grupo",
+        "_pie": "Molina, Yamila Antonella\nCUIL/CUIT 27-39154409-9"
       }
     ],
     "errores": [],
