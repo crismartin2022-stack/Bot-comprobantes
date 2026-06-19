@@ -76464,6 +76464,28 @@
         "_fecha_carga": "18/06/2026 23:09",
         "_origen": "grupo",
         "_pie": "Torres, Gaston Elias\nCUIL/CUIT\n20-34261599-7\nDesde\nPersonal Pay"
+      },
+      {
+        "fecha": "14/06/2026",
+        "hora": "00:10",
+        "tipo": "TRF",
+        "monto": 600000.0,
+        "moneda": "ARS",
+        "remitente": "Torres, Gaston Elias",
+        "remitente_cuil": "20-34261599-7",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Personal Pay",
+        "banco_destino": "",
+        "referencia": "2741784334",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CoelsaID: JMQKYZ9QQVQW1PMV9V50P3 - Id Bancario. CUIL/CUIT destinatario: 30-71728225-2. CBU/CVU receptor: 0000155300000000009977",
+        "_num": 1506,
+        "_fecha_carga": "18/06/2026 23:09",
+        "_origen": "grupo",
+        "_pie": "Torres, Gaston Elias\nCUIL/CUIT\n20-34261599-7"
       }
     ],
     "errores": [],
