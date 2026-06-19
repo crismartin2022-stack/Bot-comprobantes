@@ -51196,6 +51196,28 @@
         "_fecha_carga": "19/06/2026 20:40",
         "_origen": "grupo",
         "_pie": "Lorena Del Valle Peralta\nNaranja X\nCBU\n4530000800015528115703\nCUIL\n27-47909061-6"
+      },
+      {
+        "fecha": "17/06/2026",
+        "hora": "17:42",
+        "tipo": "TRF",
+        "monto": 60000.0,
+        "moneda": "ARS",
+        "remitente": "Rocio Pamela Oberti",
+        "remitente_cuil": "27-37355800-7",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "164587973724",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: WY7ZEPN6MKGRQGMO2Q0M51. CVU remitente: 0000003100002644707701. CVU destinatario: 0000155300000000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 338,
+        "_fecha_carga": "19/06/2026 20:40",
+        "_origen": "grupo",
+        "_pie": "Rocio oberti 37355800"
       }
     ],
     "errores": [],
