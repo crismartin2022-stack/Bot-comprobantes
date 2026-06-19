@@ -66763,6 +66763,28 @@
         "_fecha_carga": "18/06/2026 22:07",
         "_origen": "grupo",
         "_pie": "47185460 Jonh Kevin Abraham"
+      },
+      {
+        "fecha": "13/06/2026",
+        "hora": "22:24",
+        "tipo": "TRF",
+        "monto": 100000.0,
+        "moneda": "ARS",
+        "remitente": "Noelia Giselle Romano",
+        "remitente_cuil": "27-45609998-5",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163228902723",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: 1LMP68NKVEJPVML52R7OEV. CVU remitente: 0000003100095227758371. CVU destinatario: 0000155300000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 1066,
+        "_fecha_carga": "18/06/2026 22:07",
+        "_origen": "grupo",
+        "_pie": "_100_"
       }
     ],
     "errores": [],
