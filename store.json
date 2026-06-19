@@ -82656,6 +82656,28 @@
         "_fecha_carga": "18/06/2026 23:48",
         "_origen": "grupo",
         "_pie": ""
+      },
+      {
+        "fecha": "15/06/2026",
+        "hora": "17:58",
+        "tipo": "TRF",
+        "monto": 420000.0,
+        "moneda": "ARS",
+        "remitente": "",
+        "remitente_cuil": "",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Belo",
+        "banco_destino": "Cuenta Virtual",
+        "referencia": "215878045",
+        "concepto": "Balance en ARG Token",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": false,
+        "notas": "Transferencia desde Belo. Origen: Balance en ARG Token. Tipo de cambio: 1 ARGt ≈ 1 ARS. CVU destinatario: 0000155300000000009977. Coelsa ID: 86VRPQ2GML6V4KVL2GLY0M",
+        "_num": 1787,
+        "_fecha_carga": "18/06/2026 23:49",
+        "_origen": "grupo",
+        "_pie": ""
       }
     ],
     "errores": [],
