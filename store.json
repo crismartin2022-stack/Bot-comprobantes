@@ -81090,6 +81090,28 @@
         "_fecha_carga": "18/06/2026 23:39",
         "_origen": "grupo",
         "_pie": "Alan Espinola 39.715.159"
+      },
+      {
+        "fecha": "14/06/2026",
+        "hora": "00:29",
+        "tipo": "TRF",
+        "monto": 800000.0,
+        "moneda": "ARS",
+        "remitente": "AQUILES ALEJANDRO COPPINI",
+        "remitente_cuil": "",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Ualá",
+        "banco_destino": "",
+        "referencia": "Z0KV87940E0GW7OENPEYDX",
+        "concepto": "VAR",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CBU destino: 0000155300000000009977. CUIT destino: 30717282252 (Sasteup Srl).",
+        "_num": 1716,
+        "_fecha_carga": "18/06/2026 23:39",
+        "_origen": "grupo",
+        "_pie": ""
       }
     ],
     "errores": [],
