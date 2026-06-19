@@ -87154,6 +87154,28 @@
         "_fecha_carga": "19/06/2026 00:17",
         "_origen": "grupo",
         "_pie": "Rodrigo herrera\n36.395.429"
+      },
+      {
+        "fecha": "14/06/2026",
+        "hora": "22:33",
+        "tipo": "TRF",
+        "monto": 500000.0,
+        "moneda": "ARS",
+        "remitente": "HERNAN RODRIGO HERRERA",
+        "remitente_cuil": "20-36395429-5",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Banco De Galicia S.A.U",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "42108003924",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "ID COELSA: Z4K6DVNOWYP75KRM25J8LQ. CVU destinatario: 0000155300000000009977. CUIT destinatario: 30-71728225-2",
+        "_num": 1991,
+        "_fecha_carga": "19/06/2026 00:17",
+        "_origen": "grupo",
+        "_pie": "Rodrigo herrera\n36.395.429"
       }
     ],
     "errores": [],
