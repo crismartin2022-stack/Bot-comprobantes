@@ -57469,6 +57469,28 @@
         "_fecha_carga": "18/06/2026 21:10",
         "_origen": "grupo",
         "_pie": "Foto de Clohe😎"
+      },
+      {
+        "fecha": "11/06/2026",
+        "hora": "00:55",
+        "tipo": "TRF",
+        "monto": 35000.0,
+        "moneda": "ARS",
+        "remitente": "GONZALEZ JORGE IVAN",
+        "remitente_cuil": "",
+        "destinatario": "SASTEUP SRL",
+        "banco_origen": "BBVA",
+        "banco_destino": "",
+        "referencia": "30009457010260611",
+        "concepto": "VARIOS",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Cuenta de origen: CA$ 12-064275/7. CUIT destinatario: 30717282252. CBU/CVU destinatario: 000015530000000000009977. Operación realizada desde BBVA Móvil.",
+        "_num": 644,
+        "_fecha_carga": "18/06/2026 21:11",
+        "_origen": "grupo",
+        "_pie": "Gonzalez jorge Ivan 42.661.243"
       }
     ],
     "errores": [],
