@@ -45091,6 +45091,28 @@
         "_fecha_carga": "19/06/2026 19:59",
         "_origen": "grupo",
         "_pie": "Soledad Sosa 47136348"
+      },
+      {
+        "fecha": "15/06/2026",
+        "hora": "17:19",
+        "tipo": "TRF",
+        "monto": 1141800.0,
+        "moneda": "ARS",
+        "remitente": "Estella Susana Alaniz",
+        "remitente_cuil": "27-27896804-4",
+        "destinatario": "Sercob Sa",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "Billetera BILLETERAPAIS SA",
+        "referencia": "163449959917",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "7745",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: 8D0Q619L0WPL6QQLN7JZ5R. CVU remitente: 0000003100000318576657. CVU destinatario: 0000133100000000587745.",
+        "_num": 61,
+        "_fecha_carga": "19/06/2026 19:59",
+        "_origen": "grupo",
+        "_pie": "Estella Alaniz 27896804"
       }
     ],
     "errores": [],
