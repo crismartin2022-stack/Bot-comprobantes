@@ -79722,6 +79722,28 @@
         "_fecha_carga": "18/06/2026 23:30",
         "_origen": "grupo",
         "_pie": "leandro artigas\n31560335"
+      },
+      {
+        "fecha": "11/06/2026",
+        "hora": "19:40",
+        "tipo": "TRF",
+        "monto": 660000.0,
+        "moneda": "ARS",
+        "remitente": "Carlos Alberto Ialea",
+        "remitente_cuil": "20-33799870-5",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Naranja X",
+        "banco_destino": "Cuenta Virtual",
+        "referencia": "JMQKYZ9QQ0JYGZ3Q9V50P3",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CBU origen: 4530000800018348292421. CVU destino: 0000155300000000009977. CUIL destinatario: 30-71728225-2. Código de transacción: 20318627-f6a8-4c07-bba2-12c4a267a611",
+        "_num": 1654,
+        "_fecha_carga": "18/06/2026 23:30",
+        "_origen": "grupo",
+        "_pie": "Carlos Alberto ialea \n33799870"
       }
     ],
     "errores": [],
