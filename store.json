@@ -51108,6 +51108,28 @@
         "_fecha_carga": "19/06/2026 20:40",
         "_origen": "grupo",
         "_pie": ""
+      },
+      {
+        "fecha": "16/06/2026",
+        "hora": "20:18",
+        "tipo": "TRF",
+        "monto": 100000.0,
+        "moneda": "ARS",
+        "remitente": "Karen Del Valle Varela",
+        "remitente_cuil": "27-37635802-5",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "164454745644",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: Z0KV87940EXK71MDNPEYDX. CVU origen: 0000003100037027984206. CVU destino: 0000155300000000009977.",
+        "_num": 334,
+        "_fecha_carga": "19/06/2026 20:40",
+        "_origen": "grupo",
+        "_pie": "Karen Del Valle Varela\nCUIT/CUIL: 27-37635802-5"
       }
     ],
     "errores": [],
