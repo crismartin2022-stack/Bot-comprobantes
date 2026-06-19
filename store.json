@@ -85609,6 +85609,28 @@
         "_fecha_carga": "19/06/2026 00:07",
         "_origen": "grupo",
         "_pie": "Márquez Mariale Romina\nFichas multipanel divertiteunrato2"
+      },
+      {
+        "fecha": "15/06/2026",
+        "hora": "08:39",
+        "tipo": "TRF",
+        "monto": 400000.0,
+        "moneda": "ARS",
+        "remitente": "Benitez, Gonzalo Andres",
+        "remitente_cuil": "20-41936329-5",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Personal Pay",
+        "banco_destino": "",
+        "referencia": "2743834724",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CoelsaID: Z6OLMDN3V3JX7XR52E7RQ5. CUIL/CUIT destinatario: 30-71728225-2. CBU/CVU destinatario: 0000155300000000009977.",
+        "_num": 1921,
+        "_fecha_carga": "19/06/2026 00:08",
+        "_origen": "grupo",
+        "_pie": "Filomena renna 4512413"
       }
     ],
     "errores": [],
