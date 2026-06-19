@@ -72428,6 +72428,28 @@
         "_fecha_carga": "18/06/2026 22:44",
         "_origen": "grupo",
         "_pie": "Noemi Ayda Duarte\nCUIT/CUIL: 27-24131220-3"
+      },
+      {
+        "fecha": "14/06/2026",
+        "hora": "21:17",
+        "tipo": "TRF",
+        "monto": 100000.0,
+        "moneda": "ARS",
+        "remitente": "Gisela Noemi Benitez",
+        "remitente_cuil": "27-34643630-7",
+        "destinatario": "Sercob Sa",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "Billetera País",
+        "referencia": "163340044821",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "7028",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: LMORZP908LGW5OJYNEGJ46. CVU remitente: 0000003100031747430410. CVU destinatario: 0000133100000000587028. CUIT destinatario: 30-70828227-4",
+        "_num": 1323,
+        "_fecha_carga": "18/06/2026 22:44",
+        "_origen": "grupo",
+        "_pie": ""
       }
     ],
     "errores": [],
