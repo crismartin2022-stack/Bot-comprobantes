@@ -46701,6 +46701,28 @@
         "_fecha_carga": "19/06/2026 20:10",
         "_origen": "grupo",
         "_pie": "Vanesa Beatriz Sandoval 30066153"
+      },
+      {
+        "fecha": "17/06/2026",
+        "hora": "01:34",
+        "tipo": "TRF",
+        "monto": 100000.0,
+        "moneda": "ARS",
+        "remitente": "Ariel Ricardo Barrios",
+        "remitente_cuil": "20-32472349-9",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "164487901032",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: 67REZ8NPQ6R4Y6O194KVGO. CVU origen: 0000003100040314583048. CVU destino: 0000155300000000009977",
+        "_num": 134,
+        "_fecha_carga": "19/06/2026 20:10",
+        "_origen": "grupo",
+        "_pie": "Ariel barrios \n32472349"
       }
     ],
     "errores": [],
