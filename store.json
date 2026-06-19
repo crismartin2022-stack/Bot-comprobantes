@@ -69012,6 +69012,28 @@
         "_fecha_carga": "18/06/2026 22:22",
         "_origen": "grupo",
         "_pie": "Carmen silvero Dni 96208464"
+      },
+      {
+        "fecha": "13/06/2026",
+        "hora": "22:16",
+        "tipo": "TRF",
+        "monto": 100000.0,
+        "moneda": "ARS",
+        "remitente": "Natalia Ailen Di Giorgio Suarez",
+        "remitente_cuil": "27-47758744-0",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163228268575",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: 0V1JXON1LMDZ6XM1NZ64EL. CUIT destinatario: 30-71728225-2. CVU remitente: 0000003100070476800015. CVU destinatario: 0000155300000000000009977",
+        "_num": 1168,
+        "_fecha_carga": "18/06/2026 22:23",
+        "_origen": "grupo",
+        "_pie": "Natalia Ailen Di Giorgio Suarez\nCUIT/CUIL: 27-47758744-0"
       }
     ],
     "errores": [],
