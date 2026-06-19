@@ -58943,6 +58943,28 @@
         "_fecha_carga": "18/06/2026 21:20",
         "_origen": "grupo",
         "_pie": "Foto de Clohe😎"
+      },
+      {
+        "fecha": "14/06/2026",
+        "hora": "19:40",
+        "tipo": "TRF",
+        "monto": 29000.0,
+        "moneda": "ARS",
+        "remitente": "Erica Ingrid Insaurralde Escudero",
+        "remitente_cuil": "27-32011964-8",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163326063561",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: LMORZP908LGELXJYNEGJ46. CVU remitente: 0000003100001587739466. CVU destinatario: 0000155300000000009977. CUIT destinatario: 30-71728225-2",
+        "_num": 711,
+        "_fecha_carga": "18/06/2026 21:20",
+        "_origen": "grupo",
+        "_pie": "Foto de Clohe😎"
       }
     ],
     "errores": [],
