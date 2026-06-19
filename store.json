@@ -47208,6 +47208,28 @@
         "_fecha_carga": "19/06/2026 20:14",
         "_origen": "grupo",
         "_pie": "tomas rocha 46186158"
+      },
+      {
+        "fecha": "12/06/2026",
+        "hora": "20:30",
+        "tipo": "TRF",
+        "monto": 50000.0,
+        "moneda": "ARS",
+        "remitente": "David Emanuel Aguilar",
+        "remitente_cuil": "20-46205922-2",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163059193291",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: Z4K6DVNOWZYQ076125J8LQ. CVU origen: 0000003100095909670166. CVU destino: 0000155300000000000009977.",
+        "_num": 157,
+        "_fecha_carga": "19/06/2026 20:14",
+        "_origen": "grupo",
+        "_pie": "david aguilar 46205922"
       }
     ],
     "errores": [],
