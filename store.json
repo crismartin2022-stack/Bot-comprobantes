@@ -47694,6 +47694,28 @@
         "_fecha_carga": "19/06/2026 20:17",
         "_origen": "grupo",
         "_pie": "Joana luna 36581218"
+      },
+      {
+        "fecha": "16/06/2026",
+        "hora": "18:51",
+        "tipo": "TRF",
+        "monto": 460000.0,
+        "moneda": "ARS",
+        "remitente": "Facundo Ariel Caceres",
+        "remitente_cuil": "20-42310498-9",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163624535363",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: ORD6LEN8PYDZQX5ONM1Y30. CVU origen (remitente): 0000003100069953403609. CVU destino (receptor): 0000155300000000009977.",
+        "_num": 179,
+        "_fecha_carga": "19/06/2026 20:17",
+        "_origen": "grupo",
+        "_pie": "Facundo Ariel Cáceres \n42310498"
       }
     ],
     "errores": [],
