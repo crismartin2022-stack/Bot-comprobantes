@@ -57931,6 +57931,28 @@
         "_fecha_carga": "18/06/2026 21:14",
         "_origen": "grupo",
         "_pie": "Foto de Clohe😎"
+      },
+      {
+        "fecha": "12/06/2026",
+        "hora": "10:32",
+        "tipo": "TRF",
+        "monto": 20000.0,
+        "moneda": "ARS",
+        "remitente": "Jessica Nannyn Frances",
+        "remitente_cuil": "27-29565299-9",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "162956439177",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: 46YGOW9M1YW4RR3MNEXD8J. CVU remitente: 0000003100019838658743. CVU destinatario: 0000155300000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 665,
+        "_fecha_carga": "18/06/2026 21:14",
+        "_origen": "grupo",
+        "_pie": "Foto de Clohe😎"
       }
     ],
     "errores": [],
