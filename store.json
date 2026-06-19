@@ -65397,6 +65397,28 @@
         "_fecha_carga": "18/06/2026 21:59",
         "_origen": "grupo",
         "_pie": "Álvaro Miguel Vides \nCUIL: 20-39401192-5"
+      },
+      {
+        "fecha": "14/06/2026",
+        "hora": "16:41",
+        "tipo": "TRF",
+        "monto": 200000.0,
+        "moneda": "ARS",
+        "remitente": "Marcia Marina Maria Moreira",
+        "remitente_cuil": "27-33645445-5",
+        "destinatario": "SASTEUP SRL",
+        "banco_origen": "AstroPay",
+        "banco_destino": "",
+        "referencia": "XJ8G7V95DW7JY6DR9EMPYR",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CVU remitente: 0000177500099256890321 (Alias: Mr25.astropay). CVU receptor: 0000155300000000009977 (Alias: cvu.977). CUIT receptor SASTEUP SRL: 30717282252.",
+        "_num": 1004,
+        "_fecha_carga": "18/06/2026 21:59",
+        "_origen": "grupo",
+        "_pie": "Vega Romina Liz \n27343282481"
       }
     ],
     "errores": [],
