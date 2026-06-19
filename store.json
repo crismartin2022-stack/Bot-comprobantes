@@ -73599,6 +73599,28 @@
         "_fecha_carga": "18/06/2026 22:51",
         "_origen": "grupo",
         "_pie": "Fernando Nazareno Coronel\nCUIT/CUIL: 20-34445067-7"
+      },
+      {
+        "fecha": "14/06/2026",
+        "hora": "23:30",
+        "tipo": "TRF",
+        "monto": 100000.0,
+        "moneda": "ARS",
+        "remitente": "JIMENA BELEN BREST",
+        "remitente_cuil": "27-39984557-8",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Banco De Galicia S.A.U",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "42108257832",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CVU destinatario: 0000155300000000009977. CUIT destinatario: 30-71728225-2. ID COELSA: 8D0Q619L0W3X5QE3N7JZ5R",
+        "_num": 1376,
+        "_fecha_carga": "18/06/2026 22:51",
+        "_origen": "grupo",
+        "_pie": "JIMENA BELEN BREST\nCUIT 27-39984557-8"
       }
     ],
     "errores": [],
