@@ -59317,6 +59317,28 @@
         "_fecha_carga": "18/06/2026 21:22",
         "_origen": "grupo",
         "_pie": "Sandra Sotelo \n22.460.036"
+      },
+      {
+        "fecha": "14/06/2026",
+        "hora": "19:57",
+        "tipo": "TRF",
+        "monto": 500000.0,
+        "moneda": "ARS",
+        "remitente": "Sandra Patricia Sotelo",
+        "remitente_cuil": "22.460.036",
+        "destinatario": "SASTEUP SRL",
+        "banco_origen": "Cuenta DNI",
+        "banco_destino": "",
+        "referencia": "Z6OLMDN3V37WK7D62E7RQ5",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CVU destinatario: 0000155300000000009977. CUIL destinatario: 30717282252. Referencia y motivo indicados como 'Varios'.",
+        "_num": 728,
+        "_fecha_carga": "18/06/2026 21:22",
+        "_origen": "grupo",
+        "_pie": "Sandra Sotelo \n22.460.036"
       }
     ],
     "errores": [],
