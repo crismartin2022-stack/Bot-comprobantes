@@ -74459,6 +74459,28 @@
         "_fecha_carga": "18/06/2026 22:56",
         "_origen": "grupo",
         "_pie": "A nombre de \nMatias Quevedo\n40640486"
+      },
+      {
+        "fecha": "15/06/2026",
+        "hora": "16:53",
+        "tipo": "TRF",
+        "monto": 500000.01,
+        "moneda": "ARS",
+        "remitente": "Adriana Vanesa Garcia",
+        "remitente_cuil": "27-35684164-1",
+        "destinatario": "SASTEUP SRL",
+        "banco_origen": "AstroPay",
+        "banco_destino": "",
+        "referencia": "R7ZG0QNDW1G1VOZV9EXYPO",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CVU remitente: 0000177500097320525179 (Alias: Adrigar.astro). CVU receptor: 0000155300000000009977 (Alias: cvu.977). CUIT receptor SASTEUP SRL: 30717282252.",
+        "_num": 1415,
+        "_fecha_carga": "18/06/2026 22:56",
+        "_origen": "grupo",
+        "_pie": "Adriana vanesa Garcia\n27-35684164-1"
       }
     ],
     "errores": [],
