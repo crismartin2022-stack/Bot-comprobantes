@@ -81443,6 +81443,28 @@
         "_fecha_carga": "18/06/2026 23:41",
         "_origen": "grupo",
         "_pie": "A nombre de Julieta Rocío Gonzalez\nDNI:45.786.731"
+      },
+      {
+        "fecha": "13/06/2026",
+        "hora": "13:07",
+        "tipo": "TRF",
+        "monto": 10000.0,
+        "moneda": "ARS",
+        "remitente": "Joaquin Sebastian Marichal",
+        "remitente_cuil": "20-45847558-0",
+        "destinatario": "SASTEUP SRL",
+        "banco_origen": "Brubank",
+        "banco_destino": "",
+        "referencia": "",
+        "concepto": "Envío de dinero",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CBU/CVU destinatario: 0000155300000000009977. CUIT destinatario: 30-71728225-2. Entidad destino: CVU.",
+        "_num": 1732,
+        "_fecha_carga": "18/06/2026 23:41",
+        "_origen": "grupo",
+        "_pie": "shaka srl"
       }
     ],
     "errores": [],
