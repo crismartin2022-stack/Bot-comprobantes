@@ -84904,6 +84904,28 @@
         "_fecha_carga": "19/06/2026 00:03",
         "_origen": "grupo",
         "_pie": "Lucas alejandro marsico 38692297"
+      },
+      {
+        "fecha": "14/06/2026",
+        "hora": "16:40",
+        "tipo": "TRF",
+        "monto": 50000.0,
+        "moneda": "ARS",
+        "remitente": "Ayelen Esperanza Orrego",
+        "remitente_cuil": "23-38584725-4",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "164118534414",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: LMORZP908LGK4K34NEGJ46. CUIT destinatario: 30-71728225-2. CVU destinatario completo: 0000155300000000000009977",
+        "_num": 1889,
+        "_fecha_carga": "19/06/2026 00:03",
+        "_origen": "grupo",
+        "_pie": "Ayelen Esperanza Orrego 38584725"
       }
     ],
     "errores": [],
