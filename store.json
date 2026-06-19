@@ -48552,6 +48552,28 @@
         "_fecha_carga": "19/06/2026 20:23",
         "_origen": "grupo",
         "_pie": "Alejandro Antonio Ramirez\nDNI: 46.243.309"
+      },
+      {
+        "fecha": "15/06/2026",
+        "hora": "16:50",
+        "tipo": "TRF",
+        "monto": 500000.77,
+        "moneda": "ARS",
+        "remitente": "Cesar Oscar Molina",
+        "remitente_cuil": "20-35808130-5",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "164259848970",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: D4RO172VZQKQKYJVNKJ3QE. CVU origen (remitente): 0000003100042873763840. CVU destino (receptor): 0000155300000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 218,
+        "_fecha_carga": "19/06/2026 20:23",
+        "_origen": "grupo",
+        "_pie": "Cesar Oscar Molina\nDNI: 35.808.130"
       }
     ],
     "errores": [],
