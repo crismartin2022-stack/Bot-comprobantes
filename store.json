@@ -47518,6 +47518,28 @@
         "_fecha_carga": "19/06/2026 20:16",
         "_origen": "grupo",
         "_pie": "maia barreiro \n46038781"
+      },
+      {
+        "fecha": "16/06/2026",
+        "hora": "15:36",
+        "tipo": "TRF",
+        "monto": 200000.0,
+        "moneda": "ARS",
+        "remitente": "Nancy Cristina Cantero",
+        "remitente_cuil": "27-18447895-7",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163592329075",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: L18MKX9RXJGXPDKO9O6WYV. CVU origen: 0000003100052581124268. CVU destino: 0000155300000000009977. CUIT/CUIL destinatario: 30-71728225-2",
+        "_num": 171,
+        "_fecha_carga": "19/06/2026 20:16",
+        "_origen": "grupo",
+        "_pie": "Nancy cristina cantero 18447895"
       }
     ],
     "errores": [],
