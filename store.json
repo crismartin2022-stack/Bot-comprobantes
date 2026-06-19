@@ -85213,6 +85213,28 @@
         "_fecha_carga": "19/06/2026 00:05",
         "_origen": "grupo",
         "_pie": "Claudia aguirre \n41594992"
+      },
+      {
+        "fecha": "15/06/2026",
+        "hora": "21:51",
+        "tipo": "TRF",
+        "monto": 300000.0,
+        "moneda": "ARS",
+        "remitente": "Mario Alberto Zuniga",
+        "remitente_cuil": "20-38813758-5",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "164303911628",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: 1LMP68NKVEYQ1QXZ2R7OEV. CVU remitente: 0000003100015580471162. CVU destinatario: 0000155300000000000009977. CUIT destinatario: 30-71728225-2",
+        "_num": 1903,
+        "_fecha_carga": "19/06/2026 00:05",
+        "_origen": "grupo",
+        "_pie": "Mario zuniga 38813758"
       }
     ],
     "errores": [],
