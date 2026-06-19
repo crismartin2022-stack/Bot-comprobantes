@@ -78246,6 +78246,28 @@
         "_fecha_carga": "18/06/2026 23:20",
         "_origen": "grupo",
         "_pie": "Ever kobs Benítez 20949070108"
+      },
+      {
+        "fecha": "11/06/2026",
+        "hora": "23:25",
+        "tipo": "TRF",
+        "monto": 260000.0,
+        "moneda": "ARS",
+        "remitente": "Modesto Aquino Hernandez",
+        "remitente_cuil": "20-94970652-5",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Naranja X",
+        "banco_destino": "Cuenta Virtual",
+        "referencia": "XJ8G7V95DXQO701L9EMPYR",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CBU origen: 453000080001728850302. CVU destino: 0000155300000000009977. CUIL destinatario: 30-71728225-2. Código de transacción: 0b189777-1fe2-44e5-b2d0-c43c60049b9c.",
+        "_num": 1587,
+        "_fecha_carga": "18/06/2026 23:21",
+        "_origen": "grupo",
+        "_pie": "Modesto Aquino Hernández\n20949706525 Plutonos"
       }
     ],
     "errores": [],
