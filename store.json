@@ -78158,6 +78158,28 @@
         "_fecha_carga": "18/06/2026 23:20",
         "_origen": "grupo",
         "_pie": "Daiana ada luz\n39753021"
+      },
+      {
+        "fecha": "14/06/2026",
+        "hora": "13:38",
+        "tipo": "TRF",
+        "monto": 67500.0,
+        "moneda": "ARS",
+        "remitente": "Carmen Alejandra Vera",
+        "remitente_cuil": "27-23514318-1",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "164097201318",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: WY7ZEPN6MKMVMLMV2Q0M51. CVU remitente: 0000003100026876755842. CVU destinatario: 0000155300000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 1583,
+        "_fecha_carga": "18/06/2026 23:20",
+        "_origen": "grupo",
+        "_pie": "Carmen Alejandra Vera\nCUIT/CUIL: 27-23514318-1\nMercado Pago\nCVU: 0000003100026876755842"
       }
     ],
     "errores": [],
