@@ -52012,6 +52012,28 @@
         "_fecha_carga": "19/06/2026 20:46",
         "_origen": "grupo",
         "_pie": "Lara zeballos\n44268753\n500k bet30 multiskin"
+      },
+      {
+        "fecha": "15/06/2026",
+        "hora": "16:10",
+        "tipo": "TRF",
+        "monto": 100000.0,
+        "moneda": "ARS",
+        "remitente": "Araceli Stefania Martinez Rothenberger",
+        "remitente_cuil": "27-41089069-6",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "164254155158",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: 46YGOW9M1KXW6L1MNEXD8J. CVU remitente: 0000003100091594209991. CVU destinatario: 0000155300000000009977.",
+        "_num": 375,
+        "_fecha_carga": "19/06/2026 20:46",
+        "_origen": "grupo",
+        "_pie": "Araceli Stefania Martinez Rothenberger\nCUIT/CUIL: 27-41089069-6"
       }
     ],
     "errores": [],
