@@ -89072,6 +89072,28 @@
         "_fecha_carga": "19/06/2026 00:29",
         "_origen": "grupo",
         "_pie": "Rocio Ailen Malaguenxxo\nCUIT/CUIL: 27-47191340-0"
+      },
+      {
+        "fecha": "15/06/2026",
+        "hora": "18:11",
+        "tipo": "TRF",
+        "monto": 25000.0,
+        "moneda": "ARS",
+        "remitente": "Marcos Daniel Campos Gonzalez",
+        "remitente_cuil": "",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Lemon",
+        "banco_destino": "CVU",
+        "referencia": "3D5W612E6Z767O4W2GXYVR",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CUIT destinatario: 30717282252. CBU destinatario: 0000155300000000009977. ID de la transacción: 98982768-43d1-4b39-84c3-fa6a52d41ea5. Comprobante emitido por Lemon powered by Digifin.",
+        "_num": 2078,
+        "_fecha_carga": "19/06/2026 00:29",
+        "_origen": "grupo",
+        "_pie": "Marcos campos 33415464"
       }
     ],
     "errores": [],
