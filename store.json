@@ -70468,6 +70468,28 @@
         "_fecha_carga": "18/06/2026 22:31",
         "_origen": "grupo",
         "_pie": "Juan Elias Marquez De Olivera\nCUIT/CUIL: 20-36520946-5"
+      },
+      {
+        "fecha": "14/06/2026",
+        "hora": "11:58",
+        "tipo": "TRF",
+        "monto": 75000.0,
+        "moneda": "ARS",
+        "remitente": "Marianela Torres",
+        "remitente_cuil": "",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Lemon",
+        "banco_destino": "CVU",
+        "referencia": "8D0Q619L0W0ZLV0XN7JZ5R",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CUIT destinatario: 30717282252. CBU destinatario: 0000155300000000009977. ID de la transacción: 0c303a5b-d493-4390-8bf1-43c480f41bc6. Comprobante emitido por Lemon powered by Digifin.",
+        "_num": 1234,
+        "_fecha_carga": "18/06/2026 22:32",
+        "_origen": "grupo",
+        "_pie": "Marianela torres 47879620"
       }
     ],
     "errores": [],
