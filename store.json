@@ -46591,6 +46591,28 @@
         "_fecha_carga": "19/06/2026 20:09",
         "_origen": "grupo",
         "_pie": "Gisela Vanesa Nuñez \n34581983"
+      },
+      {
+        "fecha": "16/06/2026",
+        "hora": "23:47",
+        "tipo": "TRF",
+        "monto": 100000.0,
+        "moneda": "ARS",
+        "remitente": "Santiago Carnoto Giallonardo",
+        "remitente_cuil": "20-46752110-2",
+        "destinatario": "SASTEUP SRL",
+        "banco_origen": "AstroPay",
+        "banco_destino": "",
+        "referencia": "76V4MR2Z74D35W30NDEZOL",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CVU remitente: 0000177501789000317482. CVU receptor: 0000155300000000009977. Alias receptor: cvu.977. CUIT/CUIL receptor: 30717282252.",
+        "_num": 129,
+        "_fecha_carga": "19/06/2026 20:09",
+        "_origen": "grupo",
+        "_pie": "Santiago Carnoto DNI  46752110"
       }
     ],
     "errores": [],
