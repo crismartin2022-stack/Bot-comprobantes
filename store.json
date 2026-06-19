@@ -78511,6 +78511,28 @@
         "_fecha_carga": "18/06/2026 23:22",
         "_origen": "grupo",
         "_pie": ""
+      },
+      {
+        "fecha": "12/06/2026",
+        "hora": "16:35",
+        "tipo": "TRF",
+        "monto": 27000.0,
+        "moneda": "ARS",
+        "remitente": "Gaston Cruz Moyano",
+        "remitente_cuil": "20-46306077-1",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163014117739",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: PDX4OGNYG333PGM4N0L6EY. CUIT destinatario: 30-71728225-2. CVU remitente: 0000003100011698422762. CVU destinatario: 0000155300000000000009977.",
+        "_num": 1599,
+        "_fecha_carga": "18/06/2026 23:22",
+        "_origen": "grupo",
+        "_pie": ""
       }
     ],
     "errores": [],
