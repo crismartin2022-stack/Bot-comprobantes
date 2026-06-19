@@ -73819,6 +73819,28 @@
         "_fecha_carga": "18/06/2026 22:52",
         "_origen": "grupo",
         "_pie": "Aylen Maria Ester Gonzalez\nCUIT/CUIL: 27-47506525-0"
+      },
+      {
+        "fecha": "15/06/2026",
+        "hora": "09:10",
+        "tipo": "TRF",
+        "monto": 380000.0,
+        "moneda": "ARS",
+        "remitente": "Francisco Ezequiel Duarte",
+        "remitente_cuil": "20-45863578-2",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "164194337566",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: WGRXJE27DX8GZL1EN7MYQL. CVU remitente: 0000003100046168307858. CVU destinatario (Sasteup Srl): 0000155300000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 1386,
+        "_fecha_carga": "18/06/2026 22:52",
+        "_origen": "grupo",
+        "_pie": ""
       }
     ],
     "errores": [],
