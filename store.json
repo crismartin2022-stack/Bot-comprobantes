@@ -88544,6 +88544,28 @@
         "_fecha_carga": "19/06/2026 00:26",
         "_origen": "grupo",
         "_pie": "Miriam Lili Nunez Fernandez\nCUIT/CUIL: 27-94216492-6"
+      },
+      {
+        "fecha": "15/06/2026",
+        "hora": "23:34",
+        "tipo": "TRF",
+        "monto": 500000.0,
+        "moneda": "ARS",
+        "remitente": "Furlan Olivera, Florencia Soledad Rocio",
+        "remitente_cuil": "27-41782456-7",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Personal Pay",
+        "banco_destino": "",
+        "referencia": "2745454361",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CUIL/CUIT destinatario: 30-71728225-2. CBU/CVU receptor: 0000155300000000009977. CoelsaID: LMORZP908LYX51LYNEGJ46 - Id Bancario",
+        "_num": 2054,
+        "_fecha_carga": "19/06/2026 00:26",
+        "_origen": "grupo",
+        "_pie": "Furlan Olivera, Florencia Soledad\nRocio"
       }
     ],
     "errores": [],
