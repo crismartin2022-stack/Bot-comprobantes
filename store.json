@@ -49300,6 +49300,28 @@
         "_fecha_carga": "19/06/2026 20:28",
         "_origen": "grupo",
         "_pie": "Jorge Muñoz\n35710065"
+      },
+      {
+        "fecha": "17/06/2026",
+        "hora": "00:58",
+        "tipo": "TRF",
+        "monto": 55000.0,
+        "moneda": "ARS",
+        "remitente": "Susana Kmicaela Balbuena",
+        "remitente_cuil": "27-35094994-7",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "164486364638",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: 8D0Q619L0W56O07XN7JZ5R. CVU origen: 0000003100057266067517. CVU destino: 0000155300000000009977.",
+        "_num": 252,
+        "_fecha_carga": "19/06/2026 20:28",
+        "_origen": "grupo",
+        "_pie": "35094994\nSusana Kmicaela Balbuena"
       }
     ],
     "errores": [],
