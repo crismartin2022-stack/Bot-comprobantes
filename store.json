@@ -80539,6 +80539,28 @@
         "_fecha_carga": "18/06/2026 23:35",
         "_origen": "grupo",
         "_pie": "Natasha loreto \n40257678"
+      },
+      {
+        "fecha": "13/06/2026",
+        "hora": "19:01",
+        "tipo": "TRF",
+        "monto": 30000.0,
+        "moneda": "ARS",
+        "remitente": "Carlos Daniel Silva",
+        "remitente_cuil": "20-29165124-1",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Naranja X",
+        "banco_destino": "Cuenta Virtual",
+        "referencia": "LMORZP908L5YQRQ6NEGJ46",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CBU origen: 453000080012217841561. CVU destino: 0000155300000000009977. CUIL destinatario: 30-71728225-2. Código de transacción: 0b069b12-cab9-4d71-81ae-00cede8acad3",
+        "_num": 1691,
+        "_fecha_carga": "18/06/2026 23:36",
+        "_origen": "grupo",
+        "_pie": "Carlos Daniel silva \n\nDNI: 29.165.124"
       }
     ],
     "errores": [],
