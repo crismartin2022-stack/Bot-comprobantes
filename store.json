@@ -46349,6 +46349,28 @@
         "_fecha_carga": "19/06/2026 20:08",
         "_origen": "grupo",
         "_pie": "Ganamos"
+      },
+      {
+        "fecha": "16/06/2026",
+        "hora": "11:06",
+        "tipo": "TRF",
+        "monto": 80000.0,
+        "moneda": "ARS",
+        "remitente": "Carolina Alejandra Portillo",
+        "remitente_cuil": "27-34263733-2",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163548047991",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: 67REZ8NPQ67D6GL494KVGO. CVU origen: 0000003100031904260733. CVU destino: 0000155300000000000009977.",
+        "_num": 118,
+        "_fecha_carga": "19/06/2026 20:08",
+        "_origen": "grupo",
+        "_pie": "Ariel barrios \n32472349"
       }
     ],
     "errores": [],
