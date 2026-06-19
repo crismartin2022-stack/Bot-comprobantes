@@ -80098,6 +80098,28 @@
         "_fecha_carga": "18/06/2026 23:33",
         "_origen": "grupo",
         "_pie": "Lisandro silva\n\n33142617"
+      },
+      {
+        "fecha": "12/06/2026",
+        "hora": "18:50",
+        "tipo": "TRF",
+        "monto": 30000.0,
+        "moneda": "ARS",
+        "remitente": "Carlos Daniel Silva",
+        "remitente_cuil": "20-29165124-1",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Naranja X",
+        "banco_destino": "Cuenta Virtual",
+        "referencia": "76V4MR2Z7Q4X57PLNDEZOL",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CBU origen: 4530000800012217841561. CVU destino: 0000155300000000009977. CUIL destinatario: 30-71728225-2. Código de transacción: f572aee4-dfbc-4cb1-8b56-00a8da86c54a.",
+        "_num": 1671,
+        "_fecha_carga": "18/06/2026 23:33",
+        "_origen": "grupo",
+        "_pie": "Carlos Daniel silva \n\nDNI: 29.165.124"
       }
     ],
     "errores": [],
