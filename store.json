@@ -63373,6 +63373,28 @@
         "_fecha_carga": "18/06/2026 21:47",
         "_origen": "grupo",
         "_pie": ""
+      },
+      {
+        "fecha": "13/06/2026",
+        "hora": "23:47",
+        "tipo": "TRF",
+        "monto": 100000.0,
+        "moneda": "ARS",
+        "remitente": "Brenda Tiziana Muñoz",
+        "remitente_cuil": "27-42471278-2",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Naranja X",
+        "banco_destino": "Cuenta Virtual",
+        "referencia": "8D0Q619L0WOWZVXZN7JZ5R",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CBU origen: 4530000800016653044968. CVU destino: 0000155300000000009977. CUIL destinatario: 30-71728225-2. Código de transacción: d06c8e97-8272-43a8-b19f-56bbd0b18994",
+        "_num": 912,
+        "_fecha_carga": "18/06/2026 21:47",
+        "_origen": "grupo",
+        "_pie": ""
       }
     ],
     "errores": [],
