@@ -47429,6 +47429,28 @@
         "_fecha_carga": "19/06/2026 20:15",
         "_origen": "grupo",
         "_pie": "maia barreiro \n46038781"
+      },
+      {
+        "fecha": "15/06/2026",
+        "hora": "18:59",
+        "tipo": "TRF",
+        "monto": 20000.0,
+        "moneda": "ARS",
+        "remitente": "Carlos Andres Zwick",
+        "remitente_cuil": "20-36637032-4",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Naranja X",
+        "banco_destino": "Cuenta Virtual",
+        "referencia": "WY7ZEPN6MKOOY35P2Q0M51",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CBU origen: 4530000800014040911990. CVU destino: 0000155300000000009977. CUIL destinatario: 30-71728225-2. Código de transacción: 22126ff4-418b-4d09-acf0-e0a6384525e9",
+        "_num": 167,
+        "_fecha_carga": "19/06/2026 20:15",
+        "_origen": "grupo",
+        "_pie": "Andres zwick \n36637032"
       }
     ],
     "errores": [],
