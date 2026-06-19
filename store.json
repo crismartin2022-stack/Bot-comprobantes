@@ -71767,6 +71767,28 @@
         "_fecha_carga": "18/06/2026 22:40",
         "_origen": "grupo",
         "_pie": "De:\nTHOMAS YAMIL IBANEZ\nCUIT 20-47120298-4"
+      },
+      {
+        "fecha": "14/06/2026",
+        "hora": "19:41",
+        "tipo": "TRF",
+        "monto": 600000.0,
+        "moneda": "ARS",
+        "remitente": "Ezequiel Enrique Galeano",
+        "remitente_cuil": "20-34571299-3",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Naranja X",
+        "banco_destino": "Cuenta Virtual",
+        "referencia": "1LMP68NKVEKWDXP52R7OEV",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de transacción adicional: d420adba-b404-42f2-918d-9a252e5a6228. CUIL destinatario: 30-71728225-2. CBU origen: 4530000800012426851421. CVU destino: 0000155300000000009977",
+        "_num": 1293,
+        "_fecha_carga": "18/06/2026 22:40",
+        "_origen": "grupo",
+        "_pie": "Ezequiel Enrique Galeano\nNaranja X\n4530000800012426851421\n20-34571299-3"
       }
     ],
     "errores": [],
