@@ -72651,6 +72651,28 @@
         "_fecha_carga": "18/06/2026 22:45",
         "_origen": "grupo",
         "_pie": "Pehuen dure, 42 842 691"
+      },
+      {
+        "fecha": "14/06/2026",
+        "hora": "22:28",
+        "tipo": "TRF",
+        "monto": 200000.0,
+        "moneda": "ARS",
+        "remitente": "Natalia Ailen Di Giorgio Suarez",
+        "remitente_cuil": "27-47758744-0",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163347838685",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: ORD6LEN8PYMJRM30NM1Y30. CUIT destinatario: 30-71728225-2. CVU remitente: 0000003100070476800015. CVU destinatario: 0000155300000000000009977.",
+        "_num": 1333,
+        "_fecha_carga": "18/06/2026 22:45",
+        "_origen": "grupo",
+        "_pie": "Natalia Ailen Di Giorgio Suarez\nCUIT/CUIL: 27-47758744-0"
       }
     ],
     "errores": [],
