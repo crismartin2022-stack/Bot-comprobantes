@@ -84882,6 +84882,28 @@
         "_fecha_carga": "19/06/2026 00:02",
         "_origen": "grupo",
         "_pie": "Claudia aguirre \n41594992"
+      },
+      {
+        "fecha": "14/06/2026",
+        "hora": "15:36",
+        "tipo": "TRF",
+        "monto": 50000.0,
+        "moneda": "ARS",
+        "remitente": "Marsico, Lucas Alejandro",
+        "remitente_cuil": "20-38692297-8",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Personal Pay",
+        "banco_destino": "",
+        "referencia": "2742706038",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CoelsaID: XJ8G7V95DWDWEW0M9EMPYR - Id Bancario. CBU/CVU destinatario: 0000155300000000009977. CUIL/CUIT destinatario: 30-71728225-2.",
+        "_num": 1888,
+        "_fecha_carga": "19/06/2026 00:03",
+        "_origen": "grupo",
+        "_pie": "Lucas alejandro marsico 38692297"
       }
     ],
     "errores": [],
