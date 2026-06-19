@@ -53667,6 +53667,28 @@
         "_fecha_carga": "19/06/2026 20:57",
         "_origen": "grupo",
         "_pie": "Gastón González gramajo \n20-37443763-2"
+      },
+      {
+        "fecha": "14/06/2026",
+        "hora": "20:32",
+        "tipo": "TRF",
+        "monto": 10000.0,
+        "moneda": "ARS",
+        "remitente": "Ramiro Daniel Gomez",
+        "remitente_cuil": "20-44312278-9",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163333717713",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: 46YGOW9M1KGVM7PZNEXD8J. CVU remitente: 0000003100010998855683. CVU destinatario: 0001553000000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 450,
+        "_fecha_carga": "19/06/2026 20:57",
+        "_origen": "grupo",
+        "_pie": "Ramiro Daniel Gómez \n20443122789"
       }
     ],
     "errores": [],
