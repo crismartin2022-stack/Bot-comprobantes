@@ -71063,6 +71063,28 @@
         "_fecha_carga": "18/06/2026 22:35",
         "_origen": "grupo",
         "_pie": "Pablo Scotta\nNaranja X\n4530000800010375412485\n20-46307447-0"
+      },
+      {
+        "fecha": "14/06/2026",
+        "hora": "15:19",
+        "tipo": "TRF",
+        "monto": 150000.0,
+        "moneda": "ARS",
+        "remitente": "MATIAS EMMANUEL TORRES MOYANO",
+        "remitente_cuil": "20-32356439-7",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Banco De Galicia S.A.U",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "42105008549",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CVU destinatario: 0000155300000000009977. CUIT destinatario: 30-71728225-2. ID COELSA: 0V1JXON1LMLWO7M1NZ64EL",
+        "_num": 1261,
+        "_fecha_carga": "18/06/2026 22:35",
+        "_origen": "grupo",
+        "_pie": "Matias torres 32356439"
       }
     ],
     "errores": [],
