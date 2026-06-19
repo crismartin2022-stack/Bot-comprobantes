@@ -51394,6 +51394,28 @@
         "_fecha_carga": "19/06/2026 20:42",
         "_origen": "grupo",
         "_pie": "Nicole Guadalupe Da Silva\nCUIT/CUIL: 27-43172482-6\nMercado Pago\nCVU: 0000003100089976714223"
+      },
+      {
+        "fecha": "15/06/2026",
+        "hora": "22:06",
+        "tipo": "TRF",
+        "monto": 90000.0,
+        "moneda": "ARS",
+        "remitente": "Nicolas Armando Rojas",
+        "remitente_cuil": "20-38126312-7",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163493484679",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: LOEJWV9JZ36E60JM2QMD0G. CVU origen: 0000003100075602677194. CVU destino: 0000155300000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 347,
+        "_fecha_carga": "19/06/2026 20:42",
+        "_origen": "grupo",
+        "_pie": "Nicolas rojas 38.126.312"
       }
     ],
     "errores": [],
