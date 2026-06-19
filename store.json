@@ -74900,6 +74900,28 @@
         "_fecha_carga": "18/06/2026 22:59",
         "_origen": "grupo",
         "_pie": "Rocio Ailen Malaguenxxo\nCUIT/CUIL: 27-47191340-0"
+      },
+      {
+        "fecha": "12/06/2026",
+        "hora": "00:00",
+        "tipo": "TRF",
+        "monto": 1600000.0,
+        "moneda": "ARS",
+        "remitente": "Espinoza, Emilio Orlando",
+        "remitente_cuil": "20-36716807-3",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Personal Pay",
+        "banco_destino": "",
+        "referencia": "2734481877",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CoelsaID: R7ZG0QNDWQDRRE049EXYPO - Id Bancario. CUIL/CUIT destinatario: 30-71728225-2. CBU/CVU receptor completo: 0000155300000000009977",
+        "_num": 1435,
+        "_fecha_carga": "18/06/2026 22:59",
+        "_origen": "grupo",
+        "_pie": "Espinoza, Emilio Orlando\nCUIL/CUIT\n20-36716807-3"
       }
     ],
     "errores": [],
