@@ -75562,6 +75562,28 @@
         "_fecha_carga": "18/06/2026 23:03",
         "_origen": "grupo",
         "_pie": "Juncos, Carlos Nicolas\n20-37491213-6"
+      },
+      {
+        "fecha": "12/06/2026",
+        "hora": "20:31",
+        "tipo": "TRF",
+        "monto": 230000.0,
+        "moneda": "ARS",
+        "remitente": "Tamara Beatriz Sanchez",
+        "remitente_cuil": "27-39817583-8",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163869836312",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: XJ8G7V95DXWL8OQR9EMPYR. CVU remitente: 0000003100096289986573. CVU destinatario: 0000155300000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 1465,
+        "_fecha_carga": "18/06/2026 23:03",
+        "_origen": "grupo",
+        "_pie": "Tamara Beatriz Sanchez\nCUIT/CUIL: 27-39817583-8"
       }
     ],
     "errores": [],
