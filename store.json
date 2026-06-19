@@ -66851,6 +66851,28 @@
         "_fecha_carga": "18/06/2026 22:08",
         "_origen": "grupo",
         "_pie": "A nombre de \nMatias Quevedo\n40640486"
+      },
+      {
+        "fecha": "13/06/2026",
+        "hora": "13:41",
+        "tipo": "TRF",
+        "monto": 200001.0,
+        "moneda": "ARS",
+        "remitente": "Jonathan Daniel Segovia",
+        "remitente_cuil": "",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Ualá",
+        "banco_destino": "",
+        "referencia": "46YGOW9M1KJQ3M0YNEXD8J",
+        "concepto": "VAR",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CBU destino: 0000155300000000009977. CUIT destino: 30717282252",
+        "_num": 1070,
+        "_fecha_carga": "18/06/2026 22:08",
+        "_origen": "grupo",
+        "_pie": "Jonathan Daniel Segovia \n47678975"
       }
     ],
     "errores": [],
