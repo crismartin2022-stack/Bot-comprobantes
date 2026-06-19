@@ -78907,6 +78907,28 @@
         "_fecha_carga": "18/06/2026 23:25",
         "_origen": "grupo",
         "_pie": "ENZO GABRIEL ALBARRACIN 23-43056491-9 1OO.OOO"
+      },
+      {
+        "fecha": "13/06/2026",
+        "hora": "04:57",
+        "tipo": "TRF",
+        "monto": 100000.0,
+        "moneda": "ARS",
+        "remitente": "Castro, Emiliano Gaston",
+        "remitente_cuil": "20-46112894-8",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Personal Pay",
+        "banco_destino": "",
+        "referencia": "2739476911",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CoelsaID: 76V4MR2Z74LOLGQ8NDEZOL - Id Bancario. CUIL/CUIT destinatario: 30-71728225-2. CBU/CVU destinatario: 0000155300000000009977",
+        "_num": 1617,
+        "_fecha_carga": "18/06/2026 23:25",
+        "_origen": "grupo",
+        "_pie": "Emiliano Gaston Castro CUIL:20-46112894-8 $100.000"
       }
     ],
     "errores": [],
