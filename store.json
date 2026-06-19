@@ -78290,6 +78290,28 @@
         "_fecha_carga": "18/06/2026 23:21",
         "_origen": "grupo",
         "_pie": "ENZO GABRIEL ALBARRACIN 23-43056491-9 1OO.OOO"
+      },
+      {
+        "fecha": "11/06/2026",
+        "hora": "23:49",
+        "tipo": "TRF",
+        "monto": 100000.0,
+        "moneda": "ARS",
+        "remitente": "Bruno Nicolas Robañera",
+        "remitente_cuil": "23-40373367-9",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Naranja X",
+        "banco_destino": "Cuenta Virtual",
+        "referencia": "D4RO172VZG0WQ3KVNKJ3QE",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CBU origen: 4530000800019223313350. CVU destino: 0000155300000000009977. CUIL destinatario: 30-71728225-2. Código de transacción: 6a0c324b-102a-4c71-90af-c02141836b3f",
+        "_num": 1589,
+        "_fecha_carga": "18/06/2026 23:21",
+        "_origen": "grupo",
+        "_pie": "Bruno Nicolas Robañera 23-40373367-9 $100.000"
       }
     ],
     "errores": [],
