@@ -84993,6 +84993,28 @@
         "_fecha_carga": "19/06/2026 00:03",
         "_origen": "grupo",
         "_pie": "Franco zapata 95045072"
+      },
+      {
+        "fecha": "14/06/2026",
+        "hora": "22:52",
+        "tipo": "TRF",
+        "monto": 185000.0,
+        "moneda": "ARS",
+        "remitente": "Jose Luis Gomez",
+        "remitente_cuil": "20-20076120-1",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163349872935",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: D4RO172VZQPXZ0JKNKJ3QE. CUIT destinatario: 30-71728225-2. CVU destinatario: 0000155300000000000009977",
+        "_num": 1893,
+        "_fecha_carga": "19/06/2026 00:03",
+        "_origen": "grupo",
+        "_pie": "josé luis gómez 20076120 zeus"
       }
     ],
     "errores": [],
