@@ -49168,6 +49168,28 @@
         "_fecha_carga": "19/06/2026 20:27",
         "_origen": "grupo",
         "_pie": "Ana ledesma\n23.196.537\nBet91"
+      },
+      {
+        "fecha": "17/06/2026",
+        "hora": "13:00",
+        "tipo": "TRF",
+        "monto": 200000.0,
+        "moneda": "ARS",
+        "remitente": "Jonatan Emanuel Zitelli",
+        "remitente_cuil": "20-37076263-6",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Naranja X",
+        "banco_destino": "Cuenta Virtual",
+        "referencia": "Z6OLMDN3V3W8XXDY2E7RQ5",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de transacción: 61f932f1-800c-4269-8ca0-083066d5c1cd. CVU destinatario: 0000155300000000009977. CBU origen: 4530000800017060583343. CUIL destinatario: 30-71728225-2.",
+        "_num": 246,
+        "_fecha_carga": "19/06/2026 20:27",
+        "_origen": "grupo",
+        "_pie": "Jonatan zitelli 37.076.263"
       }
     ],
     "errores": [],
