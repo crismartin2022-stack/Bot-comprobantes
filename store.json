@@ -49565,6 +49565,28 @@
         "_fecha_carga": "19/06/2026 20:29",
         "_origen": "grupo",
         "_pie": "Aaron Marino Villalba Romano 53995885"
+      },
+      {
+        "fecha": "14/06/2026",
+        "hora": "22:47",
+        "tipo": "TRF",
+        "monto": 120000.0,
+        "moneda": "ARS",
+        "remitente": "Guillermo Jose Benedetti",
+        "remitente_cuil": "23-30323465-9",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Naranja X",
+        "banco_destino": "Cuenta Virtual",
+        "referencia": "RD06ZO9WVR4KRW5KN5GP7X",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CBU origen: 4530000800013713344493. CVU destino: 0000155300000000009977. CUIL destinatario: 30-71728225-2. Código de transacción: a1d776be-7119-4958-af27-83923a4d2772.",
+        "_num": 264,
+        "_fecha_carga": "19/06/2026 20:29",
+        "_origen": "grupo",
+        "_pie": "Guillermo José Benedetti\n30323465"
       }
     ],
     "errores": [],
