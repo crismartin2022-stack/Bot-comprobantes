@@ -85125,6 +85125,28 @@
         "_fecha_carga": "19/06/2026 00:04",
         "_origen": "grupo",
         "_pie": "Paola soledad loustau\n27296146"
+      },
+      {
+        "fecha": "15/06/2026",
+        "hora": "15:15",
+        "tipo": "TRF",
+        "monto": 50000.0,
+        "moneda": "ARS",
+        "remitente": "Marsico, Lucas Alejandro",
+        "remitente_cuil": "20-38692297-8",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Personal Pay",
+        "banco_destino": "",
+        "referencia": "2744483844",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CoelsaID: Z6OLMDN3V3J0ZVYW2E7RQ5 - Id Bancario. CUIL/CUIT destinatario: 30-71728225-2. CBU/CVU destinatario: 0000155300000000009977",
+        "_num": 1899,
+        "_fecha_carga": "19/06/2026 00:04",
+        "_origen": "grupo",
+        "_pie": "Lucas alejandro marsico 38692297"
       }
     ],
     "errores": [],
