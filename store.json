@@ -65992,6 +65992,28 @@
         "_fecha_carga": "18/06/2026 22:02",
         "_origen": "grupo",
         "_pie": "Torres Juan Octavio \n20-39551805-5"
+      },
+      {
+        "fecha": "15/06/2026",
+        "hora": "11:58",
+        "tipo": "TRF",
+        "monto": 250000.0,
+        "moneda": "ARS",
+        "remitente": "TORRES JUAN OCTAVIO",
+        "remitente_cuil": "20-39551805-5",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Banco Macro",
+        "banco_destino": "Lohas Sas",
+        "referencia": "WY7ZEPN6MKXJD00V2Q0M51",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Cuenta destino: Lohas Sas - CV ARS 9977. CUIL/CUIT destinatario: 30717282252. Cuenta origen: Banco Macro - CA $ 0270. ID COELSA coincide con N° de operación: WY7ZEPN6MKXJD00V2Q0M51.",
+        "_num": 1031,
+        "_fecha_carga": "18/06/2026 22:03",
+        "_origen": "grupo",
+        "_pie": "Torres Juan Octavio \n20-39551805-5"
       }
     ],
     "errores": [],
