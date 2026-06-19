@@ -85499,6 +85499,28 @@
         "_fecha_carga": "19/06/2026 00:06",
         "_origen": "grupo",
         "_pie": "Agostina bechardo fernandez"
+      },
+      {
+        "fecha": "15/06/2026",
+        "hora": "06:24",
+        "tipo": "TRF",
+        "monto": 400000.0,
+        "moneda": "ARS",
+        "remitente": "Marquez, Belén Yélen",
+        "remitente_cuil": "24-46300903-8",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Personal Pay",
+        "banco_destino": "",
+        "referencia": "2743790312",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CoelsaID: ORD6LEN8PY8QPMQ0NM1Y30 - Id Bancario. CUIL destinatario: 30-71728225-2. CBU/CVU receptor: 0000155300000000009977",
+        "_num": 1916,
+        "_fecha_carga": "19/06/2026 00:07",
+        "_origen": "grupo",
+        "_pie": "_100____"
       }
     ],
     "errores": [],
