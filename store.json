@@ -81333,6 +81333,28 @@
         "_fecha_carga": "18/06/2026 23:40",
         "_origen": "grupo",
         "_pie": "Pink"
+      },
+      {
+        "fecha": "15/06/2026",
+        "hora": "12:14",
+        "tipo": "TRF",
+        "monto": 200000.0,
+        "moneda": "ARS",
+        "remitente": "Hector Jose Bordon",
+        "remitente_cuil": "20-26277873-9",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "D4RO172VZQKV5GL1NKJ3QE",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Número de operación de Mercado Pago: 164218948838. CVU remitente: 0000003100147104423684. CVU destinatario: 0000155300000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 1727,
+        "_fecha_carga": "18/06/2026 23:41",
+        "_origen": "grupo",
+        "_pie": "Griselda cimino 12444180"
       }
     ],
     "errores": [],
