@@ -50733,6 +50733,28 @@
         "_fecha_carga": "19/06/2026 20:37",
         "_origen": "grupo",
         "_pie": "Martin Ignacio Herrera"
+      },
+      {
+        "fecha": "14/06/2026",
+        "hora": "19:26",
+        "tipo": "TRF",
+        "monto": 150000.0,
+        "moneda": "ARS",
+        "remitente": "Paola Micaela Moyano",
+        "remitente_cuil": "27-39568210-0",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Naranja X",
+        "banco_destino": "Cuenta Virtual",
+        "referencia": "LOEJWV9JZ3XG7ZK32QMD0G",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de transacción: 77d9bb19-5218-4991-8350-6371879e61de. CBU origen: 4530000800016290856887. CVU destino: 0000155300000000009977. CUIL destinatario: 30-71728225-2.",
+        "_num": 317,
+        "_fecha_carga": "19/06/2026 20:37",
+        "_origen": "grupo",
+        "_pie": "Paola Micaela Moyano\nNaranja X\nCBU\n4530000800016290856887\nCUIL\n27-39568210-0"
       }
     ],
     "errores": [],
