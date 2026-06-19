@@ -49699,6 +49699,28 @@
         "_fecha_carga": "19/06/2026 20:30",
         "_origen": "grupo",
         "_pie": "Barbara Gisele Lombardi\n 34.669.716"
+      },
+      {
+        "fecha": "11/06/2026",
+        "hora": "22:30",
+        "tipo": "TRF",
+        "monto": 200000.0,
+        "moneda": "ARS",
+        "remitente": "Vanesa Alejandra Adan",
+        "remitente_cuil": "27-33114770-8",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Naranja X",
+        "banco_destino": "Cuenta Virtual",
+        "referencia": "ORD6LEN8P1WMQJ1YNM1Y30",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de transacción adicional: ca3106a3-c958-4b03-a548-79c8495d72c4. CBU origen: 4530000800015889815832. CVU destino: 0000155300000000009977. CUIL destinatario: 30-71728225-2.",
+        "_num": 270,
+        "_fecha_carga": "19/06/2026 20:30",
+        "_origen": "grupo",
+        "_pie": "Vanesa adan         dni: 33114770"
       }
     ],
     "errores": [],
