@@ -89138,6 +89138,28 @@
         "_fecha_carga": "19/06/2026 00:30",
         "_origen": "grupo",
         "_pie": "• De\nAriana Araujo\nCUIT/CUIL: 27-45070798-3"
+      },
+      {
+        "fecha": "15/06/2026",
+        "hora": "18:53",
+        "tipo": "TRF",
+        "monto": 50000.0,
+        "moneda": "ARS",
+        "remitente": "Rocio Ailen Malaguenxxo",
+        "remitente_cuil": "27-47191340-0",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "164278823364",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: L18MKX9RXJ3KW14K9O6WYV. CVU remitente: 0000003100072484461848. CVU destinatario: 0000155300000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 2081,
+        "_fecha_carga": "19/06/2026 00:30",
+        "_origen": "grupo",
+        "_pie": "Rocio Ailen Malaguenxxo\nCUIT/CUIL: 27-47191340-0"
       }
     ],
     "errores": [],
