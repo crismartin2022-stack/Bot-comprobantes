@@ -57425,6 +57425,28 @@
         "_fecha_carga": "18/06/2026 21:10",
         "_origen": "grupo",
         "_pie": "Foto de Clohe😎"
+      },
+      {
+        "fecha": "11/06/2026",
+        "hora": "00:07",
+        "tipo": "TRF",
+        "monto": 25000.0,
+        "moneda": "ARS",
+        "remitente": "Emanuel Alberto Suarez",
+        "remitente_cuil": "20-37896366-5",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Naranja X",
+        "banco_destino": "Cuenta Virtual",
+        "referencia": "Z4K6DVNOWZ76GRRM25J8LQ",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CBU origen: 4530000800017522135842. CVU destino: 0000155300000000009977. CUIL destinatario: 30-71728225-2. Código de transacción: 5bdd928d-d93c-4a14-9195-d7a20ca2fe42",
+        "_num": 642,
+        "_fecha_carga": "18/06/2026 21:10",
+        "_origen": "grupo",
+        "_pie": "Foto de Clohe😎"
       }
     ],
     "errores": [],
