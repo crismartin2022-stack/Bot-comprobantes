@@ -78092,6 +78092,28 @@
         "_fecha_carga": "18/06/2026 23:19",
         "_origen": "grupo",
         "_pie": "Franco daniel cordoba\n36187831"
+      },
+      {
+        "fecha": "13/06/2026",
+        "hora": "11:49",
+        "tipo": "TRF",
+        "monto": 500000.0,
+        "moneda": "ARS",
+        "remitente": "Franco Daniel Cordoba",
+        "remitente_cuil": "20-36187831-1",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Naranja X",
+        "banco_destino": "Cuenta Virtual",
+        "referencia": "1LMP68NKVE6DP6VR2R7OEV",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CBU origen: 4530000800012920239934. CVU destino: 0000155300000000009977. CUIL destinatario: 30-71728225-2. Código de transacción: 133a08a5-d4d4-4dc6-8dd6-7318bc773aef",
+        "_num": 1580,
+        "_fecha_carga": "18/06/2026 23:19",
+        "_origen": "grupo",
+        "_pie": "Franco daniel cordoba\n36187831"
       }
     ],
     "errores": [],
