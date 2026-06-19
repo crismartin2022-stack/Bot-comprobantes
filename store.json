@@ -67602,6 +67602,28 @@
         "_fecha_carga": "18/06/2026 22:13",
         "_origen": "grupo",
         "_pie": "Eriberta Herminia Fernandez Herrera\nCUIT/CUIL: 27-92798572-7"
+      },
+      {
+        "fecha": "13/06/2026",
+        "hora": "18:09",
+        "tipo": "TRF",
+        "monto": 500000.0,
+        "moneda": "ARS",
+        "remitente": "Walter Daniel Arroyo",
+        "remitente_cuil": "20-29905401-3",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "164003174334",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: 67REZ8NPQ6WW1K4K94KVGO. CUIT destinatario: 30-71728225-2. CVU remitente: 0000003100002928152757. CVU receptor: 0000155300000000009977.",
+        "_num": 1104,
+        "_fecha_carga": "18/06/2026 22:14",
+        "_origen": "grupo",
+        "_pie": "Walter Daniel Arroyo\nCUIT/CUIL: 20-29905401-3"
       }
     ],
     "errores": [],
