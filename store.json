@@ -45864,6 +45864,28 @@
         "_fecha_carga": "19/06/2026 20:04",
         "_origen": "grupo",
         "_pie": "Moscoso Pablo Antonio \n35.021.013"
+      },
+      {
+        "fecha": "16/06/2026",
+        "hora": "15:15",
+        "tipo": "TRF",
+        "monto": 900000.0,
+        "moneda": "ARS",
+        "remitente": "HORIZONTE BLT S.A.S.",
+        "remitente_cuil": "30-71876498-6",
+        "destinatario": "SASTEUP SRL",
+        "banco_origen": "",
+        "banco_destino": "",
+        "referencia": "86VRPQ2GMLKVVOEY2GLY0M",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "ID Operación: 78f69b18-1242-4678-a3a1-3832c3fa038a. CBU origen: 0000151500034588529161. CBU destino: 0000155300000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 96,
+        "_fecha_carga": "19/06/2026 20:05",
+        "_origen": "grupo",
+        "_pie": "Transacción 78f69b18-1242-4678-a3a1-3832c3fa038a - - ARS 900.000,00"
       }
     ],
     "errores": [],
