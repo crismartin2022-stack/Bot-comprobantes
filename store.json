@@ -48112,6 +48112,28 @@
         "_fecha_carga": "19/06/2026 20:20",
         "_origen": "grupo",
         "_pie": "Jose Martin Rodriguez\nDNI: 19.068.066"
+      },
+      {
+        "fecha": "14/06/2026",
+        "hora": "22:16",
+        "tipo": "TRF",
+        "monto": 500000.57,
+        "moneda": "ARS",
+        "remitente": "Stephanie Gisela Del Lujan Gonzalez",
+        "remitente_cuil": "27-35332935-4",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163346720519",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: 1LMP68NKVEK00EW52R7OEV. CVU origen: 0000003100089819823660. CVU destino: 0000155300000000009977. CUIT destinatario: 30-71728225-2",
+        "_num": 198,
+        "_fecha_carga": "19/06/2026 20:20",
+        "_origen": "grupo",
+        "_pie": "Stephanie Gisela del Lujan Gonzalez\nDNI: 35.332.935"
       }
     ],
     "errores": [],
