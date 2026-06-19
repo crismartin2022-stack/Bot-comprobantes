@@ -85832,6 +85832,28 @@
         "_fecha_carga": "19/06/2026 00:09",
         "_origen": "grupo",
         "_pie": ""
+      },
+      {
+        "fecha": "12/06/2026",
+        "hora": "12:22",
+        "tipo": "TRF",
+        "monto": 150000.0,
+        "moneda": "ARS",
+        "remitente": "Vanina Ayelen Moyano",
+        "remitente_cuil": "23-35670511-4",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163783623176",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: 0V1JXON1LWVYQ53NZ64EL. CVU remitente: 0000003100036406149128. CVU destinatario: 0000155300000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 1931,
+        "_fecha_carga": "19/06/2026 00:09",
+        "_origen": "grupo",
+        "_pie": ""
       }
     ],
     "errores": [],
