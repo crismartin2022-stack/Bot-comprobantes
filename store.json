@@ -46921,6 +46921,28 @@
         "_fecha_carga": "19/06/2026 20:12",
         "_origen": "grupo",
         "_pie": "Pereyra Nicole elizabeth \nDNI 45529444"
+      },
+      {
+        "fecha": "17/06/2026",
+        "hora": "21:29",
+        "tipo": "TRF",
+        "monto": 240000.0,
+        "moneda": "ARS",
+        "remitente": "saul alejandro herrera",
+        "remitente_cuil": "",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Ualá",
+        "banco_destino": "",
+        "referencia": "WY7ZEPN6MKG5D13W2Q0M51",
+        "concepto": "VAR",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CUIT destino: 30717282252. CBU destino completo: 0000155300000000009977",
+        "_num": 144,
+        "_fecha_carga": "19/06/2026 20:12",
+        "_origen": "grupo",
+        "_pie": "Multi azul"
       }
     ],
     "errores": [],
