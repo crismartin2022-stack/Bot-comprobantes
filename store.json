@@ -61635,6 +61635,28 @@
         "_fecha_carga": "18/06/2026 21:36",
         "_origen": "grupo",
         "_pie": ""
+      },
+      {
+        "fecha": "14/06/2026",
+        "hora": "12:25",
+        "tipo": "TRF",
+        "monto": 20000.0,
+        "moneda": "ARS",
+        "remitente": "Maria Raquel Arevalos Lezcano",
+        "remitente_cuil": "96.025.938",
+        "destinatario": "SASTEUP SRL",
+        "banco_origen": "Cuenta DNI",
+        "banco_destino": "",
+        "referencia": "7L8GYKNX050GYXKO2MPRZ5",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CVU destinatario: 0000155300000000009977. CUIL destinatario: 30717282252. DNI remitente: 96.025.938.",
+        "_num": 833,
+        "_fecha_carga": "18/06/2026 21:36",
+        "_origen": "grupo",
+        "_pie": ""
       }
     ],
     "errores": [],
