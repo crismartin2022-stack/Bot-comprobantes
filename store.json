@@ -67138,6 +67138,28 @@
         "_fecha_carga": "18/06/2026 22:09",
         "_origen": "grupo",
         "_pie": "Eriberta Herminia Fernandez Herrera\nCUIT/CUIL: 27-92798572-7"
+      },
+      {
+        "fecha": "13/06/2026",
+        "hora": "15:07",
+        "tipo": "TRF",
+        "monto": 500000.0,
+        "moneda": "ARS",
+        "remitente": "Aquino, Nicolas Javier",
+        "remitente_cuil": "20-42836742-2",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Personal Pay",
+        "banco_destino": "",
+        "referencia": "2740483932",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CoelsaID: Z6OLMDN3V3G4Q6JK2E7RQ5 - Id Bancario. CUIL/CUIT destinatario: 30-71728225-2. CBU/CVU destinatario: 00001553000000000009977",
+        "_num": 1083,
+        "_fecha_carga": "18/06/2026 22:09",
+        "_origen": "grupo",
+        "_pie": "Aquino, Nicolas Javier\nCUIL/CUIT 20-42836742-2"
       }
     ],
     "errores": [],
