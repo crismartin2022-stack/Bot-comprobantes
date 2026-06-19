@@ -72561,6 +72561,28 @@
         "_fecha_carga": "18/06/2026 22:45",
         "_origen": "grupo",
         "_pie": "Maria claudia ibarra \n28120532"
+      },
+      {
+        "fecha": "14/06/2026",
+        "hora": "22:30",
+        "tipo": "TRF",
+        "monto": 300000.0,
+        "moneda": "ARS",
+        "remitente": "IBARRA MARIA CLAUDIA",
+        "remitente_cuil": "",
+        "destinatario": "SASTEUP SRL",
+        "banco_origen": "BBVA",
+        "banco_destino": "",
+        "referencia": "50203119015260614",
+        "concepto": "VARIOS",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Cuenta de origen: CA$ 142-075799/6. CUIT destinatario: 30717282252. CBU/CVU destinatario: 0000155300000000009977. Operación realizada en BBVA Móvil.",
+        "_num": 1329,
+        "_fecha_carga": "18/06/2026 22:45",
+        "_origen": "grupo",
+        "_pie": "Maria claudia ibarra \n28120532"
       }
     ],
     "errores": [],
