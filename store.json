@@ -50425,6 +50425,28 @@
         "_fecha_carga": "19/06/2026 20:35",
         "_origen": "grupo",
         "_pie": "Lorena Elizabeth paolini \n35800760"
+      },
+      {
+        "fecha": "15/06/2026",
+        "hora": "22:02",
+        "tipo": "TRF",
+        "monto": 420000.0,
+        "moneda": "ARS",
+        "remitente": "Federico Martin Lata",
+        "remitente_cuil": "34233763",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Ualá",
+        "banco_destino": "",
+        "referencia": "67REZ8NPQ63Y1REP94KVGO",
+        "concepto": "VAR",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CBU destino: 0000155300000000009977. CUIT destino: 30717282252 (corresponde al destinatario Sasteup Srl). No se visualiza CUIL del remitente.",
+        "_num": 303,
+        "_fecha_carga": "19/06/2026 20:35",
+        "_origen": "grupo",
+        "_pie": "lata federico martin\n34233763"
       }
     ],
     "errores": [],
