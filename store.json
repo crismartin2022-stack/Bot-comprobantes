@@ -85676,6 +85676,28 @@
         "_fecha_carga": "19/06/2026 00:08",
         "_origen": "grupo",
         "_pie": "Luciana saracho \n40714150\nZeusbet"
+      },
+      {
+        "fecha": "12/06/2026",
+        "hora": "14:16",
+        "tipo": "TRF",
+        "monto": 50000.0,
+        "moneda": "ARS",
+        "remitente": "Yanina Soledad Ruiz Diaz",
+        "remitente_cuil": "",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Ualá",
+        "banco_destino": "",
+        "referencia": "86VRPQ2GMWW18ZYJ2GLY0M",
+        "concepto": "VAR",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CBU destino: 0000155300000000009977. CUIT destino: 30717282252. Comprobante de transferencia emitido por Ualá.",
+        "_num": 1924,
+        "_fecha_carga": "19/06/2026 00:08",
+        "_origen": "grupo",
+        "_pie": "Screenshot (12 jun 2026 2:16:51 p.m.)"
       }
     ],
     "errores": [],
