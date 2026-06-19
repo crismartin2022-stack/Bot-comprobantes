@@ -76684,6 +76684,28 @@
         "_fecha_carga": "18/06/2026 23:10",
         "_origen": "grupo",
         "_pie": "Diana Natali Juncos\nCUIT/CUIL: 27-34990372-0"
+      },
+      {
+        "fecha": "11/06/2026",
+        "hora": "23:58",
+        "tipo": "TRF",
+        "monto": 200000.0,
+        "moneda": "ARS",
+        "remitente": "Fabian Augusto Villada Correa",
+        "remitente_cuil": "20-94956787-8",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163721877630",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: PDX4OGNYG3D587WVN0L6EY. CVU remitente: 0000003100003167504376. CVU destinatario: 0000155300000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 1516,
+        "_fecha_carga": "18/06/2026 23:10",
+        "_origen": "grupo",
+        "_pie": "Fabian Augusto Villada Correa\nCUIT/CUIL: 20-94956787-8"
       }
     ],
     "errores": [],
