@@ -81553,6 +81553,28 @@
         "_fecha_carga": "18/06/2026 23:42",
         "_origen": "grupo",
         "_pie": "Bet30click"
+      },
+      {
+        "fecha": "13/06/2026",
+        "hora": "23:18",
+        "tipo": "TRF",
+        "monto": 179000.0,
+        "moneda": "ARS",
+        "remitente": "saul alejandro herrera",
+        "remitente_cuil": "",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Ualá",
+        "banco_destino": "",
+        "referencia": "Z6OLMDN3V3XKL5LX2E7RQ5",
+        "concepto": "VAR",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CBU destino: 0000155300000000009977. CUIT destino: 30717282252 (Sasteup Srl)",
+        "_num": 1737,
+        "_fecha_carga": "18/06/2026 23:42",
+        "_origen": "grupo",
+        "_pie": "Multi azul"
       }
     ],
     "errores": [],
