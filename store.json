@@ -80693,6 +80693,28 @@
         "_fecha_carga": "18/06/2026 23:36",
         "_origen": "grupo",
         "_pie": "nilda velazquez\n11404997"
+      },
+      {
+        "fecha": "14/06/2026",
+        "hora": "02:10",
+        "tipo": "TRF",
+        "monto": 219000.0,
+        "moneda": "ARS",
+        "remitente": "Ferreyra, Juan Jose",
+        "remitente_cuil": "20-29160334-4",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Personal Pay",
+        "banco_destino": "",
+        "referencia": "2741916928",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CoelsaID: D4RO172VZQZZZV5RNKJ3QE - Id Bancario. CBU/CVU destinatario: 0000155300000000009977. CUIL destinatario: 30-71728225-2.",
+        "_num": 1698,
+        "_fecha_carga": "18/06/2026 23:36",
+        "_origen": "grupo",
+        "_pie": "juan ferreyra \n29160334"
       }
     ],
     "errores": [],
