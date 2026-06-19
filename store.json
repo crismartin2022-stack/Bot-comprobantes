@@ -49963,6 +49963,28 @@
         "_fecha_carga": "19/06/2026 20:32",
         "_origen": "grupo",
         "_pie": "Nair Daiana gallardo \n38598584"
+      },
+      {
+        "fecha": "16/06/2026",
+        "hora": "23:29",
+        "tipo": "TRF",
+        "monto": 45000.0,
+        "moneda": "ARS",
+        "remitente": "Monica Elizabeth Nogueira",
+        "remitente_cuil": "27-38261536-6",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "164478953722",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: LMORZP908LEPRL3RNEGJ46. CVU remitente: 0000003100054280662010. CVU destinatario: 0000155300000000009977.",
+        "_num": 282,
+        "_fecha_carga": "19/06/2026 20:32",
+        "_origen": "grupo",
+        "_pie": "Mónica nogueira 38261536"
       }
     ],
     "errores": [],
