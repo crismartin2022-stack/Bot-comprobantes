@@ -78202,6 +78202,28 @@
         "_fecha_carga": "18/06/2026 23:20",
         "_origen": "grupo",
         "_pie": "Maria Laura Ferreyra\n\n32462491\n\n200mil \n\nGanamos io"
+      },
+      {
+        "fecha": "11/06/2026",
+        "hora": "19:59",
+        "tipo": "TRF",
+        "monto": 27000.0,
+        "moneda": "ARS",
+        "remitente": "Agustin Mulki",
+        "remitente_cuil": "20-38365070-5",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "162885418765",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: Z4K6DVNOWZVMQYYE25J8LQ. CVU remitente: 0000003100024425013292. CVU destinatario: 0000155300000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 1585,
+        "_fecha_carga": "18/06/2026 23:20",
+        "_origen": "grupo",
+        "_pie": "20383650705 Agustín"
       }
     ],
     "errores": [],
