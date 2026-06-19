@@ -53578,6 +53578,28 @@
         "_fecha_carga": "19/06/2026 20:56",
         "_origen": "grupo",
         "_pie": "alfonso artigas \n46411944"
+      },
+      {
+        "fecha": "15/06/2026",
+        "hora": "21:26",
+        "tipo": "TRF",
+        "monto": 50000.0,
+        "moneda": "ARS",
+        "remitente": "AYRTON STARNA",
+        "remitente_cuil": "27-40065075-1",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Banco De Galicia S.A.U",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "42114669796",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "ID COELSA: LMORZP908LY4V80RNEGJ46. CVU destinatario: 0000155300000000009977. Cuenta origen: CA $ N° 4032407-8 097-1. CUIT destinatario: 30-71728225-2.",
+        "_num": 446,
+        "_fecha_carga": "19/06/2026 20:56",
+        "_origen": "grupo",
+        "_pie": "ayrton starna\n40065075"
       }
     ],
     "errores": [],
