@@ -77696,6 +77696,28 @@
         "_fecha_carga": "18/06/2026 23:17",
         "_origen": "grupo",
         "_pie": "Lorena Elizabeth paolini \n35800760"
+      },
+      {
+        "fecha": "12/06/2026",
+        "hora": "19:24",
+        "tipo": "TRF",
+        "monto": 19000.0,
+        "moneda": "ARS",
+        "remitente": "Caterina Noeli Gomez",
+        "remitente_cuil": "27-37394391-1",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Prex",
+        "banco_destino": "BANCO COINAG S.A.",
+        "referencia": "",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CVU origen: 0000013000032380085957. CBU/CVU destino: 0000155300000000000009977. CUIL destinatario: 30-71728225-2. El ID COELSA aparece mencionado pero su valor no es visible en la imagen.",
+        "_num": 1562,
+        "_fecha_carga": "18/06/2026 23:17",
+        "_origen": "grupo",
+        "_pie": "Caterina noeli gomez\n37394391"
       }
     ],
     "errores": [],
