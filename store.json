@@ -85257,6 +85257,28 @@
         "_fecha_carga": "19/06/2026 00:05",
         "_origen": "grupo",
         "_pie": "David Guillenea\n25220652"
+      },
+      {
+        "fecha": "15/06/2026",
+        "hora": "22:37",
+        "tipo": "TRF",
+        "monto": 100000.0,
+        "moneda": "ARS",
+        "remitente": "Jorge Leonel Villalba",
+        "remitente_cuil": "20-45228847-9",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "164309946798",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: 76V4MR2Z74WZX76YNDEZOL. CVU remitente: 0000003100053819753759. CVU destinatario: 0000155300000000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 1905,
+        "_fecha_carga": "19/06/2026 00:05",
+        "_origen": "grupo",
+        "_pie": "Jorge Leonel Villalba \n45228847"
       }
     ],
     "errores": [],
