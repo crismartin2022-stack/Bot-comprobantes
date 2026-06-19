@@ -71239,6 +71239,28 @@
         "_fecha_carga": "18/06/2026 22:36",
         "_origen": "grupo",
         "_pie": "LUCAS ALEXIS GARAY\nCUIT 20-45429334-8"
+      },
+      {
+        "fecha": "14/06/2026",
+        "hora": "17:17",
+        "tipo": "TRF",
+        "monto": 25000.0,
+        "moneda": "ARS",
+        "remitente": "Ermelinda Lobo",
+        "remitente_cuil": "27-96330852-9",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163310936331",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CUIT destinatario: 30-71728225-2. CVU destinatario: 0000155300000000009977. CVU remitente: 0000003100046343682037. Código de identificación: Z0KV87940E70KP54NPEYDX",
+        "_num": 1269,
+        "_fecha_carga": "18/06/2026 22:37",
+        "_origen": "grupo",
+        "_pie": "Ermelinda Lobo\nCUIT/CUIL: 27-96330852-9"
       }
     ],
     "errores": [],
