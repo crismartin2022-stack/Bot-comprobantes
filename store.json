@@ -76640,6 +76640,28 @@
         "_fecha_carga": "18/06/2026 23:10",
         "_origen": "grupo",
         "_pie": "Vanesa Esther Gomez\nCUIT/CUIL: 27-28858313-2"
+      },
+      {
+        "fecha": "11/06/2026",
+        "hora": "19:51",
+        "tipo": "TRF",
+        "monto": 48000.0,
+        "moneda": "ARS",
+        "remitente": "Cynthia Noelia Mino Gonzalez",
+        "remitente_cuil": "27-40421715-7",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Naranja X",
+        "banco_destino": "Cuenta Virtual",
+        "referencia": "Z0KV87940PWR73KDNPEYDX",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CVU destinatario: 0000155300000000009977. CUIL destinatario: 30-71728225-2. CBU origen: 453000080001882245 4187. Código de transacción: 6b7a72e2-236b-4bd2-bd7f-cbb090b3e486",
+        "_num": 1514,
+        "_fecha_carga": "18/06/2026 23:10",
+        "_origen": "grupo",
+        "_pie": "Cynthia Noelia Mino Gonzalez\nCUIL\n27-40421715-7"
       }
     ],
     "errores": [],
