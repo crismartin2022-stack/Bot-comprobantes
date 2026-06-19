@@ -50007,6 +50007,28 @@
         "_fecha_carga": "19/06/2026 20:32",
         "_origen": "grupo",
         "_pie": "RUZS SANTIAGO TOMÁS \n42412685S"
+      },
+      {
+        "fecha": "17/06/2026",
+        "hora": "01:01",
+        "tipo": "TRF",
+        "monto": 174000.0,
+        "moneda": "ARS",
+        "remitente": "Gian Luca Uriel Escobar",
+        "remitente_cuil": "20-44888305-2",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Naranja X",
+        "banco_destino": "Cuenta Virtual",
+        "referencia": "D4RO172VZQVDZDERNKJ3QE",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CBU origen: 4530000800011837248404. CVU destino: 0000155300000000009977. CUIL destinatario: 30-71728225-2. Código de transacción: 3256c51b-663a-4a87-be2d-b124687d1069",
+        "_num": 284,
+        "_fecha_carga": "19/06/2026 20:32",
+        "_origen": "grupo",
+        "_pie": "Gian Escobar 44888305"
       }
     ],
     "errores": [],
