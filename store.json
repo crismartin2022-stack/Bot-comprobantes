@@ -46547,6 +46547,28 @@
         "_fecha_carga": "19/06/2026 20:09",
         "_origen": "grupo",
         "_pie": "Multi azul"
+      },
+      {
+        "fecha": "16/06/2026",
+        "hora": "21:31",
+        "tipo": "TRF",
+        "monto": 90000.0,
+        "moneda": "ARS",
+        "remitente": "Lautaro Nicolas Bengolea",
+        "remitente_cuil": "20-40755231-9",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "1644466855266",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: WGRXJE27DX31KXWPN7MYQL. CVU origen: 0000003100065127985203. CVU destino: 0000155300000000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 127,
+        "_fecha_carga": "19/06/2026 20:09",
+        "_origen": "grupo",
+        "_pie": "Multi azul"
       }
     ],
     "errores": [],
