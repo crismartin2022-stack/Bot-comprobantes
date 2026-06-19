@@ -76442,6 +76442,28 @@
         "_fecha_carga": "18/06/2026 23:08",
         "_origen": "grupo",
         "_pie": "Estefania Aylen Martinez\nCUIT/CUIL: 27-37250966-5"
+      },
+      {
+        "fecha": "13/06/2026",
+        "hora": "20:16",
+        "tipo": "TRF",
+        "monto": 400000.0,
+        "moneda": "ARS",
+        "remitente": "Torres, Gaston Elias",
+        "remitente_cuil": "20-34261599-7",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Personal Pay",
+        "banco_destino": "",
+        "referencia": "2741264066",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CoelsaID: Z60LMDN3V3XQ7GJW2E7RQ5 - Id Bancario. CBU/CVU del receptor: 0000155300000000009977. CUIL/CUIT del receptor: 30-71728225-2.",
+        "_num": 1505,
+        "_fecha_carga": "18/06/2026 23:09",
+        "_origen": "grupo",
+        "_pie": "Torres, Gaston Elias\nCUIL/CUIT\n20-34261599-7\nDesde\nPersonal Pay"
       }
     ],
     "errores": [],
