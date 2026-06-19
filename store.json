@@ -53158,6 +53158,28 @@
         "_fecha_carga": "19/06/2026 20:53",
         "_origen": "grupo",
         "_pie": "ezequiel finocchi\n26373742"
+      },
+      {
+        "fecha": "17/06/2026",
+        "hora": "15:59",
+        "tipo": "TRF",
+        "monto": 88000.0,
+        "moneda": "ARS",
+        "remitente": "Rut Magali Monzon",
+        "remitente_cuil": "27-48305780-1",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "76V4MR2Z74XV46JENDEZOL",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Número de operación de Mercado Pago: 163756739085. CVU remitente: 0000003100075593574414. CVU destinatario: 0000155300000000009977.",
+        "_num": 427,
+        "_fecha_carga": "19/06/2026 20:54",
+        "_origen": "grupo",
+        "_pie": "rut monzon\n48305780"
       }
     ],
     "errores": [],
