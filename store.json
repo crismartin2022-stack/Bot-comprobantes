@@ -71701,6 +71701,28 @@
         "_fecha_carga": "18/06/2026 22:39",
         "_origen": "grupo",
         "_pie": ""
+      },
+      {
+        "fecha": "14/06/2026",
+        "hora": "18:12",
+        "tipo": "TRF",
+        "monto": 500000.01,
+        "moneda": "ARS",
+        "remitente": "Juan Pablo Moran",
+        "remitente_cuil": "20-33261977-3",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "LB Finanzas",
+        "banco_destino": "Otros bancos",
+        "referencia": "TID6EED7FE792",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "ID Coelsa: D4RO172VZQPK3GK0NKJ3QE. CUIT destinatario: 30-71728225-2. CBU/CVU destinatario: 0000155300000000009977",
+        "_num": 1290,
+        "_fecha_carga": "18/06/2026 22:39",
+        "_origen": "grupo",
+        "_pie": ""
       }
     ],
     "errores": [],
