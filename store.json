@@ -43320,6 +43320,28 @@
         "_fecha_carga": "19/06/2026 01:21",
         "_origen": "grupo",
         "_pie": ""
+      },
+      {
+        "fecha": "17/06/2026",
+        "hora": "18:50",
+        "tipo": "TRF",
+        "monto": 350000.0,
+        "moneda": "ARS",
+        "remitente": "Barrionuevo, Vanesa Gisele",
+        "remitente_cuil": "27-31966284-2",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Personal Pay",
+        "banco_destino": "",
+        "referencia": "2753032966",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CoelsaID: RD06ZO9WVRGXL3D7N5GP7X - Id Bancario. CUIL destinatario: 30-71728225-2. CBU/CVU receptor completo: 0000155300000000009977",
+        "_num": 1965,
+        "_fecha_carga": "19/06/2026 01:22",
+        "_origen": "grupo",
+        "_pie": ""
       }
     ],
     "errores": [],
