@@ -45135,6 +45135,28 @@
         "_fecha_carga": "19/06/2026 19:59",
         "_origen": "grupo",
         "_pie": "Isabella Robledo 45244555"
+      },
+      {
+        "fecha": "15/06/2026",
+        "hora": "15:02",
+        "tipo": "TRF",
+        "monto": 180000.0,
+        "moneda": "ARS",
+        "remitente": "Julieta Pereyra",
+        "remitente_cuil": "27-39324581-1",
+        "destinatario": "Sercob Sa",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "Billetera BILLETERAPAIS SA",
+        "referencia": "164244749484",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "7745",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: WGRXJE27DX80MMRPN7MYQL. CVU origen: 0000003100003949957125. CVU destino: 0000133100000000587745.",
+        "_num": 63,
+        "_fecha_carga": "19/06/2026 19:59",
+        "_origen": "grupo",
+        "_pie": "Julieta Pereyra 39324581"
       }
     ],
     "errores": [],
