@@ -47540,6 +47540,28 @@
         "_fecha_carga": "19/06/2026 20:16",
         "_origen": "grupo",
         "_pie": "Nancy cristina cantero 18447895"
+      },
+      {
+        "fecha": "16/06/2026",
+        "hora": "17:19",
+        "tipo": "TRF",
+        "monto": 1000000.0,
+        "moneda": "ARS",
+        "remitente": "Crocci, Franco Nahuel",
+        "remitente_cuil": "20-37844562-1",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Personal Pay",
+        "banco_destino": "",
+        "referencia": "2749131587",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CoelsaID: 86VRPQ2GMLK86Z6M2GLY0M - Id Bancario. CBU/CVU destinatario: 0000155300000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 172,
+        "_fecha_carga": "19/06/2026 20:16",
+        "_origen": "grupo",
+        "_pie": "Franco Nahuel Crocci\nDNI: 37.844.562"
       }
     ],
     "errores": [],
