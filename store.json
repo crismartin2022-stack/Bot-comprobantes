@@ -87882,6 +87882,28 @@
         "_fecha_carga": "19/06/2026 00:22",
         "_origen": "grupo",
         "_pie": "Marciana Martinez\nCUIT/CUIL: 27-94752813-6"
+      },
+      {
+        "fecha": "15/06/2026",
+        "hora": "20:57",
+        "tipo": "TRF",
+        "monto": 100000.0,
+        "moneda": "ARS",
+        "remitente": "Mariana Ayelen Diaz",
+        "remitente_cuil": "",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Lemon",
+        "banco_destino": "CVU",
+        "referencia": "LOEJWV9JZ364OZE82QMD0G",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CUIT destinatario: 30717282252. CBU destinatario: 0000155300000000009977. ID de la transacción: 9c6e4ab0-f4da-43bf-8db4-ec8ebcf1a8bc. Comprobante generado por Lemon powered by Digifin.",
+        "_num": 2024,
+        "_fecha_carga": "19/06/2026 00:22",
+        "_origen": "grupo",
+        "_pie": "Mariana Diaz 36608895"
       }
     ],
     "errores": [],
