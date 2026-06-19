@@ -49454,6 +49454,28 @@
         "_fecha_carga": "19/06/2026 20:28",
         "_origen": "grupo",
         "_pie": "Marina rapalin 46.092.924"
+      },
+      {
+        "fecha": "17/06/2026",
+        "hora": "23:05",
+        "tipo": "TRF",
+        "monto": 200000.0,
+        "moneda": "ARS",
+        "remitente": "Milagros Estefania Lujan Lujan",
+        "remitente_cuil": "40790122",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Ualá",
+        "banco_destino": "Billetera Virtual",
+        "referencia": "6e54e741-1b9d-fd1d-69cc-5f73f685cd2f",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CVU destino: 0000155300000000009977. CUIT/CUIL destino (Sasteup Srl): 30-71728225-2. CBU emisor: 3840200500000031131407. Comentario: Transferencia en pesos.",
+        "_num": 259,
+        "_fecha_carga": "19/06/2026 20:29",
+        "_origen": "grupo",
+        "_pie": "Milagros Estefanía Lujan 40790122"
       }
     ],
     "errores": [],
