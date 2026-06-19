@@ -52674,6 +52674,28 @@
         "_fecha_carga": "19/06/2026 20:50",
         "_origen": "grupo",
         "_pie": "Brenda Colorado \n41883124\nGanamos prichumoon"
+      },
+      {
+        "fecha": "16/06/2026",
+        "hora": "17:18",
+        "tipo": "TRF",
+        "monto": 200000.0,
+        "moneda": "ARS",
+        "remitente": "Jessica Belen Juarez",
+        "remitente_cuil": "23-38108247-4",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "164423002420",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación adicional: ORD6LEN8PYDK8LY4NM1Y30. CVU remitente: 0000003100014656671530. CVU destinatario: 0000155300000000009977.",
+        "_num": 405,
+        "_fecha_carga": "19/06/2026 20:50",
+        "_origen": "grupo",
+        "_pie": "Jessica Belen Juarez \n38108247"
       }
     ],
     "errores": [],
