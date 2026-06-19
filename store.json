@@ -48750,6 +48750,28 @@
         "_fecha_carga": "19/06/2026 20:24",
         "_origen": "grupo",
         "_pie": "Daniel Ricardo Bustamante\nDNI: 29.197.299"
+      },
+      {
+        "fecha": "15/06/2026",
+        "hora": "20:43",
+        "tipo": "TRF",
+        "monto": 500000.87,
+        "moneda": "ARS",
+        "remitente": "Micaela Rocio Correa",
+        "remitente_cuil": "27-41362259-5",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "164296622426",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación adicional: XJ8G7V95DWOVRYOM9EMPYR. CVU origen (remitente): 0000003100089855005831. CVU destino (receptor): 0000155300000000009977",
+        "_num": 227,
+        "_fecha_carga": "19/06/2026 20:24",
+        "_origen": "grupo",
+        "_pie": "Micaela Rocio Correa\nDNI: 41.362.259"
       }
     ],
     "errores": [],
