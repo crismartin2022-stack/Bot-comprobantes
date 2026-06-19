@@ -70402,6 +70402,28 @@
         "_fecha_carga": "18/06/2026 22:31",
         "_origen": "grupo",
         "_pie": "Luis Alberto Martinez\nCUIT/CUIL: 20-41920839-7"
+      },
+      {
+        "fecha": "14/06/2026",
+        "hora": "00:55",
+        "tipo": "TRF",
+        "monto": 80000.0,
+        "moneda": "ARS",
+        "remitente": "Zoraida Nunez Sanchez",
+        "remitente_cuil": "27-92394168-7",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Naranja X",
+        "banco_destino": "Cuenta Virtual",
+        "referencia": "D4RO172VZQZ1D4D0NKJ3QE",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CBU origen: 4530000800016777376312. CVU destino: 0000155300000000009977. CUIL destinatario: 30-71728225-2. Código de transacción adicional: 87ccd861-92fb-43b3-a4e9-a994220dfaf1",
+        "_num": 1231,
+        "_fecha_carga": "18/06/2026 22:31",
+        "_origen": "grupo",
+        "_pie": "Zoraida Nunez Sanchez\nNaranja X\n4530000800016777376312\nCUIL\n27-92394168-7"
       }
     ],
     "errores": [],
