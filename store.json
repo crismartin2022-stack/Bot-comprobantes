@@ -53136,6 +53136,28 @@
         "_fecha_carga": "19/06/2026 20:53",
         "_origen": "grupo",
         "_pie": "maria de las nievea monzon\n29495297"
+      },
+      {
+        "fecha": "17/06/2026",
+        "hora": "16:03",
+        "tipo": "TRF",
+        "monto": 88000.0,
+        "moneda": "ARS",
+        "remitente": "Ezequiel Jose Maria Finocchi",
+        "remitente_cuil": "26373742",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Lemon",
+        "banco_destino": "CVU",
+        "referencia": "LMORZP908LPX84VRNEGJ46",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CUIT destinatario: 30717282252. CBU destino: 0000155300000000009977. ID de la transacción: 28ee1a99-2576-437c-a6fa-a66564b55f24. Comprobante emitido por Lemon powered by Digifin.",
+        "_num": 426,
+        "_fecha_carga": "19/06/2026 20:53",
+        "_origen": "grupo",
+        "_pie": "ezequiel finocchi\n26373742"
       }
     ],
     "errores": [],
