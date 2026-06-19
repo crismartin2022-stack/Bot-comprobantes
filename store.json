@@ -86801,6 +86801,28 @@
         "_fecha_carga": "19/06/2026 00:15",
         "_origen": "grupo",
         "_pie": ""
+      },
+      {
+        "fecha": "14/06/2026",
+        "hora": "20:50",
+        "tipo": "TRF",
+        "monto": 100000.0,
+        "moneda": "ARS",
+        "remitente": "Ania Penelope Cea Gutierrez",
+        "remitente_cuil": "27-33141440-4",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "164148759342",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: PDX4OGNYGP47KY4QN0L6EY. CUIT destinatario: 30-71728225-2. CVU destinatario completo: 0000155300000000009977",
+        "_num": 1975,
+        "_fecha_carga": "19/06/2026 00:15",
+        "_origen": "grupo",
+        "_pie": ""
       }
     ],
     "errores": [],
