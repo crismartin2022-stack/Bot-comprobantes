@@ -44340,6 +44340,28 @@
         "_fecha_carga": "19/06/2026 19:54",
         "_origen": "grupo",
         "_pie": "27454029882\n\nPintos mónica paula"
+      },
+      {
+        "fecha": "17/06/2026",
+        "hora": "10:19",
+        "tipo": "TRF",
+        "monto": 500000.0,
+        "moneda": "ARS",
+        "remitente": "Juan Jose Coria",
+        "remitente_cuil": "",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Lemon",
+        "banco_destino": "CVU",
+        "referencia": "Z4K6DVNOWYEZ16M125J8LQ",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CUIT destinatario: 30717282252. CBU destinatario: 0000155300000000009977. ID de la transacción: 6b1led20-18ad-4d82-8221-788ff9a0f5fd. Comprobante emitido por Lemon, powered by Digifin.",
+        "_num": 27,
+        "_fecha_carga": "19/06/2026 19:54",
+        "_origen": "grupo",
+        "_pie": "Juan José Coria \n28.149.654"
       }
     ],
     "errores": [],
