@@ -76354,6 +76354,28 @@
         "_fecha_carga": "18/06/2026 23:08",
         "_origen": "grupo",
         "_pie": "Karen Ayelen Bravo\nPersona destinataria\nNombre\nCUIT\nCBU\nBanco destino\nMotivo\nSasteup Srl\n30717282252\n0000155300000000009977"
+      },
+      {
+        "fecha": "13/06/2026",
+        "hora": "17:27",
+        "tipo": "TRF",
+        "monto": 150000.0,
+        "moneda": "ARS",
+        "remitente": "Luis Marcelo Bravo",
+        "remitente_cuil": "20-24455796-2",
+        "destinatario": "SASTEUP SRL",
+        "banco_origen": "Brubank",
+        "banco_destino": "",
+        "referencia": "",
+        "concepto": "Envío de dinero",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CVU destinatario: 0000155300000000009977. CUIT destinatario: 30-71728225-2. Transferencia enviada desde Brubank.",
+        "_num": 1501,
+        "_fecha_carga": "18/06/2026 23:08",
+        "_origen": "grupo",
+        "_pie": "Karen Ayelen Bravo\n27414845474"
       }
     ],
     "errores": [],
