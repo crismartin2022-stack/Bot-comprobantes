@@ -78995,6 +78995,28 @@
         "_fecha_carga": "18/06/2026 23:25",
         "_origen": "grupo",
         "_pie": "TROSERO JUAN MATEO\nDNI: 42.162.406\n\n$50.000\nGANAMOS IO"
+      },
+      {
+        "fecha": "13/06/2026",
+        "hora": "16:14",
+        "tipo": "TRF",
+        "monto": 100000.0,
+        "moneda": "ARS",
+        "remitente": "Sanabria, Melisa Elina",
+        "remitente_cuil": "27-39340659-9",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Personal Pay",
+        "banco_destino": "",
+        "referencia": "2740630560",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CoelsaID: WGRXJE27DXQMQ66PN7MYQL - Id Bancario. CUIL destinatario: 30-71728225-2. CBU/CVU receptor: 0000155300000000009977",
+        "_num": 1621,
+        "_fecha_carga": "18/06/2026 23:26",
+        "_origen": "grupo",
+        "_pie": "Sanabria, Melisa Elina 27-39340659-9  Monto: $1OO.OOO"
       }
     ],
     "errores": [],
