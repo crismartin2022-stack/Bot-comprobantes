@@ -62867,6 +62867,28 @@
         "_fecha_carga": "18/06/2026 21:45",
         "_origen": "grupo",
         "_pie": ""
+      },
+      {
+        "fecha": "13/06/2026",
+        "hora": "21:29",
+        "tipo": "TRF",
+        "monto": 100000.0,
+        "moneda": "ARS",
+        "remitente": "Matias Jesus Casado",
+        "remitente_cuil": "20-38757877-4",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "164031985114",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: L18MKX9RXJ7OXOLE9O6WYV. CUIT destinatario: 30-71728225-2. CVU receptor completo: 0000155300000000000009977",
+        "_num": 889,
+        "_fecha_carga": "18/06/2026 21:45",
+        "_origen": "grupo",
+        "_pie": ""
       }
     ],
     "errores": [],
