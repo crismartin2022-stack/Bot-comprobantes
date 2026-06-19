@@ -86580,6 +86580,28 @@
         "_fecha_carga": "19/06/2026 00:14",
         "_origen": "grupo",
         "_pie": "Moscoso Pablo Antonio \n35.021.013"
+      },
+      {
+        "fecha": "15/06/2026",
+        "hora": "00:21",
+        "tipo": "TRF",
+        "monto": 2000000.0,
+        "moneda": "ARS",
+        "remitente": "Espinoza, Emilio Orlando",
+        "remitente_cuil": "20-36716807-3",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Personal Pay",
+        "banco_destino": "",
+        "referencia": "2743625498",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CoelsaID: 76V4MR2Z748MV5D8NDEZOL - Id Bancario. CBU/CVU destinatario: 0000155300000000009977. CUIL/CUIT destinatario: 30-71728225-2.",
+        "_num": 1965,
+        "_fecha_carga": "19/06/2026 00:14",
+        "_origen": "grupo",
+        "_pie": "Espinoza, Emilio Orlando\nCUIL/CUIT\n20-36716807-3"
       }
     ],
     "errores": [],
