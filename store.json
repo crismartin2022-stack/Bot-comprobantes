@@ -65331,6 +65331,28 @@
         "_fecha_carga": "18/06/2026 21:59",
         "_origen": "grupo",
         "_pie": ""
+      },
+      {
+        "fecha": "13/06/2026",
+        "hora": "16:12",
+        "tipo": "TRF",
+        "monto": 200000.0,
+        "moneda": "ARS",
+        "remitente": "Noelia Giselle Romano",
+        "remitente_cuil": "27-45609998-5",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163173439319",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: L18MKX9RXJ1Q44119O6WYV. CVU remitente: 0000003100095227758371. CVU destinatario: 0000155300000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 1001,
+        "_fecha_carga": "18/06/2026 21:59",
+        "_origen": "grupo",
+        "_pie": ""
       }
     ],
     "errores": [],
