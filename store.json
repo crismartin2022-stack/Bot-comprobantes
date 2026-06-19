@@ -49875,6 +49875,28 @@
         "_fecha_carga": "19/06/2026 20:31",
         "_origen": "grupo",
         "_pie": "Camila Benítez 43814218"
+      },
+      {
+        "fecha": "16/06/2026",
+        "hora": "20:48",
+        "tipo": "TRF",
+        "monto": 32000.0,
+        "moneda": "ARS",
+        "remitente": "Maria Laura Fernandez",
+        "remitente_cuil": "27-30839418-8",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "164460343198",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: Z4K6DVNOWYEW85X125J8LQ. CVU remitente: 0000003100004411749684. CVU destinatario: 0001553000000000009977.",
+        "_num": 278,
+        "_fecha_carga": "19/06/2026 20:31",
+        "_origen": "grupo",
+        "_pie": "Maria fernandez 30839418"
       }
     ],
     "errores": [],
