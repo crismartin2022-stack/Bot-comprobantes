@@ -71393,6 +71393,28 @@
         "_fecha_carga": "18/06/2026 22:37",
         "_origen": "grupo",
         "_pie": "Fernando Nazareno Coronel\nCUIT/CUIL: 20-34445067-7"
+      },
+      {
+        "fecha": "14/06/2026",
+        "hora": "18:33",
+        "tipo": "TRF",
+        "monto": 500000.0,
+        "moneda": "ARS",
+        "remitente": "Fernandez, Luis Alberto",
+        "remitente_cuil": "23-29643124-9",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Personal Pay",
+        "banco_destino": "",
+        "referencia": "2742994418",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CBU/CVU del receptor: 00001553000000000009977. CUIL/CUIT del receptor: 30-71728225-2. CoelsaID: WGRXJE27DX617XGEN7MYQL - Id Bancario",
+        "_num": 1276,
+        "_fecha_carga": "18/06/2026 22:37",
+        "_origen": "grupo",
+        "_pie": "Fernandez, Luis Alberto\nCUIL/CUIT 23-29643124-9"
       }
     ],
     "errores": [],
