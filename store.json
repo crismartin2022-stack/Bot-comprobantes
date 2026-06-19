@@ -49058,6 +49058,28 @@
         "_fecha_carga": "19/06/2026 20:26",
         "_origen": "grupo",
         "_pie": "Micaela Rocio Correa\nDNI: 41.362.259"
+      },
+      {
+        "fecha": "16/06/2026",
+        "hora": "19:45",
+        "tipo": "TRF",
+        "monto": 500000.0,
+        "moneda": "ARS",
+        "remitente": "Oriana Paola Jular",
+        "remitente_cuil": "27-41712081-0",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163634175627",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: PDX4OGNYGPM3WE5MN0L6EY. CVU origen (remitente): 0000003100080067580044. CVU destino (receptor): 0000155300000000009977.",
+        "_num": 241,
+        "_fecha_carga": "19/06/2026 20:26",
+        "_origen": "grupo",
+        "_pie": "oriana jular\n41712081"
       }
     ],
     "errores": [],
