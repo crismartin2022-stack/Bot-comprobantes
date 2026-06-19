@@ -69497,6 +69497,28 @@
         "_fecha_carga": "18/06/2026 22:26",
         "_origen": "grupo",
         "_pie": "Vallejos Brandala, Elias Alejandro\nCUIL/CUIT 20-46101453-5"
+      },
+      {
+        "fecha": "13/06/2026",
+        "hora": "23:04",
+        "tipo": "TRF",
+        "monto": 300000.0,
+        "moneda": "ARS",
+        "remitente": "Luciana Paula Panfili",
+        "remitente_cuil": "27-29459097-3",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Naranja X",
+        "banco_destino": "Cuenta Virtual",
+        "referencia": "LMORZP908L5MR7JRNEGJ46",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CBU origen: 4530000800010893181801. CVU destinatario: 0000155300000000009977. CUIL destinatario: 30-71728225-2. Código de transacción: b7b48565-a73d-4659-8fca-be4b0e000fa0",
+        "_num": 1190,
+        "_fecha_carga": "18/06/2026 22:26",
+        "_origen": "grupo",
+        "_pie": "Luciana Paula Panfili\nNaranja X\n4530000800010893181801\n27-29459097-3"
       }
     ],
     "errores": [],
