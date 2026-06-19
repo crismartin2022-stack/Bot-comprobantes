@@ -60904,6 +60904,28 @@
         "_fecha_carga": "18/06/2026 21:32",
         "_origen": "grupo",
         "_pie": "Paez Marcelo Alejandro  20-41236852-6"
+      },
+      {
+        "fecha": "13/06/2026",
+        "hora": "18:19",
+        "tipo": "TRF",
+        "monto": 20000.0,
+        "moneda": "ARS",
+        "remitente": "Marcelo Alejandro Paez",
+        "remitente_cuil": "",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Ualá",
+        "banco_destino": "",
+        "referencia": "46YGOW9M1K8848VZNEXD8J",
+        "concepto": "VAR",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CUIT destino: 30717282252. CBU destino: 0000155300000000009977",
+        "_num": 800,
+        "_fecha_carga": "18/06/2026 21:32",
+        "_origen": "grupo",
+        "_pie": "virginia celia artiles   27-22123917-8"
       }
     ],
     "errores": [],
