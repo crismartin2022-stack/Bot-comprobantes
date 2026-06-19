@@ -82213,6 +82213,28 @@
         "_fecha_carga": "18/06/2026 23:46",
         "_origen": "grupo",
         "_pie": "Foto de 🤗🤗🤗"
+      },
+      {
+        "fecha": "14/06/2026",
+        "hora": "23:12",
+        "tipo": "TRF",
+        "monto": 100000.0,
+        "moneda": "ARS",
+        "remitente": "Juliana Belen Nunes",
+        "remitente_cuil": "27-35988529-1",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "164163124006",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: Z4K6DVNOWYPQQMYK25J8LQ. CVU remitente: 0000003100065172729991. CVU destinatario: 0000155300000000009977",
+        "_num": 1767,
+        "_fecha_carga": "18/06/2026 23:46",
+        "_origen": "grupo",
+        "_pie": "Mariela Anabel cepa Vazquez\n35284271"
       }
     ],
     "errores": [],
