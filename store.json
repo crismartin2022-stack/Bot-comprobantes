@@ -75848,6 +75848,28 @@
         "_fecha_carga": "18/06/2026 23:05",
         "_origen": "grupo",
         "_pie": "Nicole Guadalupe Da Silva\nCUIT/CUIL: 27-43172482-6\nMercado Pago\nCVU: 0000003100089976714223"
+      },
+      {
+        "fecha": "11/06/2026",
+        "hora": "14:42",
+        "tipo": "TRF",
+        "monto": 30000.0,
+        "moneda": "ARS",
+        "remitente": "Figueroa, Oriana Milagros",
+        "remitente_cuil": "27-45662407-9",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Personal Pay",
+        "banco_destino": "",
+        "referencia": "2733045469",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CoelsaID: PDX4OGNYG30QEDMRN0L6EY - Id Bancario. CUIL/CUIT destinatario: 30-71728225-2. CBU/CVU destinatario: 0000155300000000009977.",
+        "_num": 1478,
+        "_fecha_carga": "18/06/2026 23:05",
+        "_origen": "grupo",
+        "_pie": "Figueroa, Oriana Milagros\nCUIL/CUIT\n27-45662407-9"
       }
     ],
     "errores": [],
