@@ -67182,6 +67182,28 @@
         "_fecha_carga": "18/06/2026 22:10",
         "_origen": "grupo",
         "_pie": "Pablo Scotta\nNaranja X\n4530000800010375412485\n20-46307447-0"
+      },
+      {
+        "fecha": "13/06/2026",
+        "hora": "15:17",
+        "tipo": "TRF",
+        "monto": 25000.0,
+        "moneda": "ARS",
+        "remitente": "Leonel Nicolas Rinero",
+        "remitente_cuil": "20-45681786-7",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163165581383",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: D4RO172VZQ1Y1R5RNKJ3QE. CVU remitente: 0000003100029360642554. CVU destinatario: 0000155300000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 1085,
+        "_fecha_carga": "18/06/2026 22:10",
+        "_origen": "grupo",
+        "_pie": "Leonel Nicolas Rinero\nCUIT/CUIL: 20-45681786-7"
       }
     ],
     "errores": [],
