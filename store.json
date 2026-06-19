@@ -84838,6 +84838,28 @@
         "_fecha_carga": "19/06/2026 00:02",
         "_origen": "grupo",
         "_pie": "Debora centurión \n36242230"
+      },
+      {
+        "fecha": "14/06/2026",
+        "hora": "00:35",
+        "tipo": "TRF",
+        "monto": 55000.0,
+        "moneda": "ARS",
+        "remitente": "Susana Kmicaela Balbuena",
+        "remitente_cuil": "27-35094994-7",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163238997481",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: 67REZ8NPQ6Q1X8PK94KVGO. CVU remitente: 0000003100057266067517. CVU destinatario: 0000155300000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 1886,
+        "_fecha_carga": "19/06/2026 00:02",
+        "_origen": "grupo",
+        "_pie": "Susana Kmicaela Balbuena \nCuil:27-35094994-7"
       }
     ],
     "errores": [],
