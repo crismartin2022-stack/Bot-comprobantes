@@ -67713,6 +67713,28 @@
         "_fecha_carga": "18/06/2026 22:14",
         "_origen": "grupo",
         "_pie": "Fabian Nicolas Alvarez\nCUIT/CUIL: 20-37810983-4"
+      },
+      {
+        "fecha": "13/06/2026",
+        "hora": "18:57",
+        "tipo": "TRF",
+        "monto": 200000.0,
+        "moneda": "ARS",
+        "remitente": "Florencia Sofia Garcia",
+        "remitente_cuil": "27-41765707-5",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "164011938148",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: 86VRPQ2GMLVEL8YM2GLY0M. CVU remitente: 0000003100035552419853. CVU destinatario: 0000155300000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 1109,
+        "_fecha_carga": "18/06/2026 22:14",
+        "_origen": "grupo",
+        "_pie": "Florencia Sofia Garcia\nCUIT/CUIL: 27-41765707-5"
       }
     ],
     "errores": [],
