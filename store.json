@@ -43416,6 +43416,29 @@
         "_origen": "grupo",
         "_pie": "Buenas \nEnvío en total \n$2.100.000\n\n•500k (Tony90)\n• *Sasteup Srl*\n• 17/06\n•Sergio Nahuel Sequeira\n•Cuil: 20-41753424-6\n\n•500k (Tony90)\n• *Sasteup Srl*\n• 17/06\n•Cesar Enrique Paz\n•Cuil: 20-31159691-9\n\n•350k (Tony90)\n• *Sasteup Srl*\n• 17/06\n•Vanesa Barrionuevo \n•Cuil: 27-31966284-2\n\n•250k (Tony90)\n• *Sasteup Srl*\n• 17/06\n•Cesar Enrique Paz\n•Cuil: 20-31159691-9\n\n•500k (Tony90)\n• *Sasteup Srl*\n• 17/06\n•Alvaro Gerardine Coria\n•Cuil: 20-41479775-0",
         "_duplicado": true
+      },
+      {
+        "fecha": "17/06/2026",
+        "hora": "18:46",
+        "tipo": "TRF",
+        "monto": 500000.0,
+        "moneda": "ARS",
+        "remitente": "Cesar Enrique Paz",
+        "remitente_cuil": "",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Ualá",
+        "banco_destino": "",
+        "referencia": "ORD6LEN8PYORE1DGNM1Y30",
+        "concepto": "VAR",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CUIT destino: 30717282252. CBU destino completo: 0000155300000000009977",
+        "_num": 1968,
+        "_fecha_carga": "19/06/2026 01:29",
+        "_origen": "grupo",
+        "_pie": "",
+        "_duplicado": true
       }
     ]
   },
