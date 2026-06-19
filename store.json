@@ -49432,6 +49432,28 @@
         "_fecha_carga": "19/06/2026 20:28",
         "_origen": "grupo",
         "_pie": "Brandon Olivera\n\n20-42871536-6"
+      },
+      {
+        "fecha": "10/06/2026",
+        "hora": "22:24",
+        "tipo": "TRF",
+        "monto": 35000.0,
+        "moneda": "ARS",
+        "remitente": "Marina Yolanda Milagros Rapalin",
+        "remitente_cuil": "27-46092924-0",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "162743753777",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: WGRXJE27DY07W5RJN7MYQL. CVU origen (remitente): 0000003100096860805123. CVU destino (receptor): 0000155300000000009977",
+        "_num": 258,
+        "_fecha_carga": "19/06/2026 20:28",
+        "_origen": "grupo",
+        "_pie": "Marina rapalin 46.092.924"
       }
     ],
     "errores": [],
