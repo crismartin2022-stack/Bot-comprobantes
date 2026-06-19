@@ -67977,6 +67977,28 @@
         "_fecha_carga": "18/06/2026 22:16",
         "_origen": "grupo",
         "_pie": "Molina, Yamila Antonella\nCUIL/CUIT 27-39154409-9"
+      },
+      {
+        "fecha": "13/06/2026",
+        "hora": "19:58",
+        "tipo": "TRF",
+        "monto": 50000.0,
+        "moneda": "ARS",
+        "remitente": "Edgar Anselmo Nunez Rojas",
+        "remitente_cuil": "20-38175389-2",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "164019950648",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: 46YGOW9M1K8Q5K38NEXD8J. CVU remitente: 0000003100050664447220. CVU destinatario: 0000155300000000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 1121,
+        "_fecha_carga": "18/06/2026 22:16",
+        "_origen": "grupo",
+        "_pie": "Edgar Nuñez \n38175389\nViranet"
       }
     ],
     "errores": [],
