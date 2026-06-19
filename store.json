@@ -47958,6 +47958,28 @@
         "_fecha_carga": "19/06/2026 20:19",
         "_origen": "grupo",
         "_pie": "María Silvina Montero\nDNI: 22.089.285"
+      },
+      {
+        "fecha": "14/06/2026",
+        "hora": "17:37",
+        "tipo": "TRF",
+        "monto": 500000.5,
+        "moneda": "ARS",
+        "remitente": "Juan Carlos Ovejero",
+        "remitente_cuil": "20-14765356-6",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "164123769112",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación adicional: 67REZ8NPQ6MQV8Z494KVGO. CVU origen: 0000003100089844810725. CVU destino: 0000155300000000009977",
+        "_num": 191,
+        "_fecha_carga": "19/06/2026 20:19",
+        "_origen": "grupo",
+        "_pie": "Juan Carlos Ovejero\n14.765.356"
       }
     ],
     "errores": [],
