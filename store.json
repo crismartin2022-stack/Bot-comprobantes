@@ -63285,6 +63285,28 @@
         "_fecha_carga": "18/06/2026 21:47",
         "_origen": "grupo",
         "_pie": ""
+      },
+      {
+        "fecha": "13/06/2026",
+        "hora": "17:53",
+        "tipo": "TRF",
+        "monto": 30000.0,
+        "moneda": "ARS",
+        "remitente": "Hector Edgardo Sosa",
+        "remitente_cuil": "20-43335900-4",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163188495051",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: 3D5W612E6ZJLEX7G2GXYVR. CVU remitente: 0000003100034602475382. CVU destinatario: 0000155300000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 908,
+        "_fecha_carga": "18/06/2026 21:47",
+        "_origen": "grupo",
+        "_pie": ""
       }
     ],
     "errores": [],
