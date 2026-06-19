@@ -44142,6 +44142,28 @@
         "_fecha_carga": "19/06/2026 19:52",
         "_origen": "grupo",
         "_pie": "23701197 borda andrea"
+      },
+      {
+        "fecha": "17/06/2026",
+        "hora": "18:29",
+        "tipo": "TRF",
+        "monto": 200000.0,
+        "moneda": "ARS",
+        "remitente": "Paola Soledad Pintos",
+        "remitente_cuil": "27-26623507-6",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "164597438436",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: JMQKYZ9QQV8G6K569V50P3. CVU origen: 0000003100052242649950. CVU destino: 0000155300000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 18,
+        "_fecha_carga": "19/06/2026 19:52",
+        "_origen": "grupo",
+        "_pie": "Paola pintos\n26623507"
       }
     ],
     "errores": [],
