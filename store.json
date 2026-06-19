@@ -85543,6 +85543,28 @@
         "_fecha_carga": "19/06/2026 00:07",
         "_origen": "grupo",
         "_pie": "Agostina bechardo fernandez"
+      },
+      {
+        "fecha": "15/06/2026",
+        "hora": "19:38",
+        "tipo": "TRF",
+        "monto": 400000.0,
+        "moneda": "ARS",
+        "remitente": "Marquez, Nahuel Nicolas",
+        "remitente_cuil": "20-48545888-4",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Personal Pay",
+        "banco_destino": "",
+        "referencia": "2744989833",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CoelsaID: 67REZ8NPQ63DL87P94KVGO - Id Bancario. CUIL/CUIT destinatario: 30-71728225-2. CBU/CVU receptor: 0000155300000000009977",
+        "_num": 1918,
+        "_fecha_carga": "19/06/2026 00:07",
+        "_origen": "grupo",
+        "_pie": "Fichas multiplaneta divertite252 \nMarquez Nahuel Nicolas\n48545888"
       }
     ],
     "errores": [],
