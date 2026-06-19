@@ -45402,6 +45402,28 @@
         "_fecha_carga": "19/06/2026 20:01",
         "_origen": "grupo",
         "_pie": "Foto de Diversión"
+      },
+      {
+        "fecha": "17/06/2026",
+        "hora": "21:37",
+        "tipo": "TRF",
+        "monto": 50000.0,
+        "moneda": "ARS",
+        "remitente": "Maria Amparo Yacovella",
+        "remitente_cuil": "27-28240574-7",
+        "destinatario": "Sercob Sa",
+        "banco_origen": "Naranja X",
+        "banco_destino": "Cuenta Virtual",
+        "referencia": "67REZ8NPQ6ZO35K494KVGO",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "7745",
+        "tiene_remitente": true,
+        "notas": "Código de transacción adicional: d4adadb8-1aac-471f-bd41-f601ac9018de. CBU origen: 4530000800012455210477. CVU destino: 000013310000000587745.",
+        "_num": 75,
+        "_fecha_carga": "19/06/2026 20:01",
+        "_origen": "grupo",
+        "_pie": "Foto de Diversión"
       }
     ],
     "errores": [],
