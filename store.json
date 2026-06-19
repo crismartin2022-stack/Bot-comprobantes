@@ -48706,6 +48706,28 @@
         "_fecha_carga": "19/06/2026 20:24",
         "_origen": "grupo",
         "_pie": "Cesar Oscar Molina\nDNI: 35.808.130"
+      },
+      {
+        "fecha": "15/06/2026",
+        "hora": "18:20",
+        "tipo": "TRF",
+        "monto": 500000.85,
+        "moneda": "ARS",
+        "remitente": "Cesar Oscar Molina",
+        "remitente_cuil": "20-35808130-5",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163460960607",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: PDX4OGNYGP8GZ3JRN0L6EY. CVU remitente: 0000000310004287376384. CUIT destinatario: 30-71728225-2.",
+        "_num": 225,
+        "_fecha_carga": "19/06/2026 20:24",
+        "_origen": "grupo",
+        "_pie": "Cesar Oscar Molina\nDNI: 35.808.130"
       }
     ],
     "errores": [],
