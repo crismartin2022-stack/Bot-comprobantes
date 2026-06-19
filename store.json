@@ -69123,6 +69123,28 @@
         "_fecha_carga": "18/06/2026 22:23",
         "_origen": "grupo",
         "_pie": "Pablo Ezequiel Caceres Cruz\nNaranja X\n4530000800014635180040\n20-37200745-2"
+      },
+      {
+        "fecha": "13/06/2026",
+        "hora": "22:27",
+        "tipo": "TRF",
+        "monto": 500000.0,
+        "moneda": "ARS",
+        "remitente": "Maria De Los Angeles Rodriguez",
+        "remitente_cuil": "",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Lemon",
+        "banco_destino": "CVU",
+        "referencia": "86VRPQ2GMLVRYOEG2GLY0M",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CUIT destinatario: 30717282252. CBU destinatario: 0000155300000000009977. ID de la transacción: 332ed43b-ce57-4461-998d-986093e2a7be. Comprobante emitido por Lemon, powered by Digifin.",
+        "_num": 1173,
+        "_fecha_carga": "18/06/2026 22:23",
+        "_origen": "grupo",
+        "_pie": "María de Los Ángeles Rodríguez \n33711557879"
       }
     ],
     "errores": [],
