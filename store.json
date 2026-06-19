@@ -87572,6 +87572,28 @@
         "_fecha_carga": "19/06/2026 00:20",
         "_origen": "grupo",
         "_pie": "__100__"
+      },
+      {
+        "fecha": "15/06/2026",
+        "hora": "21:42",
+        "tipo": "TRF",
+        "monto": 500000.01,
+        "moneda": "ARS",
+        "remitente": "Lucas Samuel Ramirez",
+        "remitente_cuil": "20-40767535-6",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "LB Finanzas",
+        "banco_destino": "Otros bancos",
+        "referencia": "TID295202B5BC",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "ID Coelsa: WGRXJE27DX148LKON7MYQL. CUIT destinatario: 30-71728225-2. CBU/CVU receptor: 0000155300000000009977",
+        "_num": 2010,
+        "_fecha_carga": "19/06/2026 00:20",
+        "_origen": "grupo",
+        "_pie": "Lucas Samuel Ramirez \n20-40767535-6"
       }
     ],
     "errores": [],
