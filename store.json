@@ -69167,6 +69167,28 @@
         "_fecha_carga": "18/06/2026 22:24",
         "_origen": "grupo",
         "_pie": "Aylen Maria Ester Gonzalez\nCUIT/CUIL: 27-47506525-0"
+      },
+      {
+        "fecha": "13/06/2026",
+        "hora": "22:06",
+        "tipo": "TRF",
+        "monto": 200000.0,
+        "moneda": "ARS",
+        "remitente": "Priscila Abigail Reynoso",
+        "remitente_cuil": "27-47308873-3",
+        "destinatario": "SASTEUP SRL",
+        "banco_origen": "AstroPay",
+        "banco_destino": "",
+        "referencia": "R7ZG0QNDW1JZG8E09EXYPO",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CVU remitente: 0000177500094113995038. CVU receptor: 0000155300000000009977. CUIT receptor: 30717282252. Alias receptor: cvu.977",
+        "_num": 1175,
+        "_fecha_carga": "18/06/2026 22:24",
+        "_origen": "grupo",
+        "_pie": "47308873 Reynoso Priscila"
       }
     ],
     "errores": [],
