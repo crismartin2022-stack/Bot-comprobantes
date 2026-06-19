@@ -61525,6 +61525,28 @@
         "_fecha_carga": "18/06/2026 21:36",
         "_origen": "grupo",
         "_pie": ""
+      },
+      {
+        "fecha": "13/06/2026",
+        "hora": "18:10",
+        "tipo": "TRF",
+        "monto": 15000.0,
+        "moneda": "ARS",
+        "remitente": "Silvio Abel Villasboa",
+        "remitente_cuil": "20-34597683-4",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "164002178818",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: XJ8G7V95DWEEDQ3M9EMPYR. CVU remitente: 0000003100087313304649. CVU destinatario: 0000155300000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 828,
+        "_fecha_carga": "18/06/2026 21:36",
+        "_origen": "grupo",
+        "_pie": ""
       }
     ],
     "errores": [],
