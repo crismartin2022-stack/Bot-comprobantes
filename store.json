@@ -47053,6 +47053,28 @@
         "_fecha_carga": "19/06/2026 20:13",
         "_origen": "grupo",
         "_pie": "Griselda cimino 12444180"
+      },
+      {
+        "fecha": "18/06/2026",
+        "hora": "01:26",
+        "tipo": "TRF",
+        "monto": 100000.0,
+        "moneda": "ARS",
+        "remitente": "Ariel Ricardo Barrios",
+        "remitente_cuil": "20-32472349-9",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163828722447",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: 0V1JXON1LMO7DLKPNZ64EL. CVU origen: 0000003100040314583048. CVU destino: 0000155300000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 150,
+        "_fecha_carga": "19/06/2026 20:13",
+        "_origen": "grupo",
+        "_pie": "Ganamos"
       }
     ],
     "errores": [],
