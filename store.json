@@ -68637,6 +68637,28 @@
         "_fecha_carga": "18/06/2026 22:20",
         "_origen": "grupo",
         "_pie": "Roberto Sergio Lopez\nCUIT/CUIL: 23-25185980-9"
+      },
+      {
+        "fecha": "13/06/2026",
+        "hora": "20:49",
+        "tipo": "TRF",
+        "monto": 500000.06,
+        "moneda": "ARS",
+        "remitente": "Axel Lautaro Ramirez Flores",
+        "remitente_cuil": "20-45312879-3",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Naranja X",
+        "banco_destino": "Cuenta Virtual",
+        "referencia": "67REZ8NPQ6WJLOYG94KVGO",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CBU origen: 4530000800013397200939. CVU destino: 0000155300000000009977. CUIL destinatario: 30-71728225-2. Código de transacción: 7cc469b2-c664-4835-872e-fe1eaa4c4b42",
+        "_num": 1151,
+        "_fecha_carga": "18/06/2026 22:20",
+        "_origen": "grupo",
+        "_pie": ""
       }
     ],
     "errores": [],
