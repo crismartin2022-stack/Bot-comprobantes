@@ -78687,6 +78687,28 @@
         "_fecha_carga": "18/06/2026 23:23",
         "_origen": "grupo",
         "_pie": "Gaston Cruz Moyano\n20-46306077-1"
+      },
+      {
+        "fecha": "12/06/2026",
+        "hora": "22:33",
+        "tipo": "TRF",
+        "monto": 520000.0,
+        "moneda": "ARS",
+        "remitente": "Braian Damian Gerez",
+        "remitente_cuil": "20-35659614-6",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Naranja X",
+        "banco_destino": "Cuenta Virtual",
+        "referencia": "D4RO172VZQ8ZQLV1NKJ3QE",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CBU origen: 4530000800014505656712. CVU destino: 0000155300000000009977. CUIL destinatario: 30-71728225-2. Código de transacción adicional: 4196b54d-ae66-4b41-a429-a8796915dfee.",
+        "_num": 1607,
+        "_fecha_carga": "18/06/2026 23:23",
+        "_origen": "grupo",
+        "_pie": "Braian Damian Gerez\n20356596146\nPLUTONOS"
       }
     ],
     "errores": [],
