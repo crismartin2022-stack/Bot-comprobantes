@@ -71327,6 +71327,28 @@
         "_fecha_carga": "18/06/2026 22:37",
         "_origen": "grupo",
         "_pie": "Natalia Ailen Di Giorgio Suarez\nCUIT/CUIL: 27-47758744-0"
+      },
+      {
+        "fecha": "14/06/2026",
+        "hora": "18:13",
+        "tipo": "TRF",
+        "monto": 100000.0,
+        "moneda": "ARS",
+        "remitente": "Delia Rosa Delvalle Benitez",
+        "remitente_cuil": "27-94929338-1",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Naranja X",
+        "banco_destino": "Cuenta Virtual",
+        "referencia": "Z4K6DVNOWYP14W3E25J8LQ",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CBU origen: 4530000800015630000375. CVU destino: 0000155300000000009977. CUIL destinatario: 30-71728225-2. Código de transacción adicional: 3b650199-198d-4091-89a4-d192be29f490",
+        "_num": 1273,
+        "_fecha_carga": "18/06/2026 22:37",
+        "_origen": "grupo",
+        "_pie": "Delia Rosa Delvalle Benitez\nNaranja X\n4530000800015630000375\n27-94929338-1"
       }
     ],
     "errores": [],
