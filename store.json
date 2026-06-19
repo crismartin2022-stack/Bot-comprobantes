@@ -45996,6 +45996,28 @@
         "_fecha_carga": "19/06/2026 20:05",
         "_origen": "grupo",
         "_pie": "Julio Sánchez \nDNI 38.309.052"
+      },
+      {
+        "fecha": "17/06/2026",
+        "hora": "14:19",
+        "tipo": "TRF",
+        "monto": 100000.0,
+        "moneda": "ARS",
+        "remitente": "Julio Gabriel Sanchez",
+        "remitente_cuil": "20-38309052-1",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163743342897",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: 0V1JXON1LMX573O3NZ64EL. CVU origen: 0000003100050528218564. CVU destino: 0000155300000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 102,
+        "_fecha_carga": "19/06/2026 20:05",
+        "_origen": "grupo",
+        "_pie": "Foto de Gustavo Volpe"
       }
     ],
     "errores": [],
