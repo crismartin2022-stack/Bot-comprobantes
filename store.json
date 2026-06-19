@@ -67779,6 +67779,28 @@
         "_fecha_carga": "18/06/2026 22:15",
         "_origen": "grupo",
         "_pie": "Marco Emmiliano Barrera\nNaranja X\n4530000800012271420814\n20-39596546-9"
+      },
+      {
+        "fecha": "13/06/2026",
+        "hora": "19:07",
+        "tipo": "TRF",
+        "monto": 300000.0,
+        "moneda": "ARS",
+        "remitente": "Gabriela Elizabet Orellana",
+        "remitente_cuil": "28.635.493",
+        "destinatario": "SASTEUP SRL",
+        "banco_origen": "Cuenta DNI",
+        "banco_destino": "",
+        "referencia": "67REZ8NPQ6W3OWXR94KVGO",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CVU destinatario: 0000155300000000000009977. CUIL destinatario: 30717282252. El remitente figura con DNI 28.635.493 sin formato CUIL completo.",
+        "_num": 1112,
+        "_fecha_carga": "18/06/2026 22:15",
+        "_origen": "grupo",
+        "_pie": "GABRIELA ELIZABETH ORELLANA\n28.635.493"
       }
     ],
     "errores": [],
