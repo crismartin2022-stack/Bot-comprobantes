@@ -53048,6 +53048,28 @@
         "_fecha_carga": "19/06/2026 20:53",
         "_origen": "grupo",
         "_pie": "Abril Agostina Mendoza 46426543"
+      },
+      {
+        "fecha": "16/06/2026",
+        "hora": "23:22",
+        "tipo": "TRF",
+        "monto": 90000.0,
+        "moneda": "ARS",
+        "remitente": "Ramiro Daniel Gomez",
+        "remitente_cuil": "20-44312278-9",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "164478477418",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: R7ZG0QNDW1VOZ4ZV9EXYPO. CVU origen: 0000003100010998855683. CVU destino: 0001553000000000009977.",
+        "_num": 422,
+        "_fecha_carga": "19/06/2026 20:53",
+        "_origen": "grupo",
+        "_pie": "Ramiro Daniel Gómez \n20443122789"
       }
     ],
     "errores": [],
