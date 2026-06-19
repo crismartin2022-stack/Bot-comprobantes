@@ -71261,6 +71261,28 @@
         "_fecha_carga": "18/06/2026 22:37",
         "_origen": "grupo",
         "_pie": "Ermelinda Lobo\nCUIT/CUIL: 27-96330852-9"
+      },
+      {
+        "fecha": "14/06/2026",
+        "hora": "17:20",
+        "tipo": "TRF",
+        "monto": 300000.0,
+        "moneda": "ARS",
+        "remitente": "Rodrigo Andres Marquez de Olivera",
+        "remitente_cuil": "",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Ualá",
+        "banco_destino": "",
+        "referencia": "46YG0W9M1KG1GO5QNEXD8J",
+        "concepto": "VAR",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CBU destino: 0000155300000000009977. CUIT destino: 30717282252 (Sasteup Srl).",
+        "_num": 1270,
+        "_fecha_carga": "18/06/2026 22:37",
+        "_origen": "grupo",
+        "_pie": "Rodrigo Andrés Márquez de Olivera"
       }
     ],
     "errores": [],
