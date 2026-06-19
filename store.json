@@ -62581,6 +62581,28 @@
         "_fecha_carga": "18/06/2026 21:43",
         "_origen": "grupo",
         "_pie": "__100___"
+      },
+      {
+        "fecha": "11/06/2026",
+        "hora": "12:01",
+        "tipo": "TRF",
+        "monto": 150000.0,
+        "moneda": "ARS",
+        "remitente": "luciana alvarenga",
+        "remitente_cuil": "",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Ualá",
+        "banco_destino": "",
+        "referencia": "PDX4OGNYG30XRWZQN0L6EY",
+        "concepto": "VAR",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CUIT destino: 30717282252. CBU destino completo: 0000155300000000009977",
+        "_num": 876,
+        "_fecha_carga": "18/06/2026 21:43",
+        "_origen": "grupo",
+        "_pie": "Luciana Alvarenga \n95029202"
       }
     ],
     "errores": [],
