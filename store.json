@@ -68835,6 +68835,28 @@
         "_fecha_carga": "18/06/2026 22:21",
         "_origen": "grupo",
         "_pie": "Alan soto\nCUIL-CUIT: 20-45176794-2"
+      },
+      {
+        "fecha": "13/06/2026",
+        "hora": "21:51",
+        "tipo": "TRF",
+        "monto": 100000.0,
+        "moneda": "ARS",
+        "remitente": "Zoraida Nunez Sanchez",
+        "remitente_cuil": "27-92394168-7",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Naranja X",
+        "banco_destino": "Cuenta Virtual",
+        "referencia": "WY7ZEPN6MKQVGLXQ2Q0M51",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CBU origen: 4530000800016777376312. CVU destino: 0000155300000000009977. CUIL destinatario: 30-71728225-2. Código de transacción: 9507a9a8-3f78-4dee-9f43-2e129036e4fb.",
+        "_num": 1160,
+        "_fecha_carga": "18/06/2026 22:22",
+        "_origen": "grupo",
+        "_pie": "Zoraida Nunez Sanchez\nNaranja X\n4530000800016777376312\nCUIL\n27-92394168-7"
       }
     ],
     "errores": [],
