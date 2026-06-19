@@ -61017,6 +61017,28 @@
         "_fecha_carga": "18/06/2026 21:32",
         "_origen": "grupo",
         "_pie": "Gladys Karina Torres Nuñez  23-23608138-4"
+      },
+      {
+        "fecha": "14/06/2026",
+        "hora": "01:28",
+        "tipo": "TRF",
+        "monto": 50000.0,
+        "moneda": "ARS",
+        "remitente": "Gladys Karina Torres Nuñez",
+        "remitente_cuil": "",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Ualá",
+        "banco_destino": "",
+        "referencia": "JMQKYZ9QQVQOMO1Q9V50P3",
+        "concepto": "VAR",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CBU destino: 0000155300000000009977. CUIT destino: 30717282252",
+        "_num": 805,
+        "_fecha_carga": "18/06/2026 21:32",
+        "_origen": "grupo",
+        "_pie": "Gladys Karina Torres Nuñez  23-23608138-4"
       }
     ],
     "errores": [],
