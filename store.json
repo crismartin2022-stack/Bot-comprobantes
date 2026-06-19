@@ -52034,6 +52034,28 @@
         "_fecha_carga": "19/06/2026 20:46",
         "_origen": "grupo",
         "_pie": "Araceli Stefania Martinez Rothenberger\nCUIT/CUIL: 27-41089069-6"
+      },
+      {
+        "fecha": "15/06/2026",
+        "hora": "22:32",
+        "tipo": "TRF",
+        "monto": 200000.0,
+        "moneda": "ARS",
+        "remitente": "Shaiel Maria Cielo Avile",
+        "remitente_cuil": "27-43427650-6",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Lemon",
+        "banco_destino": "CVU",
+        "referencia": "D4RO172VZQWRK0ZKNKJ3QE",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "ID de la transacción: 1a95945b-a02a-4ff8-8813-a2807a8f8c32. CUIT destinatario: 30717282252. CBU destino: 00001553000000000009977. Comprobante generado por Lemon / Powered by Digifin.",
+        "_num": 376,
+        "_fecha_carga": "19/06/2026 20:46",
+        "_origen": "grupo",
+        "_pie": "27-43427650-6"
       }
     ],
     "errores": [],
