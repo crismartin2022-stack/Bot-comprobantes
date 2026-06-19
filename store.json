@@ -68923,6 +68923,28 @@
         "_fecha_carga": "18/06/2026 22:22",
         "_origen": "grupo",
         "_pie": "Daniel Ojeda Fernández"
+      },
+      {
+        "fecha": "13/06/2026",
+        "hora": "22:05",
+        "tipo": "TRF",
+        "monto": 500000.0,
+        "moneda": "ARS",
+        "remitente": "Albornoz, Nicolas Eduardo",
+        "remitente_cuil": "20-12580879-5",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Personal Pay",
+        "banco_destino": "",
+        "referencia": "2741550022",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CoelsaID: LOEJWV9JZ3LM76082QMD0G - Id Bancario. CUIL/CUIT destinatario: 30-71728225-2. CBU/CVU destinatario: 0000155300000000009977",
+        "_num": 1164,
+        "_fecha_carga": "18/06/2026 22:22",
+        "_origen": "grupo",
+        "_pie": "Albornoz, Nicolas Eduardo\nCUIL/CUIT 20-12580879-5"
       }
     ],
     "errores": [],
