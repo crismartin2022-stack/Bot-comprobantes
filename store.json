@@ -46745,6 +46745,28 @@
         "_fecha_carga": "19/06/2026 20:10",
         "_origen": "grupo",
         "_pie": "Sergio Oliver 38076241"
+      },
+      {
+        "fecha": "17/06/2026",
+        "hora": "13:39",
+        "tipo": "TRF",
+        "monto": 50000.0,
+        "moneda": "ARS",
+        "remitente": "Katherina Liliana Vera",
+        "remitente_cuil": "27-39011863-0",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Naranja X",
+        "banco_destino": "Cuenta Virtual",
+        "referencia": "86VRPQ2GMLQ0Z8GY2GLY0M",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de transacción adicional: 7b066bf4-b916-43af-97e8-971eb7ad8c56. CBU origen: 4530000800012801787893. CVU destino: 0000155300000000009977.",
+        "_num": 136,
+        "_fecha_carga": "19/06/2026 20:11",
+        "_origen": "grupo",
+        "_pie": "Foto de 🤗🤗🤗"
       }
     ],
     "errores": [],
