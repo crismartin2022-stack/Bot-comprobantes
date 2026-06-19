@@ -74017,6 +74017,28 @@
         "_fecha_carga": "18/06/2026 22:54",
         "_origen": "grupo",
         "_pie": "Marcos David Verner 45 753 846"
+      },
+      {
+        "fecha": "15/06/2026",
+        "hora": "14:34",
+        "tipo": "TRF",
+        "monto": 500000.0,
+        "moneda": "ARS",
+        "remitente": "Juliana Ayelen Palavecino",
+        "remitente_cuil": "27-47337453-1",
+        "destinatario": "SASTEUP SRL",
+        "banco_origen": "Brubank",
+        "banco_destino": "",
+        "referencia": "1798779067",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CVU destino: 0000155300000000009977. CUIT destinatario: 30-71728225-2. ID Operación: 260616000304887042428. Cuenta origen: Caja de ahorro en pesos.",
+        "_num": 1395,
+        "_fecha_carga": "18/06/2026 22:54",
+        "_origen": "grupo",
+        "_pie": ""
       }
     ],
     "errores": [],
