@@ -68021,6 +68021,28 @@
         "_fecha_carga": "18/06/2026 22:16",
         "_origen": "grupo",
         "_pie": "Alberto Gimenez\nCUIT/CUIL: 20-93084324-6"
+      },
+      {
+        "fecha": "13/06/2026",
+        "hora": "20:08",
+        "tipo": "TRF",
+        "monto": 200001.0,
+        "moneda": "ARS",
+        "remitente": "Brian David Munoz",
+        "remitente_cuil": "20-44141951-2",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "164019939582",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: 3D5W612E6ZJ846OL2GXYVR. CVU remitente: 0000003100089189160967. CVU destinatario: 0000155300000000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 1123,
+        "_fecha_carga": "18/06/2026 22:16",
+        "_origen": "grupo",
+        "_pie": "Brian David Munoz\nCUIT/CUIL: 20-44141951-2"
       }
     ],
     "errores": [],
