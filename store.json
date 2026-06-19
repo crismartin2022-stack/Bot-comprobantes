@@ -46239,6 +46239,28 @@
         "_fecha_carga": "19/06/2026 20:07",
         "_origen": "grupo",
         "_pie": "Msruqez Nahuel"
+      },
+      {
+        "fecha": "17/06/2026",
+        "hora": "22:23",
+        "tipo": "TRF",
+        "monto": 399000.0,
+        "moneda": "ARS",
+        "remitente": "Marquez, Mariale Romina",
+        "remitente_cuil": "27-46300902-9",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Personal Pay",
+        "banco_destino": "",
+        "referencia": "2754386563",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CoelsaID: L18MKX9RXJ0L51MK9O6WYV - Id Bancario. CBU/CVU destinatario: 0000155300000000009977",
+        "_num": 113,
+        "_fecha_carga": "19/06/2026 20:07",
+        "_origen": "grupo",
+        "_pie": "Marquez Mariale Romina\n46300902"
       }
     ],
     "errores": [],
