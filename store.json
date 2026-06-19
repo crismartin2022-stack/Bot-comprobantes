@@ -45688,6 +45688,28 @@
         "_fecha_carga": "19/06/2026 20:03",
         "_origen": "grupo",
         "_pie": "Juan Carlos bagnato"
+      },
+      {
+        "fecha": "18/06/2026",
+        "hora": "00:08",
+        "tipo": "TRF",
+        "monto": 150000.0,
+        "moneda": "ARS",
+        "remitente": "Eduardo Alfredo Bagnato",
+        "remitente_cuil": "20-13872100-1",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163823355769",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: WY7ZEPN6MKGKD5O42Q0M51. CVU origen (remitente): 0000003100071723108780. CVU destino (receptor): 0000155300000000009977. CUIT destinatario: 30-71728225-2",
+        "_num": 88,
+        "_fecha_carga": "19/06/2026 20:03",
+        "_origen": "grupo",
+        "_pie": "Foto de Racing Club"
       }
     ],
     "errores": [],
