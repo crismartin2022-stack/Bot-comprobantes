@@ -67867,6 +67867,28 @@
         "_fecha_carga": "18/06/2026 22:15",
         "_origen": "grupo",
         "_pie": ""
+      },
+      {
+        "fecha": "13/06/2026",
+        "hora": "19:10",
+        "tipo": "TRF",
+        "monto": 300000.0,
+        "moneda": "ARS",
+        "remitente": "Juan Pablo Diaz",
+        "remitente_cuil": "44.141.674",
+        "destinatario": "SASTEUP SRL",
+        "banco_origen": "Cuenta DNI",
+        "banco_destino": "",
+        "referencia": "D4RO172VZQEL8XQKNKJ3QE",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CVU destinatario: 0000155300000000000009977. CUIL destinatario: 30717282252. El remitente figura con DNI 44.141.674 sin CUIL completo visible.",
+        "_num": 1116,
+        "_fecha_carga": "18/06/2026 22:15",
+        "_origen": "grupo",
+        "_pie": "Edgar Barreiro maidana"
       }
     ],
     "errores": [],
