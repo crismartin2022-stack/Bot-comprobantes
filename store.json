@@ -71107,6 +71107,28 @@
         "_fecha_carga": "18/06/2026 22:36",
         "_origen": "grupo",
         "_pie": "Juan Elias Marquez De Olivera\nCUIT/CUIL: 20-36520946-5"
+      },
+      {
+        "fecha": "14/06/2026",
+        "hora": "16:44",
+        "tipo": "TRF",
+        "monto": 500000.0,
+        "moneda": "ARS",
+        "remitente": "Verner, Anildo",
+        "remitente_cuil": "20-16697222-2",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Personal Pay",
+        "banco_destino": "",
+        "referencia": "2742813883",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CoelsaID: L18MKX9RXJP1QGY49O6WYV - Id Bancario. CUIL/CUIT destinatario: 30-71728225-2. CBU/CVU receptor: 0000155300000000009977",
+        "_num": 1263,
+        "_fecha_carga": "18/06/2026 22:36",
+        "_origen": "grupo",
+        "_pie": "Verner, Anildo\n20-16697222-2"
       }
     ],
     "errores": [],
