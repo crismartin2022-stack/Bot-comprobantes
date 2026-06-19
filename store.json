@@ -81134,6 +81134,28 @@
         "_fecha_carga": "18/06/2026 23:39",
         "_origen": "grupo",
         "_pie": "Alan Espinola 39.715.159"
+      },
+      {
+        "fecha": "14/06/2026",
+        "hora": "14:17",
+        "tipo": "TRF",
+        "monto": 70000.0,
+        "moneda": "ARS",
+        "remitente": "Alan Ezequiel Espinola",
+        "remitente_cuil": "20-39715159-0",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163291134767",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: 46YGOW9M1K14DXQYNEXD8J. CUIT destinatario: 30-71728225-2. CVU remitente: 0000003100086877314857.",
+        "_num": 1718,
+        "_fecha_carga": "18/06/2026 23:39",
+        "_origen": "grupo",
+        "_pie": ""
       }
     ],
     "errores": [],
