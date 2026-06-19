@@ -63725,6 +63725,28 @@
         "_fecha_carga": "18/06/2026 21:49",
         "_origen": "grupo",
         "_pie": "Palacios Karina 40738356"
+      },
+      {
+        "fecha": "11/06/2026",
+        "hora": "17:20",
+        "tipo": "TRF",
+        "monto": 60000.0,
+        "moneda": "ARS",
+        "remitente": "Sofia Pilar Monteverde",
+        "remitente_cuil": "",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Lemon",
+        "banco_destino": "CVU",
+        "referencia": "Z0KV87940PWLK6DQNPEYDX",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CUIT destinatario: 30717282252. CBU destinatario: 0000155300000000009977. ID de transacción: 24119da7-a5fd-4a46-a21e-45851f0ab092. Comprobante emitido por Lemon, powered by Digifin.",
+        "_num": 928,
+        "_fecha_carga": "18/06/2026 21:49",
+        "_origen": "grupo",
+        "_pie": "Sofía Monteverde \n43142862"
       }
     ],
     "errores": [],
