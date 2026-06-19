@@ -78599,6 +78599,28 @@
         "_fecha_carga": "18/06/2026 23:23",
         "_origen": "grupo",
         "_pie": "Enzo Gabriel Albarracin\nCBU de emisor\n3840200500000044008521"
+      },
+      {
+        "fecha": "12/06/2026",
+        "hora": "20:47",
+        "tipo": "TRF",
+        "monto": 100000.0,
+        "moneda": "ARS",
+        "remitente": "Emiliano Gaston Castro",
+        "remitente_cuil": "",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Lemon",
+        "banco_destino": "CVU",
+        "referencia": "LMORZP908RLMJ354NEGJ46",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CUIT destinatario: 30717282252. CBU destinatario: 0000155300000000009977. ID de la transacción: 6e889fcf-780c-45bb-bbf6-d556d5466941. Comprobante generado por Lemon powered by Digifin.",
+        "_num": 1603,
+        "_fecha_carga": "18/06/2026 23:23",
+        "_origen": "grupo",
+        "_pie": "Emiliano Gaston Castro\nCUIL:20-46112894-8\n$100.000"
       }
     ],
     "errores": [],
