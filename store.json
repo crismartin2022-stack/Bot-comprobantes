@@ -85235,6 +85235,28 @@
         "_fecha_carga": "19/06/2026 00:05",
         "_origen": "grupo",
         "_pie": "Mario zuniga 38813758"
+      },
+      {
+        "fecha": "15/06/2026",
+        "hora": "22:30",
+        "tipo": "TRF",
+        "monto": 100000.0,
+        "moneda": "ARS",
+        "remitente": "David Alejandro Guillenea",
+        "remitente_cuil": "20-25220652-4",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163496284383",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: Z6OLMDN3V3YE7LK62E7RQ5. CUIT destinatario: 30-71728225-2. CVU remitente: 0000003100092683946168. CVU destinatario: 0000155300000000000009977",
+        "_num": 1904,
+        "_fecha_carga": "19/06/2026 00:05",
+        "_origen": "grupo",
+        "_pie": "David Guillenea\n25220652"
       }
     ],
     "errores": [],
