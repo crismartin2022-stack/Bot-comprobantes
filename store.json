@@ -87374,6 +87374,28 @@
         "_fecha_carga": "19/06/2026 00:18",
         "_origen": "grupo",
         "_pie": "29462975 Debora Gisele Carnuccio"
+      },
+      {
+        "fecha": "15/06/2026",
+        "hora": "20:34",
+        "tipo": "TRF",
+        "monto": 300000.0,
+        "moneda": "ARS",
+        "remitente": "Coronel, Berta Lidia Maria",
+        "remitente_cuil": "27-34873685-5",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Personal Pay",
+        "banco_destino": "",
+        "referencia": "2745123260",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CoelsaID: Z4K6DVNOWYR3QQ7G25J8LQ - Id Bancario. CBU/CVU destinatario: 0000155300000000009977. CUIL destinatario: 30-71728225-2",
+        "_num": 2001,
+        "_fecha_carga": "19/06/2026 00:19",
+        "_origen": "grupo",
+        "_pie": "Berta coronel 34873685"
       }
     ],
     "errores": [],
