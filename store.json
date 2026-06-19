@@ -54043,6 +54043,28 @@
         "_fecha_carga": "19/06/2026 20:59",
         "_origen": "grupo",
         "_pie": "Julieta Abigail Caballero\nCUIT/CUIL: 27-47118920-6"
+      },
+      {
+        "fecha": "16/06/2026",
+        "hora": "11:04",
+        "tipo": "TRF",
+        "monto": 50000.0,
+        "moneda": "ARS",
+        "remitente": "Luis Alberto Martinez",
+        "remitente_cuil": "20-41920839-7",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "164361767968",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: LOEJWV9JZ3ROKD4Z2QMD0G. CVU origen: 0000003100097933806399. CVU destino: 0000155300000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 467,
+        "_fecha_carga": "19/06/2026 20:59",
+        "_origen": "grupo",
+        "_pie": "Luis Alberto Martinez\nCUIT/CUIL: 20-41920839-7"
       }
     ],
     "errores": [],
