@@ -79855,6 +79855,28 @@
         "_fecha_carga": "18/06/2026 23:31",
         "_origen": "grupo",
         "_pie": "Ayala maría \n32179584"
+      },
+      {
+        "fecha": "11/06/2026",
+        "hora": "16:16",
+        "tipo": "TRF",
+        "monto": 20000.0,
+        "moneda": "ARS",
+        "remitente": "Carlos Daniel Silva",
+        "remitente_cuil": "20-29165124-1",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "162846594679",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: 46YGOW9M1Y4JX3WYNEXD8J. CVU destinatario: 0000155300000000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 1660,
+        "_fecha_carga": "18/06/2026 23:31",
+        "_origen": "grupo",
+        "_pie": ""
       }
     ],
     "errores": [],
