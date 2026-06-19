@@ -65199,6 +65199,28 @@
         "_fecha_carga": "18/06/2026 21:58",
         "_origen": "grupo",
         "_pie": ""
+      },
+      {
+        "fecha": "11/06/2026",
+        "hora": "20:08",
+        "tipo": "TRF",
+        "monto": 100000.0,
+        "moneda": "ARS",
+        "remitente": "D'acosta, Cintia Fabiana",
+        "remitente_cuil": "27-36104149-1",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Personal Pay",
+        "banco_destino": "",
+        "referencia": "2733921921",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CoelsaID: RD06ZO9WV7OK6P03N5GP7X - Id Bancario. CUIL/CUIT destinatario: 30-71728225-2. CBU/CVU destinatario: 0000155300000000009977",
+        "_num": 995,
+        "_fecha_carga": "18/06/2026 21:58",
+        "_origen": "grupo",
+        "_pie": ""
       }
     ],
     "errores": [],
