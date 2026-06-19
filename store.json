@@ -49256,6 +49256,28 @@
         "_fecha_carga": "19/06/2026 20:27",
         "_origen": "grupo",
         "_pie": "Evelyn leguiza\n46433396\nBet91"
+      },
+      {
+        "fecha": "17/06/2026",
+        "hora": "19:08",
+        "tipo": "TRF",
+        "monto": 100000.0,
+        "moneda": "ARS",
+        "remitente": "Marcia Marina Maria Moreira",
+        "remitente_cuil": "27-33645445-5",
+        "destinatario": "SASTEUP SRL",
+        "banco_origen": "AstroPay",
+        "banco_destino": "",
+        "referencia": "67REZ8NPQ6Z7OLWR94KVGO",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Comprobante de Transferencia AstroPay. CVU remitente: 0000177500099256890321 (alias: Mr25.astropay). CVU receptor: 0000155300000000009977 (alias: cvu.977). CUIT receptor: 30717282252.",
+        "_num": 250,
+        "_fecha_carga": "19/06/2026 20:27",
+        "_origen": "grupo",
+        "_pie": "Marcia moreira \n33645445"
       }
     ],
     "errores": [],
