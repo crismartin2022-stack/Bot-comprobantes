@@ -47738,6 +47738,28 @@
         "_fecha_carga": "19/06/2026 20:17",
         "_origen": "grupo",
         "_pie": "Franco Agustín Mujica \nDNI: 42674111"
+      },
+      {
+        "fecha": "14/06/2026",
+        "hora": "06:23",
+        "tipo": "TRF",
+        "monto": 500000.4,
+        "moneda": "ARS",
+        "remitente": "Jairo Mateo Ovejero",
+        "remitente_cuil": "20-45958946-6",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163252530811",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: WY7ZEPN6MKMXGW5V2Q0M51. CVU remitente: 0000003100087407011538. CVU destinatario: 0001553000000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 181,
+        "_fecha_carga": "19/06/2026 20:17",
+        "_origen": "grupo",
+        "_pie": "Jairo Mateo Ovejero\nD.N.I: 45.958.946"
       }
     ],
     "errores": [],
