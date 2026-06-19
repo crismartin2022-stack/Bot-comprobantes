@@ -51201,6 +51201,29 @@
         "_origen": "grupo",
         "_pie": "richard sebastian lionel rojas\n40486544",
         "_duplicado": true
+      },
+      {
+        "fecha": "15/06/2026",
+        "hora": "23:09",
+        "tipo": "TRF",
+        "monto": 25000.0,
+        "moneda": "ARS",
+        "remitente": "Lorena Elizabeth Paolini",
+        "remitente_cuil": "27-35800760-6",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "164313292292",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: PDX4OGNYGP8ZXPRRN0L6EY. CVU origen: 0000003100186761142442. CVU destino: 0000155300000000009977",
+        "_num": 316,
+        "_fecha_carga": "19/06/2026 20:37",
+        "_origen": "grupo",
+        "_pie": "Lorena Elizabeth paolini \n35800760",
+        "_duplicado": true
       }
     ]
   }
