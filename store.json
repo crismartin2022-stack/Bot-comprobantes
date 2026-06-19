@@ -53955,6 +53955,28 @@
         "_fecha_carga": "19/06/2026 20:59",
         "_origen": "grupo",
         "_pie": "mario starna\n16355712"
+      },
+      {
+        "fecha": "15/06/2026",
+        "hora": "20:58",
+        "tipo": "TRF",
+        "monto": 143700.0,
+        "moneda": "ARS",
+        "remitente": "Leandro Artigas",
+        "remitente_cuil": "20-31560335-9",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Prex",
+        "banco_destino": "BANCO COINAG S.A.",
+        "referencia": "LMORZP908LY15G5RNEGJ46",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CVU origen (Prex): 0000013000032229593089. CBU/CVU destino (Banco Coinag): 0000155300000000009977. CUIL/CUIT destinatario: 30-71728225-2.",
+        "_num": 463,
+        "_fecha_carga": "19/06/2026 20:59",
+        "_origen": "grupo",
+        "_pie": "leandro artigas\n31560335"
       }
     ],
     "errores": [],
