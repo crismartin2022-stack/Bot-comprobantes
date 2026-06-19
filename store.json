@@ -52365,6 +52365,28 @@
         "_fecha_carga": "19/06/2026 20:48",
         "_origen": "grupo",
         "_pie": "Mariano Mona: 30717282252"
+      },
+      {
+        "fecha": "14/06/2026",
+        "hora": "21:48",
+        "tipo": "TRF",
+        "monto": 340000.0,
+        "moneda": "ARS",
+        "remitente": "Jose Maria Rodriguez",
+        "remitente_cuil": "30717282252",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Lemon",
+        "banco_destino": "CVU",
+        "referencia": "D4RO172VZQPYDVLKNKJ3QE",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CUIT del destinatario: 30717282252. CBU destinatario: 0000155300000000009977. ID de la transacción: 83fb807b-8378-4ab2-bdbc-c3395a34b3a7. Comprobante emitido por Lemon (Powered by Digifin).",
+        "_num": 391,
+        "_fecha_carga": "19/06/2026 20:48",
+        "_origen": "grupo",
+        "_pie": "Jose Rodriguez: 30717282252"
       }
     ],
     "errores": [],
