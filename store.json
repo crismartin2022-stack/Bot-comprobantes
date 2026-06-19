@@ -85037,6 +85037,28 @@
         "_fecha_carga": "19/06/2026 00:03",
         "_origen": "grupo",
         "_pie": "Debora centurión \n36242230"
+      },
+      {
+        "fecha": "15/06/2026",
+        "hora": "11:12",
+        "tipo": "TRF",
+        "monto": 50000.0,
+        "moneda": "ARS",
+        "remitente": "Marsico, Lucas Alejandro",
+        "remitente_cuil": "20-38692297-8",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Personal Pay",
+        "banco_destino": "",
+        "referencia": "2743990937",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CoelsaID: R7ZG0QNDW1G7GQY09EXYPO - Id Bancario. CBU/CVU receptor: 0000155300000000009977. CUIL/CUIT destinatario: 30-71728225-2.",
+        "_num": 1895,
+        "_fecha_carga": "19/06/2026 00:04",
+        "_origen": "grupo",
+        "_pie": "38692297 lucas alejandro marsico"
       }
     ],
     "errores": [],
