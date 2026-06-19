@@ -83427,6 +83427,28 @@
         "_fecha_carga": "18/06/2026 23:53",
         "_origen": "grupo",
         "_pie": "Foto de 😎"
+      },
+      {
+        "fecha": "13/06/2026",
+        "hora": "17:36",
+        "tipo": "TRF",
+        "monto": 10000.0,
+        "moneda": "ARS",
+        "remitente": "Ismael Gustavo Andres Soria",
+        "remitente_cuil": "23-37563315-9",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Naranja X",
+        "banco_destino": "Cuenta Virtual",
+        "referencia": "JMQKYZ9QQV4V7L1Q9V50P3",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CBU origen: 4530000800015713666229. CVU destino: 0000155300000000009977. CUIL destinatario: 30-71728225-2. Código de transacción adicional: b875f89c-ec03-4aa4-80ba-3563c2f1b54f",
+        "_num": 1822,
+        "_fecha_carga": "18/06/2026 23:53",
+        "_origen": "grupo",
+        "_pie": "Ismael Soria \n37563315"
       }
     ],
     "errores": [],
