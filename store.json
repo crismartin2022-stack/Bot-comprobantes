@@ -48574,6 +48574,28 @@
         "_fecha_carga": "19/06/2026 20:23",
         "_origen": "grupo",
         "_pie": "Cesar Oscar Molina\nDNI: 35.808.130"
+      },
+      {
+        "fecha": "15/06/2026",
+        "hora": "17:17",
+        "tipo": "TRF",
+        "monto": 500000.78,
+        "moneda": "ARS",
+        "remitente": "Jairo Mateo Ovejero",
+        "remitente_cuil": "20-45958946-6",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "164263603256",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: 7L8GYKNX05K176QQ2MPRZ5. CVU origen (remitente): 0000003100087407011538. CVU destino (receptor): 0000155300000000009977",
+        "_num": 219,
+        "_fecha_carga": "19/06/2026 20:23",
+        "_origen": "grupo",
+        "_pie": "Jairo Mateo Ovejero\nDNI: 45.958.946"
       }
     ],
     "errores": [],
