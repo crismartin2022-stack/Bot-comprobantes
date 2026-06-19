@@ -46987,6 +46987,28 @@
         "_fecha_carga": "19/06/2026 20:12",
         "_origen": "grupo",
         "_pie": "Torres Diego ,45218233"
+      },
+      {
+        "fecha": "17/06/2026",
+        "hora": "22:47",
+        "tipo": "TRF",
+        "monto": 80000.0,
+        "moneda": "ARS",
+        "remitente": "Celeste Jazmin Gomez",
+        "remitente_cuil": "27-48998453-4",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163818002225",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: WGRXJE27DX7R3GKEN7MYQL. CVU remitente: 0000003100082261258244. CVU destinatario: 0000155300000000009977. CUIT/CUIL destinatario: 30-71728225-2.",
+        "_num": 147,
+        "_fecha_carga": "19/06/2026 20:12",
+        "_origen": "grupo",
+        "_pie": "Celeste Gómez \n48998453"
       }
     ],
     "errores": [],
