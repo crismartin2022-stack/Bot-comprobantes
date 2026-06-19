@@ -74282,6 +74282,28 @@
         "_fecha_carga": "18/06/2026 22:55",
         "_origen": "grupo",
         "_pie": "Miriam Lili Nunez Fernandez\nCUIT/CUIL: 27-94216492-6"
+      },
+      {
+        "fecha": "15/06/2026",
+        "hora": "16:25",
+        "tipo": "TRF",
+        "monto": 300000.0,
+        "moneda": "ARS",
+        "remitente": "Rolando Adrian Martinez",
+        "remitente_cuil": "",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Ualá",
+        "banco_destino": "",
+        "referencia": "JMQKYZ9QQVK0GVD69V50P3",
+        "concepto": "VAR",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CBU destino: 0000155300000000009977. CUIT destino: 30717282252",
+        "_num": 1407,
+        "_fecha_carga": "18/06/2026 22:55",
+        "_origen": "grupo",
+        "_pie": "ROLANDO ADRIAN MARTINEZ\nCUIT/CUIL: 20-40625278-8"
       }
     ],
     "errores": [],
