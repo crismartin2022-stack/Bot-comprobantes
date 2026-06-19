@@ -51548,6 +51548,28 @@
         "_fecha_carga": "19/06/2026 20:43",
         "_origen": "grupo",
         "_pie": "Figueroa, Oriana Milagros\nCUIL/CUIT\n27-45662407-9"
+      },
+      {
+        "fecha": "14/06/2026",
+        "hora": "17:42",
+        "tipo": "TRF",
+        "monto": 173000.0,
+        "moneda": "ARS",
+        "remitente": "Mathias Federico Cardarelli",
+        "remitente_cuil": "20-41334529-5",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163311747721",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: WGRXJE27DX666QJEN7MYQL. CVU origen: 0000003100057784605992. CVU destino: 0000155300000000009977",
+        "_num": 354,
+        "_fecha_carga": "19/06/2026 20:43",
+        "_origen": "grupo",
+        "_pie": "Mathias Federico Cardarelli\nCUIT/CUIL: 20-41334529-5"
       }
     ],
     "errores": [],
