@@ -80252,6 +80252,28 @@
         "_fecha_carga": "18/06/2026 23:34",
         "_origen": "grupo",
         "_pie": "Cristian Daniel Piñeiro\n\n32269553"
+      },
+      {
+        "fecha": "13/06/2026",
+        "hora": "10:42",
+        "tipo": "TRF",
+        "monto": 180000.0,
+        "moneda": "ARS",
+        "remitente": "Mario Alejandro Ledesma",
+        "remitente_cuil": "20-29897918-8",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163929917678",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: R7ZG0QNDW1P30P8G9EXYPO. CVU remitente: 0000003100082344127359. CVU destinatario: 0000155300000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 1678,
+        "_fecha_carga": "18/06/2026 23:34",
+        "_origen": "grupo",
+        "_pie": "Mario Alejandro Ledesma \n20-29897918-8"
       }
     ],
     "errores": [],
