@@ -47297,6 +47297,28 @@
         "_fecha_carga": "19/06/2026 20:14",
         "_origen": "grupo",
         "_pie": "Olivera myrian 23284695"
+      },
+      {
+        "fecha": "14/06/2026",
+        "hora": "00:48",
+        "tipo": "TRF",
+        "monto": 100000.0,
+        "moneda": "ARS",
+        "remitente": "Paola Romina Zelante",
+        "remitente_cuil": "27-34368161-0",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Naranja X",
+        "banco_destino": "Cuenta Virtual",
+        "referencia": "PDX4OGNYGPGJL84MN0L6EY",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de transacción adicional: 2b656fb1-2f63-4dc4-9acc-5249be6f70db. CBU origen: 4530000800010677956692. CVU destino: 0000155300000000009977. CUIL destinatario: 30-71728225-2",
+        "_num": 161,
+        "_fecha_carga": "19/06/2026 20:14",
+        "_origen": "grupo",
+        "_pie": "Ángel Damián Zurita\nDNI: 16.554.662"
       }
     ],
     "errores": [],
