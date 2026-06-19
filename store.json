@@ -76332,6 +76332,28 @@
         "_fecha_carga": "18/06/2026 23:08",
         "_origen": "grupo",
         "_pie": "Lara zeballos\n44268753\n500k bet30 multiskin"
+      },
+      {
+        "fecha": "13/06/2026",
+        "hora": "17:29",
+        "tipo": "TRF",
+        "monto": 150000.0,
+        "moneda": "ARS",
+        "remitente": "Karen Ayelen Bravo",
+        "remitente_cuil": "",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Lemon",
+        "banco_destino": "CVU",
+        "referencia": "ORD6LEN8PYQY0QEONM1Y30",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CUIT destinatario: 30717282252. CBU destinatario: 0000155300000000009977. ID de la transacción: 5130570f-76c3-4686-ba0d-ce6cd544cf16. Comprobante emitido por Lemon powered by Digifin.",
+        "_num": 1500,
+        "_fecha_carga": "18/06/2026 23:08",
+        "_origen": "grupo",
+        "_pie": "Karen Ayelen Bravo\nPersona destinataria\nNombre\nCUIT\nCBU\nBanco destino\nMotivo\nSasteup Srl\n30717282252\n0000155300000000009977"
       }
     ],
     "errores": [],
