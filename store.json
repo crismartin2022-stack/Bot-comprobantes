@@ -73621,6 +73621,28 @@
         "_fecha_carga": "18/06/2026 22:51",
         "_origen": "grupo",
         "_pie": "JIMENA BELEN BREST\nCUIT 27-39984557-8"
+      },
+      {
+        "fecha": "14/06/2026",
+        "hora": "23:49",
+        "tipo": "TRF",
+        "monto": 100000.0,
+        "moneda": "ARS",
+        "remitente": "Rocio Ailen Malaguenxxo",
+        "remitente_cuil": "27-47191340-0",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "Z4K6DVNOWYPVZJY125J8LQ",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Número de operación de Mercado Pago: 164167296110. CVU remitente: 0000003100072484461848. CVU destinatario: 0000155300000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 1377,
+        "_fecha_carga": "18/06/2026 22:51",
+        "_origen": "grupo",
+        "_pie": "Rocio Ailen Malaguenxxo\nCUIT/CUIL: 27-47191340-0"
       }
     ],
     "errores": [],
