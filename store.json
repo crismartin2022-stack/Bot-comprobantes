@@ -53512,6 +53512,28 @@
         "_fecha_carga": "19/06/2026 20:56",
         "_origen": "grupo",
         "_pie": "Ayala maría \n32179584"
+      },
+      {
+        "fecha": "15/06/2026",
+        "hora": "23:25",
+        "tipo": "TRF",
+        "monto": 166000.0,
+        "moneda": "ARS",
+        "remitente": "Jesica Belen Sanchez",
+        "remitente_cuil": "23-35336639-4",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Naranja X",
+        "banco_destino": "Cuenta Virtual",
+        "referencia": "86VRPQ2GML6ZRL4Y2GLY0M",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de transacción adicional: e4a20f95-c85b-4815-9253-0f846115de07. CBU origen: 4530000800012230197667. CVU destino: 0000155300000000009977. CUIL destinatario: 30-71728225-2.",
+        "_num": 443,
+        "_fecha_carga": "19/06/2026 20:56",
+        "_origen": "grupo",
+        "_pie": "jesica sanchez\n35336639"
       }
     ],
     "errores": [],
