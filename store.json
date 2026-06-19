@@ -59713,6 +59713,28 @@
         "_fecha_carga": "18/06/2026 21:24",
         "_origen": "grupo",
         "_pie": "Alberto jesús Cortes\n38.984.074"
+      },
+      {
+        "fecha": "14/06/2026",
+        "hora": "22:29",
+        "tipo": "TRF",
+        "monto": 10000.0,
+        "moneda": "ARS",
+        "remitente": "Melany Belen Carpinacci",
+        "remitente_cuil": "27-40303268-4",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163347884697",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: 0V1JXON1LMR6E6J1NZ64EL. CUIT destinatario: 30-71728225-2. CVU receptor completo: 0000155300000000000009977",
+        "_num": 746,
+        "_fecha_carga": "18/06/2026 21:24",
+        "_origen": "grupo",
+        "_pie": "Melany Carpinacci \n40.303.268"
       }
     ],
     "errores": [],
