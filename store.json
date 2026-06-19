@@ -80318,6 +80318,28 @@
         "_fecha_carga": "18/06/2026 23:34",
         "_origen": "grupo",
         "_pie": "leandro artigas\n31560335"
+      },
+      {
+        "fecha": "13/06/2026",
+        "hora": "12:37",
+        "tipo": "TRF",
+        "monto": 561300.0,
+        "moneda": "ARS",
+        "remitente": "Lautaro German Benitez",
+        "remitente_cuil": "23-39291149-9",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163139808867",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: ORD6LEN8PYQ8E8QGNM1Y30. CVU remitente: 0000003100018586826509. CVU destinatario: 0000155300000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 1681,
+        "_fecha_carga": "18/06/2026 23:34",
+        "_origen": "grupo",
+        "_pie": "lautaro benitez\n39291149"
       }
     ],
     "errores": [],
