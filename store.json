@@ -51152,6 +51152,28 @@
         "_fecha_carga": "19/06/2026 20:40",
         "_origen": "grupo",
         "_pie": "David lugren 33022295"
+      },
+      {
+        "fecha": "17/06/2026",
+        "hora": "15:58",
+        "tipo": "TRF",
+        "monto": 240000.0,
+        "moneda": "ARS",
+        "remitente": "Daniel Alejandro Perez",
+        "remitente_cuil": "20-37939819-8",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Naranja X",
+        "banco_destino": "Cuenta Virtual",
+        "referencia": "",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CBU origen: 4530000800013852592193. CVU destino: 0000155300000000009977. CUIL destinatario: 30-71728225-2. La sección 'Información de la operación' está parcialmente visible, no se pudo extraer número de referencia.",
+        "_num": 336,
+        "_fecha_carga": "19/06/2026 20:40",
+        "_origen": "grupo",
+        "_pie": "Daniel perez 37939819"
       }
     ],
     "errores": [],
