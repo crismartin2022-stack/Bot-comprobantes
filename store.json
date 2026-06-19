@@ -59229,6 +59229,28 @@
         "_fecha_carga": "18/06/2026 21:21",
         "_origen": "grupo",
         "_pie": "Mariano Matarazzo \n26.725.225"
+      },
+      {
+        "fecha": "14/06/2026",
+        "hora": "22:59",
+        "tipo": "TRF",
+        "monto": 400000.0,
+        "moneda": "ARS",
+        "remitente": "Pamela Tamara Ocampo",
+        "remitente_cuil": "27-38305873-8",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Naranja X",
+        "banco_destino": "Cuenta Virtual",
+        "referencia": "Z6OLMDN3V3708LMK2E7RQ5",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CBU origen: 4530000800014685574297. CVU destino: 0000155300000000009977. CUIL destinatario: 30-71728225-2. Código de transacción adicional: 526290ad-487f-49f9-981d-e4abc4155756",
+        "_num": 724,
+        "_fecha_carga": "18/06/2026 21:22",
+        "_origen": "grupo",
+        "_pie": "Pamela Ocampo \n38.305.873"
       }
     ],
     "errores": [],
