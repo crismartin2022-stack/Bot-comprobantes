@@ -46723,6 +46723,28 @@
         "_fecha_carga": "19/06/2026 20:10",
         "_origen": "grupo",
         "_pie": "Ariel barrios \n32472349"
+      },
+      {
+        "fecha": "17/06/2026",
+        "hora": "11:24",
+        "tipo": "TRF",
+        "monto": 20000.0,
+        "moneda": "ARS",
+        "remitente": "Sergio David Jofre Oliver",
+        "remitente_cuil": "20-38076241-3",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Naranja X",
+        "banco_destino": "Cuenta Virtual",
+        "referencia": "3D5W612E6ZYJ63852GXYVR",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CBU origen: 4530000800013263980077. CVU destino: 0000155300000000009977. Código de transacción: 09f978d1-4cc5-4c46-a769-e2f873274694. CUIL destinatario: 30-71728225-2.",
+        "_num": 135,
+        "_fecha_carga": "19/06/2026 20:10",
+        "_origen": "grupo",
+        "_pie": "Sergio Oliver 38076241"
       }
     ],
     "errores": [],
