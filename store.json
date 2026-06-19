@@ -71591,6 +71591,28 @@
         "_fecha_carga": "18/06/2026 22:39",
         "_origen": "grupo",
         "_pie": "Pablo Scotta\nNaranja X\n4530000800010375412485\n20-46307447-0"
+      },
+      {
+        "fecha": "14/06/2026",
+        "hora": "19:40",
+        "tipo": "TRF",
+        "monto": 500000.0,
+        "moneda": "ARS",
+        "remitente": "Maria De Los Angeles Rodriguez",
+        "remitente_cuil": "",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Lemon",
+        "banco_destino": "CVU",
+        "referencia": "R7ZG0QNDW1KV11649EXYPO",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CUIT destinatario: 30717282252. CBU destinatario: 0000155300000000009977. ID de la transacción: 98e95661-d96f-4cf5-8f4c-bbb50a46094d. Comprobante emitido por Lemon powered by Digifin.",
+        "_num": 1285,
+        "_fecha_carga": "18/06/2026 22:39",
+        "_origen": "grupo",
+        "_pie": "María de Los Ángeles Rodríguez \n33711557879"
       }
     ],
     "errores": [],
