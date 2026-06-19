@@ -44585,6 +44585,28 @@
         "_fecha_carga": "19/06/2026 19:55",
         "_origen": "grupo",
         "_pie": "Filomena renna 4512413"
+      },
+      {
+        "fecha": "16/06/2026",
+        "hora": "12:17",
+        "tipo": "TRF",
+        "monto": 300000.0,
+        "moneda": "ARS",
+        "remitente": "Hernan Ariel Alvarenga",
+        "remitente_cuil": "23-37790603-9",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "164374615698",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: 0V1JXON1LMY5VGX1NZ64EL. CVU remitente: 0000003100071435925862. CVU destinatario: 0000155300000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 38,
+        "_fecha_carga": "19/06/2026 19:55",
+        "_origen": "grupo",
+        "_pie": "Buenas \n\n300 k (Tony90) \n*Sasteup Srl* \n16/6 \nHernán Ariel Alvarenga \n23-37790603-9"
       }
     ],
     "errores": [],
