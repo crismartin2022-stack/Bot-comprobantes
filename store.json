@@ -58063,6 +58063,28 @@
         "_fecha_carga": "18/06/2026 21:14",
         "_origen": "grupo",
         "_pie": "Foto de Clohe😎"
+      },
+      {
+        "fecha": "12/06/2026",
+        "hora": "15:47",
+        "tipo": "TRF",
+        "monto": 10000.0,
+        "moneda": "ARS",
+        "remitente": "Jamila Soledad Casem",
+        "remitente_cuil": "27-31165569-3",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163007555327",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: R7ZG0QNDWQQ3PQ409EXYPO. CUIT destinatario: 30-71728225-2. CVU remitente: 0000003100093069475797. CVU destinatario: 0000155300000000000009977.",
+        "_num": 671,
+        "_fecha_carga": "18/06/2026 21:14",
+        "_origen": "grupo",
+        "_pie": "Foto de Clohe😎"
       }
     ],
     "errores": [],
