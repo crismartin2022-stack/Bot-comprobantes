@@ -64935,6 +64935,28 @@
         "_fecha_carga": "18/06/2026 21:57",
         "_origen": "grupo",
         "_pie": ""
+      },
+      {
+        "fecha": "13/06/2026",
+        "hora": "21:22",
+        "tipo": "TRF",
+        "monto": 500000.31,
+        "moneda": "ARS",
+        "remitente": "Angel Damian Zurita",
+        "remitente_cuil": "20-16554662-9",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163219025847",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: 86VRPQ2GMLVOOKWM2GLY0M. CVU remitente: 0000003100016261529615. CVU destinatario: 0000155300000000009977. CUIT destinatario: 30-71228225-2.",
+        "_num": 983,
+        "_fecha_carga": "18/06/2026 21:57",
+        "_origen": "grupo",
+        "_pie": ""
       }
     ],
     "errores": [],
