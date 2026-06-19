@@ -62801,6 +62801,28 @@
         "_fecha_carga": "18/06/2026 21:44",
         "_origen": "grupo",
         "_pie": ""
+      },
+      {
+        "fecha": "13/06/2026",
+        "hora": "16:06",
+        "tipo": "TRF",
+        "monto": 15000.0,
+        "moneda": "ARS",
+        "remitente": "Argentina Gladys Gomez",
+        "remitente_cuil": "23-21028824-4",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Naranja X",
+        "banco_destino": "Cuenta Virtual",
+        "referencia": "XJ8G7V95DWJZY14L9EMPYR",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CBU origen: 4530000800012258754886. CVU destino: 0000155300000000009977. CUIL destinatario: 30-71728225-2. Código de transacción: 3e4d6d7f-e677-40f6-9e0c-8b0b172f5fc9",
+        "_num": 886,
+        "_fecha_carga": "18/06/2026 21:44",
+        "_origen": "grupo",
+        "_pie": ""
       }
     ],
     "errores": [],
