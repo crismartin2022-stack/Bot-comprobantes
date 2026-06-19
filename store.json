@@ -57269,6 +57269,28 @@
         "_fecha_carga": "18/06/2026 21:09",
         "_origen": "grupo",
         "_pie": "Foto de Clohe😎"
+      },
+      {
+        "fecha": "10/06/2026",
+        "hora": "23:10",
+        "tipo": "TRF",
+        "monto": 53000.0,
+        "moneda": "ARS",
+        "remitente": "Carlos Javier Medina",
+        "remitente_cuil": "20-24132029-5",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "162748695935",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: Z6OLMDN3VK61PGYY2E7RQ5. CUIT destinatario: 30-71728225-2. CVU remitente: 0000003100027034887601.",
+        "_num": 635,
+        "_fecha_carga": "18/06/2026 21:09",
+        "_origen": "grupo",
+        "_pie": "Foto de Clohe😎"
       }
     ],
     "errores": [],
