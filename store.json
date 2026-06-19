@@ -84926,6 +84926,28 @@
         "_fecha_carga": "19/06/2026 00:03",
         "_origen": "grupo",
         "_pie": "Ayelen Esperanza Orrego 38584725"
+      },
+      {
+        "fecha": "14/06/2026",
+        "hora": "17:15",
+        "tipo": "TRF",
+        "monto": 30000.0,
+        "moneda": "ARS",
+        "remitente": "Paola Soledad Loustau",
+        "remitente_cuil": "27-27296146-3",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Naranja X",
+        "banco_destino": "Cuenta Virtual",
+        "referencia": "0V1JXON1LMRLK171NZ64EL",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CBU origen: 4530000800013028600499. CVU destino: 0000155300000000009977. CUIL destinatario: 30-71728225-2. Código de transacción: 2cc5f3c7-cbeb-4f46-869f-a1bd0fa812f3",
+        "_num": 1890,
+        "_fecha_carga": "19/06/2026 00:03",
+        "_origen": "grupo",
+        "_pie": "Paola soledad loustau\n27296146"
       }
     ],
     "errores": [],
