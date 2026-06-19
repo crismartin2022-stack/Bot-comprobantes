@@ -71679,6 +71679,28 @@
         "_fecha_carga": "18/06/2026 22:39",
         "_origen": "grupo",
         "_pie": "Ignacio Ruben Aquino Delvalle\nCUIT/CUIL: 20-94570748-9"
+      },
+      {
+        "fecha": "14/06/2026",
+        "hora": "18:27",
+        "tipo": "TRF",
+        "monto": 500000.04,
+        "moneda": "ARS",
+        "remitente": "Juan Gabriel Villarreal",
+        "remitente_cuil": "23-36165667-9",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "164129361484",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: 0V1JXON1LMREVJGPNZ64EL. CUIT destinatario: 30-71728225-2. CVU destinatario completo: 0000155300000000000009977",
+        "_num": 1289,
+        "_fecha_carga": "18/06/2026 22:39",
+        "_origen": "grupo",
+        "_pie": ""
       }
     ],
     "errores": [],
