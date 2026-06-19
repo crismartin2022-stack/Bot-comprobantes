@@ -63087,6 +63087,28 @@
         "_fecha_carga": "18/06/2026 21:46",
         "_origen": "grupo",
         "_pie": ""
+      },
+      {
+        "fecha": "13/06/2026",
+        "hora": "21:52",
+        "tipo": "TRF",
+        "monto": 50000.0,
+        "moneda": "ARS",
+        "remitente": "Ricardo Andres Ramirez",
+        "remitente_cuil": "20-32090514-2",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163224940745",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: ORD6LEN8PY7JLELONM1Y30. CVU remitente: 0000003100019595769407. CVU destinatario: 0000155300000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 899,
+        "_fecha_carga": "18/06/2026 21:46",
+        "_origen": "grupo",
+        "_pie": ""
       }
     ],
     "errores": [],
