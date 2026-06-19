@@ -63307,6 +63307,28 @@
         "_fecha_carga": "18/06/2026 21:47",
         "_origen": "grupo",
         "_pie": ""
+      },
+      {
+        "fecha": "13/06/2026",
+        "hora": "18:10",
+        "tipo": "TRF",
+        "monto": 20000.0,
+        "moneda": "ARS",
+        "remitente": "Nicolas Nazareno Cides",
+        "remitente_cuil": "20-42709532-1",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163190825435",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: 86VRPQ2GMLVVXGKY2GLY0M. CVU remitente: 0000003100078796759091. CVU destinatario (Sasteup Srl): 0000155300000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 909,
+        "_fecha_carga": "18/06/2026 21:47",
+        "_origen": "grupo",
+        "_pie": ""
       }
     ],
     "errores": [],
