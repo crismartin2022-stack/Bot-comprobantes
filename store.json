@@ -72450,6 +72450,28 @@
         "_fecha_carga": "18/06/2026 22:44",
         "_origen": "grupo",
         "_pie": ""
+      },
+      {
+        "fecha": "14/06/2026",
+        "hora": "22:25",
+        "tipo": "TRF",
+        "monto": 500000.0,
+        "moneda": "ARS",
+        "remitente": "Obejero, Brenda Soledad",
+        "remitente_cuil": "27-43469178-3",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Personal Pay",
+        "banco_destino": "",
+        "referencia": "Z0KV87940E760KYJNPEYDX",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CBU/CVU del receptor: 00001553000000000009977. CUIL/CUIT del receptor (Sasteup Srl): 30-71728225-2. N° de operación: 2743456169. CoelsaID: Z0KV87940E760KYJNPEYDX - Id Bancario.",
+        "_num": 1324,
+        "_fecha_carga": "18/06/2026 22:44",
+        "_origen": "grupo",
+        "_pie": "nvía Obejero, Brenda Soledad\nCUIL/CUIT 27-43469178-3"
       }
     ],
     "errores": [],
