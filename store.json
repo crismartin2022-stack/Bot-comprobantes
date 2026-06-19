@@ -43856,6 +43856,28 @@
         "_fecha_carga": "19/06/2026 19:50",
         "_origen": "grupo",
         "_pie": "Datos de la cuenta: Claudia Miriam nunez\nDni 27053081\nPlataforma: Pink\nUsuario: Redsol252"
+      },
+      {
+        "fecha": "16/06/2026",
+        "hora": "20:17",
+        "tipo": "TRF",
+        "monto": 230000.0,
+        "moneda": "ARS",
+        "remitente": "Fernanda Antonella Ance",
+        "remitente_cuil": "27-43995045-0",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163640223359",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: Z6OLMDN3V38GXWPK2E7RQ5. CVU remitente: 0000003100026308459111. CVU destinatario: 0000155300000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 5,
+        "_fecha_carga": "19/06/2026 19:50",
+        "_origen": "grupo",
+        "_pie": "Datos de la cuenta: Ance Fernanda Antonella\nDni 43995045\nPlataforma: Pink\nUsuario: Redsol252"
       }
     ],
     "errores": [],
