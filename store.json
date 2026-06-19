@@ -52056,6 +52056,28 @@
         "_fecha_carga": "19/06/2026 20:46",
         "_origen": "grupo",
         "_pie": "27-43427650-6"
+      },
+      {
+        "fecha": "14/06/2026",
+        "hora": "23:11",
+        "tipo": "TRF",
+        "monto": 400000.0,
+        "moneda": "ARS",
+        "remitente": "Palma, Carlos Alejandro",
+        "remitente_cuil": "20-35592827-7",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Personal Pay",
+        "banco_destino": "",
+        "referencia": "2743531201",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CoelsaID: WGRXJE27DX6MM8WPN7MYQL - Id Bancario. CUIL/CUIT destinatario: 30-71728225-2. CBU/CVU destinatario: 0000155300000000009977.",
+        "_num": 377,
+        "_fecha_carga": "19/06/2026 20:46",
+        "_origen": "grupo",
+        "_pie": "Palma, Carlos Alejandro\nCUIL/CUIT\n20-35592827-7"
       }
     ],
     "errores": [],
