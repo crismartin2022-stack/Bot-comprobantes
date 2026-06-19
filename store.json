@@ -56102,6 +56102,28 @@
         "_fecha_carga": "18/06/2026 21:01",
         "_origen": "grupo",
         "_pie": "Foto de Vivo"
+      },
+      {
+        "fecha": "10/06/2026",
+        "hora": "22:32",
+        "tipo": "TRF",
+        "monto": 20000.0,
+        "moneda": "ARS",
+        "remitente": "Silvia Graciela Reinoso",
+        "remitente_cuil": "27-12314252-2",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "162746018367",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: 0V1JXON1LW60Z5E3NZ64EL. CUIT destinatario: 30-71728225-2. CVU remitente: 0000003100017548825291. CVU destinatario: 0000155300000000000009977.",
+        "_num": 582,
+        "_fecha_carga": "18/06/2026 21:01",
+        "_origen": "grupo",
+        "_pie": "Foto de Vivo"
       }
     ],
     "errores": [],
