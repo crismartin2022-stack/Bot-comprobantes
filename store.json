@@ -51814,6 +51814,28 @@
         "_fecha_carga": "19/06/2026 20:45",
         "_origen": "grupo",
         "_pie": "Thomas storani 46577677"
+      },
+      {
+        "fecha": "16/06/2024",
+        "hora": "09:00",
+        "tipo": "TRF",
+        "monto": 290000.0,
+        "moneda": "ARS",
+        "remitente": "Maximo Luciano Mendieta",
+        "remitente_cuil": "",
+        "destinatario": "SASTEUP SRL",
+        "banco_origen": "Claro Pay",
+        "banco_destino": "Lohas",
+        "referencia": "WB260616.0900.C09665",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CVU origen: 0000085700204557648915. CVU destino: 0000155300000000009977. CUIT/CUIL destinatario: 30717282252. N° operación COELSA: PDX4OGNYGP5180E4N0L6EY",
+        "_num": 366,
+        "_fecha_carga": "19/06/2026 20:45",
+        "_origen": "grupo",
+        "_pie": ""
       }
     ],
     "errores": [],
