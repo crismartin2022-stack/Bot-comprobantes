@@ -43393,7 +43393,31 @@
     "ultimo_resumen_idx": 1962,
     "total_mensual": 362277293.86,
     "mes_actual": "06/2026",
-    "duplicados": []
+    "duplicados": [
+      {
+        "fecha": "17/06/2026",
+        "hora": "18:41",
+        "tipo": "TRF",
+        "monto": 500000.0,
+        "moneda": "ARS",
+        "remitente": "Sergio Nahuel Sequeira",
+        "remitente_cuil": "20-41753424-6",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163781921697",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: 8D0Q619L0WGMEQOXN7JZ5R. CVU remitente: 0000003100048720384013. CVU destinatario: 0000155300000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 1968,
+        "_fecha_carga": "19/06/2026 01:27",
+        "_origen": "grupo",
+        "_pie": "Buenas \nEnvío en total \n$2.100.000\n\n•500k (Tony90)\n• *Sasteup Srl*\n• 17/06\n•Sergio Nahuel Sequeira\n•Cuil: 20-41753424-6\n\n•500k (Tony90)\n• *Sasteup Srl*\n• 17/06\n•Cesar Enrique Paz\n•Cuil: 20-31159691-9\n\n•350k (Tony90)\n• *Sasteup Srl*\n• 17/06\n•Vanesa Barrionuevo \n•Cuil: 27-31966284-2\n\n•250k (Tony90)\n• *Sasteup Srl*\n• 17/06\n•Cesar Enrique Paz\n•Cuil: 20-31159691-9\n\n•500k (Tony90)\n• *Sasteup Srl*\n• 17/06\n•Alvaro Gerardine Coria\n•Cuil: 20-41479775-0",
+        "_duplicado": true
+      }
+    ]
   },
   "-5484184532": {
     "nombre": "Xxxxxpro y Api-Agi",
