@@ -52828,6 +52828,28 @@
         "_fecha_carga": "19/06/2026 20:51",
         "_origen": "grupo",
         "_pie": "Daniela Angela Godoy\n27275590237\nPlutonos"
+      },
+      {
+        "fecha": "17/06/2026",
+        "hora": "11:56",
+        "tipo": "TRF",
+        "monto": 350000.0,
+        "moneda": "ARS",
+        "remitente": "Adrian Saul Sosa",
+        "remitente_cuil": "20-29273288-1",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "164534991868",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: 76V4MR2Z74X85580NDEZOL. CVU origen: 0000003100093607690248. CVU destino: 0000155300000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 412,
+        "_fecha_carga": "19/06/2026 20:51",
+        "_origen": "grupo",
+        "_pie": "Adrian Saul Sosa\n20292732881 \nPlutonos"
       }
     ],
     "errores": [],
