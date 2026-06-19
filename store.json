@@ -78951,6 +78951,28 @@
         "_fecha_carga": "18/06/2026 23:25",
         "_origen": "grupo",
         "_pie": "RUBEN ROBERTO RUSSO CUIL: 20-20503242-9 $100.000"
+      },
+      {
+        "fecha": "13/06/2026",
+        "hora": "10:45",
+        "tipo": "TRF",
+        "monto": 500000.0,
+        "moneda": "ARS",
+        "remitente": "BENITEZ EVER KOBS",
+        "remitente_cuil": "20-94907010-8",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Banco De Galicia S.A.U",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "42093938495",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CVU destinatario: 0000155300000000009977. CUIT destinatario: 30-71728225-2. ID COELSA: L18MKX9RXJRLKO049O6WYV. Cuenta origen: CA $ N° 4032624-0 053-3.",
+        "_num": 1619,
+        "_fecha_carga": "18/06/2026 23:25",
+        "_origen": "grupo",
+        "_pie": "Ever kobs Benítez 20949070108"
       }
     ],
     "errores": [],
