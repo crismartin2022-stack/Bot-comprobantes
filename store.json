@@ -88698,6 +88698,28 @@
         "_fecha_carga": "19/06/2026 00:27",
         "_origen": "grupo",
         "_pie": "Maria Cecilia Cruz \n36.790.811"
+      },
+      {
+        "fecha": "15/06/2026",
+        "hora": "23:52",
+        "tipo": "TRF",
+        "monto": 50000.0,
+        "moneda": "ARS",
+        "remitente": "Edgar Anselmo Nunez Rojas",
+        "remitente_cuil": "20-38175389-2",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163503478501",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: Z4K6DVNOWYRQ4O4G25J8LQ. CVU remitente: 0000003100050664447220. CVU destinatario: 0000155300000000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 2061,
+        "_fecha_carga": "19/06/2026 00:27",
+        "_origen": "grupo",
+        "_pie": "Edgar Anselmo Nunez Rojas\nCUIT/CUIL: 20-38175389-2"
       }
     ],
     "errores": [],
