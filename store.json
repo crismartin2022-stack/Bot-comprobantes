@@ -86669,6 +86669,28 @@
         "_fecha_carga": "19/06/2026 00:14",
         "_origen": "grupo",
         "_pie": "David Galarza 38828519"
+      },
+      {
+        "fecha": "13/06/2026",
+        "hora": "18:59",
+        "tipo": "TRF",
+        "monto": 150000.0,
+        "moneda": "ARS",
+        "remitente": "Natalia Nazarena Cea Gutierrez",
+        "remitente_cuil": "27-36679470-6",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Naranja X",
+        "banco_destino": "Cuenta Virtual",
+        "referencia": "3D5W612E6ZJ7J0VL2GXYVR",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CBU origen: 4530000800010377760384. CVU destino: 0000155300000000009977. CUIL destinatario: 30-71728225-2. Código de transacción: d1e06628-93ec-46e6-ac9a-7082c04e5e06",
+        "_num": 1969,
+        "_fecha_carga": "19/06/2026 00:15",
+        "_origen": "grupo",
+        "_pie": ""
       }
     ],
     "errores": [],
