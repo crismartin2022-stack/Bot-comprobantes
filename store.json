@@ -68197,6 +68197,28 @@
         "_fecha_carga": "18/06/2026 22:17",
         "_origen": "grupo",
         "_pie": "Florencia Sofia Garcia\nCUIT/CUIL: 27-41765707-5"
+      },
+      {
+        "fecha": "13/06/2026",
+        "hora": "20:22",
+        "tipo": "TRF",
+        "monto": 40000.0,
+        "moneda": "ARS",
+        "remitente": "Eriberta Herminia Fernandez Herrera",
+        "remitente_cuil": "27-92798572-7",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "164021087978",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: WY7ZEPN6MKQ0PROW2Q0M51. CUIT destinatario: 30-71728225-2. CVU receptor completo: 0000155300000000000009977",
+        "_num": 1131,
+        "_fecha_carga": "18/06/2026 22:18",
+        "_origen": "grupo",
+        "_pie": "Eriberta Herminia Fernandez Herrera\nCUIT/CUIL: 27-92798572-7"
       }
     ],
     "errores": [],
