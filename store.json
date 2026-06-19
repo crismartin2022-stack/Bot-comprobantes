@@ -52122,6 +52122,28 @@
         "_fecha_carga": "19/06/2026 20:46",
         "_origen": "grupo",
         "_pie": "Ever kobs Benítez 20949070108"
+      },
+      {
+        "fecha": "14/06/2026",
+        "hora": "18:12",
+        "tipo": "TRF",
+        "monto": 1040000.0,
+        "moneda": "ARS",
+        "remitente": "Braian Damian Gerez",
+        "remitente_cuil": "20-35659614-6",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Naranja X",
+        "banco_destino": "Cuenta Virtual",
+        "referencia": "Z4K6DVNOWYP1JP5125J8LQ",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CBU origen: 4530000800014505656712. CVU destino: 0000155300000000009977. Código de transacción: 3b41298b-a181-4a99-8893-fbc23f8bb0ae. COELSA ID usado como referencia principal.",
+        "_num": 380,
+        "_fecha_carga": "19/06/2026 20:47",
+        "_origen": "grupo",
+        "_pie": "Braian Damian Gerez\n20356596146\nPlutonos"
       }
     ],
     "errores": [],
