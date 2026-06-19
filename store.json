@@ -63021,6 +63021,28 @@
         "_fecha_carga": "18/06/2026 21:45",
         "_origen": "grupo",
         "_pie": ""
+      },
+      {
+        "fecha": "13/06/2026",
+        "hora": "17:28",
+        "tipo": "TRF",
+        "monto": 30000.0,
+        "moneda": "ARS",
+        "remitente": "Lautaro Ali Casado",
+        "remitente_cuil": "20-57179522-2",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163996526206",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: 46YGOW9M1KJKX5GPNEXD8J. CVU remitente: 0000003100074791687906. CVU destinatario: 0000155300000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 896,
+        "_fecha_carga": "18/06/2026 21:46",
+        "_origen": "grupo",
+        "_pie": ""
       }
     ],
     "errores": [],
