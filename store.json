@@ -78753,6 +78753,28 @@
         "_fecha_carga": "18/06/2026 23:24",
         "_origen": "grupo",
         "_pie": "Braian Damian Gerez\n20356596146\nPlutonos"
+      },
+      {
+        "fecha": "13/06/2026",
+        "hora": "00:52",
+        "tipo": "TRF",
+        "monto": 78000.0,
+        "moneda": "ARS",
+        "remitente": "Gaston Cruz Moyano",
+        "remitente_cuil": "20-46306077-1",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163900439398",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: LOEJWV9JZ3YGVK8R2QMD0G. CVU remitente: 0000003100011698422762. CVU destinatario: 0000155300000000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 1610,
+        "_fecha_carga": "18/06/2026 23:24",
+        "_origen": "grupo",
+        "_pie": "Gaston Cruz Moyano\n20-46306077-1"
       }
     ],
     "errores": [],
