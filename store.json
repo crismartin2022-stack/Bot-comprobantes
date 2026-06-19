@@ -51746,6 +51746,28 @@
         "_fecha_carga": "19/06/2026 20:44",
         "_origen": "grupo",
         "_pie": "Marcela Claudia Rodriguez\nCUIT/CUIL: 27-18525403-7"
+      },
+      {
+        "fecha": "15/06/2025",
+        "hora": "00:40",
+        "tipo": "TRF",
+        "monto": 193000.0,
+        "moneda": "ARS",
+        "remitente": "Maximo Luciano Mendieta",
+        "remitente_cuil": "",
+        "destinatario": "SASTEUP SRL",
+        "banco_origen": "Claro Pay",
+        "banco_destino": "Lohas",
+        "referencia": "WB260615.0040.E64221",
+        "concepto": "Enviaste dinero",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CVU remitente: 0000085700204557648915. CVU destinatario: 00001553000000000009977. CUIT/CUIL destinatario: 30717282252. N° operación COELSA: D4R0172VZQPGPPD1NKJ3QE. Alias remitente: 20455764891.claropy",
+        "_num": 363,
+        "_fecha_carga": "19/06/2026 20:44",
+        "_origen": "grupo",
+        "_pie": ""
       }
     ],
     "errores": [],
