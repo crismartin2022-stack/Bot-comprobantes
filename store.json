@@ -49521,6 +49521,28 @@
         "_fecha_carga": "19/06/2026 20:29",
         "_origen": "grupo",
         "_pie": "Roberto romero \n28.950.764"
+      },
+      {
+        "fecha": "14/06/2026",
+        "hora": "21:56",
+        "tipo": "TRF",
+        "monto": 36000.0,
+        "moneda": "ARS",
+        "remitente": "Patricia Rosana Villanueva",
+        "remitente_cuil": "27-21817606-8",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "164156469244",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: Z0KV87940E7M3E1ENPEYDX. CVU origen (remitente): 0000003100048362303087. CVU destino (receptor): 0000155300000000000009977 — últimos 4: 9977. CUIT destinatario: 30-71728225-2.",
+        "_num": 262,
+        "_fecha_carga": "19/06/2026 20:29",
+        "_origen": "grupo",
+        "_pie": "Patricia Villanueva DNI 21817606"
       }
     ],
     "errores": [],
