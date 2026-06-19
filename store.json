@@ -82479,6 +82479,28 @@
         "_fecha_carga": "18/06/2026 23:47",
         "_origen": "grupo",
         "_pie": "Ian Bautista Santa Cruz \n42.833.878"
+      },
+      {
+        "fecha": "15/06/2026",
+        "hora": "18:03",
+        "tipo": "TRF",
+        "monto": 90000.0,
+        "moneda": "ARS",
+        "remitente": "Lautaro Nicolas Bengolea",
+        "remitente_cuil": "20-40755231-9",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "164271314558",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: Z4K6DVNOWYRDQOD425J8LQ. CUIT destinatario: 30-71728225-2. CVU receptor: 0000155300000000000009977",
+        "_num": 1779,
+        "_fecha_carga": "18/06/2026 23:48",
+        "_origen": "grupo",
+        "_pie": "Multi azul"
       }
     ],
     "errores": [],
