@@ -81509,6 +81509,28 @@
         "_fecha_carga": "18/06/2026 23:41",
         "_origen": "grupo",
         "_pie": "Bet30click"
+      },
+      {
+        "fecha": "13/06/2026",
+        "hora": "15:36",
+        "tipo": "TRF",
+        "monto": 190000.0,
+        "moneda": "ARS",
+        "remitente": "Griselda Hebe Cimino",
+        "remitente_cuil": "27-12444180-9",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "LB Finanzas",
+        "banco_destino": "Otros bancos",
+        "referencia": "TID4A7DE5B7D3",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "ID Coelsa: D4RO172VZQ1R1D11NKJ3QE. CUIT destinatario: 30-71728225-2. CBU/CVU destinatario: 0000155300000000009977",
+        "_num": 1735,
+        "_fecha_carga": "18/06/2026 23:42",
+        "_origen": "grupo",
+        "_pie": "Brisa abigail stange 42.136.194"
       }
     ],
     "errores": [],
