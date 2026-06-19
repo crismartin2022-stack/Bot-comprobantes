@@ -48398,6 +48398,28 @@
         "_fecha_carga": "19/06/2026 20:21",
         "_origen": "grupo",
         "_pie": "Micaela Rocio Correa\nDNI: 41.362.259"
+      },
+      {
+        "fecha": "15/06/2026",
+        "hora": "06:07",
+        "tipo": "TRF",
+        "monto": 500000.7,
+        "moneda": "ARS",
+        "remitente": "Oscar Martin Nunez",
+        "remitente_cuil": "20-43581368-3",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "164182865612",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: 0V1JXON1MV77XV7NZ64EL. CVU origen: 0000003100066680657936. CVU destino: 0000155300000000009977",
+        "_num": 211,
+        "_fecha_carga": "19/06/2026 20:22",
+        "_origen": "grupo",
+        "_pie": "Oscar Martin Nuñez\nD.N.I : 43.581.36"
       }
     ],
     "errores": [],
