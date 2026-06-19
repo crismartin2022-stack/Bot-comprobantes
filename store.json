@@ -53755,6 +53755,28 @@
         "_fecha_carga": "19/06/2026 20:57",
         "_origen": "grupo",
         "_pie": "juan ferreyra \n29160334"
+      },
+      {
+        "fecha": "17/06/2026",
+        "hora": "15:57",
+        "tipo": "TRF",
+        "monto": 66000.0,
+        "moneda": "ARS",
+        "remitente": "Maria De Las Nieves Malvina Monzon",
+        "remitente_cuil": "29495297",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Ualá",
+        "banco_destino": "",
+        "referencia": "R7ZG0QNDW1O5DGEV9EXYPO",
+        "concepto": "VAR",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CBU destino: 0000155300000000009977. CUIT destino (del receptor Sasteup Srl): 30717282252. No se encontró CUIL del remitente en el comprobante.",
+        "_num": 454,
+        "_fecha_carga": "19/06/2026 20:58",
+        "_origen": "grupo",
+        "_pie": "maria de las nievea monzon\n29495297"
       }
     ],
     "errores": [],
