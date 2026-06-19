@@ -52453,6 +52453,28 @@
         "_fecha_carga": "19/06/2026 20:49",
         "_origen": "grupo",
         "_pie": "Coronel Leandro 35354238"
+      },
+      {
+        "fecha": "15/06/2026",
+        "hora": "19:23",
+        "tipo": "TRF",
+        "monto": 260000.0,
+        "moneda": "ARS",
+        "remitente": "Braian Damian Gerez",
+        "remitente_cuil": "20-35659614-6",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Naranja X",
+        "banco_destino": "Cuenta Virtual",
+        "referencia": "1LMP68NKVEYO1EWP2R7OEV",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de transacción: 11156667-979c-4455-ae3c-d87dc84ef8d4. CBU origen: 4530000800014505656712. CVU destino: 0000155300000000009977.",
+        "_num": 395,
+        "_fecha_carga": "19/06/2026 20:49",
+        "_origen": "grupo",
+        "_pie": "Braian Damian Gerez\n20356596146\nPLUTONOS"
       }
     ],
     "errores": [],
