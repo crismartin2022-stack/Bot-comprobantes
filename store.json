@@ -81267,6 +81267,28 @@
         "_fecha_carga": "18/06/2026 23:40",
         "_origen": "grupo",
         "_pie": "Cristian Godoy 38839812"
+      },
+      {
+        "fecha": "15/06/2026",
+        "hora": "01:27",
+        "tipo": "TRF",
+        "monto": 35000.0,
+        "moneda": "ARS",
+        "remitente": "Alan Ezequiel Espinola",
+        "remitente_cuil": "20-39715159-0",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "164172576344",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: 8D0Q619L0W3WLX53N7JZ5R. CVU remitente: 0000003100086877314857. CVU destinatario: 0000155300000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 1724,
+        "_fecha_carga": "18/06/2026 23:40",
+        "_origen": "grupo",
+        "_pie": "__100__"
       }
     ],
     "errores": [],
