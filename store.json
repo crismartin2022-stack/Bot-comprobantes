@@ -86558,6 +86558,28 @@
         "_fecha_carga": "19/06/2026 00:14",
         "_origen": "grupo",
         "_pie": "Moscoso Pablo Antonio \n35.021.013"
+      },
+      {
+        "fecha": "13/06/2026",
+        "hora": "10:47",
+        "tipo": "TRF",
+        "monto": 80000.0,
+        "moneda": "ARS",
+        "remitente": "Ania Penelope Cea Gutierrez",
+        "remitente_cuil": "27-33141440-4",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163122230153",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: 8D0Q619L0WLXV4J8N7JZ5R. CVU remitente: 0000003100052093585087. CVU destinatario: 0000155300000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 1964,
+        "_fecha_carga": "19/06/2026 00:14",
+        "_origen": "grupo",
+        "_pie": "Moscoso Pablo Antonio \n35.021.013"
       }
     ],
     "errores": [],
