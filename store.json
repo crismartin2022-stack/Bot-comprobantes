@@ -64495,6 +64495,28 @@
         "_fecha_carga": "18/06/2026 21:54",
         "_origen": "grupo",
         "_pie": ""
+      },
+      {
+        "fecha": "13/06/2026",
+        "hora": "04:23",
+        "tipo": "TRF",
+        "monto": 500000.11,
+        "moneda": "ARS",
+        "remitente": "Juan Carlos Ovejero",
+        "remitente_cuil": "20-14765356-6",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163100983845",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: 46YGOW9M1KDVM4WMNEXD8J. CUIL destinatario: 30-71728225-2. CVU destinatario: 0000155300000000009977",
+        "_num": 963,
+        "_fecha_carga": "18/06/2026 21:55",
+        "_origen": "grupo",
+        "_pie": ""
       }
     ],
     "errores": [],
