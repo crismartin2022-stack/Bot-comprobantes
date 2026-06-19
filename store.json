@@ -45446,6 +45446,28 @@
         "_fecha_carga": "19/06/2026 20:01",
         "_origen": "grupo",
         "_pie": "Foto de Diversión"
+      },
+      {
+        "fecha": "17/06/2026",
+        "hora": "22:38",
+        "tipo": "TRF",
+        "monto": 50000.0,
+        "moneda": "ARS",
+        "remitente": "Maria Evangelina Ramirez",
+        "remitente_cuil": "27-27599741-8",
+        "destinatario": "Sercob Sa",
+        "banco_origen": "Naranja X",
+        "banco_destino": "Cuenta Virtual",
+        "referencia": "D4RO172VZQM08YPVNKJ3QE",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "7745",
+        "tiene_remitente": true,
+        "notas": "Código de transacción adicional: f8ef2f7e-ffce-4215-bb50-5fa8d959701d. CBU origen: 4530000800011715455184. CVU destino: 0000133100000000587745. CUIL destinatario: 30-70828227-4.",
+        "_num": 77,
+        "_fecha_carga": "19/06/2026 20:01",
+        "_origen": "grupo",
+        "_pie": "Foto de Diversión"
       }
     ],
     "errores": [],
