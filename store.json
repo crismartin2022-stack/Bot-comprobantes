@@ -65639,6 +65639,28 @@
         "_fecha_carga": "18/06/2026 22:01",
         "_origen": "grupo",
         "_pie": ""
+      },
+      {
+        "fecha": "13/06/2026",
+        "hora": "22:20",
+        "tipo": "TRF",
+        "monto": 200000.0,
+        "moneda": "ARS",
+        "remitente": "Dario German Ibanez",
+        "remitente_cuil": "20-32462485-7",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "164038868686",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: 46YGOW9M1K8OYWLQNEXD8J. CUIT destinatario: 30-71728225-2. CVU destinatario completo: 0000155300000000000009977",
+        "_num": 1015,
+        "_fecha_carga": "18/06/2026 22:01",
+        "_origen": "grupo",
+        "_pie": ""
       }
     ],
     "errores": [],
