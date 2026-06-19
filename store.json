@@ -50667,6 +50667,28 @@
         "_fecha_carga": "19/06/2026 20:36",
         "_origen": "grupo",
         "_pie": "Mauricio Tosolini\nCUIT/CUIL: 20-29653582-7"
+      },
+      {
+        "fecha": "16/06/2026",
+        "hora": "00:59",
+        "tipo": "TRF",
+        "monto": 100000.0,
+        "moneda": "ARS",
+        "remitente": "Julio Gabriel Cardozo",
+        "remitente_cuil": "20-43063928-6",
+        "destinatario": "SASTEUP SRL",
+        "banco_origen": "Brubank",
+        "banco_destino": "",
+        "referencia": "",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Transferencia enviada desde cuenta Caja de ahorro en pesos en Brubank. CVU destino: 0000155300000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 314,
+        "_fecha_carga": "19/06/2026 20:37",
+        "_origen": "grupo",
+        "_pie": "Julio Gabriel Cardozo \n43.063.928"
       }
     ],
     "errores": [],
