@@ -176,22 +176,32 @@ IMPORTANTE: El CVU/CBU receptor puede aparecer con diferentes etiquetas según e
 - Naranja X, Ualá, etc: campo 'CVU' o 'Cuenta'
 Siempre buscar el número largo (22 dígitos) asociado al RECEPTOR y tomar los últimos 4."""
 
-async def analizar_imagen(image_bytes: bytes, mime: str) -> dict:
+async def analizar_imagen(image_bytes: bytes, mime: str, reintentos: int = 3) -> dict:
     b64 = base64.standard_b64encode(image_bytes).decode("utf-8")
-    resp = claude.messages.create(
-        model="claude-sonnet-4-6",
-        max_tokens=1000,
-        system=SYSTEM_PROMPT,
-        messages=[{"role": "user", "content": [
-            {"type": "image", "source": {"type": "base64", "media_type": mime, "data": b64}},
-            {"type": "text", "text": "Analizá este comprobante bancario argentino."}
-        ]}]
-    )
-    text = resp.content[0].text
-    try:
-        return json.loads(text.replace("```json", "").replace("```", "").strip())
-    except Exception:
-        return {"notas": text, "estado": "Error al parsear", "cvu_ultimos4": "", "tiene_remitente": False}
+    ultimo_error = None
+    for intento in range(1, reintentos + 1):
+        try:
+            resp = claude.messages.create(
+                model="claude-sonnet-4-6",
+                max_tokens=1000,
+                system=SYSTEM_PROMPT,
+                messages=[{"role": "user", "content": [
+                    {"type": "image", "source": {"type": "base64", "media_type": mime, "data": b64}},
+                    {"type": "text", "text": "Analizá este comprobante bancario argentino."}
+                ]}]
+            )
+            text = resp.content[0].text
+            try:
+                return json.loads(text.replace("```json", "").replace("```", "").strip())
+            except Exception:
+                return {"notas": text, "estado": "Error al parsear", "cvu_ultimos4": "", "tiene_remitente": False}
+        except Exception as e:
+            ultimo_error = e
+            log.warning(f"Intento {intento}/{reintentos} fallido: {e}")
+            if intento < reintentos:
+                await asyncio.sleep(5 * intento)
+    log.error(f"Todos los reintentos fallaron: {ultimo_error}")
+    return {"notas": str(ultimo_error), "estado": "Error timeout", "cvu_ultimos4": "", "tiene_remitente": False}
 
 def normalizar(texto: str) -> str:
     """Normaliza texto para comparación: minúsculas, sin espacios extra, sin puntos."""
@@ -273,8 +283,8 @@ def generar_excel(registros: list, semana: str, nombre: str, es_errores: bool = 
     else:
         headers    = ["#", "GRUPO", "FECHA DE ENVIO", "TRF O DEPOSITO", "TITULAR DE LA CTA",
                       "FECHA TICKET", "HORA TICKET", "CUENTA (CVU)", "MONTO",
-                      "Remitente", "Banco Origen", "Estado", "Origen", "Notas"]
-        col_widths = [4, 20, 22, 12, 30, 13, 11, 14, 14, 25, 18, 11, 10, 28]
+                      "Remitente", "CUIL Remitente", "Banco Origen", "Estado", "Origen", "Notas"]
+        col_widths = [4, 20, 22, 12, 30, 13, 11, 14, 14, 25, 20, 18, 11, 10, 28]
 
     for col, (h, w) in enumerate(zip(headers, col_widths), 1):
         cell = ws.cell(row=1, column=col, value=h)
@@ -315,6 +325,7 @@ def generar_excel(registros: list, semana: str, nombre: str, es_errores: bool = 
                 cvu if tiene_cvu else "⚠️ SIN CVU",
                 r.get("monto", ""),
                 r.get("remitente", ""),
+                r.get("remitente_cuil", ""),
                 r.get("banco_origen", ""),
                 r.get("estado", ""),
                 r.get("_origen", "grupo"),
@@ -418,6 +429,21 @@ async def procesar_comprobante(image_bytes: bytes, mime: str, pie: str,
     resultado["_origen"] = origen
     resultado["_pie"] = pie or ""
 
+    # Verificar si hubo error de timeout en el análisis
+    if resultado.get("estado") == "Error timeout":
+        resultado["_motivo_error"] = "Error de conexión con IA — reintentá más tarde"
+        datos["errores"].append(resultado)
+        guardar_store()
+        try:
+            await bot.send_message(
+                chat_id=chat_id,
+                text=f"⚠️ Comprobante #{num} no procesado — error de conexión. Reenvialo.",
+                reply_to_message_id=chat_msg_id
+            )
+        except Exception as e:
+            log.error(f"Error notificando timeout: {e}")
+        return
+
     if coincide:
         # Verificar duplicado
         if es_duplicado(resultado, datos["registros"]):
@@ -435,18 +461,31 @@ async def procesar_comprobante(image_bytes: bytes, mime: str, pie: str,
             return
         datos["registros"].append(resultado)
         guardar_store()
-        # Notificar al admin por privado si falta CVU
+        # ✅ Confirmar en el grupo con tilde
         cvu = (resultado.get("cvu_ultimos4") or "").strip()
+        monto = resultado.get("monto")
+        monto_fmt = f"${float(monto):,.0f}" if monto else "—"
+        remitente = resultado.get("remitente") or "—"
+        cuil = (resultado.get("remitente_cuil") or "").strip()
+        cvu_txt = f"****{cvu}" if cvu else "⚠️ Sin CVU"
+        cuil_txt = f" | DNI/CUIL: {cuil}" if cuil else ""
+        try:
+            await bot.send_message(
+                chat_id=chat_id,
+                text=f"✅ #{num} | {remitente}{cuil_txt} | {monto_fmt} | {cvu_txt}",
+                reply_to_message_id=chat_msg_id
+            )
+        except Exception as e:
+            log.error(f"Error enviando confirmación: {e}")
+        # Notificar al admin por privado si falta CVU
         if not cvu:
-            monto = resultado.get("monto")
-            monto_fmt = f"${float(monto):,.0f}" if monto else "—"
             try:
                 await bot.send_message(
                     chat_id=ADMIN_ID,
                     text=(
                         f"⚠️ *CVU faltante — {nombre_g}*\n"
                         f"Comprobante #{num}\n"
-                        f"👤 {resultado.get('remitente','—')}\n"
+                        f"👤 {remitente}\n"
                         f"💰 {monto_fmt}\n"
                         f"📅 {resultado.get('fecha','—')}\n"
                         f"_CVU del receptor no encontrado en la imagen._"
@@ -473,7 +512,7 @@ async def procesar_comprobante(image_bytes: bytes, mime: str, pie: str,
             await bot.send_message(chat_id=ADMIN_ID, text=texto_error, parse_mode="Markdown")
         except Exception as e:
             log.error(f"Error notificando rechazo al admin: {e}")
-        # Avisar en el grupo para que corrijan (sin detalles, solo el número)
+        # Avisar en el grupo
         sent = await bot.send_message(
             chat_id=chat_id,
             text=(
