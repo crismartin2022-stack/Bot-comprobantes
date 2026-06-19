@@ -49234,6 +49234,28 @@
         "_fecha_carga": "19/06/2026 20:27",
         "_origen": "grupo",
         "_pie": "Evelyn leguiza\n46433396\nBet91"
+      },
+      {
+        "fecha": "15/06/2026",
+        "hora": "20:04",
+        "tipo": "TRF",
+        "monto": 500000.0,
+        "moneda": "ARS",
+        "remitente": "Evelyn Milagros Leguiza",
+        "remitente_cuil": "27-46433396-2",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "164290049182",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: PDX4OGNYGP8XJG74N0L6EY. CVU remitente: 0000003100008833658896. CVU destinatario: 0000155300000000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 249,
+        "_fecha_carga": "19/06/2026 20:27",
+        "_origen": "grupo",
+        "_pie": "Evelyn leguiza\n46433396\nBet91"
       }
     ],
     "errores": [],
