@@ -66895,6 +66895,28 @@
         "_fecha_carga": "18/06/2026 22:08",
         "_origen": "grupo",
         "_pie": "Alexis Maximiliano Esteban\nNaranja X\n4530000800016540213330\n20-44901626-3"
+      },
+      {
+        "fecha": "13/06/2026",
+        "hora": "22:50",
+        "tipo": "TRF",
+        "monto": 100000.0,
+        "moneda": "ARS",
+        "remitente": "Belen Katherine Quiñones",
+        "remitente_cuil": "27-40398893-1",
+        "destinatario": "SASTEUP SRL",
+        "banco_origen": "AstroPay",
+        "banco_destino": "",
+        "referencia": "67REZ8NPQ6WPD5OG94KVGO",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CVU remitente: 0000177503219007847951. CVU receptor: 0000155300000000009977. Alias receptor: cvu.977. CUIT receptor: 30717282252. Comprobante de Transferencia AstroPay.",
+        "_num": 1072,
+        "_fecha_carga": "18/06/2026 22:08",
+        "_origen": "grupo",
+        "_pie": ""
       }
     ],
     "errores": [],
