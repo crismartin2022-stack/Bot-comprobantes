@@ -81883,6 +81883,28 @@
         "_fecha_carga": "18/06/2026 23:44",
         "_origen": "grupo",
         "_pie": "Ganamos"
+      },
+      {
+        "fecha": "14/06/2026",
+        "hora": "16:42",
+        "tipo": "TRF",
+        "monto": 75000.0,
+        "moneda": "ARS",
+        "remitente": "Jacqueline Micaela Llanos",
+        "remitente_cuil": "27-43194484-2",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "164119178280",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: JMQKYZ9QQVG46JLQ9V50P3. CVU remitente: 0000003100003823506036. CVU destinatario: 0000155300000000009977",
+        "_num": 1752,
+        "_fecha_carga": "18/06/2026 23:44",
+        "_origen": "grupo",
+        "_pie": "Bet30click"
       }
     ],
     "errores": [],
