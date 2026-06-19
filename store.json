@@ -44540,6 +44540,28 @@
         "_fecha_carga": "19/06/2026 19:55",
         "_origen": "grupo",
         "_pie": "Filomea renna 4512413"
+      },
+      {
+        "fecha": "17/06/2026",
+        "hora": "16:08",
+        "tipo": "TRF",
+        "monto": 50000.0,
+        "moneda": "ARS",
+        "remitente": "Walter Rolando Sayago",
+        "remitente_cuil": "20-22787591-8",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Naranja X",
+        "banco_destino": "Cuenta Virtual",
+        "referencia": "RD06ZO9WVR5Z511KN5GP7X",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "0025",
+        "tiene_remitente": true,
+        "notas": "CBU origen: 4530000800019795597280. CVU destino: 0000155300000000010025. CUIL destinatario: 30-71728225-2. Código de transacción: ecff6b3f-e65c-486d-8342-0e0d5e271745.",
+        "_num": 36,
+        "_fecha_carga": "19/06/2026 19:55",
+        "_origen": "grupo",
+        "_pie": "Walter Sayago \n22787591"
       }
     ],
     "errores": [],
