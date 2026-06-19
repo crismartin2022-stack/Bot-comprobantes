@@ -68813,6 +68813,28 @@
         "_fecha_carga": "18/06/2026 22:21",
         "_origen": "grupo",
         "_pie": "Eduardo Adrian Perez\nCUIT/CUIL: 20-31598874-9"
+      },
+      {
+        "fecha": "13/06/2026",
+        "hora": "21:43",
+        "tipo": "TRF",
+        "monto": 200000.0,
+        "moneda": "ARS",
+        "remitente": "Alan Javier Soto Sejas",
+        "remitente_cuil": "",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Ualá",
+        "banco_destino": "",
+        "referencia": "3D5W612E6ZJREE452GXYVR",
+        "concepto": "VAR",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CUIT destino: 30717282252. CBU destino completo: 0000155300000000009977",
+        "_num": 1159,
+        "_fecha_carga": "18/06/2026 22:21",
+        "_origen": "grupo",
+        "_pie": "Alan soto\nCUIL-CUIT: 20-45176794-2"
       }
     ],
     "errores": [],
