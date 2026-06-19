@@ -47385,6 +47385,28 @@
         "_fecha_carga": "19/06/2026 20:15",
         "_origen": "grupo",
         "_pie": "Fuentez soledad 38374760"
+      },
+      {
+        "fecha": "15/06/2026",
+        "hora": "00:55",
+        "tipo": "TRF",
+        "monto": 25000.0,
+        "moneda": "ARS",
+        "remitente": "Tomas Lautaro Rocha",
+        "remitente_cuil": "20-46186158-0",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "164171210126",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: LMORZP908LGR V705NEGJ46. CVU origen: 0000003100008890642805. CVU destino: 0000155300000000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 165,
+        "_fecha_carga": "19/06/2026 20:15",
+        "_origen": "grupo",
+        "_pie": "tomas eocha 46186158"
       }
     ],
     "errores": [],
