@@ -48288,6 +48288,28 @@
         "_fecha_carga": "19/06/2026 20:21",
         "_origen": "grupo",
         "_pie": "Victor Roberto Taiguan\n21.342.026"
+      },
+      {
+        "fecha": "15/06/2026",
+        "hora": "00:07",
+        "tipo": "TRF",
+        "monto": 500000.65,
+        "moneda": "ARS",
+        "remitente": "Juan Carlos Ovejero",
+        "remitente_cuil": "20-14765356-6",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163355099727",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: LMORZP908LGMPZYRNEGJ46. CUIT/CUIL destinatario: 30-71728225-2. CVU origen: 0000003100089844810725.",
+        "_num": 206,
+        "_fecha_carga": "19/06/2026 20:21",
+        "_origen": "grupo",
+        "_pie": "Juan Carlos Ovejero\n14.765.356"
       }
     ],
     "errores": [],
