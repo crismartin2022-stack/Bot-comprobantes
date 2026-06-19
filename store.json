@@ -84860,6 +84860,28 @@
         "_fecha_carga": "19/06/2026 00:02",
         "_origen": "grupo",
         "_pie": "Susana Kmicaela Balbuena \nCuil:27-35094994-7"
+      },
+      {
+        "fecha": "14/06/2026",
+        "hora": "15:12",
+        "tipo": "TRF",
+        "monto": 400000.0,
+        "moneda": "ARS",
+        "remitente": "Claudia Soledad Aguirre",
+        "remitente_cuil": "27-41594992-3",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Naranja X",
+        "banco_destino": "Cuenta Virtual",
+        "referencia": "PDX4OGNYGPG34PK4N0L6EY",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CBU origen: 4530000800019488073862. CVU destino: 0000155300000000009977. CUIL destinatario: 30-71728225-2. Código de transacción: 33957bc0-7c20-4d0c-a703-de587e776df4",
+        "_num": 1887,
+        "_fecha_carga": "19/06/2026 00:02",
+        "_origen": "grupo",
+        "_pie": "Claudia aguirre \n41594992"
       }
     ],
     "errores": [],
