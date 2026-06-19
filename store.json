@@ -47253,6 +47253,28 @@
         "_fecha_carga": "19/06/2026 20:14",
         "_origen": "grupo",
         "_pie": "Thiago Vicente Vignola\n47563230"
+      },
+      {
+        "fecha": "12/06/2026",
+        "hora": "23:54",
+        "tipo": "TRF",
+        "monto": 50000.0,
+        "moneda": "ARS",
+        "remitente": "Marisa Silvia Ferreyra",
+        "remitente_cuil": "23-23852075-4",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163895991072",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: JMQKYZ9QQVWPJP0R9V50P3. CVU remitente: 0000003100024382635278. CVU destinatario: 0000155300000000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 159,
+        "_fecha_carga": "19/06/2026 20:14",
+        "_origen": "grupo",
+        "_pie": "Marisa Ferreyra 23852075"
       }
     ],
     "errores": [],
