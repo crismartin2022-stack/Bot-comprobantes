@@ -72384,6 +72384,28 @@
         "_fecha_carga": "18/06/2026 22:43",
         "_origen": "grupo",
         "_pie": "Walter Daniel Arroyo\nCUIT/CUIL: 20-29905401-3"
+      },
+      {
+        "fecha": "14/06/2026",
+        "hora": "22:13",
+        "tipo": "TRF",
+        "monto": 250000.0,
+        "moneda": "ARS",
+        "remitente": "THOMAS YAMIL IBANEZ",
+        "remitente_cuil": "20-47120298-4",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Banco De Galicia S.A.U",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "42107884035",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "ID COELSA: Z4K6DVNOWYPM6PD425J8LQ. CVU destinatario: 0000155300000000009977. CUIT destinatario: 30-71728225-2",
+        "_num": 1321,
+        "_fecha_carga": "18/06/2026 22:44",
+        "_origen": "grupo",
+        "_pie": "De:\nTHOMAS YAMIL IBANEZ\nCUIT 20-47120298-4"
       }
     ],
     "errores": [],
