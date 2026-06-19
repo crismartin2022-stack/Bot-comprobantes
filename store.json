@@ -52343,6 +52343,28 @@
         "_fecha_carga": "19/06/2026 20:48",
         "_origen": "grupo",
         "_pie": "Lucas Alberto Cuevas\nCUIT/CUIL: 20-42289798-5"
+      },
+      {
+        "fecha": "14/06/2026",
+        "hora": "21:44",
+        "tipo": "TRF",
+        "monto": 320000.0,
+        "moneda": "ARS",
+        "remitente": "Mariano Javier Mona",
+        "remitente_cuil": "30717282252",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Lemon",
+        "banco_destino": "CVU",
+        "referencia": "JMQKYZ9QQVGYE64V9V50P3",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CUIT destinatario: 30717282252. CBU destino: 0000155300000000009977. ID de transacción: 45db17da-5756-494b-af2d-14f051834ed3. Comprobante emitido por Lemon (Powered by Digifin).",
+        "_num": 390,
+        "_fecha_carga": "19/06/2026 20:48",
+        "_origen": "grupo",
+        "_pie": "Mariano Mona: 30717282252"
       }
     ],
     "errores": [],
