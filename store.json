@@ -77454,6 +77454,28 @@
         "_fecha_carga": "18/06/2026 23:15",
         "_origen": "grupo",
         "_pie": ""
+      },
+      {
+        "fecha": "14/06/2026",
+        "hora": "02:24",
+        "tipo": "TRF",
+        "monto": 50000.0,
+        "moneda": "ARS",
+        "remitente": "Cynthia Noelia Mino Gonzalez",
+        "remitente_cuil": "27-40421715-7",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Naranja X",
+        "banco_destino": "Cuenta Virtual",
+        "referencia": "R7ZG0QNDW1WWVP5V9EXYPO",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de transacción adicional: 105ad425-d414-4612-a74b-3923b6df55e0. CVU destinatario: 0000155300000000009977. CBU remitente: 4530000800018822454187",
+        "_num": 1551,
+        "_fecha_carga": "18/06/2026 23:15",
+        "_origen": "grupo",
+        "_pie": ""
       }
     ],
     "errores": [],
