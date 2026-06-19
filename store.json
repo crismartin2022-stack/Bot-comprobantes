@@ -66631,6 +66631,28 @@
         "_fecha_carga": "18/06/2026 22:06",
         "_origen": "grupo",
         "_pie": "JESICA VARGAS\n\nDNI: 37.808.377"
+      },
+      {
+        "fecha": "14/06/2026",
+        "hora": "18:00",
+        "tipo": "TRF",
+        "monto": 70000.0,
+        "moneda": "ARS",
+        "remitente": "Gladys Beatriz San Juan",
+        "remitente_cuil": "27-12123462-4",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163313091877",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CUIT destinatario: 30-71728225-2. CVU remitente: 0000003100033004803108. CVU destinatario: 0000155300000000000009977. Código de identificación: RD06ZO9WVR447L8XN5GP7X",
+        "_num": 1060,
+        "_fecha_carga": "18/06/2026 22:06",
+        "_origen": "grupo",
+        "_pie": "GLADYS SAN JUAN\n\nDNI:  12.123.462"
       }
     ],
     "errores": [],
