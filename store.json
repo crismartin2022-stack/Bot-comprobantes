@@ -66565,6 +66565,28 @@
         "_fecha_carga": "18/06/2026 22:06",
         "_origen": "grupo",
         "_pie": "Juan Miranda\n31.748.199"
+      },
+      {
+        "fecha": "15/06/2026",
+        "hora": "22:25",
+        "tipo": "TRF",
+        "monto": 440000.0,
+        "moneda": "ARS",
+        "remitente": "Ponce, Lautaro Ruben",
+        "remitente_cuil": "20-48756513-0",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Personal Pay",
+        "banco_destino": "",
+        "referencia": "2745349226",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CoelsaID: Z6OLMDN3V3YD34X52E7RQ5 - Id Bancario. CBU/CVU receptor: 0000155300000000009977. CUIL/CUIT destinatario: 30-71728225-2.",
+        "_num": 1057,
+        "_fecha_carga": "18/06/2026 22:06",
+        "_origen": "grupo",
+        "_pie": "Ponce Lautaro 48756513"
       }
     ],
     "errores": [],
