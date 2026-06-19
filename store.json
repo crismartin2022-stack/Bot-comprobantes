@@ -65507,6 +65507,28 @@
         "_fecha_carga": "18/06/2026 22:00",
         "_origen": "grupo",
         "_pie": "Milton Nahuel Rubinich\n20-39146911/4"
+      },
+      {
+        "fecha": "13/06/2026",
+        "hora": "14:42",
+        "tipo": "TRF",
+        "monto": 100000.0,
+        "moneda": "ARS",
+        "remitente": "Lucas Nicolas Brandi",
+        "remitente_cuil": "20-36701402-5",
+        "destinatario": "SASTEUP SRL",
+        "banco_origen": "AstroPay",
+        "banco_destino": "",
+        "referencia": "Z6OLMDN3V3G5X0L62E7RQ5",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CVU remitente: 0000177504416008599000. CVU receptor: 0000155300000000009977. CUIT receptor: 30717282252. Alias receptor: cvu.977",
+        "_num": 1009,
+        "_fecha_carga": "18/06/2026 22:00",
+        "_origen": "grupo",
+        "_pie": ""
       }
     ],
     "errores": [],
