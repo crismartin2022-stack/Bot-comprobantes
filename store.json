@@ -80958,6 +80958,28 @@
         "_fecha_carga": "18/06/2026 23:38",
         "_origen": "grupo",
         "_pie": "Horizonte Blt S.A.S. - CUIT 30-71876498-6"
+      },
+      {
+        "fecha": "14/06/2026",
+        "hora": "18:04",
+        "tipo": "TRF",
+        "monto": 400000.0,
+        "moneda": "ARS",
+        "remitente": "AQUILES ALEJANDRO COPPINI",
+        "remitente_cuil": "",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Ualá",
+        "banco_destino": "",
+        "referencia": "D4RO172VZQPKZPVVNKJ3QE",
+        "concepto": "VAR",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CUIT destino: 30717282252. CBU destino completo: 0000155300000000009977",
+        "_num": 1710,
+        "_fecha_carga": "18/06/2026 23:38",
+        "_origen": "grupo",
+        "_pie": "Aquiles Copini\nDNI 45942453"
       }
     ],
     "errores": [],
