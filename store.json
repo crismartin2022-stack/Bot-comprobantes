@@ -53534,6 +53534,28 @@
         "_fecha_carga": "19/06/2026 20:56",
         "_origen": "grupo",
         "_pie": "jesica sanchez\n35336639"
+      },
+      {
+        "fecha": "15/06/2026",
+        "hora": "17:07",
+        "tipo": "TRF",
+        "monto": 30000.0,
+        "moneda": "ARS",
+        "remitente": "Carlos Daniel Silva",
+        "remitente_cuil": "20-29165124-1",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "164263090336",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: 3D5W612E6Z7LL1X52GXYVR. CVU origen: 0000003100072776693764. CVU destino: 0000155300000000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 444,
+        "_fecha_carga": "19/06/2026 20:56",
+        "_origen": "grupo",
+        "_pie": ""
       }
     ],
     "errores": [],
