@@ -46129,6 +46129,28 @@
         "_fecha_carga": "19/06/2026 20:06",
         "_origen": "grupo",
         "_pie": "39,635,586\n Torres Alexis maximiliano"
+      },
+      {
+        "fecha": "17/06/2026",
+        "hora": "22:41",
+        "tipo": "TRF",
+        "monto": 200000.0,
+        "moneda": "ARS",
+        "remitente": "Alexis Maximiliano Torres",
+        "remitente_cuil": "24-39635586-4",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Naranja X",
+        "banco_destino": "Cuenta Virtual",
+        "referencia": "67REZ8NPQ6ZPQDWR94KVGO",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de transacción adicional: bb898d49-6533-4de0-b0b9-a79e4b36c261. CBU origen: 4530000800011809277144. CVU destino: 0000155300000000009977. CUIL destinatario: 30-71728225-2.",
+        "_num": 108,
+        "_fecha_carga": "19/06/2026 20:06",
+        "_origen": "grupo",
+        "_pie": "Jorge kowalczuk 31895635"
       }
     ],
     "errores": [],
