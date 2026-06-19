@@ -52277,6 +52277,28 @@
         "_fecha_carga": "19/06/2026 20:47",
         "_origen": "grupo",
         "_pie": "Lucas Pomiglio: 20-41568721-5"
+      },
+      {
+        "fecha": "15/06/2026",
+        "hora": "22:26",
+        "tipo": "TRF",
+        "monto": 1600000.0,
+        "moneda": "ARS",
+        "remitente": "Jimenez, Elias",
+        "remitente_cuil": "20-43919403-1",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Personal Pay",
+        "banco_destino": "",
+        "referencia": "LI8MKX9RXJ3ORJPV9O6WYV",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CUIT destinatario: 30-71728225-2. CBU/CVU destinatario: 0000155300000000009977. N° de operación: 2745352036. CoelsaID: LI8MKX9RXJ3ORJPV9O6WYV - Id Bancario.",
+        "_num": 387,
+        "_fecha_carga": "19/06/2026 20:48",
+        "_origen": "grupo",
+        "_pie": ""
       }
     ],
     "errores": [],
