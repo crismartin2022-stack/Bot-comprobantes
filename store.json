@@ -81685,6 +81685,28 @@
         "_fecha_carga": "18/06/2026 23:43",
         "_origen": "grupo",
         "_pie": ""
+      },
+      {
+        "fecha": "13/06/2026",
+        "hora": "21:17",
+        "tipo": "TRF",
+        "monto": 100000.0,
+        "moneda": "ARS",
+        "remitente": "",
+        "remitente_cuil": "",
+        "destinatario": "SASTEUP SRL",
+        "banco_origen": "",
+        "banco_destino": "",
+        "referencia": "3d4674df-b320-4dad-bf1e-160fc32a9860",
+        "concepto": "Pago de Servicios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": false,
+        "notas": "CVU origen: 0000151500035440528160. CVU destino: 0000165300000000009977. CUIT destinatario: 30717282252.",
+        "_num": 1743,
+        "_fecha_carga": "18/06/2026 23:43",
+        "_origen": "grupo",
+        "_pie": ""
       }
     ],
     "errores": [],
