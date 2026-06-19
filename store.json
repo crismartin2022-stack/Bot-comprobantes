@@ -70138,6 +70138,28 @@
         "_fecha_carga": "18/06/2026 22:29",
         "_origen": "grupo",
         "_pie": "Marco Emmiliano Barrera\nNaranja X\n4530000800012271420814\n20-39596546-9"
+      },
+      {
+        "fecha": "14/06/2026",
+        "hora": "00:04",
+        "tipo": "TRF",
+        "monto": 300000.0,
+        "moneda": "ARS",
+        "remitente": "Julieta Abigail Caballero",
+        "remitente_cuil": "27-47118920-6",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163237938873",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación adicional: 76V4MR2Z747L1V5ENDEZOL. CVU remitente: 0000003100091123709022. CVU destinatario: 0000155300000000009977",
+        "_num": 1219,
+        "_fecha_carga": "18/06/2026 22:30",
+        "_origen": "grupo",
+        "_pie": ""
       }
     ],
     "errores": [],
