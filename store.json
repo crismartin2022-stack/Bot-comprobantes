@@ -46107,6 +46107,28 @@
         "_fecha_carga": "19/06/2026 20:06",
         "_origen": "grupo",
         "_pie": "Yanet Sánchez \nDNI 44.543.477"
+      },
+      {
+        "fecha": "17/06/2026",
+        "hora": "22:38",
+        "tipo": "TRF",
+        "monto": 150000.0,
+        "moneda": "ARS",
+        "remitente": "Yanet Sanchez",
+        "remitente_cuil": "27-44543477-4",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Prex",
+        "banco_destino": "BANCO COINAG S.A.",
+        "referencia": "RD06ZO9WVRGJ8KJ5N5GP7X",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CVU origen: 0000013000032217121957. CBU/CVU destino: 0000155300000000009977. CUIL/CUIT destinatario: 30-71728225-2.",
+        "_num": 107,
+        "_fecha_carga": "19/06/2026 20:06",
+        "_origen": "grupo",
+        "_pie": "39,635,586\n Torres Alexis maximiliano"
       }
     ],
     "errores": [],
