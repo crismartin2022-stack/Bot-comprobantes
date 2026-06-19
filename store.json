@@ -80032,6 +80032,28 @@
         "_fecha_carga": "18/06/2026 23:32",
         "_origen": "grupo",
         "_pie": "kevin barbas\n43312108"
+      },
+      {
+        "fecha": "13/06/2026",
+        "hora": "07:36",
+        "tipo": "TRF",
+        "monto": 35000.0,
+        "moneda": "ARS",
+        "remitente": "Federico Andres Espiño",
+        "remitente_cuil": "20-40477868-5",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Naranja X",
+        "banco_destino": "Cuenta Virtual",
+        "referencia": "LMORZP908LJ4846RNEGJ46",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de transacción adicional: d166bc35-54a8-45b1-a5f9-08fc3734395b. CBU origen: 4530000800015954767147. CVU destino: 0000155300000000009977. CUIL destinatario: 30-71728225-2.",
+        "_num": 1668,
+        "_fecha_carga": "18/06/2026 23:32",
+        "_origen": "grupo",
+        "_pie": "Federico Andrés espiño\n\n40477868"
       }
     ],
     "errores": [],
