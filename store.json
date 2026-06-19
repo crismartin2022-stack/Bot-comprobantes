@@ -78400,6 +78400,28 @@
         "_fecha_carga": "18/06/2026 23:21",
         "_origen": "grupo",
         "_pie": "ENZO GABRIEL ALBARRACIN\n23-43056491-9\n1OO.OOO"
+      },
+      {
+        "fecha": "12/06/2026",
+        "hora": "18:31",
+        "tipo": "TRF",
+        "monto": 100000.0,
+        "moneda": "ARS",
+        "remitente": "Melisa Sanabria",
+        "remitente_cuil": "",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Ualá",
+        "banco_destino": "",
+        "referencia": "ORD6LEN8P1YDKL1ONM1Y30",
+        "concepto": "VAR",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CBU destino: 0000155300000000009977. CUIT destino: 30717282252. Cuenta destino: Sasteup Srl.",
+        "_num": 1594,
+        "_fecha_carga": "18/06/2026 23:22",
+        "_origen": "grupo",
+        "_pie": "Sanabria, Melisa Elina\n27-39340659-9 \nMonto: $1OO.OOO"
       }
     ],
     "errores": [],
