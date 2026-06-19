@@ -57579,6 +57579,28 @@
         "_fecha_carga": "18/06/2026 21:11",
         "_origen": "grupo",
         "_pie": "Foto de Clohe😎"
+      },
+      {
+        "fecha": "11/06/2026",
+        "hora": "16:11",
+        "tipo": "TRF",
+        "monto": 10000.0,
+        "moneda": "ARS",
+        "remitente": "Albina Santacruz",
+        "remitente_cuil": "23-94302009-4",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163652649200",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: 76V4MR2Z7QELQVVENDEZOL. CUIT destinatario: 30-71728225-2. CVU remitente: 0000003100047932069479. CVU destinatario: 0000155300000000009977",
+        "_num": 649,
+        "_fecha_carga": "18/06/2026 21:11",
+        "_origen": "grupo",
+        "_pie": "Foto de Clohe😎"
       }
     ],
     "errores": [],
