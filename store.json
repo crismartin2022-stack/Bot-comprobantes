@@ -51416,6 +51416,28 @@
         "_fecha_carga": "19/06/2026 20:42",
         "_origen": "grupo",
         "_pie": "Nicolas rojas 38.126.312"
+      },
+      {
+        "fecha": "16/06/2026",
+        "hora": "11:10",
+        "tipo": "TRF",
+        "monto": 100000.0,
+        "moneda": "ARS",
+        "remitente": "Agustin Luis Bramardo",
+        "remitente_cuil": "20-34579084-6",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163549976515",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: L18MKX9RXJZE3MRE9O6WYV. CVU origen (remitente): 0000003100064555444537. CVU destino (receptor): 0000155300000000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 348,
+        "_fecha_carga": "19/06/2026 20:42",
+        "_origen": "grupo",
+        "_pie": "Agustin bramardo 34579084"
       }
     ],
     "errores": [],
