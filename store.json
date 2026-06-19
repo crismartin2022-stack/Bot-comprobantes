@@ -86624,6 +86624,28 @@
         "_fecha_carga": "19/06/2026 00:14",
         "_origen": "grupo",
         "_pie": "Mendoza, Camila Ayelen\nCUIL/CUIT\n27-38014527-3"
+      },
+      {
+        "fecha": "16/06/2026",
+        "hora": "01:52",
+        "tipo": "TRF",
+        "monto": 2000000.0,
+        "moneda": "ARS",
+        "remitente": "Vallejos, Ludmila Claribel",
+        "remitente_cuil": "27-46108026-5",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Personal Pay",
+        "banco_destino": "",
+        "referencia": "2745570969",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CoelsaID: 3D5W6I2E6Z7M7MOQ2GXYVR - Id Bancario. CUIL/CUIT destinatario: 30-71728225-2. CBU/CVU destinatario: 0000155300000000009977",
+        "_num": 1967,
+        "_fecha_carga": "19/06/2026 00:14",
+        "_origen": "grupo",
+        "_pie": "Vallejos, Ludmila Claribel\nCUIL/CUIT\n27-46108026-5"
       }
     ],
     "errores": [],
