@@ -73709,6 +73709,28 @@
         "_fecha_carga": "18/06/2026 22:52",
         "_origen": "grupo",
         "_pie": "Marcos campos 33415464"
+      },
+      {
+        "fecha": "14/06/2026",
+        "hora": "23:12",
+        "tipo": "TRF",
+        "monto": 25000.0,
+        "moneda": "ARS",
+        "remitente": "Pablo Gaspar Carreno",
+        "remitente_cuil": "20-38106862-6",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163351872623",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: RD06ZO9WVR4ZOPQXN5GP7X. CVU remitente: 0000003100035817710549. CVU destinatario: 0000155300000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 1381,
+        "_fecha_carga": "18/06/2026 22:52",
+        "_origen": "grupo",
+        "_pie": "Pablo Gaspar Carreno\nCUIT/CUIL: 20-38106862-6"
       }
     ],
     "errores": [],
