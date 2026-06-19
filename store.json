@@ -45223,6 +45223,28 @@
         "_fecha_carga": "19/06/2026 19:59",
         "_origen": "grupo",
         "_pie": "Mayra Carreras 44872819"
+      },
+      {
+        "fecha": "15/06/2026",
+        "hora": "15:19",
+        "tipo": "TRF",
+        "monto": 217500.0,
+        "moneda": "ARS",
+        "remitente": "Constanza Goroso",
+        "remitente_cuil": "27-45935621-0",
+        "destinatario": "Sercob Sa",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "Billetera BILLETERAPAIS SA",
+        "referencia": "164247537010",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "7745",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: 76V4MR2Z74KJ3MJLNDEZOL. CVU origen: 0000003100041328152224. CVU destino: 0000133100000000587745. CUIT destinatario: 30-70828227-4.",
+        "_num": 67,
+        "_fecha_carga": "19/06/2026 20:00",
+        "_origen": "grupo",
+        "_pie": "Constanza Goroso 45935621"
       }
     ],
     "errores": [],
