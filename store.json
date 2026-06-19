@@ -86735,6 +86735,28 @@
         "_fecha_carga": "19/06/2026 00:15",
         "_origen": "grupo",
         "_pie": ""
+      },
+      {
+        "fecha": "14/06/2026",
+        "hora": "00:06",
+        "tipo": "TRF",
+        "monto": 200000.0,
+        "moneda": "ARS",
+        "remitente": "Cristina Veronica Ruiz",
+        "remitente_cuil": "27-34868571-1",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "164048103390",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: LOEJWV9JZ3ZYZYPD2QMD0G. CUIT destinatario: 30-71728225-2. CVU remitente: 0000003100058003792040. CVU destinatario: 0000155300000000000009977",
+        "_num": 1972,
+        "_fecha_carga": "19/06/2026 00:15",
+        "_origen": "grupo",
+        "_pie": ""
       }
     ],
     "errores": [],
