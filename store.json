@@ -48970,6 +48970,28 @@
         "_fecha_carga": "19/06/2026 20:25",
         "_origen": "grupo",
         "_pie": "PATRICIA ELIZABETH ENRIQUE\nD.N.I.: 18.029.576"
+      },
+      {
+        "fecha": "15/06/2026",
+        "hora": "23:07",
+        "tipo": "TRF",
+        "monto": 500000.97,
+        "moneda": "ARS",
+        "remitente": "Patricia Elizabeth Enrique",
+        "remitente_cuil": "27-18029576-9",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163499778267",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: 76V4MR2Z74WVGQD0NDEZOL. CVU origen: 0000003100054257766402. CVU destino: 0000155300000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 237,
+        "_fecha_carga": "19/06/2026 20:26",
+        "_origen": "grupo",
+        "_pie": "PATRICIA ELIZABETH ENRIQUE\nD.N.I.: 18.029.576"
       }
     ],
     "errores": [],
