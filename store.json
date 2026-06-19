@@ -46789,6 +46789,28 @@
         "_fecha_carga": "19/06/2026 20:11",
         "_origen": "grupo",
         "_pie": "Ariana Solari 43473949"
+      },
+      {
+        "fecha": "17/06/2026",
+        "hora": "15:23",
+        "tipo": "TRF",
+        "monto": 10000.0,
+        "moneda": "ARS",
+        "remitente": "Ariana Solari",
+        "remitente_cuil": "27-43473949-2",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163752678419",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: RD06ZO9WVR5WX4J5N5GP7X. CVU origen: 0000003100062959050787. CVU destino: 0000155300000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 138,
+        "_fecha_carga": "19/06/2026 20:11",
+        "_origen": "grupo",
+        "_pie": "Acosta natali\n35902877"
       }
     ],
     "errores": [],
