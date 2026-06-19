@@ -66543,6 +66543,28 @@
         "_fecha_carga": "18/06/2026 22:06",
         "_origen": "grupo",
         "_pie": "Jesica Coimbra\n45.541.395"
+      },
+      {
+        "fecha": "15/06/2026",
+        "hora": "21:05",
+        "tipo": "TRF",
+        "monto": 1400000.0,
+        "moneda": "ARS",
+        "remitente": "Juan Enrique Miranda",
+        "remitente_cuil": "20-31748199-4",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "164299232586",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: 0V1JXON1LME1PXK3NZ64EL. CVU remitente: 0000003100012646325171. CVU destinatario: 0000155300000000009977",
+        "_num": 1056,
+        "_fecha_carga": "18/06/2026 22:06",
+        "_origen": "grupo",
+        "_pie": "Juan Miranda\n31.748.199"
       }
     ],
     "errores": [],
