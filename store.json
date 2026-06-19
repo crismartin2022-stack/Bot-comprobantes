@@ -44032,6 +44032,28 @@
         "_fecha_carga": "19/06/2026 19:52",
         "_origen": "grupo",
         "_pie": "Michel aaron felix vino \n42819672"
+      },
+      {
+        "fecha": "16/06/2026",
+        "hora": "18:11",
+        "tipo": "TRF",
+        "monto": 225000.0,
+        "moneda": "ARS",
+        "remitente": "Andrea Mariana Borda",
+        "remitente_cuil": "23701197",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Lemon",
+        "banco_destino": "CVU",
+        "referencia": "8D0Q619L0WV6VZM3N7JZ5R",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CUIT destinatario: 30717282252. CBU destinatario: 0000155300000000009977. ID de la transacción: baaf46f5-2305-4000-9321-d41d557ac36f. Comprobante emitido por Lemon, powered by Digifin.",
+        "_num": 13,
+        "_fecha_carga": "19/06/2026 19:52",
+        "_origen": "grupo",
+        "_pie": "23701197 borda andrea"
       }
     ],
     "errores": [],
