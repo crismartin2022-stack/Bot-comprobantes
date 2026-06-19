@@ -86845,6 +86845,28 @@
         "_fecha_carga": "19/06/2026 00:15",
         "_origen": "grupo",
         "_pie": ""
+      },
+      {
+        "fecha": "15/06/2026",
+        "hora": "00:37",
+        "tipo": "TRF",
+        "monto": 100000.0,
+        "moneda": "ARS",
+        "remitente": "Natalia Nazarena Cea Gutierrez",
+        "remitente_cuil": "27-36679470-6",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Naranja X",
+        "banco_destino": "Cuenta Virtual",
+        "referencia": "8D0Q619L0W34ORZVN7JZ5R",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CBU origen: 4530000800010377760384. CVU destino: 0000155300000000009977. CUIL destinatario: 30-71728225-2. Código de transacción: c6ad26eb-7e4d-4afb-a030-bb8d125a430c",
+        "_num": 1977,
+        "_fecha_carga": "19/06/2026 00:15",
+        "_origen": "grupo",
+        "_pie": ""
       }
     ],
     "errores": [],
