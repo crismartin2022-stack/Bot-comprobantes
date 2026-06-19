@@ -61767,6 +61767,28 @@
         "_fecha_carga": "18/06/2026 21:37",
         "_origen": "grupo",
         "_pie": ""
+      },
+      {
+        "fecha": "13/06/2026",
+        "hora": "15:54",
+        "tipo": "TRF",
+        "monto": 50000.0,
+        "moneda": "ARS",
+        "remitente": "Mateo Mario Miquelarena",
+        "remitente_cuil": "20-48267647-3",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Naranja X",
+        "banco_destino": "Cuenta Virtual",
+        "referencia": "LOEJWV9JZ30V3D482QMD0G",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CBU origen: 4530000800013582344936. CVU destino: 0000155300000000009977. CUIL destinatario: 30-71728225-2. Código de transacción: 111056c1-52ca-4379-83ae-4dec6663d7b9",
+        "_num": 839,
+        "_fecha_carga": "18/06/2026 21:37",
+        "_origen": "grupo",
+        "_pie": ""
       }
     ],
     "errores": [],
