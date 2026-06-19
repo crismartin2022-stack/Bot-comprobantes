@@ -63637,6 +63637,28 @@
         "_fecha_carga": "18/06/2026 21:49",
         "_origen": "grupo",
         "_pie": ""
+      },
+      {
+        "fecha": "13/06/2026",
+        "hora": "20:29",
+        "tipo": "TRF",
+        "monto": 39000.0,
+        "moneda": "ARS",
+        "remitente": "Casado, Gisela Vanina",
+        "remitente_cuil": "27-32718949-8",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Personal Pay",
+        "banco_destino": "",
+        "referencia": "2741300751",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CoelsaID: 46YGOW9M1K868K8PNEXD8J - Id Bancario. CBU/CVU del receptor: 00001553000000000009977. CUIL/CUIT del destinatario: 30-71728225-2.",
+        "_num": 924,
+        "_fecha_carga": "18/06/2026 21:49",
+        "_origen": "grupo",
+        "_pie": ""
       }
     ],
     "errores": [],
