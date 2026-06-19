@@ -47870,6 +47870,28 @@
         "_fecha_carga": "19/06/2026 20:18",
         "_origen": "grupo",
         "_pie": "Ángel Damián Zurita\nDNI: 16.554.662"
+      },
+      {
+        "fecha": "14/06/2026",
+        "hora": "17:29",
+        "tipo": "TRF",
+        "monto": 500000.46,
+        "moneda": "ARS",
+        "remitente": "Ezequiel Mauricio Lopez",
+        "remitente_cuil": "20-32279298-1",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163311716795",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: L18MKX9RXJPXDEP19O6WYV. CVU origen: 0000003100089313382416. CVU destino: 0000155300000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 187,
+        "_fecha_carga": "19/06/2026 20:18",
+        "_origen": "grupo",
+        "_pie": "Ezequiel Mauricio López \nDNI: 32.279.298"
       }
     ],
     "errores": [],
