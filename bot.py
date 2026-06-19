@@ -158,7 +158,7 @@ Analizá la imagen y respondé ÚNICAMENTE con un JSON válido sin backticks ni 
   "monto": número sin símbolos (ej: 15000.00),
   "moneda": "ARS / USD / otro",
   "remitente": "nombre completo del que envía según el comprobante, o vacío",
-  "remitente_cuil": "CUIL/DNI del remitente según el comprobante, solo números con guiones, o vacío",
+  "remitente_cuil": "CUIL/DNI del REMITENTE/ORIGEN. Buscarlo en: campo CUIL, DNI, CUIT del que ENVÍA el dinero. Puede aparecer como 'CUIL', 'CUIT/CUIL', 'DNI', 'Documento' bajo la sección 'De', 'Desde', 'Origen', 'Cuenta origen', 'Enviaste'. Formato con guiones (ej: 20-12345678-9). NUNCA tomar el CUIL del destinatario. Si no se encuentra dejar VACÍO.",
   "destinatario": "nombre completo del que recibe o vacío",
   "banco_origen": "banco origen o vacío",
   "banco_destino": "banco destino o vacío",
@@ -169,7 +169,13 @@ Analizá la imagen y respondé ÚNICAMENTE con un JSON válido sin backticks ni 
   "tiene_remitente": true o false según si el comprobante tiene datos del remitente visibles,
   "notas": "cualquier dato relevante adicional"
 }
-IMPORTANTE: El CVU/CBU receptor puede aparecer con diferentes etiquetas según el banco:
+IMPORTANTE sobre el CUIL del remitente:
+- Mercado Pago: está bajo la sección 'De' junto al nombre del que envía
+- Naranja X: campo 'CUIL' bajo 'Cuenta origen'
+- Billetera País / Banco: campo 'CUIL' o 'CUIT/CUIL' de la cuenta origen
+- Si el comprobante muestra DOS CUIL (origen y destino), tomar SIEMPRE el del ORIGEN/REMITENTE
+
+IMPORTANTE sobre el CVU/CBU receptor:
 - Mercado Pago: campo 'CVU' bajo 'Para'
 - Billetera País: campo 'Cuenta Receptor'  
 - Banco tradicional: campo 'CBU destino' o 'Cuenta destino'
@@ -421,6 +427,17 @@ async def procesar_comprobante(image_bytes: bytes, mime: str, pie: str,
     if pie and not resultado.get("tiene_remitente"):
         resultado["remitente"] = pie
         resultado["_pie_como_fuente"] = True
+
+    # Extraer CUIL/DNI del pie si no se encontró en la imagen
+    if pie and not (resultado.get("remitente_cuil") or "").strip():
+        import re
+        # Buscar patrones: 20-12345678-9 o 20123456789 o DNI 12345678
+        cuil_match = re.search(r'\b(\d{2}[-.]?\d{7,8}[-.]?\d{1})\b', pie)
+        dni_match  = re.search(r'\b(\d{7,8})\b', pie)
+        if cuil_match:
+            resultado["remitente_cuil"] = cuil_match.group(1)
+        elif dni_match:
+            resultado["remitente_cuil"] = dni_match.group(1)
 
     coincide, motivo = verificar_pie(resultado, pie)
     num = len(datos["registros"]) + len(datos["errores"]) + 1
