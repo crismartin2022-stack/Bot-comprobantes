@@ -60178,6 +60178,28 @@
         "_fecha_carga": "18/06/2026 21:27",
         "_origen": "grupo",
         "_pie": "Jesús Fernández\n Dni : 43.847.444"
+      },
+      {
+        "fecha": "14/06/2026",
+        "hora": "21:05",
+        "tipo": "TRF",
+        "monto": 25000.0,
+        "moneda": "ARS",
+        "remitente": "Latin Marcela Alejandra",
+        "remitente_cuil": "27-18148471-9",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163339046345",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: Z6OLMDN3V375Q7KW2E7RQ5. CUIT destinatario: 30-71728225-2. CVU destinatario: 0000155300000000000009977.",
+        "_num": 767,
+        "_fecha_carga": "18/06/2026 21:27",
+        "_origen": "grupo",
+        "_pie": "Foto de Ges"
       }
     ],
     "errores": [],
