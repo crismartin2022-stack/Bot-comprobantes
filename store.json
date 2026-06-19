@@ -61151,6 +61151,28 @@
         "_fecha_carga": "18/06/2026 21:33",
         "_origen": "grupo",
         "_pie": "Noelia Noemi Romero  27-41800267-6"
+      },
+      {
+        "fecha": "14/06/2026",
+        "hora": "14:37",
+        "tipo": "TRF",
+        "monto": 38700.0,
+        "moneda": "ARS",
+        "remitente": "",
+        "remitente_cuil": "",
+        "destinatario": "Lohas S.A.S.",
+        "banco_origen": "Ualá",
+        "banco_destino": "",
+        "referencia": "",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": false,
+        "notas": "CUIT/CUIL destino: 30-71728225-2. CVU receptor: 0000155300000000009977. Comentario: Uala.",
+        "_num": 811,
+        "_fecha_carga": "18/06/2026 21:34",
+        "_origen": "grupo",
+        "_pie": ""
       }
     ],
     "errores": [],
