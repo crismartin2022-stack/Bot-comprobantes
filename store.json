@@ -85081,6 +85081,28 @@
         "_fecha_carga": "19/06/2026 00:04",
         "_origen": "grupo",
         "_pie": "Jonathan gaston corvalan 46.651.553 \n\n70 zeus"
+      },
+      {
+        "fecha": "15/06/2026",
+        "hora": "13:22",
+        "tipo": "TRF",
+        "monto": 20000.0,
+        "moneda": "ARS",
+        "remitente": "Gustavo Adrian Lange",
+        "remitente_cuil": "",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Lemon",
+        "banco_destino": "CVU",
+        "referencia": "WY7ZEPN6MKXPX5PV2Q0M51",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CUIT destinatario: 30717282252. CBU destinatario: 0000155300000000009977. ID de la transacción: 406bffc2-e2bb-4253-a6d9-48ed7673df80. Comprobante emitido por Lemon, powered by Digifin.",
+        "_num": 1897,
+        "_fecha_carga": "19/06/2026 00:04",
+        "_origen": "grupo",
+        "_pie": "Gustavo Adrián Lange 31113339"
       }
     ],
     "errores": [],
