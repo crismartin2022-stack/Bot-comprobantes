@@ -70336,6 +70336,28 @@
         "_fecha_carga": "18/06/2026 22:31",
         "_origen": "grupo",
         "_pie": "Molina, Yamila Antonella\nCUIL/CUIT 27-39154409-9"
+      },
+      {
+        "fecha": "14/06/2026",
+        "hora": "00:51",
+        "tipo": "TRF",
+        "monto": 25000.0,
+        "moneda": "ARS",
+        "remitente": "Roberto Sergio Lopez",
+        "remitente_cuil": "23-25185980-9",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163239248073",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: 67REZ8NPQ6Q156W494KVGO. CUIT destinatario: 30-71728225-2. CVU remitente: 0000003100008486765312. CVU destinatario: 0000155300000000000009977",
+        "_num": 1228,
+        "_fecha_carga": "18/06/2026 22:31",
+        "_origen": "grupo",
+        "_pie": "Roberto Sergio Lopez\nCUIT/CUIL: 23-25185980-9"
       }
     ],
     "errores": [],
