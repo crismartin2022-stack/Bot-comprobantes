@@ -55794,6 +55794,28 @@
         "_fecha_carga": "18/06/2026 20:59",
         "_origen": "grupo",
         "_pie": ""
+      },
+      {
+        "fecha": "06/06/2026",
+        "hora": "20:53",
+        "tipo": "TRF",
+        "monto": 25000.0,
+        "moneda": "ARS",
+        "remitente": "Cenobia Ines Soto",
+        "remitente_cuil": "27-17061710-5",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "162111140079",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: 46YGOW9M1Y3WO1DZNEXD8J. CVU destinatario: 0000155300000000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 568,
+        "_fecha_carga": "18/06/2026 21:00",
+        "_origen": "grupo",
+        "_pie": ""
       }
     ],
     "errores": [],
