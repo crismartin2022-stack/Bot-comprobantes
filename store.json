@@ -87396,6 +87396,28 @@
         "_fecha_carga": "19/06/2026 00:19",
         "_origen": "grupo",
         "_pie": "Berta coronel 34873685"
+      },
+      {
+        "fecha": "15/06/2026",
+        "hora": "20:41",
+        "tipo": "TRF",
+        "monto": 200000.0,
+        "moneda": "ARS",
+        "remitente": "Alexis Maximiliano Esteban",
+        "remitente_cuil": "20-44901626-3",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Naranja X",
+        "banco_destino": "Cuenta Virtual",
+        "referencia": "1LMP68NKVEY5K8LR2R7OEV",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CBU origen: 4530000800016540213330. CVU destino: 0000155300000000009977. CUIL destinatario: 30-71728225-2. Código de transacción adicional: 83db0c6a-6e07-4c25-81c2-d23f94522159",
+        "_num": 2002,
+        "_fecha_carga": "19/06/2026 00:19",
+        "_origen": "grupo",
+        "_pie": "Alexis Maximiliano Esteban \n20-44901626-3"
       }
     ],
     "errores": [],
