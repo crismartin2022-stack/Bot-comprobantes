@@ -87132,6 +87132,28 @@
         "_fecha_carga": "19/06/2026 00:17",
         "_origen": "grupo",
         "_pie": "Micaela Alexandra middea \n35.202.873"
+      },
+      {
+        "fecha": "14/06/2026",
+        "hora": "22:30",
+        "tipo": "TRF",
+        "monto": 1500000.0,
+        "moneda": "ARS",
+        "remitente": "Hernan Rodrigo Herrera",
+        "remitente_cuil": "",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Ualá",
+        "banco_destino": "",
+        "referencia": "Z6OLMDN3V376ZXDK2E7RQ5",
+        "concepto": "VAR",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CUIT destino: 30717282252. CBU destino completo: 0000155300000000009977",
+        "_num": 1990,
+        "_fecha_carga": "19/06/2026 00:17",
+        "_origen": "grupo",
+        "_pie": "Rodrigo herrera\n36.395.429"
       }
     ],
     "errores": [],
