@@ -65419,6 +65419,28 @@
         "_fecha_carga": "18/06/2026 21:59",
         "_origen": "grupo",
         "_pie": "Vega Romina Liz \n27343282481"
+      },
+      {
+        "fecha": "14/06/2026",
+        "hora": "22:07",
+        "tipo": "TRF",
+        "monto": 100000.0,
+        "moneda": "ARS",
+        "remitente": "Joana Giselle Luna",
+        "remitente_cuil": "27-36581218-2",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "164158268534",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: RD06ZO9WVR4W04OXN5GP7X. CUIT destinatario: 30-71728225-2. CVU remitente: 0000003100061274341145. CVU destinatario: 0000155300000000000009977",
+        "_num": 1005,
+        "_fecha_carga": "18/06/2026 21:59",
+        "_origen": "grupo",
+        "_pie": "Vega Gonzalo Simon \nCuil: 20-45436495-4"
       }
     ],
     "errores": [],
