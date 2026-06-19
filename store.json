@@ -55948,6 +55948,28 @@
         "_fecha_carga": "18/06/2026 21:00",
         "_origen": "grupo",
         "_pie": "Foto de Johanna Cáceres 💜"
+      },
+      {
+        "fecha": "13/06/2026",
+        "hora": "17:06",
+        "tipo": "TRF",
+        "monto": 50000.0,
+        "moneda": "ARS",
+        "remitente": "Florinda Adelina Ugas",
+        "remitente_cuil": "27-34642955-6",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163182626227",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: PDX4OGNYGPJDQ7GVN0L6EY. CUIT destinatario: 30-71728225-2. CVU destinatario completo: 0000155300000000000009977",
+        "_num": 575,
+        "_fecha_carga": "18/06/2026 21:00",
+        "_origen": "grupo",
+        "_pie": "Foto de Johanna Cáceres 💜"
       }
     ],
     "errores": [],
