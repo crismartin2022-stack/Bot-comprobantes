@@ -81421,6 +81421,28 @@
         "_fecha_carga": "18/06/2026 23:41",
         "_origen": "grupo",
         "_pie": "Shaka"
+      },
+      {
+        "fecha": "15/06/2026",
+        "hora": "22:33",
+        "tipo": "TRF",
+        "monto": 400000.0,
+        "moneda": "ARS",
+        "remitente": "Julio Gabriel Sanchez",
+        "remitente_cuil": "20-38309052-1",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Naranja X",
+        "banco_destino": "Cuenta Virtual",
+        "referencia": "86VRPQ2GML656R4L2GLY0M",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CBU origen: 4530000800017160376270. CVU destino: 0000155300000000009977. CUIL destinatario: 30-71728225-2. Código de transacción: 2b3ed872-9075-4798-831c-9a7875900bc6.",
+        "_num": 1731,
+        "_fecha_carga": "18/06/2026 23:41",
+        "_origen": "grupo",
+        "_pie": "A nombre de Julieta Rocío Gonzalez\nDNI:45.786.731"
       }
     ],
     "errores": [],
