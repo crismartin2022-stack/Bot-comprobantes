@@ -84573,6 +84573,28 @@
         "_fecha_carga": "19/06/2026 00:01",
         "_origen": "grupo",
         "_pie": "Abril Celeste Diaz\n46635498"
+      },
+      {
+        "fecha": "13/06/2026",
+        "hora": "17:35",
+        "tipo": "TRF",
+        "monto": 100000.0,
+        "moneda": "ARS",
+        "remitente": "Rodrigo Nicolas Nunez",
+        "remitente_cuil": "20-42404961-2",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163995725294",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: 1LMP68NKVE6ERW1R2R7OEV. CVU remitente: 0000003100007836497923. CVU destinatario: 0000155300000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 1874,
+        "_fecha_carga": "19/06/2026 00:01",
+        "_origen": "grupo",
+        "_pie": "Rodrigo Núñez \n42404961"
       }
     ],
     "errores": [],
