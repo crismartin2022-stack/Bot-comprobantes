@@ -71635,6 +71635,28 @@
         "_fecha_carga": "18/06/2026 22:39",
         "_origen": "grupo",
         "_pie": "De:\nNAIARA NAYME SORIA\nCUIT 27-45128328-1"
+      },
+      {
+        "fecha": "14/06/2026",
+        "hora": "19:10",
+        "tipo": "TRF",
+        "monto": 250000.0,
+        "moneda": "ARS",
+        "remitente": "NAIARA NAYME SORIA",
+        "remitente_cuil": "27-45128328-1",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Banco De Galicia S.A.U",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "42106524451",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "ID COELSA: 8D0Q619L0W3VK7L8N7JZ5R. CUIT destinatario: 30-71728225-2. CVU destinatario: 0000155300000000009977",
+        "_num": 1287,
+        "_fecha_carga": "18/06/2026 22:39",
+        "_origen": "grupo",
+        "_pie": "De:\nNAIARA NAYME SORIA\nCUIT 27-45128328-1"
       }
     ],
     "errores": [],
