@@ -50800,6 +50800,28 @@
         "_fecha_carga": "19/06/2026 20:38",
         "_origen": "grupo",
         "_pie": "Jessica Villarreal\nNaranja X\nCBU\n4530000800012937018061\nCUIL\n27-37435849-4"
+      },
+      {
+        "fecha": "16/06/2026",
+        "hora": "13:58",
+        "tipo": "TRF",
+        "monto": 50000.0,
+        "moneda": "ARS",
+        "remitente": "Maria Del Rosario Arroyo",
+        "remitente_cuil": "27-35504773-9",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Naranja X",
+        "banco_destino": "Cuenta Virtual",
+        "referencia": "",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CVU destinatario: 0000155300000000000009977. CBU origen: 4530000800015549900128. CUIL destinatario parcialmente tapado: 30-717282X.",
+        "_num": 320,
+        "_fecha_carga": "19/06/2026 20:38",
+        "_origen": "grupo",
+        "_pie": "Arroyo María 35504773"
       }
     ],
     "errores": [],
