@@ -78665,6 +78665,28 @@
         "_fecha_carga": "18/06/2026 23:23",
         "_origen": "grupo",
         "_pie": "Bruno Nicolas Robañera 23-40373367-9 $100.000"
+      },
+      {
+        "fecha": "12/06/2026",
+        "hora": "23:26",
+        "tipo": "TRF",
+        "monto": 27000.0,
+        "moneda": "ARS",
+        "remitente": "Gaston Cruz Moyano",
+        "remitente_cuil": "20-46306077-1",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163893954200",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: ORD6LEN8PYERZEQ4NM1Y30. CVU remitente: 0000003100011698422762. CVU destinatario: 0000155300000000000009977. CUIT destinatario: 30-71728225-2",
+        "_num": 1606,
+        "_fecha_carga": "18/06/2026 23:23",
+        "_origen": "grupo",
+        "_pie": "Gaston Cruz Moyano\n20-46306077-1"
       }
     ],
     "errores": [],
