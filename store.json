@@ -68703,6 +68703,28 @@
         "_fecha_carga": "18/06/2026 22:21",
         "_origen": "grupo",
         "_pie": "Quimey Candela Barrionuevo\nCUIT/CUIL: 27-46100684-7"
+      },
+      {
+        "fecha": "13/06/2026",
+        "hora": "21:04",
+        "tipo": "TRF",
+        "monto": 200000.0,
+        "moneda": "ARS",
+        "remitente": "Alan Javier Soto Sejas",
+        "remitente_cuil": "",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Ualá",
+        "banco_destino": "",
+        "referencia": "ORD6LEN8PY74LZVYNM1Y30",
+        "concepto": "VAR",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CUIT destino: 30717282252. CBU destino completo: 0000155300000000009977",
+        "_num": 1154,
+        "_fecha_carga": "18/06/2026 22:21",
+        "_origen": "grupo",
+        "_pie": ""
       }
     ],
     "errores": [],
