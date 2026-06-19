@@ -64847,6 +64847,28 @@
         "_fecha_carga": "18/06/2026 21:56",
         "_origen": "grupo",
         "_pie": ""
+      },
+      {
+        "fecha": "13/06/2026",
+        "hora": "21:20",
+        "tipo": "TRF",
+        "monto": 500000.27,
+        "moneda": "ARS",
+        "remitente": "Ezequiel Mauricio Lopez",
+        "remitente_cuil": "20-32279298-1",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163218725981",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación adicional: 3D5W612E6ZJG40LW2GXYVR. CUIL destinatario: 30-71728225-2. CVU destinatario: 0000155300000000009977.",
+        "_num": 979,
+        "_fecha_carga": "18/06/2026 21:56",
+        "_origen": "grupo",
+        "_pie": ""
       }
     ],
     "errores": [],
