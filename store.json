@@ -87860,6 +87860,28 @@
         "_fecha_carga": "19/06/2026 00:22",
         "_origen": "grupo",
         "_pie": "Maria Cecilia Cruz \n36.790.811"
+      },
+      {
+        "fecha": "15/06/2026",
+        "hora": "22:15",
+        "tipo": "TRF",
+        "monto": 25000.0,
+        "moneda": "ARS",
+        "remitente": "Marciana Martinez",
+        "remitente_cuil": "27-94752813-6",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "164308248114",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: 1LMP68NKVEYR1G5R2R7OEV. CVU remitente: 0000003100031879260165. CVU destinatario: 0000155300000000009977. CUIT destinatario: 30-71728225-2",
+        "_num": 2023,
+        "_fecha_carga": "19/06/2026 00:22",
+        "_origen": "grupo",
+        "_pie": "Marciana Martinez\nCUIT/CUIL: 27-94752813-6"
       }
     ],
     "errores": [],
