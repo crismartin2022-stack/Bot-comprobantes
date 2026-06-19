@@ -82235,6 +82235,28 @@
         "_fecha_carga": "18/06/2026 23:46",
         "_origen": "grupo",
         "_pie": "Mariela Anabel cepa Vazquez\n35284271"
+      },
+      {
+        "fecha": "14/06/2026",
+        "hora": "23:46",
+        "tipo": "TRF",
+        "monto": 20000.0,
+        "moneda": "ARS",
+        "remitente": "Araceli Sabrina Sajama",
+        "remitente_cuil": "27-41476867-4",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163354284957",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: 0V1JXON1LMRQQ36VNZ64EL. CUIT destinatario: 30-71728225-2. CVU destinatario: 0000155300000000000009977",
+        "_num": 1768,
+        "_fecha_carga": "18/06/2026 23:46",
+        "_origen": "grupo",
+        "_pie": "Federico Jofre 35200029"
       }
     ],
     "errores": [],
