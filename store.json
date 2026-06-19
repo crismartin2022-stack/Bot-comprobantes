@@ -53313,6 +53313,28 @@
         "_fecha_carga": "19/06/2026 20:54",
         "_origen": "grupo",
         "_pie": "Manuela Denisse santoro\n\n40284837"
+      },
+      {
+        "fecha": "15/06/2026",
+        "hora": "21:39",
+        "tipo": "TRF",
+        "monto": 180000.0,
+        "moneda": "ARS",
+        "remitente": "Walter Enrique Sayago",
+        "remitente_cuil": "23-40686774-9",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "164302505646",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: Z6OLMDN3V3Y4X1G62E7RQ5. CVU origen: 0000003100016398766099. CVU destino: 0000155300000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 434,
+        "_fecha_carga": "19/06/2026 20:55",
+        "_origen": "grupo",
+        "_pie": "Walter Enrique Sayago \n23-40686774-9"
       }
     ],
     "errores": [],
