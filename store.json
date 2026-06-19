@@ -73202,6 +73202,28 @@
         "_fecha_carga": "18/06/2026 22:49",
         "_origen": "grupo",
         "_pie": "Ramon Neris Villan\nNaranja X\n4530000800010452914699\n20-23230762-6"
+      },
+      {
+        "fecha": "14/06/2026",
+        "hora": "23:42",
+        "tipo": "TRF",
+        "monto": 50000.0,
+        "moneda": "ARS",
+        "remitente": "Lucas Roman Cardozo Zevallos",
+        "remitente_cuil": "20-47650455-5",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163353477675",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: Z4K6DVNOWYPV7GPM25J8LQ. CVU remitente: 0000003100027614740487. CVU destinatario: 0000155300000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 1358,
+        "_fecha_carga": "18/06/2026 22:49",
+        "_origen": "grupo",
+        "_pie": "Lucas Roman Cardozo Zevallos\nCUIT/CUIL: 20-47650455-5"
       }
     ],
     "errores": [],
