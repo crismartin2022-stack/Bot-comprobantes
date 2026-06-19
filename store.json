@@ -84529,6 +84529,28 @@
         "_fecha_carga": "19/06/2026 00:00",
         "_origen": "grupo",
         "_pie": "Sandra Benítez 34938433\nMega"
+      },
+      {
+        "fecha": "13/06/2026",
+        "hora": "16:39",
+        "tipo": "TRF",
+        "monto": 100000.0,
+        "moneda": "ARS",
+        "remitente": "Alan Daniel Zarza Lopez",
+        "remitente_cuil": "20-40007918-9",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163987321298",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: 0V1JXON1LM7Q806GNZ64EL. CUIT destinatario: 30-71728225-2. CVU destinatario: 0000155300000000000009977",
+        "_num": 1872,
+        "_fecha_carga": "19/06/2026 00:00",
+        "_origen": "grupo",
+        "_pie": "Alan Daniel Zarza Lopez \n40007918"
       }
     ],
     "errores": [],
