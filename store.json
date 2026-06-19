@@ -52233,6 +52233,28 @@
         "_fecha_carga": "19/06/2026 20:47",
         "_origen": "grupo",
         "_pie": "Soledad Fuentez 38374760"
+      },
+      {
+        "fecha": "14/06/2026",
+        "hora": "21:33",
+        "tipo": "TRF",
+        "monto": 300000.0,
+        "moneda": "ARS",
+        "remitente": "Lucas Jonatan Pomiglio",
+        "remitente_cuil": "20-41568721-5",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "164153723342",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: PDX4OGNYGP46DMVVN0L6EY. CVU origen (remitente): 0000003100099255920643. CVU destino (receptor): 0000155300000000009977.",
+        "_num": 385,
+        "_fecha_carga": "19/06/2026 20:47",
+        "_origen": "grupo",
+        "_pie": "Lucas Pomiglio: 20-41568721-5"
       }
     ],
     "errores": [],
