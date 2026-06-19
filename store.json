@@ -43496,6 +43496,28 @@
         "_fecha_carga": "19/06/2026 01:41",
         "_origen": "grupo",
         "_pie": "laura gisela garay 31363914\nZeus"
+      },
+      {
+        "fecha": "16/06/2026",
+        "hora": "19:14",
+        "tipo": "TRF",
+        "monto": 100000.0,
+        "moneda": "ARS",
+        "remitente": "Facundo Emanuel Barreto",
+        "remitente_cuil": "20-43789502-4",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Naranja X",
+        "banco_destino": "Cuenta Virtual",
+        "referencia": "Z4K6DVNOWYLQELG125J8LQ",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CVU destinatario: 0000155300000000009977. CUIL destinatario: 30-71728225-2. Código de transacción: 5b95852d-61a9-499c-b376-846ef1957d1c",
+        "_num": 1973,
+        "_fecha_carga": "19/06/2026 01:41",
+        "_origen": "grupo",
+        "_pie": "Facundo Emanuel Barreto 43789502"
       }
     ],
     "errores": [],
