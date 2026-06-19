@@ -83405,6 +83405,28 @@
         "_fecha_carga": "18/06/2026 23:53",
         "_origen": "grupo",
         "_pie": "Foto de 😎"
+      },
+      {
+        "fecha": "15/06/2026",
+        "hora": "17:00",
+        "tipo": "TRF",
+        "monto": 500000.0,
+        "moneda": "ARS",
+        "remitente": "Carlos Fernando Baissac Cayon",
+        "remitente_cuil": "20-39002466-6",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Naranja X",
+        "banco_destino": "Cuenta Virtual",
+        "referencia": "3D5W612E6MVEQ0XW2GXYVR",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CBU origen: 4530000800017167958187. CVU destino: 0000155300000000009977. CUIL destinatario: 30-71728225-2. Código de transacción: f8bac9a9-46b1-4c4e-9eb7-67b693f48427.",
+        "_num": 1821,
+        "_fecha_carga": "18/06/2026 23:53",
+        "_origen": "grupo",
+        "_pie": "Foto de 😎"
       }
     ],
     "errores": [],
