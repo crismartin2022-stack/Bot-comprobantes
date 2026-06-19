@@ -71833,6 +71833,28 @@
         "_fecha_carga": "18/06/2026 22:40",
         "_origen": "grupo",
         "_pie": "Nicolas Daniel Isleno\nNaranja X\n4530000800015520462883\n20-43810968-5"
+      },
+      {
+        "fecha": "14/06/2026",
+        "hora": "20:05",
+        "tipo": "TRF",
+        "monto": 250000.0,
+        "moneda": "ARS",
+        "remitente": "Porfiria Prieto Benitez",
+        "remitente_cuil": "27-92745431-4",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "0V1JXON1LMR081V3NZ64EL",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Número de operación de Mercado Pago: 164142697294. CVU remitente: 0000003100049511843852. CVU destinatario: 0000155300000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 1296,
+        "_fecha_carga": "18/06/2026 22:40",
+        "_origen": "grupo",
+        "_pie": "Porfiria Prieto Benitez\nCUIT/CUIL: 27-92745431-4"
       }
     ],
     "errores": [],
