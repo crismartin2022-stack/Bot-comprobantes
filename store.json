@@ -73951,6 +73951,28 @@
         "_fecha_carga": "18/06/2026 22:53",
         "_origen": "grupo",
         "_pie": ""
+      },
+      {
+        "fecha": "15/06/2026",
+        "hora": "15:41",
+        "tipo": "TRF",
+        "monto": 250000.0,
+        "moneda": "ARS",
+        "remitente": "BRENDA ANAHI CHAVEZ",
+        "remitente_cuil": "27-45999352-0",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Banco De Galicia S.A.U",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "42111943151",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "ID COELSA: 7L8GYKNX05E3JDRX2MPRZ5. CVU destinatario: 0000155300000000009977. CUIT destinatario: 30-71728225-2",
+        "_num": 1392,
+        "_fecha_carga": "18/06/2026 22:53",
+        "_origen": "grupo",
+        "_pie": "BRENDA ANAHI CHAVEZ\nCUIT 27-45999352-0"
       }
     ],
     "errores": [],
