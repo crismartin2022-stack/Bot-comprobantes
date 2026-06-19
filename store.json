@@ -78070,6 +78070,28 @@
         "_fecha_carga": "18/06/2026 23:19",
         "_origen": "grupo",
         "_pie": "Nahuel nicolas sosa\n47163862"
+      },
+      {
+        "fecha": "13/06/2026",
+        "hora": "11:50",
+        "tipo": "TRF",
+        "monto": 550000.0,
+        "moneda": "ARS",
+        "remitente": "Franco Daniel Cordoba",
+        "remitente_cuil": "20-36187831-1",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Naranja X",
+        "banco_destino": "Cuenta Virtual",
+        "referencia": "ORD6LEN8PYQEW3XPNM1Y30",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CBU origen: 4530000800012920239934. CVU destino: 0000155300000000009977. CUIL destinatario: 30-71728225-2. Código de transacción: a70ad682-b9a3-4091-a6aa-a34a2b564f2f",
+        "_num": 1579,
+        "_fecha_carga": "18/06/2026 23:19",
+        "_origen": "grupo",
+        "_pie": "Franco daniel cordoba\n36187831"
       }
     ],
     "errores": [],
