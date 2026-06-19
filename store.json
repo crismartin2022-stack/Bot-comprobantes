@@ -83582,6 +83582,28 @@
         "_fecha_carga": "18/06/2026 23:54",
         "_origen": "grupo",
         "_pie": "Elías Zárate \n43334956"
+      },
+      {
+        "fecha": "14/06/2026",
+        "hora": "17:25",
+        "tipo": "TRF",
+        "monto": 125000.0,
+        "moneda": "ARS",
+        "remitente": "Ruth Elizabeth Otazo",
+        "remitente_cuil": "27-37706588-9",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Naranja X",
+        "banco_destino": "Cuenta Virtual",
+        "referencia": "RD06ZO9WVR4V5YG7N5GP7X",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CBU origen: 4530000800012876099149. CVU destino: 0000155300000000009977. CUIL destinatario: 30-71728225-2. Código de transacción: 9257579d-d4d6-4662-aaf8-8bc34b561b76",
+        "_num": 1829,
+        "_fecha_carga": "18/06/2026 23:54",
+        "_origen": "grupo",
+        "_pie": "Ruth Otazo \n377065889 \nPlutonos"
       }
     ],
     "errores": [],
