@@ -88786,6 +88786,28 @@
         "_fecha_carga": "19/06/2026 00:27",
         "_origen": "grupo",
         "_pie": "Delia Carolina Ocampos Monges\nCUIT/CUIL: 27-95400070-8"
+      },
+      {
+        "fecha": "16/06/2026",
+        "hora": "00:19",
+        "tipo": "TRF",
+        "monto": 40000.0,
+        "moneda": "ARS",
+        "remitente": "Gregorio Fernandez Herrera",
+        "remitente_cuil": "20-92877016-9",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "164318972164",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: 67REZ8NPQ630W4G494KVGO. CVU remitente: 0000003100066428168210. CVU destinatario: 0000155300000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 2065,
+        "_fecha_carga": "19/06/2026 00:28",
+        "_origen": "grupo",
+        "_pie": "Gregorio Fernandez Herrera\nCUIT/CUIL: 20-92877016-9"
       }
     ],
     "errores": [],
