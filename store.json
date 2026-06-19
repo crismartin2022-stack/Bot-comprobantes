@@ -53467,6 +53467,28 @@
         "_fecha_carga": "19/06/2026 20:55",
         "_origen": "grupo",
         "_pie": "Manuela Denisse santoro\n\n40284837"
+      },
+      {
+        "fecha": "16/06/2026",
+        "hora": "15:03",
+        "tipo": "TRF",
+        "monto": 40000.0,
+        "moneda": "ARS",
+        "remitente": "Guadalupe Gomez",
+        "remitente_cuil": "27-39616957-1",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "164402096834",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: 67REZ8NPQ6D1ZKXR94KVGO. CVU remitente: 0000003100049637123517. CVU destinatario: 0000155300000000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 441,
+        "_fecha_carga": "19/06/2026 20:56",
+        "_origen": "grupo",
+        "_pie": "Guadalupe Gómez 39616957"
       }
     ],
     "errores": [],
