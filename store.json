@@ -59427,6 +59427,28 @@
         "_fecha_carga": "18/06/2026 21:23",
         "_origen": "grupo",
         "_pie": "Melany Viana \n38.048.882"
+      },
+      {
+        "fecha": "14/06/2026",
+        "hora": "21:35",
+        "tipo": "TRF",
+        "monto": 500000.0,
+        "moneda": "ARS",
+        "remitente": "Claudia Soledad Navarro",
+        "remitente_cuil": "27-32333234-2",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163341813165",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: JMQKYZ9QQVG6VQ5P9V50P3. CUIT destinatario: 30-71728225-2. CVU remitente: 0000003100008009790906. CVU destinatario: 0000155300000000000009977.",
+        "_num": 733,
+        "_fecha_carga": "18/06/2026 21:23",
+        "_origen": "grupo",
+        "_pie": "Claudia Navarro \n32.333.234"
       }
     ],
     "errores": [],
