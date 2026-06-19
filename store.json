@@ -48662,6 +48662,28 @@
         "_fecha_carga": "19/06/2026 20:23",
         "_origen": "grupo",
         "_pie": "Pedro Alberto Escobar\nDNI: 34.694.126"
+      },
+      {
+        "fecha": "15/06/2026",
+        "hora": "17:30",
+        "tipo": "TRF",
+        "monto": 500000.83,
+        "moneda": "ARS",
+        "remitente": "Cristian Abel Ceballos",
+        "remitente_cuil": "20-40528508-9",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163452786719",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: LMORZP908LYKKRMPNEGJ46. CVU origen: 0000003100070545848320. CVU destino: 0000155300000000009977. CUIT destinatario: 30-71228225-2",
+        "_num": 223,
+        "_fecha_carga": "19/06/2026 20:23",
+        "_origen": "grupo",
+        "_pie": "Cristian Abel Ceballos\nDNI: 40.528.508"
       }
     ],
     "errores": [],
