@@ -44739,6 +44739,28 @@
         "_fecha_carga": "19/06/2026 19:56",
         "_origen": "grupo",
         "_pie": "56 k (Tony90)\n*SASTEUP SRL*\n16/06\nDahyana Albarracín \n27-38002223-6"
+      },
+      {
+        "fecha": "16/06/2026",
+        "hora": "20:09",
+        "tipo": "TRF",
+        "monto": 500000.0,
+        "moneda": "ARS",
+        "remitente": "Cesar Enrique Paz",
+        "remitente_cuil": "20-31159691-9",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Ualá",
+        "banco_destino": "",
+        "referencia": "D4RO172VZQV84V1RNKJ3QE",
+        "concepto": "VAR",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CUIT destino: 30717282252. CBU destino completo: 0000155300000000009977",
+        "_num": 45,
+        "_fecha_carga": "19/06/2026 19:56",
+        "_origen": "grupo",
+        "_pie": "Buenas,  envío en total \n$ 1.000.000\n\n•500k (Tony90)\n• *Sasteup Srl*\n• 16/06\n•Cesar Enrique Paz\n•Cuil: 20-31159691-9\n\n•500k (Tony90)\n• *Sasteup Srl*\n• 16/06\n•Alvaro Gerardine Coria\n•Cuil: 20-41479775-0"
       }
     ],
     "errores": [],
