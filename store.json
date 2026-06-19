@@ -76134,6 +76134,28 @@
         "_fecha_carga": "18/06/2026 23:06",
         "_origen": "grupo",
         "_pie": "Mathias Federico Cardarelli\nCUIT/CUIL: 20-41334529-5\nMercado Pago\nCVU: 0000003100057784605992"
+      },
+      {
+        "fecha": "08/06/2026",
+        "hora": "14:30",
+        "tipo": "TRF",
+        "monto": 95000.0,
+        "moneda": "ARS",
+        "remitente": "Isabel Bulacio",
+        "remitente_cuil": "23-29741890-4",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163140273038",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: LOEJWV9JZPDDW1D82QMD0G. CUIT destinatario: 30-71728225-2. CVU remitente: 0000003100065762715687. CVU destinatario: 0000155300000000000009977",
+        "_num": 1491,
+        "_fecha_carga": "18/06/2026 23:07",
+        "_origen": "grupo",
+        "_pie": "Isabel Bulacio\n29741890\n500k bet30 multiskin"
       }
     ],
     "errores": [],
