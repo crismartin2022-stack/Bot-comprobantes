@@ -78973,6 +78973,28 @@
         "_fecha_carga": "18/06/2026 23:25",
         "_origen": "grupo",
         "_pie": "Ever kobs Benítez 20949070108"
+      },
+      {
+        "fecha": "13/06/2026",
+        "hora": "14:27",
+        "tipo": "TRF",
+        "monto": 50000.0,
+        "moneda": "ARS",
+        "remitente": "Juan Mateo Trosero",
+        "remitente_cuil": "20-42162406-3",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163157597791",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CUIT destinatario: 30-71728225-2. Código de identificación: 46YGOW9M1KJ63L4PNEXD8J. CVU remitente: 0000003100001396135952. CVU destinatario: 0000155300000000000009977",
+        "_num": 1620,
+        "_fecha_carga": "18/06/2026 23:25",
+        "_origen": "grupo",
+        "_pie": "TROSERO JUAN MATEO\nDNI: 42.162.406\n\n$50.000\nGANAMOS IO"
       }
     ],
     "errores": [],
