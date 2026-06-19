@@ -64803,6 +64803,28 @@
         "_fecha_carga": "18/06/2026 21:56",
         "_origen": "grupo",
         "_pie": ""
+      },
+      {
+        "fecha": "13/06/2026",
+        "hora": "20:14",
+        "tipo": "TRF",
+        "monto": 500000.25,
+        "moneda": "ARS",
+        "remitente": "Victor Roberto Taiguan",
+        "remitente_cuil": "20-21342026-8",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163212798223",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: JMQKYZ9QQVO800569V50P3. CVU remitente: 0000003100023599226884. CVU destinatario: 0000155300000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 977,
+        "_fecha_carga": "18/06/2026 21:56",
+        "_origen": "grupo",
+        "_pie": ""
       }
     ],
     "errores": [],
