@@ -76970,6 +76970,28 @@
         "_fecha_carga": "18/06/2026 23:12",
         "_origen": "grupo",
         "_pie": "Maria Noelia Aguero Villagran\nCUIT/CUIL: 27-32415051-5"
+      },
+      {
+        "fecha": "12/06/2026",
+        "hora": "18:25",
+        "tipo": "TRF",
+        "monto": 100000.0,
+        "moneda": "ARS",
+        "remitente": "Vanesa Esther Gomez",
+        "remitente_cuil": "27-28858313-2",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163843987376",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: WGRXJE27DYXVRMOPN7MYQL. CUIT destinatario: 30-71728225-2. CVU destinatario completo: 0000155300000000000009977",
+        "_num": 1529,
+        "_fecha_carga": "18/06/2026 23:12",
+        "_origen": "grupo",
+        "_pie": "Vanesa Esther Gomez\nCUIT/CUIL: 27-28858313-2"
       }
     ],
     "errores": [],
