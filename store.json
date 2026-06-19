@@ -66235,6 +66235,28 @@
         "_fecha_carga": "18/06/2026 22:04",
         "_origen": "grupo",
         "_pie": ""
+      },
+      {
+        "fecha": "15/06/2026",
+        "hora": "12:49",
+        "tipo": "TRF",
+        "monto": 150000.0,
+        "moneda": "ARS",
+        "remitente": "Lorena Patricia Nardoni",
+        "remitente_cuil": "27-24784481-9",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163412630509",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: WY7ZEPN6MKX0YGW42Q0M51. CUIT destinatario: 30-71728225-2. CVU receptor completo: 0000155300000000000009977",
+        "_num": 1042,
+        "_fecha_carga": "18/06/2026 22:04",
+        "_origen": "grupo",
+        "_pie": ""
       }
     ],
     "errores": [],
