@@ -53291,6 +53291,28 @@
         "_fecha_carga": "19/06/2026 20:54",
         "_origen": "grupo",
         "_pie": "Carlos Daniel silva \n\nDNI: 29.165.124"
+      },
+      {
+        "fecha": "16/06/2025",
+        "hora": "01:43",
+        "tipo": "TRF",
+        "monto": 30000.0,
+        "moneda": "ARS",
+        "remitente": "Manuela Denisse Santoro",
+        "remitente_cuil": "40284837",
+        "destinatario": "SASTEUP SRL",
+        "banco_origen": "Claro Pay",
+        "banco_destino": "",
+        "referencia": "WB260616.0143.C27947",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CVU remitente: 0000085700274028483703. Alias remitente: 2214.claropay. CUIT/CUIL destinatario: 30717282252. Cuenta destino alias: Lohas. N° operación COELSA: 3D5W612E6Z7MXJ8G2GXYVR",
+        "_num": 433,
+        "_fecha_carga": "19/06/2026 20:54",
+        "_origen": "grupo",
+        "_pie": "Manuela Denisse santoro\n\n40284837"
       }
     ],
     "errores": [],
