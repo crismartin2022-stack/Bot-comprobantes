@@ -72472,6 +72472,28 @@
         "_fecha_carga": "18/06/2026 22:44",
         "_origen": "grupo",
         "_pie": "nvía Obejero, Brenda Soledad\nCUIL/CUIT 27-43469178-3"
+      },
+      {
+        "fecha": "14/06/2026",
+        "hora": "21:33",
+        "tipo": "TRF",
+        "monto": 200000.0,
+        "moneda": "ARS",
+        "remitente": "Miguel Oscar Moyano",
+        "remitente_cuil": "20-14635683-5",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Naranja X",
+        "banco_destino": "Cuenta Virtual",
+        "referencia": "WGRXJE27DX64ROJON7MYQ L",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CBU origen: 4530000800013291842677. CVU destino: 0000155300000000009977. CUIL destinatario: 30-71728225-2. Código de transacción: 3c71bf73-2be5-4e40-8f29-f28ba6354b91",
+        "_num": 1325,
+        "_fecha_carga": "18/06/2026 22:44",
+        "_origen": "grupo",
+        "_pie": ""
       }
     ],
     "errores": [],
