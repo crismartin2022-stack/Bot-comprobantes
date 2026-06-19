@@ -89182,6 +89182,28 @@
         "_fecha_carga": "19/06/2026 00:30",
         "_origen": "grupo",
         "_pie": "Brenda Ailen Caceres\nCUIT/CUIL: 27-42836850-4"
+      },
+      {
+        "fecha": "15/06/2026",
+        "hora": "21:58",
+        "tipo": "TRF",
+        "monto": 100000.0,
+        "moneda": "ARS",
+        "remitente": "Leandro Fabian Gabela",
+        "remitente_cuil": "20-36728885-0",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "164304931558",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CVU remitente: 0000003100048749131739. CVU destinatario: 0000155300000000000009977. CUIT destinatario: 30-71728225-2. Código de identificación: 86VRPQ2GML6GWXKM2GLY0M",
+        "_num": 2083,
+        "_fecha_carga": "19/06/2026 00:30",
+        "_origen": "grupo",
+        "_pie": "Leandro Fabian Gabela\nCUIT/CUIL: 20-36728885-0"
       }
     ],
     "errores": [],
