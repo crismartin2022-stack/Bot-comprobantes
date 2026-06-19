@@ -76552,6 +76552,28 @@
         "_fecha_carga": "18/06/2026 23:09",
         "_origen": "grupo",
         "_pie": "LORENA FABIANA ARAVENA\nCUIT 27-40112079-9\nCA $ N° 4060086-5 031-1\nCuenta en Banco De Galicia S.A.U"
+      },
+      {
+        "fecha": "14/06/2026",
+        "hora": "01:49",
+        "tipo": "TRF",
+        "monto": 260800.0,
+        "moneda": "ARS",
+        "remitente": "Lorena Fabiana Aravena",
+        "remitente_cuil": "27-40112079-9",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Prex",
+        "banco_destino": "BANCO COINAG S.A.",
+        "referencia": "LMORZP908L856GL6NEGJ46",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CVU origen (Prex): 0000013000032390235515. CBU/CVU destino: 0000155300000000009977. CUIL destinatario: 30-71728225-2. ID COELSA usado como referencia.",
+        "_num": 1510,
+        "_fecha_carga": "18/06/2026 23:09",
+        "_origen": "grupo",
+        "_pie": "Lorena Fabiana Aravena\nPrex\nCUIL/CUIT\n27-40112079-9\nCVU\n0000013000032390235515"
       }
     ],
     "errores": [],
