@@ -43834,6 +43834,28 @@
         "_fecha_carga": "19/06/2026 19:50",
         "_origen": "grupo",
         "_pie": "Foto de CARLOS"
+      },
+      {
+        "fecha": "16/06/2026",
+        "hora": "13:53",
+        "tipo": "TRF",
+        "monto": 230000.0,
+        "moneda": "ARS",
+        "remitente": "Claudia Miriam Nunez",
+        "remitente_cuil": "27-27053081-3",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "164392852240",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: WGRXJE27DXVRWV7JN7MYQL. CVU remitente: 0000003100096149767287. CVU destinatario: 0000155300000000009977",
+        "_num": 4,
+        "_fecha_carga": "19/06/2026 19:50",
+        "_origen": "grupo",
+        "_pie": "Datos de la cuenta: Claudia Miriam nunez\nDni 27053081\nPlataforma: Pink\nUsuario: Redsol252"
       }
     ],
     "errores": [],
