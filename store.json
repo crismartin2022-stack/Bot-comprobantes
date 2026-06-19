@@ -84110,6 +84110,28 @@
         "_fecha_carga": "18/06/2026 23:58",
         "_origen": "grupo",
         "_pie": "100k (Tony90)\n*SASTEUP SRL*\n13/06\nOsvaldo Yandet\n20-24927095-5"
+      },
+      {
+        "fecha": "13/06/2026",
+        "hora": "15:40",
+        "tipo": "TRF",
+        "monto": 440000.0,
+        "moneda": "ARS",
+        "remitente": "Eleonora Magali Gallardo",
+        "remitente_cuil": "27-45534816-7",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "46YG0W9M1KJLXY3QNEXD8J",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Número de operación de Mercado Pago: 163169714443. CVU remitente: 0000003100087324989448. CVU destinatario: 0000155300000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 1853,
+        "_fecha_carga": "18/06/2026 23:58",
+        "_origen": "grupo",
+        "_pie": ""
       }
     ],
     "errores": [],
