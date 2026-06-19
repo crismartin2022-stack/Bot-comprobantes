@@ -73753,6 +73753,28 @@
         "_fecha_carga": "18/06/2026 22:52",
         "_origen": "grupo",
         "_pie": "Natalia Ailen Di Giorgio Suarez\nCUIT/CUIL: 27-47758744-0"
+      },
+      {
+        "fecha": "15/06/2026",
+        "hora": "12:46",
+        "tipo": "TRF",
+        "monto": 25000.0,
+        "moneda": "ARS",
+        "remitente": "Nicolas Daniel Isleno",
+        "remitente_cuil": "20-43810968-5",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163411762829",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: 76V4MR2Z74K34QZYNDEZOL. CUIT destinatario: 30-71728225-2. CVU remitente: 0000003100099687211036. CVU destinatario: 0000155300000000000009977",
+        "_num": 1383,
+        "_fecha_carga": "18/06/2026 22:52",
+        "_origen": "grupo",
+        "_pie": "Nicolas Daniel Isleno\nCUIT/CUIL: 20-43810968-5"
       }
     ],
     "errores": [],
