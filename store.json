@@ -48838,6 +48838,28 @@
         "_fecha_carga": "19/06/2026 20:24",
         "_origen": "grupo",
         "_pie": "GUSTAVO ALBERTO LUNA\nDNI : 23.921.890"
+      },
+      {
+        "fecha": "15/06/2026",
+        "hora": "23:03",
+        "tipo": "TRF",
+        "monto": 500000.91,
+        "moneda": "ARS",
+        "remitente": "Gustavo Alberto Luna",
+        "remitente_cuil": "20-23921890-4",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "164311573836",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: 0V1JXON1LME6E4RPNZ64EL. CVU origen: 0000003100000348778137. CVU destino: 0000155300000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 231,
+        "_fecha_carga": "19/06/2026 20:25",
+        "_origen": "grupo",
+        "_pie": "GUSTAVO ALBERTO LUNA\nDNI : 23.921.890"
       }
     ],
     "errores": [],
