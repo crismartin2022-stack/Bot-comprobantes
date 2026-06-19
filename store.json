@@ -88830,6 +88830,28 @@
         "_fecha_carga": "19/06/2026 00:28",
         "_origen": "grupo",
         "_pie": "Liliana Beatriz anrriquez \nDNI: 21.104.254"
+      },
+      {
+        "fecha": "16/06/2026",
+        "hora": "00:37",
+        "tipo": "TRF",
+        "monto": 100000.0,
+        "moneda": "ARS",
+        "remitente": "Alexis Rafael Gil",
+        "remitente_cuil": "20-35340420-3",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Naranja X",
+        "banco_destino": "Cuenta Virtual",
+        "referencia": "PDX4OGNYGP8QXGGQN0L6EY",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CBU origen: 4530000800012970507986. CVU destino: 0000155300000000009977. CUIL destinatario: 30-71728225-2. Código de transacción: f7dc4307-a336-40ac-a543-2291dc618a21",
+        "_num": 2067,
+        "_fecha_carga": "19/06/2026 00:28",
+        "_origen": "grupo",
+        "_pie": "Alexis Rafael Gil\nNaranja X\n4530000800012970507986\n20-35340420-3"
       }
     ],
     "errores": [],
