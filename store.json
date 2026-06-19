@@ -73885,6 +73885,28 @@
         "_fecha_carga": "18/06/2026 22:53",
         "_origen": "grupo",
         "_pie": "Liliana Beatriz anrriquez \nDNI: 21.104.254"
+      },
+      {
+        "fecha": "15/06/2026",
+        "hora": "15:38",
+        "tipo": "TRF",
+        "monto": 200000.0,
+        "moneda": "ARS",
+        "remitente": "Julieta Abigail Caballero",
+        "remitente_cuil": "27-47118920-6",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "164249623276",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: 3D5W612E6ZXQ706L2GXYVR. CVU remitente: 0000003100091123709022. CVU destinatario: 0000155300000000009977.",
+        "_num": 1389,
+        "_fecha_carga": "18/06/2026 22:53",
+        "_origen": "grupo",
+        "_pie": "Julieta Abigail Caballero\nCUIT/CUIL: 27-47118920-6"
       }
     ],
     "errores": [],
