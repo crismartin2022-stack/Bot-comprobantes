@@ -48728,6 +48728,28 @@
         "_fecha_carga": "19/06/2026 20:24",
         "_origen": "grupo",
         "_pie": "Cesar Oscar Molina\nDNI: 35.808.130"
+      },
+      {
+        "fecha": "15/06/2026",
+        "hora": "18:22",
+        "tipo": "TRF",
+        "monto": 500000.86,
+        "moneda": "ARS",
+        "remitente": "Daniel Ricardo Bustamante",
+        "remitente_cuil": "20-29197299-4",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "164274018936",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: Z4K6DVNOWYRWKEG125J8LQ. CVU remitente: 0000003100098919558684. CVU destinatario: 0000155300000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 226,
+        "_fecha_carga": "19/06/2026 20:24",
+        "_origen": "grupo",
+        "_pie": "Daniel Ricardo Bustamante\nDNI: 29.197.299"
       }
     ],
     "errores": [],
