@@ -78356,6 +78356,28 @@
         "_fecha_carga": "18/06/2026 23:21",
         "_origen": "grupo",
         "_pie": "TROSERO JUAN MATEO\nDNI: 42.162.406\n\n$30.000\nVIRANET"
+      },
+      {
+        "fecha": "12/06/2026",
+        "hora": "18:31",
+        "tipo": "TRF",
+        "monto": 200000.0,
+        "moneda": "ARS",
+        "remitente": "Emiliano Gaston Castro",
+        "remitente_cuil": "",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Lemon",
+        "banco_destino": "CVU",
+        "referencia": "Z0KV87940PEVD45ENPEYDX",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CUIT destinatario: 30717282252. CBU destino: 0000155300000000009977. ID de la transacción: 9e519ae2-48c4-4134-a579-312828caf668. Comprobante generado por Lemon powered by Digifin.",
+        "_num": 1592,
+        "_fecha_carga": "18/06/2026 23:21",
+        "_origen": "grupo",
+        "_pie": "Emiliano Gaston Castro\nCUIL:20-46112894-8\n$200.000"
       }
     ],
     "errores": [],
