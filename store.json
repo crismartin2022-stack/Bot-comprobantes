@@ -68131,6 +68131,28 @@
         "_fecha_carga": "18/06/2026 22:17",
         "_origen": "grupo",
         "_pie": "Cesar Daniel Suarez\nCUIT/CUIL: 20-23937652-6"
+      },
+      {
+        "fecha": "13/06/2026",
+        "hora": "19:58",
+        "tipo": "TRF",
+        "monto": 500000.0,
+        "moneda": "ARS",
+        "remitente": "Juliana Ayelen Palavecino",
+        "remitente_cuil": "27-47337453-1",
+        "destinatario": "SASTEUP SRL",
+        "banco_origen": "Brubank",
+        "banco_destino": "",
+        "referencia": "1796427581",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Transferencia enviada a CVU. CUIT destinatario: 30-71728225-2. ID Operación: 26061600001515289062 84. Cuenta origen: Caja de ahorro en pesos.",
+        "_num": 1128,
+        "_fecha_carga": "18/06/2026 22:17",
+        "_origen": "grupo",
+        "_pie": ""
       }
     ],
     "errores": [],
