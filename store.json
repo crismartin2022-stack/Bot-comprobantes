@@ -65353,6 +65353,28 @@
         "_fecha_carga": "18/06/2026 21:59",
         "_origen": "grupo",
         "_pie": ""
+      },
+      {
+        "fecha": "14/06/2026",
+        "hora": "18:09",
+        "tipo": "TRF",
+        "monto": 1000000.0,
+        "moneda": "ARS",
+        "remitente": "Lopez, Antonia Rafaela",
+        "remitente_cuil": "27-18748624-1",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Personal Pay",
+        "banco_destino": "",
+        "referencia": "2742952747",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CoelsaID: 1LMP68NKVEK37MKP2R7OEV - Id Bancario. CBU/CVU destinatario: 0000155300000000009977",
+        "_num": 1002,
+        "_fecha_carga": "18/06/2026 21:59",
+        "_origen": "grupo",
+        "_pie": "Antonia Rafaela López\nDNI 18.748.624"
       }
     ],
     "errores": [],
