@@ -60662,6 +60662,28 @@
         "_fecha_carga": "18/06/2026 21:30",
         "_origen": "grupo",
         "_pie": "Julieta albarracin 39141833"
+      },
+      {
+        "fecha": "15/06/2026",
+        "hora": "11:38",
+        "tipo": "TRF",
+        "monto": 10000.0,
+        "moneda": "ARS",
+        "remitente": "Agostina Antonella Albarracin",
+        "remitente_cuil": "27-40434417-5",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163400042751",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: 46YGOW9M1KX3ZO5MNEXD8J. CVU remitente: 0000003100082204298865. CVU destinatario: 0000155300000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 789,
+        "_fecha_carga": "18/06/2026 21:30",
+        "_origen": "grupo",
+        "_pie": "Agostina Albarracín \n40.434.417"
       }
     ],
     "errores": [],
