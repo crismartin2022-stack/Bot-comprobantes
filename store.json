@@ -85898,6 +85898,28 @@
         "_fecha_carga": "19/06/2026 00:09",
         "_origen": "grupo",
         "_pie": ""
+      },
+      {
+        "fecha": "14/06/2026",
+        "hora": "18:30",
+        "tipo": "TRF",
+        "monto": 300000.0,
+        "moneda": "ARS",
+        "remitente": "Maria Daniela Saavedra",
+        "remitente_cuil": "27-38904616-2",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "164129945174",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: 3D5W612E6ZW7O74W2GXYVR. CUIT destinatario: 30-71728225-2. CVU destinatario completo: 0000155300000000000009977",
+        "_num": 1934,
+        "_fecha_carga": "19/06/2026 00:09",
+        "_origen": "grupo",
+        "_pie": ""
       }
     ],
     "errores": [],
