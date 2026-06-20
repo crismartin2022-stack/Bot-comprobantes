@@ -55036,6 +55036,28 @@
         "_fecha_carga": "19/06/2026 21:06",
         "_origen": "grupo",
         "_pie": "Marcos David Barboza Romero\nNaranja X\n4530000800014147075982\n20-42280652-1"
+      },
+      {
+        "fecha": "16/06/2026",
+        "hora": "19:13",
+        "tipo": "TRF",
+        "monto": 50000.0,
+        "moneda": "ARS",
+        "remitente": "Luis Alberto Martinez",
+        "remitente_cuil": "20-41920839-7",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163628929129",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: Z6OLMDN3V3Z07EYK2E7RQ5. CVU origen (remitente): 0000003100097933806399. CVU destino (receptor): 0000155300000000009977.",
+        "_num": 512,
+        "_fecha_carga": "19/06/2026 21:06",
+        "_origen": "grupo",
+        "_pie": "Luis Alberto Martinez\nCUIT/CUIL: 20-41920839-7"
       }
     ],
     "errores": [],
