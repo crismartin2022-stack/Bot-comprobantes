@@ -68301,6 +68301,28 @@
         "_fecha_carga": "20/06/2026 01:50",
         "_origen": "grupo",
         "_pie": ""
+      },
+      {
+        "fecha": "18/06/2026",
+        "hora": "22:22",
+        "tipo": "TRF",
+        "monto": 200000.0,
+        "moneda": "ARS",
+        "remitente": "Valeria Beatriz Peyronel",
+        "remitente_cuil": "27869054",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Ualá",
+        "banco_destino": "BILLETERA VIRTUAL",
+        "referencia": "1aad20c0-a8a9-d27c-76bd-a5f67135c131",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CBU del emisor: 3840200500000034110560. CUIT/CUIL del destinatario: 30-71728225-2. CVU destino completo: 0000155300000000009977. Comentario: Transferencia en pesos.",
+        "_num": 941,
+        "_fecha_carga": "20/06/2026 01:51",
+        "_origen": "grupo",
+        "_pie": "Valeria Peyronel\n27869054"
       }
     ],
     "errores": [],
