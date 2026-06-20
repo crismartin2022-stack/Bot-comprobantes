@@ -2975,6 +2975,28 @@
         "_fecha_carga": "19/06/2026 21:49",
         "_origen": "grupo",
         "_pie": "Micaela Garay CUIL MICA: 20-45786073-1"
+      },
+      {
+        "fecha": "18/06/2026",
+        "hora": "18:24",
+        "tipo": "TRF",
+        "monto": 300000.0,
+        "moneda": "ARS",
+        "remitente": "Claudia Beatriz Molina",
+        "remitente_cuil": "27-18565414-7",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "164751011928",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: R7ZG0QNDW14MKKLD9EXYPO. CVU origen: 0000003100052555678144. CVU destino: 0000155300000000000009977.",
+        "_num": 136,
+        "_fecha_carga": "19/06/2026 21:49",
+        "_origen": "grupo",
+        "_pie": "Claudia Beatriz Molina\nCUIT/CUIL: 27-18565414-7"
       }
     ],
     "errores": [],
