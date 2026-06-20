@@ -3747,6 +3747,28 @@
         "_fecha_carga": "19/06/2026 21:54",
         "_origen": "grupo",
         "_pie": "• De\nFiamma Antonella Cabrera\nCUIT/CUIL: 27-45287146-2"
+      },
+      {
+        "fecha": "18/06/2026",
+        "hora": "22:00",
+        "tipo": "TRF",
+        "monto": 100000.0,
+        "moneda": "ARS",
+        "remitente": "Gomez Fernandez Antonella Nahiara",
+        "remitente_cuil": "27-45929046-5",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163967271379",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: Z4K6DVNOWY0X4EPG25J8LQ. CVU origen: 0000003100015494402258. CVU destino: 0000155300000000009977. CUIT/CUIL destinatario: 30-71728225-2.",
+        "_num": 171,
+        "_fecha_carga": "19/06/2026 21:55",
+        "_origen": "grupo",
+        "_pie": "Gomez Fernandez Antonella Nahiara\nCUIT/CUIL: 27-45929046-5"
       }
     ],
     "errores": [],
