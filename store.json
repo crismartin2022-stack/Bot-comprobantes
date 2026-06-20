@@ -66183,6 +66183,28 @@
         "_fecha_carga": "20/06/2026 01:36",
         "_origen": "grupo",
         "_pie": "Brepe, Kevin Agustin\n20-42196385-2"
+      },
+      {
+        "fecha": "18/06/2026",
+        "hora": "21:48",
+        "tipo": "TRF",
+        "monto": 500000.0,
+        "moneda": "ARS",
+        "remitente": "Walter Daniel Arroyo",
+        "remitente_cuil": "20-29905401-3",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163965465731",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: LMORZP908L4YREV4NEGJ46. CVU origen: 0000003100002928152757. CVU destino: 0000155300000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 845,
+        "_fecha_carga": "20/06/2026 01:36",
+        "_origen": "grupo",
+        "_pie": "Walter Daniel Arroyo\nCUIT/CUIL: 20-29905401-3"
       }
     ],
     "errores": [],
