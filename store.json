@@ -66580,6 +66580,28 @@
         "_fecha_carga": "20/06/2026 01:39",
         "_origen": "grupo",
         "_pie": "Diego Luis Garcia\nCUIT/CUIL: 20-25809829-4"
+      },
+      {
+        "fecha": "18/06/2026",
+        "hora": "23:00",
+        "tipo": "TRF",
+        "monto": 500000.0,
+        "moneda": "ARS",
+        "remitente": "Librada Galeano",
+        "remitente_cuil": "27-13197885-0",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "164791946522",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: 67REZ8NPQ6J5WKDK94KVGO. CVU origen: 0000003100049733272221. CVU destino: 0000155300000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 863,
+        "_fecha_carga": "20/06/2026 01:39",
+        "_origen": "grupo",
+        "_pie": "Librada Galeano\nCUIT/CUIL: 27-13197885-0"
       }
     ],
     "errores": [],
