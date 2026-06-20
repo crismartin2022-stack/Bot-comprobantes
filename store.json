@@ -54263,6 +54263,28 @@
         "_fecha_carga": "19/06/2026 21:01",
         "_origen": "grupo",
         "_pie": "Garcia Blasco, Alex Nicolas\nCUIL/CUIT 23-45006462-9"
+      },
+      {
+        "fecha": "16/06/2026",
+        "hora": "15:01",
+        "tipo": "TRF",
+        "monto": 500000.0,
+        "moneda": "ARS",
+        "remitente": "Argañaraz, Clara Yolanda",
+        "remitente_cuil": "27-11587198-1",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Personal Pay",
+        "banco_destino": "",
+        "referencia": "2748830092",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CoelsaID: 8D0Q619L0WVYVXO3N7JZ5R - Id Bancario. CBU/CVU destinatario: 0000155300000000009977. CUIL destinatario: 30-71728225-2.",
+        "_num": 477,
+        "_fecha_carga": "19/06/2026 21:01",
+        "_origen": "grupo",
+        "_pie": "Argañaraz, Clara Yolanda\nCUIL/CUIT 27-11587198-1"
       }
     ],
     "errores": [],
