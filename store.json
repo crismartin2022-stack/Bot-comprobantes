@@ -54660,6 +54660,28 @@
         "_fecha_carga": "19/06/2026 21:03",
         "_origen": "grupo",
         "_pie": "Alan Gabriel Salvatierra\nCUIT/CUIL: 24-42055465-2"
+      },
+      {
+        "fecha": "16/06/2026",
+        "hora": "18:05",
+        "tipo": "TRF",
+        "monto": 500000.0,
+        "moneda": "ARS",
+        "remitente": "Albornoz, Nicolas Eduardo",
+        "remitente_cuil": "20-12580879-5",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Personal Pay",
+        "banco_destino": "",
+        "referencia": "2749255969",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CoelsaID: L18MKX9RXJGML60K9O6WYV - Id Bancario. CUIL/CUIT destinatario: 30-71728225-2. CBU/CVU destinatario: 00001553000000000009977",
+        "_num": 495,
+        "_fecha_carga": "19/06/2026 21:03",
+        "_origen": "grupo",
+        "_pie": "Albornoz, Nicolas Eduardo\nCUIL/CUIT 20-12580879-5"
       }
     ],
     "errores": [],
