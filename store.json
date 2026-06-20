@@ -55322,6 +55322,28 @@
         "_fecha_carga": "19/06/2026 21:08",
         "_origen": "grupo",
         "_pie": "Maximilano Ariel Martines\n20382859503"
+      },
+      {
+        "fecha": "16/06/2026",
+        "hora": "20:37",
+        "tipo": "TRF",
+        "monto": 250000.0,
+        "moneda": "ARS",
+        "remitente": "Maximiliano Ariel Martines",
+        "remitente_cuil": "20-38285950-3",
+        "destinatario": "SASTEUP SRL",
+        "banco_origen": "AstroPay",
+        "banco_destino": "",
+        "referencia": "6V1JKON1LMPD3RPVNZ64EL",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CVU remitente: 0000177505644009779391. CVU receptor: 0000155300000000009977. Alias receptor: cvu.977. CUIT/CUIL receptor: 30717282252.",
+        "_num": 525,
+        "_fecha_carga": "19/06/2026 21:08",
+        "_origen": "grupo",
+        "_pie": "Maximilano Ariel Martines\n20382859503"
       }
     ],
     "errores": [],
