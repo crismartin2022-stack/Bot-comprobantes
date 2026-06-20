@@ -3570,6 +3570,28 @@
         "_fecha_carga": "19/06/2026 21:53",
         "_origen": "grupo",
         "_pie": "Oscar Colman\nCUIT/CUIL: 20-34520266-9"
+      },
+      {
+        "fecha": "18/06/2026",
+        "hora": "18:57",
+        "tipo": "TRF",
+        "monto": 100000.0,
+        "moneda": "ARS",
+        "remitente": "Carolina Soraya Lopez",
+        "remitente_cuil": "27-25572398-2",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Naranja X",
+        "banco_destino": "Cuenta Virtual",
+        "referencia": "JMQKYZ9QQVZ33ZDQ9V50P3",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de transacción: 2cac69c2-5ce1-49dc-aac9-757ffe1d044e. CBU origen: 4530000800018419534461. CVU destino: 0000155300000000009977. CUIL destinatario: 30-71728225-2",
+        "_num": 163,
+        "_fecha_carga": "19/06/2026 21:53",
+        "_origen": "grupo",
+        "_pie": "Carolina Soraya López 25572398"
       }
     ],
     "errores": [],
