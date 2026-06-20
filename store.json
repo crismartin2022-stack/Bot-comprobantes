@@ -55587,6 +55587,28 @@
         "_fecha_carga": "19/06/2026 21:10",
         "_origen": "grupo",
         "_pie": "41782063\nTolaba rocio"
+      },
+      {
+        "fecha": "16/06/2026",
+        "hora": "21:41",
+        "tipo": "TRF",
+        "monto": 250000.0,
+        "moneda": "ARS",
+        "remitente": "Brenda Antonella Guzman",
+        "remitente_cuil": "27-44384065-1",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Naranja X",
+        "banco_destino": "Cuenta Virtual",
+        "referencia": "86VRPQ2GML8YKXR02GLY0M",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CBU origen: 4530000800014472415042. CVU destino: 0000155300000000009977. CUIL destinatario: 30-71728225-2. Código de transacción: ea9693cc-314f-4474-bf2e-b17fc76d60cc.",
+        "_num": 537,
+        "_fecha_carga": "19/06/2026 21:10",
+        "_origen": "grupo",
+        "_pie": "Brenda Antonella Guzman\nNaranja X\n4530000800014472415042\n27-44384065-1"
       }
     ],
     "errores": [],
