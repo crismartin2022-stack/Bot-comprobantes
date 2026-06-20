@@ -66403,6 +66403,28 @@
         "_fecha_carga": "20/06/2026 01:37",
         "_origen": "grupo",
         "_pie": "Luque Miguez, Ariadna Abigail\n27-48299541-7"
+      },
+      {
+        "fecha": "18/06/2026",
+        "hora": "22:43",
+        "tipo": "TRF",
+        "monto": 250000.0,
+        "moneda": "ARS",
+        "remitente": "Juan Ramon Lobo",
+        "remitente_cuil": "20-22357667-3",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "164789948682",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: L18MKX9RXJDE5D8V9O6WYV. CVU origen: 0000003100003162122256. CVU destino: 0000155300000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 855,
+        "_fecha_carga": "20/06/2026 01:38",
+        "_origen": "grupo",
+        "_pie": "Juan Ramón lobo \n20-22357667-3"
       }
     ],
     "errores": [],
