@@ -1016,6 +1016,28 @@
         "_fecha_carga": "19/06/2026 21:36",
         "_origen": "grupo",
         "_pie": "Sofía pilar Monteverde\n43142862"
+      },
+      {
+        "fecha": "18/06/2026",
+        "hora": "22:45",
+        "tipo": "TRF",
+        "monto": 200000.0,
+        "moneda": "ARS",
+        "remitente": "Marcia Marina Maria Moreira",
+        "remitente_cuil": "27-33645445-5",
+        "destinatario": "SASTEUP SRL",
+        "banco_origen": "AstroPay",
+        "banco_destino": "",
+        "referencia": "ORD6LEN8PY5KO3M0NM1Y30",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CVU remitente: 0000177500099256890321. CVU receptor: 0000155300000000009977. Alias receptor: cvu.977. CUIT/CUIL receptor: 30717282252.",
+        "_num": 47,
+        "_fecha_carga": "19/06/2026 21:36",
+        "_origen": "grupo",
+        "_pie": ""
       }
     ],
     "errores": [],
