@@ -65081,6 +65081,28 @@
         "_fecha_carga": "20/06/2026 01:29",
         "_origen": "grupo",
         "_pie": "Gonzalez, Sofía Morena\nCUIL/CUIT 27-48570072-8"
+      },
+      {
+        "fecha": "18/06/2026",
+        "hora": "15:13",
+        "tipo": "TRF",
+        "monto": 500000.0,
+        "moneda": "ARS",
+        "remitente": "Davalos, Lucas Ezequiel",
+        "remitente_cuil": "23-35724393-9",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Personal Pay",
+        "banco_destino": "",
+        "referencia": "2757790763",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CoelsaID: XJ8G7V95DW17WJXW9EMPYR - Id Bancario. CBU/CVU destinatario: 0000155300000000009977. CUIL destinatario (Sasteup Srl): 30-71728225-2.",
+        "_num": 795,
+        "_fecha_carga": "20/06/2026 01:29",
+        "_origen": "grupo",
+        "_pie": "Davalos, Lucas Ezequiel\nCUIL/CUIT 23-35724393-9"
       }
     ],
     "errores": [],
