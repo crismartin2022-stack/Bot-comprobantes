@@ -3416,6 +3416,28 @@
         "_fecha_carga": "19/06/2026 21:52",
         "_origen": "grupo",
         "_pie": "Fatima Alfonzo\nCUIT/CUIL: 27-95859382-7"
+      },
+      {
+        "fecha": "18/06/2026",
+        "hora": "20:29",
+        "tipo": "TRF",
+        "monto": 300000.0,
+        "moneda": "ARS",
+        "remitente": "Luciana Paula Panfili",
+        "remitente_cuil": "27-29459097-3",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Naranja X",
+        "banco_destino": "Cuenta Virtual",
+        "referencia": "LMORZP908L4KLLGRNEGJ46",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de transacción adicional: 856734da-dac8-4e7b-a588-fd0fde1d1530. CBU origen: 4530000800010893181801. CVU destino: 0000155300000000009977.",
+        "_num": 156,
+        "_fecha_carga": "19/06/2026 21:52",
+        "_origen": "grupo",
+        "_pie": "Luciana Paula Panfili\nNaranja X\n4530000800010893181801\n27-29459097-3"
       }
     ],
     "errores": [],
