@@ -56754,6 +56754,28 @@
         "_fecha_carga": "19/06/2026 21:18",
         "_origen": "grupo",
         "_pie": "46.916.089"
+      },
+      {
+        "fecha": "17/06/2026",
+        "hora": "18:48",
+        "tipo": "TRF",
+        "monto": 50000.0,
+        "moneda": "ARS",
+        "remitente": "Gomez Fernandez Antonella Nahiara",
+        "remitente_cuil": "27-45929046-5",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "164599953024",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: WY7ZEPN6MKGOYM8Q2Q0M51. CVU remitente: 0000003100015494402258. CVU destinatario: 0000155300000000009977.",
+        "_num": 590,
+        "_fecha_carga": "19/06/2026 21:18",
+        "_origen": "grupo",
+        "_pie": "Gomez Fernandez Antonella Nahiara\nCUIT/CUIL: 27-45929046-5"
       }
     ],
     "errores": [],
