@@ -55807,6 +55807,28 @@
         "_fecha_carga": "19/06/2026 21:11",
         "_origen": "grupo",
         "_pie": "Pablo Agustin Franco\nCUIT/CUIL: 20-42176164-8"
+      },
+      {
+        "fecha": "16/06/2026",
+        "hora": "22:43",
+        "tipo": "TRF",
+        "monto": 500000.0,
+        "moneda": "ARS",
+        "remitente": "Angelina Nair Coceres Cancelliere",
+        "remitente_cuil": "46819773",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Ualá",
+        "banco_destino": "LOHAS S.A.S.",
+        "referencia": "63969b69-f271-f3a8-ef02-f0ab6f796899",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CBU del emisor: 3840200500000041942417. CUIT/CUIL destino: 30-71728225-2. Comentario: Transferencia en pesos.",
+        "_num": 547,
+        "_fecha_carga": "19/06/2026 21:11",
+        "_origen": "grupo",
+        "_pie": "Angelina Nair Coceres\n46819773"
       }
     ],
     "errores": [],
