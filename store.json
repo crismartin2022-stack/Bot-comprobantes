@@ -6670,6 +6670,28 @@
         "_fecha_carga": "20/06/2026 20:38",
         "_origen": "grupo",
         "_pie": "39487347"
+      },
+      {
+        "fecha": "12/06/2026",
+        "hora": "13:51",
+        "tipo": "TRF",
+        "monto": 500000.0,
+        "moneda": "ARS",
+        "remitente": "Albornoz, Nicolas Eduardo",
+        "remitente_cuil": "20-12580879-5",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Personal Pay",
+        "banco_destino": "",
+        "referencia": "2737650203",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CoelsaID: WY7ZEPN6M4407W3Q2Q0M51 - Id Bancario. CBU/CVU destinatario: 00001553000000000009977. CUIL/CUIT destinatario: 30-71728225-2.",
+        "_num": 129,
+        "_fecha_carga": "20/06/2026 20:38",
+        "_origen": "grupo",
+        "_pie": "Albornoz, Nicolas Eduardo\nCUIL/CUIT 20-12580879-5"
       }
     ],
     "errores": [],
