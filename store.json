@@ -57018,6 +57018,28 @@
         "_fecha_carga": "19/06/2026 21:20",
         "_origen": "grupo",
         "_pie": "ALDANA ROCIO ORELLANA\n27418807860"
+      },
+      {
+        "fecha": "18/06/2026",
+        "hora": "00:22",
+        "tipo": "TRF",
+        "monto": 40000.0,
+        "moneda": "ARS",
+        "remitente": "Martina Analia Acosta",
+        "remitente_cuil": "27-44887309-4",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163824623397",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: 67REZ8NPQ6LXQMXK94KVGO. CVU origen: 0000003100056022040401. CVU destino: 0000155300000000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 602,
+        "_fecha_carga": "19/06/2026 21:20",
+        "_origen": "grupo",
+        "_pie": "Martina Analia Acosta\nCUIT/CUIL: 27-44887309-4"
       }
     ],
     "errores": [],
