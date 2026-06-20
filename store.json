@@ -2007,6 +2007,28 @@
         "_fecha_carga": "19/06/2026 21:43",
         "_origen": "grupo",
         "_pie": "Ezequiel Gustavo Diaz\n31719425"
+      },
+      {
+        "fecha": "17/06/2026",
+        "hora": "23:29",
+        "tipo": "TRF",
+        "monto": 16000.0,
+        "moneda": "ARS",
+        "remitente": "Maria Ines Rios",
+        "remitente_cuil": "27-25522019-0",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163820619265",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: D4RO172VZQMGXDE1NKJ3QE. CVU remitente: 0000003100042892532281. CVU destinatario: 0000155300000000009977.",
+        "_num": 92,
+        "_fecha_carga": "19/06/2026 21:43",
+        "_origen": "grupo",
+        "_pie": "María Inés Ríos \n25522019"
       }
     ],
     "errores": [],
