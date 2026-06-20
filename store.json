@@ -67971,6 +67971,28 @@
         "_fecha_carga": "20/06/2026 01:48",
         "_origen": "grupo",
         "_pie": "Yakelin Nahiara Silva - DNI 47.384.751"
+      },
+      {
+        "fecha": "18/06/2026",
+        "hora": "20:31",
+        "tipo": "TRF",
+        "monto": 800000.0,
+        "moneda": "ARS",
+        "remitente": "Yakelin Nahiara Silva",
+        "remitente_cuil": "27-47384751-0",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163955976817",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: 7L8GYKNX05QWWJ1W2MPRZ5. CVU origen: 0000003100098863045351. CVU destino: 0001553000000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 926,
+        "_fecha_carga": "20/06/2026 01:48",
+        "_origen": "grupo",
+        "_pie": "Hector bordón 26277873"
       }
     ],
     "errores": [],
