@@ -55146,6 +55146,28 @@
         "_fecha_carga": "19/06/2026 21:07",
         "_origen": "grupo",
         "_pie": "Medero, Marianela Alessandra\nCUIL/CUIT 27-47081108-6"
+      },
+      {
+        "fecha": "16/06/2026",
+        "hora": "23:35",
+        "tipo": "TRF",
+        "monto": 700000.0,
+        "moneda": "ARS",
+        "remitente": "Albornoz, Nicolas Eduardo",
+        "remitente_cuil": "20-12580879-5",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Personal Pay",
+        "banco_destino": "",
+        "referencia": "2750111071",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CoelsaID: JMQKYZ9QQE8O1G89V50P3 - Id Bancario. CUIL/CUIT del destinatario Sasteup Srl: 30-71728225-2. CBU/CVU completo del receptor: 00001553000000000009977",
+        "_num": 517,
+        "_fecha_carga": "19/06/2026 21:07",
+        "_origen": "grupo",
+        "_pie": "Albornoz, Nicolas Eduardo\nCUIL/CUIT 20-12580879-5"
       }
     ],
     "errores": [],
