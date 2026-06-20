@@ -48947,6 +48947,28 @@
         "_fecha_carga": "20/06/2026 13:47",
         "_origen": "grupo",
         "_pie": "Jorge Leonel Villalba \n45228847"
+      },
+      {
+        "fecha": "17/06/2026",
+        "hora": "00:55",
+        "tipo": "TRF",
+        "monto": 100000.0,
+        "moneda": "ARS",
+        "remitente": "Victoria Manso",
+        "remitente_cuil": "20-36575136-7",
+        "destinatario": "SASTEUP SRL",
+        "banco_origen": "AstroPay",
+        "banco_destino": "",
+        "referencia": "46YGOW9M1KE6D16ZNEXD8J",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CVU remitente: 0000177500093261994265. CVU receptor: 0000155300000000009977. Alias receptor: cvu.977. CUIT receptor: 30717282252.",
+        "_num": 63,
+        "_fecha_carga": "20/06/2026 13:47",
+        "_origen": "grupo",
+        "_pie": "Victoria manso 36575136"
       }
     ],
     "errores": [],
