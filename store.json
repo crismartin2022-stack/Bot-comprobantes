@@ -64883,6 +64883,28 @@
         "_fecha_carga": "20/06/2026 01:27",
         "_origen": "grupo",
         "_pie": "Jonatan Ezequiel Cataldi\nCUIT/CUIL: 20-33907722-4"
+      },
+      {
+        "fecha": "18/06/2026",
+        "hora": "16:01",
+        "tipo": "TRF",
+        "monto": 500001.0,
+        "moneda": "ARS",
+        "remitente": "Cristian Eduardo Ramirez",
+        "remitente_cuil": "20-30942047-1",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163913086645",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: D4RO172VZQDLJ1E0NKJ3QE. CVU origen (remitente): 0000003100019978279132. CVU destino (receptor): 0000155300000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 786,
+        "_fecha_carga": "20/06/2026 01:27",
+        "_origen": "grupo",
+        "_pie": "Cristian Ramírez \n30942047"
       }
     ],
     "errores": [],
