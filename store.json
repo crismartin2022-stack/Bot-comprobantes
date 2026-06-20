@@ -68478,6 +68478,28 @@
         "_fecha_carga": "20/06/2026 01:52",
         "_origen": "grupo",
         "_pie": "Bet30click"
+      },
+      {
+        "fecha": "18/06/2026",
+        "hora": "19:55",
+        "tipo": "TRF",
+        "monto": 20000.0,
+        "moneda": "ARS",
+        "remitente": "Valeria Del Valle Luna",
+        "remitente_cuil": "27-26759061-9",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163950606767",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: D4RO172VZQDQVG1VNKJ3QE. CVU origen (remitente): 0000003100085386041821. CVU destino (receptor): 0000155300000000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 949,
+        "_fecha_carga": "20/06/2026 01:52",
+        "_origen": "grupo",
+        "_pie": "Ganamos"
       }
     ],
     "errores": [],
