@@ -1677,6 +1677,28 @@
         "_fecha_carga": "19/06/2026 21:41",
         "_origen": "grupo",
         "_pie": "NORMA VALDEZ\n\nDNI: 24.702.213"
+      },
+      {
+        "fecha": "16/06/2026",
+        "hora": "19:10",
+        "tipo": "TRF",
+        "monto": 55000.0,
+        "moneda": "ARS",
+        "remitente": "Norma Beatriz Valdez",
+        "remitente_cuil": "27-24702213-4",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Naranja X",
+        "banco_destino": "Cuenta Virtual",
+        "referencia": "67REZ8NPQ6DO6E7P94KVGO",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CBU origen: 4530000800019937567043. CVU destino: 0000155300000000009977. Código de transacción: 88268a68-5559-4628-968f-22d044d9fbed. CUIL destinatario: 30-71728225-2.",
+        "_num": 77,
+        "_fecha_carga": "19/06/2026 21:41",
+        "_origen": "grupo",
+        "_pie": "NORMA VALDEZ\n\nDNI: 24.702.213"
       }
     ],
     "errores": [],
