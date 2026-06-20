@@ -3240,6 +3240,28 @@
         "_fecha_carga": "19/06/2026 21:51",
         "_origen": "grupo",
         "_pie": "ROLANDO ADRIAN MARTINEZ\nCUIT/CUIL: 20-40625278-8"
+      },
+      {
+        "fecha": "18/06/2026",
+        "hora": "19:56",
+        "tipo": "TRF",
+        "monto": 500000.0,
+        "moneda": "ARS",
+        "remitente": "Axel Matias Lopez",
+        "remitente_cuil": "20-38949607-4",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163949272071",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: 1LMP68NKVE4E5J4Z2R7OEV. CVU origen: 0000003100084389127510. CVU destino: 0000155300000000009977. CUIT/CUIL destinatario: 30-71728225-2.",
+        "_num": 148,
+        "_fecha_carga": "19/06/2026 21:51",
+        "_origen": "grupo",
+        "_pie": "Axel Matias Lopez\nCUIT/CUIL: 20-38949607-4"
       }
     ],
     "errores": [],
