@@ -55168,6 +55168,28 @@
         "_fecha_carga": "19/06/2026 21:07",
         "_origen": "grupo",
         "_pie": "Albornoz, Nicolas Eduardo\nCUIL/CUIT 20-12580879-5"
+      },
+      {
+        "fecha": "16/06/2026",
+        "hora": "19:48",
+        "tipo": "TRF",
+        "monto": 100000.0,
+        "moneda": "ARS",
+        "remitente": "Luis Alberto Martinez",
+        "remitente_cuil": "20-41920839-7",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "164449787454",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: 7L8GYKNX05DO7G4X2MPRZ5. CVU remitente: 0000003100097933806399. CVU destinatario: 0000155300000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 518,
+        "_fecha_carga": "19/06/2026 21:07",
+        "_origen": "grupo",
+        "_pie": "Luis Alberto Martinez\nCUIT/CUIL: 20-41920839-7"
       }
     ],
     "errores": [],
