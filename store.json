@@ -67573,6 +67573,28 @@
         "_fecha_carga": "20/06/2026 01:46",
         "_origen": "grupo",
         "_pie": "Tiara Alejandra Diaz\nPrex\nCUIL/CUIT\n23-44548822-4"
+      },
+      {
+        "fecha": "19/06/2026",
+        "hora": "00:50",
+        "tipo": "TRF",
+        "monto": 70000.0,
+        "moneda": "ARS",
+        "remitente": "Luis Alberto Martinez",
+        "remitente_cuil": "20-41920839-7",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "164800316402",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: Z6OLMDN3V351GY6X2E7RQ5. CVU origen: 0000003100097933806399. CVU destino: 0000155300000000009977",
+        "_num": 908,
+        "_fecha_carga": "20/06/2026 01:46",
+        "_origen": "grupo",
+        "_pie": "Luis Alberto Martinez\nCUIT/CUIL: 20-41920839-7"
       }
     ],
     "errores": [],
