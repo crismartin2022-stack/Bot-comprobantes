@@ -69072,6 +69072,28 @@
         "_fecha_carga": "20/06/2026 01:56",
         "_origen": "grupo",
         "_pie": "300 k (tony90)\n*Sasteup Srl*\n19/6\nAndres Gabriel Gerez \n20-32032599-5"
+      },
+      {
+        "fecha": "19/06/2026",
+        "hora": "13:24",
+        "tipo": "TRF",
+        "monto": 600000.0,
+        "moneda": "ARS",
+        "remitente": "Caballero, Julio Andres",
+        "remitente_cuil": "20-38660370-8",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Personal Pay",
+        "banco_destino": "",
+        "referencia": "2762061596",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CoelsaID: 3D5W612E6ZDDXV052GXYVR - Id Bancario. CBU/CVU destinatario: 0000155300000000009977. CUIL/CUIT destinatario: 30-71728225-2.",
+        "_num": 976,
+        "_fecha_carga": "20/06/2026 01:56",
+        "_origen": "grupo",
+        "_pie": "Envío en total \n$ 1.000.000\n\n•600k (Tony90)\n• *Sasteup Srl*\n• 19/06\n•Julio Andres Caballero\n•Cuil: 20-38660370-8\n\n•400k (Tony90)\n• *Sasteup Srl*\n• 19/06\n•Julio Andres Caballero\n•Cuil: 20-38660370-8"
       }
     ],
     "errores": [],
