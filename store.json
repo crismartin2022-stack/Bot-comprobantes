@@ -67749,6 +67749,28 @@
         "_fecha_carga": "20/06/2026 01:47",
         "_origen": "grupo",
         "_pie": "Eduardo Pérez 31598874"
+      },
+      {
+        "fecha": "19/06/2026",
+        "hora": "11:37",
+        "tipo": "TRF",
+        "monto": 25000.0,
+        "moneda": "ARS",
+        "remitente": "Mateo Lorenzo Ortiz",
+        "remitente_cuil": "20-44207704-6",
+        "destinatario": "SASTEUP SRL",
+        "banco_origen": "AstroPay",
+        "banco_destino": "",
+        "referencia": "WGRXJE27DX48O4RPN7MYQL",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CVU remitente: 0000177509829006714833. CVU receptor: 0000155300000000009977. CUIT/CUIL receptor (SASTEUP SRL): 30717282252.",
+        "_num": 916,
+        "_fecha_carga": "20/06/2026 01:47",
+        "_origen": "grupo",
+        "_pie": "Mateo Lorenzo Ortiz\n20442077046"
       }
     ],
     "errores": [],
