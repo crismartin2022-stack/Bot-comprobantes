@@ -708,6 +708,28 @@
         "_fecha_carga": "19/06/2026 21:34",
         "_origen": "grupo",
         "_pie": "oriana jular\n41712081\nbet91"
+      },
+      {
+        "fecha": "18/06/2026",
+        "hora": "17:07",
+        "tipo": "TRF",
+        "monto": 500000.0,
+        "moneda": "ARS",
+        "remitente": "Oriana Paola Jular",
+        "remitente_cuil": "27-41712081-0",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "164738547442",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: 0V1JXON1LM1XZVRGNZ64EL. CVU origen: 0000003100080067580044. CVU destino: 0000155300000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 33,
+        "_fecha_carga": "19/06/2026 21:34",
+        "_origen": "grupo",
+        "_pie": "Jorge Muñoz\n35710065"
       }
     ],
     "errores": [],
