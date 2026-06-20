@@ -3086,6 +3086,28 @@
         "_fecha_carga": "19/06/2026 21:50",
         "_origen": "grupo",
         "_pie": "Matias torres 32356439"
+      },
+      {
+        "fecha": "18/06/2026",
+        "hora": "19:16",
+        "tipo": "TRF",
+        "monto": 50000.0,
+        "moneda": "ARS",
+        "remitente": "Adrian Palma Feltes",
+        "remitente_cuil": "20-95324736-5",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "164761540452",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: Z6OLMDN3V31RZGKW2E7RQ5. CVU remitente: 0000003100027631277294. CVU destinatario: 0000155300000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 141,
+        "_fecha_carga": "19/06/2026 21:50",
+        "_origen": "grupo",
+        "_pie": "Adrian Palma Feltes\nCUIT/CUIL: 20-95324736-5"
       }
     ],
     "errores": [],
