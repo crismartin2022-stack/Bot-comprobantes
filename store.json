@@ -55454,6 +55454,28 @@
         "_fecha_carga": "19/06/2026 21:09",
         "_origen": "grupo",
         "_pie": "Roberto Sergio Lopez\nCUIT/CUIL: 23-25185980-9"
+      },
+      {
+        "fecha": "16/06/2026",
+        "hora": "21:39",
+        "tipo": "TRF",
+        "monto": 300000.0,
+        "moneda": "ARS",
+        "remitente": "Ibarrola, Renata Rosario",
+        "remitente_cuil": "27-47634715-2",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Personal Pay",
+        "banco_destino": "",
+        "referencia": "2749933272",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CoelsaID: WGRXJE27DX3V8WJPN7MYQL - Id Bancario. CUIL/CUIT destinatario: 30-71728225-2. CBU/CVU receptor: 00001553000000000009977",
+        "_num": 531,
+        "_fecha_carga": "19/06/2026 21:09",
+        "_origen": "grupo",
+        "_pie": "Ibarrola, Renata Rosario\nCUIL/CUIT 27-47634715-2"
       }
     ],
     "errores": [],
