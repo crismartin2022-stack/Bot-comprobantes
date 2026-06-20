@@ -66315,6 +66315,28 @@
         "_fecha_carga": "20/06/2026 01:37",
         "_origen": "grupo",
         "_pie": "María de Los Ángeles Rodríguez \n33711557879"
+      },
+      {
+        "fecha": "18/06/2026",
+        "hora": "22:25",
+        "tipo": "TRF",
+        "monto": 500000.0,
+        "moneda": "ARS",
+        "remitente": "Medero, Marianela Alessandra",
+        "remitente_cuil": "27-47081108-6",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Personal Pay",
+        "banco_destino": "",
+        "referencia": "2758859379",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CoelsaID: 1LMP68NKVE1ZRXWK2R7OEV - Id Bancario. CUIL/CUIT destinatario: 30-71728225-2. CBU/CVU destinatario: 0000155300000000009977",
+        "_num": 851,
+        "_fecha_carga": "20/06/2026 01:37",
+        "_origen": "grupo",
+        "_pie": "Medero, Marianela Alessandra\nCUIL/CUIT 27-47081108-6"
       }
     ],
     "errores": [],
