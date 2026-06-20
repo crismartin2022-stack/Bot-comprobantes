@@ -57194,6 +57194,28 @@
         "_fecha_carga": "19/06/2026 21:21",
         "_origen": "grupo",
         "_pie": "María De Los Angeles Vetta\nD.N.I 23.285.322"
+      },
+      {
+        "fecha": "18/06/2026",
+        "hora": "00:22",
+        "tipo": "TRF",
+        "monto": 500000.04,
+        "moneda": "ARS",
+        "remitente": "Samira Julieta Machado",
+        "remitente_cuil": "23-48056530-4",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "164640538004",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: Z6OLMDN3V3QMVMXY2E7RQ5. CVU remitente: 0000003100022019379216. CVU destinatario: 0000155300000000009977.",
+        "_num": 610,
+        "_fecha_carga": "19/06/2026 21:21",
+        "_origen": "grupo",
+        "_pie": "Samira Julieta Machado\nDNI 48056530"
       }
     ],
     "errores": [],
