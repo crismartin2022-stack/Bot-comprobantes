@@ -55476,6 +55476,28 @@
         "_fecha_carga": "19/06/2026 21:09",
         "_origen": "grupo",
         "_pie": "Ibarrola, Renata Rosario\nCUIL/CUIT 27-47634715-2"
+      },
+      {
+        "fecha": "16/06/2026",
+        "hora": "21:40",
+        "tipo": "TRF",
+        "monto": 300000.0,
+        "moneda": "ARS",
+        "remitente": "Panfili, Luciana Paula",
+        "remitente_cuil": "27-29459097-3",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Personal Pay",
+        "banco_destino": "",
+        "referencia": "2749935533",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CoelsaID: ORD6LEN8PYK0R3EGNM1Y30 - Id Bancario. CBU/CVU destinatario: 00001553000000000009977. CUIL/CUIT destinatario: 30-71728225-2.",
+        "_num": 532,
+        "_fecha_carga": "19/06/2026 21:09",
+        "_origen": "grupo",
+        "_pie": "Panfili, Luciana Paula\nCUIL/CUIT 27-29459097-3"
       }
     ],
     "errores": [],
