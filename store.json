@@ -57547,6 +57547,28 @@
         "_fecha_carga": "19/06/2026 21:23",
         "_origen": "grupo",
         "_pie": "Natalia Ailen Di Giorgio Suarez\nCUIT/CUIL: 27-47758744-0"
+      },
+      {
+        "fecha": "18/06/2026",
+        "hora": "00:28",
+        "tipo": "TRF",
+        "monto": 40000.0,
+        "moneda": "ARS",
+        "remitente": "Keila Nadine Indice",
+        "remitente_cuil": "27-46194282-8",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163825412559",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: Z6OLMDN3V3QMJOV52E7RQ5. CVU remitente: 0000003100081674132916. CVU destinatario: 0000155300000000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 626,
+        "_fecha_carga": "19/06/2026 21:24",
+        "_origen": "grupo",
+        "_pie": "Keila Nadine Indice\nCUIT/CUIL: 27-46194282-8"
       }
     ],
     "errores": [],
