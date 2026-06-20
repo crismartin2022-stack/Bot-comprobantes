@@ -58141,6 +58141,28 @@
         "_fecha_carga": "19/06/2026 21:28",
         "_origen": "grupo",
         "_pie": "Jonathan gaston corvalan 46.651.553 \n\n250 zeus"
+      },
+      {
+        "fecha": "17/06/2026",
+        "hora": "22:59",
+        "tipo": "TRF",
+        "monto": 85000.0,
+        "moneda": "ARS",
+        "remitente": "Natali Soledad Acosta",
+        "remitente_cuil": "35902877",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Lemon",
+        "banco_destino": "CVU",
+        "referencia": "JMQKYZ9QQV8XRJKP9V50P3",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CUIT del destinatario: 30717282252. CBU destino: 0000155300000000009977. ID de la transacción: 445815be-4409-4fa3-8a33-5e4ade78da51. Comprobante emitido por Lemon (Powered by Digifin).",
+        "_num": 653,
+        "_fecha_carga": "19/06/2026 21:28",
+        "_origen": "grupo",
+        "_pie": "Acosta natali \n35902877"
       }
     ],
     "errores": [],
