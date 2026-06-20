@@ -56490,6 +56490,28 @@
         "_fecha_carga": "19/06/2026 21:16",
         "_origen": "grupo",
         "_pie": "Berta coronel 34873685"
+      },
+      {
+        "fecha": "17/06/2026",
+        "hora": "09:43",
+        "tipo": "TRF",
+        "monto": 250000.0,
+        "moneda": "ARS",
+        "remitente": "Katherine Priscila Vargas",
+        "remitente_cuil": "27-43975866-5",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "164516241478",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: 8D0Q619L0W5XQ5P3N7JZ5R. CVU remitente: 0000003100051243509760. CVU destinatario: 0000155300000000009977",
+        "_num": 578,
+        "_fecha_carga": "19/06/2026 21:16",
+        "_origen": "grupo",
+        "_pie": "Katherine Priscila Vargas\nCUIT/CUIL: 27-43975866-5"
       }
     ],
     "errores": [],
