@@ -66249,6 +66249,28 @@
         "_fecha_carga": "20/06/2026 01:36",
         "_origen": "grupo",
         "_pie": "Jonathan Daniel Segovia \n47678975"
+      },
+      {
+        "fecha": "18/06/2026",
+        "hora": "21:54",
+        "tipo": "TRF",
+        "monto": 200001.0,
+        "moneda": "ARS",
+        "remitente": "Leonardo Ariel Aguirre",
+        "remitente_cuil": "20-25795836-2",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163967081043",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: 0V1JXON1LM5YYDR3NZ64EL. CVU origen: 0000003100000832706576. CVU destino: 0000155300000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 848,
+        "_fecha_carga": "20/06/2026 01:36",
+        "_origen": "grupo",
+        "_pie": "Leonardo Ariel Aguirre\nCUIT/CUIL: 20-25795836-2"
       }
     ],
     "errores": [],
