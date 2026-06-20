@@ -68037,6 +68037,28 @@
         "_fecha_carga": "20/06/2026 01:49",
         "_origen": "grupo",
         "_pie": "Anabella Fernández \nDNI 45.527.187"
+      },
+      {
+        "fecha": "18/06/2026",
+        "hora": "23:41",
+        "tipo": "TRF",
+        "monto": 30000.0,
+        "moneda": "ARS",
+        "remitente": "Cristian Gabriel Godoy",
+        "remitente_cuil": "20-38839812-5",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "164794527374",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: 67REZ8NPQ6JZREPR94KVGO. CVU origen (remitente): 0000003100068813459558. CVU destino (receptor): 0000155300000000000009977.",
+        "_num": 929,
+        "_fecha_carga": "20/06/2026 01:49",
+        "_origen": "grupo",
+        "_pie": "Franco Benítez \nDNI 42.005.044"
       }
     ],
     "errores": [],
