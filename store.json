@@ -2601,6 +2601,28 @@
         "_fecha_carga": "19/06/2026 21:47",
         "_origen": "grupo",
         "_pie": "Tiara Alejandra Diaz\nPrex\nCUIL/CUIT\n23-44548822-4"
+      },
+      {
+        "fecha": "18/06/2026",
+        "hora": "15:30",
+        "tipo": "TRF",
+        "monto": 200000.0,
+        "moneda": "ARS",
+        "remitente": "Jonatan Ezequiel Cataldi",
+        "remitente_cuil": "20-33907722-4",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163907557831",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: Z6OLMDN3V31J04D62E7RQ5. CVU origen: 0000003100087944932635. CVU destino: 0000155300000000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 119,
+        "_fecha_carga": "19/06/2026 21:47",
+        "_origen": "grupo",
+        "_pie": "Jonatan Ezequiel Cataldi\nCUIT/CUIL: 20-33907722-4"
       }
     ],
     "errores": [],
