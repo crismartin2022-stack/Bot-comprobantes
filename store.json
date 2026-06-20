@@ -67993,6 +67993,28 @@
         "_fecha_carga": "20/06/2026 01:48",
         "_origen": "grupo",
         "_pie": "Hector bordón 26277873"
+      },
+      {
+        "fecha": "18/06/2026",
+        "hora": "23:29",
+        "tipo": "TRF",
+        "monto": 300000.0,
+        "moneda": "ARS",
+        "remitente": "Rolando Daniel Bordon",
+        "remitente_cuil": "20-30987195-3",
+        "destinatario": "SASTEUP SRL",
+        "banco_origen": "Brubank",
+        "banco_destino": "",
+        "referencia": "",
+        "concepto": "Caja de ahorro en pesos",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CVU destino: 0000155300000000009977. CUIT/CUIL del destinatario: 30-71728225-2. Transferencia enviada desde cuenta Brubank de Rolando Daniel Bordon hacia SASTEUP SRL.",
+        "_num": 927,
+        "_fecha_carga": "20/06/2026 01:48",
+        "_origen": "grupo",
+        "_pie": "Cristian Godoy 38839812"
       }
     ],
     "errores": [],
