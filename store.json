@@ -68279,6 +68279,28 @@
         "_fecha_carga": "20/06/2026 01:50",
         "_origen": "grupo",
         "_pie": "Balletbo Blanca 23690212"
+      },
+      {
+        "fecha": "19/06/2026",
+        "hora": "13:23",
+        "tipo": "TRF",
+        "monto": 50000.0,
+        "moneda": "ARS",
+        "remitente": "Jorge Alberto Kowalczuk",
+        "remitente_cuil": "23-31895635-9",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "164049993741",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: 86VRPQ2GMLGGXDRY2GLY0M. CVU origen: 0000003100070052871378. CVU destino: 0000155300000000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 940,
+        "_fecha_carga": "20/06/2026 01:50",
+        "_origen": "grupo",
+        "_pie": ""
       }
     ],
     "errores": [],
