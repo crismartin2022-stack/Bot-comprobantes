@@ -2469,6 +2469,28 @@
         "_fecha_carga": "19/06/2026 21:46",
         "_origen": "grupo",
         "_pie": "Fernando Javier Morinigo Rodriguez\nCUIT/CUIL: 20-94692255-3"
+      },
+      {
+        "fecha": "18/06/2026",
+        "hora": "14:28",
+        "tipo": "TRF",
+        "monto": 500000.0,
+        "moneda": "ARS",
+        "remitente": "Garcia, Joaquin Santiago",
+        "remitente_cuil": "20-43263545-8",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Personal Pay",
+        "banco_destino": "",
+        "referencia": "2757697448",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CoelsaID: Z0KV87940E1847GJNPEYDX - Id Bancario. CUIL/CUIT del destinatario: 30-71728225-2. CBU/CVU destinatario: 0000155300000000009977",
+        "_num": 113,
+        "_fecha_carga": "19/06/2026 21:46",
+        "_origen": "grupo",
+        "_pie": "Garcia, Joaquin Santiago\n20-43263545-8"
       }
     ],
     "errores": [],
