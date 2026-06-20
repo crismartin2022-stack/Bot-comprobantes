@@ -642,6 +642,28 @@
         "_fecha_carga": "19/06/2026 21:34",
         "_origen": "grupo",
         "_pie": "García Mario Ariel \nDNI 27098067"
+      },
+      {
+        "fecha": "16/06/2026",
+        "hora": "11:04",
+        "tipo": "TRF",
+        "monto": 120000.0,
+        "moneda": "ARS",
+        "remitente": "Mario Ariel Garcia",
+        "remitente_cuil": "20-27098067-9",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "164361714038",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: WGRXJE27DXVLRDPEN7MYQL. CVU origen (remitente): 0000003100048215704683. CVU destino (receptor): 0000155300000000000009977",
+        "_num": 30,
+        "_fecha_carga": "19/06/2026 21:34",
+        "_origen": "grupo",
+        "_pie": "Estefania garayoa \n38.441.538"
       }
     ],
     "errores": [],
