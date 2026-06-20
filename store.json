@@ -55190,6 +55190,28 @@
         "_fecha_carga": "19/06/2026 21:07",
         "_origen": "grupo",
         "_pie": "Luis Alberto Martinez\nCUIT/CUIL: 20-41920839-7"
+      },
+      {
+        "fecha": "16/06/2026",
+        "hora": "19:57",
+        "tipo": "TRF",
+        "monto": 200001.0,
+        "moneda": "ARS",
+        "remitente": "Leonardo Ariel Aguirre",
+        "remitente_cuil": "20-25795836-2",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163638344233",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: LOEJWV9JZ3O3OW5Z2QMD0G. CVU origen (remitente): 0000003100000832706576. CVU destino (receptor): 0000155300000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 519,
+        "_fecha_carga": "19/06/2026 21:07",
+        "_origen": "grupo",
+        "_pie": "Leonardo Ariel Aguirre\nCUIT/CUIL: 20-25795836-2"
       }
     ],
     "errores": [],
