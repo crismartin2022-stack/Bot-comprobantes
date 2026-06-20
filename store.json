@@ -2909,6 +2909,28 @@
         "_fecha_carga": "19/06/2026 21:49",
         "_origen": "grupo",
         "_pie": "Pablo Scotta\nNaranja X\n4530000800010375412485\n20-46307447-0"
+      },
+      {
+        "fecha": "18/06/2026",
+        "hora": "18:08",
+        "tipo": "TRF",
+        "monto": 90000.0,
+        "moneda": "ARS",
+        "remitente": "Lucas Roman Cardozo Zevallos",
+        "remitente_cuil": "20-47650455-5",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "164750026236",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: Z4K6DVNOWY40ZW8K25J8LQ. CVU origen: 0000003100027614740487. CVU destino: 0000155300000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 133,
+        "_fecha_carga": "19/06/2026 21:49",
+        "_origen": "grupo",
+        "_pie": "Lucas Roman Cardozo Zevallos\nCUIT/CUIL: 20-47650455-5"
       }
     ],
     "errores": [],
