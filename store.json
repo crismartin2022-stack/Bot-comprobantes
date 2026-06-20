@@ -54704,6 +54704,28 @@
         "_fecha_carga": "19/06/2026 21:04",
         "_origen": "grupo",
         "_pie": "Nicole Arami Ayala Arce\nCUIT/CUIL: 27-94792396-5"
+      },
+      {
+        "fecha": "16/06/2026",
+        "hora": "16:44",
+        "tipo": "TRF",
+        "monto": 200000.0,
+        "moneda": "ARS",
+        "remitente": "Joel Agustin Aguirre",
+        "remitente_cuil": "20-44216696-0",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "WY7ZEPN6MKJOKG4W2Q0M51",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Número de operación de Mercado Pago: 164416692880. Código de identificación: WY7ZEPN6MKJOKG4W2Q0M51",
+        "_num": 497,
+        "_fecha_carga": "19/06/2026 21:04",
+        "_origen": "grupo",
+        "_pie": "María de Los Ángeles Rodríguez \n33711557879"
       }
     ],
     "errores": [],
