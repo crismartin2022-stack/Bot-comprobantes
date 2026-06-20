@@ -63408,6 +63408,28 @@
         "_fecha_carga": "20/06/2026 01:17",
         "_origen": "grupo",
         "_pie": "Karina Gomez \n27-27028821-4"
+      },
+      {
+        "fecha": "17/06/2026",
+        "hora": "14:39",
+        "tipo": "TRF",
+        "monto": 30000.0,
+        "moneda": "ARS",
+        "remitente": "Valeria Isabel Bravo",
+        "remitente_cuil": "27-31012993-9",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "164562318764",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: 67REZ8NPQ658WKYK94KVGO. CVU remitente: 0000003100065876184962. CVU destinatario: 0000155300000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 719,
+        "_fecha_carga": "20/06/2026 01:17",
+        "_origen": "grupo",
+        "_pie": "Valeria bravo \n27-31012993-9"
       }
     ],
     "errores": [],
