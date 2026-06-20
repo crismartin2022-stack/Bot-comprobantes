@@ -66073,6 +66073,28 @@
         "_fecha_carga": "20/06/2026 01:35",
         "_origen": "grupo",
         "_pie": "Albornoz, Nicolas Eduardo\nCUIL/CUIT 20-12580879-5"
+      },
+      {
+        "fecha": "18/06/2026",
+        "hora": "22:40",
+        "tipo": "TRF",
+        "monto": 270000.0,
+        "moneda": "ARS",
+        "remitente": "Luque Miguez, Ariadna Abigail",
+        "remitente_cuil": "27-48299541-7",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Personal Pay",
+        "banco_destino": "",
+        "referencia": "2758888531",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CoelsaID: 1LMP68NKVE17ZKJK2R7OEV - Id Bancario. CUIL/CUIT del destinatario (Sasteup Srl): 30-71728225-2. CBU/CVU del receptor: 0000155300000000009977.",
+        "_num": 840,
+        "_fecha_carga": "20/06/2026 01:35",
+        "_origen": "grupo",
+        "_pie": "Luque Miguez, Ariadna Abigail\n27-48299541-7"
       }
     ],
     "errores": [],
