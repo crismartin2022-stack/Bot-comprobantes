@@ -1522,6 +1522,28 @@
         "_fecha_carga": "19/06/2026 21:39",
         "_origen": "grupo",
         "_pie": "Vanesa adan         dni: 33114770"
+      },
+      {
+        "fecha": "16/06/2026",
+        "hora": "14:56",
+        "tipo": "TRF",
+        "monto": 100000.0,
+        "moneda": "ARS",
+        "remitente": "Vanesa Alejandra Adan",
+        "remitente_cuil": "27-33114770-8",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Naranja X",
+        "banco_destino": "Cuenta Virtual",
+        "referencia": "R7ZG0QNDW160JODG9EXYPO",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de transacción adicional: 504ebde6-b97e-4097-8034-912b16fce4a6. CBU origen: 4530000800015889815832. CVU destino: 0000155300000000009977.",
+        "_num": 70,
+        "_fecha_carga": "19/06/2026 21:40",
+        "_origen": "grupo",
+        "_pie": "Vanesa adan         dni: 33114770"
       }
     ],
     "errores": [],
