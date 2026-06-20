@@ -1897,6 +1897,28 @@
         "_fecha_carga": "19/06/2026 21:42",
         "_origen": "grupo",
         "_pie": "Juan marcelo villalba DNI 26698713"
+      },
+      {
+        "fecha": "17/06/2026",
+        "hora": "14:29",
+        "tipo": "TRF",
+        "monto": 500000.0,
+        "moneda": "ARS",
+        "remitente": "Andres Ezequiel Zapata",
+        "remitente_cuil": "20-35652442-0",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Naranja X",
+        "banco_destino": "Cuenta Virtual",
+        "referencia": "7L8GYKNX05XQQ5ZO2MPRZ5",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de transacción: 37364320-18a0-4b8e-989b-ac0ca994ee2c. CBU origen: 4530000800010147408397. CVU destino: 0000155300000000009977. CUIL destinatario: 30-71728225-2.",
+        "_num": 87,
+        "_fecha_carga": "19/06/2026 21:42",
+        "_origen": "grupo",
+        "_pie": "Andres zapata 35652442"
       }
     ],
     "errores": [],
