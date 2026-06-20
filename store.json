@@ -68940,6 +68940,28 @@
         "_fecha_carga": "20/06/2026 01:55",
         "_origen": "grupo",
         "_pie": "Liliana Beatriz Hermoso DNI: 16208070"
+      },
+      {
+        "fecha": "18/06/2026",
+        "hora": "17:39",
+        "tipo": "TRF",
+        "monto": 300000.0,
+        "moneda": "ARS",
+        "remitente": "Hernan Ariel Alvarenga",
+        "remitente_cuil": "23-37790603-9",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163926797495",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: 67REZ8NPQ64LPJYP94KVGO. CVU remitente: 0000003100071435925862. CVU destinatario: 0000155300000000009977",
+        "_num": 970,
+        "_fecha_carga": "20/06/2026 01:55",
+        "_origen": "grupo",
+        "_pie": "Buenas \n\n300 k (Tony90) \n*Sasteup Srl* \n18/6 \nHernán Ariel Alvarenga \n23-37790603-9"
       }
     ],
     "errores": [],
