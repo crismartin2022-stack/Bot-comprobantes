@@ -66359,6 +66359,28 @@
         "_fecha_carga": "20/06/2026 01:37",
         "_origen": "grupo",
         "_pie": "47308873, Reynoso Priscila"
+      },
+      {
+        "fecha": "18/06/2026",
+        "hora": "22:35",
+        "tipo": "TRF",
+        "monto": 250000.0,
+        "moneda": "ARS",
+        "remitente": "ALDANA ROCIO ORELLANA",
+        "remitente_cuil": "27-41880786-0",
+        "destinatario": "SASTEUP SRL",
+        "banco_origen": "AstroPay",
+        "banco_destino": "",
+        "referencia": "LMORZP908L4E5EJ5NEGJ46",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CVU remitente: 0000177500096292611143 / Alias remitente: 41880786.ASTROPAY / CVU receptor: 00001553000000000009977 / Alias receptor: cvu.977 / CUIT receptor: 30717282252",
+        "_num": 853,
+        "_fecha_carga": "20/06/2026 01:37",
+        "_origen": "grupo",
+        "_pie": "ALDANA ROCIO ORELLANA\n27418807860"
       }
     ],
     "errores": [],
