@@ -68389,6 +68389,28 @@
         "_fecha_carga": "20/06/2026 01:51",
         "_origen": "grupo",
         "_pie": "Medina Martín 35286867"
+      },
+      {
+        "fecha": "19/06/2026",
+        "hora": "11:00",
+        "tipo": "TRF",
+        "monto": 100000.0,
+        "moneda": "ARS",
+        "remitente": "BLANCA NOEMI BALLETBO",
+        "remitente_cuil": "27-23690212-4",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Banco De Galicia S.A.U",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "42149621050",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "ID COELSA: XJ8G7V95DW4E5LDM9EMPYR. CVU destinatario: 0000155300000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 945,
+        "_fecha_carga": "20/06/2026 01:51",
+        "_origen": "grupo",
+        "_pie": "Balletbo Blanca 23690212"
       }
     ],
     "errores": [],
