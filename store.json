@@ -1853,6 +1853,28 @@
         "_fecha_carga": "19/06/2026 21:42",
         "_origen": "grupo",
         "_pie": "RUZS SANTIAGO TOMÁS \n42412685S"
+      },
+      {
+        "fecha": "17/06/2026",
+        "hora": "14:25",
+        "tipo": "TRF",
+        "monto": 50000.0,
+        "moneda": "ARS",
+        "remitente": "Karen Lucia Errigo",
+        "remitente_cuil": "27-34618929-6",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163744412803",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: 86VRPQ2GMLQ1830M2GLY0M. CVU origen: 0000003100042216489828. CVU destino: 0000155300000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 85,
+        "_fecha_carga": "19/06/2026 21:42",
+        "_origen": "grupo",
+        "_pie": "Karen errigo 34618929"
       }
     ],
     "errores": [],
