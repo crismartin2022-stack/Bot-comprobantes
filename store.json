@@ -157,6 +157,28 @@
         "_fecha_carga": "19/06/2026 21:30",
         "_origen": "grupo",
         "_pie": "Foto de tuvy"
+      },
+      {
+        "fecha": "18/06/2026",
+        "hora": "21:31",
+        "tipo": "TRF",
+        "monto": 50000.0,
+        "moneda": "ARS",
+        "remitente": "Abril Estefania Montenove",
+        "remitente_cuil": "27-45154990-7",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "164780801446",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: Z4K6DVNOWY0ROEO425J8LQ. CVU remitente: 0000003100083488040878. CVU destinatario: 0000155300000000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 8,
+        "_fecha_carga": "19/06/2026 21:30",
+        "_origen": "grupo",
+        "_pie": "Abril montenove \n45.154.990"
       }
     ],
     "errores": [],
