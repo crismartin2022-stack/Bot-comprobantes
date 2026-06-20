@@ -57745,6 +57745,28 @@
         "_fecha_carga": "19/06/2026 21:25",
         "_origen": "grupo",
         "_pie": "Romano Ivana Valeria \n38084487"
+      },
+      {
+        "fecha": "16/06/2026",
+        "hora": "21:44",
+        "tipo": "TRF",
+        "monto": 20000.0,
+        "moneda": "ARS",
+        "remitente": "Paola Soledad Loustau",
+        "remitente_cuil": "27-27296146-3",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Naranja X",
+        "banco_destino": "Cuenta Virtual",
+        "referencia": "JMQKYZ9QQVEPD5LP9V50P3",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de transacción adicional: 2116d588-3444-455b-a73d-d1d9f289842d. CVU destinatario: 0000155300000000009977. CBU origen: 4530000800013028600499.",
+        "_num": 635,
+        "_fecha_carga": "19/06/2026 21:25",
+        "_origen": "grupo",
+        "_pie": "Paola soledad loustau\n27296146"
       }
     ],
     "errores": [],
