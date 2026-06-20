@@ -55058,6 +55058,28 @@
         "_fecha_carga": "19/06/2026 21:06",
         "_origen": "grupo",
         "_pie": "Luis Alberto Martinez\nCUIT/CUIL: 20-41920839-7"
+      },
+      {
+        "fecha": "16/06/2026",
+        "hora": "19:20",
+        "tipo": "TRF",
+        "monto": 400004.0,
+        "moneda": "ARS",
+        "remitente": "Maria Alejandra Leiva",
+        "remitente_cuil": "27-36023022-3",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "164443927938",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: JMQKYZ9QQVMR0G0R9V50P3. CVU origen: 0000003100043458006297. CVU destino: 0000155300000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 513,
+        "_fecha_carga": "19/06/2026 21:06",
+        "_origen": "grupo",
+        "_pie": "Maria Alejandra Leiva\nCUIT/CUIL: 27-36023022-3"
       }
     ],
     "errores": [],
