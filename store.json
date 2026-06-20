@@ -55873,6 +55873,28 @@
         "_fecha_carga": "19/06/2026 21:12",
         "_origen": "grupo",
         "_pie": "Rosalia Del Carmen Medina\nCUIT/CUIL: 27-14516073-7"
+      },
+      {
+        "fecha": "16/06/2026",
+        "hora": "23:12",
+        "tipo": "TRF",
+        "monto": 70000.0,
+        "moneda": "ARS",
+        "remitente": "Miriam Lili Nunez Fernandez",
+        "remitente_cuil": "27-94216492-6",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163663782325",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: PDX4OGNYGPLX7E6VN0L6EY. CVU remitente: 0000003100098349467435. CVU destinatario: 0000155300000000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 550,
+        "_fecha_carga": "19/06/2026 21:12",
+        "_origen": "grupo",
+        "_pie": "Miriam Lili Nunez Fernandez\nCUIT/CUIL: 27-94216492-6"
       }
     ],
     "errores": [],
