@@ -55014,6 +55014,28 @@
         "_fecha_carga": "19/06/2026 21:06",
         "_origen": "grupo",
         "_pie": "Miriam Lili Nunez Fernandez\nCUIT/CUIL: 27-94216492-6"
+      },
+      {
+        "fecha": "16/06/2026",
+        "hora": "19:02",
+        "tipo": "TRF",
+        "monto": 250000.0,
+        "moneda": "ARS",
+        "remitente": "Marcos David Barboza Romero",
+        "remitente_cuil": "20-42280652-1",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Naranja X",
+        "banco_destino": "Cuenta Virtual",
+        "referencia": "PDX4OGNYGPMZWR1QN0L6EY",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CBU origen: 4530000800014147075982. CVU destino: 0000155300000000009977. CUIL destinatario: 30-71728225-2. Código de transacción: ff207846-913e-4730-9559-3b0febc1f614",
+        "_num": 511,
+        "_fecha_carga": "19/06/2026 21:06",
+        "_origen": "grupo",
+        "_pie": "Marcos David Barboza Romero\nNaranja X\n4530000800014147075982\n20-42280652-1"
       }
     ],
     "errores": [],
