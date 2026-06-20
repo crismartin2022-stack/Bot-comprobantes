@@ -67529,6 +67529,28 @@
         "_fecha_carga": "20/06/2026 01:45",
         "_origen": "grupo",
         "_pie": "DNI 94678069\nTitular Artemio David romero"
+      },
+      {
+        "fecha": "19/06/2026",
+        "hora": "00:47",
+        "tipo": "TRF",
+        "monto": 50000.0,
+        "moneda": "ARS",
+        "remitente": "Liliana Beatriz Anrriquez",
+        "remitente_cuil": "",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Ualá",
+        "banco_destino": "",
+        "referencia": "PDX4OGNYGPEVPZR4N0L6EY",
+        "concepto": "VAR",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CBU destino: 0000155300000000009977. CUIT destino (destinatario): 30717282252. No se visualiza CUIL del remitente en el comprobante.",
+        "_num": 906,
+        "_fecha_carga": "20/06/2026 01:45",
+        "_origen": "grupo",
+        "_pie": "Liliana Beatriz Anrriquez \nDNI: 21.104.254"
       }
     ],
     "errores": [],
