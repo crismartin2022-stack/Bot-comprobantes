@@ -1148,6 +1148,28 @@
         "_fecha_carga": "19/06/2026 21:37",
         "_origen": "grupo",
         "_pie": "Luciana Alvarenga \n95029202"
+      },
+      {
+        "fecha": "17/06/2026",
+        "hora": "13:20",
+        "tipo": "TRF",
+        "monto": 60000.0,
+        "moneda": "ARS",
+        "remitente": "Matias Ariel Chaves",
+        "remitente_cuil": "20-41416949-0",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "164550880884",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: L18MKX9RXJ55MO619O6WYV. CVU remitente: 0000003100097773494493. CVU destinatario: 0000155300000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 53,
+        "_fecha_carga": "19/06/2026 21:37",
+        "_origen": "grupo",
+        "_pie": "Matias Chaves \n20-41416949-0"
       }
     ],
     "errores": [],
