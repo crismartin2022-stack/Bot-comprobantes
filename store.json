@@ -54638,6 +54638,28 @@
         "_fecha_carga": "19/06/2026 21:03",
         "_origen": "grupo",
         "_pie": "Joel Agustín Aguirre \nCUIL-CUIT: 20-44216696-0"
+      },
+      {
+        "fecha": "16/06/2026",
+        "hora": "16:51",
+        "tipo": "TRF",
+        "monto": 100000.0,
+        "moneda": "ARS",
+        "remitente": "Alan Gabriel Salvatierra",
+        "remitente_cuil": "24-42055465-2",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "164416827658",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: Z6OLMDN3V3ZP8ZM52E7RQ5. CVU origen: 0000003100099547582195. CVU destino: 0000155300000000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 494,
+        "_fecha_carga": "19/06/2026 21:03",
+        "_origen": "grupo",
+        "_pie": "Alan Gabriel Salvatierra\nCUIT/CUIL: 24-42055465-2"
       }
     ],
     "errores": [],
