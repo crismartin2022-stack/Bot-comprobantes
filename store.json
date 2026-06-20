@@ -54726,6 +54726,28 @@
         "_fecha_carga": "19/06/2026 21:04",
         "_origen": "grupo",
         "_pie": "María de Los Ángeles Rodríguez \n33711557879"
+      },
+      {
+        "fecha": "16/06/2026",
+        "hora": "18:02",
+        "tipo": "TRF",
+        "monto": 200000.0,
+        "moneda": "ARS",
+        "remitente": "Alexis Maximiliano Esteban",
+        "remitente_cuil": "20-44901626-3",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Naranja X",
+        "banco_destino": "Cuenta Virtual",
+        "referencia": "46YGOW9M1K0VR6KPNEXD8J",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CBU origen: 4530000800016540213330. CVU destino: 0000155300000000009977. Código de transacción: 8e80cd6f-2549-4cfe-8143-5d69d2c9d9c8. CUIL destinatario: 30-71728225-2.",
+        "_num": 498,
+        "_fecha_carga": "19/06/2026 21:04",
+        "_origen": "grupo",
+        "_pie": "Alexis Maximiliano Esteban\nNaranja X\n4530000800016540213330\n20-44901626-3"
       }
     ],
     "errores": [],
