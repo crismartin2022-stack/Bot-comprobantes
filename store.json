@@ -840,6 +840,28 @@
         "_fecha_carga": "19/06/2026 21:35",
         "_origen": "grupo",
         "_pie": "Acosta natali \n35902877"
+      },
+      {
+        "fecha": "16/06/2026",
+        "hora": "00:33",
+        "tipo": "TRF",
+        "monto": 150000.0,
+        "moneda": "ARS",
+        "remitente": "Natali Soledad Acosta",
+        "remitente_cuil": "33645445",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Lemon",
+        "banco_destino": "CVU",
+        "referencia": "D4RO172VZQW7JOPDNKJ3QE",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CUIT destinatario: 30717282252. CBU destino: 0000155300000000009977. ID de la transacción: dc57a625-bc3f-4866-98c8-4850e55d86b1. Comprobante emitido por Lemon (Powered by Digifin).",
+        "_num": 39,
+        "_fecha_carga": "19/06/2026 21:35",
+        "_origen": "grupo",
+        "_pie": "Marcia moreira \n33645445"
       }
     ],
     "errores": [],
