@@ -3328,6 +3328,28 @@
         "_fecha_carga": "19/06/2026 21:52",
         "_origen": "grupo",
         "_pie": "Montes, Ezequiel Nicolas\n20-44798788-1"
+      },
+      {
+        "fecha": "18/06/2026",
+        "hora": "20:10",
+        "tipo": "TRF",
+        "monto": 250000.0,
+        "moneda": "ARS",
+        "remitente": "Daiana Belen Guzman",
+        "remitente_cuil": "27-44384063-5",
+        "destinatario": "SASTEUP SRL",
+        "banco_origen": "AstroPay",
+        "banco_destino": "",
+        "referencia": "7L8GYKNX05Q17ZRX2MPRZ5",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CVU remitente: 0000177507701004493403. CVU receptor: 0000155300000000009977. Alias receptor: cvu.977. CUIT/CUIL receptor: 30717282252 (SASTEUP SRL).",
+        "_num": 152,
+        "_fecha_carga": "19/06/2026 21:52",
+        "_origen": "grupo",
+        "_pie": "Daiana Belen Guzman\n27443840635"
       }
     ],
     "errores": [],
