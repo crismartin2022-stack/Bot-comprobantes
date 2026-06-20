@@ -55851,6 +55851,28 @@
         "_fecha_carga": "19/06/2026 21:12",
         "_origen": "grupo",
         "_pie": "Gladys Noemi Lencinas\nCUIT/CUIL: 27-14164627-9"
+      },
+      {
+        "fecha": "16/06/2026",
+        "hora": "23:05",
+        "tipo": "TRF",
+        "monto": 250000.0,
+        "moneda": "ARS",
+        "remitente": "Rosalia Del Carmen Medina",
+        "remitente_cuil": "27-14516073-7",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "164477299202",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: 76V4MR2Z74DX543ENDEZOL. CVU remitente: 0000003100070381835089. CVU destinatario: 0000155300000000000009977.",
+        "_num": 549,
+        "_fecha_carga": "19/06/2026 21:12",
+        "_origen": "grupo",
+        "_pie": "Rosalia Del Carmen Medina\nCUIT/CUIL: 27-14516073-7"
       }
     ],
     "errores": [],
