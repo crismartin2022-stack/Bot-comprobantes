@@ -68257,6 +68257,28 @@
         "_fecha_carga": "20/06/2026 01:50",
         "_origen": "grupo",
         "_pie": "Jonathan gaston corvalan 46.651.553\n\n230 zeus"
+      },
+      {
+        "fecha": "18/06/2026",
+        "hora": "21:34",
+        "tipo": "TRF",
+        "monto": 100000.0,
+        "moneda": "ARS",
+        "remitente": "Blanca Noemi Balletbo",
+        "remitente_cuil": "27-23690212-4",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Naranja X",
+        "banco_destino": "Cuenta Virtual",
+        "referencia": "XJ8G7V95DWYO7ZRL9EMPYR",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de transacción: 1d4d3333-9b81-4485-99a7-248849e3958b. CBU origen: 4530000800012810384524. CVU destino: 0000155300000000009977. CUIL destinatario: 30-71728225-2",
+        "_num": 939,
+        "_fecha_carga": "20/06/2026 01:50",
+        "_origen": "grupo",
+        "_pie": "Balletbo Blanca 23690212"
       }
     ],
     "errores": [],
