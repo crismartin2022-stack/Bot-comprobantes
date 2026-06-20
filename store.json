@@ -1743,6 +1743,28 @@
         "_fecha_carga": "19/06/2026 21:41",
         "_origen": "grupo",
         "_pie": "41434359 Maylen Herrera\n\nViranet"
+      },
+      {
+        "fecha": "18/06/2026",
+        "hora": "23:08",
+        "tipo": "TRF",
+        "monto": 100000.0,
+        "moneda": "ARS",
+        "remitente": "MAYLEN NAIR HERRERA",
+        "remitente_cuil": "27-41434359-2",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Banco De Galicia S.A.U",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "42146810587",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "ID COELSA: 86VRPQ2GML1Q8MYM2GLY0M. CVU destinatario: 0000155300000000009977. Cuenta origen: CA $ N° 4183507-6 118-9. CUIT destinatario: 30-71728225-2.",
+        "_num": 80,
+        "_fecha_carga": "19/06/2026 21:41",
+        "_origen": "grupo",
+        "_pie": "41434359 Maylen Herrera\n\nViranet"
       }
     ],
     "errores": [],
