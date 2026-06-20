@@ -57150,6 +57150,28 @@
         "_fecha_carga": "19/06/2026 21:21",
         "_origen": "grupo",
         "_pie": ""
+      },
+      {
+        "fecha": "18/06/2026",
+        "hora": "00:18",
+        "tipo": "TRF",
+        "monto": 500000.02,
+        "moneda": "ARS",
+        "remitente": "Maria Agueda Franco Rojas",
+        "remitente_cuil": "27-95449472-7",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163824894369",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: 1LMP68NKVE5D6Z552R7OEV. CVU origen: 0000003100030418493446. CVU destino: 0000155300000000009977.",
+        "_num": 608,
+        "_fecha_carga": "19/06/2026 21:21",
+        "_origen": "grupo",
+        "_pie": "Maria Agueda Franco Rojas\nDNI. 95.449.472"
       }
     ],
     "errores": [],
