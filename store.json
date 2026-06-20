@@ -67838,6 +67838,28 @@
         "_fecha_carga": "20/06/2026 01:47",
         "_origen": "grupo",
         "_pie": "Maria claudia ibarra \n28120532"
+      },
+      {
+        "fecha": "19/06/2026",
+        "hora": "13:07",
+        "tipo": "TRF",
+        "monto": 25000.0,
+        "moneda": "ARS",
+        "remitente": "Yuliana Elsa Gontero",
+        "remitente_cuil": "27-43410485-3",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Naranja X",
+        "banco_destino": "Cuenta Virtual",
+        "referencia": "WGRXJE27DX4Z03MON7MYQL",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CBU origen: 4530000800018777985156. CVU destino: 0000155300000000009977. CUIL destinatario: 30-71728225-2. Código de transacción: 9570c8c2-69f1-472c-a9cd-10b4b3bf6515",
+        "_num": 920,
+        "_fecha_carga": "20/06/2026 01:47",
+        "_origen": "grupo",
+        "_pie": "Yuliana Elsa Gontero\nNaranja X\n4530000800018777985156\n27-43410485-3"
       }
     ],
     "errores": [],
