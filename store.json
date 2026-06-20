@@ -68213,6 +68213,28 @@
         "_fecha_carga": "20/06/2026 01:50",
         "_origen": "grupo",
         "_pie": "Paola soledad loustau\n27296146"
+      },
+      {
+        "fecha": "18/06/2026",
+        "hora": "19:39",
+        "tipo": "TRF",
+        "monto": 50000.0,
+        "moneda": "ARS",
+        "remitente": "Ayelen Esperanza Orrego",
+        "remitente_cuil": "23-38584725-4",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163946799679",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: ORD6LEN8PYV1MQL0NM1Y30. CVU remitente: 0000003100039478252293. CVU destinatario: 0000155300000000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 937,
+        "_fecha_carga": "20/06/2026 01:50",
+        "_origen": "grupo",
+        "_pie": "Ayelen Esperanza Orrego 38584725"
       }
     ],
     "errores": [],
