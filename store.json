@@ -598,6 +598,28 @@
         "_fecha_carga": "19/06/2026 21:33",
         "_origen": "grupo",
         "_pie": "mijael silvestre\n45945880"
+      },
+      {
+        "fecha": "17/06/2026",
+        "hora": "23:02",
+        "tipo": "TRF",
+        "monto": 40000.0,
+        "moneda": "ARS",
+        "remitente": "Mijael David Silvestre",
+        "remitente_cuil": "45945880",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Ualá",
+        "banco_destino": "",
+        "referencia": "ORD6LEN8PYOWW1XONM1Y30",
+        "concepto": "VAR",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CUIT destino: 30717282252. CVU/CBU destino completo: 0000155300000000009977",
+        "_num": 28,
+        "_fecha_carga": "19/06/2026 21:33",
+        "_origen": "grupo",
+        "_pie": "mijael silvestre\n45945880"
       }
     ],
     "errores": [],
