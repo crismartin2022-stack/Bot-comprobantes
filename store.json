@@ -66271,6 +66271,28 @@
         "_fecha_carga": "20/06/2026 01:36",
         "_origen": "grupo",
         "_pie": "Leonardo Ariel Aguirre\nCUIT/CUIL: 20-25795836-2"
+      },
+      {
+        "fecha": "18/06/2026",
+        "hora": "21:55",
+        "tipo": "TRF",
+        "monto": 100000.0,
+        "moneda": "ARS",
+        "remitente": "Mariana Ayelen Diaz",
+        "remitente_cuil": "36608895",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Lemon",
+        "banco_destino": "CVU",
+        "referencia": "JMQKYZ9QQVLPMQWQ9V50P3",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CUIT del destinatario: 30717282252. CBU destino: 0000155300000000009977. ID de transacción: b0e35089-30e4-4656-80e1-e2f2a49e42b3. Comprobante emitido por Lemon, powered by Digifin.",
+        "_num": 849,
+        "_fecha_carga": "20/06/2026 01:37",
+        "_origen": "grupo",
+        "_pie": "Mariana Diaz 36608895"
       }
     ],
     "errores": [],
