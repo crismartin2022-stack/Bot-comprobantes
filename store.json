@@ -752,6 +752,28 @@
         "_fecha_carga": "19/06/2026 21:34",
         "_origen": "grupo",
         "_pie": "Giuliana Ibañez \n43733932"
+      },
+      {
+        "fecha": "18/06/2026",
+        "hora": "12:20",
+        "tipo": "TRF",
+        "monto": 105000.0,
+        "moneda": "ARS",
+        "remitente": "Giuliana Ibanez",
+        "remitente_cuil": "27-43733932-0",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Naranja X",
+        "banco_destino": "Cuenta Virtual",
+        "referencia": "WY7ZEPN6MK05KZXV2Q0M51",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de transacción adicional: 6ecc702e-7732-4da9-8acc-139ff6c2ff5d. CBU origen: 4530000800016663500205. CVU destino: 0000155300000000009977. CUIL destinatario: 30-71728225-2.",
+        "_num": 35,
+        "_fecha_carga": "19/06/2026 21:34",
+        "_origen": "grupo",
+        "_pie": "Evelyn leguiza\n46433396\nBet91"
       }
     ],
     "errores": [],
