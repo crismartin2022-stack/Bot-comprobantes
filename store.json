@@ -55366,6 +55366,28 @@
         "_fecha_carga": "19/06/2026 21:08",
         "_origen": "grupo",
         "_pie": "Brisa Lucia Aylen Alvarenga\nCUIT/CUIL: 27-46100608-1"
+      },
+      {
+        "fecha": "16/06/2026",
+        "hora": "21:03",
+        "tipo": "TRF",
+        "monto": 250001.0,
+        "moneda": "ARS",
+        "remitente": "Aylen Maria Ester Gonzalez",
+        "remitente_cuil": "27-47506525-0",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163646963859",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: LOEJWV9JZ3GXJ0WD2QMD0G. CVU origen: 0000003100043365068812. CVU destino: 0000155300000000009977.",
+        "_num": 527,
+        "_fecha_carga": "19/06/2026 21:08",
+        "_origen": "grupo",
+        "_pie": "Aylen Maria Ester Gonzalez\nCUIT/CUIL: 27-47506525-0"
       }
     ],
     "errores": [],
