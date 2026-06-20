@@ -3306,6 +3306,28 @@
         "_fecha_carga": "19/06/2026 21:52",
         "_origen": "grupo",
         "_pie": "Larroza, Diego Ezequiel\n20-46504744-6"
+      },
+      {
+        "fecha": "18/06/2026",
+        "hora": "20:09",
+        "tipo": "TRF",
+        "monto": 500000.0,
+        "moneda": "ARS",
+        "remitente": "Montes, Ezequiel Nicolas",
+        "remitente_cuil": "20-44798788-1",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Personal Pay",
+        "banco_destino": "",
+        "referencia": "2758516634",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CoelsaID: RD06ZO9WVR38QLOXN5GP7X - Id Bancario. CBU/CVU destinatario: 0000155300000000009977. CUIL/CUIT destinatario: 30-71728225-2",
+        "_num": 151,
+        "_fecha_carga": "19/06/2026 21:52",
+        "_origen": "grupo",
+        "_pie": "Montes, Ezequiel Nicolas\n20-44798788-1"
       }
     ],
     "errores": [],
