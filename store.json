@@ -54417,6 +54417,28 @@
         "_fecha_carga": "19/06/2026 21:02",
         "_origen": "grupo",
         "_pie": "JOHANA GABRIELA GRIMAZ\nCUIL-CUIT: 30-71728225-2"
+      },
+      {
+        "fecha": "16/06/2026",
+        "hora": "14:57",
+        "tipo": "TRF",
+        "monto": 1000000.0,
+        "moneda": "ARS",
+        "remitente": "Lopez, María Salome",
+        "remitente_cuil": "27-36262471-7",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Personal Pay",
+        "banco_destino": "",
+        "referencia": "2748820036",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CoelsaID: R7ZG0QNDW160JD0D9EXYPO - Id Bancario. CBU/CVU del destinatario: 00001553000000000009977. CUIL/CUIT del destinatario: 30-71728225-2.",
+        "_num": 484,
+        "_fecha_carga": "19/06/2026 21:02",
+        "_origen": "grupo",
+        "_pie": "Lopez, María Salome\nCUIL/CUIT 27-36262471-7"
       }
     ],
     "errores": [],
