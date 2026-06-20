@@ -66161,6 +66161,28 @@
         "_fecha_carga": "20/06/2026 01:36",
         "_origen": "grupo",
         "_pie": "MATIAS EMMANUEL TORRES MOYANO\nCUIT 20-32356439-7"
+      },
+      {
+        "fecha": "18/06/2026",
+        "hora": "21:49",
+        "tipo": "TRF",
+        "monto": 500000.0,
+        "moneda": "ARS",
+        "remitente": "Brepe, Kevin Agustin",
+        "remitente_cuil": "20-42196385-2",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Personal Pay",
+        "banco_destino": "",
+        "referencia": "2758780402",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CoelsaID: ORD6LEN8PY5RY38YNMIY30 - Id Bancario. CBU/CVU destinatario: 0000155300000000009977. CUIL/CUIT destinatario: 30-71728225-2.",
+        "_num": 844,
+        "_fecha_carga": "20/06/2026 01:36",
+        "_origen": "grupo",
+        "_pie": "Brepe, Kevin Agustin\n20-42196385-2"
       }
     ],
     "errores": [],
