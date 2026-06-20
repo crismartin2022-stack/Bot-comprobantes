@@ -66912,6 +66912,28 @@
         "_fecha_carga": "20/06/2026 01:41",
         "_origen": "grupo",
         "_pie": "Noelia Primavera Chirino\nDNI 43.664.090"
+      },
+      {
+        "fecha": "18/06/2026",
+        "hora": "23:19",
+        "tipo": "TRF",
+        "monto": 100000.0,
+        "moneda": "ARS",
+        "remitente": "Alan Gabriel Salvatierra",
+        "remitente_cuil": "24-42055465-2",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163975329767",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: 76V4MR2Z74RXZE4LNDEZOL. CVU remitente: 0000003100033564286571. CVU destinatario: 0000155300000000000009977",
+        "_num": 878,
+        "_fecha_carga": "20/06/2026 01:41",
+        "_origen": "grupo",
+        "_pie": "Alan Gabriel Salvatierra\nCUIT/CUIL: 24-42055465-2"
       }
     ],
     "errores": [],
