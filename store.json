@@ -66890,6 +66890,28 @@
         "_fecha_carga": "20/06/2026 01:41",
         "_origen": "grupo",
         "_pie": "María De Los Angeles Vetta\nD.N.I 23.285.322"
+      },
+      {
+        "fecha": "18/06/2026",
+        "hora": "22:49",
+        "tipo": "TRF",
+        "monto": 500000.06,
+        "moneda": "ARS",
+        "remitente": "Noelia Primavera Chirino",
+        "remitente_cuil": "",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Ualá",
+        "banco_destino": "",
+        "referencia": "R7ZG0QNDW18VLQMD9EXYPO",
+        "concepto": "VAR",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CBU destino: 0000155300000000009977. CUIT destino (destinatario): 30717282252. No se visualiza CUIL del remitente en el comprobante.",
+        "_num": 877,
+        "_fecha_carga": "20/06/2026 01:41",
+        "_origen": "grupo",
+        "_pie": "Noelia Primavera Chirino\nDNI 43.664.090"
       }
     ],
     "errores": [],
