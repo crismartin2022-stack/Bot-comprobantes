@@ -66670,6 +66670,28 @@
         "_fecha_carga": "20/06/2026 01:39",
         "_origen": "grupo",
         "_pie": "Damian Gerardo Nunez\nNaranja X\n4530000800010115872571\n20-27636577-1"
+      },
+      {
+        "fecha": "18/06/2026",
+        "hora": "22:46",
+        "tipo": "TRF",
+        "monto": 500001.0,
+        "moneda": "ARS",
+        "remitente": "Villegas, Santiago Alexis",
+        "remitente_cuil": "20-39344138-1",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Personal Pay",
+        "banco_destino": "",
+        "referencia": "2758899290",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CoelsaID: Z4K6DVNOWY0E44K425J8LQ - Id Bancario. CBU/CVU del destinatario: 0000155300000000009977. CUIL/CUIT del destinatario (Sasteup Srl): 30-71728225-2.",
+        "_num": 867,
+        "_fecha_carga": "20/06/2026 01:40",
+        "_origen": "grupo",
+        "_pie": "Villegas Santiago Alexis\nDNI: 39.344.138"
       }
     ],
     "errores": [],
