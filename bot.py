@@ -37,6 +37,7 @@ store: dict = {}
 pendientes: dict = {}
 esperando_pie: dict = {}
 mensajes_rechazo: dict = {}
+received_log: dict = {}  # {chat_id: [{"msg_id", "fecha", "remitente", "estado"}]}
 
 DATA_FILE    = "/data/store.json"       # Volume de Railway (persistente)
 GITHUB_TOKEN = os.environ.get("GITHUB_TOKEN", "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")
@@ -190,7 +191,7 @@ async def analizar_imagen(image_bytes: bytes, mime: str, reintentos: int = 3) ->
             resp = claude.messages.create(
                 model="claude-sonnet-4-6",
                 max_tokens=1000,
-                system=SYSTEM_PROMPT,
+                system=[{"type": "text", "text": SYSTEM_PROMPT, "cache_control": {"type": "ephemeral"}}],
                 messages=[{"role": "user", "content": [
                     {"type": "image", "source": {"type": "base64", "media_type": mime, "data": b64}},
                     {"type": "text", "text": "Analizá este comprobante bancario argentino."}
@@ -421,6 +422,18 @@ async def procesar_comprobante(image_bytes: bytes, mime: str, pie: str,
                                 bot, chat_msg_id: int):
     """Analiza imagen, verifica pie y guarda en registro correcto o errores."""
     datos = get_store(chat_id, nombre_g)
+    # Registrar imagen recibida
+    entrada_log = {
+        "msg_id": chat_msg_id,
+        "fecha": now_arg().strftime("%d/%m/%Y %H:%M"),
+        "nombre_g": nombre_g,
+        "estado": "procesando"
+    }
+    cid_str = str(chat_id)
+    if cid_str not in received_log:
+        received_log[cid_str] = []
+    received_log[cid_str].append(entrada_log)
+
     resultado = await analizar_imagen(image_bytes, mime)
 
     # Si el comprobante no tiene datos del remitente, usar el pie
@@ -478,6 +491,11 @@ async def procesar_comprobante(image_bytes: bytes, mime: str, pie: str,
             return
         datos["registros"].append(resultado)
         guardar_store()
+        # Actualizar log
+        for entry in received_log.get(str(chat_id), []):
+            if entry.get("msg_id") == chat_msg_id:
+                entry["estado"] = "procesado"
+                break
         # ✅ Confirmar en el grupo con tilde
         cvu = (resultado.get("cvu_ultimos4") or "").strip()
         monto = resultado.get("monto")
@@ -925,6 +943,49 @@ async def cmd_nueva_semana(update: Update, ctx: ContextTypes.DEFAULT_TYPE):
            InlineKeyboardButton("❌ No",  callback_data="cancelar")]]
     await update.message.reply_text("⚠️ ¿Iniciar nueva semana? Se borran todos los registros.",
         reply_markup=InlineKeyboardMarkup(kb))
+
+async def cmd_pendientes(update: Update, ctx: ContextTypes.DEFAULT_TYPE):
+    """Muestra imágenes recibidas que no fueron procesadas exitosamente."""
+    if update.effective_user.id != ADMIN_ID:
+        await update.message.reply_text("⛔ Solo el administrador.")
+        return
+    
+    texto = "📋 *Log de imágenes recibidas*
+─────────────────────
+"
+    total_recibidas = 0
+    total_perdidas = 0
+    
+    for cid, entradas in received_log.items():
+        nombre = store.get(cid, {}).get("nombre", cid)
+        perdidas = [e for e in entradas if e.get("estado") == "procesando"]
+        procesadas = [e for e in entradas if e.get("estado") == "procesado"]
+        total_recibidas += len(entradas)
+        total_perdidas += len(perdidas)
+        
+        if perdidas:
+            texto += f"📍 *{nombre}*
+"
+            texto += f"   ✅ Procesadas: {len(procesadas)}
+"
+            texto += f"   ⚠️ Sin procesar: {len(perdidas)}
+"
+            for e in perdidas[:5]:
+                texto += f"   — msg#{e.get('msg_id')} | {e.get('fecha','')}
+"
+            if len(perdidas) > 5:
+                texto += f"   ... y {len(perdidas)-5} más
+"
+            texto += "
+"
+    
+    if total_perdidas == 0:
+        texto += "✅ Todas las imágenes fueron procesadas correctamente."
+    else:
+        texto += f"─────────────────────
+⚠️ Total sin procesar: *{total_perdidas}* de {total_recibidas}"
+    
+    await update.message.reply_text(texto, parse_mode="Markdown")
 
 async def cmd_recuperar(update: Update, ctx: ContextTypes.DEFAULT_TYPE):
     """Lee el store.json del Volume y recarga los datos en memoria."""
@@ -1428,6 +1489,7 @@ async def main_async():
     app.add_handler(CommandHandler("nueva_semana", cmd_nueva_semana))
     app.add_handler(CommandHandler("borrar",       cmd_borrar))
     app.add_handler(CommandHandler("recuperar",    cmd_recuperar))
+    app.add_handler(CommandHandler("pendientes",   cmd_pendientes))
     app.add_handler(CallbackQueryHandler(callback_handler))
     app.add_handler(MessageHandler(filters.PHOTO,          handle_photo))
     app.add_handler(MessageHandler(filters.Document.IMAGE, handle_document))
