@@ -1831,6 +1831,28 @@
         "_fecha_carga": "19/06/2026 21:42",
         "_origen": "grupo",
         "_pie": "Maria fernandez 30839418"
+      },
+      {
+        "fecha": "17/06/2026",
+        "hora": "14:03",
+        "tipo": "TRF",
+        "monto": 27000.0,
+        "moneda": "ARS",
+        "remitente": "Santiago Tomas Ruzs",
+        "remitente_cuil": "",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Ualá",
+        "banco_destino": "",
+        "referencia": "LMORZP908LP1ZVDYNEGJ46",
+        "concepto": "VAR",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CUIT destino: 30717282252. Cuenta destino CBU/CVU: 0000155300000000009977",
+        "_num": 84,
+        "_fecha_carga": "19/06/2026 21:42",
+        "_origen": "grupo",
+        "_pie": "RUZS SANTIAGO TOMÁS \n42412685S"
       }
     ],
     "errores": [],
