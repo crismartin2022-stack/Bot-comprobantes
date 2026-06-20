@@ -68522,6 +68522,28 @@
         "_fecha_carga": "20/06/2026 01:52",
         "_origen": "grupo",
         "_pie": "Jorge torres 31209955"
+      },
+      {
+        "fecha": "18/06/2026",
+        "hora": "20:40",
+        "tipo": "TRF",
+        "monto": 100000.0,
+        "moneda": "ARS",
+        "remitente": "Milagros Soledad Ibarra",
+        "remitente_cuil": "27-43600731-6",
+        "destinatario": "SASTEUP SRL",
+        "banco_origen": "Brubank",
+        "banco_destino": "",
+        "referencia": "",
+        "concepto": "Caja de ahorro en Pesos",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CBU/CVU destinatario: 0000155300000000009977. CUIT destinatario: 30-71728225-2. Entidad destino: CVU.",
+        "_num": 951,
+        "_fecha_carga": "20/06/2026 01:52",
+        "_origen": "grupo",
+        "_pie": "Milagros soledad ibarra 43600731"
       }
     ],
     "errores": [],
