@@ -56226,6 +56226,28 @@
         "_fecha_carga": "19/06/2026 21:14",
         "_origen": "grupo",
         "_pie": "Alexis Rafael Gil\nNaranja X\n4530000800012970507986\n20-35340420-3"
+      },
+      {
+        "fecha": "17/06/2026",
+        "hora": "00:45",
+        "tipo": "TRF",
+        "monto": 50000.0,
+        "moneda": "ARS",
+        "remitente": "Fabian Nicolas Alvarez",
+        "remitente_cuil": "20-37810983-4",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163670812515",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CVU origen: 0000003100114177922693. CVU destino: 0000155300000000009977. CUIT destinatario: 30-71728225-2",
+        "_num": 566,
+        "_fecha_carga": "19/06/2026 21:15",
+        "_origen": "grupo",
+        "_pie": "Fabian Nicolas Alvarez\nCUIT/CUIL: 20-37810983-4"
       }
     ],
     "errores": [],
