@@ -63562,6 +63562,28 @@
         "_fecha_carga": "20/06/2026 01:18",
         "_origen": "grupo",
         "_pie": "Matias Chaves \n20-41416949-0"
+      },
+      {
+        "fecha": "17/06/2026",
+        "hora": "23:12",
+        "tipo": "TRF",
+        "monto": 422000.0,
+        "moneda": "ARS",
+        "remitente": "Diaz, Ezequiel Gustavo",
+        "remitente_cuil": "20-31719425-1",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Personal Pay",
+        "banco_destino": "",
+        "referencia": "2754472707",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CoelsaID: 0V1JX0N1LM0WEEO7NZ64EL - Id Bancario. CBU/CVU del destinatario: 0000155300000000009977. CUIL/CUIT del destinatario: 30-71728225-2.",
+        "_num": 726,
+        "_fecha_carga": "20/06/2026 01:18",
+        "_origen": "grupo",
+        "_pie": "Ezequiel Gustavo Diaz\n31719425"
       }
     ],
     "errores": [],
