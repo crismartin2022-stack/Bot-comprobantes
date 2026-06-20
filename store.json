@@ -68896,6 +68896,28 @@
         "_fecha_carga": "20/06/2026 01:55",
         "_origen": "grupo",
         "_pie": "Zeus azul"
+      },
+      {
+        "fecha": "19/06/2026",
+        "hora": "14:13",
+        "tipo": "TRF",
+        "monto": 50000.0,
+        "moneda": "ARS",
+        "remitente": "Roberto Horacio Prieto",
+        "remitente_cuil": "20-14090128-9",
+        "destinatario": "SASTEUP SRL",
+        "banco_origen": "AstroPay",
+        "banco_destino": "",
+        "referencia": "Z6OLMDN3V3460D4X2E7RQ5",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CVU remitente: 0000177500090108081036. CVU receptor: 0000155300000000009977. CUIT/CUIL receptor (SASTEUP SRL): 30717282252. Alias receptor: cvu.977",
+        "_num": 968,
+        "_fecha_carga": "20/06/2026 01:55",
+        "_origen": "grupo",
+        "_pie": "Roberto Horacio Prieto   DNI: 14090128"
       }
     ],
     "errores": [],
