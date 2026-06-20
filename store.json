@@ -57458,6 +57458,28 @@
         "_fecha_carga": "19/06/2026 21:23",
         "_origen": "grupo",
         "_pie": "Nancy Karina Nieto\nCUIT/CUIL: 27-25056249-2"
+      },
+      {
+        "fecha": "17/06/2026",
+        "hora": "22:17",
+        "tipo": "TRF",
+        "monto": 100000.0,
+        "moneda": "ARS",
+        "remitente": "Gomez Fernandez Antonella Nahiara",
+        "remitente_cuil": "27-45929046-5",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "164631030508",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: 86VRPQ2GML0RM4DJ2GLY0M. CVU origen: 0000003100015494402258. CVU destino: 0000155300000000009977.",
+        "_num": 622,
+        "_fecha_carga": "19/06/2026 21:23",
+        "_origen": "grupo",
+        "_pie": "Gomez Fernandez Antonella Nahiara\nCUIT/CUIL: 27-45929046-5"
       }
     ],
     "errores": [],
