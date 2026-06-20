@@ -54461,6 +54461,28 @@
         "_fecha_carga": "19/06/2026 21:02",
         "_origen": "grupo",
         "_pie": "A nombre de \nMatias Quevedo\n40640486"
+      },
+      {
+        "fecha": "16/06/2026",
+        "hora": "15:16",
+        "tipo": "TRF",
+        "monto": 500000.0,
+        "moneda": "ARS",
+        "remitente": "Monica Susana Santillan",
+        "remitente_cuil": "27-17299591-3",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Naranja X",
+        "banco_destino": "Cuenta Virtual",
+        "referencia": "67REZ8NPQ6DWQK5R94KVGO",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de transacción adicional: 427cd19c-0203-47de-bb7f-c82ee8f60b3a. CBU origen: 4530000800012051233102. CVU destino: 0000155300000000009977.",
+        "_num": 486,
+        "_fecha_carga": "19/06/2026 21:02",
+        "_origen": "grupo",
+        "_pie": "Monica Susana Santillan\nNaranja X\n4530000800012051233102\n27-17299591-3"
       }
     ],
     "errores": [],
