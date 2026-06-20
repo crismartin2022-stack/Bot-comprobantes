@@ -54792,6 +54792,28 @@
         "_fecha_carga": "19/06/2026 21:04",
         "_origen": "grupo",
         "_pie": "Delia Rosa Delvalle Benitez\nNaranja X\n4530000800015630000375\n27-94929338-1"
+      },
+      {
+        "fecha": "16/06/2026",
+        "hora": "18:22",
+        "tipo": "TRF",
+        "monto": 200000.0,
+        "moneda": "ARS",
+        "remitente": "Claudia Beatriz Molina",
+        "remitente_cuil": "27-18565414-7",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "164434574656",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: D4RO172VZQJOV80KNKJ3QE. CVU remitente: 0000003100052555678144. CVU destinatario: 0000155300000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 501,
+        "_fecha_carga": "19/06/2026 21:04",
+        "_origen": "grupo",
+        "_pie": "Claudia Beatriz Molina\nCUIT/CUIL: 27-18565414-7"
       }
     ],
     "errores": [],
