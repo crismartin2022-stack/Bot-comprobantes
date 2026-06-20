@@ -54351,6 +54351,28 @@
         "_fecha_carga": "19/06/2026 21:01",
         "_origen": "grupo",
         "_pie": "Claudio Daniel Weber\nCUIT/CUIL: 20-35245699-4"
+      },
+      {
+        "fecha": "16/06/2026",
+        "hora": "13:56",
+        "tipo": "TRF",
+        "monto": 25000.0,
+        "moneda": "ARS",
+        "remitente": "Leonel Nicolas Rinero",
+        "remitente_cuil": "20-45681786-7",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163577697475",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: Z6OLMDN3V3PO548Y2E7RQ5. CVU origen: 0000003100029360642554. CVU destino: 0000155300000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 481,
+        "_fecha_carga": "19/06/2026 21:01",
+        "_origen": "grupo",
+        "_pie": "Leonel Nicolas Rinero\nCUIT/CUIL: 20-45681786-7"
       }
     ],
     "errores": [],
