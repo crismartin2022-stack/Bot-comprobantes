@@ -67683,6 +67683,28 @@
         "_fecha_carga": "20/06/2026 01:46",
         "_origen": "grupo",
         "_pie": "Gomez Fernandez Antonella Nahiara\nCUIT/CUIL: 27-45929046-5"
+      },
+      {
+        "fecha": "19/06/2026",
+        "hora": "09:42",
+        "tipo": "TRF",
+        "monto": 500000.0,
+        "moneda": "ARS",
+        "remitente": "Walter Daniel Arroyo",
+        "remitente_cuil": "20-29905401-3",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Ualá",
+        "banco_destino": "",
+        "referencia": "67REZ8NPQ6JPEZ3194KVGO",
+        "concepto": "VAR",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CBU destino: 0000155300000000009977. CUIT destino (destinatario): 30717282252. No se visualiza CUIL del remitente en el comprobante.",
+        "_num": 913,
+        "_fecha_carga": "20/06/2026 01:46",
+        "_origen": "grupo",
+        "_pie": "WALTER DANIEL ARROYO\n20-29905401-3"
       }
     ],
     "errores": [],
