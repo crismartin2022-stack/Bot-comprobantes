@@ -68147,6 +68147,28 @@
         "_fecha_carga": "20/06/2026 01:49",
         "_origen": "grupo",
         "_pie": "Graciela balbuena \n22131182"
+      },
+      {
+        "fecha": "18/06/2026",
+        "hora": "16:56",
+        "tipo": "TRF",
+        "monto": 185000.0,
+        "moneda": "ARS",
+        "remitente": "Jose Luis Gomez",
+        "remitente_cuil": "20-20076120-1",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163919629751",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: 67REZ8NPQ645KQ4494KVGO. CVU origen: 0000003100014948481771. CVU destino: 0000155300000000000009977",
+        "_num": 934,
+        "_fecha_carga": "20/06/2026 01:50",
+        "_origen": "grupo",
+        "_pie": "josé luis gómez 20076120 zeus"
       }
     ],
     "errores": [],
