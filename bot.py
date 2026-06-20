@@ -204,25 +204,36 @@ async def analizar_imagen(image_bytes: bytes, mime: str, reintentos: int = 3) ->
     ultimo_error = None
     for intento in range(1, reintentos + 1):
         try:
-            resp = claude.messages.create(
-                model="claude-sonnet-4-6",
-                max_tokens=1000,
-                system=[{"type": "text", "text": SYSTEM_PROMPT, "cache_control": {"type": "ephemeral"}}],
-                messages=[{"role": "user", "content": [
-                    {"type": "image", "source": {"type": "base64", "media_type": mime, "data": b64}},
-                    {"type": "text", "text": "Analizá este comprobante bancario argentino."}
-                ]}]
+            resp = await asyncio.wait_for(
+                asyncio.get_event_loop().run_in_executor(
+                    None,
+                    lambda: claude.messages.create(
+                        model="claude-sonnet-4-6",
+                        max_tokens=1000,
+                        system=[{"type": "text", "text": SYSTEM_PROMPT, "cache_control": {"type": "ephemeral"}}],
+                        messages=[{"role": "user", "content": [
+                            {"type": "image", "source": {"type": "base64", "media_type": mime, "data": b64}},
+                            {"type": "text", "text": "Analizá este comprobante bancario argentino."}
+                        ]}]
+                    )
+                ),
+                timeout=30
             )
             text = resp.content[0].text
             try:
                 return json.loads(text.replace("```json", "").replace("```", "").strip())
             except Exception:
                 return {"notas": text, "estado": "Error al parsear", "cvu_ultimos4": "", "tiene_remitente": False}
+        except asyncio.TimeoutError:
+            ultimo_error = "Timeout de 30 segundos"
+            log.warning(f"Intento {intento}/{reintentos} timeout")
+            if intento < reintentos:
+                await asyncio.sleep(2)
         except Exception as e:
             ultimo_error = e
             log.warning(f"Intento {intento}/{reintentos} fallido: {e}")
             if intento < reintentos:
-                await asyncio.sleep(5 * intento)
+                await asyncio.sleep(2)
     log.error(f"Todos los reintentos fallaron: {ultimo_error}")
     return {"notas": str(ultimo_error), "estado": "Error timeout", "cvu_ultimos4": "", "tiene_remitente": False}
 
