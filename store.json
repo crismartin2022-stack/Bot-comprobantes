@@ -1412,6 +1412,28 @@
         "_fecha_carga": "19/06/2026 21:39",
         "_origen": "grupo",
         "_pie": "Cinthia González\n27-48494829-7"
+      },
+      {
+        "fecha": "18/06/2026",
+        "hora": "01:44",
+        "tipo": "TRF",
+        "monto": 50000.0,
+        "moneda": "ARS",
+        "remitente": "Rocio Victoria Beltran",
+        "remitente_cuil": "27-40860816-9",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163829049567",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: D4RO172VZQ31K7ZKNKJ3QE. CVU remitente: 0000003100074338117929. CVU destinatario: 0000155300000000009977",
+        "_num": 65,
+        "_fecha_carga": "19/06/2026 21:39",
+        "_origen": "grupo",
+        "_pie": "Rocio Beltrán \n27-40860816-9"
       }
     ],
     "errores": [],
