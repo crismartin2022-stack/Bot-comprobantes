@@ -3791,6 +3791,28 @@
         "_fecha_carga": "19/06/2026 21:55",
         "_origen": "grupo",
         "_pie": "YESICA FERNANDA VERON\nCUIT 27-39551094-6"
+      },
+      {
+        "fecha": "18/06/2026",
+        "hora": "21:48",
+        "tipo": "TRF",
+        "monto": 500000.0,
+        "moneda": "ARS",
+        "remitente": "Albornoz, Nicolas Eduardo",
+        "remitente_cuil": "20-12580879-5",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Personal Pay",
+        "banco_destino": "",
+        "referencia": "2758778960",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CoelsaID: JMQKYZ9QQVL10JOQ9V50P3 - Id Bancario. CBU/CVU destinatario: 00001553000000000009977. CUIL destinatario: 30-71728225-2",
+        "_num": 173,
+        "_fecha_carga": "19/06/2026 21:55",
+        "_origen": "grupo",
+        "_pie": "Albornoz, Nicolas Eduardo\nCUIL/CUIT 20-12580879-5"
       }
     ],
     "errores": [],
