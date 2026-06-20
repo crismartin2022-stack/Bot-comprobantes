@@ -356,6 +356,28 @@
         "_fecha_carga": "19/06/2026 21:32",
         "_origen": "grupo",
         "_pie": "Alexis Nahuel Ali \n20717182252"
+      },
+      {
+        "fecha": "18/06/2026",
+        "hora": "23:12",
+        "tipo": "TRF",
+        "monto": 100000.0,
+        "moneda": "ARS",
+        "remitente": "Walter Alejandro Forgia",
+        "remitente_cuil": "20-40191889-3",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Supervielle",
+        "banco_destino": "Lohas Sas",
+        "referencia": "R7ZG0QNDW18OXG4V9EXYPO",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Transferencia a otra cuenta. CBU origen: 0270144420054973950019. CBU destino: 0000155300000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 17,
+        "_fecha_carga": "19/06/2026 21:32",
+        "_origen": "grupo",
+        "_pie": "Walter alejandro forgia 40191889"
       }
     ],
     "errores": [],
