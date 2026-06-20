@@ -7488,6 +7488,28 @@
         "_fecha_carga": "20/06/2026 20:45",
         "_origen": "grupo",
         "_pie": "Maria claudia ibarra \n28120532"
+      },
+      {
+        "fecha": "12/06/2026",
+        "hora": "19:35",
+        "tipo": "TRF",
+        "monto": 1000000.0,
+        "moneda": "ARS",
+        "remitente": "Baloh, Maria Silvana",
+        "remitente_cuil": "23-13476634-4",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Personal Pay",
+        "banco_destino": "",
+        "referencia": "2738545982",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CoelsaID: 76V4MR2Z7Q4R6DQYNDEZOL - Id Bancario. CUIL/CUIT destinatario: 30-71728225-2. CBU/CVU receptor: 0000155300000000009977",
+        "_num": 166,
+        "_fecha_carga": "20/06/2026 20:45",
+        "_origen": "grupo",
+        "_pie": "Baloh, Maria Silvana\nCUIL/CUIT 23-13476634-4"
       }
     ],
     "errores": [],
