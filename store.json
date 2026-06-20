@@ -2491,6 +2491,28 @@
         "_fecha_carga": "19/06/2026 21:46",
         "_origen": "grupo",
         "_pie": "Garcia, Joaquin Santiago\n20-43263545-8"
+      },
+      {
+        "fecha": "18/06/2026",
+        "hora": "15:08",
+        "tipo": "TRF",
+        "monto": 50000.0,
+        "moneda": "ARS",
+        "remitente": "Liliana Beatriz Anrriquez",
+        "remitente_cuil": "",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Ualá",
+        "banco_destino": "",
+        "referencia": "76V4MR2Z74O8ZLW0DEZOL",
+        "concepto": "VAR",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CBU destino: 0000155300000000009977. CUIT destino: 30717282252 (corresponde al destinatario Sasteup Srl). No se visualiza CUIL del remitente en el comprobante.",
+        "_num": 114,
+        "_fecha_carga": "19/06/2026 21:46",
+        "_origen": "grupo",
+        "_pie": "Liliana Beatriz Anrriquez \nDNI: 21.104.254"
       }
     ],
     "errores": [],
