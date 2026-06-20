@@ -66425,6 +66425,28 @@
         "_fecha_carga": "20/06/2026 01:38",
         "_origen": "grupo",
         "_pie": "Juan Ramón lobo \n20-22357667-3"
+      },
+      {
+        "fecha": "18/06/2026",
+        "hora": "22:41",
+        "tipo": "TRF",
+        "monto": 250000.0,
+        "moneda": "ARS",
+        "remitente": "Cintia Bettiana Alvarez",
+        "remitente_cuil": "27-34120207-3",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "164789874596",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: 3D5W612E6Z10O0XL2GXYVR. CVU remitente: 0000003100002893383691. CVU destinatario: 0000155300000000009977",
+        "_num": 856,
+        "_fecha_carga": "20/06/2026 01:38",
+        "_origen": "grupo",
+        "_pie": "Cintia Bettiana Alvarez\nCuit: 27-3412207-3"
       }
     ],
     "errores": [],
