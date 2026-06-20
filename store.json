@@ -68808,6 +68808,28 @@
         "_fecha_carga": "20/06/2026 01:54",
         "_origen": "grupo",
         "_pie": "Bet30click"
+      },
+      {
+        "fecha": "19/06/2026",
+        "hora": "12:44",
+        "tipo": "TRF",
+        "monto": 200000.0,
+        "moneda": "ARS",
+        "remitente": "Jennifer Daiana Sfoggia",
+        "remitente_cuil": "27-44693209-3",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "164043744525",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: PDX4OGNYGP6OKJ6MN0L6EY. CVU origen: 0000003100092770554760. CVU destino: 0000155300000000000009977.",
+        "_num": 964,
+        "_fecha_carga": "20/06/2026 01:54",
+        "_origen": "grupo",
+        "_pie": "Jennifer Daiana Sfoggia 44693209"
       }
     ],
     "errores": [],
