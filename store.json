@@ -66139,6 +66139,28 @@
         "_fecha_carga": "20/06/2026 01:36",
         "_origen": "grupo",
         "_pie": "Claudio Ismael Iriarte\nNaranja X\n4530000800010275684832\n20-37553162-4"
+      },
+      {
+        "fecha": "18/06/2026",
+        "hora": "21:47",
+        "tipo": "TRF",
+        "monto": 300000.0,
+        "moneda": "ARS",
+        "remitente": "MATIAS EMMANUEL TORRES MOYANO",
+        "remitente_cuil": "20-32356439-7",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Banco De Galicia S.A.U",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "42146301490",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "ID COELSA: XJ8G7V95DWYOQ7LM9EMPYR. CVU destinatario: 0000155300000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 843,
+        "_fecha_carga": "20/06/2026 01:36",
+        "_origen": "grupo",
+        "_pie": "MATIAS EMMANUEL TORRES MOYANO\nCUIT 20-32356439-7"
       }
     ],
     "errores": [],
