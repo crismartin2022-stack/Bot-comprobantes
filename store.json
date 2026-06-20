@@ -57260,6 +57260,28 @@
         "_fecha_carga": "19/06/2026 21:21",
         "_origen": "grupo",
         "_pie": "Diego Luis Garcia\nCUIT/CUIL: 20-25809829-4"
+      },
+      {
+        "fecha": "18/06/2026",
+        "hora": "00:44",
+        "tipo": "TRF",
+        "monto": 50000.0,
+        "moneda": "ARS",
+        "remitente": "Miriam Lili Nunez Fernandez",
+        "remitente_cuil": "27-94216492-6",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163826047445",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: R7ZG0QNDW1XPXZY09EXYPO. CVU origen: 0000003100098349467435. CVU destino: 0000155300000000000009977",
+        "_num": 613,
+        "_fecha_carga": "19/06/2026 21:22",
+        "_origen": "grupo",
+        "_pie": "Miriam Lili Nunez Fernandez\nCUIT/CUIL: 27-94216492-6"
       }
     ],
     "errores": [],
