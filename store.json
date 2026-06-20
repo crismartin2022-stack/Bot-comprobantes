@@ -62440,6 +62440,28 @@
         "_fecha_carga": "20/06/2026 01:11",
         "_origen": "grupo",
         "_pie": "Filomena renna 4512413"
+      },
+      {
+        "fecha": "17/06/2026",
+        "hora": "19:16",
+        "tipo": "TRF",
+        "monto": 30000.0,
+        "moneda": "ARS",
+        "remitente": "Ana De Jesus Sanabria",
+        "remitente_cuil": "27-25201652-5",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Naranja X",
+        "banco_destino": "Cuenta Virtual",
+        "referencia": "WGRXJE27DX7L303ON7MYQL",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CBU origen: 4530000800015907668435. CVU destino: 0000155300000000009977. CUIL destinatario: 30-71728225-2. Código de transacción: 6ea928f9-f03e-4194-80c7-17f66568ee53",
+        "_num": 675,
+        "_fecha_carga": "20/06/2026 01:11",
+        "_origen": "grupo",
+        "_pie": "Foto de raskovsky romina"
       }
     ],
     "errores": [],
