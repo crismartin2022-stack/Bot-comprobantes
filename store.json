@@ -66227,6 +66227,28 @@
         "_fecha_carga": "20/06/2026 01:36",
         "_origen": "grupo",
         "_pie": "Mendez Vergara, lara\n27-43738896-8"
+      },
+      {
+        "fecha": "18/06/2026",
+        "hora": "21:54",
+        "tipo": "TRF",
+        "monto": 250001.0,
+        "moneda": "ARS",
+        "remitente": "Jonathan Daniel Segovia",
+        "remitente_cuil": "47678975",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Ualá",
+        "banco_destino": "",
+        "referencia": "Z4K6DVN0WY0XRZD125J8LQ",
+        "concepto": "VAR",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CBU destino: 0000155300000000009977. CUIT destino (destinatario): 30717282252. No se visualiza CUIL del remitente en el comprobante.",
+        "_num": 847,
+        "_fecha_carga": "20/06/2026 01:36",
+        "_origen": "grupo",
+        "_pie": "Jonathan Daniel Segovia \n47678975"
       }
     ],
     "errores": [],
