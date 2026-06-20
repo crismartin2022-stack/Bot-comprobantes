@@ -55212,6 +55212,28 @@
         "_fecha_carga": "19/06/2026 21:07",
         "_origen": "grupo",
         "_pie": "Leonardo Ariel Aguirre\nCUIT/CUIL: 20-25795836-2"
+      },
+      {
+        "fecha": "16/06/2026",
+        "hora": "20:03",
+        "tipo": "TRF",
+        "monto": 100000.0,
+        "moneda": "ARS",
+        "remitente": "Claudio Daniel Weber",
+        "remitente_cuil": "20-35245699-4",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "164453888390",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: XJ8G7V95DW0W5QKD9EMPYR. CVU origen: 0000003100008475755166. CVU destino: 0000155300000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 520,
+        "_fecha_carga": "19/06/2026 21:07",
+        "_origen": "grupo",
+        "_pie": "Claudio Daniel Weber\nCUIT/CUIL: 20-35245699-4"
       }
     ],
     "errores": [],
