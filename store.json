@@ -48683,6 +48683,28 @@
         "_fecha_carga": "20/06/2026 13:45",
         "_origen": "grupo",
         "_pie": "Keila Nadine Indice\nCUIT/CUIL: 27-46194282-8"
+      },
+      {
+        "fecha": "18/06/2026",
+        "hora": "12:18",
+        "tipo": "TRF",
+        "monto": 280000.0,
+        "moneda": "ARS",
+        "remitente": "Romina Soledad Basualdo",
+        "remitente_cuil": "27-32331874-9",
+        "destinatario": "SASTEUP SRL",
+        "banco_origen": "Brubank",
+        "banco_destino": "",
+        "referencia": "",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Transferencia enviada desde cuenta Caja de ahorro en pesos en Brubank. Destino CVU: 0000155300000000009977. CUIT/CUIL destinatario: 30-71728225-2.",
+        "_num": 51,
+        "_fecha_carga": "20/06/2026 13:45",
+        "_origen": "grupo",
+        "_pie": "Basualdo, Romina \nDni 32.331.874\nCargalos en agentes bet"
       }
     ],
     "errores": [],
