@@ -68367,6 +68367,28 @@
         "_fecha_carga": "20/06/2026 01:51",
         "_origen": "grupo",
         "_pie": "Jorge Leonel Villalba \n45228847"
+      },
+      {
+        "fecha": "19/06/2026",
+        "hora": "10:58",
+        "tipo": "TRF",
+        "monto": 60000.0,
+        "moneda": "ARS",
+        "remitente": "Medina, Martin Francisco Gabriel",
+        "remitente_cuil": "20-35286867-2",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Personal Pay",
+        "banco_destino": "",
+        "referencia": "2759600988",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CoelsaID: RD06ZO9WVR61YWP5N5GP7X - Id Bancario. CBU/CVU destinatario: 0000155300000000009977. CUIL/CUIT destinatario: 30-71728225-2",
+        "_num": 944,
+        "_fecha_carga": "20/06/2026 01:51",
+        "_origen": "grupo",
+        "_pie": "Medina Martín 35286867"
       }
     ],
     "errores": [],
