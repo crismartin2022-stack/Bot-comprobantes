@@ -56930,6 +56930,28 @@
         "_fecha_carga": "19/06/2026 21:19",
         "_origen": "grupo",
         "_pie": "Brian David Munoz\nCUIT/CUIL: 20-44141951-2"
+      },
+      {
+        "fecha": "18/06/2026",
+        "hora": "00:05",
+        "tipo": "TRF",
+        "monto": 200001.0,
+        "moneda": "ARS",
+        "remitente": "Yesica Soledad Chachague",
+        "remitente_cuil": "27-36609510-7",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Naranja X",
+        "banco_destino": "Cuenta Virtual",
+        "referencia": "WY7ZEPN6MKGKVMYO2Q0M51",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CBU origen: 4530000800011766390494. CVU destino: 0000155300000000009977. CUIL destinatario: 30-71728225-2. Código de transacción: b70886ad-b55c-47d4-8255-c3573a702a04",
+        "_num": 598,
+        "_fecha_carga": "19/06/2026 21:19",
+        "_origen": "grupo",
+        "_pie": "Yesica Soledad Chachague\nNaranja X\n4530000800011766390494\n27-36609510-7"
       }
     ],
     "errores": [],
