@@ -3130,6 +3130,28 @@
         "_fecha_carga": "19/06/2026 21:50",
         "_origen": "grupo",
         "_pie": "Nancy Carolina Cardozo Rodas\nCUIT/CUIL: 27-95467596-9"
+      },
+      {
+        "fecha": "18/06/2026",
+        "hora": "19:30",
+        "tipo": "TRF",
+        "monto": 100000.0,
+        "moneda": "ARS",
+        "remitente": "Natalia Ailen Di Giorgio Suarez",
+        "remitente_cuil": "27-47758744-0",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "164764030350",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: 67REZ8NPQ64P5LY194KVGO. CVU origen: 0000003100070476800015. CVU destino: 0000155300000000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 143,
+        "_fecha_carga": "19/06/2026 21:50",
+        "_origen": "grupo",
+        "_pie": "Natalia Ailen Di Giorgio Suarez\nCUIT/CUIL: 27-47758744-0"
       }
     ],
     "errores": [],
