@@ -56424,6 +56424,28 @@
         "_fecha_carga": "19/06/2026 21:16",
         "_origen": "grupo",
         "_pie": "Gomez Fernandez Antonella Nahiara\nCUIT/CUIL: 27-45929046-5"
+      },
+      {
+        "fecha": "16/06/2026",
+        "hora": "23:36",
+        "tipo": "TRF",
+        "monto": 100000.0,
+        "moneda": "ARS",
+        "remitente": "Silva Pinasco, Marco Antonio",
+        "remitente_cuil": "27-39459640-5",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Personal Pay",
+        "banco_destino": "",
+        "referencia": "2750111968",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CoelsaID: RD06ZO9WVR0G1YD5N5GP7X - Id Bancario. CBU/CVU destinatario: 00001553000000000009977. CUIL/CUIT destinatario: 30-71728225-2.",
+        "_num": 575,
+        "_fecha_carga": "19/06/2026 21:16",
+        "_origen": "grupo",
+        "_pie": "Silva Pinasco, Marco Antonio\nCUIL/CUIT 27-39459640-5"
       }
     ],
     "errores": [],
