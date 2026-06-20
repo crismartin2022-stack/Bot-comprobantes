@@ -796,6 +796,28 @@
         "_fecha_carga": "19/06/2026 21:35",
         "_origen": "grupo",
         "_pie": "Santiago ramirez\n44185599"
+      },
+      {
+        "fecha": "17/06/2026",
+        "hora": "23:11",
+        "tipo": "TRF",
+        "monto": 100000.0,
+        "moneda": "ARS",
+        "remitente": "Santiago David Ramirez",
+        "remitente_cuil": "20-44185599-1",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163819407171",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: Z0KV87940EDPL5G0NPEYDX. CVU remitente: 0000003100040358609432. CVU destinatario: 0000155300000000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 37,
+        "_fecha_carga": "19/06/2026 21:35",
+        "_origen": "grupo",
+        "_pie": "Evelyn leguiza\n46433396\nBet91"
       }
     ],
     "errores": [],
