@@ -56600,6 +56600,28 @@
         "_fecha_carga": "19/06/2026 21:17",
         "_origen": "grupo",
         "_pie": "Fabian Ernesto Delgado\nCUIT/CUIL: 20-23986644-2"
+      },
+      {
+        "fecha": "16/06/2026",
+        "hora": "20:04",
+        "tipo": "TRF",
+        "monto": 100000.0,
+        "moneda": "ARS",
+        "remitente": "Claudio Daniel Weber",
+        "remitente_cuil": "20-35245699-4",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "164453301022",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: L18MKX9RXJGJJ1449O6WYV. CVU origen (remitente): 0000003100008475755166. CVU destino (receptor): 0000155300000000009977.",
+        "_num": 583,
+        "_fecha_carga": "19/06/2026 21:17",
+        "_origen": "grupo",
+        "_pie": "Claudio Daniel Weber\nCUIT/CUIL: 20-35245699-4"
       }
     ],
     "errores": [],
