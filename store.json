@@ -68698,6 +68698,28 @@
         "_fecha_carga": "20/06/2026 01:53",
         "_origen": "grupo",
         "_pie": "Sergio Cabrera 30473560"
+      },
+      {
+        "fecha": "18/06/2026",
+        "hora": "23:35",
+        "tipo": "TRF",
+        "monto": 100000.0,
+        "moneda": "ARS",
+        "remitente": "Maria Victoria Jaime",
+        "remitente_cuil": "27-34250357-3",
+        "destinatario": "SASTEUP SRL",
+        "banco_origen": "Brubank",
+        "banco_destino": "",
+        "referencia": "",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Transferencia enviada desde Caja de ahorro en pesos en Brubank. CVU destino: 0000155300000000009977. CUIT/CUIL del destinatario SASTEUP SRL: 30-71728225-2.",
+        "_num": 959,
+        "_fecha_carga": "20/06/2026 01:53",
+        "_origen": "grupo",
+        "_pie": "María Victoria Jaime 34250357"
       }
     ],
     "errores": [],
