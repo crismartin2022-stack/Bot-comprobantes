@@ -66381,6 +66381,28 @@
         "_fecha_carga": "20/06/2026 01:37",
         "_origen": "grupo",
         "_pie": "ALDANA ROCIO ORELLANA\n27418807860"
+      },
+      {
+        "fecha": "18/06/2026",
+        "hora": "22:42",
+        "tipo": "TRF",
+        "monto": 300000.0,
+        "moneda": "ARS",
+        "remitente": "Luque Miguez, Ariadna Abigail",
+        "remitente_cuil": "27-48299541-7",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Personal Pay",
+        "banco_destino": "",
+        "referencia": "2758892562",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CoelsaID: 0V1JXON1LM5PXVKPNZ64EL. CUIL/CUIT destinatario: 30-71728225-2. CBU/CVU destinatario: 0000155300000000009977",
+        "_num": 854,
+        "_fecha_carga": "20/06/2026 01:37",
+        "_origen": "grupo",
+        "_pie": "Luque Miguez, Ariadna Abigail\n27-48299541-7"
       }
     ],
     "errores": [],
