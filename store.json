@@ -66758,6 +66758,28 @@
         "_fecha_carga": "20/06/2026 01:40",
         "_origen": "grupo",
         "_pie": "Julio lopez\n20-47944403-0"
+      },
+      {
+        "fecha": "18/06/2026",
+        "hora": "22:47",
+        "tipo": "TRF",
+        "monto": 500001.0,
+        "moneda": "ARS",
+        "remitente": "JESICA MARIELA PORTILLO",
+        "remitente_cuil": "27-33807148-0",
+        "destinatario": "SASTEUP SRL",
+        "banco_origen": "AstroPay",
+        "banco_destino": "",
+        "referencia": "Z0KV87940E5X1VEQNPEYDX",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CVU remitente: 0000177500095763615198 (alias: portillo.ast). CVU receptor: 0000155300000000009977 (alias: cvu.977). CUIT/CUIL receptor SASTEUP SRL: 30717282252.",
+        "_num": 871,
+        "_fecha_carga": "20/06/2026 01:40",
+        "_origen": "grupo",
+        "_pie": "Jesica Mariela portillo \n27-33807148-0"
       }
     ],
     "errores": [],
