@@ -1809,6 +1809,28 @@
         "_fecha_carga": "19/06/2026 21:41",
         "_origen": "grupo",
         "_pie": "41434359 Maylen Herrera\n\nViranet"
+      },
+      {
+        "fecha": "17/06/2026",
+        "hora": "13:49",
+        "tipo": "TRF",
+        "monto": 15000.0,
+        "moneda": "ARS",
+        "remitente": "Maria Laura Fernandez",
+        "remitente_cuil": "27-30839418-8",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163739235299",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: RD06ZO9WVR5Q0QKXN5GP7X. CVU origen: 0000003100004411749684. CVU destino: 0000155300000000009977",
+        "_num": 83,
+        "_fecha_carga": "19/06/2026 21:42",
+        "_origen": "grupo",
+        "_pie": "Maria fernandez 30839418"
       }
     ],
     "errores": [],
