@@ -66736,6 +66736,28 @@
         "_fecha_carga": "20/06/2026 01:40",
         "_origen": "grupo",
         "_pie": "Miguel Abran cespedes \n20-51260467-7"
+      },
+      {
+        "fecha": "18/06/2026",
+        "hora": "22:44",
+        "tipo": "TRF",
+        "monto": 500001.0,
+        "moneda": "ARS",
+        "remitente": "Julio Lopez",
+        "remitente_cuil": "20-47944403-0",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Naranja X",
+        "banco_destino": "Cuenta Virtual",
+        "referencia": "Z0KV87940E5XD570NPEYDX",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CBU origen: 4530000800011626950369. CVU destino: 0000155300000000009977. CUIL destinatario: 30-71728225-2. Código de transacción: 310916a6-d1dc-4068-8eb8-c2604772e581",
+        "_num": 870,
+        "_fecha_carga": "20/06/2026 01:40",
+        "_origen": "grupo",
+        "_pie": "Julio lopez\n20-47944403-0"
       }
     ],
     "errores": [],
