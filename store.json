@@ -1963,6 +1963,28 @@
         "_fecha_carga": "19/06/2026 21:43",
         "_origen": "grupo",
         "_pie": "Villalba Carlos Alberto DNI 35304632"
+      },
+      {
+        "fecha": "17/06/2026",
+        "hora": "20:47",
+        "tipo": "TRF",
+        "monto": 27000.0,
+        "moneda": "ARS",
+        "remitente": "Santiago Tomas Ruzs",
+        "remitente_cuil": "",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Ualá",
+        "banco_destino": "",
+        "referencia": "R7ZG0QNDW1YLRQKE9EXYPO",
+        "concepto": "VAR",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CUIT destino: 30717282252. CBU/CVU destino: 0000155300000000009977",
+        "_num": 90,
+        "_fecha_carga": "19/06/2026 21:43",
+        "_origen": "grupo",
+        "_pie": "RUZS SANTIAGO TOMÁS \n42412685S"
       }
     ],
     "errores": [],
