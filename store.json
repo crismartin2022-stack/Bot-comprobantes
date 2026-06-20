@@ -54748,6 +54748,28 @@
         "_fecha_carga": "19/06/2026 21:04",
         "_origen": "grupo",
         "_pie": "Alexis Maximiliano Esteban\nNaranja X\n4530000800016540213330\n20-44901626-3"
+      },
+      {
+        "fecha": "16/06/2026",
+        "hora": "17:59",
+        "tipo": "TRF",
+        "monto": 500000.0,
+        "moneda": "ARS",
+        "remitente": "Albornoz, Nicolas Eduardo",
+        "remitente_cuil": "20-12580879-5",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Personal Pay",
+        "banco_destino": "",
+        "referencia": "2749240147",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CoelsaID: 76V4MR2Z74G0D6E0NDEZOL - Id Bancario. CBU/CVU destinatario: 00001553000000000009977. CUIL destinatario: 30-71728225-2.",
+        "_num": 499,
+        "_fecha_carga": "19/06/2026 21:04",
+        "_origen": "grupo",
+        "_pie": "Albornoz, Nicolas Eduardo\nCUIL/CUIT 20-12580879-5"
       }
     ],
     "errores": [],
