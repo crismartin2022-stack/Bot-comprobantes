@@ -66469,6 +66469,28 @@
         "_fecha_carga": "20/06/2026 01:38",
         "_origen": "grupo",
         "_pie": "Luzdary Falla \n27-96142180-8"
+      },
+      {
+        "fecha": "18/06/2026",
+        "hora": "22:46",
+        "tipo": "TRF",
+        "monto": 200000.0,
+        "moneda": "ARS",
+        "remitente": "Rodrigo Andres Marquez de Olivera",
+        "remitente_cuil": "38439712",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Ualá",
+        "banco_destino": "",
+        "referencia": "WY7ZEPN6MKP310742Q0M51",
+        "concepto": "VAR",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CUIT destino: 30717282252. CBU destino completo: 0000155300000000009977",
+        "_num": 858,
+        "_fecha_carga": "20/06/2026 01:38",
+        "_origen": "grupo",
+        "_pie": "Rodrigo Andrés Márquez de Olivera \n\n38439712"
       }
     ],
     "errores": [],
