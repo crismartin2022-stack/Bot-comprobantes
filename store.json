@@ -3681,6 +3681,28 @@
         "_fecha_carga": "19/06/2026 21:54",
         "_origen": "grupo",
         "_pie": "Claudio Daniel Weber\nCUIT/CUIL: 20-35245699-4"
+      },
+      {
+        "fecha": "18/06/2026",
+        "hora": "20:46",
+        "tipo": "TRF",
+        "monto": 100000.0,
+        "moneda": "ARS",
+        "remitente": "Carolina Soraya Lopez",
+        "remitente_cuil": "27-25572398-2",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Naranja X",
+        "banco_destino": "Cuenta Virtual",
+        "referencia": "ORD6LEN8PY5PMRGPNM1Y30",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de transacción adicional: 45e3d91e-d798-4a12-835f-c704ecd210b6. CBU origen: 4530000800018419534461. CVU destino: 0000155300000000009977. CUIL destinatario: 30-71728225-2.",
+        "_num": 168,
+        "_fecha_carga": "19/06/2026 21:54",
+        "_origen": "grupo",
+        "_pie": "Carolina Soraya Lopez\nNaranja X\n4530000800018419534461\n27-25572398-2"
       }
     ],
     "errores": [],
