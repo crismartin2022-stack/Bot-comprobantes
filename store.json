@@ -62880,6 +62880,28 @@
         "_fecha_carga": "20/06/2026 01:14",
         "_origen": "grupo",
         "_pie": "Estefania garayoa \n38.441.538"
+      },
+      {
+        "fecha": "15/06/2026",
+        "hora": "00:11",
+        "tipo": "TRF",
+        "monto": 200000.0,
+        "moneda": "ARS",
+        "remitente": "Estefania Rocio Garayoa",
+        "remitente_cuil": "27-38441538-0",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "164168648200",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: Z4K6DVNOWYPKJ8J125J8LQ. CVU remitente: 0000003100077225876228. CVU destinatario: 0000155300000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 695,
+        "_fecha_carga": "20/06/2026 01:14",
+        "_origen": "grupo",
+        "_pie": "Jorge Muñoz\n35710065"
       }
     ],
     "errores": [],
