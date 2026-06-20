@@ -67396,6 +67396,28 @@
         "_fecha_carga": "20/06/2026 01:44",
         "_origen": "grupo",
         "_pie": "Micaela Daniela Godoy\nCUIT/CUIL: 27-32010636-8"
+      },
+      {
+        "fecha": "19/06/2026",
+        "hora": "00:28",
+        "tipo": "TRF",
+        "monto": 100000.0,
+        "moneda": "ARS",
+        "remitente": "Shaiel Agustina Noriega",
+        "remitente_cuil": "27-46090582-1",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163981716459",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: 7L8GYKNX05QZQ7GQ2MPRZ5. CVU remitente: 0000003100000073925664. CVU destinatario: 0000155300000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 900,
+        "_fecha_carga": "20/06/2026 01:44",
+        "_origen": "grupo",
+        "_pie": "Shaiel Agustina Noriega\nCUIT/CUIL: 27-46090582-1"
       }
     ],
     "errores": [],
