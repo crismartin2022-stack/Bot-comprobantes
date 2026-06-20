@@ -67000,6 +67000,28 @@
         "_fecha_carga": "20/06/2026 01:42",
         "_origen": "grupo",
         "_pie": "Cristian Eduardo Ramirez\nCUIT/CUIL: 20-30942047-1"
+      },
+      {
+        "fecha": "18/06/2026",
+        "hora": "23:34",
+        "tipo": "TRF",
+        "monto": 70000.0,
+        "moneda": "ARS",
+        "remitente": "Gregorio Fernandez Herrera",
+        "remitente_cuil": "20-92877016-9",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "16479433110",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: 86VRPQ2GML10E00J2GLY0M. CVU origen: 0000003100066428168210. CVU destino: 0000155300000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 882,
+        "_fecha_carga": "20/06/2026 01:42",
+        "_origen": "grupo",
+        "_pie": "Gregorio Fernandez Herrera\nCUIT/CUIL: 20-92877016-9"
       }
     ],
     "errores": [],
