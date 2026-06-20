@@ -68962,6 +68962,28 @@
         "_fecha_carga": "20/06/2026 01:55",
         "_origen": "grupo",
         "_pie": "Buenas \n\n300 k (Tony90) \n*Sasteup Srl* \n18/6 \nHernán Ariel Alvarenga \n23-37790603-9"
+      },
+      {
+        "fecha": "18/06/2026",
+        "hora": "20:20",
+        "tipo": "TRF",
+        "monto": 100000.0,
+        "moneda": "ARS",
+        "remitente": "Andres Gabriel Gerez",
+        "remitente_cuil": "20-32032599-5",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163953343801",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: D4RO172VZQO1LXO0NKJ3QE. CVU origen: 0000003100019025838099. CVU destino: 0000155300000000009977. CUIT/CUIL destinatario: 30-71728225-2",
+        "_num": 971,
+        "_fecha_carga": "20/06/2026 01:55",
+        "_origen": "grupo",
+        "_pie": "100k (tony90)\n*Sasteup Srl*\n18/6\nAndres Gabriel Gerez \n20-32032599-5"
       }
     ],
     "errores": [],
