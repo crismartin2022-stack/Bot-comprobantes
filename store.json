@@ -66802,6 +66802,28 @@
         "_fecha_carga": "20/06/2026 01:40",
         "_origen": "grupo",
         "_pie": "Jose Alejandro Martinez \nD.N.I 40.862.931"
+      },
+      {
+        "fecha": "18/06/2026",
+        "hora": "22:44",
+        "tipo": "TRF",
+        "monto": 500000.02,
+        "moneda": "ARS",
+        "remitente": "Candela Soledad Sotelo",
+        "remitente_cuil": "27-47119484-6",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163971709953",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: 3D5W612E6Z108E5Q2GXYVR. CVU origen: 0000003100014894639451. CVU destino: 0000155300000000009977. CUIT/CUIL destinatario: 30-71728225-2.",
+        "_num": 873,
+        "_fecha_carga": "20/06/2026 01:40",
+        "_origen": "grupo",
+        "_pie": "Candela Soledad Sotelo\nCUIT/CUIL: 27-47119484-6"
       }
     ],
     "errores": [],
