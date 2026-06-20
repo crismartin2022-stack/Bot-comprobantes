@@ -58208,6 +58208,28 @@
         "_fecha_carga": "19/06/2026 21:28",
         "_origen": "grupo",
         "_pie": "Alexi delvalle 94598195"
+      },
+      {
+        "fecha": "17/06/2026",
+        "hora": "23:38",
+        "tipo": "TRF",
+        "monto": 275000.0,
+        "moneda": "ARS",
+        "remitente": "Adelaida Gonzalez De Candia",
+        "remitente_cuil": "27-95122020-0",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "164637874980",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: Z4K6DVNOWY3YG8OE25J8LQ. CVU origen: 0000003100095456399877. CVU destino: 0000155300000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 656,
+        "_fecha_carga": "19/06/2026 21:28",
+        "_origen": "grupo",
+        "_pie": "Adelaida González 95122020"
       }
     ],
     "errores": [],
