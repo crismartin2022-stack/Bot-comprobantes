@@ -1302,6 +1302,28 @@
         "_fecha_carga": "19/06/2026 21:38",
         "_origen": "grupo",
         "_pie": "Daiana forno\n27-35087837-3"
+      },
+      {
+        "fecha": "17/06/2026",
+        "hora": "21:35",
+        "tipo": "TRF",
+        "monto": 60000.0,
+        "moneda": "ARS",
+        "remitente": "Matias Ariel Chaves",
+        "remitente_cuil": "20-41416949-0",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "164625055684",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: 0V1JXON1LM06LX57NZ64EL. CVU origen: 0000003100097773494493. CVU destino: 0000155300000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 60,
+        "_fecha_carga": "19/06/2026 21:38",
+        "_origen": "grupo",
+        "_pie": "Matias Chaves \n20-41416949-0"
       }
     ],
     "errores": [],
