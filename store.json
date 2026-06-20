@@ -3615,6 +3615,28 @@
         "_fecha_carga": "19/06/2026 21:54",
         "_origen": "grupo",
         "_pie": "39487346"
+      },
+      {
+        "fecha": "18/06/2026",
+        "hora": "19:31",
+        "tipo": "TRF",
+        "monto": 100000.0,
+        "moneda": "ARS",
+        "remitente": "Claudio Daniel Weber",
+        "remitente_cuil": "20-35245699-4",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163945917273",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: 3D5W612E6Z4M53YW2GXYVR. CVU origen (remitente): 0000003100008475755166. CVU destino (receptor): 0000155300000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 165,
+        "_fecha_carga": "19/06/2026 21:54",
+        "_origen": "grupo",
+        "_pie": "Claudio Daniel Weber\nCUIT/CUIL: 20-35245699-4"
       }
     ],
     "errores": [],
