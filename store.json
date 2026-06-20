@@ -3262,6 +3262,28 @@
         "_fecha_carga": "19/06/2026 21:51",
         "_origen": "grupo",
         "_pie": "Axel Matias Lopez\nCUIT/CUIL: 20-38949607-4"
+      },
+      {
+        "fecha": "18/06/2026",
+        "hora": "20:01",
+        "tipo": "TRF",
+        "monto": 50000.0,
+        "moneda": "ARS",
+        "remitente": "Miriam Lili Nunez Fernandez",
+        "remitente_cuil": "27-94216492-6",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "164767779492",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: LOEJWV9JZ343QZG32QMD0G. CVU remitente: 0000003100098349467435. CVU destinatario: 0000155300000000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 149,
+        "_fecha_carga": "19/06/2026 21:51",
+        "_origen": "grupo",
+        "_pie": "Miriam Lili Nunez Fernandez\nCUIT/CUIL: 27-94216492-6"
       }
     ],
     "errores": [],
