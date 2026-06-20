@@ -1919,6 +1919,28 @@
         "_fecha_carga": "19/06/2026 21:42",
         "_origen": "grupo",
         "_pie": "Andres zapata 35652442"
+      },
+      {
+        "fecha": "17/06/2026",
+        "hora": "15:52",
+        "tipo": "TRF",
+        "monto": 30000.0,
+        "moneda": "ARS",
+        "remitente": "Marina Marcela Pertinez",
+        "remitente_cuil": "27-22940414-3",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163756242693",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: Z0KV87940EY64WEQNPEYDX. CVU origen: 0000003100093393120558. CVU destino: 0000155300000000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 88,
+        "_fecha_carga": "19/06/2026 21:43",
+        "_origen": "grupo",
+        "_pie": "Marina Marcela Pertiñez. Dni.22940414"
       }
     ],
     "errores": [],
