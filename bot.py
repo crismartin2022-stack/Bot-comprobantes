@@ -40,6 +40,7 @@ mensajes_rechazo: dict = {}
 received_log: dict = {}  # {chat_id: [{"msg_id", "fecha", "remitente", "estado"}]}
 
 DATA_FILE    = "/data/store.json"       # Volume de Railway (persistente)
+LOG_FILE     = "/data/received_log.json"  # Log de imágenes recibidas
 GITHUB_TOKEN = os.environ.get("GITHUB_TOKEN", "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")
 GITHUB_REPO  = "crismartin2022-stack/Bot-comprobantes"
 GITHUB_FILE  = "store.json"
@@ -60,6 +61,12 @@ def guardar_store():
         with open(DATA_FILE, "w", encoding="utf-8") as f:
             json.dump(store_limpio, f, ensure_ascii=False, indent=2)
         log.info("Store guardado en Volume ✅")
+        # Guardar log de imágenes
+        try:
+            with open(LOG_FILE, "w", encoding="utf-8") as f:
+                json.dump(received_log, f, ensure_ascii=False, indent=2)
+        except Exception as le:
+            log.error(f"Error guardando log: {le}")
         # Respaldo en GitHub en thread separado
         import threading
         threading.Thread(target=_guardar_github_sync, args=(store_limpio,), daemon=True).start()
@@ -86,7 +93,16 @@ def _guardar_github_sync(store_limpio: dict):
 
 def cargar_store():
     """Carga el store desde Volume. Si no existe, intenta desde GitHub."""
-    global store
+    global store, received_log
+    # Cargar log de imágenes
+    try:
+        if os.path.exists(LOG_FILE):
+            with open(LOG_FILE, "r", encoding="utf-8") as f:
+                received_log = json.load(f)
+            log.info(f"Log cargado: {sum(len(v) for v in received_log.values())} entradas")
+    except Exception as e:
+        log.error(f"Error cargando log: {e}")
+        received_log = {}
     try:
         if os.path.exists(DATA_FILE):
             with open(DATA_FILE, "r", encoding="utf-8") as f:
