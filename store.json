@@ -68720,6 +68720,28 @@
         "_fecha_carga": "20/06/2026 01:53",
         "_origen": "grupo",
         "_pie": "María Victoria Jaime 34250357"
+      },
+      {
+        "fecha": "18/06/2026",
+        "hora": "23:42",
+        "tipo": "TRF",
+        "monto": 250000.0,
+        "moneda": "ARS",
+        "remitente": "Jorge Daniel Saso",
+        "remitente_cuil": "20-37663100-2",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "164795818222",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: 67REZ8NPQ6JZ5ZEG94KVGO. CVU origen: 0000003100073047621099. CVU destino: 0000155300000000009977.",
+        "_num": 960,
+        "_fecha_carga": "20/06/2026 01:54",
+        "_origen": "grupo",
+        "_pie": "Foto de 🤗🤗🤗"
       }
     ],
     "errores": [],
