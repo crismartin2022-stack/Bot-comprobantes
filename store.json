@@ -56864,6 +56864,28 @@
         "_fecha_carga": "19/06/2026 21:19",
         "_origen": "grupo",
         "_pie": "Coronel, Berta Lidia Maria\nCUIL/CUIT 27-34873685-5"
+      },
+      {
+        "fecha": "17/06/2026",
+        "hora": "23:22",
+        "tipo": "TRF",
+        "monto": 300000.0,
+        "moneda": "ARS",
+        "remitente": "Luque Miguez, Ariadna Abigail",
+        "remitente_cuil": "27-48299541-7",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Personal Pay",
+        "banco_destino": "",
+        "referencia": "2754488698",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CoelsaID: 7L8GYKNX057OQJGW2MPRZ5 - Id Bancario. CBU/CVU del destinatario: 0000155300000000009977",
+        "_num": 595,
+        "_fecha_carga": "19/06/2026 21:19",
+        "_origen": "grupo",
+        "_pie": "Luque Miguez, Ariadna Abigail\n27-48299541-7"
       }
     ],
     "errores": [],
