@@ -67330,6 +67330,28 @@
         "_fecha_carga": "20/06/2026 01:44",
         "_origen": "grupo",
         "_pie": "Martina Analia Acosta\nCUIT/CUIL: 27-44887309-4"
+      },
+      {
+        "fecha": "19/06/2026",
+        "hora": "00:18",
+        "tipo": "TRF",
+        "monto": 100000.0,
+        "moneda": "ARS",
+        "remitente": "Eduardo Adrian Perez",
+        "remitente_cuil": "20-31598874-9",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "164798484312",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: 3D5W612E6Z1508E52GXYVR. CVU origen: 0000003100005748826200. CVU destino: 0000155300000000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 897,
+        "_fecha_carga": "20/06/2026 01:44",
+        "_origen": "grupo",
+        "_pie": "Eduardo Adrian Perez\nCUIT/CUIL: 20-31598874-9"
       }
     ],
     "errores": [],
