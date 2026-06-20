@@ -68786,6 +68786,28 @@
         "_fecha_carga": "20/06/2026 01:54",
         "_origen": "grupo",
         "_pie": "Foto de 🤗🤗🤗"
+      },
+      {
+        "fecha": "19/06/2026",
+        "hora": "01:22",
+        "tipo": "TRF",
+        "monto": 20000.0,
+        "moneda": "ARS",
+        "remitente": "Yanina Soledad Medina",
+        "remitente_cuil": "27-33580578-5",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "164800667410",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: 76V4MR2Z74RO36R0NDEZOL. CVU origen: 0000003100011214180088. CVU destino: 0000155300000000009977. CUIT destinatario: 30-71728225-2",
+        "_num": 963,
+        "_fecha_carga": "20/06/2026 01:54",
+        "_origen": "grupo",
+        "_pie": "Bet30click"
       }
     ],
     "errores": [],
