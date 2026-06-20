@@ -67639,6 +67639,28 @@
         "_fecha_carga": "20/06/2026 01:46",
         "_origen": "grupo",
         "_pie": "De:\nEVELYN MION\nCUIT 27-38893919-8"
+      },
+      {
+        "fecha": "18/06/2026",
+        "hora": "23:47",
+        "tipo": "TRF",
+        "monto": 100000.0,
+        "moneda": "ARS",
+        "remitente": "Gomez Fernandez Antonella Nahiara",
+        "remitente_cuil": "27-45929046-5",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163978842425",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: LOEJWV9JZ31D106Z2QMD0G. CVU origen: 0000003100015494402258. CVU destino: 0000155300000000009977. CUIT/CUIL destinatario: 30-71728225-2.",
+        "_num": 911,
+        "_fecha_carga": "20/06/2026 01:46",
+        "_origen": "grupo",
+        "_pie": "Gomez Fernandez Antonella Nahiara\nCUIT/CUIL: 27-45929046-5"
       }
     ],
     "errores": [],
