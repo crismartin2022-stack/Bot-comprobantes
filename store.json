@@ -68874,6 +68874,28 @@
         "_fecha_carga": "20/06/2026 01:54",
         "_origen": "grupo",
         "_pie": "Bet30click"
+      },
+      {
+        "fecha": "19/06/2026",
+        "hora": "14:13",
+        "tipo": "TRF",
+        "monto": 50000.0,
+        "moneda": "ARS",
+        "remitente": "Juan Rodrigo Elias",
+        "remitente_cuil": "20-35113185-4",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Naranja X",
+        "banco_destino": "Cuenta Virtual",
+        "referencia": "46YGOW9M1KRMOY6MNEXD8J",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CBU origen: 4530000800013371177787. CVU destino: 0000155300000000009977. CUIL destinatario: 30-71728225-2. Código de transacción: 1a46651c-5df0-413f-9bd8-8c9512d1ba44",
+        "_num": 967,
+        "_fecha_carga": "20/06/2026 01:55",
+        "_origen": "grupo",
+        "_pie": "Zeus azul"
       }
     ],
     "errores": [],
