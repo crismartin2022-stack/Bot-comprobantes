@@ -55520,6 +55520,28 @@
         "_fecha_carga": "19/06/2026 21:09",
         "_origen": "grupo",
         "_pie": "María de Los Ángeles Rodríguez \n33711557879"
+      },
+      {
+        "fecha": "16/06/2026",
+        "hora": "21:50",
+        "tipo": "TRF",
+        "monto": 500000.0,
+        "moneda": "ARS",
+        "remitente": "Yesica Noemi Morales",
+        "remitente_cuil": "23-30853348-4",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163656158175",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: XJ8G7V95DW3RQ6LR9EMPYR. CVU remitente: 0000003100010145781779. CVU destinatario: 0000155300000000000009977.",
+        "_num": 534,
+        "_fecha_carga": "19/06/2026 21:10",
+        "_origen": "grupo",
+        "_pie": "Yesica Noemi Morales\nCUIT/CUIL: 23-30853348-4"
       }
     ],
     "errores": [],
