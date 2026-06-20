@@ -66117,6 +66117,28 @@
         "_fecha_carga": "20/06/2026 01:35",
         "_origen": "grupo",
         "_pie": "Luis Alberto Martinez\nCUIT/CUIL: 20-41920839-7"
+      },
+      {
+        "fecha": "18/06/2026",
+        "hora": "21:41",
+        "tipo": "TRF",
+        "monto": 50000.0,
+        "moneda": "ARS",
+        "remitente": "Claudio Ismael Iriarte",
+        "remitente_cuil": "20-37553162-4",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Naranja X",
+        "banco_destino": "Cuenta Virtual",
+        "referencia": "76V4MR2Z74RWO4WGNDEZOL",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de transacción adicional: 7184e556-1094-486c-8f09-df6c3ea57345. CBU origen: 4530000800010275684832. CVU destino: 000015530000000000009977.",
+        "_num": 842,
+        "_fecha_carga": "20/06/2026 01:36",
+        "_origen": "grupo",
+        "_pie": "Claudio Ismael Iriarte\nNaranja X\n4530000800010275684832\n20-37553162-4"
       }
     ],
     "errores": [],
