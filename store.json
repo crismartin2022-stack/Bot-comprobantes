@@ -2051,6 +2051,28 @@
         "_fecha_carga": "19/06/2026 21:43",
         "_origen": "grupo",
         "_pie": "Villalba Carlos Alberto DNI 35304632"
+      },
+      {
+        "fecha": "18/06/2026",
+        "hora": "00:30",
+        "tipo": "TRF",
+        "monto": 200000.0,
+        "moneda": "ARS",
+        "remitente": "Antonio Javier Herrera",
+        "remitente_cuil": "20-26393511-0",
+        "destinatario": "SASTEUP SRL",
+        "banco_origen": "Brubank",
+        "banco_destino": "",
+        "referencia": "",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Transferencia enviada desde Caja de ahorro en pesos en Brubank. CVU destino: 0000155300000000009977. CUIT/CUIL del destinatario: 30-71728225-2.",
+        "_num": 94,
+        "_fecha_carga": "19/06/2026 21:43",
+        "_origen": "grupo",
+        "_pie": "Antonio herrera 26393511"
       }
     ],
     "errores": [],
