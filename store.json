@@ -2799,6 +2799,28 @@
         "_fecha_carga": "19/06/2026 21:48",
         "_origen": "grupo",
         "_pie": "Joel Nicolás Conil\n46.412.438"
+      },
+      {
+        "fecha": "18/06/2026",
+        "hora": "15:11",
+        "tipo": "TRF",
+        "monto": 500000.0,
+        "moneda": "ARS",
+        "remitente": "Gonzalez, Sofia Morena",
+        "remitente_cuil": "27-48570072-8",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Personal Pay",
+        "banco_destino": "",
+        "referencia": "2757788181",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CoelsaID: 3D5W612E6Z4WM5J52GXYVR - Id Bancario. CBU/CVU destinatario: 00001553000000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 128,
+        "_fecha_carga": "19/06/2026 21:48",
+        "_origen": "grupo",
+        "_pie": "Gonzalez, Sofía Morena\nCUIL/CUIT 27-48570072-8"
       }
     ],
     "errores": [],
