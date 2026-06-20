@@ -57062,6 +57062,28 @@
         "_fecha_carga": "19/06/2026 21:20",
         "_origen": "grupo",
         "_pie": "JIMENA BELEN BREST\nCUIT 27-39984557-8"
+      },
+      {
+        "fecha": "18/06/2026",
+        "hora": "00:32",
+        "tipo": "TRF",
+        "monto": 200001.0,
+        "moneda": "ARS",
+        "remitente": "Leonardo Ariel Aguirre",
+        "remitente_cuil": "20-25795836-2",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163825021871",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: WY7ZEPN6MK0LZ1KO2Q0M51. CVU remitente: 0000003100000832706576. CVU destinatario: 0000155300000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 604,
+        "_fecha_carga": "19/06/2026 21:20",
+        "_origen": "grupo",
+        "_pie": "Leonardo Ariel Aguirre\nCUIT/CUIL: 20-25795836-2"
       }
     ],
     "errores": [],
