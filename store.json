@@ -62218,6 +62218,28 @@
         "_fecha_carga": "19/06/2026 21:30",
         "_origen": "grupo",
         "_pie": ""
+      },
+      {
+        "fecha": "18/06/2026",
+        "hora": "17:30",
+        "tipo": "TRF",
+        "monto": 50000.0,
+        "moneda": "ARS",
+        "remitente": "Cain Ivan Vera",
+        "remitente_cuil": "20-42185735-1",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163926354503",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: Z0KV87940E1ZO6ZENPEYDX. CVU origen (remitente): 0000003100066092997554. CVU destino (receptor): 0000155300000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 665,
+        "_fecha_carga": "20/06/2026 01:09",
+        "_origen": "grupo",
+        "_pie": "Cain Iván vera"
       }
     ],
     "errores": [],
