@@ -56072,6 +56072,28 @@
         "_fecha_carga": "19/06/2026 21:13",
         "_origen": "grupo",
         "_pie": "Micaela Acosta\nCUIT/CUIL: 27-37679548-4"
+      },
+      {
+        "fecha": "17/06/2026",
+        "hora": "00:14",
+        "tipo": "TRF",
+        "monto": 200000.0,
+        "moneda": "ARS",
+        "remitente": "Luzdary Falla",
+        "remitente_cuil": "27-96142180-8",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163668252813",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: 1LMP68NKVE7MXLDP2R7OEV. CVU remitente: 0000003100039447468168. CVU destinatario: 0000155300000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 559,
+        "_fecha_carga": "19/06/2026 21:14",
+        "_origen": "grupo",
+        "_pie": "Luzdary Falla\nCUIT/CUIL: 27-96142180-8"
       }
     ],
     "errores": [],
