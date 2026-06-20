@@ -54992,6 +54992,28 @@
         "_fecha_carga": "19/06/2026 21:05",
         "_origen": "grupo",
         "_pie": "Berta coronel 34873685"
+      },
+      {
+        "fecha": "16/06/2026",
+        "hora": "19:05",
+        "tipo": "TRF",
+        "monto": 70000.0,
+        "moneda": "ARS",
+        "remitente": "Miriam Lili Nunez Fernandez",
+        "remitente_cuil": "27-94216492-6",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "164442127248",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: D4RO172VZQJ54L10NKJ3QE. CVU origen: 0000003100098349467435. CVU destino: 0000155300000000000009977. CUIT/CUIL destinatario: 30-71728225-2.",
+        "_num": 510,
+        "_fecha_carga": "19/06/2026 21:06",
+        "_origen": "grupo",
+        "_pie": "Miriam Lili Nunez Fernandez\nCUIT/CUIL: 27-94216492-6"
       }
     ],
     "errores": [],
