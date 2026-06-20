@@ -56908,6 +56908,28 @@
         "_fecha_carga": "19/06/2026 21:19",
         "_origen": "grupo",
         "_pie": "Albornoz, Nicolas Eduardo\nCUIL/CUIT 20-12580879-5"
+      },
+      {
+        "fecha": "18/06/2026",
+        "hora": "00:04",
+        "tipo": "TRF",
+        "monto": 200001.0,
+        "moneda": "ARS",
+        "remitente": "Brian David Munoz",
+        "remitente_cuil": "20-44141951-2",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163822975797",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: PDX4OGNYGPOPKXEMN0L6EY. CVU destinatario: 0000155300000000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 597,
+        "_fecha_carga": "19/06/2026 21:19",
+        "_origen": "grupo",
+        "_pie": "Brian David Munoz\nCUIT/CUIL: 20-44141951-2"
       }
     ],
     "errores": [],
