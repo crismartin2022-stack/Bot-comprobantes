@@ -57877,6 +57877,28 @@
         "_fecha_carga": "19/06/2026 21:26",
         "_origen": "grupo",
         "_pie": "Victoria manso 36575136"
+      },
+      {
+        "fecha": "17/06/2026",
+        "hora": "12:52",
+        "tipo": "TRF",
+        "monto": 200000.0,
+        "moneda": "ARS",
+        "remitente": "Noelia Jaqueline Ayala",
+        "remitente_cuil": "27-40034818-4",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Naranja X",
+        "banco_destino": "Cuenta Virtual",
+        "referencia": "86VRPQ2GMLQK06QM2GLY0M",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de transacción adicional: 962ba420-298e-45e0-b935-4e52330c7e3c. CBU origen: 4530000800019583905389. CVU destino: 0000155300000000009977. CUIL destinatario: 30-71728225-2.",
+        "_num": 641,
+        "_fecha_carga": "19/06/2026 21:26",
+        "_origen": "grupo",
+        "_pie": "Noelia Ayala \n40034818"
       }
     ],
     "errores": [],
