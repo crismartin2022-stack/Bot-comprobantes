@@ -55234,6 +55234,28 @@
         "_fecha_carga": "19/06/2026 21:07",
         "_origen": "grupo",
         "_pie": "Claudio Daniel Weber\nCUIT/CUIL: 20-35245699-4"
+      },
+      {
+        "fecha": "16/06/2026",
+        "hora": "20:36",
+        "tipo": "TRF",
+        "monto": 300000.0,
+        "moneda": "ARS",
+        "remitente": "NOELIA DEISY TALAVERA AGUAYO",
+        "remitente_cuil": "23-94689354-4",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Banco De Galicia S.A.U",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "42125246320",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "ID COELSA: 8D0Q619L0W5OJKD8N7JZ5R. CVU destinatario: 0000155300000000009977. Cuenta origen: CA $ N° 4028214-6 086-1. CUIT destinatario: 30-71728225-2.",
+        "_num": 521,
+        "_fecha_carga": "19/06/2026 21:08",
+        "_origen": "grupo",
+        "_pie": "NOELIA DEISY TALAVERA AGUAYO\nCUIT 23-94689354-4"
       }
     ],
     "errores": [],
