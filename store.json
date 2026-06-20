@@ -1567,6 +1567,28 @@
         "_fecha_carga": "19/06/2026 21:40",
         "_origen": "grupo",
         "_pie": "Vanesa adan         dni: 33114770"
+      },
+      {
+        "fecha": "15/06/2026",
+        "hora": "19:09",
+        "tipo": "TRF",
+        "monto": 200000.0,
+        "moneda": "ARS",
+        "remitente": "Jonathan Ippoliti",
+        "remitente_cuil": "24-92911314-0",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "164281355418",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: JMQKYZ9QQV113DEQ9V50P3. CVU origen (remitente): 0000003100003138473618. CVU destino (receptor): 0000155300000000000009977 — últimos 4: 9977.",
+        "_num": 72,
+        "_fecha_carga": "19/06/2026 21:40",
+        "_origen": "grupo",
+        "_pie": "Jonathan ippoliti DNI 92911314"
       }
     ],
     "errores": [],
