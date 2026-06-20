@@ -54549,6 +54549,28 @@
         "_fecha_carga": "19/06/2026 21:03",
         "_origen": "grupo",
         "_pie": "Juan Elias Marquez De Olivera\nCUIT/CUIL: 20-36520946-5"
+      },
+      {
+        "fecha": "16/06/2026",
+        "hora": "15:55",
+        "tipo": "TRF",
+        "monto": 30000.0,
+        "moneda": "ARS",
+        "remitente": "Gregorio Fernandez Herrera",
+        "remitente_cuil": "20-92877016-9",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "164409940466",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: LOEJWV9JZ3OX7K0M2QMD0G. CVU origen: 0000003100066428168210. CVU destino: 0000155300000000009977",
+        "_num": 490,
+        "_fecha_carga": "19/06/2026 21:03",
+        "_origen": "grupo",
+        "_pie": "Gregorio Fernandez Herrera\nCUIT/CUIL: 20-92877016-9"
       }
     ],
     "errores": [],
