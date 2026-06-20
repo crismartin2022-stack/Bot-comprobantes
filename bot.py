@@ -945,47 +945,31 @@ async def cmd_nueva_semana(update: Update, ctx: ContextTypes.DEFAULT_TYPE):
         reply_markup=InlineKeyboardMarkup(kb))
 
 async def cmd_pendientes(update: Update, ctx: ContextTypes.DEFAULT_TYPE):
-    """Muestra imágenes recibidas que no fueron procesadas exitosamente."""
     if update.effective_user.id != ADMIN_ID:
-        await update.message.reply_text("⛔ Solo el administrador.")
+        await update.message.reply_text("Solo el administrador.")
         return
-    
-    texto = "📋 *Log de imágenes recibidas*
-─────────────────────
-"
+    partes = ["Log de imagenes recibidas"]
     total_recibidas = 0
     total_perdidas = 0
-    
     for cid, entradas in received_log.items():
         nombre = store.get(cid, {}).get("nombre", cid)
         perdidas = [e for e in entradas if e.get("estado") == "procesando"]
         procesadas = [e for e in entradas if e.get("estado") == "procesado"]
         total_recibidas += len(entradas)
         total_perdidas += len(perdidas)
-        
         if perdidas:
-            texto += f"📍 *{nombre}*
-"
-            texto += f"   ✅ Procesadas: {len(procesadas)}
-"
-            texto += f"   ⚠️ Sin procesar: {len(perdidas)}
-"
+            partes.append(nombre)
+            partes.append("Procesadas: " + str(len(procesadas)))
+            partes.append("Sin procesar: " + str(len(perdidas)))
             for e in perdidas[:5]:
-                texto += f"   — msg#{e.get('msg_id')} | {e.get('fecha','')}
-"
+                partes.append("msg#" + str(e.get("msg_id")) + " | " + str(e.get("fecha","")))
             if len(perdidas) > 5:
-                texto += f"   ... y {len(perdidas)-5} más
-"
-            texto += "
-"
-    
+                partes.append("... y " + str(len(perdidas)-5) + " mas")
     if total_perdidas == 0:
-        texto += "✅ Todas las imágenes fueron procesadas correctamente."
+        partes.append("Todas las imagenes fueron procesadas.")
     else:
-        texto += f"─────────────────────
-⚠️ Total sin procesar: *{total_perdidas}* de {total_recibidas}"
-    
-    await update.message.reply_text(texto, parse_mode="Markdown")
+        partes.append("Total sin procesar: " + str(total_perdidas) + " de " + str(total_recibidas))
+    await update.message.reply_text("\n".join(partes))
 
 async def cmd_recuperar(update: Update, ctx: ContextTypes.DEFAULT_TYPE):
     """Lee el store.json del Volume y recarga los datos en memoria."""
