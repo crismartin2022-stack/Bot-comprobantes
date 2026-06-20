@@ -56116,6 +56116,28 @@
         "_fecha_carga": "19/06/2026 21:14",
         "_origen": "grupo",
         "_pie": "Cintia Bettiana Alvarez\nCUIT/CUIL: 27-34120207-3"
+      },
+      {
+        "fecha": "17/06/2026",
+        "hora": "00:30",
+        "tipo": "TRF",
+        "monto": 50000.0,
+        "moneda": "ARS",
+        "remitente": "Lautaro Facundo Santoro",
+        "remitente_cuil": "20-45004844-6",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163668973807",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: 76V4MR2Z74D0X8PGNDEZOL. CVU remitente: 0000003100057970247690. CVU destinatario: 0000155300000000009977",
+        "_num": 561,
+        "_fecha_carga": "19/06/2026 21:14",
+        "_origen": "grupo",
+        "_pie": "Lautaro Facundo Santoro\nCUIT/CUIL: 20-45004844-6"
       }
     ],
     "errores": [],
