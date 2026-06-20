@@ -3703,6 +3703,28 @@
         "_fecha_carga": "19/06/2026 21:54",
         "_origen": "grupo",
         "_pie": "Carolina Soraya Lopez\nNaranja X\n4530000800018419534461\n27-25572398-2"
+      },
+      {
+        "fecha": "18/06/2026",
+        "hora": "21:26",
+        "tipo": "TRF",
+        "monto": 500000.0,
+        "moneda": "ARS",
+        "remitente": "Montes, Ezequiel Nicolas",
+        "remitente_cuil": "20-44798788-1",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Personal Pay",
+        "banco_destino": "",
+        "referencia": "2758726169",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CoelsaID: 1LMP68NKVE13OKR2R7OEV - Id Bancario. CUIL/CUIT destinatario: 30-71728225-2. CBU/CVU receptor: 0000155300000000009977",
+        "_num": 169,
+        "_fecha_carga": "19/06/2026 21:54",
+        "_origen": "grupo",
+        "_pie": "Montes, Ezequiel Nicolas\n20-44798788-1"
       }
     ],
     "errores": [],
