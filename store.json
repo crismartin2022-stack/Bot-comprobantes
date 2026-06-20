@@ -55432,6 +55432,28 @@
         "_fecha_carga": "19/06/2026 21:09",
         "_origen": "grupo",
         "_pie": "Alberto Gimenez\nCUIT/CUIL: 20-93084324-6"
+      },
+      {
+        "fecha": "16/06/2026",
+        "hora": "21:28",
+        "tipo": "TRF",
+        "monto": 50000.0,
+        "moneda": "ARS",
+        "remitente": "Roberto Sergio Lopez",
+        "remitente_cuil": "23-25185980-9",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163651409621",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: ORD6LEN8PYKRV0LYNM1Y30. CUIT/CUIL destinatario: 30-71728225-2. CVU origen: 0000003100008486765312",
+        "_num": 530,
+        "_fecha_carga": "19/06/2026 21:09",
+        "_origen": "grupo",
+        "_pie": "Roberto Sergio Lopez\nCUIT/CUIL: 23-25185980-9"
       }
     ],
     "errores": [],
