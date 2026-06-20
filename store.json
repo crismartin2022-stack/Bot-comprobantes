@@ -57106,6 +57106,28 @@
         "_fecha_carga": "19/06/2026 21:20",
         "_origen": "grupo",
         "_pie": "Eriberta Herminia Fernandez Herrera\nCUIT/CUIL: 27-92798572-7"
+      },
+      {
+        "fecha": "18/06/2026",
+        "hora": "00:17",
+        "tipo": "TRF",
+        "monto": 500000.01,
+        "moneda": "ARS",
+        "remitente": "Jose Alejandro Martinez",
+        "remitente_cuil": "20-40862931-5",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "LB Finanzas",
+        "banco_destino": "Otros bancos",
+        "referencia": "TID23E7DAF7CE",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "ID Coelsa: LOEJWV9JZ35YYDMZ2QMD0G. CBU/CVU destinatario: 0000155300000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 606,
+        "_fecha_carga": "19/06/2026 21:21",
+        "_origen": "grupo",
+        "_pie": "Jose Alejandro Martinez\nDNI 40.862.931"
       }
     ],
     "errores": [],
