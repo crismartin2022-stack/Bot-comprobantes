@@ -62484,6 +62484,28 @@
         "_fecha_carga": "20/06/2026 01:11",
         "_origen": "grupo",
         "_pie": "Ruiz Diaz Yanina 36440128"
+      },
+      {
+        "fecha": "18/06/2026",
+        "hora": "22:14",
+        "tipo": "TRF",
+        "monto": 50000.0,
+        "moneda": "ARS",
+        "remitente": "Yanina Soledad Ruiz Diaz",
+        "remitente_cuil": "27-36440128-6",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Naranja X",
+        "banco_destino": "Cuenta Virtual",
+        "referencia": "0V1JXON1LM58RZJVNZ64EL",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CBU origen: 4530000800017597398816. CVU destino: 0000155300000000009977. CUIL destinatario: 30-71728225-2. Código de transacción: b16909e6-8160-4e88-91cf-f0d11b9b5bb6.",
+        "_num": 677,
+        "_fecha_carga": "20/06/2026 01:11",
+        "_origen": "grupo",
+        "_pie": "Ruiz Diaz Yanina 36440128"
       }
     ],
     "errores": [],
