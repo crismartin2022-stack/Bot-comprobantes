@@ -64553,6 +64553,28 @@
         "_fecha_carga": "20/06/2026 01:25",
         "_origen": "grupo",
         "_pie": "Juan Ramon Montiel\nNaranja X\n4530000800015717751561\n20-23583976-9"
+      },
+      {
+        "fecha": "18/06/2026",
+        "hora": "11:28",
+        "tipo": "TRF",
+        "monto": 25000.0,
+        "moneda": "ARS",
+        "remitente": "Lautaro Facundo Santoro",
+        "remitente_cuil": "20-45004844-6",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "164687987048",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: 86VRPQ2GMLP1M1QY2GLY0M. CVU origen (Lautaro): 0000003100057970247690. CVU destino (Sasteup Srl): 0000155300000000009977. CUIT/CUIL destinatario: 30-71728225-2.",
+        "_num": 771,
+        "_fecha_carga": "20/06/2026 01:25",
+        "_origen": "grupo",
+        "_pie": "Lautaro Facundo Santoro\nCUIT/CUIL: 20-45004844-6"
       }
     ],
     "errores": [],
