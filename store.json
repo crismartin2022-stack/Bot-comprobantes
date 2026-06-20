@@ -2579,6 +2579,28 @@
         "_fecha_carga": "19/06/2026 21:47",
         "_origen": "grupo",
         "_pie": "Garcia Blasco, Alex Nicolas\nCUIL/CUIT 23-45006462-9"
+      },
+      {
+        "fecha": "18/06/2026",
+        "hora": "15:09",
+        "tipo": "TRF",
+        "monto": 50000.0,
+        "moneda": "ARS",
+        "remitente": "Tiara Alejandra Diaz",
+        "remitente_cuil": "23-44548822-4",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Prex",
+        "banco_destino": "BANCO COINAG S.A.",
+        "referencia": "",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CVU origen: 0000013000032392349353. CBU/CVU destino: 0000155300000000009977. CUIL/CUIT destinatario: 30-71728225-2. ID COELSA visible pero valor no mostrado en la imagen.",
+        "_num": 118,
+        "_fecha_carga": "19/06/2026 21:47",
+        "_origen": "grupo",
+        "_pie": "Tiara Alejandra Diaz\nPrex\nCUIL/CUIT\n23-44548822-4"
       }
     ],
     "errores": [],
