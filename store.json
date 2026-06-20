@@ -2645,6 +2645,28 @@
         "_fecha_carga": "19/06/2026 21:47",
         "_origen": "grupo",
         "_pie": "Cristian Ramírez \n30942047"
+      },
+      {
+        "fecha": "18/06/2026",
+        "hora": "16:07",
+        "tipo": "TRF",
+        "monto": 80000.0,
+        "moneda": "ARS",
+        "remitente": "Juan Elias Marquez De Olivera",
+        "remitente_cuil": "20-36520946-5",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163912629833",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: 67REZ8NPQ6478GW194KVGO. CVU remitente: 0000003100081086392324. CVU destinatario: 0000155300000000000009977.",
+        "_num": 121,
+        "_fecha_carga": "19/06/2026 21:47",
+        "_origen": "grupo",
+        "_pie": "Juan Elias Marquez De Olivera\nCUIT/CUIL: 20-36520946-5"
       }
     ],
     "errores": [],
