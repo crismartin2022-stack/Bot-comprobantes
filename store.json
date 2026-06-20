@@ -67264,6 +67264,28 @@
         "_fecha_carga": "20/06/2026 01:43",
         "_origen": "grupo",
         "_pie": "Lucas Hernan Soidler\nCUIT/CUIL: 20-41913076-2"
+      },
+      {
+        "fecha": "19/06/2026",
+        "hora": "00:17",
+        "tipo": "TRF",
+        "monto": 50000.0,
+        "moneda": "ARS",
+        "remitente": "Bienvenida Rojas Chamorro",
+        "remitente_cuil": "92512930",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Ualá",
+        "banco_destino": "",
+        "referencia": "8D0Q619L0W1ZV83XN7JZ5R",
+        "concepto": "VAR",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CBU destino: 0000155300000000009977. CUIT destino (destinatario): 30717282252. No se encontró CUIL del remitente en el comprobante.",
+        "_num": 894,
+        "_fecha_carga": "20/06/2026 01:44",
+        "_origen": "grupo",
+        "_pie": "92512930\nViranet\nBienvenida rojas"
       }
     ],
     "errores": [],
