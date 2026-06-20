@@ -1699,6 +1699,28 @@
         "_fecha_carga": "19/06/2026 21:41",
         "_origen": "grupo",
         "_pie": "NORMA VALDEZ\n\nDNI: 24.702.213"
+      },
+      {
+        "fecha": "19/06/2026",
+        "hora": "10:43",
+        "tipo": "TRF",
+        "monto": 150000.0,
+        "moneda": "ARS",
+        "remitente": "Pamela Elizabeth Segovia",
+        "remitente_cuil": "27-34212847-0",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "164840088408",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: LMORZP908LWKWO1YNEGJ46. CVU origen: 0000003100082710036496. CVU destino: 0000155300000000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 78,
+        "_fecha_carga": "19/06/2026 21:41",
+        "_origen": "grupo",
+        "_pie": "‎ Pamela elizabeth Segovia 34212847"
       }
     ],
     "errores": [],
