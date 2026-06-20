@@ -66558,6 +66558,28 @@
         "_fecha_carga": "20/06/2026 01:39",
         "_origen": "grupo",
         "_pie": "Juan Elias Marquez De Olivera\nCUIT/CUIL: 20-36520946-5"
+      },
+      {
+        "fecha": "18/06/2026",
+        "hora": "22:55",
+        "tipo": "TRF",
+        "monto": 100000.0,
+        "moneda": "ARS",
+        "remitente": "Diego Luis Garcia",
+        "remitente_cuil": "20-25809829-4",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163973427351",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: R7ZG0QNDW18VQWG49EXYPO. CVU remitente: 0000003100079520829446. CVU destinatario: 0000155300000000000009977.",
+        "_num": 862,
+        "_fecha_carga": "20/06/2026 01:39",
+        "_origen": "grupo",
+        "_pie": "Diego Luis Garcia\nCUIT/CUIL: 20-25809829-4"
       }
     ],
     "errores": [],
