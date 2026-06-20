@@ -1589,6 +1589,28 @@
         "_fecha_carga": "19/06/2026 21:40",
         "_origen": "grupo",
         "_pie": "Jonathan ippoliti DNI 92911314"
+      },
+      {
+        "fecha": "17/06/2026",
+        "hora": "10:55",
+        "tipo": "TRF",
+        "monto": 225000.0,
+        "moneda": "ARS",
+        "remitente": "Barbara Gisele Lombardi",
+        "remitente_cuil": "23-34669716-4",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Supervielle",
+        "banco_destino": "Lohas Sas",
+        "referencia": "D4RO172VZQ48WX6RNKJ3QE",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CBU origen: 0270259120041167040027. CBU destino: 0000155300000000009977. CUIT destinatario: 30-71728225-2. Número de control visible al pie.",
+        "_num": 73,
+        "_fecha_carga": "19/06/2026 21:40",
+        "_origen": "grupo",
+        "_pie": "Barbara Gisele Lombardi\n 34.669.716"
       }
     ],
     "errores": [],
