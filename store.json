@@ -3218,6 +3218,28 @@
         "_fecha_carga": "19/06/2026 21:51",
         "_origen": "grupo",
         "_pie": "Soledad Del Mar Cantero\nNaranja X\n4530000800017512828730\n27-44573783-1"
+      },
+      {
+        "fecha": "18/06/2026",
+        "hora": "19:52",
+        "tipo": "TRF",
+        "monto": 300000.0,
+        "moneda": "ARS",
+        "remitente": "Rolando Adrian Martinez",
+        "remitente_cuil": "40.625.278",
+        "destinatario": "SASTEUP SRL",
+        "banco_origen": "Cuenta DNI",
+        "banco_destino": "",
+        "referencia": "46YGOW9M1K6KG558NEXD8J",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CVU destinatario: 0000155300000000000009977. CUIL destinatario: 30717282252. El campo de origen solo muestra DNI (40.625.278) sin formato CUIL completo.",
+        "_num": 147,
+        "_fecha_carga": "19/06/2026 21:51",
+        "_origen": "grupo",
+        "_pie": "ROLANDO ADRIAN MARTINEZ\nCUIT/CUIL: 20-40625278-8"
       }
     ],
     "errores": [],
