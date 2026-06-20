@@ -56820,6 +56820,28 @@
         "_fecha_carga": "19/06/2026 21:18",
         "_origen": "grupo",
         "_pie": "Donato Acosta Britez\nCUIT/CUIL: 20-94744382-9"
+      },
+      {
+        "fecha": "17/06/2026",
+        "hora": "22:21",
+        "tipo": "TRF",
+        "monto": 200000.0,
+        "moneda": "ARS",
+        "remitente": "Leonardo Ezequiel Badcock",
+        "remitente_cuil": "20-42373256-4",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "164630157900",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: 1LMP68NKVEMPOEWK2R7OEV. CVU remitente: 0000003100042977505294. CVU destinatario: 0000155300000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 593,
+        "_fecha_carga": "19/06/2026 21:19",
+        "_origen": "grupo",
+        "_pie": "Leonardo Ezequiel Badcock\nCUIT/CUIL: 20-42373256-4"
       }
     ],
     "errores": [],
