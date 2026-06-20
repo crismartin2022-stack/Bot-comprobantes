@@ -7554,6 +7554,28 @@
         "_fecha_carga": "20/06/2026 20:45",
         "_origen": "grupo",
         "_pie": ""
+      },
+      {
+        "fecha": "12/06/2026",
+        "hora": "19:26",
+        "tipo": "TRF",
+        "monto": 700000.0,
+        "moneda": "ARS",
+        "remitente": "",
+        "remitente_cuil": "",
+        "destinatario": "SASTEUP SRL",
+        "banco_origen": "BNA+",
+        "banco_destino": "",
+        "referencia": "D4RO172VZGQDR3K1NKJ3QE",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": false,
+        "notas": "CUIT del destinatario: 30-71728225-2. CVU completo del receptor: 0000155300000000009977",
+        "_num": 169,
+        "_fecha_carga": "20/06/2026 20:45",
+        "_origen": "grupo",
+        "_pie": ""
       }
     ],
     "errores": [],
