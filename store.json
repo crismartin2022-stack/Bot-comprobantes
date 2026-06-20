@@ -6648,6 +6648,28 @@
         "_fecha_carga": "20/06/2026 20:37",
         "_origen": "grupo",
         "_pie": "Martin aranfa"
+      },
+      {
+        "fecha": "11/06/2026",
+        "hora": "10:05",
+        "tipo": "TRF",
+        "monto": 300000.0,
+        "moneda": "ARS",
+        "remitente": "Leonardo Sebastian Taboada",
+        "remitente_cuil": "39487347",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Lemon",
+        "banco_destino": "CVU",
+        "referencia": "1LMP68NKVG68E3R2R7OEV",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CUIT destinatario: 30717282252. CBU destino: 0000155300000000009977. ID de la transacción: 2e617b6b-53be-4318-938f-d64db6caa488. Comprobante emitido por Lemon (Powered by Digifin).",
+        "_num": 128,
+        "_fecha_carga": "20/06/2026 20:38",
+        "_origen": "grupo",
+        "_pie": "39487347"
       }
     ],
     "errores": [],
