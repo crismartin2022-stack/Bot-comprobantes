@@ -2865,6 +2865,28 @@
         "_fecha_carga": "19/06/2026 21:49",
         "_origen": "grupo",
         "_pie": "Natalia Ailen Di Giorgio Suarez\nCUIT/CUIL: 27-47758744-0"
+      },
+      {
+        "fecha": "18/06/2026",
+        "hora": "20:59",
+        "tipo": "TRF",
+        "monto": 100000.0,
+        "moneda": "ARS",
+        "remitente": "Gomez Fernandez Antonella Nahiara",
+        "remitente_cuil": "27-45929046-5",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163959135645",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: ORD6LEN8PY5MEVPPNM1Y30. CVU remitente: 0000003100015494402258. CVU destinatario: 0000155300000000009977.",
+        "_num": 131,
+        "_fecha_carga": "19/06/2026 21:49",
+        "_origen": "grupo",
+        "_pie": "Gomez Fernandez Antonella Nahiara\nCUIT/CUIL: 27-45929046-5"
       }
     ],
     "errores": [],
