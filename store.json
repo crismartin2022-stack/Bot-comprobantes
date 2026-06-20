@@ -378,6 +378,28 @@
         "_fecha_carga": "19/06/2026 21:32",
         "_origen": "grupo",
         "_pie": "Walter alejandro forgia 40191889"
+      },
+      {
+        "fecha": "18/06/2026",
+        "hora": "23:14",
+        "tipo": "TRF",
+        "monto": 50000.0,
+        "moneda": "ARS",
+        "remitente": "Alemandi, Yesica Natalia",
+        "remitente_cuil": "27-34963016-3",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Personal Pay",
+        "banco_destino": "",
+        "referencia": "2758948138",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CoelsaID: 86VRPQ2GML1Q1M4G2GLY0M - Id Bancario. CBU/CVU destinatario: 0000155300000000009977. CUIL/CUIT destinatario: 30-71728225-2.",
+        "_num": 18,
+        "_fecha_carga": "19/06/2026 21:32",
+        "_origen": "grupo",
+        "_pie": "Alemandi yesica natalia\n\n34963016"
       }
     ],
     "errores": [],
