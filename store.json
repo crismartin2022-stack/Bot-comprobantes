@@ -57172,6 +57172,28 @@
         "_fecha_carga": "19/06/2026 21:21",
         "_origen": "grupo",
         "_pie": "Maria Agueda Franco Rojas\nDNI. 95.449.472"
+      },
+      {
+        "fecha": "18/06/2026",
+        "hora": "00:20",
+        "tipo": "TRF",
+        "monto": 500000.03,
+        "moneda": "ARS",
+        "remitente": "Maria De Los Angeles Vetta",
+        "remitente_cuil": "27-23285322-6",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "164641154692",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: D4RO172VZQ38EKXVNKJ3QE. CVU destinatario: 0000155300000000009977. CVU remitente: 0000003100047257262087",
+        "_num": 609,
+        "_fecha_carga": "19/06/2026 21:21",
+        "_origen": "grupo",
+        "_pie": "María De Los Angeles Vetta\nD.N.I 23.285.322"
       }
     ],
     "errores": [],
