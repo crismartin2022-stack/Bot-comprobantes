@@ -66536,6 +66536,28 @@
         "_fecha_carga": "20/06/2026 01:39",
         "_origen": "grupo",
         "_pie": "Néstor Fabián sosa"
+      },
+      {
+        "fecha": "18/06/2026",
+        "hora": "22:57",
+        "tipo": "TRF",
+        "monto": 80000.0,
+        "moneda": "ARS",
+        "remitente": "Juan Elias Marquez De Olivera",
+        "remitente_cuil": "20-36520946-5",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "164790811504",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: JMQKYZ9QQVLEV7PP9V50P3. CVU remitente: 0000003100081086392324. CVU destinatario: 0000155300000000000009977.",
+        "_num": 861,
+        "_fecha_carga": "20/06/2026 01:39",
+        "_origen": "grupo",
+        "_pie": "Juan Elias Marquez De Olivera\nCUIT/CUIL: 20-36520946-5"
       }
     ],
     "errores": [],
