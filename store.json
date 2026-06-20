@@ -7532,6 +7532,28 @@
         "_fecha_carga": "20/06/2026 20:45",
         "_origen": "grupo",
         "_pie": ""
+      },
+      {
+        "fecha": "12/06/2026",
+        "hora": "",
+        "tipo": "TRF",
+        "monto": 400000.0,
+        "moneda": "ARS",
+        "remitente": "",
+        "remitente_cuil": "",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Santander",
+        "banco_destino": "",
+        "referencia": "64930784",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": false,
+        "notas": "Cuenta débito origen: CTA $ 144-015353/7. Cuenta destino CBU: 0000155300000000009977. Plazo de acreditación: Inmediato.",
+        "_num": 168,
+        "_fecha_carga": "20/06/2026 20:45",
+        "_origen": "grupo",
+        "_pie": ""
       }
     ],
     "errores": [],
