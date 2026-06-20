@@ -68345,6 +68345,28 @@
         "_fecha_carga": "20/06/2026 01:51",
         "_origen": "grupo",
         "_pie": "Mariel hormaeche\n24435485"
+      },
+      {
+        "fecha": "19/06/2026",
+        "hora": "10:14",
+        "tipo": "TRF",
+        "monto": 100000.0,
+        "moneda": "ARS",
+        "remitente": "Jorge Leonel Villalba",
+        "remitente_cuil": "20-45228847-9",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Naranja X",
+        "banco_destino": "Cuenta Virtual",
+        "referencia": "67REZ8NPQ6J6GXKR94KVGO",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CBU origen: 4530000800017856066146. CVU destino: 0000155300000000009977. CUIL destinatario: 30-71728225-2. Código de transacción: 050b8b6a-f388-4895-b4dd-3e143e86a7a3",
+        "_num": 943,
+        "_fecha_carga": "20/06/2026 01:51",
+        "_origen": "grupo",
+        "_pie": "Jorge Leonel Villalba \n45228847"
       }
     ],
     "errores": [],
