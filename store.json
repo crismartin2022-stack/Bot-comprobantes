@@ -1611,6 +1611,28 @@
         "_fecha_carga": "19/06/2026 21:40",
         "_origen": "grupo",
         "_pie": "Barbara Gisele Lombardi\n 34.669.716"
+      },
+      {
+        "fecha": "18/06/2026",
+        "hora": "21:22",
+        "tipo": "TRF",
+        "monto": 100000.0,
+        "moneda": "ARS",
+        "remitente": "Dario Martin Siara",
+        "remitente_cuil": "23-27854889-9",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163963610457",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: Z6OLMDN3V35JL0352E7RQ5. CVU remitente: 0000003100082106438495. CVU destinatario: 0000155300000000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 74,
+        "_fecha_carga": "19/06/2026 21:40",
+        "_origen": "grupo",
+        "_pie": "DARIO SIARA\n\nDNI: 27.854.889"
       }
     ],
     "errores": [],
