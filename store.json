@@ -57635,6 +57635,28 @@
         "_fecha_carga": "19/06/2026 21:24",
         "_origen": "grupo",
         "_pie": "josé luis gómez 20076120 zeus"
+      },
+      {
+        "fecha": "16/06/2026",
+        "hora": "18:17",
+        "tipo": "TRF",
+        "monto": 60000.0,
+        "moneda": "ARS",
+        "remitente": "Laura Gisela Garay",
+        "remitente_cuil": "27-31363914-8",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "164433922456",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: ORD6LEN8PYDV1YDPNM1Y30. CVU remitente: 0000003100062665626160. CVU destinatario: 0000155300000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 630,
+        "_fecha_carga": "19/06/2026 21:24",
+        "_origen": "grupo",
+        "_pie": "laura gisela garay 31363914\nZeus"
       }
     ],
     "errores": [],
