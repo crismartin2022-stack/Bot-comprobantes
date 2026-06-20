@@ -58119,6 +58119,28 @@
         "_fecha_carga": "19/06/2026 21:27",
         "_origen": "grupo",
         "_pie": "josé luis gómez 20076120 zeus"
+      },
+      {
+        "fecha": "17/06/2026",
+        "hora": "22:46",
+        "tipo": "TRF",
+        "monto": 250000.0,
+        "moneda": "ARS",
+        "remitente": "Jonathan Gaston Esequiel Corvalan",
+        "remitente_cuil": "20-46651553-2",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "7L8GYKNX057LDZDQ2MPRZ5",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Número de operación de Mercado Pago: 164632769862. CVU remitente: 0000003100008050051887. CUIT destinatario: 30-71728225-2.",
+        "_num": 652,
+        "_fecha_carga": "19/06/2026 21:28",
+        "_origen": "grupo",
+        "_pie": "Jonathan gaston corvalan 46.651.553 \n\n250 zeus"
       }
     ],
     "errores": [],
