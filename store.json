@@ -55719,6 +55719,28 @@
         "_fecha_carga": "19/06/2026 21:11",
         "_origen": "grupo",
         "_pie": "Luque Miguez, Ariadna Abigail\nCUIL/CUIT 27-48299541-7"
+      },
+      {
+        "fecha": "16/06/2026",
+        "hora": "22:10",
+        "tipo": "TRF",
+        "monto": 500000.0,
+        "moneda": "ARS",
+        "remitente": "Fernando Nazareno Coronel",
+        "remitente_cuil": "20-34445067-7",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "164472816304",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: RD06ZO9WVR0LYPQKN5GP7X. CVU origen: 0000003100048939910944. CVU destino: 0000155300000000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 543,
+        "_fecha_carga": "19/06/2026 21:11",
+        "_origen": "grupo",
+        "_pie": "Fernando Nazareno Coronel\nCUIT/CUIL: 20-34445067-7"
       }
     ],
     "errores": [],
