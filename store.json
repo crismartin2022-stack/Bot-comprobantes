@@ -57436,6 +57436,28 @@
         "_fecha_carga": "19/06/2026 21:23",
         "_origen": "grupo",
         "_pie": "Miriam Lili Nunez Fernandez\nCUIT/CUIL: 27-94216492-6"
+      },
+      {
+        "fecha": "18/06/2026",
+        "hora": "09:39",
+        "tipo": "TRF",
+        "monto": 150000.0,
+        "moneda": "ARS",
+        "remitente": "Nancy Karina Nieto",
+        "remitente_cuil": "27-25056249-2",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "164672523346",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: PDX4OGNYGPV50JGRN0L6EY. CVU remitente: 0000003100098376891485. CVU destinatario: 0000155300000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 621,
+        "_fecha_carga": "19/06/2026 21:23",
+        "_origen": "grupo",
+        "_pie": "Nancy Karina Nieto\nCUIT/CUIL: 27-25056249-2"
       }
     ],
     "errores": [],
