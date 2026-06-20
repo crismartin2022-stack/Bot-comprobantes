@@ -3196,6 +3196,28 @@
         "_fecha_carga": "19/06/2026 21:51",
         "_origen": "grupo",
         "_pie": "Jonathan Daniel Segovia \n47678975"
+      },
+      {
+        "fecha": "18/06/2026",
+        "hora": "19:42",
+        "tipo": "TRF",
+        "monto": 300000.0,
+        "moneda": "ARS",
+        "remitente": "Soledad Del Mar Cantero",
+        "remitente_cuil": "27-44573783-1",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Naranja X",
+        "banco_destino": "Cuenta Virtual",
+        "referencia": "LOEJWV9JZ34PW0PZ2QMD0G",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de transacción: 4a05e0ca-edc3-4645-b6fc-436f99638f6a. CVU destinatario: 0000155300000000009977. CBU origen: 453000080001751282873",
+        "_num": 146,
+        "_fecha_carga": "19/06/2026 21:51",
+        "_origen": "grupo",
+        "_pie": "Soledad Del Mar Cantero\nNaranja X\n4530000800017512828730\n27-44573783-1"
       }
     ],
     "errores": [],
