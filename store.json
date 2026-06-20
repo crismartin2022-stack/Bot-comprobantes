@@ -67418,6 +67418,28 @@
         "_fecha_carga": "20/06/2026 01:44",
         "_origen": "grupo",
         "_pie": "Shaiel Agustina Noriega\nCUIT/CUIL: 27-46090582-1"
+      },
+      {
+        "fecha": "19/06/2026",
+        "hora": "00:31",
+        "tipo": "TRF",
+        "monto": 150000.0,
+        "moneda": "ARS",
+        "remitente": "ALDANA ROCIO ORELLANA",
+        "remitente_cuil": "27-41880786-0",
+        "destinatario": "SASTEUP SRL",
+        "banco_origen": "AstroPay",
+        "banco_destino": "",
+        "referencia": "67REZ8NPQ6JLYW8194KVGO",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CVU remitente: 0000177500096292611143 | CVU receptor: 0000155300000000009977 | CUIT receptor SASTEUP SRL: 30-71728225-2 | Coelsa ID: 67REZ8NPQ6JLYW8194KVGO",
+        "_num": 901,
+        "_fecha_carga": "20/06/2026 01:45",
+        "_origen": "grupo",
+        "_pie": "ALDANA ROCIO ORELLANA\n27418807860"
       }
     ],
     "errores": [],
