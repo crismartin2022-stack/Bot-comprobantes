@@ -56204,6 +56204,28 @@
         "_fecha_carga": "19/06/2026 21:14",
         "_origen": "grupo",
         "_pie": "Eriberta Herminia Fernandez Herrera\nCUIT/CUIL: 27-92798572-7"
+      },
+      {
+        "fecha": "17/06/2026",
+        "hora": "00:47",
+        "tipo": "TRF",
+        "monto": 50000.0,
+        "moneda": "ARS",
+        "remitente": "Alexis Rafael Gil",
+        "remitente_cuil": "20-35340420-3",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Naranja X",
+        "banco_destino": "Cuenta Virtual",
+        "referencia": "R7ZG0QNDW1VX3E0V9EXYPO",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CBU origen: 4530000800012970507986. CVU destino: 0000155300000000009977. CUIL destinatario: 30-71728225-2. Código de transacción: 09cdb6d0-2d7d-4d04-890b-43494dec1d09",
+        "_num": 565,
+        "_fecha_carga": "19/06/2026 21:14",
+        "_origen": "grupo",
+        "_pie": "Alexis Rafael Gil\nNaranja X\n4530000800012970507986\n20-35340420-3"
       }
     ],
     "errores": [],
