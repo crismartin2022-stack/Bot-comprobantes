@@ -54970,6 +54970,28 @@
         "_fecha_carga": "19/06/2026 21:05",
         "_origen": "grupo",
         "_pie": "Nancy Karina Nieto\nCUIT/CUIL: 27-25056249-2"
+      },
+      {
+        "fecha": "16/06/2026",
+        "hora": "18:53",
+        "tipo": "TRF",
+        "monto": 300000.0,
+        "moneda": "ARS",
+        "remitente": "Coronel, Berta Lidia Maria",
+        "remitente_cuil": "27-34873685-5",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Personal Pay",
+        "banco_destino": "",
+        "referencia": "2749410123",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CoelsaID: PDX4OGNYGPMKM5E4N0L6EY - Id Bancario. CBU/CVU destinatario: 0000155300000000009977",
+        "_num": 509,
+        "_fecha_carga": "19/06/2026 21:05",
+        "_origen": "grupo",
+        "_pie": "Berta coronel 34873685"
       }
     ],
     "errores": [],
