@@ -67110,6 +67110,28 @@
         "_fecha_carga": "20/06/2026 01:42",
         "_origen": "grupo",
         "_pie": "Damaris Evelyn Navedo Alvarez\nCUIT/CUIL: 27-46275781-1"
+      },
+      {
+        "fecha": "18/06/2026",
+        "hora": "23:38",
+        "tipo": "TRF",
+        "monto": 200000.0,
+        "moneda": "ARS",
+        "remitente": "Guadalupe Candela Canete",
+        "remitente_cuil": "27-48382188-9",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163977948673",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: JMQKYZ9QQVL8M41P9V50P3. CVU origen: 0000003100043033333761. CVU destino: 0000155300000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 887,
+        "_fecha_carga": "20/06/2026 01:43",
+        "_origen": "grupo",
+        "_pie": "Guadalupe Candela Canete\nCUIT/CUIL: 27-48382188-9"
       }
     ],
     "errores": [],
