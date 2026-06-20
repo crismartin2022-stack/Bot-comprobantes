@@ -2161,6 +2161,28 @@
         "_fecha_carga": "19/06/2026 21:44",
         "_origen": "grupo",
         "_pie": "Mario Alfredo Pacheco \n41341222"
+      },
+      {
+        "fecha": "18/06/2026",
+        "hora": "23:17",
+        "tipo": "TRF",
+        "monto": 100000.0,
+        "moneda": "ARS",
+        "remitente": "Mario Alfredo Pacheco",
+        "remitente_cuil": "20-41341222-7",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "164793468542",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: Z6OLMDN3V35WD4LY2E7RQ5. CVU origen (remitente): 0000003100030384616995. CVU destino (receptor): 0000155300000000009977.",
+        "_num": 99,
+        "_fecha_carga": "19/06/2026 21:44",
+        "_origen": "grupo",
+        "_pie": "Mario Alfredo Pacheco \n41341222"
       }
     ],
     "errores": [],
