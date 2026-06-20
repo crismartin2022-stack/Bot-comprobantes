@@ -55675,6 +55675,28 @@
         "_fecha_carga": "19/06/2026 21:10",
         "_origen": "grupo",
         "_pie": "Leiva jaqueline 35 976 385"
+      },
+      {
+        "fecha": "16/06/2026",
+        "hora": "21:58",
+        "tipo": "TRF",
+        "monto": 500000.0,
+        "moneda": "ARS",
+        "remitente": "Juliana Ayelen Palavecino",
+        "remitente_cuil": "27-47337453-1",
+        "destinatario": "SASTEUP SRL",
+        "banco_origen": "AstroPay",
+        "banco_destino": "",
+        "referencia": "Z4K6DVNOWYELR30K25J8LQ",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CVU remitente: 0000177509030009562837. CVU receptor: 0000155300000000009977. CUIT/CUIL receptor SASTEUP SRL: 30-71728225-2",
+        "_num": 541,
+        "_fecha_carga": "19/06/2026 21:11",
+        "_origen": "grupo",
+        "_pie": "Juliana palavecino \n47337453"
       }
     ],
     "errores": [],
