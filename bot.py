@@ -38,6 +38,7 @@ pendientes: dict = {}
 esperando_pie: dict = {}
 mensajes_rechazo: dict = {}
 received_log: dict = {}  # {chat_id: [{"msg_id", "fecha", "remitente", "estado"}]}
+semaforo_claude = asyncio.Semaphore(3)  # Máximo 3 análisis simultáneos
 
 DATA_FILE    = "/data/store.json"       # Volume de Railway (persistente)
 LOG_FILE     = "/data/received_log.json"  # Log de imágenes recibidas
@@ -463,7 +464,8 @@ async def procesar_comprobante(image_bytes: bytes, mime: str, pie: str,
         received_log[cid_str] = []
     received_log[cid_str].append(entrada_log)
 
-    resultado = await analizar_imagen(image_bytes, mime)
+    async with semaforo_claude:
+        resultado = await analizar_imagen(image_bytes, mime)
 
     # Si el comprobante no tiene datos del remitente, usar el pie
     if pie and not resultado.get("tiene_remitente"):
