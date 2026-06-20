@@ -56182,6 +56182,28 @@
         "_fecha_carga": "19/06/2026 21:14",
         "_origen": "grupo",
         "_pie": "Gustavo Ignacio Cabral\nCUIT/CUIL: 20-28772348-3"
+      },
+      {
+        "fecha": "17/06/2026",
+        "hora": "00:40",
+        "tipo": "TRF",
+        "monto": 30000.0,
+        "moneda": "ARS",
+        "remitente": "Eriberta Herminia Fernandez Herrera",
+        "remitente_cuil": "27-92798572-7",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163670232793",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: L18MKX9RXJEMYD6K9O6WYV. CVU origen: 0000003100025464627204. CVU destino: 0000155300000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 564,
+        "_fecha_carga": "19/06/2026 21:14",
+        "_origen": "grupo",
+        "_pie": "Eriberta Herminia Fernandez Herrera\nCUIT/CUIL: 27-92798572-7"
       }
     ],
     "errores": [],
