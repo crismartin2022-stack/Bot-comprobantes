@@ -3637,6 +3637,28 @@
         "_fecha_carga": "19/06/2026 21:54",
         "_origen": "grupo",
         "_pie": "Claudio Daniel Weber\nCUIT/CUIL: 20-35245699-4"
+      },
+      {
+        "fecha": "18/06/2026",
+        "hora": "21:08",
+        "tipo": "TRF",
+        "monto": 500000.0,
+        "moneda": "ARS",
+        "remitente": "Daiana Belen Guzman",
+        "remitente_cuil": "27-44384063-5",
+        "destinatario": "SASTEUP SRL",
+        "banco_origen": "AstroPay",
+        "banco_destino": "",
+        "referencia": "7L8GYKNX05Q4GWVX2MPRZ5",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CVU remitente: 0000177507701004493403. CVU receptor: 0000155300000000009977. CUIT/CUIL receptor (SASTEUP SRL): 30-71728225-2. Alias receptor: cvu.977. Alias remitente: 501.27443840635.",
+        "_num": 166,
+        "_fecha_carga": "19/06/2026 21:54",
+        "_origen": "grupo",
+        "_pie": "Daiana Belen Guzman\n27443840635"
       }
     ],
     "errores": [],
