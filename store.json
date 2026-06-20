@@ -65808,6 +65808,28 @@
         "_fecha_carga": "20/06/2026 01:33",
         "_origen": "grupo",
         "_pie": "NOELIA DEISY TALAVERA AGUAYO\nCUIT 23-94689354-4"
+      },
+      {
+        "fecha": "18/06/2026",
+        "hora": "21:22",
+        "tipo": "TRF",
+        "monto": 25000.0,
+        "moneda": "ARS",
+        "remitente": "Oscar Colman",
+        "remitente_cuil": "20-34520266-9",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "164780872344",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: ORD6LEN8PY58OKM4NM1Y30. CVU origen: 0000003100029199838010. CVU destino: 0000155300000000000009977.",
+        "_num": 828,
+        "_fecha_carga": "20/06/2026 01:34",
+        "_origen": "grupo",
+        "_pie": "Oscar Colman\nCUIT/CUIL: 20-34520266-9"
       }
     ],
     "errores": [],
