@@ -2117,6 +2117,28 @@
         "_fecha_carga": "19/06/2026 21:44",
         "_origen": "grupo",
         "_pie": "Rita romero 30432899"
+      },
+      {
+        "fecha": "18/06/2026",
+        "hora": "19:12",
+        "tipo": "TRF",
+        "monto": 27000.0,
+        "moneda": "ARS",
+        "remitente": "Santiago Tomas Ruzs",
+        "remitente_cuil": "",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Ualá",
+        "banco_destino": "",
+        "referencia": "46YGOW9M1K64DZOPNEXD8J",
+        "concepto": "VAR",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CUIT destino: 30717282252. CBU/CVU destino: 0000155300000000009977",
+        "_num": 97,
+        "_fecha_carga": "19/06/2026 21:44",
+        "_origen": "grupo",
+        "_pie": "RUZS SANTIAGO TOMÁS \n42412685S"
       }
     ],
     "errores": [],
