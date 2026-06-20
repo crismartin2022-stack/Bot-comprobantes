@@ -1390,6 +1390,28 @@
         "_fecha_carga": "19/06/2026 21:39",
         "_origen": "grupo",
         "_pie": "Luciana Alvarenga \n95029202"
+      },
+      {
+        "fecha": "17/06/2026",
+        "hora": "23:50",
+        "tipo": "TRF",
+        "monto": 150000.0,
+        "moneda": "ARS",
+        "remitente": "Cinthia Flavia Agostina Gonzalez",
+        "remitente_cuil": "27-48494829-7",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Prex",
+        "banco_destino": "BANCO COINAG S.A.",
+        "referencia": "XJ8G7V95DWMW38849EMPYR",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CVU origen: 0000013000032313868321. CBU/CVU destino: 0000155300000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 64,
+        "_fecha_carga": "19/06/2026 21:39",
+        "_origen": "grupo",
+        "_pie": "Cinthia González\n27-48494829-7"
       }
     ],
     "errores": [],
