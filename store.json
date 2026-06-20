@@ -66692,6 +66692,28 @@
         "_fecha_carga": "20/06/2026 01:40",
         "_origen": "grupo",
         "_pie": "Villegas Santiago Alexis\nDNI: 39.344.138"
+      },
+      {
+        "fecha": "18/06/2026",
+        "hora": "22:48",
+        "tipo": "TRF",
+        "monto": 500002.0,
+        "moneda": "ARS",
+        "remitente": "Rodriguez, Alan Benjamin Gabriel",
+        "remitente_cuil": "23-48437167-9",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Personal Pay",
+        "banco_destino": "",
+        "referencia": "2758903904",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CoelsaID: ORD6LEN8PY5K4XV4NM1Y30 - Id Bancario. CUIT destinatario: 30-71728225-2. CBU/CVU destinatario: 0000155300000000009977",
+        "_num": 868,
+        "_fecha_carga": "20/06/2026 01:40",
+        "_origen": "grupo",
+        "_pie": "Rodríguez alan benjamín \nDNI: 48.437.167"
       }
     ],
     "errores": [],
