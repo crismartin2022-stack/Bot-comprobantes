@@ -5812,6 +5812,28 @@
         "_fecha_carga": "20/06/2026 19:10",
         "_origen": "grupo",
         "_pie": "Micaela Daniela Godoy\nCUIT/CUIL: 27-32010636-8"
+      },
+      {
+        "fecha": "12/06/2026",
+        "hora": "00:23",
+        "tipo": "TRF",
+        "monto": 125000.0,
+        "moneda": "ARS",
+        "remitente": "Braian Leonel Rivero",
+        "remitente_cuil": "20-41310274-0",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163724015222",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: 3D5W612E6EMOLXYO2GXYVR. CVU origen: 0000003100093521959496. CVU destino: 0000155300000000000009977.",
+        "_num": 90,
+        "_fecha_carga": "20/06/2026 20:36",
+        "_origen": "grupo",
+        "_pie": "Braian Leonel Rivero\nCUIT/CUIL: 20-41310274-0"
       }
     ],
     "errores": [],
