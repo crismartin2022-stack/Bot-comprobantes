@@ -64179,6 +64179,28 @@
         "_fecha_carga": "20/06/2026 01:22",
         "_origen": "grupo",
         "_pie": "Germán Gabriel Díaz \n25290795"
+      },
+      {
+        "fecha": "17/06/2026",
+        "hora": "15:30",
+        "tipo": "TRF",
+        "monto": 22000.0,
+        "moneda": "ARS",
+        "remitente": "Aramburu, Gimena Beln",
+        "remitente_cuil": "27-41489768-7",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Personal Pay",
+        "banco_destino": "",
+        "referencia": "2753374403",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CoelsaID: 76V4MR2Z74XZRDOYNDEZOL - Id Bancario. CBU/CVU destinatario: 0000155300000000009977. CUIL/CUIT destinatario: 30-71728225-2.",
+        "_num": 754,
+        "_fecha_carga": "20/06/2026 01:23",
+        "_origen": "grupo",
+        "_pie": "Gimena belen Aramburu \n41489768"
       }
     ],
     "errores": [],
