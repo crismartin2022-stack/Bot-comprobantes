@@ -67462,6 +67462,28 @@
         "_fecha_carga": "20/06/2026 01:45",
         "_origen": "grupo",
         "_pie": "Diego Luis Garcia\nCUIT/CUIL: 20-25809829-4"
+      },
+      {
+        "fecha": "19/06/2026",
+        "hora": "00:40",
+        "tipo": "TRF",
+        "monto": 500000.0,
+        "moneda": "ARS",
+        "remitente": "JIMENA BELEN BREST",
+        "remitente_cuil": "27-39984557-8",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Banco De Galicia S.A.U",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "42147191537",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "ID COELSA: 86VRPO2GML1PRW6G2GLY0M. CVU destinatario: 0000155300000000009977. CUIT destinatario: 30-71728225-2. Cuenta origen: CA $ N° 4047428-2 361-5.",
+        "_num": 903,
+        "_fecha_carga": "20/06/2026 01:45",
+        "_origen": "grupo",
+        "_pie": "JIMENA BELEN BREST\nCUIT 27-39984557-8"
       }
     ],
     "errores": [],
