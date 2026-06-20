@@ -48240,6 +48240,28 @@
         "_fecha_carga": "20/06/2026 13:41",
         "_origen": "grupo",
         "_pie": "Juan José Coria \n28.149.654"
+      },
+      {
+        "fecha": "17/06/2026",
+        "hora": "19:33",
+        "tipo": "TRF",
+        "monto": 15000.0,
+        "moneda": "ARS",
+        "remitente": "Maximiliano Fioriti",
+        "remitente_cuil": "36443205",
+        "destinatario": "SASTEUP SRL",
+        "banco_origen": "Cuenta DNI",
+        "banco_destino": "",
+        "referencia": "Z0KV87940EDXJD4ENPEYDX",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CVU destinatario: 0000155300000000009977. CUIL destinatario: 30717282252. DNI remitente: 36.443.205 (no tiene formato CUIL con guiones).",
+        "_num": 31,
+        "_fecha_carga": "20/06/2026 13:41",
+        "_origen": "grupo",
+        "_pie": "Maximiliano Fioriti DNI 36443205"
       }
     ],
     "errores": [],
