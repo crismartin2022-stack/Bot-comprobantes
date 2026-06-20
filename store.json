@@ -54948,6 +54948,28 @@
         "_fecha_carga": "19/06/2026 21:05",
         "_origen": "grupo",
         "_pie": "29462975 Debora Gisele Carnuccio"
+      },
+      {
+        "fecha": "16/06/2026",
+        "hora": "18:45",
+        "tipo": "TRF",
+        "monto": 250000.0,
+        "moneda": "ARS",
+        "remitente": "Nancy Karina Nieto",
+        "remitente_cuil": "27-25056249-2",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163624052905",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CVU origen: 0000003100098376891485. CVU destino: 0000155300000000009977. CUIT destinatario: 30-71728225-2",
+        "_num": 508,
+        "_fecha_carga": "19/06/2026 21:05",
+        "_origen": "grupo",
+        "_pie": "Nancy Karina Nieto\nCUIT/CUIL: 27-25056249-2"
       }
     ],
     "errores": [],
