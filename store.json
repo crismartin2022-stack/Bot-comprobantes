@@ -64157,6 +64157,28 @@
         "_fecha_carga": "20/06/2026 01:22",
         "_origen": "grupo",
         "_pie": "Andres zapata 35652442"
+      },
+      {
+        "fecha": "17/06/2025",
+        "hora": "15:00",
+        "tipo": "TRF",
+        "monto": 20000.0,
+        "moneda": "ARS",
+        "remitente": "Sasteup Srl",
+        "remitente_cuil": "25290795",
+        "destinatario": "LOHAS SAS",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "",
+        "referencia": "B32WZ0DJ0FCKGB6EG",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CVU destinatario completo: 0000155300000000009977. Saldo antes: $2.849.187,66 / después: $2.829.187,66.",
+        "_num": 753,
+        "_fecha_carga": "20/06/2026 01:22",
+        "_origen": "grupo",
+        "_pie": "Germán Gabriel Díaz \n25290795"
       }
     ],
     "errores": [],
