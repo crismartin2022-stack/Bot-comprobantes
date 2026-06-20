@@ -49083,6 +49083,30 @@
     "ultimo_resumen_idx": 977,
     "total_mensual": 220910819.31,
     "mes_actual": "06/2026",
-    "duplicados": []
+    "duplicados": [
+      {
+        "fecha": "11/06/2026",
+        "hora": "18:26",
+        "tipo": "TRF",
+        "monto": 500000.0,
+        "moneda": "ARS",
+        "remitente": "Medero, Marianela Alessandra",
+        "remitente_cuil": "27-47081108-6",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Personal Pay",
+        "banco_destino": "",
+        "referencia": "2733591597",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CoelsaID: 8D0Q619L04X5X103N7JZ5R - Id Bancario. CBU/CVU destinatario: 00001553000000000009977. CUIL/CUIT destinatario: 30-71728225-2.",
+        "_num": 69,
+        "_fecha_carga": "20/06/2026 18:57",
+        "_origen": "grupo",
+        "_pie": "a Medero, Marianela Alessandra\nCUIL/CUIT 27-47081108-6",
+        "_duplicado": true
+      }
+    ]
   }
 }
