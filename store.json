@@ -1500,6 +1500,28 @@
         "_fecha_carga": "19/06/2026 21:39",
         "_origen": "grupo",
         "_pie": "Matias Chaves \n20-41416949-0"
+      },
+      {
+        "fecha": "15/06/2026",
+        "hora": "00:10",
+        "tipo": "TRF",
+        "monto": 100000.0,
+        "moneda": "ARS",
+        "remitente": "Vanesa Alejandra Adan",
+        "remitente_cuil": "27-33114770-8",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Naranja X",
+        "banco_destino": "Cuenta Virtual",
+        "referencia": "WGRXJE27DX6R7PQJN7MYQL",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CBU origen: 4530000800015889815832. CVU destino: 0000155300000000009977. Código de transacción: 141c073c-0db0-40aa-912d-73390c94855e. CUIL destinatario: 30-71728225-2.",
+        "_num": 69,
+        "_fecha_carga": "19/06/2026 21:39",
+        "_origen": "grupo",
+        "_pie": "Vanesa adan         dni: 33114770"
       }
     ],
     "errores": [],
