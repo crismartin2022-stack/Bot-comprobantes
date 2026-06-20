@@ -67154,6 +67154,28 @@
         "_fecha_carga": "20/06/2026 01:43",
         "_origen": "grupo",
         "_pie": "Natalia Ailen Di Giorgio Suarez\nCUIT/CUIL: 27-47758744-0"
+      },
+      {
+        "fecha": "18/06/2026",
+        "hora": "23:56",
+        "tipo": "TRF",
+        "monto": 25000.0,
+        "moneda": "ARS",
+        "remitente": "Debora Gisele Carnuccio",
+        "remitente_cuil": "29462975",
+        "destinatario": "SASTEUP SRL",
+        "banco_origen": "Reba",
+        "banco_destino": "",
+        "referencia": "30516805",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CBU origen: 4150999718005055200042. CBU/CVU destino: 0000155300000000009977. CUIT destinatario: 30717282252 (SASTEUP SRL). Comprobante emitido por Reba.",
+        "_num": 889,
+        "_fecha_carga": "20/06/2026 01:43",
+        "_origen": "grupo",
+        "_pie": "29462975 Debora Gisele Carnuccio"
       }
     ],
     "errores": [],
