@@ -49340,6 +49340,28 @@
         "_fecha_carga": "20/06/2026 19:01",
         "_origen": "grupo",
         "_pie": "Miriam Lili Nunez Fernandez\nCUIT/CUIL: 27-94216492-6"
+      },
+      {
+        "fecha": "11/06/2026",
+        "hora": "23:44",
+        "tipo": "TRF",
+        "monto": 500000.0,
+        "moneda": "ARS",
+        "remitente": "Juliana Ayelen Palavecino",
+        "remitente_cuil": "27-47337453-1",
+        "destinatario": "SASTEUP SRL",
+        "banco_origen": "Brubank",
+        "banco_destino": "",
+        "referencia": "26061200009922256333098",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Transferencia enviada desde Caja de ahorro en pesos. CUIT/CUIL del destinatario: 30-71728225-2. CVU destino: 0000155300000000009977. Número de transacción: 1792966573.",
+        "_num": 81,
+        "_fecha_carga": "20/06/2026 19:01",
+        "_origen": "grupo",
+        "_pie": "Juliana palavecino \n47337453"
       }
     ],
     "errores": [],
