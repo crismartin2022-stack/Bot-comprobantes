@@ -68015,6 +68015,28 @@
         "_fecha_carga": "20/06/2026 01:48",
         "_origen": "grupo",
         "_pie": "Cristian Godoy 38839812"
+      },
+      {
+        "fecha": "18/06/2026",
+        "hora": "22:07",
+        "tipo": "TRF",
+        "monto": 100000.0,
+        "moneda": "ARS",
+        "remitente": "Anabella Ruiz diaz Fernandez",
+        "remitente_cuil": "27-45527187-3",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Prex",
+        "banco_destino": "BANCO COINAG S.A.",
+        "referencia": "419589571",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "",
+        "tiene_remitente": true,
+        "notas": "CVU de origen: 0000013000032286324464. CBU/CVU destino parcialmente visible (comienza con 00...13000...), últimos 4 dígitos no visibles por estar tapados por la barra de herramientas. CUIL destino (Sasteup Srl): 30-71728225-2.",
+        "_num": 928,
+        "_fecha_carga": "20/06/2026 01:49",
+        "_origen": "grupo",
+        "_pie": "Anabella Fernández \nDNI 45.527.187"
       }
     ],
     "errores": [],
