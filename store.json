@@ -1434,6 +1434,28 @@
         "_fecha_carga": "19/06/2026 21:39",
         "_origen": "grupo",
         "_pie": "Rocio Beltrán \n27-40860816-9"
+      },
+      {
+        "fecha": "18/06/2026",
+        "hora": "02:01",
+        "tipo": "TRF",
+        "monto": 50000.0,
+        "moneda": "ARS",
+        "remitente": "Rocio Victoria Beltran",
+        "remitente_cuil": "27-40860816-9",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "164645975852",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: R7ZG0QNDW1X0VL049EXYPO. CVU remitente: 0000003100074338117929. CVU destinatario: 0000155300000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 66,
+        "_fecha_carga": "19/06/2026 21:39",
+        "_origen": "grupo",
+        "_pie": "Rocio Beltrán \n27-40860816-9"
       }
     ],
     "errores": [],
