@@ -39,6 +39,7 @@ esperando_pie: dict = {}
 mensajes_rechazo: dict = {}
 received_log: dict = {}  # {chat_id: [{"msg_id", "fecha", "remitente", "estado"}]}
 semaforo_claude = asyncio.Semaphore(3)  # Máximo 3 análisis simultáneos
+cola_procesamiento = asyncio.Queue()  # Cola de comprobantes a procesar
 
 DATA_FILE    = "/data/store.json"       # Volume de Railway (persistente)
 LOG_FILE     = "/data/received_log.json"  # Log de imágenes recibidas
@@ -597,10 +598,11 @@ async def procesar_sin_pie(key, app):
     pending = esperando_pie.pop(key)
     chat_id, msg_id = key
     datos_chat = get_store(chat_id)
-    await procesar_comprobante(
-        pending["image_bytes"], pending["mime"], pending.get("caption", ""),
-        chat_id, pending["nombre_g"], "grupo", app.bot, msg_id
-    )
+    await cola_procesamiento.put({
+        "image_bytes": pending["image_bytes"], "mime": pending["mime"],
+        "pie": pending.get("caption", ""), "chat_id": chat_id,
+        "nombre_g": pending["nombre_g"], "origen": "grupo", "msg_id": msg_id
+    })
 
 # ── Tareas programadas ────────────────────────────────────────────────────────
 async def tarea_excel_backup(app):
@@ -1196,6 +1198,26 @@ async def obtener_imagen(update, ctx) -> tuple:
             return (await client.get(file.file_path)).content, msg.document.mime_type
     return None, None
 
+# ── Worker de cola de procesamiento ──────────────────────────────────────────
+async def worker_procesamiento(app):
+    """Procesa comprobantes de la cola de a uno por vez."""
+    while True:
+        try:
+            item = await cola_procesamiento.get()
+            try:
+                await procesar_comprobante(
+                    item["image_bytes"], item["mime"], item["pie"],
+                    item["chat_id"], item["nombre_g"], item["origen"],
+                    app.bot, item["msg_id"]
+                )
+            except Exception as e:
+                log.error(f"Error en worker: {e}")
+            finally:
+                cola_procesamiento.task_done()
+        except Exception as e:
+            log.error(f"Error en worker loop: {e}")
+            await asyncio.sleep(1)
+
 # ── Soporte para álbumes (media groups) ──────────────────────────────────────
 media_groups: dict = {}  # {(chat_id, media_group_id): {"images": [], "caption": "", "nombre_g": "", "timer": task}}
 
@@ -1211,7 +1233,10 @@ async def procesar_album(key, app):
     images   = grupo["images"]
 
     for image_bytes, mime, msg_id in images:
-        await procesar_comprobante(image_bytes, mime, caption, chat_id, nombre_g, "grupo", app.bot, msg_id)
+        await cola_procesamiento.put({
+            "image_bytes": image_bytes, "mime": mime, "pie": caption,
+            "chat_id": chat_id, "nombre_g": nombre_g, "origen": "grupo", "msg_id": msg_id
+        })
 
 async def handle_photo(update: Update, ctx: ContextTypes.DEFAULT_TYPE):
     chat_id    = update.effective_chat.id
@@ -1260,7 +1285,10 @@ async def handle_photo(update: Update, ctx: ContextTypes.DEFAULT_TYPE):
     # ── Imagen individual ──
     # Procesar directo — con o sin pie (ya no es obligatorio)
     if caption:
-        await procesar_comprobante(image_bytes, mime, caption, chat_id, nombre_g, "grupo", ctx.bot, msg_id)
+        await cola_procesamiento.put({
+            "image_bytes": image_bytes, "mime": mime, "pie": caption,
+            "chat_id": chat_id, "nombre_g": nombre_g, "origen": "grupo", "msg_id": msg_id
+        })
     else:
         key = (chat_id, msg_id)
         esperando_pie[key] = {"image_bytes": image_bytes, "mime": mime, "caption": "", "nombre_g": nombre_g}
@@ -1521,6 +1549,9 @@ async def main_async():
     scheduler.start()
 
     log.info("🤖 Bot iniciado con verificación de pie")
+    # Iniciar workers de procesamiento (3 workers paralelos)
+    for _ in range(3):
+        asyncio.create_task(worker_procesamiento(app))
     await app.initialize()
     await app.start()
     await app.updater.start_polling(drop_pending_updates=True)
