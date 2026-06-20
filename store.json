@@ -58252,6 +58252,28 @@
         "_fecha_carga": "19/06/2026 21:28",
         "_origen": "grupo",
         "_pie": "Yamila Castañares\n40505568"
+      },
+      {
+        "fecha": "18/06/2026",
+        "hora": "12:08",
+        "tipo": "TRF",
+        "monto": 300000.0,
+        "moneda": "ARS",
+        "remitente": "Natali Soledad Acosta",
+        "remitente_cuil": "35902877",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Lemon",
+        "banco_destino": "CVU",
+        "referencia": "46YGOW9M1KVLD3YMNEXD8J",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CUIT destinatario: 30717282252. CBU destino: 0000155300000000009977. ID de la transacción: 63e7df64-893b-46c5-8b6b-bd7d2518a771. Comprobante emitido por Lemon (Powered by Digifin).",
+        "_num": 658,
+        "_fecha_carga": "19/06/2026 21:28",
+        "_origen": "grupo",
+        "_pie": "Acosta natali \n35902877"
       }
     ],
     "errores": [],
