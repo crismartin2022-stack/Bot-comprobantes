@@ -56644,6 +56644,28 @@
         "_fecha_carga": "19/06/2026 21:17",
         "_origen": "grupo",
         "_pie": "Reinaldo Elias Cisneros\nCUIT/CUIL: 20-11876567-3"
+      },
+      {
+        "fecha": "16/06/2025",
+        "hora": "23:05",
+        "tipo": "TRF",
+        "monto": 500000.0,
+        "moneda": "ARS",
+        "remitente": "Pehuen Dure",
+        "remitente_cuil": "",
+        "destinatario": "SASTEUP SRL",
+        "banco_origen": "Claro Pay",
+        "banco_destino": "Lohas",
+        "referencia": "WB260616.2305.E29933",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CVU origen: 0000085700204284269171 (Pehuen Dure). CVU destino: 0000155300000000009977 (SASTEUP SRL). CUIT/CUIL destinatario: 30717282252. N° operación COELSA: ORD6LEN8PYK6D7MONM1Y30. Alias remitente: pekuu23.",
+        "_num": 585,
+        "_fecha_carga": "19/06/2026 21:17",
+        "_origen": "grupo",
+        "_pie": "Pehuen dure 42 842 691"
       }
     ],
     "errores": [],
