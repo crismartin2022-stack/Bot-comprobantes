@@ -290,6 +290,28 @@
         "_fecha_carga": "19/06/2026 21:31",
         "_origen": "grupo",
         "_pie": "Ruiz Diaz Yanina 36440128"
+      },
+      {
+        "fecha": "18/06/2026",
+        "hora": "22:14",
+        "tipo": "TRF",
+        "monto": 100000.0,
+        "moneda": "ARS",
+        "remitente": "Marcos Roberto Peiti",
+        "remitente_cuil": "20-42170591-8",
+        "destinatario": "SASTEUP SRL",
+        "banco_origen": "AstroPay",
+        "banco_destino": "",
+        "referencia": "JMQKYZ9QQVLMKGZ89V50P3",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CVU remitente: 0000177501214010354821. CVU receptor: 0000155300000000009977. Alias receptor: cvu.977. CUIT/CUIL receptor (SASTEUP SRL): 30717282252.",
+        "_num": 14,
+        "_fecha_carga": "19/06/2026 21:31",
+        "_origen": "grupo",
+        "_pie": "marcos peiti \n\n42170591"
       }
     ],
     "errores": [],
