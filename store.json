@@ -69028,6 +69028,28 @@
         "_fecha_carga": "20/06/2026 01:55",
         "_origen": "grupo",
         "_pie": "Buenas \n\n27k (Tony90) \n *Sasteup srl* \n19/06\nNicole pastarnokas\n27-38355592-8"
+      },
+      {
+        "fecha": "19/06/2026",
+        "hora": "13:30",
+        "tipo": "TRF",
+        "monto": 300000.0,
+        "moneda": "ARS",
+        "remitente": "Andres Gabriel Gerez",
+        "remitente_cuil": "20-32032599-5",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "164052992117",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: 86VRPQ2GMLGG5ELJ2GLY0M. CVU origen: 0000003100019025838099. CVU destino: 0000155300000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 974,
+        "_fecha_carga": "20/06/2026 01:56",
+        "_origen": "grupo",
+        "_pie": "300k (tony90)\n*Sasteup Srl*\n19/6\nAndres Gabriel Gerez \n20-32032599-5"
       }
     ],
     "errores": [],
