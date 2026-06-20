@@ -56094,6 +56094,28 @@
         "_fecha_carga": "19/06/2026 21:14",
         "_origen": "grupo",
         "_pie": "Luzdary Falla\nCUIT/CUIL: 27-96142180-8"
+      },
+      {
+        "fecha": "17/06/2026",
+        "hora": "00:11",
+        "tipo": "TRF",
+        "monto": 200000.0,
+        "moneda": "ARS",
+        "remitente": "Cintia Bettiana Alvarez",
+        "remitente_cuil": "27-34120207-3",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163667357735",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: R7ZG0QNDW1VY37XV9EXYPO. CVU origen: 0000003100002893383691. CVU destino: 0000155300000000009977. CUIT/CUIL destinatario: 30-71728225-2.",
+        "_num": 560,
+        "_fecha_carga": "19/06/2026 21:14",
+        "_origen": "grupo",
+        "_pie": "Cintia Bettiana Alvarez\nCUIT/CUIL: 27-34120207-3"
       }
     ],
     "errores": [],
