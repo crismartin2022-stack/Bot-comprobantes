@@ -68852,6 +68852,28 @@
         "_fecha_carga": "20/06/2026 01:54",
         "_origen": "grupo",
         "_pie": "lautibengolea 40755231"
+      },
+      {
+        "fecha": "19/06/2026",
+        "hora": "13:19",
+        "tipo": "TRF",
+        "monto": 100000.0,
+        "moneda": "ARS",
+        "remitente": "Laura Susana Novillo Isasi",
+        "remitente_cuil": "27-28563174-8",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "164868388646",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: Z0KV87940E45J73DNPEYDX. CVU origen: 0000003100088536859820. CVU destino: 0000155300000000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 966,
+        "_fecha_carga": "20/06/2026 01:54",
+        "_origen": "grupo",
+        "_pie": "Bet30click"
       }
     ],
     "errores": [],
