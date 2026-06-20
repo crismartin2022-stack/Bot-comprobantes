@@ -2271,6 +2271,28 @@
         "_fecha_carga": "19/06/2026 21:45",
         "_origen": "grupo",
         "_pie": "Foto de 😎"
+      },
+      {
+        "fecha": "18/06/2026",
+        "hora": "10:48",
+        "tipo": "TRF",
+        "monto": 100000.0,
+        "moneda": "ARS",
+        "remitente": "Juan Ramon Montiel",
+        "remitente_cuil": "20-23583976-9",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Naranja X",
+        "banco_destino": "Cuenta Virtual",
+        "referencia": "ORD6LEN8PYLOOZVONM1Y30",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de transacción adicional: b94d5107-c67d-4e92-b2cd-9a1ad16de4c2. CBU origen: 4530000800015717751561. CVU destino: 0000155300000000009977. CUIL destinatario: 30-71728225-2",
+        "_num": 104,
+        "_fecha_carga": "19/06/2026 21:45",
+        "_origen": "grupo",
+        "_pie": "Juan Ramon Montiel\nNaranja X\n4530000800015717751561\n20-23583976-9"
       }
     ],
     "errores": [],
