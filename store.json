@@ -56512,6 +56512,28 @@
         "_fecha_carga": "19/06/2026 21:16",
         "_origen": "grupo",
         "_pie": "Katherine Priscila Vargas\nCUIT/CUIL: 27-43975866-5"
+      },
+      {
+        "fecha": "17/06/2026",
+        "hora": "09:46",
+        "tipo": "TRF",
+        "monto": 250000.0,
+        "moneda": "ARS",
+        "remitente": "Marquez, Diana Pamela",
+        "remitente_cuil": "27-36531629-0",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Personal Pay",
+        "banco_destino": "",
+        "referencia": "2750540727",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CoelsaID: D4RO172VZQV7DLJKNKJ3QE - Id Bancario. CUIL/CUIT del destinatario (Sasteup Srl): 30-71728225-2. CBU/CVU receptor completo: 0000155300000000009977.",
+        "_num": 579,
+        "_fecha_carga": "19/06/2026 21:17",
+        "_origen": "grupo",
+        "_pie": "Marquez, Diana Pamela\n27-36531629-0"
       }
     ],
     "errores": [],
