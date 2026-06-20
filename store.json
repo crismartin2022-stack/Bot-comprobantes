@@ -69094,6 +69094,28 @@
         "_fecha_carga": "20/06/2026 01:56",
         "_origen": "grupo",
         "_pie": "Envío en total \n$ 1.000.000\n\n•600k (Tony90)\n• *Sasteup Srl*\n• 19/06\n•Julio Andres Caballero\n•Cuil: 20-38660370-8\n\n•400k (Tony90)\n• *Sasteup Srl*\n• 19/06\n•Julio Andres Caballero\n•Cuil: 20-38660370-8"
+      },
+      {
+        "fecha": "19/06/2026",
+        "hora": "14:54",
+        "tipo": "TRF",
+        "monto": 400000.0,
+        "moneda": "ARS",
+        "remitente": "Caballero, Julio Andres",
+        "remitente_cuil": "20-38660370-8",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Personal Pay",
+        "banco_destino": "",
+        "referencia": "2762290262",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CoelsaID: LOEJWV9JZ38Q8GG82QMD0G - Id Bancario. CUIL/CUIT destinatario: 30-71728225-2. CBU/CVU destinatario: 0000155300000000009977",
+        "_num": 977,
+        "_fecha_carga": "20/06/2026 01:56",
+        "_origen": "grupo",
+        "_pie": "Juan silvero 29557533"
       }
     ],
     "errores": [],
