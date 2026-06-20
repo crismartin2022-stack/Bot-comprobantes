@@ -56358,6 +56358,28 @@
         "_fecha_carga": "19/06/2026 21:15",
         "_origen": "grupo",
         "_pie": "Zoraida Nunez Sanchez\nNaranja X\n4530000800016777376312\nCUIL\n27-92394168-7"
+      },
+      {
+        "fecha": "17/06/2026",
+        "hora": "00:53",
+        "tipo": "TRF",
+        "monto": 50000.0,
+        "moneda": "ARS",
+        "remitente": "Lucas Roman Cardozo Zevallos",
+        "remitente_cuil": "20-47650455-5",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "164486148344",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: 3D5W612E6Z05Z4452GXYVR. CVU origen: 0000003100027614740487. CVU destino: 0000155300000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 572,
+        "_fecha_carga": "19/06/2026 21:15",
+        "_origen": "grupo",
+        "_pie": "Lucas Roman Cardozo Zevallos\nCUIT/CUIL: 20-47650455-5"
       }
     ],
     "errores": [],
