@@ -58186,6 +58186,28 @@
         "_fecha_carga": "19/06/2026 21:28",
         "_origen": "grupo",
         "_pie": "Elías Nicolás Galarza 20-46351101-3"
+      },
+      {
+        "fecha": "17/06/2026",
+        "hora": "23:37",
+        "tipo": "TRF",
+        "monto": 275000.0,
+        "moneda": "ARS",
+        "remitente": "Alexi Fabian Delvalle Hentsch",
+        "remitente_cuil": "20-94598195-5",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "164637649142",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: ORD6LEN8PYOYQQPGNM1Y30. CVU remitente: 0000003100079919073333. CVU destinatario: 0000155300000000000009977.",
+        "_num": 655,
+        "_fecha_carga": "19/06/2026 21:28",
+        "_origen": "grupo",
+        "_pie": "Alexi delvalle 94598195"
       }
     ],
     "errores": [],
