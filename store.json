@@ -66337,6 +66337,28 @@
         "_fecha_carga": "20/06/2026 01:37",
         "_origen": "grupo",
         "_pie": "Medero, Marianela Alessandra\nCUIL/CUIT 27-47081108-6"
+      },
+      {
+        "fecha": "18/06/2026",
+        "hora": "22:32",
+        "tipo": "TRF",
+        "monto": 200000.0,
+        "moneda": "ARS",
+        "remitente": "Priscila Abigail Reynoso",
+        "remitente_cuil": "27-47308873-3",
+        "destinatario": "SASTEUP SRL",
+        "banco_origen": "AstroPay",
+        "banco_destino": "",
+        "referencia": "JMQKYZ9QQVLMV44R9V50P3",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CVU remitente: 0000177500094113995038. CVU receptor: 0000155300000000009977. Alias receptor: cvu.977. CUIT/CUIL receptor: 30717282252.",
+        "_num": 852,
+        "_fecha_carga": "20/06/2026 01:37",
+        "_origen": "grupo",
+        "_pie": "47308873, Reynoso Priscila"
       }
     ],
     "errores": [],
