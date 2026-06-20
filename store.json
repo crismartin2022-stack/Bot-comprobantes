@@ -69006,6 +69006,28 @@
         "_fecha_carga": "20/06/2026 01:55",
         "_origen": "grupo",
         "_pie": "27k (Tony90) \n *Sasteup srl* \n18/06\nNicole pastarnokas\n27-38355592-8"
+      },
+      {
+        "fecha": "19/06/2026",
+        "hora": "13:36",
+        "tipo": "TRF",
+        "monto": 27000.0,
+        "moneda": "ARS",
+        "remitente": "Nicole Pastarnokas",
+        "remitente_cuil": "27-38355592-8",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Naranja X",
+        "banco_destino": "Cuenta Virtual",
+        "referencia": "PDX4OGNYGP6Y45QYN0L6EY",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de transacción adicional: 0c056c0c-480f-480c-b998-b8a6c52a4f1f. CVU destinatario: 0000155300000000009977. CUIL destinatario: 30-71728225-2.",
+        "_num": 973,
+        "_fecha_carga": "20/06/2026 01:55",
+        "_origen": "grupo",
+        "_pie": "Buenas \n\n27k (Tony90) \n *Sasteup srl* \n19/06\nNicole pastarnokas\n27-38355592-8"
       }
     ],
     "errores": [],
