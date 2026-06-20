@@ -2711,6 +2711,28 @@
         "_fecha_carga": "19/06/2026 21:48",
         "_origen": "grupo",
         "_pie": "Nancy Karina Nieto\nCUIT/CUIL: 27-25056249-2"
+      },
+      {
+        "fecha": "18/06/2026",
+        "hora": "16:32",
+        "tipo": "TRF",
+        "monto": 293300.0,
+        "moneda": "ARS",
+        "remitente": "Juan Pablo Quiroz",
+        "remitente_cuil": "20-26206205-9",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Naranja X",
+        "banco_destino": "Cuenta Virtual",
+        "referencia": "D4RO172VZQDJ0DQRNKJ3QE",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de transacción adicional: 9e8e12ed-643b-4415-8c05-e6a04cbaed15. CBU origen: 4530000800019167166531. CVU destino: 0000155300000000009977.",
+        "_num": 124,
+        "_fecha_carga": "19/06/2026 21:48",
+        "_origen": "grupo",
+        "_pie": "Juan Pablo Quiroz"
       }
     ],
     "errores": [],
