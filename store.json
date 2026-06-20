@@ -66714,6 +66714,28 @@
         "_fecha_carga": "20/06/2026 01:40",
         "_origen": "grupo",
         "_pie": "Rodríguez alan benjamín \nDNI: 48.437.167"
+      },
+      {
+        "fecha": "18/06/2026",
+        "hora": "22:43",
+        "tipo": "TRF",
+        "monto": 500001.0,
+        "moneda": "ARS",
+        "remitente": "Miguel Abran Cespedes",
+        "remitente_cuil": "20-51260467-7",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Ualá",
+        "banco_destino": "",
+        "referencia": "0V1JX0N1LM5PX5QGNZ64EL",
+        "concepto": "VAR",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CUIT destino: 30717282252. CBU destino completo: 0000155300000000009977.",
+        "_num": 869,
+        "_fecha_carga": "20/06/2026 01:40",
+        "_origen": "grupo",
+        "_pie": "Miguel Abran cespedes \n20-51260467-7"
       }
     ],
     "errores": [],
