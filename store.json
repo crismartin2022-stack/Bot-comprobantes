@@ -54505,6 +54505,28 @@
         "_fecha_carga": "19/06/2026 21:02",
         "_origen": "grupo",
         "_pie": "CUIL MICA: 20-45786073-1 Micaela Garay"
+      },
+      {
+        "fecha": "16/06/2026",
+        "hora": "15:31",
+        "tipo": "TRF",
+        "monto": 200000.0,
+        "moneda": "ARS",
+        "remitente": "Rosana Marivel Rodriguez Cabrera",
+        "remitente_cuil": "27-95282921-7",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163591269397",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: 46YGOW9M1K08Y1M8NEXD8J. CVU remitente: 0000003100025686989937. CVU destinatario: 0000155300000000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 488,
+        "_fecha_carga": "19/06/2026 21:02",
+        "_origen": "grupo",
+        "_pie": "Rosana Marivel Rodriguez Cabrera\nCUIT/CUIL: 27-95282921-7"
       }
     ],
     "errores": [],
