@@ -423,11 +423,13 @@ async def procesar_comprobante(image_bytes: bytes, mime: str, pie: str,
     """Analiza imagen, verifica pie y guarda en registro correcto o errores."""
     datos = get_store(chat_id, nombre_g)
     # Registrar imagen recibida
+    from telegram import Update as _Update
     entrada_log = {
         "msg_id": chat_msg_id,
         "fecha": now_arg().strftime("%d/%m/%Y %H:%M"),
         "nombre_g": nombre_g,
-        "estado": "procesando"
+        "estado": "procesando",
+        "pie": pie or "",
     }
     cid_str = str(chat_id)
     if cid_str not in received_log:
@@ -962,7 +964,9 @@ async def cmd_pendientes(update: Update, ctx: ContextTypes.DEFAULT_TYPE):
             partes.append("Procesadas: " + str(len(procesadas)))
             partes.append("Sin procesar: " + str(len(perdidas)))
             for e in perdidas[:5]:
-                partes.append("msg#" + str(e.get("msg_id")) + " | " + str(e.get("fecha","")))
+                pie_txt = e.get("pie","")
+                pie_info = (" | " + pie_txt[:30]) if pie_txt else ""
+                partes.append("msg#" + str(e.get("msg_id")) + " | " + str(e.get("fecha","")) + pie_info)
             if len(perdidas) > 5:
                 partes.append("... y " + str(len(perdidas)-5) + " mas")
     if total_perdidas == 0:
