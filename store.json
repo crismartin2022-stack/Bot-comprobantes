@@ -64795,6 +64795,28 @@
         "_fecha_carga": "20/06/2026 01:27",
         "_origen": "grupo",
         "_pie": "Gonzalez, Sofía Morena\nCUIL/CUIT 27-48570072-8"
+      },
+      {
+        "fecha": "18/06/2026",
+        "hora": "15:04",
+        "tipo": "TRF",
+        "monto": 500000.0,
+        "moneda": "ARS",
+        "remitente": "Argañaraz, Clara Yolanda",
+        "remitente_cuil": "27-11587198-1",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Personal Pay",
+        "banco_destino": "",
+        "referencia": "2757773931",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CoelsaID: Z4K6DVNOWY4PJKO425J8LQ - Id Bancario. CBU/CVU destinatario: 0000155300000000009977. CUIL destinatario: 30-71728225-2",
+        "_num": 782,
+        "_fecha_carga": "20/06/2026 01:27",
+        "_origen": "grupo",
+        "_pie": "Argañaraz, Clara Yolanda\nCUIL/CUIT 27-11587198-1"
       }
     ],
     "errores": [],
