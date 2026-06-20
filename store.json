@@ -3064,6 +3064,28 @@
         "_fecha_carga": "19/06/2026 21:50",
         "_origen": "grupo",
         "_pie": "Marco Emmiliano Barrera\nNaranja X\n4530000800012271420814\n20-39596546-9"
+      },
+      {
+        "fecha": "18/06/2026",
+        "hora": "18:41",
+        "tipo": "TRF",
+        "monto": 300000.0,
+        "moneda": "ARS",
+        "remitente": "MATIAS EMMANUEL TORRES MOYANO",
+        "remitente_cuil": "20-32356439-7",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Banco De Galicia S.A.U",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "42144206110",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "ID COELSA: LOEJWV9JZ34VD88D2QMD0G. CVU destinatario: 0000155300000000009977. Cuenta origen: CA $ N° 4008003-9 372-7. CUIT destinatario: 30-71728225-2.",
+        "_num": 140,
+        "_fecha_carga": "19/06/2026 21:50",
+        "_origen": "grupo",
+        "_pie": "Matias torres 32356439"
       }
     ],
     "errores": [],
