@@ -3108,6 +3108,28 @@
         "_fecha_carga": "19/06/2026 21:50",
         "_origen": "grupo",
         "_pie": "Adrian Palma Feltes\nCUIT/CUIL: 20-95324736-5"
+      },
+      {
+        "fecha": "18/06/2026",
+        "hora": "19:26",
+        "tipo": "TRF",
+        "monto": 100000.0,
+        "moneda": "ARS",
+        "remitente": "Nancy Carolina Cardozo Rodas",
+        "remitente_cuil": "27-95467596-9",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163945247279",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: 67REZ8NPQ64PWK8194KVGO. CVU remitente: 0000003100003372789014. CVU destinatario: 0000155300000000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 142,
+        "_fecha_carga": "19/06/2026 21:50",
+        "_origen": "grupo",
+        "_pie": "Nancy Carolina Cardozo Rodas\nCUIT/CUIL: 27-95467596-9"
       }
     ],
     "errores": [],
