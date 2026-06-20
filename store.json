@@ -62285,6 +62285,28 @@
         "_fecha_carga": "20/06/2026 01:09",
         "_origen": "grupo",
         "_pie": "Julieta Otazo \n433319552\nPlutonos"
+      },
+      {
+        "fecha": "18/06/2026",
+        "hora": "19:17",
+        "tipo": "TRF",
+        "monto": 200000.0,
+        "moneda": "ARS",
+        "remitente": "Cinat, Ricardo Sebastian",
+        "remitente_cuil": "20-34794525-1",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Personal Pay",
+        "banco_destino": "",
+        "referencia": "2758361723",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CoelsaID: Z4K6DVNOWY4VEEVG25J8LQ - Id Bancario. CBU/CVU destinatario: 0000155300000000009977. CUIL/CUIT destinatario: 30-71728225-2.",
+        "_num": 668,
+        "_fecha_carga": "20/06/2026 01:10",
+        "_origen": "grupo",
+        "_pie": "Ricardo Cinat 20-34794525-1"
       }
     ],
     "errores": [],
