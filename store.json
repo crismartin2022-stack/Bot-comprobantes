@@ -56292,6 +56292,28 @@
         "_fecha_carga": "19/06/2026 21:15",
         "_origen": "grupo",
         "_pie": "Liliana Beatriz anrriquez \nDNI: 21.104.254"
+      },
+      {
+        "fecha": "17/06/2026",
+        "hora": "00:43",
+        "tipo": "TRF",
+        "monto": 390000.0,
+        "moneda": "ARS",
+        "remitente": "Ramos, Francisco Daniel",
+        "remitente_cuil": "20-37897562-0",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Personal Pay",
+        "banco_destino": "",
+        "referencia": "2750195558",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CoelsaID: LMORZP908LE7650PNEGJ46 - Id Bancario. CUIL/CUIT del destinatario: 30-71728225-2. CBU/CVU destinatario: 0000155300000000009977",
+        "_num": 569,
+        "_fecha_carga": "19/06/2026 21:15",
+        "_origen": "grupo",
+        "_pie": "a Ramos, Francisco Daniel\nCUIL/CUIT 20-37897562-0"
       }
     ],
     "errores": [],
