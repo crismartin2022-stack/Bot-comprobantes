@@ -68235,6 +68235,28 @@
         "_fecha_carga": "20/06/2026 01:50",
         "_origen": "grupo",
         "_pie": "Ayelen Esperanza Orrego 38584725"
+      },
+      {
+        "fecha": "18/06/2026",
+        "hora": "20:28",
+        "tipo": "TRF",
+        "monto": 230000.0,
+        "moneda": "ARS",
+        "remitente": "Jonathan Gaston Esequiel Corvalan",
+        "remitente_cuil": "20-46651553-2",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163954425855",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: Z4K6DVNOWY0GKYKK25J8LQ. CVU origen: 0000003100008050051887. CVU destino: 0000155300000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 938,
+        "_fecha_carga": "20/06/2026 01:50",
+        "_origen": "grupo",
+        "_pie": "Jonathan gaston corvalan 46.651.553\n\n230 zeus"
       }
     ],
     "errores": [],
