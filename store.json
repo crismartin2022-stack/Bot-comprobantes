@@ -68323,6 +68323,28 @@
         "_fecha_carga": "20/06/2026 01:51",
         "_origen": "grupo",
         "_pie": "Valeria Peyronel\n27869054"
+      },
+      {
+        "fecha": "18/06/2026",
+        "hora": "23:56",
+        "tipo": "TRF",
+        "monto": 100000.0,
+        "moneda": "ARS",
+        "remitente": "Mariel Analia Hormaeche",
+        "remitente_cuil": "27-24435485-3",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "164796324690",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: WY7ZEPN6MKPGD53P2Q0M51. CVU origen: 0000003100077718236580. CVU destino: 0000155300000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 942,
+        "_fecha_carga": "20/06/2026 01:51",
+        "_origen": "grupo",
+        "_pie": "Mariel hormaeche\n24435485"
       }
     ],
     "errores": [],
