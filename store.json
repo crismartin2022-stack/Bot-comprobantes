@@ -68764,6 +68764,28 @@
         "_fecha_carga": "20/06/2026 01:54",
         "_origen": "grupo",
         "_pie": "Ganamos"
+      },
+      {
+        "fecha": "18/06/2026",
+        "hora": "22:47",
+        "tipo": "TRF",
+        "monto": 50000.0,
+        "moneda": "ARS",
+        "remitente": "Katherina Liliana Vera",
+        "remitente_cuil": "27-39011863-0",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163973326605",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: R7ZG0QNDW18V8G3E9EXYPO. CVU origen: 0000003100012428189267. CVU destino: 0000155300000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 962,
+        "_fecha_carga": "20/06/2026 01:54",
+        "_origen": "grupo",
+        "_pie": "Foto de 🤗🤗🤗"
       }
     ],
     "errores": [],
