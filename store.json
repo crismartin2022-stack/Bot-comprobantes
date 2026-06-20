@@ -56336,6 +56336,28 @@
         "_fecha_carga": "19/06/2026 21:15",
         "_origen": "grupo",
         "_pie": "Nadia Cinquemani\n34640953"
+      },
+      {
+        "fecha": "17/06/2026",
+        "hora": "00:49",
+        "tipo": "TRF",
+        "monto": 40000.0,
+        "moneda": "ARS",
+        "remitente": "Zoraida Nunez Sanchez",
+        "remitente_cuil": "27-92394168-7",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Naranja X",
+        "banco_destino": "Cuenta Virtual",
+        "referencia": "WGRXJE27DX3JRWMJN7MYQL",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CBU origen: 4530000800016777376312. CVU destino: 0000155300000000009977. Código de transacción: 485d226e-0e1f-4e85-a1fc-b06bafce0107. CUIL destinatario: 30-71728225-2.",
+        "_num": 571,
+        "_fecha_carga": "19/06/2026 21:15",
+        "_origen": "grupo",
+        "_pie": "Zoraida Nunez Sanchez\nNaranja X\n4530000800016777376312\nCUIL\n27-92394168-7"
       }
     ],
     "errores": [],
