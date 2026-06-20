@@ -1633,6 +1633,28 @@
         "_fecha_carga": "19/06/2026 21:40",
         "_origen": "grupo",
         "_pie": "DARIO SIARA\n\nDNI: 27.854.889"
+      },
+      {
+        "fecha": "18/06/2026",
+        "hora": "18:00",
+        "tipo": "TRF",
+        "monto": 55000.0,
+        "moneda": "ARS",
+        "remitente": "Norma Beatriz Valdez",
+        "remitente_cuil": "27-24702213-4",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Naranja X",
+        "banco_destino": "Cuenta Virtual",
+        "referencia": "1LMP68NKVE417DJK2R7OEV",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de transacción adicional: 0db1519c-faa2-4354-a404-25eacfb103b1. CBU origen: 4530000800019937567043. CVU destino: 0000155300000000009977. CUIL destinatario: 30-71728225-2.",
+        "_num": 75,
+        "_fecha_carga": "19/06/2026 21:40",
+        "_origen": "grupo",
+        "_pie": "NORMA VALDEZ\n\nDNI: 24.702.213"
       }
     ],
     "errores": [],
