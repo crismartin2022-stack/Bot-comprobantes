@@ -57943,6 +57943,28 @@
         "_fecha_carga": "19/06/2026 21:26",
         "_origen": "grupo",
         "_pie": "Alan Daniel Zarza Lopez \n40007918"
+      },
+      {
+        "fecha": "17/06/2026",
+        "hora": "16:04",
+        "tipo": "TRF",
+        "monto": 100000.0,
+        "moneda": "ARS",
+        "remitente": "Claudia Noemi Gomez",
+        "remitente_cuil": "20451350",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Ualá",
+        "banco_destino": "BILLETERA VIRTUAL",
+        "referencia": "c66fd740-8e8d-ac4b-e07d-17464b0b8e2c",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CBU del emisor: 3840200500000028046611. CUIT/CUIL destino (Sasteup Srl): 30-71728225-2. CVU destino: 0000155300000000009977.",
+        "_num": 644,
+        "_fecha_carga": "19/06/2026 21:26",
+        "_origen": "grupo",
+        "_pie": "Claudia Noemi Gómez\n20451350"
       }
     ],
     "errores": [],
