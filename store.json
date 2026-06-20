@@ -68918,6 +68918,28 @@
         "_fecha_carga": "20/06/2026 01:55",
         "_origen": "grupo",
         "_pie": "Roberto Horacio Prieto   DNI: 14090128"
+      },
+      {
+        "fecha": "19/06/2024",
+        "hora": "14:12",
+        "tipo": "TRF",
+        "monto": 50000.0,
+        "moneda": "ARS",
+        "remitente": "LILIANA BEATRIZ HERMOSO",
+        "remitente_cuil": "16208070",
+        "destinatario": "SASTEUP SRL",
+        "banco_origen": "Claro Pay",
+        "banco_destino": "Lohas",
+        "referencia": "WB260619.1412.A95616",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CVU remitente: 0000085700271620807043, Alias: liher.cp. CUIT/CUIL destinatario: 30717282252. N° operación COELSA: 1LMP68NKVEQLGLP52R7OEV",
+        "_num": 969,
+        "_fecha_carga": "20/06/2026 01:55",
+        "_origen": "grupo",
+        "_pie": "Liliana Beatriz Hermoso DNI: 16208070"
       }
     ],
     "errores": [],
