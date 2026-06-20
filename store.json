@@ -3042,6 +3042,28 @@
         "_fecha_carga": "19/06/2026 21:50",
         "_origen": "grupo",
         "_pie": "Natalia Ailen Di Giorgio Suarez\nCUIT/CUIL: 27-47758744-0"
+      },
+      {
+        "fecha": "18/06/2026",
+        "hora": "18:41",
+        "tipo": "TRF",
+        "monto": 25000.0,
+        "moneda": "ARS",
+        "remitente": "Marco Emmiliano Barrera",
+        "remitente_cuil": "20-39596546-9",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Naranja X",
+        "banco_destino": "Cuenta Virtual",
+        "referencia": "WGRXJE27DXZK74PEN7MYQL",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de transacción: cc1448fe-1b41-415a-af1f-9cff81782f68. CBU origen: 4530000800012271420814. CVU destino: 0000155300000000009977. CUIL destinatario: 30-71728225-2.",
+        "_num": 139,
+        "_fecha_carga": "19/06/2026 21:50",
+        "_origen": "grupo",
+        "_pie": "Marco Emmiliano Barrera\nNaranja X\n4530000800012271420814\n20-39596546-9"
       }
     ],
     "errores": [],
