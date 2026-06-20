@@ -68081,6 +68081,28 @@
         "_fecha_carga": "20/06/2026 01:49",
         "_origen": "grupo",
         "_pie": "Torres Alexis Maximiliano\nDNI: 39.635.586"
+      },
+      {
+        "fecha": "18/06/2026",
+        "hora": "22:29",
+        "tipo": "TRF",
+        "monto": 250000.0,
+        "moneda": "ARS",
+        "remitente": "Franco Damian Benitez",
+        "remitente_cuil": "20-42005044-6",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163971001061",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: LOEJWV9JZ31OQ6JM2QMD0G. CVU remitente: 0000003100088344070433. CUIT destinatario: 30-71728225-2.",
+        "_num": 931,
+        "_fecha_carga": "20/06/2026 01:49",
+        "_origen": "grupo",
+        "_pie": "Jorge kowalczuk 31895635"
       }
     ],
     "errores": [],
