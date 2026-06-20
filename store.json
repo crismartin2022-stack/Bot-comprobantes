@@ -57811,6 +57811,28 @@
         "_fecha_carga": "19/06/2026 21:25",
         "_origen": "grupo",
         "_pie": "Mariel hormaeche\n24435485"
+      },
+      {
+        "fecha": "17/06/2026",
+        "hora": "00:05",
+        "tipo": "TRF",
+        "monto": 200000.0,
+        "moneda": "ARS",
+        "remitente": "Oscar Eduardo Peralta",
+        "remitente_cuil": "20-30013537-5",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Naranja X",
+        "banco_destino": "Cuenta Virtual",
+        "referencia": "86VRPQ2GML80G4OM2GLY0M",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CBU origen: 4530000800013721196143. CVU destino: 0000155300000000009977. CUIL destinatario: 30-71728225-2. Código de transacción: fcd1466d-2e41-4c9b-8483-c489b35398cf",
+        "_num": 638,
+        "_fecha_carga": "19/06/2026 21:25",
+        "_origen": "grupo",
+        "_pie": "Oscar Peralta \n30013537"
       }
     ],
     "errores": [],
