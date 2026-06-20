@@ -54439,6 +54439,28 @@
         "_fecha_carga": "19/06/2026 21:02",
         "_origen": "grupo",
         "_pie": "Lopez, María Salome\nCUIL/CUIT 27-36262471-7"
+      },
+      {
+        "fecha": "16/06/2026",
+        "hora": "15:04",
+        "tipo": "TRF",
+        "monto": 100000.0,
+        "moneda": "ARS",
+        "remitente": "Matias Nicolas Quevedo Hermosilla",
+        "remitente_cuil": "40640486",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Ualá",
+        "banco_destino": "",
+        "referencia": "RD06ZO9WVRLEQE13N5GP7X",
+        "concepto": "VAR",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CUIT destinatario: 30717282252. CBU destino completo: 0000155300000000009977.",
+        "_num": 485,
+        "_fecha_carga": "19/06/2026 21:02",
+        "_origen": "grupo",
+        "_pie": "A nombre de \nMatias Quevedo\n40640486"
       }
     ],
     "errores": [],
