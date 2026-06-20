@@ -67927,6 +67927,28 @@
         "_fecha_carga": "20/06/2026 01:48",
         "_origen": "grupo",
         "_pie": "Gustavo Fabián Volpe:\nFoto de Gustavo Volpe\n\nDaniel Antonio Segovia - DNI 25.102.714"
+      },
+      {
+        "fecha": "18/06/2026",
+        "hora": "20:32",
+        "tipo": "TRF",
+        "monto": 600000.0,
+        "moneda": "ARS",
+        "remitente": "Daniel Antonio Segovia",
+        "remitente_cuil": "20-25102714-6",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "164771939970",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: Z0KV87940E587XVDNPEYDX. CVU remitente: 0000003100067206952973. CVU destinatario: 0000155300000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 924,
+        "_fecha_carga": "20/06/2026 01:48",
+        "_origen": "grupo",
+        "_pie": "Gustavo Fabián Volpe:\nFoto de Gustavo Volpe\n\nDaniel Antonio Segovia - DNI 25.102.714"
       }
     ],
     "errores": [],
