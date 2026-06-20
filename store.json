@@ -54682,6 +54682,28 @@
         "_fecha_carga": "19/06/2026 21:03",
         "_origen": "grupo",
         "_pie": "Albornoz, Nicolas Eduardo\nCUIL/CUIT 20-12580879-5"
+      },
+      {
+        "fecha": "16/06/2026",
+        "hora": "19:05",
+        "tipo": "TRF",
+        "monto": 25000.0,
+        "moneda": "ARS",
+        "remitente": "Nicole Arami Ayala Arce",
+        "remitente_cuil": "27-94792396-5",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "164441337930",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: RD06ZO9WVRLKQ0LKN5GP7X. CVU origen: 0000003100002144298871. CVU destino: 0000155300000000009977.",
+        "_num": 496,
+        "_fecha_carga": "19/06/2026 21:04",
+        "_origen": "grupo",
+        "_pie": "Nicole Arami Ayala Arce\nCUIT/CUIL: 27-94792396-5"
       }
     ],
     "errores": [],
