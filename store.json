@@ -54904,6 +54904,28 @@
         "_fecha_carga": "19/06/2026 21:05",
         "_origen": "grupo",
         "_pie": ""
+      },
+      {
+        "fecha": "16/06/2026",
+        "hora": "18:41",
+        "tipo": "TRF",
+        "monto": 500000.0,
+        "moneda": "ARS",
+        "remitente": "Librada Galeano",
+        "remitente_cuil": "27-13197885-0",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163624046255",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: Z4K6DVNOWYL8W8OM25J8LQ. CVU origen: 0000003100049733272221. CVU destino: 0000155300000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 506,
+        "_fecha_carga": "19/06/2026 21:05",
+        "_origen": "grupo",
+        "_pie": "Librada Galeano\nCUIT/CUIL: 27-13197885-0"
       }
     ],
     "errores": [],
