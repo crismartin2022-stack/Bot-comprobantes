@@ -56028,6 +56028,28 @@
         "_fecha_carga": "19/06/2026 21:13",
         "_origen": "grupo",
         "_pie": "Carmen silvero Dni 96208464"
+      },
+      {
+        "fecha": "16/06/2026",
+        "hora": "23:49",
+        "tipo": "TRF",
+        "monto": 150000.0,
+        "moneda": "ARS",
+        "remitente": "ALDANA ROCIO ORELLANA",
+        "remitente_cuil": "27-41880786-0",
+        "destinatario": "SASTEUP SRL",
+        "banco_origen": "AstroPay",
+        "banco_destino": "",
+        "referencia": "Z0KV87940EXDQ6L4NPEYDX",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CVU remitente: 0000177500096292611143. CVU receptor: 0000155300000000009977. CUIT/CUIL receptor (SASTEUP SRL): 30717282252. Alias remitente: 41880786.ASTROPAY. Alias receptor: cvu.977. Coelsa ID usado como referencia.",
+        "_num": 557,
+        "_fecha_carga": "19/06/2026 21:13",
+        "_origen": "grupo",
+        "_pie": "ALDANA ROCIO ORELLANA\n27418807860"
       }
     ],
     "errores": [],
