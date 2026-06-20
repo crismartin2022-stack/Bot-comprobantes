@@ -55631,6 +55631,28 @@
         "_fecha_carga": "19/06/2026 21:10",
         "_origen": "grupo",
         "_pie": "Ludmila Ayelen Baldovino\nNaranja X\n4530000800011882769107\n27-44206968-4"
+      },
+      {
+        "fecha": "16/06/2026",
+        "hora": "21:40",
+        "tipo": "TRF",
+        "monto": 250000.0,
+        "moneda": "ARS",
+        "remitente": "Leiva, Jaqueline Antonela",
+        "remitente_cuil": "27-35949385-7",
+        "destinatario": "Sasteup Sri",
+        "banco_origen": "Personal Pay",
+        "banco_destino": "",
+        "referencia": "2749937039",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "0977",
+        "tiene_remitente": true,
+        "notas": "CoelsaID: B6VRPQ2GML8YY0QJ2GLY0M - Id Bancario. CBU/CVU destinatario: 0000155300000000009977. CUIL destinatario: 30-71728225-2",
+        "_num": 539,
+        "_fecha_carga": "19/06/2026 21:10",
+        "_origen": "grupo",
+        "_pie": "Leiva jaqueline 35 976 385"
       }
     ],
     "errores": [],
