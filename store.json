@@ -2931,6 +2931,28 @@
         "_fecha_carga": "19/06/2026 21:49",
         "_origen": "grupo",
         "_pie": "Lucas Roman Cardozo Zevallos\nCUIT/CUIL: 20-47650455-5"
+      },
+      {
+        "fecha": "18/06/2026",
+        "hora": "18:14",
+        "tipo": "TRF",
+        "monto": 500000.0,
+        "moneda": "ARS",
+        "remitente": "Ariel Tiago Frachia",
+        "remitente_cuil": "20-47393439-7",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Naranja X",
+        "banco_destino": "Cuenta Virtual",
+        "referencia": "3D5W612E6Z4D0Y7Q2GXYVR",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de transacción: 92026832-46d7-48a0-be2f-b52e98da0b45. CBU origen: 4530000800013160309472. CVU destino: 0000155300000000009977. CUIL destinatario: 30-71728225-2.",
+        "_num": 134,
+        "_fecha_carga": "19/06/2026 21:49",
+        "_origen": "grupo",
+        "_pie": "Ariel Tiago Frachia\nNaranja X\n4530000800013160309472\n20-47393439-7"
       }
     ],
     "errores": [],
