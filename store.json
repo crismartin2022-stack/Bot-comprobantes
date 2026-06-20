@@ -57326,6 +57326,28 @@
         "_fecha_carga": "19/06/2026 21:22",
         "_origen": "grupo",
         "_pie": "Juan Elias Marquez De Olivera\nCUIT/CUIL: 20-36520946-5"
+      },
+      {
+        "fecha": "18/06/2026",
+        "hora": "00:50",
+        "tipo": "TRF",
+        "monto": 50000.0,
+        "moneda": "ARS",
+        "remitente": "Bernardo David Colman",
+        "remitente_cuil": "20-41474843-1",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163826856441",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: RD06ZO9WVRQ83717N5GP7X. CVU origen: 0000003100033842569073. CVU destino: 0000155300000000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 616,
+        "_fecha_carga": "19/06/2026 21:22",
+        "_origen": "grupo",
+        "_pie": "Bernardo David Colman\nCUIT/CUIL: 20-41474843-1"
       }
     ],
     "errores": [],
