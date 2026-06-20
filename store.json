@@ -64355,6 +64355,28 @@
         "_fecha_carga": "20/06/2026 01:24",
         "_origen": "grupo",
         "_pie": "Camila Benítez 43814218"
+      },
+      {
+        "fecha": "18/06/2026",
+        "hora": "13:37",
+        "tipo": "TRF",
+        "monto": 30000.0,
+        "moneda": "ARS",
+        "remitente": "Rita Maria Itati Romero",
+        "remitente_cuil": "27-30432899-7",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Naranja X",
+        "banco_destino": "Cuenta Virtual",
+        "referencia": "0V1JXON1LMOM4OK3NZ64EL",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de transacción adicional: 3e0b7eba-6a12-446d-bc96-3db73932bdfd. CBU origen: 4530000800016346664055. CVU destino: 0000155300000000009977. CUIL destinatario: 30-71728225-2.",
+        "_num": 762,
+        "_fecha_carga": "20/06/2026 01:24",
+        "_origen": "grupo",
+        "_pie": "Rita romero 30432899"
       }
     ],
     "errores": [],
