@@ -950,6 +950,28 @@
         "_fecha_carga": "19/06/2026 21:36",
         "_origen": "grupo",
         "_pie": "Katherina Elisa Medina Martínez \n27-38410644-2"
+      },
+      {
+        "fecha": "16/06/2026",
+        "hora": "18:08",
+        "tipo": "TRF",
+        "monto": 90000.0,
+        "moneda": "ARS",
+        "remitente": "Karina Soledad Palacios",
+        "remitente_cuil": "40738356",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Ualá",
+        "banco_destino": "",
+        "referencia": "Z6OLMDN3V3Z1XJ852E7RQ5",
+        "concepto": "VAR",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CBU destino: 0000155300000000009977. CUIT destino (del receptor Sasteup Srl): 30717282252. No se visualiza CUIL del remitente.",
+        "_num": 44,
+        "_fecha_carga": "19/06/2026 21:36",
+        "_origen": "grupo",
+        "_pie": "Palacios Karina Soledad 40738356"
       }
     ],
     "errores": [],
