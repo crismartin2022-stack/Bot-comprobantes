@@ -55829,6 +55829,28 @@
         "_fecha_carga": "19/06/2026 21:11",
         "_origen": "grupo",
         "_pie": "Angelina Nair Coceres\n46819773"
+      },
+      {
+        "fecha": "16/06/2026",
+        "hora": "22:55",
+        "tipo": "TRF",
+        "monto": 200000.0,
+        "moneda": "ARS",
+        "remitente": "Gladys Noemi Lencinas",
+        "remitente_cuil": "27-14164627-9",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "164476790472",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: 3D5W612E6Z00MD7W2GXYVR. CVU origen: 0000003100064276643844. CVU destino: 0000155300000000009977",
+        "_num": 548,
+        "_fecha_carga": "19/06/2026 21:12",
+        "_origen": "grupo",
+        "_pie": "Gladys Noemi Lencinas\nCUIT/CUIL: 27-14164627-9"
       }
     ],
     "errores": [],
