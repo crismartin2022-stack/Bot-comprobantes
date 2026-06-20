@@ -57767,6 +57767,28 @@
         "_fecha_carga": "19/06/2026 21:25",
         "_origen": "grupo",
         "_pie": "Paola soledad loustau\n27296146"
+      },
+      {
+        "fecha": "16/06/2026",
+        "hora": "20:58",
+        "tipo": "TRF",
+        "monto": 200000.0,
+        "moneda": "ARS",
+        "remitente": "Debora Vanina Centurion",
+        "remitente_cuil": "27-36242230-8",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163648130389",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: PDX4OGNYGPL4LLQRN0L6EY. CVU remitente: 0000003100065564187264. CVU destinatario: 0000155300000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 636,
+        "_fecha_carga": "19/06/2026 21:25",
+        "_origen": "grupo",
+        "_pie": "Debora centurión \n36242230"
       }
     ],
     "errores": [],
