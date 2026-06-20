@@ -1126,6 +1126,28 @@
         "_fecha_carga": "19/06/2026 21:37",
         "_origen": "grupo",
         "_pie": "Matias Chaves \n20-41416949-0"
+      },
+      {
+        "fecha": "17/06/2026",
+        "hora": "00:59",
+        "tipo": "TRF",
+        "monto": 100000.0,
+        "moneda": "ARS",
+        "remitente": "luciana alvarenga",
+        "remitente_cuil": "95029202",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Ualá",
+        "banco_destino": "",
+        "referencia": "RD06ZO9WVR0M1XK1N5GP7X",
+        "concepto": "VAR",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CUIT destino: 30717282252. CBU destino completo: 0000155300000000009977",
+        "_num": 52,
+        "_fecha_carga": "19/06/2026 21:37",
+        "_origen": "grupo",
+        "_pie": "Luciana Alvarenga \n95029202"
       }
     ],
     "errores": [],
