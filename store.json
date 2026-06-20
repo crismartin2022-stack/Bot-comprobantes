@@ -5988,6 +5988,28 @@
         "_fecha_carga": "20/06/2026 20:36",
         "_origen": "grupo",
         "_pie": "Leonardo Ariel Aguirre\nCUIT/CUIL: 20-25795836-2"
+      },
+      {
+        "fecha": "12/06/2026",
+        "hora": "00:46",
+        "tipo": "TRF",
+        "monto": 375000.0,
+        "moneda": "ARS",
+        "remitente": "Molina, Yamila Antonella",
+        "remitente_cuil": "27-39154409-9",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Personal Pay",
+        "banco_destino": "",
+        "referencia": "2734546491",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CoelsaID: D4RO172VZG0JDYK0NKJ3QE - Id Bancario. CUIL/CUIT del destinatario (Sasteup Srl): 30-71728225-2. CBU/CVU completo del receptor: 0000155300000000009977.",
+        "_num": 98,
+        "_fecha_carga": "20/06/2026 20:36",
+        "_origen": "grupo",
+        "_pie": "nvía Molina, Yamila Antonella\nCUIL/CUIT 27-39154409-9"
       }
     ],
     "errores": [],
