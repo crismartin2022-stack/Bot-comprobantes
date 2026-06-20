@@ -57216,6 +57216,28 @@
         "_fecha_carga": "19/06/2026 21:21",
         "_origen": "grupo",
         "_pie": "Samira Julieta Machado\nDNI 48056530"
+      },
+      {
+        "fecha": "18/06/2026",
+        "hora": "00:32",
+        "tipo": "TRF",
+        "monto": 30000.0,
+        "moneda": "ARS",
+        "remitente": "Keila Nadine Indice",
+        "remitente_cuil": "27-46194282-8",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163825572809",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: 3D5W612E6Z5LPR0L2GXYVR. CVU origen: 0000003100081674132916. CVU destino: 0000155300000000000009977.",
+        "_num": 611,
+        "_fecha_carga": "19/06/2026 21:21",
+        "_origen": "grupo",
+        "_pie": "Keila Nadine Indice\nCUIT/CUIL: 27-46194282-8"
       }
     ],
     "errores": [],
