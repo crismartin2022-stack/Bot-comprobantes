@@ -246,6 +246,28 @@
         "_fecha_carga": "19/06/2026 21:31",
         "_origen": "grupo",
         "_pie": "Foto de raskovsky romina"
+      },
+      {
+        "fecha": "18/06/2026",
+        "hora": "15:04",
+        "tipo": "TRF",
+        "monto": 50000.0,
+        "moneda": "ARS",
+        "remitente": "Yanina Soledad Ruiz Diaz",
+        "remitente_cuil": "27-36440128-6",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Naranja X",
+        "banco_destino": "Cuenta Virtual",
+        "referencia": "WGRXJE27DXZ6JQY6N7MYQL",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de transacción adicional: b37abbbd-6068-4d7c-888b-6af8e78e8179. CBU origen: 4530000800017597398816. CVU destino: 0000155300000000009977. CUIL destinatario: 30-71728225-2.",
+        "_num": 12,
+        "_fecha_carga": "19/06/2026 21:31",
+        "_origen": "grupo",
+        "_pie": "Ruiz Diaz Yanina 36440128"
       }
     ],
     "errores": [],
