@@ -884,6 +884,28 @@
         "_fecha_carga": "19/06/2026 21:35",
         "_origen": "grupo",
         "_pie": "Katherine Elisa Medina Martínez \n27-38410644-2"
+      },
+      {
+        "fecha": "15/06/2026",
+        "hora": "16:18",
+        "tipo": "TRF",
+        "monto": 150000.0,
+        "moneda": "ARS",
+        "remitente": "Katherina Elisa Medina Martinez",
+        "remitente_cuil": "27-38410644-2",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163442059197",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: Z4K6DVNOWY1KKJX425J8LQ. CVU origen: 0000003100054549483051. CVU destino: 0000155300000000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 41,
+        "_fecha_carga": "19/06/2026 21:35",
+        "_origen": "grupo",
+        "_pie": "Katherine Elisa Medina Martínez \n27-38410644-2"
       }
     ],
     "errores": [],
