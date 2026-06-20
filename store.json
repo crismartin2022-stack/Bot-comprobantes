@@ -58031,6 +58031,28 @@
         "_fecha_carga": "19/06/2026 21:27",
         "_origen": "grupo",
         "_pie": "Paola soledad loustau\n27296146"
+      },
+      {
+        "fecha": "17/06/2026",
+        "hora": "21:58",
+        "tipo": "TRF",
+        "monto": 200000.0,
+        "moneda": "ARS",
+        "remitente": "Hernandez, Yesica Araceli",
+        "remitente_cuil": "27-40295069-8",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Personal Pay",
+        "banco_destino": "",
+        "referencia": "2754336423",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CoelsaID: R7ZG0QNDW1YZR7009EXYPO - Id Bancario. CBU/CVU destinatario: 0000155300000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 648,
+        "_fecha_carga": "19/06/2026 21:27",
+        "_origen": "grupo",
+        "_pie": "Araceli hernandez 40.295.069"
       }
     ],
     "errores": [],
