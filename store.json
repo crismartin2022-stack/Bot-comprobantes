@@ -2513,6 +2513,28 @@
         "_fecha_carga": "19/06/2026 21:46",
         "_origen": "grupo",
         "_pie": "Liliana Beatriz Anrriquez \nDNI: 21.104.254"
+      },
+      {
+        "fecha": "18/06/2026",
+        "hora": "15:06",
+        "tipo": "TRF",
+        "monto": 500000.0,
+        "moneda": "ARS",
+        "remitente": "Gonzalez, Sofia Morena",
+        "remitente_cuil": "27-48570072-8",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Personal Pay",
+        "banco_destino": "",
+        "referencia": "2757776858",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CoelsaID: WGRXJE27DXZ65O5LN7MYQL - Id Bancario. CUIL/CUIT destinatario: 30-71728225-2. CBU/CVU destinatario: 00001553000000000009977",
+        "_num": 115,
+        "_fecha_carga": "19/06/2026 21:46",
+        "_origen": "grupo",
+        "_pie": "Gonzalez, Sofía Morena\nCUIL/CUIT 27-48570072-8"
       }
     ],
     "errores": [],
