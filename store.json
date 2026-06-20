@@ -56732,6 +56732,28 @@
         "_fecha_carga": "19/06/2026 21:18",
         "_origen": "grupo",
         "_pie": "Lucca Tiziano Maddonni"
+      },
+      {
+        "fecha": "17/06/2026",
+        "hora": "16:34",
+        "tipo": "TRF",
+        "monto": 250000.0,
+        "moneda": "ARS",
+        "remitente": "Lucca Tiziano Maddonni",
+        "remitente_cuil": "",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Ualá",
+        "banco_destino": "",
+        "referencia": "3D5W612E6ZYQVV4Q2GXYVR",
+        "concepto": "VAR",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CUIT destino (Sasteup Srl): 30717282252. CBU destino completo: 0000155300000000009977.",
+        "_num": 589,
+        "_fecha_carga": "19/06/2026 21:18",
+        "_origen": "grupo",
+        "_pie": "46.916.089"
       }
     ],
     "errores": [],
