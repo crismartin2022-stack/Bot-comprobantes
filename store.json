@@ -135,6 +135,28 @@
         "_fecha_carga": "19/06/2026 21:30",
         "_origen": "grupo",
         "_pie": "Juan veron \n34.927.484"
+      },
+      {
+        "fecha": "18/06/2026",
+        "hora": "14:48",
+        "tipo": "TRF",
+        "monto": 250000.0,
+        "moneda": "ARS",
+        "remitente": "Luciano Lorenzo Lagna",
+        "remitente_cuil": "20-34379667-7",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "164720065062",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: LMORZP908L18OZZYNEGJ46. CVU remitente: 0000003100024309579405. CVU destinatario: 0000155300000000009977.",
+        "_num": 7,
+        "_fecha_carga": "19/06/2026 21:30",
+        "_origen": "grupo",
+        "_pie": "Foto de tuvy"
       }
     ],
     "errores": [],
