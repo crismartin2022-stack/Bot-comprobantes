@@ -67176,6 +67176,28 @@
         "_fecha_carga": "20/06/2026 01:43",
         "_origen": "grupo",
         "_pie": "29462975 Debora Gisele Carnuccio"
+      },
+      {
+        "fecha": "18/06/2026",
+        "hora": "23:56",
+        "tipo": "TRF",
+        "monto": 381000.0,
+        "moneda": "ARS",
+        "remitente": "Fernando Nazareno Coronel",
+        "remitente_cuil": "20-34445067-7",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "164796189050",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: 3D5W612E6Z18QXLO2GXYVR. CVU origen: 0000003100048939910944. CVU destino: 0000155300000000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 890,
+        "_fecha_carga": "20/06/2026 01:43",
+        "_origen": "grupo",
+        "_pie": "Fernando Nazareno Coronel\nCUIT/CUIL: 20-34445067-7"
       }
     ],
     "errores": [],
