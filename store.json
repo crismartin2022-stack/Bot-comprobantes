@@ -67286,6 +67286,28 @@
         "_fecha_carga": "20/06/2026 01:44",
         "_origen": "grupo",
         "_pie": "92512930\nViranet\nBienvenida rojas"
+      },
+      {
+        "fecha": "19/06/2026",
+        "hora": "00:18",
+        "tipo": "TRF",
+        "monto": 100000.0,
+        "moneda": "ARS",
+        "remitente": "Donato Acosta Britez",
+        "remitente_cuil": "20-94744382-9",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163979779905",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: L18MKX9RXJDME3319O6WYV. CVU origen: 0000003100073580892165. CVU destino: 0000155300000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 895,
+        "_fecha_carga": "20/06/2026 01:44",
+        "_origen": "grupo",
+        "_pie": "Donato Acosta Britez\nCUIT/CUIL: 20-94744382-9"
       }
     ],
     "errores": [],
