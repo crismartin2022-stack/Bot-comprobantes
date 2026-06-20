@@ -1258,6 +1258,28 @@
         "_fecha_carga": "19/06/2026 21:38",
         "_origen": "grupo",
         "_pie": "Luciana Alvarenga \n95029202"
+      },
+      {
+        "fecha": "17/06/2026",
+        "hora": "19:42",
+        "tipo": "TRF",
+        "monto": 235000.0,
+        "moneda": "ARS",
+        "remitente": "Diego Hernan Cabrera",
+        "remitente_cuil": "23-33414795-9",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Naranja X",
+        "banco_destino": "Cuenta Virtual",
+        "referencia": "WY7ZEPN6MKGW04X42Q0M51",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de transacción adicional: f09d1c43-d410-4700-bc24-0f6f8bc99f6d. CBU origen: 4530000800017341099145. CVU destino: 0000155300000000009977. CUIL destinatario: 30-71728225-2.",
+        "_num": 58,
+        "_fecha_carga": "19/06/2026 21:38",
+        "_origen": "grupo",
+        "_pie": "Diego Cabrera \n23-33414795-9"
       }
     ],
     "errores": [],
