@@ -67949,6 +67949,28 @@
         "_fecha_carga": "20/06/2026 01:48",
         "_origen": "grupo",
         "_pie": "Gustavo Fabián Volpe:\nFoto de Gustavo Volpe\n\nDaniel Antonio Segovia - DNI 25.102.714"
+      },
+      {
+        "fecha": "18/06/2026",
+        "hora": "20:33",
+        "tipo": "TRF",
+        "monto": 400000.0,
+        "moneda": "ARS",
+        "remitente": "Daniel Antonio Segovia",
+        "remitente_cuil": "20-25102714-6",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Naranja X",
+        "banco_destino": "Cuenta Virtual",
+        "referencia": "WGRXJE27DX5G8O46N7MYQL",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de transacción adicional: 1a2aa679-f073-4beb-b92e-f552eb1ac779. CVU destinatario: 0000155300000000009977. CBU origen: 4530000800015446398886.",
+        "_num": 925,
+        "_fecha_carga": "20/06/2026 01:48",
+        "_origen": "grupo",
+        "_pie": "Yakelin Nahiara Silva - DNI 47.384.751"
       }
     ],
     "errores": [],
