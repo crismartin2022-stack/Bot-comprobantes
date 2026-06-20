@@ -56578,6 +56578,28 @@
         "_fecha_carga": "19/06/2026 21:17",
         "_origen": "grupo",
         "_pie": "Pablo Gaspar Carreno\nCUIT/CUIL: 20-38106862-6"
+      },
+      {
+        "fecha": "17/06/2026",
+        "hora": "09:04",
+        "tipo": "TRF",
+        "monto": 25000.0,
+        "moneda": "ARS",
+        "remitente": "Fabian Ernesto Delgado",
+        "remitente_cuil": "20-23986644-2",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163696648413",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: 1LMP68NKVE7LGEDZ2R7OEV. CVU remitente: 0000003100061161280247. CVU destinatario: 0000155300000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 582,
+        "_fecha_carga": "19/06/2026 21:17",
+        "_origen": "grupo",
+        "_pie": "Fabian Ernesto Delgado\nCUIT/CUIL: 20-23986644-2"
       }
     ],
     "errores": [],
