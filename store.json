@@ -68676,6 +68676,28 @@
         "_fecha_carga": "20/06/2026 01:53",
         "_origen": "grupo",
         "_pie": "lautibengolea 40755231"
+      },
+      {
+        "fecha": "18/06/2026",
+        "hora": "22:20",
+        "tipo": "TRF",
+        "monto": 100000.0,
+        "moneda": "ARS",
+        "remitente": "Sergio Fabian Cabrera",
+        "remitente_cuil": "20-30473560-1",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Naranja X",
+        "banco_destino": "Cuenta Virtual",
+        "referencia": "76V4MR2Z74RG3DV8NDEZOL",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CBU origen: 4530000800012004574058. CVU destino: 0000155300000000009977. CUIL destinatario: 30-71728225-2. Código de transacción: cc875357-6102-44c9-a6f6-0af5b6380875",
+        "_num": 958,
+        "_fecha_carga": "20/06/2026 01:53",
+        "_origen": "grupo",
+        "_pie": "Sergio Cabrera 30473560"
       }
     ],
     "errores": [],
