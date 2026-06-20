@@ -56556,6 +56556,28 @@
         "_fecha_carga": "19/06/2026 21:17",
         "_origen": "grupo",
         "_pie": "Marisol Yanina Tabares\nCUIT/CUIL: 27-38085069-4"
+      },
+      {
+        "fecha": "17/06/2026",
+        "hora": "00:41",
+        "tipo": "TRF",
+        "monto": 25000.0,
+        "moneda": "ARS",
+        "remitente": "Pablo Gaspar Carreno",
+        "remitente_cuil": "20-38106862-6",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163669913371",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: D4RO172VZQV3Y0GRNKJ3QE. CVU remitente: 0000003100035817710549. CUIT destinatario: 30-71728225-2.",
+        "_num": 581,
+        "_fecha_carga": "19/06/2026 21:17",
+        "_origen": "grupo",
+        "_pie": "Pablo Gaspar Carreno\nCUIT/CUIL: 20-38106862-6"
       }
     ],
     "errores": [],
