@@ -67220,6 +67220,28 @@
         "_fecha_carga": "20/06/2026 01:43",
         "_origen": "grupo",
         "_pie": "Liliana Beatriz Anrriquez \nDNI: 21.104.254"
+      },
+      {
+        "fecha": "19/06/2026",
+        "hora": "00:08",
+        "tipo": "TRF",
+        "monto": 250000.0,
+        "moneda": "ARS",
+        "remitente": "Micaela Acosta",
+        "remitente_cuil": "27-37679548-4",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163979867011",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: RD06ZO9WVR3QVWV5N5GP7X. CVU remitente: 0000003100057615083524. CVU destinatario: 0000155300000000009977. CUIT destinatario: 30-71728225-2",
+        "_num": 892,
+        "_fecha_carga": "20/06/2026 01:43",
+        "_origen": "grupo",
+        "_pie": "Micaela Acosta\nCUIT/CUIL: 27-37679548-4"
       }
     ],
     "errores": [],
