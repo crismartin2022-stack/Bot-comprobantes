@@ -67771,6 +67771,28 @@
         "_fecha_carga": "20/06/2026 01:47",
         "_origen": "grupo",
         "_pie": "Mateo Lorenzo Ortiz\n20442077046"
+      },
+      {
+        "fecha": "19/06/2026",
+        "hora": "12:00",
+        "tipo": "TRF",
+        "monto": 250000.0,
+        "moneda": "ARS",
+        "remitente": "Leonela Sabrina Braga",
+        "remitente_cuil": "27358311615",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Ualá",
+        "banco_destino": "",
+        "referencia": "Z0KV87940E4Q68J4NPEYDX",
+        "concepto": "VAR",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CUIT destino: 30717282252. CBU destino: 0000155300000000009977",
+        "_num": 917,
+        "_fecha_carga": "20/06/2026 01:47",
+        "_origen": "grupo",
+        "_pie": "27358311615\nLeonela Sabrina Braga"
       }
     ],
     "errores": [],
