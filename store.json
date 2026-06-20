@@ -2381,6 +2381,28 @@
         "_fecha_carga": "19/06/2026 21:45",
         "_origen": "grupo",
         "_pie": "Hector Fabian Talavera Barreto\nCUIT/CUIL: 20-94823970-2"
+      },
+      {
+        "fecha": "18/06/2026",
+        "hora": "13:16",
+        "tipo": "TRF",
+        "monto": 70000.0,
+        "moneda": "ARS",
+        "remitente": "Miriam Lili Nunez Fernandez",
+        "remitente_cuil": "27-94216492-6",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163889359425",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: JMQKYZ9QQVD0KM669V50P3. CVU remitente: 0000003100098349467435. CVU destinatario: 0000155300000000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 109,
+        "_fecha_carga": "19/06/2026 21:46",
+        "_origen": "grupo",
+        "_pie": "Miriam Lili Nunez Fernandez\nCUIT/CUIL: 27-94216492-6"
       }
     ],
     "errores": [],
