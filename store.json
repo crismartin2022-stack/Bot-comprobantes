@@ -55498,6 +55498,28 @@
         "_fecha_carga": "19/06/2026 21:09",
         "_origen": "grupo",
         "_pie": "Panfili, Luciana Paula\nCUIL/CUIT 27-29459097-3"
+      },
+      {
+        "fecha": "16/06/2026",
+        "hora": "21:44",
+        "tipo": "TRF",
+        "monto": 500000.0,
+        "moneda": "ARS",
+        "remitente": "Maria De Los Angeles Rodriguez",
+        "remitente_cuil": "33711557879",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Lemon",
+        "banco_destino": "CVU",
+        "referencia": "7L8GYKNX05JMGRGO2MPRZ5",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CUIT destinatario: 30717282252. CBU destino: 0000155300000000009977. ID de la transacción: 5db40568-d654-488b-9da5-149fad6fc71f. Comprobante emitido por Lemon, powered by Digifin.",
+        "_num": 533,
+        "_fecha_carga": "19/06/2026 21:09",
+        "_origen": "grupo",
+        "_pie": "María de Los Ángeles Rodríguez \n33711557879"
       }
     ],
     "errores": [],
