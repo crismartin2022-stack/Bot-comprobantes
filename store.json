@@ -55697,6 +55697,28 @@
         "_fecha_carga": "19/06/2026 21:11",
         "_origen": "grupo",
         "_pie": "Juliana palavecino \n47337453"
+      },
+      {
+        "fecha": "16/06/2026",
+        "hora": "22:02",
+        "tipo": "TRF",
+        "monto": 470000.0,
+        "moneda": "ARS",
+        "remitente": "Luque Miguez, Ariadna Abigail",
+        "remitente_cuil": "27-48299541-7",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Personal Pay",
+        "banco_destino": "",
+        "referencia": "2749985932",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CoelsaID: XJ8G7V95DW30PEZL9EMPYR - Id Bancario. CUIL/CUIT destinatario: 30-71728225-2. CBU/CVU receptor: 00001553000000000009977",
+        "_num": 542,
+        "_fecha_carga": "19/06/2026 21:11",
+        "_origen": "grupo",
+        "_pie": "Luque Miguez, Ariadna Abigail\nCUIL/CUIT 27-48299541-7"
       }
     ],
     "errores": [],
