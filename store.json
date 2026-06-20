@@ -54087,6 +54087,28 @@
         "_fecha_carga": "19/06/2026 21:00",
         "_origen": "grupo",
         "_pie": "Zoraida Ailen Perez\nCUIT/CUIL: 27-41835272-3"
+      },
+      {
+        "fecha": "16/06/2026",
+        "hora": "11:17",
+        "tipo": "TRF",
+        "monto": 250000.0,
+        "moneda": "ARS",
+        "remitente": "Zoraida Ailen Perez",
+        "remitente_cuil": "27-41835272-3",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163550405151",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CVU remitente: 0000003100059019902957. CVU destinatario: 0000155300000000009977. CUIT destinatario: 30-71228225-2",
+        "_num": 469,
+        "_fecha_carga": "19/06/2026 21:00",
+        "_origen": "grupo",
+        "_pie": "Zoraida Ailen Perez\nCUIT/CUIL: 27-41835272-3"
       }
     ],
     "errores": [],
