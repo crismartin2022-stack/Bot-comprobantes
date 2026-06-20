@@ -67044,6 +67044,28 @@
         "_fecha_carga": "20/06/2026 01:42",
         "_origen": "grupo",
         "_pie": "Pablo Agustin Franco\nCUIT/CUIL: 20-42176164-8"
+      },
+      {
+        "fecha": "18/06/2026",
+        "hora": "23:35",
+        "tipo": "TRF",
+        "monto": 100000.0,
+        "moneda": "ARS",
+        "remitente": "Adrian Palma Feltes",
+        "remitente_cuil": "20-95324736-5",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "164795202328",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: ORD6LEN8PY5O8JVPNM1Y30. CVU destinatario: 0000155300000000009977. CVU remitente: 0000003100027631277294.",
+        "_num": 884,
+        "_fecha_carga": "20/06/2026 01:42",
+        "_origen": "grupo",
+        "_pie": "Adrian Palma Feltes\nCUIT/CUIL: 20-95324736-5"
       }
     ],
     "errores": [],
