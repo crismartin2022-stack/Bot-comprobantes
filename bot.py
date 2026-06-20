@@ -930,6 +930,7 @@ async def cmd_excel(update: Update, ctx: ContextTypes.DEFAULT_TYPE):
     registros  = filtrar_por_fecha(datos.get("registros",  []))
     errores    = filtrar_por_fecha(datos.get("errores",    []))
     duplicados = filtrar_por_fecha(datos.get("duplicados", []))
+    log.info(f"Excel grupo: {len(registros)} reg, {len(errores)} err, {len(duplicados)} dups (total dups en store: {len(datos.get('duplicados',[]))})")
     enviados = 0
 
     if registros:
