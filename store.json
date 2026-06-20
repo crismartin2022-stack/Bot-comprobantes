@@ -1280,6 +1280,28 @@
         "_fecha_carga": "19/06/2026 21:38",
         "_origen": "grupo",
         "_pie": "Diego Cabrera \n23-33414795-9"
+      },
+      {
+        "fecha": "17/06/2026",
+        "hora": "21:01",
+        "tipo": "TRF",
+        "monto": 40000.0,
+        "moneda": "ARS",
+        "remitente": "Daiana Solange Forno",
+        "remitente_cuil": "27-35087837-3",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "164621918468",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: L18MKX9RXJ0YPM819O6WYV. CVU remitente: 0000003100069558786431. CVU destinatario: 0000155300000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 59,
+        "_fecha_carga": "19/06/2026 21:38",
+        "_origen": "grupo",
+        "_pie": "Daiana forno\n27-35087837-3"
       }
     ],
     "errores": [],
