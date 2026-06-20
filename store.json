@@ -2733,6 +2733,28 @@
         "_fecha_carga": "19/06/2026 21:48",
         "_origen": "grupo",
         "_pie": "Juan Pablo Quiroz"
+      },
+      {
+        "fecha": "18/06/2026",
+        "hora": "16:48",
+        "tipo": "TRF",
+        "monto": 200000.0,
+        "moneda": "ARS",
+        "remitente": "Agustin Angel Alejandro Urquiza",
+        "remitente_cuil": "20-37433445-0",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Naranja X",
+        "banco_destino": "Cuenta Virtual",
+        "referencia": "LOEJWV9JZ34GVQ3Z2QMD0G",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CBU origen: 4530000800011324003468. CVU destino: 0000155300000000009977. Código de transacción: 3db94d0e-54a0-42b9-9e81-4d1c4e2b5c99. CUIL destinatario: 30-71728225-2.",
+        "_num": 125,
+        "_fecha_carga": "19/06/2026 21:48",
+        "_origen": "grupo",
+        "_pie": "Agustin Angel Alejandro Urquiza\nCUIT/CUIL: 20-37433445-0"
       }
     ],
     "errores": [],
