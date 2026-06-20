@@ -68125,6 +68125,28 @@
         "_fecha_carga": "20/06/2026 01:49",
         "_origen": "grupo",
         "_pie": "Jorge kowalczuk 31895635"
+      },
+      {
+        "fecha": "18/06/2026",
+        "hora": "16:08",
+        "tipo": "TRF",
+        "monto": 200000.0,
+        "moneda": "ARS",
+        "remitente": "Graciela Alejandra Balbuena",
+        "remitente_cuil": "27-22131182-0",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163913982871",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: 76V4MR2Z74O5ZKX8NDEZOL. CVU origen: 0000003100021514537060. CVU destino: 0000155300000000009977",
+        "_num": 933,
+        "_fecha_carga": "20/06/2026 01:49",
+        "_origen": "grupo",
+        "_pie": "Graciela balbuena \n22131182"
       }
     ],
     "errores": [],
