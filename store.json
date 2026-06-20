@@ -55344,6 +55344,28 @@
         "_fecha_carga": "19/06/2026 21:08",
         "_origen": "grupo",
         "_pie": "Maximilano Ariel Martines\n20382859503"
+      },
+      {
+        "fecha": "16/06/2026",
+        "hora": "20:44",
+        "tipo": "TRF",
+        "monto": 300000.0,
+        "moneda": "ARS",
+        "remitente": "Brisa Lucia Aylen Alvarenga",
+        "remitente_cuil": "27-46100608-1",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163645796545",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: JMQKYZ9QQVEQP7LV9V50P3. CVU origen (remitente): 0000003100020424962283. CVU destino (receptor): 0000155300000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 526,
+        "_fecha_carga": "19/06/2026 21:08",
+        "_origen": "grupo",
+        "_pie": "Brisa Lucia Aylen Alvarenga\nCUIT/CUIL: 27-46100608-1"
       }
     ],
     "errores": [],
