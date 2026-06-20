@@ -57084,6 +57084,28 @@
         "_fecha_carga": "19/06/2026 21:20",
         "_origen": "grupo",
         "_pie": "Leonardo Ariel Aguirre\nCUIT/CUIL: 20-25795836-2"
+      },
+      {
+        "fecha": "18/06/2026",
+        "hora": "00:33",
+        "tipo": "TRF",
+        "monto": 40000.0,
+        "moneda": "ARS",
+        "remitente": "Eriberta Herminia Fernandez Herrera",
+        "remitente_cuil": "27-92798572-7",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163825952225",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: LMORZP908L7JDY7YNEGJ46. CVU remitente: 0000003100025464627204. CVU destinatario: 0000155300000000000009977.",
+        "_num": 605,
+        "_fecha_carga": "19/06/2026 21:20",
+        "_origen": "grupo",
+        "_pie": "Eriberta Herminia Fernandez Herrera\nCUIT/CUIL: 27-92798572-7"
       }
     ],
     "errores": [],
