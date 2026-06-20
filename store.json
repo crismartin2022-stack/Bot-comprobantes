@@ -68191,6 +68191,28 @@
         "_fecha_carga": "20/06/2026 01:50",
         "_origen": "grupo",
         "_pie": "Mariel hormaeche\n24435485"
+      },
+      {
+        "fecha": "18/06/2026",
+        "hora": "19:24",
+        "tipo": "TRF",
+        "monto": 20000.0,
+        "moneda": "ARS",
+        "remitente": "Paola Soledad Loustau",
+        "remitente_cuil": "27-27296146-3",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Naranja X",
+        "banco_destino": "Cuenta Virtual",
+        "referencia": "Z4K6DVNOWY4KODP125J8LQ",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CBU origen: 4530000800013028600499. CVU destino: 0000155300000000009977. CUIL destinatario: 30-71728225-2. Código de transacción: 0c335b8f-c77f-4f1d-a4b0-10cda10d79a3",
+        "_num": 936,
+        "_fecha_carga": "20/06/2026 01:50",
+        "_origen": "grupo",
+        "_pie": "Paola soledad loustau\n27296146"
       }
     ],
     "errores": [],
