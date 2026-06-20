@@ -64274,6 +64274,30 @@
     "ultimo_resumen_idx": 660,
     "total_mensual": 158077063.1,
     "mes_actual": "06/2026",
-    "duplicados": []
+    "duplicados": [
+      {
+        "fecha": "17/06/2026",
+        "hora": "23:12",
+        "tipo": "TRF",
+        "monto": 422000.0,
+        "moneda": "ARS",
+        "remitente": "Diaz, Ezequiel Gustavo",
+        "remitente_cuil": "20-31719425-1",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Personal Pay",
+        "banco_destino": "",
+        "referencia": "2754472707",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CoelsaID: 0V1JX0N1LM0WEEO7NZ64EL - Id Bancario. CBU/CVU destinatario: 0000155300000000009977. CUIL/CUIT destinatario: 30-71728225-2.",
+        "_num": 758,
+        "_fecha_carga": "20/06/2026 01:23",
+        "_origen": "grupo",
+        "_pie": "Ezequiel Gustavo Diaz\n31719425",
+        "_duplicado": true
+      }
+    ]
   }
 }
