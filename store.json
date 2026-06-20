@@ -68742,6 +68742,28 @@
         "_fecha_carga": "20/06/2026 01:54",
         "_origen": "grupo",
         "_pie": "Foto de 🤗🤗🤗"
+      },
+      {
+        "fecha": "19/06/2026",
+        "hora": "00:09",
+        "tipo": "TRF",
+        "monto": 100000.0,
+        "moneda": "ARS",
+        "remitente": "Ariel Ricardo Barrios",
+        "remitente_cuil": "20-32472349-9",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163980572283",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: D4RO172VZQO3PZ30NKJ3QE. CVU origen: 0000003100040314583048. CVU destino: 0000155300000000009977. Destinatario CUIT/CUIL: 30-71728225-2.",
+        "_num": 961,
+        "_fecha_carga": "20/06/2026 01:54",
+        "_origen": "grupo",
+        "_pie": "Ganamos"
       }
     ],
     "errores": [],
