@@ -55256,6 +55256,28 @@
         "_fecha_carga": "19/06/2026 21:08",
         "_origen": "grupo",
         "_pie": "NOELIA DEISY TALAVERA AGUAYO\nCUIT 23-94689354-4"
+      },
+      {
+        "fecha": "16/06/2026",
+        "hora": "20:48",
+        "tipo": "TRF",
+        "monto": 100000.0,
+        "moneda": "ARS",
+        "remitente": "Zoraida Nunez Sanchez",
+        "remitente_cuil": "27-92394168-7",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Naranja X",
+        "banco_destino": "Cuenta Virtual",
+        "referencia": "Z0KV87940EX0410QNPEYDX",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CBU origen: 4530000800016777376312. CVU destino: 0000155300000000009977. Código de transacción adicional: a8c25785-7ac1-45a5-8d6b-1d8957fd2350. CUIL destinatario: 30-71728225-2.",
+        "_num": 522,
+        "_fecha_carga": "19/06/2026 21:08",
+        "_origen": "grupo",
+        "_pie": "Zoraida Nunez Sanchez\nNaranja X\n4530000800016777376312\nCUIL\n27-92394168-7"
       }
     ],
     "errores": [],
