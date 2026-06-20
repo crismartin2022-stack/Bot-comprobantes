@@ -66868,6 +66868,28 @@
         "_fecha_carga": "20/06/2026 01:41",
         "_origen": "grupo",
         "_pie": "candela soledad sotelo \n47.119.484"
+      },
+      {
+        "fecha": "18/06/2026",
+        "hora": "22:47",
+        "tipo": "TRF",
+        "monto": 500000.05,
+        "moneda": "ARS",
+        "remitente": "Maria De Los Angeles Vetta",
+        "remitente_cuil": "27-23285322-6",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163973772191",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: 3D5W612E6Z101D3Q2GXYVR. CVU origen: 0000003100047257262087. CVU destino: 0000155300000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 876,
+        "_fecha_carga": "20/06/2026 01:41",
+        "_origen": "grupo",
+        "_pie": "María De Los Angeles Vetta\nD.N.I 23.285.322"
       }
     ],
     "errores": [],
