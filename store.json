@@ -57701,6 +57701,28 @@
         "_fecha_carga": "19/06/2026 21:24",
         "_origen": "grupo",
         "_pie": "Tatiana Daniela Acosta 31885548"
+      },
+      {
+        "fecha": "16/06/2026",
+        "hora": "21:04",
+        "tipo": "TRF",
+        "monto": 20000.0,
+        "moneda": "ARS",
+        "remitente": "Gustavo Adrian Lange",
+        "remitente_cuil": "31113339",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Lemon",
+        "banco_destino": "CVU",
+        "referencia": "0V1JXON1LMPRQKPPNZ64EL",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CUIT destinatario: 30717282252. CBU destino: 0000155300000000009977. ID de la transacción: 08d04de0-097d-4556-84f6-683c36c8dd01. Comprobante emitido por Lemon (Powered by Digifin).",
+        "_num": 633,
+        "_fecha_carga": "19/06/2026 21:25",
+        "_origen": "grupo",
+        "_pie": "Gustavo Adrián Lange 31113339"
       }
     ],
     "errores": [],
