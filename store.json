@@ -67727,6 +67727,28 @@
         "_fecha_carga": "20/06/2026 01:47",
         "_origen": "grupo",
         "_pie": "WALTER DANIEL ARROYO\n20-29905401-3"
+      },
+      {
+        "fecha": "19/06/2026",
+        "hora": "10:40",
+        "tipo": "TRF",
+        "monto": 100000.0,
+        "moneda": "ARS",
+        "remitente": "Eduardo Adrian Perez",
+        "remitente_cuil": "20-31598874-9",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "164020827641",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: D4RO172VZQ6141DDNKJ3QE. CVU origen: 0000003100005748826200. CUIT destinatario: 30-71728225-2.",
+        "_num": 915,
+        "_fecha_carga": "20/06/2026 01:47",
+        "_origen": "grupo",
+        "_pie": "Eduardo Pérez 31598874"
       }
     ],
     "errores": [],
