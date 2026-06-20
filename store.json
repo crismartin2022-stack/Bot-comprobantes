@@ -55102,6 +55102,28 @@
         "_fecha_carga": "19/06/2026 21:06",
         "_origen": "grupo",
         "_pie": "Brian David Munoz\nCUIT/CUIL: 20-44141951-2"
+      },
+      {
+        "fecha": "16/06/2026",
+        "hora": "21:42",
+        "tipo": "TRF",
+        "monto": 500000.0,
+        "moneda": "ARS",
+        "remitente": "Yesica Noemi Morales",
+        "remitente_cuil": "23-30853348-4",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "164467536026",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: LOEJWV9JZ3GRGQX32QMD0G. CVU origen: 0000003100010145781779. CVU destino: 0000155300000000000009977.",
+        "_num": 515,
+        "_fecha_carga": "19/06/2026 21:07",
+        "_origen": "grupo",
+        "_pie": "Yesica Noemi Morales\nCUIT/CUIL: 23-30853348-4"
       }
     ],
     "errores": [],
