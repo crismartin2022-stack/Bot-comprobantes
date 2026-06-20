@@ -55983,6 +55983,28 @@
         "_fecha_carga": "19/06/2026 21:13",
         "_origen": "grupo",
         "_pie": "Brian David Munoz\nCUIT/CUIL: 20-44141951-2"
+      },
+      {
+        "fecha": "16/06/2026",
+        "hora": "23:43",
+        "tipo": "TRF",
+        "monto": 100000.0,
+        "moneda": "ARS",
+        "remitente": "Alan Gabriel Salvatierra",
+        "remitente_cuil": "24-42055465-2",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163665225991",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: 76V4MR2Z74D3KXMYNDEZOL. CVU remitente: 0000003100033564286571. CVU destinatario: 0000155300000000000009977. CUIT/CUIL destinatario: 30-71728225-2.",
+        "_num": 555,
+        "_fecha_carga": "19/06/2026 21:13",
+        "_origen": "grupo",
+        "_pie": "Alan Gabriel Salvatierra\nCUIT/CUIL: 24-42055465-2"
       }
     ],
     "errores": [],
