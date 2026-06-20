@@ -686,6 +686,28 @@
         "_fecha_carga": "19/06/2026 21:34",
         "_origen": "grupo",
         "_pie": "Jorge Muñoz\n35710065"
+      },
+      {
+        "fecha": "18/06/2026",
+        "hora": "17:56",
+        "tipo": "TRF",
+        "monto": 110000.0,
+        "moneda": "ARS",
+        "remitente": "Jorge Andres Munoz",
+        "remitente_cuil": "20-35710065-9",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "164748068178",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: XJ8G7V95DW1YJP649EMPYR. CVU origen: 0000003100069705022038. CVU destino: 0000155300000000000009977.",
+        "_num": 32,
+        "_fecha_carga": "19/06/2026 21:34",
+        "_origen": "grupo",
+        "_pie": "oriana jular\n41712081\nbet91"
       }
     ],
     "errores": [],
