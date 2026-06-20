@@ -68574,6 +68574,29 @@
         "_origen": "grupo",
         "_pie": "Ezequiel Gustavo Diaz\n31719425",
         "_duplicado": true
+      },
+      {
+        "fecha": "17/06/2026",
+        "hora": "21:34",
+        "tipo": "TRF",
+        "monto": 50000.0,
+        "moneda": "ARS",
+        "remitente": "Nicole Elizabeth Pereyra",
+        "remitente_cuil": "23-45529444-4",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163809916497",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: Z0KV87940ED68GZ0NPEYDX. CVU remitente: 0000003100032947530522. CVU destinatario: 0000155300000000000009977.",
+        "_num": 952,
+        "_fecha_carga": "20/06/2026 01:52",
+        "_origen": "grupo",
+        "_pie": "Pereyra Nicole elizabeth \nDNI 45529444",
+        "_duplicado": true
       }
     ]
   }
