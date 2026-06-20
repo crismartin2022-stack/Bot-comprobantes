@@ -3460,6 +3460,28 @@
         "_fecha_carga": "19/06/2026 21:53",
         "_origen": "grupo",
         "_pie": "Jonathan Daniel Segovia \n47678975"
+      },
+      {
+        "fecha": "18/06/2026",
+        "hora": "20:47",
+        "tipo": "TRF",
+        "monto": 100000.0,
+        "moneda": "ARS",
+        "remitente": "Carolina Soraya Lopez",
+        "remitente_cuil": "27-25572398-2",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Naranja X",
+        "banco_destino": "Cuenta Virtual",
+        "referencia": "Z6OLMDN3V35VYZ7X2E7RQ5",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de transacción: 6819dbd8-049f-4f56-946a-c19aaa3a5277. CBU origen: 4530000800018419534461. CVU destino: 0000155300000000009977. CUIL destinatario: 30-71728225-2.",
+        "_num": 158,
+        "_fecha_carga": "19/06/2026 21:53",
+        "_origen": "grupo",
+        "_pie": "Carolina Soraya Lopez\nNaranja X\n4530000800018419534461\n27-25572398-2"
       }
     ],
     "errores": [],
