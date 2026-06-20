@@ -56402,6 +56402,28 @@
         "_fecha_carga": "19/06/2026 21:16",
         "_origen": "grupo",
         "_pie": "Juan Elias Marquez De Olivera\nCUIT/CUIL: 20-36520946-5"
+      },
+      {
+        "fecha": "16/06/2026",
+        "hora": "23:18",
+        "tipo": "TRF",
+        "monto": 150000.0,
+        "moneda": "ARS",
+        "remitente": "Gomez Fernandez Antonella Nahiara",
+        "remitente_cuil": "27-45929046-5",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "164478970408",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: WGRXJE27DX3WKJWEN7MYQL. CVU origen: 0000003100015494402258. CVU destino: 0000155300000000009977.",
+        "_num": 574,
+        "_fecha_carga": "19/06/2026 21:16",
+        "_origen": "grupo",
+        "_pie": "Gomez Fernandez Antonella Nahiara\nCUIT/CUIL: 27-45929046-5"
       }
     ],
     "errores": [],
