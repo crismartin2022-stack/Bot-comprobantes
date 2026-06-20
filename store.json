@@ -56798,6 +56798,28 @@
         "_fecha_carga": "19/06/2026 21:18",
         "_origen": "grupo",
         "_pie": "Gomez Fernandez Antonella Nahiara\nCUIT/CUIL: 27-45929046-5"
+      },
+      {
+        "fecha": "17/06/2026",
+        "hora": "21:09",
+        "tipo": "TRF",
+        "monto": 100000.0,
+        "moneda": "ARS",
+        "remitente": "Donato Acosta Britez",
+        "remitente_cuil": "20-94744382-9",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "164621747618",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: 8D0Q619L0WG8818XN7JZ5R. CVU remitente: 0000003100073580892165. CVU destinatario: 0000155300000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 592,
+        "_fecha_carga": "19/06/2026 21:18",
+        "_origen": "grupo",
+        "_pie": "Donato Acosta Britez\nCUIT/CUIL: 20-94744382-9"
       }
     ],
     "errores": [],
