@@ -400,6 +400,28 @@
         "_fecha_carga": "19/06/2026 21:32",
         "_origen": "grupo",
         "_pie": "Alemandi yesica natalia\n\n34963016"
+      },
+      {
+        "fecha": "18/06/2026",
+        "hora": "23:26",
+        "tipo": "TRF",
+        "monto": 230000.0,
+        "moneda": "ARS",
+        "remitente": "Claudia Miriam Nunez",
+        "remitente_cuil": "27-27053081-3",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163976940697",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: 76V4MR2Z74RX4OZGNDEZOL. CVU origen: 0000003100096149767287. CVU destino: 0000155300000000009977. CUIT/CUIL destinatario: 30-71728225-2.",
+        "_num": 19,
+        "_fecha_carga": "19/06/2026 21:32",
+        "_origen": "grupo",
+        "_pie": "Datos de la cuenta: Claudia Miriam nunez\nDni 27053081\nPlataforma: Pink\nUsuario: Redsol252"
       }
     ],
     "errores": [],
