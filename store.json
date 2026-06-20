@@ -48925,6 +48925,28 @@
         "_fecha_carga": "20/06/2026 13:47",
         "_origen": "grupo",
         "_pie": "Oscar Peralta \n30013537"
+      },
+      {
+        "fecha": "17/06/2026",
+        "hora": "00:24",
+        "tipo": "TRF",
+        "monto": 100000.0,
+        "moneda": "ARS",
+        "remitente": "Jorge Leonel Villalba",
+        "remitente_cuil": "20-45228847-9",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "164483627146",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: L18MKX9RXJEMKL6V9O6WYV. CVU remitente: 0000003100053819753759. CVU destinatario: 0000155300000000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 62,
+        "_fecha_carga": "20/06/2026 13:47",
+        "_origen": "grupo",
+        "_pie": "Jorge Leonel Villalba \n45228847"
       }
     ],
     "errores": [],
