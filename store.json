@@ -54373,6 +54373,28 @@
         "_fecha_carga": "19/06/2026 21:01",
         "_origen": "grupo",
         "_pie": "Leonel Nicolas Rinero\nCUIT/CUIL: 20-45681786-7"
+      },
+      {
+        "fecha": "16/06/2026",
+        "hora": "14:30",
+        "tipo": "TRF",
+        "monto": 100000.0,
+        "moneda": "ARS",
+        "remitente": "Carolina Soraya Lopez",
+        "remitente_cuil": "27-25572398-2",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Naranja X",
+        "banco_destino": "Cuenta Virtual",
+        "referencia": "LMORZP908LQL0G14NEGJ46",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de transacción adicional: 7a4c2f7c-a968-4708-b7b9-92bd6c669065. CBU origen: 4530000800018419534461. CVU destino: 0000155300000000009977.",
+        "_num": 482,
+        "_fecha_carga": "19/06/2026 21:02",
+        "_origen": "grupo",
+        "_pie": "Carolina Soraya López 25572398"
       }
     ],
     "errores": [],
