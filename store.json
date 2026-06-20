@@ -66205,6 +66205,28 @@
         "_fecha_carga": "20/06/2026 01:36",
         "_origen": "grupo",
         "_pie": "Walter Daniel Arroyo\nCUIT/CUIL: 20-29905401-3"
+      },
+      {
+        "fecha": "18/06/2026",
+        "hora": "21:45",
+        "tipo": "TRF",
+        "monto": 500000.0,
+        "moneda": "ARS",
+        "remitente": "Mendez Vergara, Iara",
+        "remitente_cuil": "27-43738896-8",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Personal Pay",
+        "banco_destino": "",
+        "referencia": "2758772466",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CoelsaID: 67REZ8NPQ6J3EDV494KVGO - Id Bancario. CUIL/CUIT del destinatario: 30-71728225-2. CBU/CVU completo del receptor: 0000155300000000009977.",
+        "_num": 846,
+        "_fecha_carga": "20/06/2026 01:36",
+        "_origen": "grupo",
+        "_pie": "Mendez Vergara, lara\n27-43738896-8"
       }
     ],
     "errores": [],
