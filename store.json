@@ -2777,6 +2777,28 @@
         "_fecha_carga": "19/06/2026 21:48",
         "_origen": "grupo",
         "_pie": "Marciana Martinez \n94752813"
+      },
+      {
+        "fecha": "18/06/2026",
+        "hora": "15:08",
+        "tipo": "TRF",
+        "monto": 500000.0,
+        "moneda": "ARS",
+        "remitente": "Joel Nicolás Conil",
+        "remitente_cuil": "46.412.438",
+        "destinatario": "SASTEUP SRL",
+        "banco_origen": "Cuenta DNI",
+        "banco_destino": "",
+        "referencia": "WGRXJE27DXZ6K8ELN7MYQL",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CVU destinatario: 0000155300000000000009977. CUIL destinatario: 30717282252. El remitente figura con DNI 46.412.438 sin formato CUIL completo.",
+        "_num": 127,
+        "_fecha_carga": "19/06/2026 21:48",
+        "_origen": "grupo",
+        "_pie": "Joel Nicolás Conil\n46.412.438"
       }
     ],
     "errores": [],
