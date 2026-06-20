@@ -58075,6 +58075,28 @@
         "_fecha_carga": "19/06/2026 21:27",
         "_origen": "grupo",
         "_pie": "Acosta natali \n35902877"
+      },
+      {
+        "fecha": "17/06/2026",
+        "hora": "22:41",
+        "tipo": "TRF",
+        "monto": 45000.0,
+        "moneda": "ARS",
+        "remitente": "Giuliana Belen Brest",
+        "remitente_cuil": "27-43250071-9",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Naranja X",
+        "banco_destino": "Cuenta Virtual",
+        "referencia": "0V1JXON1LM0GLJJ3NZ64EL",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de transacción: 1657d8cf-7c43-41f7-bb77-a8cfa23fdbd1. CBU origen: 4530000800011680998378. CVU destino: 0000155300000000009977. CUIL destinatario: 30-71728225-2.",
+        "_num": 650,
+        "_fecha_carga": "19/06/2026 21:27",
+        "_origen": "grupo",
+        "_pie": "Brest Giuliana 43250071 \nMega"
       }
     ],
     "errores": [],
