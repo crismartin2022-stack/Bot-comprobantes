@@ -66780,6 +66780,28 @@
         "_fecha_carga": "20/06/2026 01:40",
         "_origen": "grupo",
         "_pie": "Jesica Mariela portillo \n27-33807148-0"
+      },
+      {
+        "fecha": "18/06/2026",
+        "hora": "22:42",
+        "tipo": "TRF",
+        "monto": 500000.01,
+        "moneda": "ARS",
+        "remitente": "Jose Alejandro Martinez",
+        "remitente_cuil": "20-40862931-5",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "LB Finanzas",
+        "banco_destino": "Otros bancos",
+        "referencia": "TID0EC5B7ADED",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "ID Coelsa: JMQKYZ9QQVLE5K889V50P3. CUIT destinatario: 30-71728225-2. CBU/CVU destinatario: 0000155300000000009977",
+        "_num": 872,
+        "_fecha_carga": "20/06/2026 01:40",
+        "_origen": "grupo",
+        "_pie": "Jose Alejandro Martinez \nD.N.I 40.862.931"
       }
     ],
     "errores": [],
