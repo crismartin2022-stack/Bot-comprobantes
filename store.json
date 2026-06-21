@@ -5088,6 +5088,28 @@
         "_fecha_carga": "21/06/2026 01:58",
         "_origen": "grupo",
         "_pie": "Juan Ignacio Diez \nDNI 33802365"
+      },
+      {
+        "fecha": "13/06/2026",
+        "hora": "00:06",
+        "tipo": "TRF",
+        "monto": 30000.0,
+        "moneda": "ARS",
+        "remitente": "Ariel Sebastian Becerra",
+        "remitente_cuil": "20-28761597-4",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163897142750",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: XJ8G7V95DWK0OPP49EMPYR. CVU remitente: 0000003100057948666713. CVU destinatario: 0000155300000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 57,
+        "_fecha_carga": "21/06/2026 01:58",
+        "_origen": "grupo",
+        "_pie": "Becerra Sebastián 28761597"
       }
     ],
     "errores": [],
