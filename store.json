@@ -14436,6 +14436,28 @@
         "_fecha_carga": "21/06/2026 00:26",
         "_origen": "grupo",
         "_pie": "Foto de Vivo"
+      },
+      {
+        "fecha": "14/06/2026",
+        "hora": "23:19",
+        "tipo": "TRF",
+        "monto": 80000.0,
+        "moneda": "ARS",
+        "remitente": "Norma Beatriz Villanueva",
+        "remitente_cuil": "27-18072713-8",
+        "destinatario": "SASTEUP SRL",
+        "banco_origen": "Brubank",
+        "banco_destino": "",
+        "referencia": "",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Transferencia enviada desde Caja de ahorro en Pesos en Brubank. CVU destinatario: 0000155300000000009977. CUIT/CUIL destinatario: 30-71728225-2 (SASTEUP SRL).",
+        "_num": 481,
+        "_fecha_carga": "21/06/2026 00:27",
+        "_origen": "grupo",
+        "_pie": "Foto de Vivo"
       }
     ],
     "errores": [],
@@ -16424,6 +16446,29 @@
         "_fecha_carga": "21/06/2026 00:27",
         "_origen": "grupo",
         "_pie": "Foto de Vivo",
+        "_duplicado": true
+      },
+      {
+        "fecha": "10/06/2026",
+        "hora": "09:58",
+        "tipo": "TRF",
+        "monto": 40000.0,
+        "moneda": "ARS",
+        "remitente": "Maria Del Carmen Fernandez",
+        "remitente_cuil": "12.682.652",
+        "destinatario": "SASTEUP SRL",
+        "banco_origen": "Cuenta DNI",
+        "banco_destino": "",
+        "referencia": "ORD6LEN8P138MRYONM1Y30",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "El remitente figura con DNI 12.682.652 (sin formato CUIL completo). El destinatario SASTEUP SRL tiene CUIL 30717282252 y CVU 0000155300000000009977.",
+        "_num": 482,
+        "_fecha_carga": "21/06/2026 00:27",
+        "_origen": "grupo",
+        "_pie": "Foto de Clohe😎",
         "_duplicado": true
       }
     ]
