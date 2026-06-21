@@ -4206,6 +4206,28 @@
         "_fecha_carga": "20/06/2026 22:33",
         "_origen": "grupo",
         "_pie": "Miriam Lili Nunez Fernandez\nCUIT/CUIL: 27-94216492-6"
+      },
+      {
+        "fecha": "12/06/2026",
+        "hora": "20:13",
+        "tipo": "TRF",
+        "monto": 200000.0,
+        "moneda": "ARS",
+        "remitente": "Adrian Ramon Gonzalez",
+        "remitente_cuil": "20-21332410-2",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163864757834",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: PDX4OGNYG3PZGV7MN0L6EY. CVU origen: 0000003100099144693775. CVU destino: 0000155300000000009977.",
+        "_num": 17,
+        "_fecha_carga": "20/06/2026 22:33",
+        "_origen": "grupo",
+        "_pie": "Adrian Ramón Gonzáles\nCUIT/CUIL: 20-21332410-2"
       }
     ],
     "errores": [],
