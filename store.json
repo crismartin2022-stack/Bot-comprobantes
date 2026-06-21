@@ -8324,6 +8324,28 @@
         "_fecha_carga": "20/06/2026 21:02",
         "_origen": "grupo",
         "_pie": "Ariadna Abigail Luque Miguez\nNaranja X\n4530000800010404231863\n27-48299541-7"
+      },
+      {
+        "fecha": "12/06/2026",
+        "hora": "21:45",
+        "tipo": "TRF",
+        "monto": 210000.0,
+        "moneda": "ARS",
+        "remitente": "Ariadna Abigail Luque Miguez",
+        "remitente_cuil": "27-48299541-7",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Naranja X",
+        "banco_destino": "Cuenta Virtual",
+        "referencia": "LOEJWV9JZ3Y0X3L82QMD0G",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de transacción adicional: a52b7eeb-8e2a-4235-b873-81817622f3c9. CVU destino: 0000155300000000009977. CBU origen: 4530000800010404231863.",
+        "_num": 204,
+        "_fecha_carga": "20/06/2026 21:02",
+        "_origen": "grupo",
+        "_pie": "Ariadna Abigail Luque Miguez\nNaranja X\n4530000800010404231863\n27-48299541-7"
       }
     ],
     "errores": [],
