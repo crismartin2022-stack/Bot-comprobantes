@@ -16723,6 +16723,29 @@
         "_origen": "grupo",
         "_pie": "Foto de Clohe😎",
         "_duplicado": true
+      },
+      {
+        "fecha": "10/06/2026",
+        "hora": "15:40",
+        "tipo": "TRF",
+        "monto": 40000.0,
+        "moneda": "ARS",
+        "remitente": "Maria Del Carmen Fernandez",
+        "remitente_cuil": "12.682.652",
+        "destinatario": "SASTEUP SRL",
+        "banco_origen": "Cuenta DNI",
+        "banco_destino": "",
+        "referencia": "L18MKX9RX8OK031E9O6WYV",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "El campo de origen muestra el número 12.682.652 que parece ser un DNI. El CUIL del destinatario SASTEUP SRL es 30717282252. CVU del destinatario: 0000155300000000000009977.",
+        "_num": 483,
+        "_fecha_carga": "21/06/2026 00:27",
+        "_origen": "grupo",
+        "_pie": "Foto de Clohe😎",
+        "_duplicado": true
       }
     ]
   }
