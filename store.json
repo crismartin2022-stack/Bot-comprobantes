@@ -5044,6 +5044,28 @@
         "_fecha_carga": "21/06/2026 01:58",
         "_origen": "grupo",
         "_pie": "Debora centurión \n36242230"
+      },
+      {
+        "fecha": "12/06/2026",
+        "hora": "23:26",
+        "tipo": "TRF",
+        "monto": 100000.0,
+        "moneda": "ARS",
+        "remitente": "Jonathan Gaston Esequiel Corvalan",
+        "remitente_cuil": "20-46651553-2",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163084067091",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: WY7ZEPN6MKLO7JV42Q0M51. CVU remitente: 0000003100008050051887. CUIT destinatario: 30-71728225-2.",
+        "_num": 55,
+        "_fecha_carga": "21/06/2026 01:58",
+        "_origen": "grupo",
+        "_pie": "Jonathan gaston corvalan 46.651.553 \n\n100 zeus"
       }
     ],
     "errores": [],
