@@ -41,7 +41,7 @@ pendientes: dict = {}
 esperando_pie: dict = {}
 mensajes_rechazo: dict = {}
 received_log: dict = {}  # {chat_id: [{"msg_id", "fecha", "remitente", "estado"}]}
-semaforo_claude = asyncio.Semaphore(5)  # Máximo 5 análisis simultáneos
+semaforo_claude = asyncio.Semaphore(10)  # Máximo 10 análisis simultáneos
 cola_procesamiento = asyncio.Queue()  # Cola local (fallback si no hay Redis)
 
 DATA_FILE    = "/data/store.json"       # Volume de Railway (persistente)
@@ -1660,8 +1660,8 @@ async def main_async():
             redis_client = None
 
     log.info("🤖 Bot iniciado con verificación de pie")
-    # Iniciar workers de procesamiento (5 workers paralelos)
-    for _ in range(5):
+    # Iniciar workers de procesamiento (10 workers paralelos)
+    for _ in range(10):
         asyncio.create_task(worker_procesamiento(app))
     await app.initialize()
     await app.start()
