@@ -7975,6 +7975,28 @@
         "_fecha_carga": "21/06/2026 02:06",
         "_origen": "grupo",
         "_pie": "Paola Maricel Acosta Cabrera 38071070"
+      },
+      {
+        "fecha": "12/06/2026",
+        "hora": "18:31",
+        "tipo": "TRF",
+        "monto": 50000.0,
+        "moneda": "ARS",
+        "remitente": "Katherina Liliana Vera",
+        "remitente_cuil": "27-39011863-0",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Naranja X",
+        "banco_destino": "Cuenta Virtual",
+        "referencia": "Z4K6DVNOWZYL3Q0E25J8LQ",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de transacción: 581d7194-41d7-4cb1-b106-7aeea580811e. CBU origen: 4530000800012801787893. CVU destino: 0000155300000000009977. CUIL destinatario: 30-71728225-2.",
+        "_num": 188,
+        "_fecha_carga": "21/06/2026 02:06",
+        "_origen": "grupo",
+        "_pie": "Vera katerina Liliana\n39011863"
       }
     ],
     "errores": [],
