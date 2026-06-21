@@ -17518,6 +17518,28 @@
         "_fecha_carga": "21/06/2026 00:33",
         "_origen": "grupo",
         "_pie": "Martín gallardo 40918416"
+      },
+      {
+        "fecha": "14/06/2026",
+        "hora": "17:23",
+        "tipo": "TRF",
+        "monto": 14700.0,
+        "moneda": "ARS",
+        "remitente": "Agostina Antonella Albarracin",
+        "remitente_cuil": "27-40434417-5",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "164122523048",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: 86VRPQ2GMLXMKY8L2GLY0M. CVU origen: 0000003100082204298865. CVU destino: 0000155300000000009977",
+        "_num": 621,
+        "_fecha_carga": "21/06/2026 00:33",
+        "_origen": "grupo",
+        "_pie": "Agostina Albarracín \n40.434.417"
       }
     ],
     "errores": [],
