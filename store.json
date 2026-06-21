@@ -6210,6 +6210,28 @@
         "_fecha_carga": "21/06/2026 02:00",
         "_origen": "grupo",
         "_pie": "Feldman Amaru Daniel\n36.085.957"
+      },
+      {
+        "fecha": "12/06/2026",
+        "hora": "19:49",
+        "tipo": "TRF",
+        "monto": 500000.0,
+        "moneda": "ARS",
+        "remitente": "Alvaro Gerardine Coria",
+        "remitente_cuil": "20-41479775-0",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "16305206117",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: 76V4MR2Z7Q46QYYGNDEZOL. CVU remitente: 0000003100036296714240. CVU destinatario: 0000155300000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 108,
+        "_fecha_carga": "21/06/2026 02:00",
+        "_origen": "grupo",
+        "_pie": "Buenas \nEnvío en total \n$1.750.000\n\n•500k (Tony90)\n• *Sasteup Srl*\n• 12/06\n•Alvaro Gerardine Coria\n•Cuil: 20-41479775-0\n\n•500k (Tony90)\n• *Sasteup Srl*\n• 12/06\n•Alvaro Gerardine Coria\n•Cuil: 20-41479775-0\n\n•400k (Tony90)\n• *Sasteup Srl*\n• 13/06\n•Julio Andres Caballero\n•Cuil: 20-38660370-8\n\n•350k (Tony90)\n• *Sasteup Srl*\n• 13/06\n•Cesar Enrique Paz\n•Cuil: 20-31159691-9"
       }
     ],
     "errores": [],
