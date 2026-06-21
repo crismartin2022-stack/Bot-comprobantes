@@ -5154,6 +5154,28 @@
         "_fecha_carga": "21/06/2026 01:58",
         "_origen": "grupo",
         "_pie": "Noelia Ayala \n40034818"
+      },
+      {
+        "fecha": "13/06/2026",
+        "hora": "10:55",
+        "tipo": "TRF",
+        "monto": 150000.0,
+        "moneda": "ARS",
+        "remitente": "Adelaida Gonzalez De Candia",
+        "remitente_cuil": "27-95122020-0",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163122774941",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: WY7ZEPN6MKL8EX4V2Q0M51. CVU remitente: 0000003100095456399877. CVU destinatario: 0000155300000000009977",
+        "_num": 60,
+        "_fecha_carga": "21/06/2026 01:58",
+        "_origen": "grupo",
+        "_pie": "Adelaida González 95122020"
       }
     ],
     "errores": [],
