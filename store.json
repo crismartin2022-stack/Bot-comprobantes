@@ -7292,6 +7292,28 @@
         "_fecha_carga": "21/06/2026 02:02",
         "_origen": "grupo",
         "_pie": "Valeria Peyronel\n27869054"
+      },
+      {
+        "fecha": "11/06/2026",
+        "hora": "17:30",
+        "tipo": "TRF",
+        "monto": 100000.0,
+        "moneda": "ARS",
+        "remitente": "Graciela Alejandra Balbuena",
+        "remitente_cuil": "27-22131182-0",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163665614770",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: ORD6LEN8P1X8G7GPNM1Y30. CVU origen: 0000003100021514537060. CVU destino: 0000155300000000009977.",
+        "_num": 157,
+        "_fecha_carga": "21/06/2026 02:02",
+        "_origen": "grupo",
+        "_pie": "Graciela balbuena \n22131182"
       }
     ],
     "errores": [],
