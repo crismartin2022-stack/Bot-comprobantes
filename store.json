@@ -4382,6 +4382,28 @@
         "_fecha_carga": "21/06/2026 03:44",
         "_origen": "grupo",
         "_pie": "Pablo esteban garcia 37.873.029"
+      },
+      {
+        "fecha": "12/06/2026",
+        "hora": "20:04",
+        "tipo": "TRF",
+        "monto": 100000.0,
+        "moneda": "ARS",
+        "remitente": "Abigail Johana Rodriguez",
+        "remitente_cuil": "38112046",
+        "destinatario": "SASTEUP SRL",
+        "banco_origen": "Ualá",
+        "banco_destino": "Billetera Virtual",
+        "referencia": "6fc6a2df-8b26-29c2-1db2-d484a66327ff",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CVU destino: 0000155300000000009977. CBU emisor: 3840200500000015847009. CUIT/CUIL destino (SASTEUP SRL): 30-71728225-2. Comentario: Transferencia en pesos.",
+        "_num": 25,
+        "_fecha_carga": "21/06/2026 03:44",
+        "_origen": "grupo",
+        "_pie": "Abigail Rodríguez 38112046"
       }
     ],
     "errores": [],
