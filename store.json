@@ -9648,6 +9648,28 @@
         "_fecha_carga": "20/06/2026 21:04",
         "_origen": "grupo",
         "_pie": ""
+      },
+      {
+        "fecha": "12/06/2026",
+        "hora": "23:14",
+        "tipo": "TRF",
+        "monto": 250000.0,
+        "moneda": "ARS",
+        "remitente": "Luna Jazmin Martinez",
+        "remitente_cuil": "",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Ualá",
+        "banco_destino": "",
+        "referencia": "3D5W612E6ZL76DKG2GXYVR",
+        "concepto": "VAR",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CBU destino: 0000155300000000009977. CUIT destino (del receptor Sasteup Srl): 30717282252. No se visualiza CUIL del remitente en el comprobante.",
+        "_num": 264,
+        "_fecha_carga": "20/06/2026 21:12",
+        "_origen": "grupo",
+        "_pie": "luna martinez  47.028.102"
       }
     ],
     "errores": [],
@@ -10829,6 +10851,29 @@
         "_fecha_carga": "20/06/2026 21:12",
         "_origen": "grupo",
         "_pie": "luna martinez  47.028.102",
+        "_duplicado": true
+      },
+      {
+        "fecha": "12/06/2026",
+        "hora": "20:15",
+        "tipo": "TRF",
+        "monto": 200000.0,
+        "moneda": "ARS",
+        "remitente": "Braian Alexis Suarez",
+        "remitente_cuil": "",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Ualá",
+        "banco_destino": "",
+        "referencia": "Z4K6DVNOWZY7LO4425J8LQ",
+        "concepto": "VAR",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CBU destino: 00001553000000000009977. CUIT destino (destinatario): 30717282252. No se visualiza CUIL del remitente en el comprobante.",
+        "_num": 264,
+        "_fecha_carga": "20/06/2026 21:12",
+        "_origen": "grupo",
+        "_pie": "",
         "_duplicado": true
       }
     ]
