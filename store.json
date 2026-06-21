@@ -5968,6 +5968,28 @@
         "_fecha_carga": "21/06/2026 01:59",
         "_origen": "grupo",
         "_pie": "Envío en total \n$2.610.000\n\n•650k (Tony 90)\n•*Sasteup Srl*\n•12/06\n•Rodrigo Javier Stanta Garaventa\n•27-41028220-3\n\n•300k (Tony 90)\n•*Sasteup Srl*\n•12/06\n•Juan Bautista Ibarra\n•20-44251679-1\n\n•500k (Tony 90) \n•*Sasteup Srl*\n•12/06\n•Maria Rosa Alegre\n•27-20614900-6\n\n•560k (Tony 90)\n•*Sasteup Srl*\n•12/06\n•Rodrigo Javier Stanta Garaventa\n•27-41028220-3\n\n•600k (Tony 90)\n•*Sasteup Srl*\n•12/06\n•Rodrigo Javier Stanta Garaventa\n•27-41028220-3"
+      },
+      {
+        "fecha": "12/06/2026",
+        "hora": "23:07",
+        "tipo": "TRF",
+        "monto": 200000.0,
+        "moneda": "ARS",
+        "remitente": "Maximiliano Mansilla",
+        "remitente_cuil": "20-34957607-5",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163890703904",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: JMQKYZ9QQVWKR3XP9V50P3. CVU origen: 0000003100014806005776. CVU destino: 0000155300000000009977. CUIT/CUIL destinatario: 30-71728225-2.",
+        "_num": 97,
+        "_fecha_carga": "21/06/2026 01:59",
+        "_origen": "grupo",
+        "_pie": "200 k (Tony90) \n*Sasteup Srl* \n12/6 \nMaximiliano Mansilla\n20-34957607-5"
       }
     ],
     "errores": [],
