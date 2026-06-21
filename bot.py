@@ -43,6 +43,7 @@ mensajes_rechazo: dict = {}
 received_log: dict = {}  # {chat_id: [{"msg_id", "fecha", "remitente", "estado"}]}
 semaforo_claude = asyncio.Semaphore(10)  # Máximo 10 análisis simultáneos
 cola_procesamiento = asyncio.Queue()  # Cola local (fallback si no hay Redis)
+_github_backup_counter = 0  # Contador para throttle de backup GitHub
 
 DATA_FILE    = "/data/store.json"       # Volume de Railway (persistente)
 LOG_FILE     = "/data/received_log.json"  # Log de imágenes recibidas
@@ -57,7 +58,8 @@ GITHUB_HEADERS = {
 }
 
 def guardar_store():
-    """Guarda el store en disco (Railway Volume) y en GitHub como respaldo."""
+    """Guarda el store en disco (Railway Volume) y en GitHub cada 10 guardados."""
+    global _github_backup_counter
     try:
         os.makedirs(os.path.dirname(DATA_FILE), exist_ok=True)
         store_limpio = {}
@@ -78,9 +80,12 @@ def guardar_store():
                 json.dump(received_log, f, ensure_ascii=False, indent=2)
         except Exception as le:
             log.error(f"Error guardando log: {le}")
-        # Respaldo en GitHub en thread separado
-        import threading
-        threading.Thread(target=_guardar_github_sync, args=(store_limpio,), daemon=True).start()
+        # Respaldo en GitHub cada 10 guardados
+        _github_backup_counter += 1
+        if _github_backup_counter >= 10:
+            _github_backup_counter = 0
+            import threading
+            threading.Thread(target=_guardar_github_sync, args=(store_limpio,), daemon=True).start()
     except Exception as e:
         log.error(f"Error guardando store: {e}")
 
