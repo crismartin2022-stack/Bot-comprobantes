@@ -7406,6 +7406,28 @@
         "_fecha_carga": "20/06/2026 22:39",
         "_origen": "grupo",
         "_pie": "Agostina Albarracín \n40.434.417"
+      },
+      {
+        "fecha": "13/06/2026",
+        "hora": "21:24",
+        "tipo": "TRF",
+        "monto": 120000.0,
+        "moneda": "ARS",
+        "remitente": "Martin Armando Gallardo",
+        "remitente_cuil": "20-40918416-3",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163218786017",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: PDX4OGNYGP1YZ3DRN0L6EY. CVU remitente: 0000003100074449655680. CVU destinatario: 0000155300000000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 162,
+        "_fecha_carga": "20/06/2026 22:39",
+        "_origen": "grupo",
+        "_pie": "Martín gallardo 40918416"
       }
     ],
     "errores": [],
