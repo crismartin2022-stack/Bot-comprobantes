@@ -17342,6 +17342,28 @@
         "_fecha_carga": "21/06/2026 00:33",
         "_origen": "grupo",
         "_pie": "Braian oliva \n40.591.347"
+      },
+      {
+        "fecha": "13/06/2026",
+        "hora": "15:22",
+        "tipo": "TRF",
+        "monto": 500000.22,
+        "moneda": "ARS",
+        "remitente": "Micaela Rocio Correa",
+        "remitente_cuil": "27-41362259-5",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163165835709",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: Z6OLMDN3V3GDYO752E7RQ5. CVU origen: 0000003100089855005831. CVU destino: 0000155300000000009977",
+        "_num": 613,
+        "_fecha_carga": "21/06/2026 00:33",
+        "_origen": "grupo",
+        "_pie": "Micaela Rocio Correa\nDNI: 41.362.259"
       }
     ],
     "errores": [],
