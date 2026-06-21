@@ -15648,6 +15648,28 @@
         "_fecha_carga": "21/06/2026 00:30",
         "_origen": "grupo",
         "_pie": "Foto de Clohe😎"
+      },
+      {
+        "fecha": "12/06/2026",
+        "hora": "22:25",
+        "tipo": "TRF",
+        "monto": 12000.0,
+        "moneda": "ARS",
+        "remitente": "Jamila Soledad Casem",
+        "remitente_cuil": "",
+        "destinatario": "SASTEUP SRL",
+        "banco_origen": "Cuenta DNI",
+        "banco_destino": "",
+        "referencia": "76V4MR2Z74L7OLVGNDEZOL",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "DNI del remitente: 31.165.569. CUIL del destinatario SASTEUP SRL: 30717282252. CVU destinatario: 0000155300000000009977",
+        "_num": 536,
+        "_fecha_carga": "21/06/2026 00:30",
+        "_origen": "grupo",
+        "_pie": "Foto de Clohe😎"
       }
     ],
     "errores": [],
