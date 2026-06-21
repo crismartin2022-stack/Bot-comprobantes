@@ -43,6 +43,7 @@ cola_procesamiento = asyncio.Queue()  # Cola de comprobantes a procesar
 
 DATA_FILE    = "/data/store.json"       # Volume de Railway (persistente)
 LOG_FILE     = "/data/received_log.json"  # Log de imágenes recibidas
+QUEUE_FILE   = "/data/cola_pendiente.json"  # Cola persistente
 GITHUB_TOKEN = os.environ.get("GITHUB_TOKEN", "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")
 GITHUB_REPO  = "crismartin2022-stack/Bot-comprobantes"
 GITHUB_FILE  = "store.json"
@@ -63,6 +64,11 @@ def guardar_store():
         with open(DATA_FILE, "w", encoding="utf-8") as f:
             json.dump(store_limpio, f, ensure_ascii=False, indent=2)
         log.info("Store guardado en Volume ✅")
+        # Guardar cola pendiente
+        try:
+            guardar_cola()
+        except Exception as qe:
+            log.error(f"Error guardando cola: {qe}")
         # Guardar log de imágenes
         try:
             with open(LOG_FILE, "w", encoding="utf-8") as f:
@@ -130,6 +136,38 @@ def cargar_store():
     except Exception as e:
         log.error(f"Error cargando desde GitHub: {e}")
         store = {}
+
+def guardar_cola():
+    """Guarda los items pendientes de la cola en disco."""
+    try:
+        items = []
+        # Vaciar y rellenar para inspeccionar sin consumir
+        temp = []
+        while not cola_procesamiento.empty():
+            try:
+                item = cola_procesamiento.get_nowait()
+                # No guardar image_bytes (muy pesado) — solo metadata
+                items.append({
+                    "chat_id": item["chat_id"],
+                    "msg_id": item["msg_id"],
+                    "pie": item.get("pie", ""),
+                    "nombre_g": item["nombre_g"],
+                    "origen": item.get("origen", "grupo"),
+                    "fecha": now_arg().strftime("%d/%m/%Y %H:%M"),
+                    "_sin_imagen": True  # Marcador: imagen no guardada
+                })
+                temp.append(item)
+                cola_procesamiento.task_done()
+            except Exception:
+                break
+        # Restaurar items
+        for item in temp:
+            cola_procesamiento.put_nowait(item)
+        with open(QUEUE_FILE, "w", encoding="utf-8") as f:
+            json.dump(items, f, ensure_ascii=False, indent=2)
+        log.info(f"Cola guardada: {len(items)} items pendientes")
+    except Exception as e:
+        log.error(f"Error guardando cola: {e}")
 
 def get_store(chat_id: int, nom: str = "") -> dict:
     cid = str(chat_id)
@@ -1285,9 +1323,12 @@ async def handle_photo(update: Update, ctx: ContextTypes.DEFAULT_TYPE):
     # ── Imagen individual ──
     # Procesar directo — con o sin pie (ya no es obligatorio)
     if caption:
+        # Guardar file_id para poder re-descargar si el bot reinicia
+        file_id = msg.photo[-1].file_id if msg.photo else (msg.document.file_id if msg.document else None)
         await cola_procesamiento.put({
             "image_bytes": image_bytes, "mime": mime, "pie": caption,
-            "chat_id": chat_id, "nombre_g": nombre_g, "origen": "grupo", "msg_id": msg_id
+            "chat_id": chat_id, "nombre_g": nombre_g, "origen": "grupo", "msg_id": msg_id,
+            "file_id": file_id
         })
     else:
         key = (chat_id, msg_id)
