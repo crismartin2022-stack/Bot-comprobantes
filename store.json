@@ -6342,6 +6342,28 @@
         "_fecha_carga": "21/06/2026 02:00",
         "_origen": "grupo",
         "_pie": "•450k (Tony 90)\n•*Sasteup Srl*\n•13/06\n•Juan Bautista Ibarra\n•20-44251679-1"
+      },
+      {
+        "fecha": "13/06/2026",
+        "hora": "03:44",
+        "tipo": "TRF",
+        "monto": 450000.0,
+        "moneda": "ARS",
+        "remitente": "Carlos Alfredo Barreto",
+        "remitente_cuil": "20-26252630-6",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163100275341",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: 67REZ8NPQ6XL565K94KVGO. CVU remitente: 0000003100052520212483. CVU destinatario: 0000155300000000009977.",
+        "_num": 114,
+        "_fecha_carga": "21/06/2026 02:00",
+        "_origen": "grupo",
+        "_pie": "•450k (Tony 90)\n•*Sasteup Srl*\n•13/06\n•Carlos Alfredo Barreto\n•20-26252630-6"
       }
     ],
     "errores": [],
