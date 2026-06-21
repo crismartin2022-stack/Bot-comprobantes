@@ -7843,6 +7843,28 @@
         "_fecha_carga": "21/06/2026 02:05",
         "_origen": "grupo",
         "_pie": "Agostina asselborn 45282876"
+      },
+      {
+        "fecha": "12/06/2026",
+        "hora": "14:15:51",
+        "tipo": "TRF",
+        "monto": 50000.0,
+        "moneda": "ARS",
+        "remitente": "Veronica Vanesa Prieto",
+        "remitente_cuil": "",
+        "destinatario": "SASTEUP SRL",
+        "banco_origen": "Reba",
+        "banco_destino": "",
+        "referencia": "30472902",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CBU/CVU origen: 4150999718014798220028. CBU/CVU destino: 0000155300000000009977. CUIT destinatario: 30717282252. Comprobante emitido por Reba.",
+        "_num": 182,
+        "_fecha_carga": "21/06/2026 02:06",
+        "_origen": "grupo",
+        "_pie": "Veronica Prieto    DNI: 28.283.022"
       }
     ],
     "errores": [],
