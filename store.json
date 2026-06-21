@@ -7512,6 +7512,28 @@
         "_fecha_carga": "21/06/2026 02:02",
         "_origen": "grupo",
         "_pie": "Jonathan gaston corvalan 46.651.553 \n\n140 zeus"
+      },
+      {
+        "fecha": "12/06/2026",
+        "hora": "12:36",
+        "tipo": "TRF",
+        "monto": 185000.0,
+        "moneda": "ARS",
+        "remitente": "Jose Luis Gomez",
+        "remitente_cuil": "20-20076120-1",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163786381056",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: Z4K6DVNOWZZR4K0E25J8LQ. CVU origen: 0000003100014948481771. CVU destino: 0000155300000000000009977.",
+        "_num": 167,
+        "_fecha_carga": "21/06/2026 02:02",
+        "_origen": "grupo",
+        "_pie": "josé luis gómez 20076120 zeus"
       }
     ],
     "errores": [],
