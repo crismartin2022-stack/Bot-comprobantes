@@ -4492,6 +4492,28 @@
         "_fecha_carga": "21/06/2026 03:44",
         "_origen": "grupo",
         "_pie": "Martha santillan\n14421499"
+      },
+      {
+        "fecha": "14/06/2026",
+        "hora": "17:29",
+        "tipo": "TRF",
+        "monto": 890000.0,
+        "moneda": "ARS",
+        "remitente": "Giuliana Estefania Valiente",
+        "remitente_cuil": "27-44753146-7",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163312056687",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: WY7ZEPN6MKYMP6WW2Q0M51. CVU remitente: 0000003100039872276990. CVU destinatario: 0000155300000000009977.",
+        "_num": 30,
+        "_fecha_carga": "21/06/2026 03:45",
+        "_origen": "grupo",
+        "_pie": "Giuliana valiente \n27.44753146.7"
       }
     ],
     "errores": [],
