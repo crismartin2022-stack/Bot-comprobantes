@@ -7446,6 +7446,28 @@
         "_fecha_carga": "21/06/2026 02:02",
         "_origen": "grupo",
         "_pie": "Jorge Leonel Villalba \n45228847"
+      },
+      {
+        "fecha": "12/06/2026",
+        "hora": "00:20",
+        "tipo": "TRF",
+        "monto": 100000.0,
+        "moneda": "ARS",
+        "remitente": "Barreto Facundo Emanuel",
+        "remitente_cuil": "20-43789502-4",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "NBCH Online Banking",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "1-20437895024-178123443294054412-0",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Cuenta origen: Caja de ahorro N° 30-14483930/9. CUIT destinatario: 30717282252. CVU destinatario: 0000155300000000009977. Código de identificación: ORD6LEN8P1W017EONM1Y30. Tipo de transferencia: Inmediata.",
+        "_num": 164,
+        "_fecha_carga": "21/06/2026 02:02",
+        "_origen": "grupo",
+        "_pie": "Barreto facundo \n43789502"
       }
     ],
     "errores": [],
