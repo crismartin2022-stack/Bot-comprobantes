@@ -15274,6 +15274,28 @@
         "_fecha_carga": "21/06/2026 00:29",
         "_origen": "grupo",
         "_pie": "Foto de Clohe😎"
+      },
+      {
+        "fecha": "12/06/2026",
+        "hora": "00:12",
+        "tipo": "TRF",
+        "monto": 50000.0,
+        "moneda": "ARS",
+        "remitente": "Erica Ingrid Insaurralde Escudero",
+        "remitente_cuil": "27-32011964-8",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163723343266",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: PDX4OGNYG3D5Y4LMN0L6EY. CVU origen: 0000003100001587739466. CVU destino: 0000155300000000009977. CUIT destinatario: 30-71728225-2",
+        "_num": 519,
+        "_fecha_carga": "21/06/2026 00:29",
+        "_origen": "grupo",
+        "_pie": "Foto de Clohe😎"
       }
     ],
     "errores": [],
@@ -17769,6 +17791,29 @@
         "_fecha_carga": "21/06/2026 00:29",
         "_origen": "grupo",
         "_pie": "Marcia moreira \n33645445",
+        "_duplicado": true
+      },
+      {
+        "fecha": "13/06/2026",
+        "hora": "23:58",
+        "tipo": "TRF",
+        "monto": 500000.0,
+        "moneda": "ARS",
+        "remitente": "Evelyn Milagros Leguiza",
+        "remitente_cuil": "27-46433396-2",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "164046267764",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: JMQKYZ9QQVOVXDKP9V50P3. CVU origen: 0000003100008833658896. CVU destino: 0000155300000000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 520,
+        "_fecha_carga": "21/06/2026 00:29",
+        "_origen": "grupo",
+        "_pie": "Enzo Javier robles \n46739852",
         "_duplicado": true
       }
     ]
