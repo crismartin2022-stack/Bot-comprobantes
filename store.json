@@ -6452,6 +6452,28 @@
         "_fecha_carga": "21/06/2026 02:00",
         "_origen": "grupo",
         "_pie": "Envío en total \n$ 1.300.000\n\n•700k (Tony 90)\n•*Sasteup Srl*\n•13/06\n•Braian Sebastian Soria\n•20-35431244-2\n\n•600k (Tony 90) \n•*Sasteup Srl*\n•13/06\n•Dante Leandro Jose Pross\n•20-45916711-1"
+      },
+      {
+        "fecha": "11/06/2026",
+        "hora": "08:57",
+        "tipo": "TRF",
+        "monto": 100000.0,
+        "moneda": "ARS",
+        "remitente": "Mariana Ayelen Diaz",
+        "remitente_cuil": "36608895",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Lemon",
+        "banco_destino": "CVU",
+        "referencia": "0V1JXON1LW6W0MOGNZ64EL",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CUIT destinatario: 30717282252. CBU completo: 0000155300000000009977. ID de transacción: 91581ae5-3497-4cca-b825-fdb093755126. Comprobante emitido por Lemon (Powered by Digifin).",
+        "_num": 119,
+        "_fecha_carga": "21/06/2026 02:00",
+        "_origen": "grupo",
+        "_pie": "Mariana Diaz 36608895"
       }
     ],
     "errores": [],
