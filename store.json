@@ -6257,6 +6257,28 @@
         "_fecha_carga": "20/06/2026 22:37",
         "_origen": "grupo",
         "_pie": "Eduardo Adrian Perez\nCUIT/CUIL: 20-31598874-9"
+      },
+      {
+        "fecha": "13/06/2026",
+        "hora": "00:28",
+        "tipo": "TRF",
+        "monto": 200000.0,
+        "moneda": "ARS",
+        "remitente": "Brian Alberto Gonzalez",
+        "remitente_cuil": "20-44383583-1",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163898705164",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: L18MKX9RXJRERW6K9O6WYV. CVU origen: 0000003100067063316480. CVU destino: 0000155300000000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 110,
+        "_fecha_carga": "20/06/2026 22:37",
+        "_origen": "grupo",
+        "_pie": "Brian Alberto Gonzalez\nCUIT/CUIL: 20-44383583-1"
       }
     ],
     "errores": [],
