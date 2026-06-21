@@ -16242,6 +16242,28 @@
         "_fecha_carga": "21/06/2026 00:31",
         "_origen": "grupo",
         "_pie": "Foto de Clohe😎"
+      },
+      {
+        "fecha": "13/06/2026",
+        "hora": "04:22",
+        "tipo": "TRF",
+        "monto": 500000.1,
+        "moneda": "ARS",
+        "remitente": "Enzo Javier Enrique Robles",
+        "remitente_cuil": "20-46739852-1",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "Z0KV87940EGZ6JEQNPEYDX",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Número de operación de Mercado Pago: 163910443004. CVU origen (remitente): 0000003100093226393614. CVU destino (receptor): 0000155300000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 563,
+        "_fecha_carga": "21/06/2026 00:31",
+        "_origen": "grupo",
+        "_pie": "Enzo Javier Enrique Robles\n46.739.852"
       }
     ],
     "errores": [],
