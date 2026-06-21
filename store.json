@@ -8545,6 +8545,28 @@
         "_fecha_carga": "20/06/2026 21:02",
         "_origen": "grupo",
         "_pie": "Agustin Angel Alejandro Urquiza\nCUIT/CUIL: 20-37433445-0"
+      },
+      {
+        "fecha": "12/06/2026",
+        "hora": "22:15",
+        "tipo": "TRF",
+        "monto": 300001.0,
+        "moneda": "ARS",
+        "remitente": "Brian David Munoz",
+        "remitente_cuil": "20-44141951-2",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163885638338",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: PDX4OGNYGPR1DXD4N0L6EY. CVU origen: 0000003100089189160967. CVU destino: 0000155300000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 214,
+        "_fecha_carga": "20/06/2026 21:02",
+        "_origen": "grupo",
+        "_pie": "Brian David Munoz\nCUIT/CUIL: 20-44141951-2"
       }
     ],
     "errores": [],
