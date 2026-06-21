@@ -4318,6 +4318,28 @@
         "_fecha_carga": "21/06/2026 01:56",
         "_origen": "grupo",
         "_pie": "Marcia Verónica Arce\nCUIL-CUIT 27-30085425-2"
+      },
+      {
+        "fecha": "11/06/2026",
+        "hora": "15:05",
+        "tipo": "TRF",
+        "monto": 250000.0,
+        "moneda": "ARS",
+        "remitente": "Diego Sebastian Romero",
+        "remitente_cuil": "23-39350507-9",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "162836982339",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: ORD6LEN8P1GWG5ZYNM1Y30. CVU origen: 0000003100024483911688. CVU destino: 0000155300000000009977. CUIT/CUIL destinatario: 30-71728225-2.",
+        "_num": 22,
+        "_fecha_carga": "21/06/2026 01:56",
+        "_origen": "grupo",
+        "_pie": "Diego Sebastian Romero\nCUIT/CUIL: 23-39350507-9"
       }
     ],
     "errores": [],
