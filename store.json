@@ -4648,6 +4648,28 @@
         "_fecha_carga": "21/06/2026 01:57",
         "_origen": "grupo",
         "_pie": "45863578"
+      },
+      {
+        "fecha": "11/06/2026",
+        "hora": "16:48",
+        "tipo": "TRF",
+        "monto": 300000.0,
+        "moneda": "ARS",
+        "remitente": "Hector Fabian Talavera Barreto",
+        "remitente_cuil": "20-94823970-2",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "162850047925",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: Z6OLMDN3VKRX3KVW2E7RQ5. CVU origen: 0000003100032956964567. CVU destino: 0000155300000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 37,
+        "_fecha_carga": "21/06/2026 01:57",
+        "_origen": "grupo",
+        "_pie": "Hector Fabian Talavera Barreto\nCUIT/CUIL: 20-94823970-2"
       }
     ],
     "errores": [],
