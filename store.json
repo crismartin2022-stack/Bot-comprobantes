@@ -8884,6 +8884,29 @@
         "_origen": "grupo",
         "_pie": "Foto de Ges",
         "_duplicado": true
+      },
+      {
+        "fecha": "09/06/2026",
+        "hora": "15:02",
+        "tipo": "TRF",
+        "monto": 20000.0,
+        "moneda": "ARS",
+        "remitente": "Diana Valeria MuÑoz",
+        "remitente_cuil": "26.597.148",
+        "destinatario": "SASTEUP SRL",
+        "banco_origen": "Cuenta DNI",
+        "banco_destino": "",
+        "referencia": "WGRXJE27DY5VEQVEN7MYQL",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "El campo DNI del remitente es 26.597.148 (no tiene formato CUIL completo). CVU destinatario: 0000155300000000009977. CUIL destinatario: 30717282252.",
+        "_num": 190,
+        "_fecha_carga": "21/06/2026 00:12",
+        "_origen": "grupo",
+        "_pie": "Foto de Ges",
+        "_duplicado": true
       }
     ]
   }
