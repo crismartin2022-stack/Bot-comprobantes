@@ -7931,6 +7931,28 @@
         "_fecha_carga": "21/06/2026 02:06",
         "_origen": "grupo",
         "_pie": "Ariel barrios \n32472349"
+      },
+      {
+        "fecha": "12/06/2026",
+        "hora": "16:36",
+        "tipo": "TRF",
+        "monto": 20000.0,
+        "moneda": "ARS",
+        "remitente": "Lurdes Rocio Caballero",
+        "remitente_cuil": "27-33909361-5",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163016920201",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: 0V1JXON1LWM7157NZ64EL. CVU remitente: 0000003100067540752833. CVU destinatario: 0000155300000000009977.",
+        "_num": 186,
+        "_fecha_carga": "21/06/2026 02:06",
+        "_origen": "grupo",
+        "_pie": "Lurdes Rocio 33909361"
       }
     ],
     "errores": [],
