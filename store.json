@@ -17364,6 +17364,28 @@
         "_fecha_carga": "21/06/2026 00:33",
         "_origen": "grupo",
         "_pie": "Micaela Rocio Correa\nDNI: 41.362.259"
+      },
+      {
+        "fecha": "14/06/2026",
+        "hora": "19:49",
+        "tipo": "TRF",
+        "monto": 500000.0,
+        "moneda": "ARS",
+        "remitente": "Marcos Santiago Herrera",
+        "remitente_cuil": "20-41522738-9",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Naranja X",
+        "banco_destino": "Cuenta Virtual",
+        "referencia": "Z4K6DVNOWYP53W7E25J8LQ",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de transacción: ec3a1152-1247-4ff3-ade3-630fd3aad843. CBU origen: 4530000800013354359748. CVU destino: 0000155300000000009977. CUIL destinatario: 30-71728225-2.",
+        "_num": 614,
+        "_fecha_carga": "21/06/2026 00:33",
+        "_origen": "grupo",
+        "_pie": "Marcos Herrera 41.522.738"
       }
     ],
     "errores": [],
