@@ -7887,6 +7887,28 @@
         "_fecha_carga": "21/06/2026 02:06",
         "_origen": "grupo",
         "_pie": "Patricio Marco Pereyra   DNI: 34.135.496"
+      },
+      {
+        "fecha": "12/06/2026",
+        "hora": "15:16",
+        "tipo": "TRF",
+        "monto": 20000.0,
+        "moneda": "ARS",
+        "remitente": "Araceli Sabrina Sajama",
+        "remitente_cuil": "27-41476867-4",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163004126879",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: 3D5W612E6EEK760O2GXYVR. CVU origen: 0000003100028551126185. CVU destino: 0000155300000000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 184,
+        "_fecha_carga": "21/06/2026 02:06",
+        "_origen": "grupo",
+        "_pie": "41476867"
       }
     ],
     "errores": [],
