@@ -9654,6 +9654,31 @@
     "chat_id": -1004304157216,
     "ultimo_resumen_idx": 0,
     "total_mensual": 220910819.31,
-    "mes_actual": "06/2026"
+    "mes_actual": "06/2026",
+    "duplicados": [
+      {
+        "fecha": "12/06/2026",
+        "hora": "19:32",
+        "tipo": "TRF",
+        "monto": 25000.0,
+        "moneda": "ARS",
+        "remitente": "Nicolas Daniel Isleno",
+        "remitente_cuil": "20-43810968-5",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163857681454",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: Z6OLMDN3VK35PYE62E7RQ5. CVU remitente: 0000003100099687211036. CVU destinatario: 0000155300000000000009977",
+        "_num": 264,
+        "_fecha_carga": "20/06/2026 21:09",
+        "_origen": "grupo",
+        "_pie": "Nicolas Daniel Isleno\nCUIT/CUIL: 20-43810968-5",
+        "_duplicado": true
+      }
+    ]
   }
 }
