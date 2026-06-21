@@ -8063,6 +8063,28 @@
         "_fecha_carga": "21/06/2026 02:07",
         "_origen": "grupo",
         "_pie": "Milagros Videla 38689279"
+      },
+      {
+        "fecha": "12/06/2026",
+        "hora": "19:35",
+        "tipo": "TRF",
+        "monto": 30000.0,
+        "moneda": "ARS",
+        "remitente": "Valeria Del Valle Luna",
+        "remitente_cuil": "27-26759061-9",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163050014635",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: D4RO172VZGQODQVDNKJ3QE. CVU origen: 0000003100085386041821. CVU destino: 0000155300000000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 192,
+        "_fecha_carga": "21/06/2026 02:07",
+        "_origen": "grupo",
+        "_pie": "Valeria luna 26759061"
       }
     ],
     "errores": [],
