@@ -8041,6 +8041,28 @@
         "_fecha_carga": "21/06/2026 02:07",
         "_origen": "grupo",
         "_pie": "Bet30click"
+      },
+      {
+        "fecha": "12/06/2026",
+        "hora": "19:17",
+        "tipo": "TRF",
+        "monto": 260000.0,
+        "moneda": "ARS",
+        "remitente": "Milagros Hebe Videla",
+        "remitente_cuil": "27-38689279-8",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163045389623",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: L18MKX9RX8JMLXWV9O6WYV. CUIT/CUIL destinatario: 30-71728225-2. CVU origen (remitente): 0000003100050987804801.",
+        "_num": 191,
+        "_fecha_carga": "21/06/2026 02:07",
+        "_origen": "grupo",
+        "_pie": "Milagros Videla 38689279"
       }
     ],
     "errores": [],
