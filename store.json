@@ -6784,6 +6784,28 @@
         "_fecha_carga": "21/06/2026 02:01",
         "_origen": "grupo",
         "_pie": "Blacida Pereyra 20.102.597"
+      },
+      {
+        "fecha": "11/06/2026",
+        "hora": "10:21",
+        "tipo": "TRF",
+        "monto": 250000.0,
+        "moneda": "ARS",
+        "remitente": "Libertad Daiana Elizabeth Toribio",
+        "remitente_cuil": "27-31605444-2",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163597834444",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: WY7ZEPN6M4DQ4YJV2Q0M51. CVU origen: 0000003100029720085557. CVU destino: 0000155300000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 134,
+        "_fecha_carga": "21/06/2026 02:01",
+        "_origen": "grupo",
+        "_pie": "Libertad Daiana Elizabeth Toribio\nCUIT/CUIL: 27-31605444-2"
       }
     ],
     "errores": [],
