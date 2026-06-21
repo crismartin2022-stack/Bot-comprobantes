@@ -4912,6 +4912,28 @@
         "_fecha_carga": "21/06/2026 01:57",
         "_origen": "grupo",
         "_pie": "Angelica Amarilla 23.793.202"
+      },
+      {
+        "fecha": "11/06/2026",
+        "hora": "18:01",
+        "tipo": "TRF",
+        "monto": 100000.0,
+        "moneda": "ARS",
+        "remitente": "Claudio Daniel Weber",
+        "remitente_cuil": "20-35245699-4",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163671578626",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: 8D0Q619L04XLRQVN7JZ5R. CVU origen: 0000003100008475755166. CVU destino: 0000155300000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 49,
+        "_fecha_carga": "21/06/2026 01:57",
+        "_origen": "grupo",
+        "_pie": "Claudio Daniel Weber\nCUIT/CUIL: 20-35245699-4"
       }
     ],
     "errores": [],
