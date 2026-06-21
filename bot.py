@@ -8,6 +8,7 @@ from io import BytesIO
 
 import httpx
 import anthropic
+import redis.asyncio as aioredis
 from apscheduler.schedulers.asyncio import AsyncIOScheduler
 from apscheduler.triggers.cron import CronTrigger
 from openpyxl import Workbook
@@ -31,6 +32,8 @@ ANTHROPIC_KEY  = os.environ["ANTHROPIC_API_KEY"]
 ADMIN_ID       = 531707598
 ARG_TZ         = timezone(timedelta(hours=-3))
 claude         = anthropic.Anthropic(api_key=ANTHROPIC_KEY)
+REDIS_URL      = os.environ.get("REDIS_URL", "")
+redis_client   = None  # Se inicializa en main_async
 
 # ── Storage ───────────────────────────────────────────────────────────────────
 store: dict = {}
@@ -39,7 +42,7 @@ esperando_pie: dict = {}
 mensajes_rechazo: dict = {}
 received_log: dict = {}  # {chat_id: [{"msg_id", "fecha", "remitente", "estado"}]}
 semaforo_claude = asyncio.Semaphore(3)  # Máximo 3 análisis simultáneos
-cola_procesamiento = asyncio.Queue()  # Cola de comprobantes a procesar
+cola_procesamiento = asyncio.Queue()  # Cola local (fallback si no hay Redis)
 
 DATA_FILE    = "/data/store.json"       # Volume de Railway (persistente)
 LOG_FILE     = "/data/received_log.json"  # Log de imágenes recibidas
@@ -636,10 +639,11 @@ async def procesar_sin_pie(key, app):
     pending = esperando_pie.pop(key)
     chat_id, msg_id = key
     datos_chat = get_store(chat_id)
-    await cola_procesamiento.put({
+    await encolar({
         "image_bytes": pending["image_bytes"], "mime": pending["mime"],
         "pie": pending.get("caption", ""), "chat_id": chat_id,
-        "nombre_g": pending["nombre_g"], "origen": "grupo", "msg_id": msg_id
+        "nombre_g": pending["nombre_g"], "origen": "grupo", "msg_id": msg_id,
+        "file_id": None
     })
 
 # ── Tareas programadas ────────────────────────────────────────────────────────
@@ -1237,21 +1241,72 @@ async def obtener_imagen(update, ctx) -> tuple:
     return None, None
 
 # ── Worker de cola de procesamiento ──────────────────────────────────────────
+REDIS_QUEUE_KEY = "bot_cola_comprobantes"
+
+async def encolar(item: dict):
+    """Agrega un item a Redis o a la cola local."""
+    global redis_client
+    try:
+        if redis_client:
+            # Guardar sin image_bytes (se re-descarga desde Telegram)
+            item_redis = {k: v for k, v in item.items() if k != "image_bytes"}
+            await redis_client.rpush(REDIS_QUEUE_KEY, json.dumps(item_redis, ensure_ascii=False))
+            return
+    except Exception as e:
+        log.error(f"Error encolando en Redis: {e}")
+    # Fallback: cola local
+    await cola_procesamiento.put(item)
+
 async def worker_procesamiento(app):
-    """Procesa comprobantes de la cola de a uno por vez."""
+    """Procesa comprobantes de Redis o cola local."""
+    global redis_client
     while True:
         try:
-            item = await cola_procesamiento.get()
-            try:
-                await procesar_comprobante(
-                    item["image_bytes"], item["mime"], item["pie"],
-                    item["chat_id"], item["nombre_g"], item["origen"],
-                    app.bot, item["msg_id"]
-                )
-            except Exception as e:
-                log.error(f"Error en worker: {e}")
-            finally:
-                cola_procesamiento.task_done()
+            item = None
+            # Intentar desde Redis primero
+            if redis_client:
+                try:
+                    result = await redis_client.blpop(REDIS_QUEUE_KEY, timeout=1)
+                    if result:
+                        item_data = json.loads(result[1])
+                        # Re-descargar imagen desde Telegram
+                        file_id = item_data.get("file_id")
+                        if file_id:
+                            try:
+                                file = await app.bot.get_file(file_id)
+                                async with httpx.AsyncClient() as client:
+                                    resp = await client.get(file.file_path)
+                                    item_data["image_bytes"] = resp.content
+                                    item_data["mime"] = item_data.get("mime", "image/jpeg")
+                                    item = item_data
+                            except Exception as e:
+                                log.error(f"Error re-descargando imagen {file_id}: {e}")
+                                continue
+                        else:
+                            continue
+                except Exception as e:
+                    log.error(f"Error leyendo Redis: {e}")
+                    await asyncio.sleep(1)
+                    continue
+            else:
+                # Fallback: cola local
+                try:
+                    item = await asyncio.wait_for(cola_procesamiento.get(), timeout=1)
+                except asyncio.TimeoutError:
+                    continue
+
+            if item and item.get("image_bytes"):
+                try:
+                    await procesar_comprobante(
+                        item["image_bytes"], item["mime"], item.get("pie", ""),
+                        item["chat_id"], item["nombre_g"], item.get("origen", "grupo"),
+                        app.bot, item["msg_id"]
+                    )
+                except Exception as e:
+                    log.error(f"Error en worker: {e}")
+                finally:
+                    if not redis_client:
+                        cola_procesamiento.task_done()
         except Exception as e:
             log.error(f"Error en worker loop: {e}")
             await asyncio.sleep(1)
@@ -1271,9 +1326,11 @@ async def procesar_album(key, app):
     images   = grupo["images"]
 
     for image_bytes, mime, msg_id in images:
-        await cola_procesamiento.put({
+        # Get file_id from the message if available
+        await encolar({
             "image_bytes": image_bytes, "mime": mime, "pie": caption,
-            "chat_id": chat_id, "nombre_g": nombre_g, "origen": "grupo", "msg_id": msg_id
+            "chat_id": chat_id, "nombre_g": nombre_g, "origen": "grupo", "msg_id": msg_id,
+            "file_id": None
         })
 
 async def handle_photo(update: Update, ctx: ContextTypes.DEFAULT_TYPE):
@@ -1325,7 +1382,7 @@ async def handle_photo(update: Update, ctx: ContextTypes.DEFAULT_TYPE):
     if caption:
         # Guardar file_id para poder re-descargar si el bot reinicia
         file_id = msg.photo[-1].file_id if msg.photo else (msg.document.file_id if msg.document else None)
-        await cola_procesamiento.put({
+        await encolar({
             "image_bytes": image_bytes, "mime": mime, "pie": caption,
             "chat_id": chat_id, "nombre_g": nombre_g, "origen": "grupo", "msg_id": msg_id,
             "file_id": file_id
@@ -1588,6 +1645,18 @@ async def main_async():
     scheduler.add_job(tarea_excel_semanal,  CronTrigger(day_of_week="thu", hour=21, minute=0, timezone="America/Argentina/Buenos_Aires"), args=[app], id="excel_semanal")
     scheduler.add_job(tarea_excel_backup, CronTrigger(hour=19, minute=50, timezone="America/Argentina/Buenos_Aires"), args=[app], id="excel_backup")
     scheduler.start()
+
+    # Iniciar Redis
+    global redis_client
+    if REDIS_URL:
+        try:
+            redis_client = await aioredis.from_url(REDIS_URL, decode_responses=True)
+            await redis_client.ping()
+            pending_count = await redis_client.llen(REDIS_QUEUE_KEY)
+            log.info(f"Redis conectado ✅ — {pending_count} items pendientes en cola")
+        except Exception as e:
+            log.error(f"Error conectando Redis: {e}")
+            redis_client = None
 
     log.info("🤖 Bot iniciado con verificación de pie")
     # Iniciar workers de procesamiento (3 workers paralelos)
