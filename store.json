@@ -5286,6 +5286,28 @@
         "_fecha_carga": "21/06/2026 01:58",
         "_origen": "grupo",
         "_pie": "Buenas,  envío en total \n$ 500.000\n\n•250k (Tony90)\n• *SASTEUP SRL*\n• 11/06\n•Alvaro Gerardine Coria\n•Cuil: 20-41479775-0\n\n•250k (Tony90)\n• *SASTEUP SRL*\n• 11/06\n•Cesar Enrique Paz\n•Cuil: 20-31159691-9"
+      },
+      {
+        "fecha": "11/06/2026",
+        "hora": "23:22",
+        "tipo": "TRF",
+        "monto": 27000.0,
+        "moneda": "ARS",
+        "remitente": "Nicole Pastarnokas",
+        "remitente_cuil": "27-38355592-8",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Naranja X",
+        "banco_destino": "Cuenta Virtual",
+        "referencia": "46YGOW9M1YWP886ZNEXD8J",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de transacción: 2d791fae-da10-4fa8-aa7d-983f57a1d9f0. CVU destino: 0000155300000000009977. CBU origen: 4530000800017385387611.",
+        "_num": 66,
+        "_fecha_carga": "21/06/2026 01:58",
+        "_origen": "grupo",
+        "_pie": "27k (Tony90) \n *Sasteup srl* \n11/06\nNicole pastarnokas\n27-38355592-8"
       }
     ],
     "errores": [],
