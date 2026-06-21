@@ -5176,6 +5176,28 @@
         "_fecha_carga": "21/06/2026 01:58",
         "_origen": "grupo",
         "_pie": "Adelaida González 95122020"
+      },
+      {
+        "fecha": "13/06/2026",
+        "hora": "10:54",
+        "tipo": "TRF",
+        "monto": 400000.0,
+        "moneda": "ARS",
+        "remitente": "Adelaida Gonzalez De Candia",
+        "remitente_cuil": "27-95122020-0",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163932566426",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: Z4K6DVNOWYOVQDXM25J8LQ. CVU origen: 0000003100095456399877. CVU destino: 0000155300000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 61,
+        "_fecha_carga": "21/06/2026 01:58",
+        "_origen": "grupo",
+        "_pie": "Adelaida González 95122020"
       }
     ],
     "errores": [],
