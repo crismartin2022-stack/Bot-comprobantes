@@ -41,7 +41,7 @@ pendientes: dict = {}
 esperando_pie: dict = {}
 mensajes_rechazo: dict = {}
 received_log: dict = {}  # {chat_id: [{"msg_id", "fecha", "remitente", "estado"}]}
-semaforo_claude = asyncio.Semaphore(3)  # Máximo 3 análisis simultáneos
+semaforo_claude = asyncio.Semaphore(5)  # Máximo 5 análisis simultáneos
 cola_procesamiento = asyncio.Queue()  # Cola local (fallback si no hay Redis)
 
 DATA_FILE    = "/data/store.json"       # Volume de Railway (persistente)
@@ -631,9 +631,9 @@ async def procesar_comprobante(image_bytes: bytes, mime: str, pie: str,
         )
         mensajes_rechazo[(chat_id, sent.message_id)] = {"num": num, "chat_id": chat_id}
 
-# ── Tarea para procesar foto sin pie después de 60 segundos ──────────────────
+# ── Tarea para procesar foto sin pie después de 5 segundos ──────────────────
 async def procesar_sin_pie(key, app):
-    await asyncio.sleep(60)
+    await asyncio.sleep(5)
     if key not in esperando_pie:
         return
     pending = esperando_pie.pop(key)
@@ -643,7 +643,7 @@ async def procesar_sin_pie(key, app):
         "image_bytes": pending["image_bytes"], "mime": pending["mime"],
         "pie": pending.get("caption", ""), "chat_id": chat_id,
         "nombre_g": pending["nombre_g"], "origen": "grupo", "msg_id": msg_id,
-        "file_id": None
+        "file_id": pending.get("file_id")
     })
 
 # ── Tareas programadas ────────────────────────────────────────────────────────
@@ -1325,12 +1325,11 @@ async def procesar_album(key, app):
     caption  = grupo.get("caption", "")
     images   = grupo["images"]
 
-    for image_bytes, mime, msg_id in images:
-        # Get file_id from the message if available
+    for image_bytes, mime, msg_id, file_id in images:
         await encolar({
             "image_bytes": image_bytes, "mime": mime, "pie": caption,
             "chat_id": chat_id, "nombre_g": nombre_g, "origen": "grupo", "msg_id": msg_id,
-            "file_id": None
+            "file_id": file_id
         })
 
 async def handle_photo(update: Update, ctx: ContextTypes.DEFAULT_TYPE):
@@ -1368,7 +1367,8 @@ async def handle_photo(update: Update, ctx: ContextTypes.DEFAULT_TYPE):
             if caption:
                 media_groups[key]["caption"] = caption
 
-        media_groups[key]["images"].append((image_bytes, mime, msg_id))
+        file_id = msg.photo[-1].file_id if msg.photo else (msg.document.file_id if msg.document else None)
+        media_groups[key]["images"].append((image_bytes, mime, msg_id, file_id))
 
         # Cancelar timer anterior y crear uno nuevo
         if "timer" in media_groups[key]:
@@ -1389,7 +1389,8 @@ async def handle_photo(update: Update, ctx: ContextTypes.DEFAULT_TYPE):
         })
     else:
         key = (chat_id, msg_id)
-        esperando_pie[key] = {"image_bytes": image_bytes, "mime": mime, "caption": "", "nombre_g": nombre_g}
+        file_id_sin_pie = msg.photo[-1].file_id if msg.photo else (msg.document.file_id if msg.document else None)
+        esperando_pie[key] = {"image_bytes": image_bytes, "mime": mime, "caption": "", "nombre_g": nombre_g, "file_id": file_id_sin_pie}
         task = asyncio.create_task(procesar_sin_pie(key, ctx.application))
         esperando_pie[key]["task"] = task
 
@@ -1659,8 +1660,8 @@ async def main_async():
             redis_client = None
 
     log.info("🤖 Bot iniciado con verificación de pie")
-    # Iniciar workers de procesamiento (3 workers paralelos)
-    for _ in range(3):
+    # Iniciar workers de procesamiento (5 workers paralelos)
+    for _ in range(5):
         asyncio.create_task(worker_procesamiento(app))
     await app.initialize()
     await app.start()
