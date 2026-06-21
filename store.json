@@ -10894,6 +10894,29 @@
         "_origen": "grupo",
         "_pie": "Foto de Ges",
         "_duplicado": true
+      },
+      {
+        "fecha": "10/06/2026",
+        "hora": "18:53",
+        "tipo": "TRF",
+        "monto": 20000.0,
+        "moneda": "ARS",
+        "remitente": "Juan Antonio Quiroz",
+        "remitente_cuil": "20-26629073-0",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "162710255825",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: 0V1JXON1LW3ZMZM7NZ64EL. CVU origen: 0000003100037583978075. CVU destino: 0000155300000000009977",
+        "_num": 274,
+        "_fecha_carga": "21/06/2026 00:16",
+        "_origen": "grupo",
+        "_pie": "Foto de Ges",
+        "_duplicado": true
       }
     ]
   }
