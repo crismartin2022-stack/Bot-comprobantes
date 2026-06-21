@@ -11922,6 +11922,28 @@
         "_fecha_carga": "21/06/2026 00:21",
         "_origen": "grupo",
         "_pie": "Foto de Ges"
+      },
+      {
+        "fecha": "13/06/2026",
+        "hora": "19:56",
+        "tipo": "TRF",
+        "monto": 15000.0,
+        "moneda": "ARS",
+        "remitente": "Roberto Rodriguez",
+        "remitente_cuil": "20-16060610-0",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "164016706054",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: L18MKX9RXJ75MYL19O6WYV. CVU remitente: 0000003100018807772664. CUIT/CUIL destinatario: 30-71728225-2.",
+        "_num": 367,
+        "_fecha_carga": "21/06/2026 00:21",
+        "_origen": "grupo",
+        "_pie": "Foto de Ges"
       }
     ],
     "errores": [],
@@ -13243,6 +13265,29 @@
         "_fecha_carga": "21/06/2026 00:20",
         "_origen": "grupo",
         "_pie": "Foto de .",
+        "_duplicado": true
+      },
+      {
+        "fecha": "12/06/2026",
+        "hora": "15:03",
+        "tipo": "TRF",
+        "monto": 10000.0,
+        "moneda": "ARS",
+        "remitente": "Vanesa Isabel Amaya",
+        "remitente_cuil": "31117134",
+        "destinatario": "SASTEUP SRL",
+        "banco_origen": "Cuenta DNI",
+        "banco_destino": "",
+        "referencia": "8D0Q619L044JGGLZN7JZ5R",
+        "concepto": "Expensas",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "El remitente aparece solo con DNI (31.117.134), sin formato CUIL completo. CVU destinatario: 0000155300000000000009977. CUIL destinatario: 30717282252.",
+        "_num": 367,
+        "_fecha_carga": "21/06/2026 00:21",
+        "_origen": "grupo",
+        "_pie": "",
         "_duplicado": true
       }
     ]
