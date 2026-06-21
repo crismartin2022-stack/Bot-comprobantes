@@ -3876,6 +3876,28 @@
         "_fecha_carga": "21/06/2026 03:07",
         "_origen": "grupo",
         "_pie": "Antonia Rafaela López\nDNI 18.748.624"
+      },
+      {
+        "fecha": "13/06/2026",
+        "hora": "20:13",
+        "tipo": "TRF",
+        "monto": 500000.23,
+        "moneda": "ARS",
+        "remitente": "Juan Carlos Ovejero",
+        "remitente_cuil": "20-14765356-6",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163208972025",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación adicional: 67REZ8NPQ6WZPPDP94KVGO. CUIT/CUIL del destinatario: 30-71728225-2. CVU origen: 0000003100089844810725",
+        "_num": 2,
+        "_fecha_carga": "21/06/2026 03:08",
+        "_origen": "grupo",
+        "_pie": "Juan Carlos Ovejero\n14.765.356"
       }
     ],
     "errores": [],
