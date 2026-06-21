@@ -10161,6 +10161,29 @@
         "_origen": "grupo",
         "_pie": "Hector Fabian Talavera Barreto\nCUIT/CUIL: 20-94823970-2",
         "_duplicado": true
+      },
+      {
+        "fecha": "12/06/2026",
+        "hora": "22:54",
+        "tipo": "TRF",
+        "monto": 500000.0,
+        "moneda": "ARS",
+        "remitente": "Vicchio, Lautaro Fernando",
+        "remitente_cuil": "23-44961652-9",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Personal Pay",
+        "banco_destino": "",
+        "referencia": "2739101547",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CoelsaID: Z0KV87940EGL048QNPEYDX - Id Bancario. CUIL/CUIT destinatario: 30-71728225-2. CBU/CVU receptor: 0000155300000000009977",
+        "_num": 264,
+        "_fecha_carga": "20/06/2026 21:10",
+        "_origen": "grupo",
+        "_pie": "Vicchio, Lautaro Fernando\n23-44961652-9",
+        "_duplicado": true
       }
     ]
   }
