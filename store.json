@@ -16470,6 +16470,29 @@
         "_origen": "grupo",
         "_pie": "Foto de Clohe😎",
         "_duplicado": true
+      },
+      {
+        "fecha": "10/06/2026",
+        "hora": "11:04",
+        "tipo": "TRF",
+        "monto": 10000.0,
+        "moneda": "ARS",
+        "remitente": "Antonio Jacinto Romero",
+        "remitente_cuil": "20-28560666-8",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163437421862",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: JMQKYZ9QQ0YEZEE89V50P3. CVU origen: 0000003100019864760320. CVU destino: 0000155300000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 482,
+        "_fecha_carga": "21/06/2026 00:27",
+        "_origen": "grupo",
+        "_pie": "Foto de Clohe😎",
+        "_duplicado": true
       }
     ]
   }
