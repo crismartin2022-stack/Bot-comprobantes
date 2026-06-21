@@ -5462,6 +5462,28 @@
         "_fecha_carga": "21/06/2026 01:58",
         "_origen": "grupo",
         "_pie": "Buenas,  envío en total \n$ 3.165.000\n\n•435 k (Tony 90) \n• *Sasteup Srl*\n•12/6\n•Dante Leandro Jose Pross\n•20-45916711-1\n\n•400 k (Tony 90)\n• *Sasteup Srl*\n•12/6\n•Braian Sebastian Soria\n•20-35431244-2\n\n•400 k (Tony 90)\n• *Sasteup Srl*\n•12/6\n•Alicia Veronica Ledesma\n•27-23971189-3\n\n•400 k (Tony 90)\n• *Sasteup Srl*\n•12/6\n•Matias Daniel Sotelo\n•20-42674449-0\n\n•460 k (Tony 90)\n• *Sasteup Srl*\n•12/6\n•Alicia Veronica Ledesma\n•27-23971189-3\n\n•470 k (Tony 90)\n• *Sasteup Srl*\n•12/6\n•Matias Daniel Sotelo\n•20-42674449-0\n\n•600 k (Tony 90)\n• *Sasteup Srl*\n•12/6\n•Diego Rolando Medrano Ramos\n•20-32122164-6"
+      },
+      {
+        "fecha": "11/06/2026",
+        "hora": "21:38",
+        "tipo": "TRF",
+        "monto": 600000.0,
+        "moneda": "ARS",
+        "remitente": "Cesar Enrique Paz",
+        "remitente_cuil": "20-31159691-9",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Ualá",
+        "banco_destino": "",
+        "referencia": "3D5W612E6EM30JQ52GXYVR",
+        "concepto": "VAR",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CUIT destino (Sasteup Srl): 30717282252. CBU destino completo: 0000155300000000009977.",
+        "_num": 74,
+        "_fecha_carga": "21/06/2026 01:58",
+        "_origen": "grupo",
+        "_pie": "Envío en total \n$ 1.100.000\n\n•600 k (Tony90)\n• *Sasteup Srl*\n• 11/6\n•Cesar Enrique Paz\n•Cuil: 20-31159691-9\n\n•500 k (Tony90)\n• *Sasteup Srl*\n• 12/6\n•Alvaro Gerardine Coria\n•Cuil: 20-41479775-0"
       }
     ],
     "errores": [],
