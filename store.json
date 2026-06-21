@@ -6078,6 +6078,28 @@
         "_fecha_carga": "21/06/2026 01:59",
         "_origen": "grupo",
         "_pie": "Envío en total \n$ 900.000\n\n•400k (Tony 90)\n•*Sasteup Srl*\n•12/06\n•Juan Bautista Ibarra\n•20-44251679-1\n\n•500k (Tony 90) \n•*Sasteup Srl*\n•12/06\n•Maria Rosa Alegre\n•27-20614900-6"
+      },
+      {
+        "fecha": "12/06/2026",
+        "hora": "23:15",
+        "tipo": "TRF",
+        "monto": 500000.0,
+        "moneda": "ARS",
+        "remitente": "Maria Rosa Alegre",
+        "remitente_cuil": "27-20614900-6",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163892340854",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: LOEJWV9JZ3Y6XEQD2QMD0G. CVU origen: 0000003100060113921508. CVU destino: 0000155300000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 102,
+        "_fecha_carga": "21/06/2026 01:59",
+        "_origen": "grupo",
+        "_pie": "Envío en total \n$ 900.000\n\n•400k (Tony 90)\n•*Sasteup Srl*\n•12/06\n•Juan Bautista Ibarra\n•20-44251679-1\n\n•500k (Tony 90) \n•*Sasteup Srl*\n•12/06\n•Maria Rosa Alegre\n•27-20614900-6"
       }
     ],
     "errores": [],
