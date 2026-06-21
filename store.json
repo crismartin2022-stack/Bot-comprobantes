@@ -3942,6 +3942,28 @@
         "_fecha_carga": "21/06/2026 03:08",
         "_origen": "grupo",
         "_pie": "Victor Roberto Taiguan\n21.342.026"
+      },
+      {
+        "fecha": "13/06/2026",
+        "hora": "21:20",
+        "tipo": "TRF",
+        "monto": 500000.26,
+        "moneda": "ARS",
+        "remitente": "Angel Damian Zurita",
+        "remitente_cuil": "20-16554662-9",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "164031304638",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: 86VRPQ2GMLVO4KMM2GLY0M. CVU origen: 0000003100016261529615. CVU destino: 0000155300000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 5,
+        "_fecha_carga": "21/06/2026 03:08",
+        "_origen": "grupo",
+        "_pie": "Ángel Damián Zurita\nDNI: 16.554.662"
       }
     ],
     "errores": [],
