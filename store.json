@@ -3854,7 +3854,30 @@
   "-1004304157216": {
     "nombre": "Xxxxxpro y Api-Agi",
     "semana_actual": "Semana 21/06/2026",
-    "registros": [],
+    "registros": [
+      {
+        "fecha": "13/06/2026",
+        "hora": "20:13",
+        "tipo": "TRF",
+        "monto": 500000.23,
+        "moneda": "ARS",
+        "remitente": "Juan Carlos Ovejero",
+        "remitente_cuil": "20-14765356-6",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163208972025",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: 67REZ8NPQ6WZPPDP94KVGO. CVU remitente: 0000003100089844810725. CVU destinatario: 0000155300000000009977. CUIT/CUIL destinatario: 30-71728225-2.",
+        "_num": 1,
+        "_fecha_carga": "21/06/2026 02:52",
+        "_origen": "grupo",
+        "_pie": "Juan Carlos Ovejero\n14.765.356"
+      }
+    ],
     "errores": [],
     "chat_id": -1004304157216,
     "ultimo_resumen_idx": 0,
