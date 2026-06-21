@@ -5374,6 +5374,28 @@
         "_fecha_carga": "21/06/2026 01:58",
         "_origen": "grupo",
         "_pie": "Buenas,  envío en total \n$ 3.165.000\n\n•435 k (Tony 90) \n• *Sasteup Srl*\n•12/6\n•Dante Leandro Jose Pross\n•20-45916711-1\n\n•400 k (Tony 90)\n• *Sasteup Srl*\n•12/6\n•Braian Sebastian Soria\n•20-35431244-2\n\n•400 k (Tony 90)\n• *Sasteup Srl*\n•12/6\n•Alicia Veronica Ledesma\n•27-23971189-3\n\n•400 k (Tony 90)\n• *Sasteup Srl*\n•12/6\n•Matias Daniel Sotelo\n•20-42674449-0\n\n•460 k (Tony 90)\n• *Sasteup Srl*\n•12/6\n•Alicia Veronica Ledesma\n•27-23971189-3\n\n•470 k (Tony 90)\n• *Sasteup Srl*\n•12/6\n•Matias Daniel Sotelo\n•20-42674449-0\n\n•600 k (Tony 90)\n• *Sasteup Srl*\n•12/6\n•Diego Rolando Medrano Ramos\n•20-32122164-6"
+      },
+      {
+        "fecha": "12/06/2026",
+        "hora": "13:23",
+        "tipo": "TRF",
+        "monto": 400000.0,
+        "moneda": "ARS",
+        "remitente": "Matias Daniel Sotelo",
+        "remitente_cuil": "20-42674449-0",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "162985909859",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: WGRXJE27DYYWZKL6N7MYQL. CVU origen: 0000003100082085150731. CVU destino: 0000155300000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 70,
+        "_fecha_carga": "21/06/2026 01:58",
+        "_origen": "grupo",
+        "_pie": "Buenas,  envío en total \n$ 3.165.000\n\n•435 k (Tony 90) \n• *Sasteup Srl*\n•12/6\n•Dante Leandro Jose Pross\n•20-45916711-1\n\n•400 k (Tony 90)\n• *Sasteup Srl*\n•12/6\n•Braian Sebastian Soria\n•20-35431244-2\n\n•400 k (Tony 90)\n• *Sasteup Srl*\n•12/6\n•Alicia Veronica Ledesma\n•27-23971189-3\n\n•400 k (Tony 90)\n• *Sasteup Srl*\n•12/6\n•Matias Daniel Sotelo\n•20-42674449-0\n\n•460 k (Tony 90)\n• *Sasteup Srl*\n•12/6\n•Alicia Veronica Ledesma\n•27-23971189-3\n\n•470 k (Tony 90)\n• *Sasteup Srl*\n•12/6\n•Matias Daniel Sotelo\n•20-42674449-0\n\n•600 k (Tony 90)\n• *Sasteup Srl*\n•12/6\n•Diego Rolando Medrano Ramos\n•20-32122164-6"
       }
     ],
     "errores": [],
