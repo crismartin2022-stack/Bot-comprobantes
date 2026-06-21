@@ -4426,6 +4426,28 @@
         "_fecha_carga": "21/06/2026 03:44",
         "_origen": "grupo",
         "_pie": "Gonzalo hernan Méndez\n 39.811.451"
+      },
+      {
+        "fecha": "13/06/2026",
+        "hora": "16:12",
+        "tipo": "TRF",
+        "monto": 200000.0,
+        "moneda": "ARS",
+        "remitente": "Noelia Giselle Romano",
+        "remitente_cuil": "27-45609998-5",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163173439319",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: L18MKX9RXJ1Q44119O6WYV. CVU remitente: 0000003100095227758371. CVU destinatario: 0000155300000000009977",
+        "_num": 27,
+        "_fecha_carga": "21/06/2026 03:44",
+        "_origen": "grupo",
+        "_pie": "Noelia romano\n45.609.998"
       }
     ],
     "errores": [],
