@@ -647,8 +647,6 @@ async def procesar_comprobante(image_bytes: bytes, mime: str, pie: str,
         if sent:
             mensajes_rechazo[(chat_id, sent.message_id)] = {"num": num, "chat_id": chat_id}
         await send_safe(bot.set_message_reaction(chat_id=chat_id, message_id=chat_msg_id, reaction=[ReactionTypeEmoji(emoji="❌")]))
-        except Exception:
-            pass
 
 # ── Tarea para procesar foto sin pie después de 5 segundos ──────────────────
 async def procesar_sin_pie(key, app):
