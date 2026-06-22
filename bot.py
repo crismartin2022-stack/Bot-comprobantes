@@ -14,7 +14,8 @@ from apscheduler.triggers.cron import CronTrigger
 from openpyxl import Workbook
 from openpyxl.styles import Font, PatternFill, Alignment, Border, Side
 from openpyxl.utils import get_column_letter
-from telegram import Update, InlineKeyboardButton, InlineKeyboardMarkup
+from telegram import Update, InlineKeyboardButton, InlineKeyboardMarkup, ReactionTypeEmoji
+from telegram.error import RetryAfter, TimedOut, NetworkError
 from telegram.ext import (
     Application, CommandHandler, MessageHandler,
     filters, ContextTypes, CallbackQueryHandler
@@ -25,6 +26,25 @@ logging.basicConfig(format="%(asctime)s | %(levelname)s | %(message)s", level=lo
 log = logging.getLogger(__name__)
 logging.getLogger("httpx").setLevel(logging.WARNING)
 logging.getLogger("httpcore").setLevel(logging.WARNING)
+
+
+# ── Helper flood control ──────────────────────────────────────────────────────
+async def send_safe(coro, retries=3):
+    """Ejecuta una corrutina de Telegram manejando flood control y timeouts."""
+    for attempt in range(retries):
+        try:
+            return await coro
+        except RetryAfter as e:
+            wait = e.retry_after + 1
+            log.warning(f"Flood control: esperando {wait}s (intento {attempt+1})")
+            await asyncio.sleep(wait)
+        except (TimedOut, NetworkError) as e:
+            log.warning(f"Error de red Telegram: {e} (intento {attempt+1})")
+            await asyncio.sleep(2)
+        except Exception as e:
+            log.error(f"Error enviando mensaje Telegram: {e}")
+            return None
+    return None
 
 # ── Config ────────────────────────────────────────────────────────────────────
 TELEGRAM_TOKEN = os.environ["TELEGRAM_TOKEN"]
@@ -41,16 +61,14 @@ pendientes: dict = {}
 esperando_pie: dict = {}
 mensajes_rechazo: dict = {}
 received_log: dict = {}  # {chat_id: [{"msg_id", "fecha", "remitente", "estado"}]}
-semaforo_claude = asyncio.Semaphore(3)  # Máximo 3 análisis simultáneos
+semaforo_claude = asyncio.Semaphore(10)  # Máximo 3 análisis simultáneos
 cola_procesamiento = asyncio.Queue()  # Cola local (fallback si no hay Redis)
+_github_backup_counter = 0  # Contador para throttle de backup GitHub
 
 DATA_FILE    = "/data/store.json"       # Volume de Railway (persistente)
 LOG_FILE     = "/data/received_log.json"  # Log de imágenes recibidas
 QUEUE_FILE   = "/data/cola_pendiente.json"  # Cola persistente
 GITHUB_TOKEN = os.environ.get("GITHUB_TOKEN", "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")
-CLOUDINARY_CLOUD_NAME = os.environ.get("CLOUDINARY_CLOUD_NAME", "")
-CLOUDINARY_API_KEY    = os.environ.get("CLOUDINARY_API_KEY", "")
-CLOUDINARY_API_SECRET = os.environ.get("CLOUDINARY_API_SECRET", "")
 GITHUB_REPO  = "crismartin2022-stack/Bot-comprobantes"
 GITHUB_FILE  = "store.json"
 GITHUB_API   = f"https://api.github.com/repos/{GITHUB_REPO}/contents/{GITHUB_FILE}"
@@ -81,9 +99,13 @@ def guardar_store():
                 json.dump(received_log, f, ensure_ascii=False, indent=2)
         except Exception as le:
             log.error(f"Error guardando log: {le}")
-        # Respaldo en GitHub en thread separado
-        import threading
-        threading.Thread(target=_guardar_github_sync, args=(store_limpio,), daemon=True).start()
+        # Respaldo en GitHub cada 10 guardados
+        global _github_backup_counter
+        _github_backup_counter += 1
+        if _github_backup_counter >= 10:
+            _github_backup_counter = 0
+            import threading
+            threading.Thread(target=_guardar_github_sync, args=(store_limpio,), daemon=True).start()
     except Exception as e:
         log.error(f"Error guardando store: {e}")
 
@@ -104,44 +126,6 @@ def _guardar_github_sync(store_limpio: dict):
             log.error(f"Error respaldo GitHub: {resp.status_code}")
     except Exception as e:
         log.error(f"Error respaldo GitHub: {e}")
-
-async def subir_cloudinary(image_bytes: bytes, mime: str, public_id: str = None) -> str:
-    """Sube imagen a Cloudinary y retorna URL permanente. Retorna '' si falla."""
-    if not CLOUDINARY_CLOUD_NAME or not CLOUDINARY_API_KEY or not CLOUDINARY_API_SECRET:
-        return ""
-    try:
-        import hashlib, hmac, time
-        timestamp = str(int(time.time()))
-        params = f"timestamp={timestamp}"
-        if public_id:
-            params = f"public_id={public_id}&{params}"
-        signature = hashlib.sha1(f"{params}{CLOUDINARY_API_SECRET}".encode()).hexdigest()
-        ext = "jpg" if "jpeg" in mime else mime.split("/")[-1]
-        files = {"file": (f"comprobante.{ext}", image_bytes, mime)}
-        data = {
-            "api_key": CLOUDINARY_API_KEY,
-            "timestamp": timestamp,
-            "signature": signature,
-            "folder": "comprobantes",
-        }
-        if public_id:
-            data["public_id"] = public_id
-        async with httpx.AsyncClient(timeout=15) as client:
-            resp = await client.post(
-                f"https://api.cloudinary.com/v1_1/{CLOUDINARY_CLOUD_NAME}/image/upload",
-                files=files,
-                data=data
-            )
-        if resp.status_code == 200:
-            url = resp.json().get("secure_url", "")
-            log.info(f"Cloudinary ✅ {url}")
-            return url
-        else:
-            log.error(f"Cloudinary error {resp.status_code}: {resp.text[:200]}")
-            return ""
-    except Exception as e:
-        log.error(f"Error subiendo a Cloudinary: {e}")
-        return ""
 
 def cargar_store():
     """Carga el store desde Volume. Si no existe, intenta desde GitHub."""
@@ -461,7 +445,6 @@ def generar_excel(registros: list, semana: str, nombre: str, es_errores: bool = 
                 cell.fill = ok_fill if tiene_cvu else error_fill
                 cell.font = Font(bold=True, color="FFFFFF")
                 cell.alignment = Alignment(horizontal="center", vertical="center")
-            # Hyperlink en columna Imagen
             if not es_errores and img_col and col == img_col and val:
                 cell.hyperlink = val
                 cell.value = "Ver imagen"
@@ -585,14 +568,12 @@ async def procesar_comprobante(image_bytes: bytes, mime: str, pie: str,
         resultado["_motivo_error"] = "Error de conexión con IA — reintentá más tarde"
         datos["errores"].append(resultado)
         guardar_store()
-        try:
-            await bot.send_message(
-                chat_id=chat_id,
-                text=f"⚠️ Comprobante #{num} no procesado — error de conexión. Reenvialo.",
-                reply_to_message_id=chat_msg_id
-            )
-        except Exception as e:
-            log.error(f"Error notificando timeout: {e}")
+        await send_safe(bot.send_message(
+            chat_id=chat_id,
+            text=f"⚠️ Comprobante #{num} no procesado — error de conexión. Reenvialo.",
+            reply_to_message_id=chat_msg_id
+        ))
+        await send_safe(bot.set_message_reaction(chat_id=chat_id, message_id=chat_msg_id, reaction=[ReactionTypeEmoji(emoji="❌")]))
         return
 
     if coincide:
@@ -603,12 +584,13 @@ async def procesar_comprobante(image_bytes: bytes, mime: str, pie: str,
             guardar_store()
             monto = resultado.get("monto")
             monto_fmt = f"${float(monto):,.0f}" if monto else "—"
-            await bot.send_message(
+            await send_safe(bot.send_message(
                 chat_id=chat_id,
                 text=f"🔁 *Comprobante duplicado* — no se suma\n💰 {monto_fmt} | 👤 {resultado.get('remitente','—')}",
                 parse_mode="Markdown",
                 reply_to_message_id=chat_msg_id
-            )
+            ))
+            await send_safe(bot.set_message_reaction(chat_id=chat_id, message_id=chat_msg_id, reaction=[ReactionTypeEmoji(emoji="🔁")]))
             return
         datos["registros"].append(resultado)
         guardar_store()
@@ -627,31 +609,26 @@ async def procesar_comprobante(image_bytes: bytes, mime: str, pie: str,
         cuil = (resultado.get("remitente_cuil") or "").strip()
         cvu_txt = f"****{cvu}" if cvu else "⚠️ Sin CVU"
         cuil_txt = f" | DNI/CUIL: {cuil}" if cuil else ""
-        try:
-            await bot.send_message(
-                chat_id=chat_id,
-                text=f"✅ #{num} | {remitente}{cuil_txt} | {monto_fmt} | {cvu_txt}",
-                reply_to_message_id=chat_msg_id
-            )
-        except Exception as e:
-            log.error(f"Error enviando confirmación: {e}")
+        await send_safe(bot.send_message(
+            chat_id=chat_id,
+            text=f"✅ #{num} | {remitente}{cuil_txt} | {monto_fmt} | {cvu_txt}",
+            reply_to_message_id=chat_msg_id
+        ))
+        await send_safe(bot.set_message_reaction(chat_id=chat_id, message_id=chat_msg_id, reaction=[ReactionTypeEmoji(emoji="👍")]))
         # Notificar al admin por privado si falta CVU
         if not cvu:
-            try:
-                await bot.send_message(
-                    chat_id=ADMIN_ID,
-                    text=(
-                        f"⚠️ *CVU faltante — {nombre_g}*\n"
-                        f"Comprobante #{num}\n"
-                        f"👤 {remitente}\n"
-                        f"💰 {monto_fmt}\n"
-                        f"📅 {resultado.get('fecha','—')}\n"
-                        f"_CVU del receptor no encontrado en la imagen._"
-                    ),
-                    parse_mode="Markdown"
-                )
-            except Exception as e:
-                log.error(f"Error notificando CVU faltante: {e}")
+            await send_safe(bot.send_message(
+                chat_id=ADMIN_ID,
+                text=(
+                    f"⚠️ *CVU faltante — {nombre_g}*\n"
+                    f"Comprobante #{num}\n"
+                    f"👤 {remitente}\n"
+                    f"💰 {monto_fmt}\n"
+                    f"📅 {resultado.get('fecha','—')}\n"
+                    f"_CVU del receptor no encontrado en la imagen._"
+                ),
+                parse_mode="Markdown"
+            ))
     else:
         resultado["_motivo_error"] = motivo
         datos["errores"].append(resultado)
@@ -666,20 +643,20 @@ async def procesar_comprobante(image_bytes: bytes, mime: str, pie: str,
             f"_Avisá en el grupo para que corrijan los datos._"
         )
         # Notificar al admin por privado
-        try:
-            await bot.send_message(chat_id=ADMIN_ID, text=texto_error, parse_mode="Markdown")
-        except Exception as e:
-            log.error(f"Error notificando rechazo al admin: {e}")
+        await send_safe(bot.send_message(chat_id=ADMIN_ID, text=texto_error, parse_mode="Markdown"))
         # Avisar en el grupo
-        sent = await bot.send_message(
+        sent = await send_safe(bot.send_message(
             chat_id=chat_id,
             text=(
                 f"⛔ Comprobante #{num} rechazado — datos no coinciden.\n"
                 f"Por favor corregí respondiendo a este mensaje con el nombre y CUIL correcto."
             ),
             reply_to_message_id=chat_msg_id
-        )
-        mensajes_rechazo[(chat_id, sent.message_id)] = {"num": num, "chat_id": chat_id}
+        ))
+        if sent:
+            mensajes_rechazo[(chat_id, sent.message_id)] = {"num": num, "chat_id": chat_id}
+        await send_safe(bot.set_message_reaction(chat_id=chat_id, message_id=chat_msg_id, reaction=[ReactionTypeEmoji(emoji="❌")]))
+
 
 async def _subir_imagen_cloudinary(image_bytes: bytes, mime: str, resultado: dict, datos: dict):
     """Sube imagen a Cloudinary y guarda la URL en el registro."""
@@ -692,9 +669,9 @@ async def _subir_imagen_cloudinary(image_bytes: bytes, mime: str, resultado: dic
         resultado["_imagen_url"] = url
         guardar_store()
 
-# ── Tarea para procesar foto sin pie después de 60 segundos ──────────────────
+# ── Tarea para procesar foto sin pie después de 5 segundos ──────────────────
 async def procesar_sin_pie(key, app):
-    await asyncio.sleep(60)
+    await asyncio.sleep(5)
     if key not in esperando_pie:
         return
     pending = esperando_pie.pop(key)
@@ -704,7 +681,7 @@ async def procesar_sin_pie(key, app):
         "image_bytes": pending["image_bytes"], "mime": pending["mime"],
         "pie": pending.get("caption", ""), "chat_id": chat_id,
         "nombre_g": pending["nombre_g"], "origen": "grupo", "msg_id": msg_id,
-        "file_id": None
+        "file_id": pending.get("file_id")
     })
 
 # ── Tareas programadas ────────────────────────────────────────────────────────
@@ -1386,12 +1363,11 @@ async def procesar_album(key, app):
     caption  = grupo.get("caption", "")
     images   = grupo["images"]
 
-    for image_bytes, mime, msg_id in images:
-        # Get file_id from the message if available
+    for image_bytes, mime, msg_id, file_id in images:
         await encolar({
             "image_bytes": image_bytes, "mime": mime, "pie": caption,
             "chat_id": chat_id, "nombre_g": nombre_g, "origen": "grupo", "msg_id": msg_id,
-            "file_id": None
+            "file_id": file_id
         })
 
 async def handle_photo(update: Update, ctx: ContextTypes.DEFAULT_TYPE):
@@ -1429,7 +1405,8 @@ async def handle_photo(update: Update, ctx: ContextTypes.DEFAULT_TYPE):
             if caption:
                 media_groups[key]["caption"] = caption
 
-        media_groups[key]["images"].append((image_bytes, mime, msg_id))
+        file_id = msg.photo[-1].file_id if msg.photo else (msg.document.file_id if msg.document else None)
+        media_groups[key]["images"].append((image_bytes, mime, msg_id, file_id))
 
         # Cancelar timer anterior y crear uno nuevo
         if "timer" in media_groups[key]:
@@ -1450,7 +1427,8 @@ async def handle_photo(update: Update, ctx: ContextTypes.DEFAULT_TYPE):
         })
     else:
         key = (chat_id, msg_id)
-        esperando_pie[key] = {"image_bytes": image_bytes, "mime": mime, "caption": "", "nombre_g": nombre_g}
+        file_id_sin_pie = msg.photo[-1].file_id if msg.photo else (msg.document.file_id if msg.document else None)
+        esperando_pie[key] = {"image_bytes": image_bytes, "mime": mime, "caption": "", "nombre_g": nombre_g, "file_id": file_id_sin_pie}
         task = asyncio.create_task(procesar_sin_pie(key, ctx.application))
         esperando_pie[key]["task"] = task
 
@@ -1720,8 +1698,8 @@ async def main_async():
             redis_client = None
 
     log.info("🤖 Bot iniciado con verificación de pie")
-    # Iniciar workers de procesamiento (3 workers paralelos)
-    for _ in range(3):
+    # Iniciar workers de procesamiento (10 workers paralelos)
+    for _ in range(10):
         asyncio.create_task(worker_procesamiento(app))
     await app.initialize()
     await app.start()
