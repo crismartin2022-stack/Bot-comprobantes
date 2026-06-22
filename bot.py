@@ -550,6 +550,10 @@ async def procesar_comprobante(image_bytes: bytes, mime: str, pie: str,
             )
         except Exception as e:
             log.error(f"Error notificando timeout: {e}")
+        try:
+            await bot.set_message_reaction(chat_id=chat_id, message_id=chat_msg_id, reaction=[{"type": "emoji", "emoji": "❌"}])
+        except Exception:
+            pass
         return
 
     if coincide:
@@ -566,6 +570,10 @@ async def procesar_comprobante(image_bytes: bytes, mime: str, pie: str,
                 parse_mode="Markdown",
                 reply_to_message_id=chat_msg_id
             )
+            try:
+                await bot.set_message_reaction(chat_id=chat_id, message_id=chat_msg_id, reaction=[{"type": "emoji", "emoji": "🔁"}])
+            except Exception:
+                pass
             return
         datos["registros"].append(resultado)
         guardar_store()
@@ -590,6 +598,10 @@ async def procesar_comprobante(image_bytes: bytes, mime: str, pie: str,
             )
         except Exception as e:
             log.error(f"Error enviando confirmación: {e}")
+        try:
+            await bot.set_message_reaction(chat_id=chat_id, message_id=chat_msg_id, reaction=[{"type": "emoji", "emoji": "✅"}])
+        except Exception:
+            pass
         # Notificar al admin por privado si falta CVU
         if not cvu:
             try:
@@ -635,6 +647,10 @@ async def procesar_comprobante(image_bytes: bytes, mime: str, pie: str,
             reply_to_message_id=chat_msg_id
         )
         mensajes_rechazo[(chat_id, sent.message_id)] = {"num": num, "chat_id": chat_id}
+        try:
+            await bot.set_message_reaction(chat_id=chat_id, message_id=chat_msg_id, reaction=[{"type": "emoji", "emoji": "❌"}])
+        except Exception:
+            pass
 
 # ── Tarea para procesar foto sin pie después de 5 segundos ──────────────────
 async def procesar_sin_pie(key, app):
