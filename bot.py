@@ -140,6 +140,45 @@ def _guardar_github_sync(store_limpio: dict):
     except Exception as e:
         log.error(f"Error respaldo GitHub: {e}")
 
+async def subir_cloudinary(image_bytes: bytes, mime: str, public_id: str = None) -> str:
+    """Sube imagen a Cloudinary y retorna URL permanente. Retorna '' si falla."""
+    if not CLOUDINARY_CLOUD_NAME or not CLOUDINARY_API_KEY or not CLOUDINARY_API_SECRET:
+        log.warning("Cloudinary: variables de entorno no configuradas")
+        return ""
+    try:
+        import hashlib, time
+        timestamp = str(int(time.time()))
+        params = f"folder=comprobantes&timestamp={timestamp}"
+        if public_id:
+            params = f"folder=comprobantes&public_id={public_id}&timestamp={timestamp}"
+        signature = hashlib.sha1(f"{params}{CLOUDINARY_API_SECRET}".encode()).hexdigest()
+        ext = "jpg" if "jpeg" in mime else mime.split("/")[-1]
+        data = {
+            "api_key": CLOUDINARY_API_KEY,
+            "timestamp": timestamp,
+            "signature": signature,
+            "folder": "comprobantes",
+        }
+        if public_id:
+            data["public_id"] = public_id
+        files = {"file": (f"comprobante.{ext}", image_bytes, mime)}
+        async with httpx.AsyncClient(timeout=20) as client:
+            resp = await client.post(
+                f"https://api.cloudinary.com/v1_1/{CLOUDINARY_CLOUD_NAME}/image/upload",
+                files=files,
+                data=data
+            )
+        if resp.status_code == 200:
+            url = resp.json().get("secure_url", "")
+            log.info(f"Cloudinary ✅ {url}")
+            return url
+        else:
+            log.error(f"Cloudinary error {resp.status_code}: {resp.text[:300]}")
+            return ""
+    except Exception as e:
+        log.error(f"Error subiendo a Cloudinary: {e}")
+        return ""
+
 def cargar_store():
     """Carga el store desde Volume. Si no existe, intenta desde GitHub."""
     global store, received_log
