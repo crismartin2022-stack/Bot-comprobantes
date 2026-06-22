@@ -14,7 +14,8 @@ from apscheduler.triggers.cron import CronTrigger
 from openpyxl import Workbook
 from openpyxl.styles import Font, PatternFill, Alignment, Border, Side
 from openpyxl.utils import get_column_letter
-from telegram import Update, InlineKeyboardButton, InlineKeyboardMarkup
+from telegram import Update, InlineKeyboardButton, InlineKeyboardMarkup, ReactionTypeEmoji
+from telegram.error import RetryAfter, TimedOut, NetworkError
 from telegram.ext import (
     Application, CommandHandler, MessageHandler,
     filters, ContextTypes, CallbackQueryHandler
@@ -25,6 +26,24 @@ logging.basicConfig(format="%(asctime)s | %(levelname)s | %(message)s", level=lo
 log = logging.getLogger(__name__)
 logging.getLogger("httpx").setLevel(logging.WARNING)
 logging.getLogger("httpcore").setLevel(logging.WARNING)
+
+# ── Helper flood control ──────────────────────────────────────────────────────
+async def send_safe(coro, retries=3):
+    """Ejecuta una corrutina de Telegram manejando flood control y timeouts."""
+    for attempt in range(retries):
+        try:
+            return await coro
+        except RetryAfter as e:
+            wait = e.retry_after + 1
+            log.warning(f"Flood control: esperando {wait}s (intento {attempt+1})")
+            await asyncio.sleep(wait)
+        except (TimedOut, NetworkError) as e:
+            log.warning(f"Error de red Telegram: {e} (intento {attempt+1})")
+            await asyncio.sleep(2)
+        except Exception as e:
+            log.error(f"Error enviando mensaje Telegram: {e}")
+            return None
+    return None
 
 # ── Config ────────────────────────────────────────────────────────────────────
 TELEGRAM_TOKEN = os.environ["TELEGRAM_TOKEN"]
@@ -542,18 +561,12 @@ async def procesar_comprobante(image_bytes: bytes, mime: str, pie: str,
         resultado["_motivo_error"] = "Error de conexión con IA — reintentá más tarde"
         datos["errores"].append(resultado)
         guardar_store()
-        try:
-            await bot.send_message(
-                chat_id=chat_id,
-                text=f"⚠️ Comprobante #{num} no procesado — error de conexión. Reenvialo.",
-                reply_to_message_id=chat_msg_id
-            )
-        except Exception as e:
-            log.error(f"Error notificando timeout: {e}")
-        try:
-            await bot.set_message_reaction(chat_id=chat_id, message_id=chat_msg_id, reaction=[{"type": "emoji", "emoji": "❌"}])
-        except Exception:
-            pass
+        await send_safe(bot.send_message(
+            chat_id=chat_id,
+            text=f"⚠️ Comprobante #{num} no procesado — error de conexión. Reenvialo.",
+            reply_to_message_id=chat_msg_id
+        ))
+        await send_safe(bot.set_message_reaction(chat_id=chat_id, message_id=chat_msg_id, reaction=[ReactionTypeEmoji(emoji="❌")]))
         return
 
     if coincide:
@@ -564,16 +577,13 @@ async def procesar_comprobante(image_bytes: bytes, mime: str, pie: str,
             guardar_store()
             monto = resultado.get("monto")
             monto_fmt = f"${float(monto):,.0f}" if monto else "—"
-            await bot.send_message(
+            await send_safe(bot.send_message(
                 chat_id=chat_id,
                 text=f"🔁 *Comprobante duplicado* — no se suma\n💰 {monto_fmt} | 👤 {resultado.get('remitente','—')}",
                 parse_mode="Markdown",
                 reply_to_message_id=chat_msg_id
-            )
-            try:
-                await bot.set_message_reaction(chat_id=chat_id, message_id=chat_msg_id, reaction=[{"type": "emoji", "emoji": "🔁"}])
-            except Exception:
-                pass
+            ))
+            await send_safe(bot.set_message_reaction(chat_id=chat_id, message_id=chat_msg_id, reaction=[ReactionTypeEmoji(emoji="🔁")]))
             return
         datos["registros"].append(resultado)
         guardar_store()
@@ -590,35 +600,26 @@ async def procesar_comprobante(image_bytes: bytes, mime: str, pie: str,
         cuil = (resultado.get("remitente_cuil") or "").strip()
         cvu_txt = f"****{cvu}" if cvu else "⚠️ Sin CVU"
         cuil_txt = f" | DNI/CUIL: {cuil}" if cuil else ""
-        try:
-            await bot.send_message(
-                chat_id=chat_id,
-                text=f"✅ #{num} | {remitente}{cuil_txt} | {monto_fmt} | {cvu_txt}",
-                reply_to_message_id=chat_msg_id
-            )
-        except Exception as e:
-            log.error(f"Error enviando confirmación: {e}")
-        try:
-            await bot.set_message_reaction(chat_id=chat_id, message_id=chat_msg_id, reaction=[{"type": "emoji", "emoji": "✅"}])
-        except Exception:
-            pass
+        await send_safe(bot.send_message(
+            chat_id=chat_id,
+            text=f"✅ #{num} | {remitente}{cuil_txt} | {monto_fmt} | {cvu_txt}",
+            reply_to_message_id=chat_msg_id
+        ))
+        await send_safe(bot.set_message_reaction(chat_id=chat_id, message_id=chat_msg_id, reaction=[ReactionTypeEmoji(emoji="✅")]))
         # Notificar al admin por privado si falta CVU
         if not cvu:
-            try:
-                await bot.send_message(
-                    chat_id=ADMIN_ID,
-                    text=(
-                        f"⚠️ *CVU faltante — {nombre_g}*\n"
-                        f"Comprobante #{num}\n"
-                        f"👤 {remitente}\n"
-                        f"💰 {monto_fmt}\n"
-                        f"📅 {resultado.get('fecha','—')}\n"
-                        f"_CVU del receptor no encontrado en la imagen._"
-                    ),
-                    parse_mode="Markdown"
-                )
-            except Exception as e:
-                log.error(f"Error notificando CVU faltante: {e}")
+            await send_safe(bot.send_message(
+                chat_id=ADMIN_ID,
+                text=(
+                    f"⚠️ *CVU faltante — {nombre_g}*\n"
+                    f"Comprobante #{num}\n"
+                    f"👤 {remitente}\n"
+                    f"💰 {monto_fmt}\n"
+                    f"📅 {resultado.get('fecha','—')}\n"
+                    f"_CVU del receptor no encontrado en la imagen._"
+                ),
+                parse_mode="Markdown"
+            ))
     else:
         resultado["_motivo_error"] = motivo
         datos["errores"].append(resultado)
@@ -633,22 +634,19 @@ async def procesar_comprobante(image_bytes: bytes, mime: str, pie: str,
             f"_Avisá en el grupo para que corrijan los datos._"
         )
         # Notificar al admin por privado
-        try:
-            await bot.send_message(chat_id=ADMIN_ID, text=texto_error, parse_mode="Markdown")
-        except Exception as e:
-            log.error(f"Error notificando rechazo al admin: {e}")
+        await send_safe(bot.send_message(chat_id=ADMIN_ID, text=texto_error, parse_mode="Markdown"))
         # Avisar en el grupo
-        sent = await bot.send_message(
+        sent = await send_safe(bot.send_message(
             chat_id=chat_id,
             text=(
                 f"⛔ Comprobante #{num} rechazado — datos no coinciden.\n"
                 f"Por favor corregí respondiendo a este mensaje con el nombre y CUIL correcto."
             ),
             reply_to_message_id=chat_msg_id
-        )
-        mensajes_rechazo[(chat_id, sent.message_id)] = {"num": num, "chat_id": chat_id}
-        try:
-            await bot.set_message_reaction(chat_id=chat_id, message_id=chat_msg_id, reaction=[{"type": "emoji", "emoji": "❌"}])
+        ))
+        if sent:
+            mensajes_rechazo[(chat_id, sent.message_id)] = {"num": num, "chat_id": chat_id}
+        await send_safe(bot.set_message_reaction(chat_id=chat_id, message_id=chat_msg_id, reaction=[ReactionTypeEmoji(emoji="❌")]))
         except Exception:
             pass
 
