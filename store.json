@@ -18775,7 +18775,8 @@
         "_num": 648,
         "_fecha_carga": "22/06/2026 19:22",
         "_origen": "grupo",
-        "_pie": "Valeria Soledad abba \n27-26426851-1"
+        "_pie": "Valeria Soledad abba \n27-26426851-1",
+        "_imagen_url": "https://res.cloudinary.com/drz11thh3/image/upload/v1782166945/comprobantes/Xxxxxpro_y_Api_Agi_num648_22-06-2026_19-22.jpg"
       },
       {
         "fecha": "20/06/2026",
@@ -18797,7 +18798,8 @@
         "_num": 649,
         "_fecha_carga": "22/06/2026 19:22",
         "_origen": "grupo",
-        "_pie": ""
+        "_pie": "",
+        "_imagen_url": "https://res.cloudinary.com/drz11thh3/image/upload/v1782166945/comprobantes/Xxxxxpro_y_Api_Agi_num649_22-06-2026_19-22.jpg"
       },
       {
         "fecha": "19/06/2026",
@@ -18819,7 +18821,8 @@
         "_num": 650,
         "_fecha_carga": "22/06/2026 19:22",
         "_origen": "grupo",
-        "_pie": "Luciana Alvarenga \n95029202"
+        "_pie": "Luciana Alvarenga \n95029202",
+        "_imagen_url": "https://res.cloudinary.com/drz11thh3/image/upload/v1782166945/comprobantes/Xxxxxpro_y_Api_Agi_num650_22-06-2026_19-22.jpg"
       },
       {
         "fecha": "20/06/2026",
@@ -18841,7 +18844,77 @@
         "_num": 651,
         "_fecha_carga": "22/06/2026 19:22",
         "_origen": "grupo",
-        "_pie": ""
+        "_pie": "",
+        "_imagen_url": "https://res.cloudinary.com/drz11thh3/image/upload/v1782166945/comprobantes/Xxxxxpro_y_Api_Agi_num651_22-06-2026_19-22.jpg"
+      },
+      {
+        "fecha": "19/06/2026",
+        "hora": "23:13",
+        "tipo": "TRF",
+        "monto": 300000.0,
+        "moneda": "ARS",
+        "remitente": "Erica Gisele Nimo",
+        "remitente_cuil": "23-33055086-4",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Ualá",
+        "banco_destino": "",
+        "referencia": "RD06ZO9WVRWQZV75N5GP7X",
+        "concepto": "VAR",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CUIT destino: 30717282252. CBU destino completo: 0000155300000000009977",
+        "_num": 652,
+        "_fecha_carga": "22/06/2026 19:22",
+        "_origen": "grupo",
+        "_pie": "Erica nimo \n23-33055086-4",
+        "_imagen_url": "https://res.cloudinary.com/drz11thh3/image/upload/v1782166947/comprobantes/Xxxxxpro_y_Api_Agi_num652_22-06-2026_19-22.jpg"
+      },
+      {
+        "fecha": "20/06/2026",
+        "hora": "00:37",
+        "tipo": "TRF",
+        "monto": 125000.0,
+        "moneda": "ARS",
+        "remitente": "luciana alvarenga",
+        "remitente_cuil": "95029202",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Ualá",
+        "banco_destino": "",
+        "referencia": "JMQKYZ9QQV7YGEJP9V50P3",
+        "concepto": "VAR",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CUIT destino: 30717282252. CBU destino completo: 0000155300000000009977",
+        "_num": 653,
+        "_fecha_carga": "22/06/2026 19:22",
+        "_origen": "grupo",
+        "_pie": "Luciana Alvarenga \n95029202",
+        "_imagen_url": "https://res.cloudinary.com/drz11thh3/image/upload/v1782166948/comprobantes/Xxxxxpro_y_Api_Agi_num653_22-06-2026_19-22.jpg"
+      },
+      {
+        "fecha": "20/06/2026",
+        "hora": "17:37",
+        "tipo": "TRF",
+        "monto": 75000.0,
+        "moneda": "ARS",
+        "remitente": "Valdez, Leandro Alberto",
+        "remitente_cuil": "20-34461289-8",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Personal Pay",
+        "banco_destino": "",
+        "referencia": "2765291113",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CoelsaID: JMQKYZ9QQVRMGPD89V50P3 - Id Bancario. CBU/CVU destinatario: 0000155300000000009977. CUIL/CUIT destinatario (Sasteup Srl): 30-71728225-2.",
+        "_num": 654,
+        "_fecha_carga": "22/06/2026 19:22",
+        "_origen": "grupo",
+        "_pie": "",
+        "_imagen_url": "https://res.cloudinary.com/drz11thh3/image/upload/v1782166948/comprobantes/Xxxxxpro_y_Api_Agi_num654_22-06-2026_19-22.jpg"
       }
     ],
     "errores": [],
