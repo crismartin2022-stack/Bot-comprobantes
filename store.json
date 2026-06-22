@@ -7237,7 +7237,8 @@
         "_num": 147,
         "_fecha_carga": "22/06/2026 20:56",
         "_origen": "grupo",
-        "_pie": "Vicente Antonio Montiel\n20921617845"
+        "_pie": "Vicente Antonio Montiel\n20921617845",
+        "_imagen_url": "https://res.cloudinary.com/drz11thh3/image/upload/v1782172604/comprobantes/Xxxxxpro_y_Api_Agi_num147_22-06-2026_20-56.jpg"
       },
       {
         "fecha": "19/06/2026",
@@ -7259,7 +7260,8 @@
         "_num": 148,
         "_fecha_carga": "22/06/2026 20:56",
         "_origen": "grupo",
-        "_pie": "Agustin Daniel Paz\nCUIT/CUIL: 20-41163142-8"
+        "_pie": "Agustin Daniel Paz\nCUIT/CUIL: 20-41163142-8",
+        "_imagen_url": "https://res.cloudinary.com/drz11thh3/image/upload/v1782172604/comprobantes/Xxxxxpro_y_Api_Agi_num148_22-06-2026_20-56.jpg"
       },
       {
         "fecha": "19/06/2026",
@@ -7281,7 +7283,8 @@
         "_num": 149,
         "_fecha_carga": "22/06/2026 20:56",
         "_origen": "grupo",
-        "_pie": "Hector Fabian Talavera Barreto\nCUIT/CUIL: 20-94823970-2"
+        "_pie": "Hector Fabian Talavera Barreto\nCUIT/CUIL: 20-94823970-2",
+        "_imagen_url": "https://res.cloudinary.com/drz11thh3/image/upload/v1782172604/comprobantes/Xxxxxpro_y_Api_Agi_num149_22-06-2026_20-56.jpg"
       },
       {
         "fecha": "19/06/2026",
@@ -7303,7 +7306,8 @@
         "_num": 150,
         "_fecha_carga": "22/06/2026 20:56",
         "_origen": "grupo",
-        "_pie": "Rosalia Del Carmen Medina\nCUIT/CUIL: 27-14516073-7"
+        "_pie": "Rosalia Del Carmen Medina\nCUIT/CUIL: 27-14516073-7",
+        "_imagen_url": "https://res.cloudinary.com/drz11thh3/image/upload/v1782172604/comprobantes/Xxxxxpro_y_Api_Agi_num150_22-06-2026_20-56.jpg"
       },
       {
         "fecha": "19/06/2026",
@@ -7325,7 +7329,76 @@
         "_num": 151,
         "_fecha_carga": "22/06/2026 20:56",
         "_origen": "grupo",
-        "_pie": "Maria Cecilia Cruz \n36.790.811"
+        "_pie": "Maria Cecilia Cruz \n36.790.811",
+        "_imagen_url": "https://res.cloudinary.com/drz11thh3/image/upload/v1782172604/comprobantes/Xxxxxpro_y_Api_Agi_num151_22-06-2026_20-56.jpg"
+      },
+      {
+        "fecha": "19/06/2026",
+        "hora": "21:16",
+        "tipo": "TRF",
+        "monto": 200001.0,
+        "moneda": "ARS",
+        "remitente": "Brian David Munoz",
+        "remitente_cuil": "20-44141951-2",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "164952329014",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: Z4K6DVNOWYM18KYM25J8LQ. CVU origen: 0000003100089189160967. CVU destino: 0000155300000000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 152,
+        "_fecha_carga": "22/06/2026 20:56",
+        "_origen": "grupo",
+        "_pie": "Brian David Munoz\nCUIT/CUIL: 20-44141951-2",
+        "_imagen_url": "https://res.cloudinary.com/drz11thh3/image/upload/v1782172609/comprobantes/Xxxxxpro_y_Api_Agi_num152_22-06-2026_20-56.jpg"
+      },
+      {
+        "fecha": "19/06/2026",
+        "hora": "21:17",
+        "tipo": "TRF",
+        "monto": 200000.0,
+        "moneda": "ARS",
+        "remitente": "Rolando Adrian Martinez",
+        "remitente_cuil": "20-40625278-8",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Ualá",
+        "banco_destino": "",
+        "referencia": "L18MKX9RXJOKQM54906WYV",
+        "concepto": "VAR",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CBU destino: 0000155300000000009977. CUIT destino: 30717282252 (pertenece al destinatario Sasteup Srl, no al remitente). No se visualiza CUIL del remitente en el comprobante.",
+        "_num": 153,
+        "_fecha_carga": "22/06/2026 20:56",
+        "_origen": "grupo",
+        "_pie": "ROLANDO ADRIAN MARTINEZ\nCUIT/CUIL: 20-40625278-8",
+        "_imagen_url": "https://res.cloudinary.com/drz11thh3/image/upload/v1782172611/comprobantes/Xxxxxpro_y_Api_Agi_num153_22-06-2026_20-56.jpg"
+      },
+      {
+        "fecha": "19/06/2026",
+        "hora": "21:21",
+        "tipo": "TRF",
+        "monto": 80000.0,
+        "moneda": "ARS",
+        "remitente": "Juan Elias Marquez De Olivera",
+        "remitente_cuil": "20-36520946-5",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "164132914079",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: 0V1JXON1LM3E7PZGNZ64EL. CVU origen: 0000003100081086392324. CVU destino: 0000155300000000000009977.",
+        "_num": 154,
+        "_fecha_carga": "22/06/2026 20:57",
+        "_origen": "grupo",
+        "_pie": "Juan Elias Marquez De Olivera\nCUIT/CUIL: 20-36520946-5"
       }
     ],
     "errores": [],
