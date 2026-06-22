@@ -716,9 +716,9 @@ async def procesar_comprobante(image_bytes: bytes, mime: str, pie: str,
 async def _subir_imagen_cloudinary(image_bytes: bytes, mime: str, resultado: dict, datos: dict):
     """Sube imagen a Cloudinary y guarda la URL en el registro."""
     num = resultado.get("_num", "x")
-    nombre = datos.get("nombre", "grupo").replace(" ", "_")
+    nombre = datos.get("nombre", "grupo").replace(" ", "_").replace("-", "_")
     fecha = resultado.get("_fecha_carga", "").replace("/", "-").replace(" ", "_").replace(":", "-")
-    public_id = f"{nombre}_#{num}_{fecha}"
+    public_id = f"{nombre}_num{num}_{fecha}"
     url = await subir_cloudinary(image_bytes, mime, public_id)
     if url:
         resultado["_imagen_url"] = url
