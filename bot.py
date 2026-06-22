@@ -29,11 +29,13 @@ logging.getLogger("httpcore").setLevel(logging.WARNING)
 
 
 # ── Helper flood control ──────────────────────────────────────────────────────
-async def send_safe(coro, retries=3):
-    """Ejecuta una corrutina de Telegram manejando flood control y timeouts."""
+async def send_safe(coro_fn, retries=3):
+    """Ejecuta una función que retorna corrutina, manejando flood control.
+    Pasar como lambda: send_safe(lambda: bot.send_message(...))
+    """
     for attempt in range(retries):
         try:
-            return await coro
+            return await coro_fn()
         except RetryAfter as e:
             wait = e.retry_after + 1
             log.warning(f"Flood control: esperando {wait}s (intento {attempt+1})")
@@ -45,6 +47,17 @@ async def send_safe(coro, retries=3):
             log.error(f"Error enviando mensaje Telegram: {e}")
             return None
     return None
+
+async def reaccionar(bot, chat_id: int, msg_id: int, emoji: str):
+    """Pone una reacción en un mensaje, ignorando errores silenciosamente."""
+    try:
+        await bot.set_message_reaction(
+            chat_id=chat_id,
+            message_id=msg_id,
+            reaction=[ReactionTypeEmoji(emoji=emoji)]
+        )
+    except Exception as e:
+        log.warning(f"Reacción {emoji} no aplicada: {e}")
 
 # ── Config ────────────────────────────────────────────────────────────────────
 TELEGRAM_TOKEN = os.environ["TELEGRAM_TOKEN"]
@@ -568,12 +581,12 @@ async def procesar_comprobante(image_bytes: bytes, mime: str, pie: str,
         resultado["_motivo_error"] = "Error de conexión con IA — reintentá más tarde"
         datos["errores"].append(resultado)
         guardar_store()
-        await send_safe(bot.send_message(
+        await send_safe(lambda: bot.send_message(
             chat_id=chat_id,
             text=f"⚠️ Comprobante #{num} no procesado — error de conexión. Reenvialo.",
             reply_to_message_id=chat_msg_id
         ))
-        await send_safe(bot.set_message_reaction(chat_id=chat_id, message_id=chat_msg_id, reaction=[ReactionTypeEmoji(emoji="❌")]))
+        await reaccionar(bot, chat_id, chat_msg_id, "❌")
         return
 
     if coincide:
@@ -584,13 +597,13 @@ async def procesar_comprobante(image_bytes: bytes, mime: str, pie: str,
             guardar_store()
             monto = resultado.get("monto")
             monto_fmt = f"${float(monto):,.0f}" if monto else "—"
-            await send_safe(bot.send_message(
+            await send_safe(lambda: bot.send_message(
                 chat_id=chat_id,
                 text=f"🔁 *Comprobante duplicado* — no se suma\n💰 {monto_fmt} | 👤 {resultado.get('remitente','—')}",
                 parse_mode="Markdown",
                 reply_to_message_id=chat_msg_id
             ))
-            await send_safe(bot.set_message_reaction(chat_id=chat_id, message_id=chat_msg_id, reaction=[ReactionTypeEmoji(emoji="🔁")]))
+            await reaccionar(bot, chat_id, chat_msg_id, "🔁")
             return
         datos["registros"].append(resultado)
         guardar_store()
@@ -609,15 +622,15 @@ async def procesar_comprobante(image_bytes: bytes, mime: str, pie: str,
         cuil = (resultado.get("remitente_cuil") or "").strip()
         cvu_txt = f"****{cvu}" if cvu else "⚠️ Sin CVU"
         cuil_txt = f" | DNI/CUIL: {cuil}" if cuil else ""
-        await send_safe(bot.send_message(
+        await send_safe(lambda: bot.send_message(
             chat_id=chat_id,
             text=f"✅ #{num} | {remitente}{cuil_txt} | {monto_fmt} | {cvu_txt}",
             reply_to_message_id=chat_msg_id
         ))
-        await send_safe(bot.set_message_reaction(chat_id=chat_id, message_id=chat_msg_id, reaction=[ReactionTypeEmoji(emoji="👍")]))
+        await reaccionar(bot, chat_id, chat_msg_id, "👍")
         # Notificar al admin por privado si falta CVU
         if not cvu:
-            await send_safe(bot.send_message(
+            await send_safe(lambda: bot.send_message(
                 chat_id=ADMIN_ID,
                 text=(
                     f"⚠️ *CVU faltante — {nombre_g}*\n"
@@ -643,9 +656,9 @@ async def procesar_comprobante(image_bytes: bytes, mime: str, pie: str,
             f"_Avisá en el grupo para que corrijan los datos._"
         )
         # Notificar al admin por privado
-        await send_safe(bot.send_message(chat_id=ADMIN_ID, text=texto_error, parse_mode="Markdown"))
+        await send_safe(lambda: bot.send_message(chat_id=ADMIN_ID, text=texto_error, parse_mode="Markdown"))
         # Avisar en el grupo
-        sent = await send_safe(bot.send_message(
+        sent = await send_safe(lambda: bot.send_message(
             chat_id=chat_id,
             text=(
                 f"⛔ Comprobante #{num} rechazado — datos no coinciden.\n"
@@ -655,7 +668,7 @@ async def procesar_comprobante(image_bytes: bytes, mime: str, pie: str,
         ))
         if sent:
             mensajes_rechazo[(chat_id, sent.message_id)] = {"num": num, "chat_id": chat_id}
-        await send_safe(bot.set_message_reaction(chat_id=chat_id, message_id=chat_msg_id, reaction=[ReactionTypeEmoji(emoji="❌")]))
+        await reaccionar(bot, chat_id, chat_msg_id, "❌")
 
 
 async def _subir_imagen_cloudinary(image_bytes: bytes, mime: str, resultado: dict, datos: dict):
