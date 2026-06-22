@@ -5210,7 +5210,8 @@
         "_num": 59,
         "_fecha_carga": "22/06/2026 18:21",
         "_origen": "grupo",
-        "_pie": ""
+        "_pie": "",
+        "_imagen_url": "https://res.cloudinary.com/drz11thh3/image/upload/v1782163270/comprobantes/Xxxxxpro_y_Api_Agi_num59_22-06-2026_18-21.jpg"
       },
       {
         "fecha": "19/06/2026",
@@ -5232,7 +5233,8 @@
         "_num": 60,
         "_fecha_carga": "22/06/2026 18:21",
         "_origen": "grupo",
-        "_pie": ""
+        "_pie": "",
+        "_imagen_url": "https://res.cloudinary.com/drz11thh3/image/upload/v1782163270/comprobantes/Xxxxxpro_y_Api_Agi_num60_22-06-2026_18-21.jpg"
       },
       {
         "fecha": "19/06/2026",
@@ -5254,7 +5256,8 @@
         "_num": 61,
         "_fecha_carga": "22/06/2026 18:21",
         "_origen": "grupo",
-        "_pie": ""
+        "_pie": "",
+        "_imagen_url": "https://res.cloudinary.com/drz11thh3/image/upload/v1782163271/comprobantes/Xxxxxpro_y_Api_Agi_num61_22-06-2026_18-21.jpg"
       },
       {
         "fecha": "19/06/2026",
@@ -5276,7 +5279,8 @@
         "_num": 62,
         "_fecha_carga": "22/06/2026 18:21",
         "_origen": "grupo",
-        "_pie": ""
+        "_pie": "",
+        "_imagen_url": "https://res.cloudinary.com/drz11thh3/image/upload/v1782163271/comprobantes/Xxxxxpro_y_Api_Agi_num62_22-06-2026_18-21.jpg"
       },
       {
         "fecha": "19/06/2026",
@@ -5297,6 +5301,75 @@
         "notas": "Código de identificación: 46YGOW9M1K5GWWG8NEXD8J. CVU origen: 0000003100015881892839. CVU destino: 0000155300000000009977",
         "_num": 63,
         "_fecha_carga": "22/06/2026 18:21",
+        "_origen": "grupo",
+        "_pie": "",
+        "_imagen_url": "https://res.cloudinary.com/drz11thh3/image/upload/v1782163271/comprobantes/Xxxxxpro_y_Api_Agi_num63_22-06-2026_18-21.jpg"
+      },
+      {
+        "fecha": "19/06/2026",
+        "hora": "16:13",
+        "tipo": "TRF",
+        "monto": 22400.0,
+        "moneda": "ARS",
+        "remitente": "Marina Lorena Salazar",
+        "remitente_cuil": "27-27408577-6",
+        "destinatario": "SASTEUP SRL",
+        "banco_origen": "Brubank",
+        "banco_destino": "",
+        "referencia": "",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Transferencia enviada desde Caja de ahorro en Pesos en Brubank. CVU destino: 0000155300000000009977. CUIT destinatario: 30-71728225-2",
+        "_num": 64,
+        "_fecha_carga": "22/06/2026 18:23",
+        "_origen": "grupo",
+        "_pie": "",
+        "_imagen_url": "https://res.cloudinary.com/drz11thh3/image/upload/v1782163415/comprobantes/Xxxxxpro_y_Api_Agi_num64_22-06-2026_18-23.jpg"
+      },
+      {
+        "fecha": "19/06/2026",
+        "hora": "22:01",
+        "tipo": "TRF",
+        "monto": 50000.0,
+        "moneda": "ARS",
+        "remitente": "Betina Haydee Vivas",
+        "remitente_cuil": "27-21767141-3",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "164140936381",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: Z4K6DVNOWYMLVV7425J8LQ. CVU origen: 0000003100022555913345. CVU destino: 0000155300000000009977. CUIT/CUIL destinatario: 30-71728225-2.",
+        "_num": 65,
+        "_fecha_carga": "22/06/2026 18:23",
+        "_origen": "grupo",
+        "_pie": "",
+        "_imagen_url": "https://res.cloudinary.com/drz11thh3/image/upload/v1782163415/comprobantes/Xxxxxpro_y_Api_Agi_num65_22-06-2026_18-23.jpg"
+      },
+      {
+        "fecha": "19/06/2026",
+        "hora": "16:38",
+        "tipo": "TRF",
+        "monto": 12000.0,
+        "moneda": "ARS",
+        "remitente": "Emilce Liliana Otero",
+        "remitente_cuil": "27-36381879-5",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "164900056610",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: 3D5W612E6ZGW835L2GXYVR. CVU origen: 0000003100058856054715. CVU destino: 0000155300000000000009977. CUIT destinatario: 30-71728225-2",
+        "_num": 66,
+        "_fecha_carga": "22/06/2026 18:23",
         "_origen": "grupo",
         "_pie": ""
       }
