@@ -20322,7 +20322,8 @@
         "_num": 715,
         "_fecha_carga": "23/06/2026 02:01",
         "_origen": "grupo",
-        "_pie": "Foto de Ges"
+        "_pie": "Foto de Ges",
+        "_imagen_url": "https://res.cloudinary.com/drz11thh3/image/upload/v1782190890/comprobantes/Xxxxxpro_y_Api_Agi_num715_23-06-2026_02-01.jpg"
       },
       {
         "fecha": "10/06/2026",
@@ -20344,7 +20345,8 @@
         "_num": 716,
         "_fecha_carga": "23/06/2026 02:01",
         "_origen": "grupo",
-        "_pie": "Foto de Ges"
+        "_pie": "Foto de Ges",
+        "_imagen_url": "https://res.cloudinary.com/drz11thh3/image/upload/v1782190890/comprobantes/Xxxxxpro_y_Api_Agi_num716_23-06-2026_02-01.jpg"
       },
       {
         "fecha": "10/06/2026",
@@ -20366,7 +20368,8 @@
         "_num": 717,
         "_fecha_carga": "23/06/2026 02:01",
         "_origen": "grupo",
-        "_pie": "Foto de Ges"
+        "_pie": "Foto de Ges",
+        "_imagen_url": "https://res.cloudinary.com/drz11thh3/image/upload/v1782190890/comprobantes/Xxxxxpro_y_Api_Agi_num717_23-06-2026_02-01.jpg"
       },
       {
         "fecha": "10/06/2026",
@@ -20388,7 +20391,8 @@
         "_num": 718,
         "_fecha_carga": "23/06/2026 02:01",
         "_origen": "grupo",
-        "_pie": "Foto de Ges"
+        "_pie": "Foto de Ges",
+        "_imagen_url": "https://res.cloudinary.com/drz11thh3/image/upload/v1782190890/comprobantes/Xxxxxpro_y_Api_Agi_num718_23-06-2026_02-01.jpg"
       },
       {
         "fecha": "10/06/2026",
@@ -20408,6 +20412,75 @@
         "tiene_remitente": true,
         "notas": "Código de identificación: 0V1JXON1LW3ZMZM7NZ64EL. CVU origen: 0000003100037583978075. CVU destino: 0000155300000000009977",
         "_num": 719,
+        "_fecha_carga": "23/06/2026 02:01",
+        "_origen": "grupo",
+        "_pie": "Foto de Ges",
+        "_imagen_url": "https://res.cloudinary.com/drz11thh3/image/upload/v1782190890/comprobantes/Xxxxxpro_y_Api_Agi_num719_23-06-2026_02-01.jpg"
+      },
+      {
+        "fecha": "10/06/2026",
+        "hora": "19:15",
+        "tipo": "TRF",
+        "monto": 100000.0,
+        "moneda": "ARS",
+        "remitente": "Eva Cecilia Gaitan Rojas",
+        "remitente_cuil": "27-26266877-6",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "162715584789",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: RD06ZO9WV7W78KV7N5GP7X. CVU origen: 0000003100079066675200. CVU destino: 0000155300000000009977.",
+        "_num": 720,
+        "_fecha_carga": "23/06/2026 02:01",
+        "_origen": "grupo",
+        "_pie": "Foto de Ges",
+        "_imagen_url": "https://res.cloudinary.com/drz11thh3/image/upload/v1782190894/comprobantes/Xxxxxpro_y_Api_Agi_num720_23-06-2026_02-01.jpg"
+      },
+      {
+        "fecha": "10/06/2026",
+        "hora": "19:29",
+        "tipo": "TRF",
+        "monto": 20000.0,
+        "moneda": "ARS",
+        "remitente": "Evelin Soledad Saavedra",
+        "remitente_cuil": "27-37929781-7",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163524788198",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: D4RO172VZGRQVZZVNKJ3QE. CVU remitente: 0000003100057399580800. CVU destinatario: 0000155300000000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 721,
+        "_fecha_carga": "23/06/2026 02:01",
+        "_origen": "grupo",
+        "_pie": "Foto de Ges",
+        "_imagen_url": "https://res.cloudinary.com/drz11thh3/image/upload/v1782190895/comprobantes/Xxxxxpro_y_Api_Agi_num721_23-06-2026_02-01.jpg"
+      },
+      {
+        "fecha": "10/06/2026",
+        "hora": "19:34",
+        "tipo": "TRF",
+        "monto": 20000.0,
+        "moneda": "ARS",
+        "remitente": "Evelin Soledad Saavedra",
+        "remitente_cuil": "27-37929781-7",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163525524428",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: 8D0Q619L04JWXR18N7JZ5R. CVU remitente: 0000003100057399580800. CVU destinatario: 0000155300000000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 722,
         "_fecha_carga": "23/06/2026 02:01",
         "_origen": "grupo",
         "_pie": "Foto de Ges"
