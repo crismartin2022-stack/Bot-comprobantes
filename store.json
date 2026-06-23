@@ -55558,7 +55558,8 @@
         "_num": 2244,
         "_fecha_carga": "23/06/2026 03:31",
         "_origen": "grupo",
-        "_pie": "Jorge Leonel Villalba \n45228847"
+        "_pie": "Jorge Leonel Villalba \n45228847",
+        "_imagen_url": "https://res.cloudinary.com/drz11thh3/image/upload/v1782196287/comprobantes/Xxxxxpro_y_Api_Agi_num2244_23-06-2026_03-31.jpg"
       },
       {
         "fecha": "15/06/2026",
@@ -55580,7 +55581,8 @@
         "_num": 2245,
         "_fecha_carga": "23/06/2026 03:31",
         "_origen": "grupo",
-        "_pie": "Mario zuniga 38813758"
+        "_pie": "Mario zuniga 38813758",
+        "_imagen_url": "https://res.cloudinary.com/drz11thh3/image/upload/v1782196287/comprobantes/Xxxxxpro_y_Api_Agi_num2245_23-06-2026_03-31.jpg"
       },
       {
         "fecha": "15/06/2026",
@@ -55602,7 +55604,8 @@
         "_num": 2246,
         "_fecha_carga": "23/06/2026 03:31",
         "_origen": "grupo",
-        "_pie": "Federico nunez \n44223196"
+        "_pie": "Federico nunez \n44223196",
+        "_imagen_url": "https://res.cloudinary.com/drz11thh3/image/upload/v1782196287/comprobantes/Xxxxxpro_y_Api_Agi_num2246_23-06-2026_03-31.jpg"
       },
       {
         "fecha": "15/06/2026",
@@ -55624,7 +55627,77 @@
         "_num": 2247,
         "_fecha_carga": "23/06/2026 03:31",
         "_origen": "grupo",
-        "_pie": "David Guillenea\n25220652"
+        "_pie": "David Guillenea\n25220652",
+        "_imagen_url": "https://res.cloudinary.com/drz11thh3/image/upload/v1782196288/comprobantes/Xxxxxpro_y_Api_Agi_num2247_23-06-2026_03-31.jpg"
+      },
+      {
+        "fecha": "15/06/2026",
+        "hora": "23:23",
+        "tipo": "TRF",
+        "monto": 75000.0,
+        "moneda": "ARS",
+        "remitente": "Natali Soledad Acosta",
+        "remitente_cuil": "35902877",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Lemon",
+        "banco_destino": "CVU",
+        "referencia": "LOEJWV9JZ36JKYJR2QMD0G",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CUIT destinatario: 30717282252. CBU destino: 0000155300000000009977. ID de la transacción: 67b03bbe-5c86-44a0-b7a6-482b0d853ec3. Comprobante emitido por Lemon, powered by Digifin.",
+        "_num": 2248,
+        "_fecha_carga": "23/06/2026 03:31",
+        "_origen": "grupo",
+        "_pie": "Acosta natali \n35902877",
+        "_imagen_url": "https://res.cloudinary.com/drz11thh3/image/upload/v1782196288/comprobantes/Xxxxxpro_y_Api_Agi_num2248_23-06-2026_03-31.jpg"
+      },
+      {
+        "fecha": "13/06/2026",
+        "hora": "18:52",
+        "tipo": "TRF",
+        "monto": 220000.0,
+        "moneda": "ARS",
+        "remitente": "Andrea Mariana Borda",
+        "remitente_cuil": "23701197",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Lemon",
+        "banco_destino": "CVU",
+        "referencia": "0V1JXON1LMDVOGR3NZ64EL",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CUIT destinatario: 30717282252. CBU destino: 0000155300000000009977. ID de la transacción: b2ef5557-2d49-45ec-aba0-2548d4954423. Comprobante emitido por Lemon (Powered by Digifin).",
+        "_num": 2249,
+        "_fecha_carga": "23/06/2026 03:31",
+        "_origen": "grupo",
+        "_pie": "23701197 borda andrea",
+        "_imagen_url": "https://res.cloudinary.com/drz11thh3/image/upload/v1782196289/comprobantes/Xxxxxpro_y_Api_Agi_num2249_23-06-2026_03-31.jpg"
+      },
+      {
+        "fecha": "14/06/2026",
+        "hora": "01:26",
+        "tipo": "TRF",
+        "monto": 220000.0,
+        "moneda": "ARS",
+        "remitente": "Andrea Mariana Borda",
+        "remitente_cuil": "23701197",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Lemon",
+        "banco_destino": "CVU",
+        "referencia": "R7ZG0QNDW1WJ7DPD9EXYPO",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CUIT destinatario: 30717282252. CBU destinatario: 0000155300000000009977. ID de la transacción: 59400337-7294-487d-943d-2274b5ce8da3. Comprobante emitido por Lemon (Powered by Digifin).",
+        "_num": 2250,
+        "_fecha_carga": "23/06/2026 03:32",
+        "_origen": "grupo",
+        "_pie": "23701197 borda andrea",
+        "_imagen_url": "https://res.cloudinary.com/drz11thh3/image/upload/v1782196345/comprobantes/Xxxxxpro_y_Api_Agi_num2250_23-06-2026_03-32.jpg"
       }
     ],
     "errores": [],
