@@ -645,7 +645,7 @@ async def procesar_comprobante(image_bytes: bytes, mime: str, pie: str,
                 parse_mode="Markdown",
                 reply_to_message_id=chat_msg_id
             ))
-            await reaccionar(bot, chat_id, chat_msg_id, "🔁")
+            await reaccionar(bot, chat_id, chat_msg_id, "🤨")
             return
         datos["registros"].append(resultado)
         guardar_store()
@@ -656,19 +656,11 @@ async def procesar_comprobante(image_bytes: bytes, mime: str, pie: str,
             if entry.get("msg_id") == chat_msg_id:
                 entry["estado"] = "procesado"
                 break
-        # ✅ Confirmar en el grupo con tilde
+        # 👍 Solo reacción en la foto — sin mensaje
         cvu = (resultado.get("cvu_ultimos4") or "").strip()
         monto = resultado.get("monto")
         monto_fmt = f"${float(monto):,.0f}" if monto else "—"
         remitente = resultado.get("remitente") or "—"
-        cuil = (resultado.get("remitente_cuil") or "").strip()
-        cvu_txt = f"****{cvu}" if cvu else "⚠️ Sin CVU"
-        cuil_txt = f" | DNI/CUIL: {cuil}" if cuil else ""
-        await send_safe(lambda: bot.send_message(
-            chat_id=chat_id,
-            text=f"✅ #{num} | {remitente}{cuil_txt} | {monto_fmt} | {cvu_txt}",
-            reply_to_message_id=chat_msg_id
-        ))
         await reaccionar(bot, chat_id, chat_msg_id, "👍")
         # Notificar al admin por privado si falta CVU
         if not cvu:
@@ -1060,7 +1052,7 @@ async def cmd_excel(update: Update, ctx: ContextTypes.DEFAULT_TYPE):
                 )
                 enviados += 1
 
-            if errores or duplicados:
+            if errores or duplicados or registros:
                 buf_err = generar_excel(errores, datos["semana_actual"], nombre, es_errores=True, duplicados=duplicados)
                 await update.message.reply_document(
                     document=buf_err,
@@ -1094,7 +1086,7 @@ async def cmd_excel(update: Update, ctx: ContextTypes.DEFAULT_TYPE):
         )
         enviados += 1
 
-    if errores or duplicados:
+    if errores or duplicados or registros:
         buf_err = generar_excel(errores, datos["semana_actual"], nombre, es_errores=True, duplicados=duplicados)
         await update.message.reply_document(
             document=buf_err,
