@@ -18293,7 +18293,8 @@
         "_num": 627,
         "_fecha_carga": "22/06/2026 21:38",
         "_origen": "grupo",
-        "_pie": "Luciana Alvarenga \n95029202"
+        "_pie": "Luciana Alvarenga \n95029202",
+        "_imagen_url": "https://res.cloudinary.com/drz11thh3/image/upload/v1782175080/comprobantes/Xxxxxpro_y_Api_Agi_num627_22-06-2026_21-38.jpg"
       },
       {
         "fecha": "19/06/2026",
@@ -18315,7 +18316,8 @@
         "_num": 628,
         "_fecha_carga": "22/06/2026 21:38",
         "_origen": "grupo",
-        "_pie": "Luciana Alvarenga \n95029202"
+        "_pie": "Luciana Alvarenga \n95029202",
+        "_imagen_url": "https://res.cloudinary.com/drz11thh3/image/upload/v1782175081/comprobantes/Xxxxxpro_y_Api_Agi_num628_22-06-2026_21-38.jpg"
       },
       {
         "fecha": "20/06/2026",
@@ -18337,7 +18339,8 @@
         "_num": 629,
         "_fecha_carga": "22/06/2026 21:38",
         "_origen": "grupo",
-        "_pie": ""
+        "_pie": "",
+        "_imagen_url": "https://res.cloudinary.com/drz11thh3/image/upload/v1782175081/comprobantes/Xxxxxpro_y_Api_Agi_num629_22-06-2026_21-38.jpg"
       },
       {
         "fecha": "20/06/2026",
@@ -18359,7 +18362,77 @@
         "_num": 630,
         "_fecha_carga": "22/06/2026 21:38",
         "_origen": "grupo",
-        "_pie": "Palacios Karina 40738356"
+        "_pie": "Palacios Karina 40738356",
+        "_imagen_url": "https://res.cloudinary.com/drz11thh3/image/upload/v1782175081/comprobantes/Xxxxxpro_y_Api_Agi_num630_22-06-2026_21-38.jpg"
+      },
+      {
+        "fecha": "20/06/2026",
+        "hora": "00:20",
+        "tipo": "TRF",
+        "monto": 60000.0,
+        "moneda": "ARS",
+        "remitente": "Matias Ariel Chaves",
+        "remitente_cuil": "20-41416949-0",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "164155152791",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: WY7ZEPN6MK56POLW2Q0M51. CVU origen: 0000003100097773494493. CVU destino: 0000155300000000000009977.",
+        "_num": 631,
+        "_fecha_carga": "22/06/2026 21:38",
+        "_origen": "grupo",
+        "_pie": "Matias Chaves \n20-41416949-0",
+        "_imagen_url": "https://res.cloudinary.com/drz11thh3/image/upload/v1782175081/comprobantes/Xxxxxpro_y_Api_Agi_num631_22-06-2026_21-38.jpg"
+      },
+      {
+        "fecha": "20/06/2026",
+        "hora": "01:26",
+        "tipo": "TRF",
+        "monto": 55000.0,
+        "moneda": "ARS",
+        "remitente": "Cristian Alejandro Alvarez",
+        "remitente_cuil": "20-39113784-7",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "164978840846",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: 7L8GYKNX0588X5ZO2MPRZ5. CVU origen: 0000003100029468663200. CVU destino: 0000155300000000009977.",
+        "_num": 632,
+        "_fecha_carga": "22/06/2026 21:38",
+        "_origen": "grupo",
+        "_pie": "",
+        "_imagen_url": "https://res.cloudinary.com/drz11thh3/image/upload/v1782175081/comprobantes/Xxxxxpro_y_Api_Agi_num632_22-06-2026_21-38.jpg"
+      },
+      {
+        "fecha": "20/06/2026",
+        "hora": "17:37",
+        "tipo": "TRF",
+        "monto": 75000.0,
+        "moneda": "ARS",
+        "remitente": "Valdez, Leandro Alberto",
+        "remitente_cuil": "20-34461289-8",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Personal Pay",
+        "banco_destino": "",
+        "referencia": "2765291113",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CoelsaID: JMQKYZ9QQVRMGPD89V50P3 - Id Bancario. CBU/CVU destinatario: 0000155300000000009977. CUIL/CUIT destinatario: 30-71728225-2.",
+        "_num": 633,
+        "_fecha_carga": "22/06/2026 21:38",
+        "_origen": "grupo",
+        "_pie": "",
+        "_imagen_url": "https://res.cloudinary.com/drz11thh3/image/upload/v1782175082/comprobantes/Xxxxxpro_y_Api_Agi_num633_22-06-2026_21-38.jpg"
       }
     ],
     "errores": [],
