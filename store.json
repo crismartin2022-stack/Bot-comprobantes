@@ -18826,7 +18826,8 @@
         "_num": 650,
         "_fecha_carga": "23/06/2026 01:59",
         "_origen": "grupo",
-        "_pie": "Foto de Ges"
+        "_pie": "Foto de Ges",
+        "_imagen_url": "https://res.cloudinary.com/drz11thh3/image/upload/v1782190752/comprobantes/Xxxxxpro_y_Api_Agi_num650_23-06-2026_01-59.jpg"
       },
       {
         "fecha": "09/06/2026",
@@ -18848,7 +18849,8 @@
         "_num": 651,
         "_fecha_carga": "23/06/2026 01:59",
         "_origen": "grupo",
-        "_pie": "Foto de Ges"
+        "_pie": "Foto de Ges",
+        "_imagen_url": "https://res.cloudinary.com/drz11thh3/image/upload/v1782190752/comprobantes/Xxxxxpro_y_Api_Agi_num651_23-06-2026_01-59.jpg"
       },
       {
         "fecha": "09/06/2026",
@@ -18870,7 +18872,8 @@
         "_num": 652,
         "_fecha_carga": "23/06/2026 01:59",
         "_origen": "grupo",
-        "_pie": "Foto de Ges"
+        "_pie": "Foto de Ges",
+        "_imagen_url": "https://res.cloudinary.com/drz11thh3/image/upload/v1782190752/comprobantes/Xxxxxpro_y_Api_Agi_num652_23-06-2026_01-59.jpg"
       },
       {
         "fecha": "09/06/2026",
@@ -18892,7 +18895,8 @@
         "_num": 653,
         "_fecha_carga": "23/06/2026 01:59",
         "_origen": "grupo",
-        "_pie": "Foto de Ges"
+        "_pie": "Foto de Ges",
+        "_imagen_url": "https://res.cloudinary.com/drz11thh3/image/upload/v1782190753/comprobantes/Xxxxxpro_y_Api_Agi_num653_23-06-2026_01-59.jpg"
       },
       {
         "fecha": "09/06/2026",
@@ -18912,6 +18916,75 @@
         "tiene_remitente": true,
         "notas": "Código de identificación: JMQKYZ9QQ0LV3GX69V50P3. CVU origen: 0000003100017015480194. CVU destino: 0000155300000000009977. CUIT destinatario: 30-71728225-2.",
         "_num": 654,
+        "_fecha_carga": "23/06/2026 01:59",
+        "_origen": "grupo",
+        "_pie": "Foto de Ges",
+        "_imagen_url": "https://res.cloudinary.com/drz11thh3/image/upload/v1782190753/comprobantes/Xxxxxpro_y_Api_Agi_num654_23-06-2026_01-59.jpg"
+      },
+      {
+        "fecha": "09/06/2026",
+        "hora": "19:25",
+        "tipo": "TRF",
+        "monto": 10000.0,
+        "moneda": "ARS",
+        "remitente": "Roberto Rodriguez",
+        "remitente_cuil": "20-16060610-0",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163355128118",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: WGRXJE27DY4QXOXLN7MYQL. CVU origen: 0000003100018807772664. CVU destino: 0000155300000000009977. CUIT/CUIL destinatario: 30-71728225-2",
+        "_num": 655,
+        "_fecha_carga": "23/06/2026 01:59",
+        "_origen": "grupo",
+        "_pie": "Foto de Ges",
+        "_imagen_url": "https://res.cloudinary.com/drz11thh3/image/upload/v1782190755/comprobantes/Xxxxxpro_y_Api_Agi_num655_23-06-2026_01-59.jpg"
+      },
+      {
+        "fecha": "09/06/2026",
+        "hora": "19:33",
+        "tipo": "TRF",
+        "monto": 14000.0,
+        "moneda": "ARS",
+        "remitente": "Roberto Raul Zarate",
+        "remitente_cuil": "20-22696827-0",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163355367224",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: 8D0Q619L04EO85XLN7JZ5R. CVU origen: 0000003100034380216920. CVU destino: 0000155300000000009977.",
+        "_num": 656,
+        "_fecha_carga": "23/06/2026 01:59",
+        "_origen": "grupo",
+        "_pie": "Foto de Ges",
+        "_imagen_url": "https://res.cloudinary.com/drz11thh3/image/upload/v1782190757/comprobantes/Xxxxxpro_y_Api_Agi_num656_23-06-2026_01-59.jpg"
+      },
+      {
+        "fecha": "09/06/2026",
+        "hora": "20:17",
+        "tipo": "TRF",
+        "monto": 10000.0,
+        "moneda": "ARS",
+        "remitente": "Roberto Rodriguez",
+        "remitente_cuil": "20-16060610-0",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163362265576",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: 46YGOW9M1YRPLQ5MNEXD8J. CVU destinatario: 0000155300000000009977. CVU remitente: 0000003100018807772664.",
+        "_num": 657,
         "_fecha_carga": "23/06/2026 01:59",
         "_origen": "grupo",
         "_pie": "Foto de Ges"
