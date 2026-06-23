@@ -49,15 +49,22 @@ async def send_safe(coro_fn, retries=3):
     return None
 
 async def reaccionar(bot, chat_id: int, msg_id: int, emoji: str):
-    """Pone una reacción en un mensaje, ignorando errores silenciosamente."""
-    try:
-        await bot.set_message_reaction(
-            chat_id=chat_id,
-            message_id=msg_id,
-            reaction=[ReactionTypeEmoji(emoji=emoji)]
-        )
-    except Exception as e:
-        log.warning(f"Reacción {emoji} no aplicada: {e}")
+    """Pone una reacción en un mensaje, con retry en flood control."""
+    for attempt in range(3):
+        try:
+            await bot.set_message_reaction(
+                chat_id=chat_id,
+                message_id=msg_id,
+                reaction=[ReactionTypeEmoji(emoji=emoji)]
+            )
+            return
+        except RetryAfter as e:
+            wait = e.retry_after + 1
+            log.warning(f"Reacción {emoji} flood control: esperando {wait}s")
+            await asyncio.sleep(wait)
+        except Exception as e:
+            log.warning(f"Reacción {emoji} no aplicada: {e}")
+            return
 
 # ── Config ────────────────────────────────────────────────────────────────────
 TELEGRAM_TOKEN = os.environ["TELEGRAM_TOKEN"]
