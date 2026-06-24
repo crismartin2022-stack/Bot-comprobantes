@@ -69732,7 +69732,8 @@
         "_num": 2859,
         "_fecha_carga": "24/06/2026 01:22",
         "_origen": "grupo",
-        "_pie": "Adrián Andrés Mieres\nNaranja X\nCBU\n4530000800019378728706\nCUIL\n20-19015682-7"
+        "_pie": "Adrián Andrés Mieres\nNaranja X\nCBU\n4530000800019378728706\nCUIL\n20-19015682-7",
+        "_imagen_url": "https://res.cloudinary.com/drz11thh3/image/upload/v1782274970/comprobantes/Xxxxxpro_y_Api_Agi_num2859_24-06-2026_01-22.jpg"
       },
       {
         "fecha": "17/06/2026",
@@ -69754,7 +69755,8 @@
         "_num": 2860,
         "_fecha_carga": "24/06/2026 01:22",
         "_origen": "grupo",
-        "_pie": "Adrian Saul Sosa\n20292732881 \nPlutonos"
+        "_pie": "Adrian Saul Sosa\n20292732881 \nPlutonos",
+        "_imagen_url": "https://res.cloudinary.com/drz11thh3/image/upload/v1782274970/comprobantes/Xxxxxpro_y_Api_Agi_num2860_24-06-2026_01-22.jpg"
       },
       {
         "fecha": "16/06/2026",
@@ -69777,7 +69779,8 @@
         "_num": 2861,
         "_fecha_carga": "24/06/2026 01:22",
         "_origen": "grupo",
-        "_pie": "Joel Agustín Aguirre \nCUIL-CUIT: 20-44216696-0"
+        "_pie": "Joel Agustín Aguirre \nCUIL-CUIT: 20-44216696-0",
+        "_imagen_url": "https://res.cloudinary.com/drz11thh3/image/upload/v1782274970/comprobantes/Xxxxxpro_y_Api_Agi_num2861_24-06-2026_01-22.jpg"
       },
       {
         "fecha": "16/06/2026",
@@ -69799,7 +69802,77 @@
         "_num": 2862,
         "_fecha_carga": "24/06/2026 01:22",
         "_origen": "grupo",
-        "_pie": "Daniela Angela Godoy\n27275590237\nPlutonos"
+        "_pie": "Daniela Angela Godoy\n27275590237\nPlutonos",
+        "_imagen_url": "https://res.cloudinary.com/drz11thh3/image/upload/v1782274970/comprobantes/Xxxxxpro_y_Api_Agi_num2862_24-06-2026_01-22.jpg"
+      },
+      {
+        "fecha": "16/06/2026",
+        "hora": "23:36",
+        "tipo": "TRF",
+        "monto": 300000.0,
+        "moneda": "ARS",
+        "remitente": "Daniela Angela Godoy",
+        "remitente_cuil": "27-27559023-7",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Naranja X",
+        "banco_destino": "Cuenta Virtual",
+        "referencia": "LOEJWV9JZ3GDL15Z2QMD0G",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de transacción: e9fcb73e-5118-4c3c-82d2-3f68614727c4. CBU origen: 4530000800013303288563. CVU destino: 0000155300000000009977. CUIL destinatario: 30-71728225-2.",
+        "_num": 2863,
+        "_fecha_carga": "24/06/2026 01:22",
+        "_origen": "grupo",
+        "_pie": "Daniela Angela Godoy\n27275590237\nPlutonos",
+        "_imagen_url": "https://res.cloudinary.com/drz11thh3/image/upload/v1782274971/comprobantes/Xxxxxpro_y_Api_Agi_num2863_24-06-2026_01-22.jpg"
+      },
+      {
+        "fecha": "17/06/2026",
+        "hora": "11:57",
+        "tipo": "TRF",
+        "monto": 150000.0,
+        "moneda": "ARS",
+        "remitente": "Jonathan David Caponnetto",
+        "remitente_cuil": "23-36258799-9",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Naranja X",
+        "banco_destino": "Cuenta Virtual",
+        "referencia": "JMQKYZ9QQV5GM0DR9V50P3",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CBU origen: 4530000800018927276668. CVU destino: 0000155300000000009977. CUIL destinatario: 30-71728225-2. Código de transacción: a781a7b8-5889-4e4b-954f-2fe579f6c106",
+        "_num": 2864,
+        "_fecha_carga": "24/06/2026 01:22",
+        "_origen": "grupo",
+        "_pie": "Jonathan David Caponnetto\nNaranja X\nCBU\n4530000800018927276668\nCUIL\n23-36258799-9",
+        "_imagen_url": "https://res.cloudinary.com/drz11thh3/image/upload/v1782274975/comprobantes/Xxxxxpro_y_Api_Agi_num2864_24-06-2026_01-22.jpg"
+      },
+      {
+        "fecha": "17/06/2026",
+        "hora": "19:54",
+        "tipo": "TRF",
+        "monto": 30000.0,
+        "moneda": "ARS",
+        "remitente": "LEANDRO GABRIEL CORONEL",
+        "remitente_cuil": "35354238",
+        "destinatario": "Sercob Sa",
+        "banco_origen": "Ualá",
+        "banco_destino": "",
+        "referencia": "LOEJWV9JZ3DDDKE82QMD0G",
+        "concepto": "VAR",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "6872",
+        "tiene_remitente": true,
+        "notas": "CUIT destino: 30708282274. CBU destino: 0000133100000000586872.",
+        "_num": 2865,
+        "_fecha_carga": "24/06/2026 01:23",
+        "_origen": "grupo",
+        "_pie": "Coronel Leandro 35354238",
+        "_imagen_url": "https://res.cloudinary.com/drz11thh3/image/upload/v1782275011/comprobantes/Xxxxxpro_y_Api_Agi_num2865_24-06-2026_01-23.jpg"
       }
     ],
     "errores": [],
