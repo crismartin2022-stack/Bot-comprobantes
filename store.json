@@ -17157,7 +17157,8 @@
         "_num": 578,
         "_fecha_carga": "24/06/2026 02:18",
         "_origen": "grupo",
-        "_pie": "lata federico martin\n34233763"
+        "_pie": "lata federico martin\n34233763",
+        "_imagen_url": "https://res.cloudinary.com/drz11thh3/image/upload/v1782278313/comprobantes/Xxxxxpro_y_Api_Agi_num578_24-06-2026_02-18.jpg"
       },
       {
         "fecha": "20/06/2026",
@@ -17179,7 +17180,8 @@
         "_num": 579,
         "_fecha_carga": "24/06/2026 02:18",
         "_origen": "grupo",
-        "_pie": "lata federico martin\n34233763"
+        "_pie": "lata federico martin\n34233763",
+        "_imagen_url": "https://res.cloudinary.com/drz11thh3/image/upload/v1782278314/comprobantes/Xxxxxpro_y_Api_Agi_num579_24-06-2026_02-18.jpg"
       },
       {
         "fecha": "20/06/2026",
@@ -17201,7 +17203,8 @@
         "_num": 580,
         "_fecha_carga": "24/06/2026 02:18",
         "_origen": "grupo",
-        "_pie": "Lorena Elizabeth paolini \n35800760"
+        "_pie": "Lorena Elizabeth paolini \n35800760",
+        "_imagen_url": "https://res.cloudinary.com/drz11thh3/image/upload/v1782278314/comprobantes/Xxxxxpro_y_Api_Agi_num580_24-06-2026_02-18.jpg"
       },
       {
         "fecha": "20/06/2026",
@@ -17223,7 +17226,77 @@
         "_num": 581,
         "_fecha_carga": "24/06/2026 02:18",
         "_origen": "grupo",
-        "_pie": "Lorena Elizabeth paolini \n35800760"
+        "_pie": "Lorena Elizabeth paolini \n35800760",
+        "_imagen_url": "https://res.cloudinary.com/drz11thh3/image/upload/v1782278314/comprobantes/Xxxxxpro_y_Api_Agi_num581_24-06-2026_02-18.jpg"
+      },
+      {
+        "fecha": "20/06/2026",
+        "hora": "18:37",
+        "tipo": "TRF",
+        "monto": 10000.0,
+        "moneda": "ARS",
+        "remitente": "NAHUEL NICOLAS SOSA",
+        "remitente_cuil": "20-47163862-6",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Banco De Galicia S.A.U",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "42167197680",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "ID COELSA: JMQKYZ9QQVRZWO6P9V50P3. CVU destinatario: 0000155300000000009977. Cuenta origen CA $ N° 4046298-5 094-0. CUIT destinatario: 30-71728225-2.",
+        "_num": 582,
+        "_fecha_carga": "24/06/2026 02:18",
+        "_origen": "grupo",
+        "_pie": "Nahuel nicolas sosa\n47163862",
+        "_imagen_url": "https://res.cloudinary.com/drz11thh3/image/upload/v1782278314/comprobantes/Xxxxxpro_y_Api_Agi_num582_24-06-2026_02-18.jpg"
+      },
+      {
+        "fecha": "20/06/2026",
+        "hora": "23:26",
+        "tipo": "TRF",
+        "monto": 19000.0,
+        "moneda": "ARS",
+        "remitente": "Caterina Noeli Gomez",
+        "remitente_cuil": "27-37394391-1",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Naranja X",
+        "banco_destino": "Cuenta Virtual",
+        "referencia": "Z6OLMDN3V3R8EKK62E7RQ5",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CBU origen: 4530000800016678327967. CVU destino: 0000155300000000009977. Código de transacción: 4e182c38-4dec-4169-b2e2-68ba10f0061b. CUIL destinatario: 30-71728225-2",
+        "_num": 583,
+        "_fecha_carga": "24/06/2026 02:18",
+        "_origen": "grupo",
+        "_pie": "Caterina noeli Gomez \n37394391",
+        "_imagen_url": "https://res.cloudinary.com/drz11thh3/image/upload/v1782278315/comprobantes/Xxxxxpro_y_Api_Agi_num583_24-06-2026_02-18.jpg"
+      },
+      {
+        "fecha": "18/06/2026",
+        "hora": "12:19",
+        "tipo": "TRF",
+        "monto": 100000.0,
+        "moneda": "ARS",
+        "remitente": "Karen Del Valle Varela",
+        "remitente_cuil": "27-37635802-5",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "164695853846",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: LOEJWV9JZ35VQRJR2QMD0G. CVU origen: 0000003100037027984206. CVU destino: 0000155300000000009977.",
+        "_num": 584,
+        "_fecha_carga": "24/06/2026 02:18",
+        "_origen": "grupo",
+        "_pie": "Karen Del Valle Varela\nCUIT/CUIL: 27-37635802-5",
+        "_imagen_url": "https://res.cloudinary.com/drz11thh3/image/upload/v1782278318/comprobantes/Xxxxxpro_y_Api_Agi_num584_24-06-2026_02-18.jpg"
       }
     ],
     "errores": [],
