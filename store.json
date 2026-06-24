@@ -17594,7 +17594,8 @@
         "_num": 597,
         "_fecha_carga": "24/06/2026 02:18",
         "_origen": "grupo",
-        "_pie": "Carlos Daniel silva \n\nDNI: 29.165.124"
+        "_pie": "Carlos Daniel silva \n\nDNI: 29.165.124",
+        "_imagen_url": "https://res.cloudinary.com/drz11thh3/image/upload/v1782278330/comprobantes/Xxxxxpro_y_Api_Agi_num597_24-06-2026_02-18.jpg"
       },
       {
         "fecha": "18/06/2026",
@@ -17616,7 +17617,8 @@
         "_num": 598,
         "_fecha_carga": "24/06/2026 02:18",
         "_origen": "grupo",
-        "_pie": "maria de las nievea monzon\n29495297"
+        "_pie": "maria de las nievea monzon\n29495297",
+        "_imagen_url": "https://res.cloudinary.com/drz11thh3/image/upload/v1782278330/comprobantes/Xxxxxpro_y_Api_Agi_num598_24-06-2026_02-18.jpg"
       },
       {
         "fecha": "18/06/2026",
@@ -17661,7 +17663,8 @@
         "_num": 600,
         "_fecha_carga": "24/06/2026 02:18",
         "_origen": "grupo",
-        "_pie": ""
+        "_pie": "",
+        "_imagen_url": "https://res.cloudinary.com/drz11thh3/image/upload/v1782278331/comprobantes/Xxxxxpro_y_Api_Agi_num600_24-06-2026_02-18.jpg"
       },
       {
         "fecha": "17/06/2026",
@@ -17683,7 +17686,77 @@
         "_num": 601,
         "_fecha_carga": "24/06/2026 02:18",
         "_origen": "grupo",
-        "_pie": "Rubén Alejandro Celario \n20-26368520-3"
+        "_pie": "Rubén Alejandro Celario \n20-26368520-3",
+        "_imagen_url": "https://res.cloudinary.com/drz11thh3/image/upload/v1782278331/comprobantes/Xxxxxpro_y_Api_Agi_num601_24-06-2026_02-18.jpg"
+      },
+      {
+        "fecha": "18/06/2026",
+        "hora": "00:48",
+        "tipo": "TRF",
+        "monto": 18000.0,
+        "moneda": "ARS",
+        "remitente": "Abril Agostina Mendoza",
+        "remitente_cuil": "27-46426543-6",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "164642513558",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: 86VRPQ2GMLP31VYG2GLY0M. CVU origen: 0000003100043950653458. CVU destino: 0000155300000000000009977.",
+        "_num": 602,
+        "_fecha_carga": "24/06/2026 02:18",
+        "_origen": "grupo",
+        "_pie": "Abril Agostina Mendoza 46426543",
+        "_imagen_url": "https://res.cloudinary.com/drz11thh3/image/upload/v1782278333/comprobantes/Xxxxxpro_y_Api_Agi_num602_24-06-2026_02-18.jpg"
+      },
+      {
+        "fecha": "21/06/2026",
+        "hora": "22:51",
+        "tipo": "TRF",
+        "monto": 100000.0,
+        "moneda": "ARS",
+        "remitente": "Karen Del Valle Varela",
+        "remitente_cuil": "27-37635802-5",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "164417993193",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: 1LMP68NKVEX353G52R7OEV. CVU origen: 0000003100037027984206. CVU destino: 0000155300000000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 603,
+        "_fecha_carga": "24/06/2026 02:18",
+        "_origen": "grupo",
+        "_pie": "",
+        "_imagen_url": "https://res.cloudinary.com/drz11thh3/image/upload/v1782278334/comprobantes/Xxxxxpro_y_Api_Agi_num603_24-06-2026_02-18.jpg"
+      },
+      {
+        "fecha": "18/06/2026",
+        "hora": "10:06",
+        "tipo": "TRF",
+        "monto": 1000000.0,
+        "moneda": "ARS",
+        "remitente": "Yongxin Lin",
+        "remitente_cuil": "20-94014571-7",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163858933475",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: R7ZG0QNDW1XVJ1PE9EXYPO. CVU remitente: 0000003100006594748021. CVU destinatario: 0000155300000000009977.",
+        "_num": 604,
+        "_fecha_carga": "24/06/2026 02:18",
+        "_origen": "grupo",
+        "_pie": "yongxin Lin\n94014571",
+        "_imagen_url": "https://res.cloudinary.com/drz11thh3/image/upload/v1782278334/comprobantes/Xxxxxpro_y_Api_Agi_num604_24-06-2026_02-18.jpg"
       }
     ],
     "errores": [],
