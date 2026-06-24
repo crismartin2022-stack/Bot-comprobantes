@@ -17387,7 +17387,8 @@
         "_num": 588,
         "_fecha_carga": "24/06/2026 02:18",
         "_origen": "grupo",
-        "_pie": ""
+        "_pie": "",
+        "_imagen_url": "https://res.cloudinary.com/drz11thh3/image/upload/v1782278322/comprobantes/Xxxxxpro_y_Api_Agi_num588_24-06-2026_02-18.jpg"
       },
       {
         "fecha": "20/06/2026",
@@ -17409,7 +17410,8 @@
         "_num": 589,
         "_fecha_carga": "24/06/2026 02:18",
         "_origen": "grupo",
-        "_pie": "Karen Del Valle Varela\nCUIT/CUIL: 27-37635802-5"
+        "_pie": "Karen Del Valle Varela\nCUIT/CUIL: 27-37635802-5",
+        "_imagen_url": "https://res.cloudinary.com/drz11thh3/image/upload/v1782278322/comprobantes/Xxxxxpro_y_Api_Agi_num589_24-06-2026_02-18.jpg"
       },
       {
         "fecha": "21/06/2026",
@@ -17431,7 +17433,8 @@
         "_num": 590,
         "_fecha_carga": "24/06/2026 02:18",
         "_origen": "grupo",
-        "_pie": "Luis Alberto Llanos\nCUIT/CUIL: 20-24473556-9"
+        "_pie": "Luis Alberto Llanos\nCUIT/CUIL: 20-24473556-9",
+        "_imagen_url": "https://res.cloudinary.com/drz11thh3/image/upload/v1782278322/comprobantes/Xxxxxpro_y_Api_Agi_num590_24-06-2026_02-18.jpg"
       },
       {
         "fecha": "19/06/2026",
@@ -17453,7 +17456,77 @@
         "_num": 591,
         "_fecha_carga": "24/06/2026 02:18",
         "_origen": "grupo",
-        "_pie": ""
+        "_pie": "",
+        "_imagen_url": "https://res.cloudinary.com/drz11thh3/image/upload/v1782278322/comprobantes/Xxxxxpro_y_Api_Agi_num591_24-06-2026_02-18.jpg"
+      },
+      {
+        "fecha": "21/06/2026",
+        "hora": "13:28",
+        "tipo": "TRF",
+        "monto": 100000.0,
+        "moneda": "ARS",
+        "remitente": "Karen Del Valle Varela",
+        "remitente_cuil": "27-37635802-5",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "165178012634",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: 0V1JXON1LMG E6MWVNZ64EL. CVU origen: 0000003100037027984206. CVU destino: 0000155300000000000 09977. CUIT destinatario: 30-71728225-2.",
+        "_num": 592,
+        "_fecha_carga": "24/06/2026 02:18",
+        "_origen": "grupo",
+        "_pie": "Luis Alberto Llanos\nCUIT/CUIL: 20-24473556-9",
+        "_imagen_url": "https://res.cloudinary.com/drz11thh3/image/upload/v1782278323/comprobantes/Xxxxxpro_y_Api_Agi_num592_24-06-2026_02-18.jpg"
+      },
+      {
+        "fecha": "19/06/2026",
+        "hora": "23:38",
+        "tipo": "TRF",
+        "monto": 100000.0,
+        "moneda": "ARS",
+        "remitente": "Karen Del Valle Varela",
+        "remitente_cuil": "27-37635802-5",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "164970524322",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: 76V4MR2Z74ZOQQK0NDEZOL. CVU remitente: 0000003100037027984206. CVU destinatario: 0000155300000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 593,
+        "_fecha_carga": "24/06/2026 02:18",
+        "_origen": "grupo",
+        "_pie": "",
+        "_imagen_url": "https://res.cloudinary.com/drz11thh3/image/upload/v1782278323/comprobantes/Xxxxxpro_y_Api_Agi_num593_24-06-2026_02-18.jpg"
+      },
+      {
+        "fecha": "20/06/2026",
+        "hora": "01:46",
+        "tipo": "TRF",
+        "monto": 100000.0,
+        "moneda": "ARS",
+        "remitente": "Luis Alberto Llanos",
+        "remitente_cuil": "20-24473556-9",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "164159667989",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: JMQKYZ9QQV77JY8Q9V50P3. CVU origen (remitente): 0000003100095156879365. CVU destino (receptor): 0000155300000000009977.",
+        "_num": 594,
+        "_fecha_carga": "24/06/2026 02:18",
+        "_origen": "grupo",
+        "_pie": "",
+        "_imagen_url": "https://res.cloudinary.com/drz11thh3/image/upload/v1782278326/comprobantes/Xxxxxpro_y_Api_Agi_num594_24-06-2026_02-18.jpg"
       }
     ],
     "errores": [],
