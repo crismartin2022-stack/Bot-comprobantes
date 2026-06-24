@@ -73745,7 +73745,8 @@
         "_num": 3033,
         "_fecha_carga": "24/06/2026 01:31",
         "_origen": "grupo",
-        "_pie": "Katherine Priscila Vargas\nCUIT/CUIL: 27-43975866-5"
+        "_pie": "Katherine Priscila Vargas\nCUIT/CUIL: 27-43975866-5",
+        "_imagen_url": "https://res.cloudinary.com/drz11thh3/image/upload/v1782275508/comprobantes/Xxxxxpro_y_Api_Agi_num3033_24-06-2026_01-31.jpg"
       },
       {
         "fecha": "17/06/2026",
@@ -73767,7 +73768,8 @@
         "_num": 3034,
         "_fecha_carga": "24/06/2026 01:31",
         "_origen": "grupo",
-        "_pie": "Fiamma Antonella Cabrera\nCUIT/CUIL: 27-45287146-2"
+        "_pie": "Fiamma Antonella Cabrera\nCUIT/CUIL: 27-45287146-2",
+        "_imagen_url": "https://res.cloudinary.com/drz11thh3/image/upload/v1782275508/comprobantes/Xxxxxpro_y_Api_Agi_num3034_24-06-2026_01-31.jpg"
       },
       {
         "fecha": "17/06/2026",
@@ -73789,7 +73791,8 @@
         "_num": 3035,
         "_fecha_carga": "24/06/2026 01:31",
         "_origen": "grupo",
-        "_pie": "Pablo Gaspar Carreno\nCUIT/CUIL: 20-38106862-6"
+        "_pie": "Pablo Gaspar Carreno\nCUIT/CUIL: 20-38106862-6",
+        "_imagen_url": "https://res.cloudinary.com/drz11thh3/image/upload/v1782275509/comprobantes/Xxxxxpro_y_Api_Agi_num3035_24-06-2026_01-31.jpg"
       },
       {
         "fecha": "17/06/2026",
@@ -73811,7 +73814,8 @@
         "_num": 3036,
         "_fecha_carga": "24/06/2026 01:31",
         "_origen": "grupo",
-        "_pie": "Berta coronel 34873685"
+        "_pie": "Berta coronel 34873685",
+        "_imagen_url": "https://res.cloudinary.com/drz11thh3/image/upload/v1782275509/comprobantes/Xxxxxpro_y_Api_Agi_num3036_24-06-2026_01-31.jpg"
       },
       {
         "fecha": "17/06/2026",
@@ -73833,7 +73837,8 @@
         "_num": 3037,
         "_fecha_carga": "24/06/2026 01:31",
         "_origen": "grupo",
-        "_pie": "Marquez, Diana Pamela\n27-36531629-0"
+        "_pie": "Marquez, Diana Pamela\n27-36531629-0",
+        "_imagen_url": "https://res.cloudinary.com/drz11thh3/image/upload/v1782275509/comprobantes/Xxxxxpro_y_Api_Agi_num3037_24-06-2026_01-31.jpg"
       },
       {
         "fecha": "18/06/2026",
@@ -73855,7 +73860,75 @@
         "_num": 3038,
         "_fecha_carga": "24/06/2026 01:31",
         "_origen": "grupo",
-        "_pie": "Basualdo, Romina \nDni 32.331.874\nCargalos en agentes bet"
+        "_pie": "Basualdo, Romina \nDni 32.331.874\nCargalos en agentes bet",
+        "_imagen_url": "https://res.cloudinary.com/drz11thh3/image/upload/v1782275509/comprobantes/Xxxxxpro_y_Api_Agi_num3038_24-06-2026_01-31.jpg"
+      },
+      {
+        "fecha": "16/06/2026",
+        "hora": "18:21",
+        "tipo": "TRF",
+        "monto": 100000.0,
+        "moneda": "ARS",
+        "remitente": "Reinaldo Elias Cisneros",
+        "remitente_cuil": "20-11876567-3",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "164433077680",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: LOEJWV9JZ3O1RQMR2QMD0G. CVU origen: 0000003100092459356160. CVU destino: 0000155300000000009977",
+        "_num": 3039,
+        "_fecha_carga": "24/06/2026 01:31",
+        "_origen": "grupo",
+        "_pie": "Reinaldo Elias Cisneros\nCUIT/CUIL: 20-11876567-3",
+        "_imagen_url": "https://res.cloudinary.com/drz11thh3/image/upload/v1782275513/comprobantes/Xxxxxpro_y_Api_Agi_num3039_24-06-2026_01-31.jpg"
+      },
+      {
+        "fecha": "16/06/2026",
+        "hora": "18:03",
+        "tipo": "TRF",
+        "monto": 50000.0,
+        "moneda": "ARS",
+        "remitente": "Marisol Yanina Tabares",
+        "remitente_cuil": "27-38085069-4",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163614344053",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: 46YGOW9M1K0V50DZNEXD8J. CVU origen: 0000003100099224753018. CVU destino: 0000155300000000000009977.",
+        "_num": 3040,
+        "_fecha_carga": "24/06/2026 01:31",
+        "_origen": "grupo",
+        "_pie": "Marisol Yanina Tabares\nCUIT/CUIL: 27-38085069-4"
+      },
+      {
+        "fecha": "17/06/2026",
+        "hora": "09:04",
+        "tipo": "TRF",
+        "monto": 25000.0,
+        "moneda": "ARS",
+        "remitente": "Fabian Ernesto Delgado",
+        "remitente_cuil": "20-23986644-2",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163696648413",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: 1LMP68NKVE7LGEDZ2R7OEV. CVU origen: 0000003100061161280247. CVU destino: 0000155300000000009977. CUIT destinatario: 30-71728225-2",
+        "_num": 3041,
+        "_fecha_carga": "24/06/2026 01:31",
+        "_origen": "grupo",
+        "_pie": "Fabian Ernesto Delgado\nCUIT/CUIL: 20-23986644-2"
       }
     ],
     "errores": [],
