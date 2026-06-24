@@ -49,22 +49,24 @@ async def send_safe(coro_fn, retries=3):
     return None
 
 async def reaccionar(bot, chat_id: int, msg_id: int, emoji: str):
-    """Pone una reacción en un mensaje, con retry en flood control."""
-    for attempt in range(3):
-        try:
-            await bot.set_message_reaction(
-                chat_id=chat_id,
-                message_id=msg_id,
-                reaction=[ReactionTypeEmoji(emoji=emoji)]
-            )
-            return
-        except RetryAfter as e:
-            wait = e.retry_after + 1
-            log.warning(f"Reacción {emoji} flood control: esperando {wait}s")
-            await asyncio.sleep(wait)
-        except Exception as e:
-            log.warning(f"Reacción {emoji} no aplicada: {e}")
-            return
+    """Pone una reacción en un mensaje, con semáforo y retry en flood control."""
+    async with _semaforo_reacciones:
+        for attempt in range(3):
+            try:
+                await bot.set_message_reaction(
+                    chat_id=chat_id,
+                    message_id=msg_id,
+                    reaction=[ReactionTypeEmoji(emoji=emoji)]
+                )
+                await asyncio.sleep(0.5)  # Pausa entre reacciones para evitar flood
+                return
+            except RetryAfter as e:
+                wait = e.retry_after + 1
+                log.warning(f"Reacción {emoji} flood control: esperando {wait}s")
+                await asyncio.sleep(wait)
+            except Exception as e:
+                log.warning(f"Reacción {emoji} no aplicada: {e}")
+                return
 
 # ── Config ────────────────────────────────────────────────────────────────────
 TELEGRAM_TOKEN = os.environ["TELEGRAM_TOKEN"]
@@ -84,6 +86,7 @@ received_log: dict = {}  # {chat_id: [{"msg_id", "fecha", "remitente", "estado"}
 semaforo_claude = asyncio.Semaphore(10)  # Máximo 3 análisis simultáneos
 cola_procesamiento = asyncio.Queue()  # Cola local (fallback si no hay Redis)
 _github_backup_counter = 0  # Contador para throttle de backup GitHub
+_semaforo_reacciones = asyncio.Semaphore(1)  # Máximo 1 reacción a la vez
 
 DATA_FILE    = "/data/store.json"       # Volume de Railway (persistente)
 LOG_FILE     = "/data/received_log.json"  # Log de imágenes recibidas
@@ -347,7 +350,7 @@ async def analizar_imagen(image_bytes: bytes, mime: str, reintentos: int = 3) ->
                         ]}]
                     )
                 ),
-                timeout=30
+                timeout=25
             )
             text = resp.content[0].text
             try:
@@ -635,7 +638,7 @@ async def procesar_comprobante(image_bytes: bytes, mime: str, pie: str,
             text=f"⚠️ Comprobante #{num} no procesado — error de conexión. Reenvialo.",
             reply_to_message_id=chat_msg_id
         ))
-        await reaccionar(bot, chat_id, chat_msg_id, "❌")
+        asyncio.create_task(reaccionar(bot, chat_id, chat_msg_id, "❌"))
         return
 
     if coincide:
@@ -652,7 +655,7 @@ async def procesar_comprobante(image_bytes: bytes, mime: str, pie: str,
                 parse_mode="Markdown",
                 reply_to_message_id=chat_msg_id
             ))
-            await reaccionar(bot, chat_id, chat_msg_id, "🤨")
+            asyncio.create_task(reaccionar(bot, chat_id, chat_msg_id, "🤨"))
             return
         datos["registros"].append(resultado)
         guardar_store()
@@ -668,7 +671,7 @@ async def procesar_comprobante(image_bytes: bytes, mime: str, pie: str,
         monto = resultado.get("monto")
         monto_fmt = f"${float(monto):,.0f}" if monto else "—"
         remitente = resultado.get("remitente") or "—"
-        await reaccionar(bot, chat_id, chat_msg_id, "👍")
+        asyncio.create_task(reaccionar(bot, chat_id, chat_msg_id, "👍"))
         # Notificar al admin por privado si falta CVU
         if not cvu:
             await send_safe(lambda: bot.send_message(
@@ -709,7 +712,7 @@ async def procesar_comprobante(image_bytes: bytes, mime: str, pie: str,
         ))
         if sent:
             mensajes_rechazo[(chat_id, sent.message_id)] = {"num": num, "chat_id": chat_id}
-        await reaccionar(bot, chat_id, chat_msg_id, "❌")
+        asyncio.create_task(reaccionar(bot, chat_id, chat_msg_id, "❌"))
 
 
 async def _subir_imagen_cloudinary(image_bytes: bytes, mime: str, resultado: dict, datos: dict):
@@ -1349,6 +1352,55 @@ async def encolar(item: dict):
     # Fallback: cola local
     await cola_procesamiento.put(item)
 
+# ── Monitor de cola vacía — resumen automático ───────────────────────────────
+_tanda_stats: dict = {}  # {chat_id: {"count": 0, "monto": 0, "inicio": datetime}}
+_cola_vacia_desde: float = 0.0  # timestamp de cuando la cola quedó vacía
+_resumen_task: asyncio.Task = None  # tarea de resumen pendiente
+
+def _registrar_tanda(chat_id: int, monto: float):
+    """Acumula stats de la tanda en curso."""
+    cid = str(chat_id)
+    if cid not in _tanda_stats:
+        _tanda_stats[cid] = {"count": 0, "monto": 0.0, "inicio": now_arg()}
+    _tanda_stats[cid]["count"] += 1
+    _tanda_stats[cid]["monto"] += monto
+
+async def _enviar_resumen_tanda(app):
+    """Espera 15s y si la cola sigue vacía manda resumen por grupo."""
+    await asyncio.sleep(15)
+    global redis_client
+    # Verificar que la cola sigue vacía
+    if redis_client:
+        try:
+            pending = await redis_client.llen(REDIS_QUEUE_KEY)
+            if pending > 0:
+                return
+        except Exception:
+            pass
+    # Mandar resumen por cada grupo con actividad
+    for cid, stats in list(_tanda_stats.items()):
+        if stats["count"] == 0:
+            continue
+        try:
+            chat_id = int(cid)
+            duracion = (now_arg() - stats["inicio"]).seconds
+            mins = duracion // 60
+            segs = duracion % 60
+            dur_txt = f"{mins}m {segs}s" if mins else f"{segs}s"
+            await app.bot.send_message(
+                chat_id=chat_id,
+                text=(
+                    f"✅ *Tanda completada*\n"
+                    f"📄 {stats['count']} comprobantes procesados\n"
+                    f"💰 ${stats['monto']:,.0f} ARS\n"
+                    f"⏱ {dur_txt}"
+                ),
+                parse_mode="Markdown"
+            )
+        except Exception as e:
+            log.error(f"Error enviando resumen tanda {cid}: {e}")
+    _tanda_stats.clear()
+
 async def worker_procesamiento(app):
     """Procesa comprobantes de Redis o cola local."""
     global redis_client
@@ -1394,11 +1446,27 @@ async def worker_procesamiento(app):
                         item["chat_id"], item["nombre_g"], item.get("origen", "grupo"),
                         app.bot, item["msg_id"]
                     )
+                    # Registrar en stats de tanda
+                    datos = store.get(str(item["chat_id"]), {})
+                    ultimo = datos.get("registros", [{}])[-1] if datos.get("registros") else {}
+                    monto = float(ultimo.get("monto") or 0)
+                    _registrar_tanda(item["chat_id"], monto)
                 except Exception as e:
                     log.error(f"Error en worker: {e}")
                 finally:
                     if not redis_client:
                         cola_procesamiento.task_done()
+                # Verificar si la cola quedó vacía y disparar resumen
+                global _resumen_task
+                if redis_client:
+                    try:
+                        pending = await redis_client.llen(REDIS_QUEUE_KEY)
+                        if pending == 0:
+                            if _resumen_task and not _resumen_task.done():
+                                _resumen_task.cancel()
+                            _resumen_task = asyncio.create_task(_enviar_resumen_tanda(app))
+                    except Exception:
+                        pass
         except Exception as e:
             log.error(f"Error en worker loop: {e}")
             await asyncio.sleep(1)
