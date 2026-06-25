@@ -627,6 +627,7 @@ async def procesar_comprobante(image_bytes: bytes, mime: str, pie: str,
     resultado["_fecha_carga"] = now_arg().strftime("%d/%m/%Y %H:%M")
     resultado["_origen"] = origen
     resultado["_pie"] = pie or ""
+    resultado["_msg_id"] = chat_msg_id
 
     # Verificar si hubo error de timeout en el análisis
     if resultado.get("estado") == "Error timeout":
@@ -649,9 +650,20 @@ async def procesar_comprobante(image_bytes: bytes, mime: str, pie: str,
             guardar_store()
             monto = resultado.get("monto")
             monto_fmt = f"${float(monto):,.0f}" if monto else "—"
+            # Buscar msg_id del comprobante original
+            ref_nuevo = (resultado.get("referencia") or "").strip()
+            msg_id_original = None
+            for r in datos["registros"]:
+                if (r.get("referencia") or "").strip() == ref_nuevo:
+                    msg_id_original = r.get("_msg_id")
+                    break
+            texto_dup = f"🤨 *Duplicado* — msg #{chat_msg_id}"
+            if msg_id_original:
+                texto_dup += f" ya procesado en msg #{msg_id_original}"
+            texto_dup += f"\n💰 {monto_fmt} | 👤 {resultado.get('remitente','—')}"
             await send_safe(lambda: bot.send_message(
                 chat_id=chat_id,
-                text=f"🔁 *Comprobante duplicado* — no se suma\n💰 {monto_fmt} | 👤 {resultado.get('remitente','—')}",
+                text=texto_dup,
                 parse_mode="Markdown",
                 reply_to_message_id=chat_msg_id
             ))
