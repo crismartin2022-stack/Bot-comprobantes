@@ -8590,7 +8590,8 @@
         "_fecha_carga": "25/06/2026 01:14",
         "_origen": "grupo",
         "_pie": "De:\nNAIARA NAYME SORIA\nCUIT 27-45128328-1",
-        "_msg_id": 23455
+        "_msg_id": 23455,
+        "_imagen_url": "https://res.cloudinary.com/drz11thh3/image/upload/v1782360855/comprobantes/Xxxxxpro_y_Api_Agi_num197_25-06-2026_01-14.jpg"
       },
       {
         "fecha": "22/06/2026",
@@ -8613,7 +8614,8 @@
         "_fecha_carga": "25/06/2026 01:14",
         "_origen": "grupo",
         "_pie": "28.409.080 ariel romero",
-        "_msg_id": 23457
+        "_msg_id": 23457,
+        "_imagen_url": "https://res.cloudinary.com/drz11thh3/image/upload/v1782360855/comprobantes/Xxxxxpro_y_Api_Agi_num198_25-06-2026_01-14.jpg"
       },
       {
         "fecha": "22/06/2026",
@@ -8636,7 +8638,8 @@
         "_fecha_carga": "25/06/2026 01:14",
         "_origen": "grupo",
         "_pie": "De:\nGERALDINE ABRIL ACOSTA\nCUIT 27-47167364-7",
-        "_msg_id": 23456
+        "_msg_id": 23456,
+        "_imagen_url": "https://res.cloudinary.com/drz11thh3/image/upload/v1782360856/comprobantes/Xxxxxpro_y_Api_Agi_num199_25-06-2026_01-14.jpg"
       },
       {
         "fecha": "22/06/2026",
@@ -8659,7 +8662,8 @@
         "_fecha_carga": "25/06/2026 01:14",
         "_origen": "grupo",
         "_pie": "28.409.080 ariel romero",
-        "_msg_id": 23459
+        "_msg_id": 23459,
+        "_imagen_url": "https://res.cloudinary.com/drz11thh3/image/upload/v1782360856/comprobantes/Xxxxxpro_y_Api_Agi_num200_25-06-2026_01-14.jpg"
       },
       {
         "fecha": "22/06/2026",
@@ -8682,7 +8686,79 @@
         "_fecha_carga": "25/06/2026 01:14",
         "_origen": "grupo",
         "_pie": "De:\nGERALDINE ABRIL ACOSTA\nCUIT 27-47167364-7",
-        "_msg_id": 23458
+        "_msg_id": 23458,
+        "_imagen_url": "https://res.cloudinary.com/drz11thh3/image/upload/v1782360856/comprobantes/Xxxxxpro_y_Api_Agi_num201_25-06-2026_01-14.jpg"
+      },
+      {
+        "fecha": "22/06/2026",
+        "hora": "19:28",
+        "tipo": "TRF",
+        "monto": 250000.0,
+        "moneda": "ARS",
+        "remitente": "Ariel Antonio Romero",
+        "remitente_cuil": "",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Ualá",
+        "banco_destino": "",
+        "referencia": "WY7ZEPN6YLLR5L6O2QOM51",
+        "concepto": "VAR",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CBU destino: 0000155300000000009977. CUIT destino (destinatario): 30717282252. No se visualiza CUIL del remitente en el comprobante.",
+        "_num": 202,
+        "_fecha_carga": "25/06/2026 01:14",
+        "_origen": "grupo",
+        "_pie": "28.409.080 ariel romero",
+        "_msg_id": 23460,
+        "_imagen_url": "https://res.cloudinary.com/drz11thh3/image/upload/v1782360858/comprobantes/Xxxxxpro_y_Api_Agi_num202_25-06-2026_01-14.jpg"
+      },
+      {
+        "fecha": "22/06/2026",
+        "hora": "19:04",
+        "tipo": "TRF",
+        "monto": 250000.0,
+        "moneda": "ARS",
+        "remitente": "NAIARA NAYME SORIA",
+        "remitente_cuil": "27-45128328-1",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Banco De Galicia S.A.U",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "42183644014",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "ID COELSA: 7L8GYKNX41111PEKNMPRZ5. CVU destinatario: 0000155300000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 203,
+        "_fecha_carga": "25/06/2026 01:14",
+        "_origen": "grupo",
+        "_pie": "De:\nNAIARA NAYME SORIA\nCUIT 27-45128328-1",
+        "_msg_id": 23461,
+        "_imagen_url": "https://res.cloudinary.com/drz11thh3/image/upload/v1782360860/comprobantes/Xxxxxpro_y_Api_Agi_num203_25-06-2026_01-14.jpg"
+      },
+      {
+        "fecha": "22/06/2026",
+        "hora": "19:27",
+        "tipo": "TRF",
+        "monto": 250000.0,
+        "moneda": "ARS",
+        "remitente": "Ariel Antonio Romero",
+        "remitente_cuil": "",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Ualá",
+        "banco_destino": "",
+        "referencia": "RD06ZO9W488EYEV525GP7X",
+        "concepto": "VAR",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CBU destino: 0000155300000000009977. CUIT destino (destinatario): 30717282252. No se visualiza CUIL del remitente en el comprobante.",
+        "_num": 204,
+        "_fecha_carga": "25/06/2026 01:14",
+        "_origen": "grupo",
+        "_pie": "28.409.080 ariel romero",
+        "_msg_id": 23462
       }
     ],
     "errores": [],
