@@ -678,26 +678,40 @@ async def procesar_comprobante(image_bytes: bytes, mime: str, pie: str,
             if entry.get("msg_id") == chat_msg_id:
                 entry["estado"] = "procesado"
                 break
-        # 👍 Solo reacción en la foto — sin mensaje
         cvu = (resultado.get("cvu_ultimos4") or "").strip()
         monto = resultado.get("monto")
         monto_fmt = f"${float(monto):,.0f}" if monto else "—"
         remitente = resultado.get("remitente") or "—"
-        asyncio.create_task(reaccionar(bot, chat_id, chat_msg_id, "👍"))
-        # Notificar al admin por privado si falta CVU
-        if not cvu:
+        sin_datos = not resultado.get("tiene_remitente") and not (resultado.get("remitente") or "").strip()
+
+        if not cvu or sin_datos:
+            # 🤔 en la foto + mensaje en el grupo
+            asyncio.create_task(reaccionar(bot, chat_id, chat_msg_id, "🤔"))
+            motivos = []
+            if not cvu:
+                motivos.append("sin CVU/CBU")
+            if sin_datos:
+                motivos.append("sin datos de remitente")
+            await send_safe(lambda: bot.send_message(
+                chat_id=chat_id,
+                text=f"🤔 Comprobante #{num} aprobado pero con observaciones: {', '.join(motivos)}\n💰 {monto_fmt}",
+                reply_to_message_id=chat_msg_id
+            ))
+            # Notificar al admin también
             await send_safe(lambda: bot.send_message(
                 chat_id=ADMIN_ID,
                 text=(
-                    f"⚠️ *CVU faltante — {nombre_g}*\n"
-                    f"Comprobante #{num}\n"
+                    f"⚠️ *Comprobante con observaciones — {nombre_g}*\n"
+                    f"#{num} | {', '.join(motivos)}\n"
                     f"👤 {remitente}\n"
                     f"💰 {monto_fmt}\n"
-                    f"📅 {resultado.get('fecha','—')}\n"
-                    f"_CVU del receptor no encontrado en la imagen._"
+                    f"📅 {resultado.get('fecha','—')}"
                 ),
                 parse_mode="Markdown"
             ))
+        else:
+            # 👍 Solo reacción en la foto — sin mensaje
+            asyncio.create_task(reaccionar(bot, chat_id, chat_msg_id, "👍"))
     else:
         resultado["_motivo_error"] = motivo
         datos["errores"].append(resultado)
@@ -1711,6 +1725,10 @@ async def handle_text(update: Update, ctx: ContextTypes.DEFAULT_TYPE):
             return
 
     # ── Detectar texto del pie para foto esperando ──
+    # Ignorar si el texto tiene múltiples líneas (pies de varios comprobantes juntos)
+    if texto.count("\n") >= 2:
+        return
+
     key_match = None
     for key in list(esperando_pie.keys()):
         if key[0] == chat_id:
