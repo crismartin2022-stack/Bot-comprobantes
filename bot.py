@@ -58,7 +58,7 @@ async def reaccionar(bot, chat_id: int, msg_id: int, emoji: str):
                     message_id=msg_id,
                     reaction=[ReactionTypeEmoji(emoji=emoji)]
                 )
-                await asyncio.sleep(0.5)  # Pausa entre reacciones para evitar flood
+                await asyncio.sleep(2)  # Pausa entre reacciones para evitar flood
                 return
             except RetryAfter as e:
                 wait = e.retry_after + 1
