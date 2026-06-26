@@ -53041,7 +53041,8 @@
         "_fecha_carga": "26/06/2026 17:23",
         "_origen": "grupo",
         "_pie": "300 k (Tony90) \n*Sasteup Srl* \n13/6 \nMaximiliano Mansilla\n20-34957607-5",
-        "_msg_id": 26534
+        "_msg_id": 26534,
+        "_imagen_url": "https://res.cloudinary.com/drz11thh3/image/upload/v1782505419/comprobantes/Xxxxxpro_y_Api_Agi_num2205_26-06-2026_17-23.jpg"
       },
       {
         "fecha": "13/06/2026",
@@ -53064,7 +53065,8 @@
         "_fecha_carga": "26/06/2026 17:23",
         "_origen": "grupo",
         "_pie": "Envío en total \n$2.040.000\n\n•600k (Tony 90)\n•*Sasteup Srl*\n•13/06\n•Walter Oscar Silvetti\n•20-40495304-5\n\n•440k (Tony 90)\n•*Sasteup Srl*\n•13/06\n•Eleonora Magali Gallardo\n•27-45534816-7\n\n•300k (Tony 90)\n•*Sasteup Srl*\n•13/06\n•Alicia Veronica Ledesma\n•27-23971189-3\n\n•700k (Tony 90)\n•*Sasteup Srl*\n•13/06\n•Walter Oscar Silvetti\n•20-40495304-5",
-        "_msg_id": 26533
+        "_msg_id": 26533,
+        "_imagen_url": "https://res.cloudinary.com/drz11thh3/image/upload/v1782505419/comprobantes/Xxxxxpro_y_Api_Agi_num2206_26-06-2026_17-23.jpg"
       },
       {
         "fecha": "13/06/2026",
@@ -53087,7 +53089,8 @@
         "_fecha_carga": "26/06/2026 17:23",
         "_origen": "grupo",
         "_pie": "Envío en total \n$2.040.000\n\n•600k (Tony 90)\n•*Sasteup Srl*\n•13/06\n•Walter Oscar Silvetti\n•20-40495304-5\n\n•440k (Tony 90)\n•*Sasteup Srl*\n•13/06\n•Eleonora Magali Gallardo\n•27-45534816-7\n\n•300k (Tony 90)\n•*Sasteup Srl*\n•13/06\n•Alicia Veronica Ledesma\n•27-23971189-3\n\n•700k (Tony 90)\n•*Sasteup Srl*\n•13/06\n•Walter Oscar Silvetti\n•20-40495304-5",
-        "_msg_id": 26532
+        "_msg_id": 26532,
+        "_imagen_url": "https://res.cloudinary.com/drz11thh3/image/upload/v1782505420/comprobantes/Xxxxxpro_y_Api_Agi_num2207_26-06-2026_17-23.jpg"
       },
       {
         "fecha": "13/06/2026",
@@ -53110,7 +53113,80 @@
         "_fecha_carga": "26/06/2026 17:23",
         "_origen": "grupo",
         "_pie": "Envío en total \n$2.040.000\n\n•600k (Tony 90)\n•*Sasteup Srl*\n•13/06\n•Walter Oscar Silvetti\n•20-40495304-5\n\n•440k (Tony 90)\n•*Sasteup Srl*\n•13/06\n•Eleonora Magali Gallardo\n•27-45534816-7\n\n•300k (Tony 90)\n•*Sasteup Srl*\n•13/06\n•Alicia Veronica Ledesma\n•27-23971189-3\n\n•700k (Tony 90)\n•*Sasteup Srl*\n•13/06\n•Walter Oscar Silvetti\n•20-40495304-5",
-        "_msg_id": 26530
+        "_msg_id": 26530,
+        "_imagen_url": "https://res.cloudinary.com/drz11thh3/image/upload/v1782505420/comprobantes/Xxxxxpro_y_Api_Agi_num2208_26-06-2026_17-23.jpg"
+      },
+      {
+        "fecha": "13/06/2026",
+        "hora": "15:40",
+        "tipo": "TRF",
+        "monto": 440000.0,
+        "moneda": "ARS",
+        "remitente": "Eleonora Magali Gallardo",
+        "remitente_cuil": "27-45534816-7",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163169714443",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: 46YGOW9M1KJLXY3QNEXD8J. CVU origen: 0000003100087324989448. CVU destino: 0000155300000000009977.",
+        "_num": 2209,
+        "_fecha_carga": "26/06/2026 17:23",
+        "_origen": "grupo",
+        "_pie": "Envío en total \n$2.040.000\n\n•600k (Tony 90)\n•*Sasteup Srl*\n•13/06\n•Walter Oscar Silvetti\n•20-40495304-5\n\n•440k (Tony 90)\n•*Sasteup Srl*\n•13/06\n•Eleonora Magali Gallardo\n•27-45534816-7\n\n•300k (Tony 90)\n•*Sasteup Srl*\n•13/06\n•Alicia Veronica Ledesma\n•27-23971189-3\n\n•700k (Tony 90)\n•*Sasteup Srl*\n•13/06\n•Walter Oscar Silvetti\n•20-40495304-5",
+        "_msg_id": 26531,
+        "_imagen_url": "https://res.cloudinary.com/drz11thh3/image/upload/v1782505421/comprobantes/Xxxxxpro_y_Api_Agi_num2209_26-06-2026_17-23.jpg"
+      },
+      {
+        "fecha": "13/06/2026",
+        "hora": "18:31",
+        "tipo": "TRF",
+        "monto": 300000.0,
+        "moneda": "ARS",
+        "remitente": "Hernan Ariel Alvarenga",
+        "remitente_cuil": "23-37790603-9",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163193845619",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: LMORZP908L586LQYNEGJ46. CVU remitente: 0000003100071435925862. CVU destinatario: 0000155300000000009977",
+        "_num": 2210,
+        "_fecha_carga": "26/06/2026 17:23",
+        "_origen": "grupo",
+        "_pie": "300 k (Tony90) \n*Sasteup Srl* \n13/6 \nHernán Ariel Alvarenga \n23-37790603-9",
+        "_msg_id": 26535,
+        "_imagen_url": "https://res.cloudinary.com/drz11thh3/image/upload/v1782505421/comprobantes/Xxxxxpro_y_Api_Agi_num2210_26-06-2026_17-23.jpg"
+      },
+      {
+        "fecha": "13/06/2026",
+        "hora": "22:49",
+        "tipo": "TRF",
+        "monto": 56000.0,
+        "moneda": "ARS",
+        "remitente": "Dahyana Maribel Albarracin",
+        "remitente_cuil": "27-38002223-6",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Naranja X",
+        "banco_destino": "Cuenta Virtual",
+        "referencia": "3D5W612E6ZJM7GMO2GXYVR",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de transacción: 8fd9807f-28aa-4367-a559-5ba1a6cee65d. CBU origen: 4530000800016617991688. CVU destino: 0000155300000000009977. CUIL destinatario: 30-71728225-2",
+        "_num": 2211,
+        "_fecha_carga": "26/06/2026 17:23",
+        "_origen": "grupo",
+        "_pie": "56 k (Tony90)\n*SASTEUP SRL*\n13/06\nDahyana Albarracín \n27-38002223-6",
+        "_msg_id": 26537,
+        "_imagen_url": "https://res.cloudinary.com/drz11thh3/image/upload/v1782505427/comprobantes/Xxxxxpro_y_Api_Agi_num2211_26-06-2026_17-23.jpg"
       }
     ],
     "errores": [],
