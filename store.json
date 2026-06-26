@@ -29484,7 +29484,8 @@
         "_fecha_carga": "26/06/2026 16:44",
         "_origen": "grupo",
         "_pie": "",
-        "_msg_id": 25410
+        "_msg_id": 25410,
+        "_imagen_url": "https://res.cloudinary.com/drz11thh3/image/upload/v1782503044/comprobantes/Xxxxxpro_y_Api_Agi_num1225_26-06-2026_16-44.jpg"
       },
       {
         "fecha": "13/06/2026",
@@ -29507,7 +29508,8 @@
         "_fecha_carga": "26/06/2026 16:44",
         "_origen": "grupo",
         "_pie": "",
-        "_msg_id": 25408
+        "_msg_id": 25408,
+        "_imagen_url": "https://res.cloudinary.com/drz11thh3/image/upload/v1782503044/comprobantes/Xxxxxpro_y_Api_Agi_num1226_26-06-2026_16-44.jpg"
       },
       {
         "fecha": "13/06/2026",
@@ -29530,7 +29532,8 @@
         "_fecha_carga": "26/06/2026 16:44",
         "_origen": "grupo",
         "_pie": "",
-        "_msg_id": 25409
+        "_msg_id": 25409,
+        "_imagen_url": "https://res.cloudinary.com/drz11thh3/image/upload/v1782503044/comprobantes/Xxxxxpro_y_Api_Agi_num1227_26-06-2026_16-44.jpg"
       },
       {
         "fecha": "13/06/2026",
@@ -29553,7 +29556,8 @@
         "_fecha_carga": "26/06/2026 16:44",
         "_origen": "grupo",
         "_pie": "",
-        "_msg_id": 25406
+        "_msg_id": 25406,
+        "_imagen_url": "https://res.cloudinary.com/drz11thh3/image/upload/v1782503044/comprobantes/Xxxxxpro_y_Api_Agi_num1228_26-06-2026_16-44.jpg"
       },
       {
         "fecha": "14/06/2026",
@@ -29576,7 +29580,8 @@
         "_fecha_carga": "26/06/2026 16:44",
         "_origen": "grupo",
         "_pie": "",
-        "_msg_id": 25413
+        "_msg_id": 25413,
+        "_imagen_url": "https://res.cloudinary.com/drz11thh3/image/upload/v1782503044/comprobantes/Xxxxxpro_y_Api_Agi_num1229_26-06-2026_16-44.jpg"
       },
       {
         "fecha": "14/06/2026",
@@ -29599,7 +29604,56 @@
         "_fecha_carga": "26/06/2026 16:44",
         "_origen": "grupo",
         "_pie": "",
-        "_msg_id": 25412
+        "_msg_id": 25412,
+        "_imagen_url": "https://res.cloudinary.com/drz11thh3/image/upload/v1782503045/comprobantes/Xxxxxpro_y_Api_Agi_num1230_26-06-2026_16-44.jpg"
+      },
+      {
+        "fecha": "13/06/2026",
+        "hora": "17:28",
+        "tipo": "TRF",
+        "monto": 30000.0,
+        "moneda": "ARS",
+        "remitente": "Lautaro Ali Casado",
+        "remitente_cuil": "20-57179522-2",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163996526206",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: 46YGOW9M1KJKX5GPNEXD8J. CVU origen: 0000003100074791687906. CVU destino: 0000155300000000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 1231,
+        "_fecha_carga": "26/06/2026 16:44",
+        "_origen": "grupo",
+        "_pie": "",
+        "_msg_id": 25407,
+        "_imagen_url": "https://res.cloudinary.com/drz11thh3/image/upload/v1782503047/comprobantes/Xxxxxpro_y_Api_Agi_num1231_26-06-2026_16-44.jpg"
+      },
+      {
+        "fecha": "14/06/2026",
+        "hora": "17:35",
+        "tipo": "TRF",
+        "monto": 100000.0,
+        "moneda": "ARS",
+        "remitente": "Cristian Ronaldo Lopez",
+        "remitente_cuil": "27-41251312-1",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "163311137297",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: RD06ZO9WVR4VZRR3N5GP7X. CVU origen: 0000003100079118284808. CVU destino: 0000155300000000009977",
+        "_num": 1232,
+        "_fecha_carga": "26/06/2026 16:44",
+        "_origen": "grupo",
+        "_pie": "",
+        "_msg_id": 25415,
+        "_imagen_url": "https://res.cloudinary.com/drz11thh3/image/upload/v1782503047/comprobantes/Xxxxxpro_y_Api_Agi_num1232_26-06-2026_16-44.jpg"
       }
     ],
     "errores": [],
