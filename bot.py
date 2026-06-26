@@ -1377,18 +1377,41 @@ async def worker_procesamiento(app):
                     result = await redis_client.blpop(REDIS_QUEUE_KEY, timeout=1)
                     if result:
                         item_data = json.loads(result[1])
-                        # Re-descargar imagen desde Telegram
+                        # Re-descargar imagen desde Telegram con reintentos
                         file_id = item_data.get("file_id")
                         if file_id:
-                            try:
-                                file = await app.bot.get_file(file_id)
-                                async with httpx.AsyncClient() as client:
-                                    resp = await client.get(file.file_path)
-                                    item_data["image_bytes"] = resp.content
-                                    item_data["mime"] = item_data.get("mime", "image/jpeg")
-                                    item = item_data
-                            except Exception as e:
-                                log.error(f"Error re-descargando imagen {file_id}: {e}")
+                            descargado = False
+                            for intento in range(3):
+                                try:
+                                    file = await app.bot.get_file(file_id)
+                                    async with httpx.AsyncClient() as client:
+                                        resp = await client.get(file.file_path)
+                                        item_data["image_bytes"] = resp.content
+                                        item_data["mime"] = item_data.get("mime", "image/jpeg")
+                                        item = item_data
+                                        descargado = True
+                                        break
+                                except Exception as e:
+                                    log.warning(f"Descarga intento {intento+1}/3 fallida {file_id}: {e}")
+                                    await asyncio.sleep(2)
+                            if not descargado:
+                                # Reenconlar al final de la cola para reintento posterior
+                                reintentos = item_data.get("_reintentos", 0) + 1
+                                if reintentos <= 3:
+                                    item_data["_reintentos"] = reintentos
+                                    await redis_client.rpush(REDIS_QUEUE_KEY, json.dumps(item_data))
+                                    log.warning(f"Reencolado (intento {reintentos}/3): msg {item_data.get('msg_id')}")
+                                else:
+                                    log.error(f"Descartado tras 3 reintentos: msg {item_data.get('msg_id')}")
+                                    try:
+                                        await app.bot.send_message(
+                                            chat_id=item_data["chat_id"],
+                                            text=f"⚠️ No se pudo procesar este comprobante tras 3 intentos. Reenvialo.",
+                                            reply_to_message_id=item_data.get("msg_id")
+                                        )
+                                        asyncio.create_task(reaccionar(app.bot, item_data["chat_id"], item_data["msg_id"], "🤬"))
+                                    except Exception as e:
+                                        log.error(f"Error notificando descarte: {e}")
                                 continue
                         else:
                             continue
@@ -1410,9 +1433,27 @@ async def worker_procesamiento(app):
                         item["chat_id"], item["nombre_g"], item.get("origen", "grupo"),
                         app.bot, item["msg_id"]
                     )
-
                 except Exception as e:
                     log.error(f"Error en worker: {e}")
+                    # Reenconlar si hubo error en procesamiento
+                    if redis_client and item.get("file_id"):
+                        reintentos = item.get("_reintentos", 0) + 1
+                        if reintentos <= 3:
+                            item_redis = {k: v for k, v in item.items() if k != "image_bytes"}
+                            item_redis["_reintentos"] = reintentos
+                            await redis_client.rpush(REDIS_QUEUE_KEY, json.dumps(item_redis))
+                            log.warning(f"Reencolado por error (intento {reintentos}/3): msg {item.get('msg_id')}")
+                        else:
+                            log.error(f"Descartado por error tras 3 reintentos: msg {item.get('msg_id')}")
+                            try:
+                                await app.bot.send_message(
+                                    chat_id=item["chat_id"],
+                                    text=f"⚠️ No se pudo procesar este comprobante tras 3 intentos. Reenvialo.",
+                                    reply_to_message_id=item.get("msg_id")
+                                )
+                                asyncio.create_task(reaccionar(app.bot, item["chat_id"], item["msg_id"], "🤬"))
+                            except Exception as e:
+                                log.error(f"Error notificando descarte: {e}")
                 finally:
                     if not redis_client:
                         cola_procesamiento.task_done()
