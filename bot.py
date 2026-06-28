@@ -661,13 +661,14 @@ async def procesar_comprobante(image_bytes: bytes, mime: str, pie: str,
             if msg_id_original:
                 texto_dup += f" ya procesado en msg #{msg_id_original}"
             texto_dup += f"\n💰 {monto_fmt} | 👤 {resultado.get('remitente','—')}"
+            _cid, _mid, _txt = chat_id, chat_msg_id, texto_dup
             await send_safe(lambda: bot.send_message(
-                chat_id=chat_id,
-                text=texto_dup,
+                chat_id=_cid,
+                text=_txt,
                 parse_mode="Markdown",
-                reply_to_message_id=chat_msg_id
+                reply_to_message_id=_mid
             ))
-            asyncio.create_task(reaccionar(bot, chat_id, chat_msg_id, "🤨"))
+            asyncio.create_task(reaccionar(bot, _cid, _mid, "🤨"))
             return
         datos["registros"].append(resultado)
         guardar_store()
@@ -686,26 +687,26 @@ async def procesar_comprobante(image_bytes: bytes, mime: str, pie: str,
 
         if not cvu or sin_datos:
             # 🤔 en la foto + mensaje en el grupo
-            asyncio.create_task(reaccionar(bot, chat_id, chat_msg_id, "🤔"))
-            motivos = []
-            if not cvu:
-                motivos.append("sin CVU/CBU")
-            if sin_datos:
-                motivos.append("sin datos de remitente")
+            _cid, _mid, _num, _monto_fmt, _motivos, _remitente, _nombre_g, _fecha = (
+                chat_id, chat_msg_id, num, monto_fmt,
+                (["sin CVU/CBU"] if not cvu else []) + (["sin datos de remitente"] if sin_datos else []),
+                remitente, nombre_g, resultado.get('fecha','—')
+            )
+            asyncio.create_task(reaccionar(bot, _cid, _mid, "🤔"))
+            _motivos_txt = ', '.join(_motivos)
             await send_safe(lambda: bot.send_message(
-                chat_id=chat_id,
-                text=f"🤔 Comprobante #{num} aprobado pero con observaciones: {', '.join(motivos)}\n💰 {monto_fmt}",
-                reply_to_message_id=chat_msg_id
+                chat_id=_cid,
+                text=f"🤔 Comprobante #{_num} aprobado pero con observaciones: {_motivos_txt}\n💰 {_monto_fmt}",
+                reply_to_message_id=_mid
             ))
-            # Notificar al admin también
             await send_safe(lambda: bot.send_message(
                 chat_id=ADMIN_ID,
                 text=(
-                    f"⚠️ *Comprobante con observaciones — {nombre_g}*\n"
-                    f"#{num} | {', '.join(motivos)}\n"
-                    f"👤 {remitente}\n"
-                    f"💰 {monto_fmt}\n"
-                    f"📅 {resultado.get('fecha','—')}"
+                    f"⚠️ *Comprobante con observaciones — {_nombre_g}*\n"
+                    f"#{_num} | {_motivos_txt}\n"
+                    f"👤 {_remitente}\n"
+                    f"💰 {_monto_fmt}\n"
+                    f"📅 {_fecha}"
                 ),
                 parse_mode="Markdown"
             ))
@@ -726,19 +727,20 @@ async def procesar_comprobante(image_bytes: bytes, mime: str, pie: str,
             f"_Avisá en el grupo para que corrijan los datos._"
         )
         # Notificar al admin por privado
-        await send_safe(lambda: bot.send_message(chat_id=ADMIN_ID, text=texto_error, parse_mode="Markdown"))
+        _cid, _mid, _num, _txt_err = chat_id, chat_msg_id, num, texto_error
+        await send_safe(lambda: bot.send_message(chat_id=ADMIN_ID, text=_txt_err, parse_mode="Markdown"))
         # Avisar en el grupo
         sent = await send_safe(lambda: bot.send_message(
-            chat_id=chat_id,
+            chat_id=_cid,
             text=(
-                f"⛔ Comprobante #{num} rechazado — datos no coinciden.\n"
+                f"⛔ Comprobante #{_num} rechazado — datos no coinciden.\n"
                 f"Por favor corregí respondiendo a este mensaje con el nombre y CUIL correcto."
             ),
-            reply_to_message_id=chat_msg_id
+            reply_to_message_id=_mid
         ))
         if sent:
-            mensajes_rechazo[(chat_id, sent.message_id)] = {"num": num, "chat_id": chat_id}
-        asyncio.create_task(reaccionar(bot, chat_id, chat_msg_id, "❌"))
+            mensajes_rechazo[(_cid, sent.message_id)] = {"num": _num, "chat_id": _cid}
+        asyncio.create_task(reaccionar(bot, _cid, _mid, "❌"))
 
 
 async def _subir_imagen_cloudinary(image_bytes: bytes, mime: str, resultado: dict, datos: dict):
