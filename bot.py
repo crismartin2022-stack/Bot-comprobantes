@@ -1506,8 +1506,11 @@ async def handle_photo(update: Update, ctx: ContextTypes.DEFAULT_TYPE):
     msg        = update.message
     msg_id     = msg.message_id
 
+    log.info(f"📥 Foto recibida — chat:{chat_id} msg:{msg_id} album:{msg.media_group_id or 'no'} caption:{'si' if caption else 'no'}")
+
     image_bytes, mime = await obtener_imagen(update, ctx)
     if not image_bytes:
+        log.warning(f"⚠️ No se pudo obtener imagen — chat:{chat_id} msg:{msg_id}")
         return
 
     if es_privado:
@@ -1547,8 +1550,8 @@ async def handle_photo(update: Update, ctx: ContextTypes.DEFAULT_TYPE):
     # ── Imagen individual ──
     # Procesar directo — con o sin pie (ya no es obligatorio)
     if caption:
-        # Guardar file_id para poder re-descargar si el bot reinicia
         file_id = msg.photo[-1].file_id if msg.photo else (msg.document.file_id if msg.document else None)
+        log.info(f"📤 Encolando foto individual — chat:{chat_id} msg:{msg_id} file_id:{file_id}")
         await encolar({
             "image_bytes": image_bytes, "mime": mime, "pie": caption,
             "chat_id": chat_id, "nombre_g": nombre_g, "origen": "grupo", "msg_id": msg_id,
