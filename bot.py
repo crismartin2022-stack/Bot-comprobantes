@@ -14,8 +14,7 @@ from apscheduler.triggers.cron import CronTrigger
 from openpyxl import Workbook
 from openpyxl.styles import Font, PatternFill, Alignment, Border, Side
 from openpyxl.utils import get_column_letter
-from telegram import Update, InlineKeyboardButton, InlineKeyboardMarkup, ReactionTypeEmoji
-from telegram.error import RetryAfter, TimedOut, NetworkError
+from telegram import Update, InlineKeyboardButton, InlineKeyboardMarkup
 from telegram.ext import (
     Application, CommandHandler, MessageHandler,
     filters, ContextTypes, CallbackQueryHandler
@@ -26,47 +25,6 @@ logging.basicConfig(format="%(asctime)s | %(levelname)s | %(message)s", level=lo
 log = logging.getLogger(__name__)
 logging.getLogger("httpx").setLevel(logging.WARNING)
 logging.getLogger("httpcore").setLevel(logging.WARNING)
-
-
-# ── Helper flood control ──────────────────────────────────────────────────────
-async def send_safe(coro_fn, retries=3):
-    """Ejecuta una función que retorna corrutina, manejando flood control.
-    Pasar como lambda: send_safe(lambda: bot.send_message(...))
-    """
-    for attempt in range(retries):
-        try:
-            return await coro_fn()
-        except RetryAfter as e:
-            wait = e.retry_after + 1
-            log.warning(f"Flood control: esperando {wait}s (intento {attempt+1})")
-            await asyncio.sleep(wait)
-        except (TimedOut, NetworkError) as e:
-            log.warning(f"Error de red Telegram: {e} (intento {attempt+1})")
-            await asyncio.sleep(2)
-        except Exception as e:
-            log.error(f"Error enviando mensaje Telegram: {e}")
-            return None
-    return None
-
-async def reaccionar(bot, chat_id: int, msg_id: int, emoji: str):
-    """Pone una reacción en un mensaje, con semáforo y retry en flood control."""
-    async with _semaforo_reacciones:
-        for attempt in range(3):
-            try:
-                await bot.set_message_reaction(
-                    chat_id=chat_id,
-                    message_id=msg_id,
-                    reaction=[ReactionTypeEmoji(emoji=emoji)]
-                )
-                await asyncio.sleep(2)  # Pausa entre reacciones para evitar flood
-                return
-            except RetryAfter as e:
-                wait = e.retry_after + 1
-                log.warning(f"Reacción {emoji} flood control: esperando {wait}s")
-                await asyncio.sleep(wait)
-            except Exception as e:
-                log.warning(f"Reacción {emoji} no aplicada: {e}")
-                return
 
 # ── Config ────────────────────────────────────────────────────────────────────
 TELEGRAM_TOKEN = os.environ["TELEGRAM_TOKEN"]
@@ -83,18 +41,13 @@ pendientes: dict = {}
 esperando_pie: dict = {}
 mensajes_rechazo: dict = {}
 received_log: dict = {}  # {chat_id: [{"msg_id", "fecha", "remitente", "estado"}]}
-semaforo_claude = asyncio.Semaphore(10)  # Máximo 3 análisis simultáneos
+semaforo_claude = asyncio.Semaphore(3)  # Máximo 3 análisis simultáneos
 cola_procesamiento = asyncio.Queue()  # Cola local (fallback si no hay Redis)
-_github_backup_counter = 0  # Contador para throttle de backup GitHub
-_semaforo_reacciones = asyncio.Semaphore(1)  # Máximo 1 reacción a la vez
 
 DATA_FILE    = "/data/store.json"       # Volume de Railway (persistente)
 LOG_FILE     = "/data/received_log.json"  # Log de imágenes recibidas
 QUEUE_FILE   = "/data/cola_pendiente.json"  # Cola persistente
 GITHUB_TOKEN = os.environ.get("GITHUB_TOKEN", "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")
-CLOUDINARY_CLOUD_NAME = os.environ.get("CLOUDINARY_CLOUD_NAME", "")
-CLOUDINARY_API_KEY    = os.environ.get("CLOUDINARY_API_KEY", "")
-CLOUDINARY_API_SECRET = os.environ.get("CLOUDINARY_API_SECRET", "")
 GITHUB_REPO  = "crismartin2022-stack/Bot-comprobantes"
 GITHUB_FILE  = "store.json"
 GITHUB_API   = f"https://api.github.com/repos/{GITHUB_REPO}/contents/{GITHUB_FILE}"
@@ -125,13 +78,9 @@ def guardar_store():
                 json.dump(received_log, f, ensure_ascii=False, indent=2)
         except Exception as le:
             log.error(f"Error guardando log: {le}")
-        # Respaldo en GitHub cada 10 guardados
-        global _github_backup_counter
-        _github_backup_counter += 1
-        if _github_backup_counter >= 10:
-            _github_backup_counter = 0
-            import threading
-            threading.Thread(target=_guardar_github_sync, args=(store_limpio,), daemon=True).start()
+        # Respaldo en GitHub en thread separado
+        import threading
+        threading.Thread(target=_guardar_github_sync, args=(store_limpio,), daemon=True).start()
     except Exception as e:
         log.error(f"Error guardando store: {e}")
 
@@ -152,45 +101,6 @@ def _guardar_github_sync(store_limpio: dict):
             log.error(f"Error respaldo GitHub: {resp.status_code}")
     except Exception as e:
         log.error(f"Error respaldo GitHub: {e}")
-
-async def subir_cloudinary(image_bytes: bytes, mime: str, public_id: str = None) -> str:
-    """Sube imagen a Cloudinary y retorna URL permanente. Retorna '' si falla."""
-    if not CLOUDINARY_CLOUD_NAME or not CLOUDINARY_API_KEY or not CLOUDINARY_API_SECRET:
-        log.warning("Cloudinary: variables de entorno no configuradas")
-        return ""
-    try:
-        import hashlib, time
-        timestamp = str(int(time.time()))
-        params = f"folder=comprobantes&timestamp={timestamp}"
-        if public_id:
-            params = f"folder=comprobantes&public_id={public_id}&timestamp={timestamp}"
-        signature = hashlib.sha1(f"{params}{CLOUDINARY_API_SECRET}".encode()).hexdigest()
-        ext = "jpg" if "jpeg" in mime else mime.split("/")[-1]
-        data = {
-            "api_key": CLOUDINARY_API_KEY,
-            "timestamp": timestamp,
-            "signature": signature,
-            "folder": "comprobantes",
-        }
-        if public_id:
-            data["public_id"] = public_id
-        files = {"file": (f"comprobante.{ext}", image_bytes, mime)}
-        async with httpx.AsyncClient(timeout=20) as client:
-            resp = await client.post(
-                f"https://api.cloudinary.com/v1_1/{CLOUDINARY_CLOUD_NAME}/image/upload",
-                files=files,
-                data=data
-            )
-        if resp.status_code == 200:
-            url = resp.json().get("secure_url", "")
-            log.info(f"Cloudinary ✅ {url}")
-            return url
-        else:
-            log.error(f"Cloudinary error {resp.status_code}: {resp.text[:300]}")
-            return ""
-    except Exception as e:
-        log.error(f"Error subiendo a Cloudinary: {e}")
-        return ""
 
 def cargar_store():
     """Carga el store desde Volume. Si no existe, intenta desde GitHub."""
@@ -350,7 +260,7 @@ async def analizar_imagen(image_bytes: bytes, mime: str, reintentos: int = 3) ->
                         ]}]
                     )
                 ),
-                timeout=25
+                timeout=30
             )
             text = resp.content[0].text
             try:
@@ -450,8 +360,8 @@ def generar_excel(registros: list, semana: str, nombre: str, es_errores: bool = 
     else:
         headers    = ["#", "GRUPO", "FECHA DE ENVIO", "TRF O DEPOSITO", "TITULAR DE LA CTA",
                       "FECHA TICKET", "HORA TICKET", "CUENTA (CVU)", "MONTO",
-                      "Remitente", "CUIL Remitente", "Banco Origen", "Estado", "Origen", "Notas", "Imagen"]
-        col_widths = [4, 20, 22, 12, 30, 13, 11, 14, 14, 25, 20, 18, 11, 10, 28, 45]
+                      "Remitente", "CUIL Remitente", "Banco Origen", "Estado", "Origen", "Notas"]
+        col_widths = [4, 20, 22, 12, 30, 13, 11, 14, 14, 25, 20, 18, 11, 10, 28]
 
     for col, (h, w) in enumerate(zip(headers, col_widths), 1):
         cell = ws.cell(row=1, column=col, value=h)
@@ -497,11 +407,9 @@ def generar_excel(registros: list, semana: str, nombre: str, es_errores: bool = 
                 r.get("estado", ""),
                 r.get("_origen", "grupo"),
                 r.get("notas", ""),
-                r.get("_imagen_url", ""),
             ]
 
         cvu_col = 9 if es_errores else 8
-        img_col = len(fila) if not es_errores else None
         for col, val in enumerate(fila, 1):
             cell = ws.cell(row=i, column=col, value=val)
             cell.border = border
@@ -510,10 +418,6 @@ def generar_excel(registros: list, semana: str, nombre: str, es_errores: bool = 
                 cell.fill = ok_fill if tiene_cvu else error_fill
                 cell.font = Font(bold=True, color="FFFFFF")
                 cell.alignment = Alignment(horizontal="center", vertical="center")
-            if not es_errores and img_col and col == img_col and val:
-                cell.hyperlink = val
-                cell.value = "Ver imagen"
-                cell.font = Font(color="0563C1", underline="single")
 
     ws.freeze_panes = "A2"
     ws.auto_filter.ref = f"A1:{get_column_letter(len(headers))}1"
@@ -627,19 +531,20 @@ async def procesar_comprobante(image_bytes: bytes, mime: str, pie: str,
     resultado["_fecha_carga"] = now_arg().strftime("%d/%m/%Y %H:%M")
     resultado["_origen"] = origen
     resultado["_pie"] = pie or ""
-    resultado["_msg_id"] = chat_msg_id
 
     # Verificar si hubo error de timeout en el análisis
     if resultado.get("estado") == "Error timeout":
         resultado["_motivo_error"] = "Error de conexión con IA — reintentá más tarde"
         datos["errores"].append(resultado)
         guardar_store()
-        await send_safe(lambda: bot.send_message(
-            chat_id=chat_id,
-            text=f"⚠️ Comprobante #{num} no procesado — error de conexión. Reenvialo.",
-            reply_to_message_id=chat_msg_id
-        ))
-        asyncio.create_task(reaccionar(bot, chat_id, chat_msg_id, "❌"))
+        try:
+            await bot.send_message(
+                chat_id=chat_id,
+                text=f"⚠️ Comprobante #{num} no procesado — error de conexión. Reenvialo.",
+                reply_to_message_id=chat_msg_id
+            )
+        except Exception as e:
+            log.error(f"Error notificando timeout: {e}")
         return
 
     if coincide:
@@ -650,69 +555,53 @@ async def procesar_comprobante(image_bytes: bytes, mime: str, pie: str,
             guardar_store()
             monto = resultado.get("monto")
             monto_fmt = f"${float(monto):,.0f}" if monto else "—"
-            # Buscar msg_id del comprobante original
-            ref_nuevo = (resultado.get("referencia") or "").strip()
-            msg_id_original = None
-            for r in datos["registros"]:
-                if (r.get("referencia") or "").strip() == ref_nuevo:
-                    msg_id_original = r.get("_msg_id")
-                    break
-            texto_dup = f"🤨 *Duplicado* — msg #{chat_msg_id}"
-            if msg_id_original:
-                texto_dup += f" ya procesado en msg #{msg_id_original}"
-            texto_dup += f"\n💰 {monto_fmt} | 👤 {resultado.get('remitente','—')}"
-            _cid, _mid, _txt = chat_id, chat_msg_id, texto_dup
-            await send_safe(lambda: bot.send_message(
-                chat_id=_cid,
-                text=_txt,
+            await bot.send_message(
+                chat_id=chat_id,
+                text=f"🔁 *Comprobante duplicado* — no se suma\n💰 {monto_fmt} | 👤 {resultado.get('remitente','—')}",
                 parse_mode="Markdown",
-                reply_to_message_id=_mid
-            ))
-            asyncio.create_task(reaccionar(bot, _cid, _mid, "🤨"))
+                reply_to_message_id=chat_msg_id
+            )
             return
         datos["registros"].append(resultado)
         guardar_store()
-        # Subir imagen a Cloudinary en background
-        asyncio.create_task(_subir_imagen_cloudinary(image_bytes, mime, resultado, datos))
         # Actualizar log a "procesada"
         for entry in received_log.get(str(chat_id), []):
             if entry.get("msg_id") == chat_msg_id:
                 entry["estado"] = "procesada"
                 break
+        # ✅ Confirmar en el grupo con tilde
         cvu = (resultado.get("cvu_ultimos4") or "").strip()
         monto = resultado.get("monto")
         monto_fmt = f"${float(monto):,.0f}" if monto else "—"
         remitente = resultado.get("remitente") or "—"
-        sin_datos = not resultado.get("tiene_remitente") and not (resultado.get("remitente") or "").strip()
-
-        if not cvu or sin_datos:
-            # 🤔 en la foto + mensaje en el grupo
-            _cid, _mid, _num, _monto_fmt, _motivos, _remitente, _nombre_g, _fecha = (
-                chat_id, chat_msg_id, num, monto_fmt,
-                (["sin CVU/CBU"] if not cvu else []) + (["sin datos de remitente"] if sin_datos else []),
-                remitente, nombre_g, resultado.get('fecha','—')
+        cuil = (resultado.get("remitente_cuil") or "").strip()
+        cvu_txt = f"****{cvu}" if cvu else "⚠️ Sin CVU"
+        cuil_txt = f" | DNI/CUIL: {cuil}" if cuil else ""
+        try:
+            await bot.send_message(
+                chat_id=chat_id,
+                text=f"✅ #{num} | {remitente}{cuil_txt} | {monto_fmt} | {cvu_txt}",
+                reply_to_message_id=chat_msg_id
             )
-            asyncio.create_task(reaccionar(bot, _cid, _mid, "🤔"))
-            _motivos_txt = ', '.join(_motivos)
-            await send_safe(lambda: bot.send_message(
-                chat_id=_cid,
-                text=f"🤔 Comprobante #{_num} aprobado pero con observaciones: {_motivos_txt}\n💰 {_monto_fmt}",
-                reply_to_message_id=_mid
-            ))
-            await send_safe(lambda: bot.send_message(
-                chat_id=ADMIN_ID,
-                text=(
-                    f"⚠️ *Comprobante con observaciones — {_nombre_g}*\n"
-                    f"#{_num} | {_motivos_txt}\n"
-                    f"👤 {_remitente}\n"
-                    f"💰 {_monto_fmt}\n"
-                    f"📅 {_fecha}"
-                ),
-                parse_mode="Markdown"
-            ))
-        else:
-            # 👍 Solo reacción en la foto — sin mensaje
-            asyncio.create_task(reaccionar(bot, chat_id, chat_msg_id, "👍"))
+        except Exception as e:
+            log.error(f"Error enviando confirmación: {e}")
+        # Notificar al admin por privado si falta CVU
+        if not cvu:
+            try:
+                await bot.send_message(
+                    chat_id=ADMIN_ID,
+                    text=(
+                        f"⚠️ *CVU faltante — {nombre_g}*\n"
+                        f"Comprobante #{num}\n"
+                        f"👤 {remitente}\n"
+                        f"💰 {monto_fmt}\n"
+                        f"📅 {resultado.get('fecha','—')}\n"
+                        f"_CVU del receptor no encontrado en la imagen._"
+                    ),
+                    parse_mode="Markdown"
+                )
+            except Exception as e:
+                log.error(f"Error notificando CVU faltante: {e}")
     else:
         resultado["_motivo_error"] = motivo
         datos["errores"].append(resultado)
@@ -727,36 +616,24 @@ async def procesar_comprobante(image_bytes: bytes, mime: str, pie: str,
             f"_Avisá en el grupo para que corrijan los datos._"
         )
         # Notificar al admin por privado
-        _cid, _mid, _num, _txt_err = chat_id, chat_msg_id, num, texto_error
-        await send_safe(lambda: bot.send_message(chat_id=ADMIN_ID, text=_txt_err, parse_mode="Markdown"))
+        try:
+            await bot.send_message(chat_id=ADMIN_ID, text=texto_error, parse_mode="Markdown")
+        except Exception as e:
+            log.error(f"Error notificando rechazo al admin: {e}")
         # Avisar en el grupo
-        sent = await send_safe(lambda: bot.send_message(
-            chat_id=_cid,
+        sent = await bot.send_message(
+            chat_id=chat_id,
             text=(
-                f"⛔ Comprobante #{_num} rechazado — datos no coinciden.\n"
+                f"⛔ Comprobante #{num} rechazado — datos no coinciden.\n"
                 f"Por favor corregí respondiendo a este mensaje con el nombre y CUIL correcto."
             ),
-            reply_to_message_id=_mid
-        ))
-        if sent:
-            mensajes_rechazo[(_cid, sent.message_id)] = {"num": _num, "chat_id": _cid}
-        asyncio.create_task(reaccionar(bot, _cid, _mid, "❌"))
+            reply_to_message_id=chat_msg_id
+        )
+        mensajes_rechazo[(chat_id, sent.message_id)] = {"num": num, "chat_id": chat_id}
 
-
-async def _subir_imagen_cloudinary(image_bytes: bytes, mime: str, resultado: dict, datos: dict):
-    """Sube imagen a Cloudinary y guarda la URL en el registro."""
-    num = resultado.get("_num", "x")
-    nombre = datos.get("nombre", "grupo").replace(" ", "_").replace("-", "_")
-    fecha = resultado.get("_fecha_carga", "").replace("/", "-").replace(" ", "_").replace(":", "-")
-    public_id = f"{nombre}_num{num}_{fecha}"
-    url = await subir_cloudinary(image_bytes, mime, public_id)
-    if url:
-        resultado["_imagen_url"] = url
-        guardar_store()
-
-# ── Tarea para procesar foto sin pie después de 5 segundos ──────────────────
+# ── Tarea para procesar foto sin pie después de 60 segundos ──────────────────
 async def procesar_sin_pie(key, app):
-    await asyncio.sleep(5)
+    await asyncio.sleep(60)
     if key not in esperando_pie:
         return
     pending = esperando_pie.pop(key)
@@ -766,7 +643,7 @@ async def procesar_sin_pie(key, app):
         "image_bytes": pending["image_bytes"], "mime": pending["mime"],
         "pie": pending.get("caption", ""), "chat_id": chat_id,
         "nombre_g": pending["nombre_g"], "origen": "grupo", "msg_id": msg_id,
-        "file_id": pending.get("file_id")
+        "file_id": None
     })
 
 # ── Tareas programadas ────────────────────────────────────────────────────────
@@ -1090,7 +967,7 @@ async def cmd_excel(update: Update, ctx: ContextTypes.DEFAULT_TYPE):
                 )
                 enviados += 1
 
-            if errores or duplicados or registros:
+            if errores or duplicados:
                 buf_err = generar_excel(errores, datos["semana_actual"], nombre, es_errores=True, duplicados=duplicados)
                 await update.message.reply_document(
                     document=buf_err,
@@ -1124,7 +1001,7 @@ async def cmd_excel(update: Update, ctx: ContextTypes.DEFAULT_TYPE):
         )
         enviados += 1
 
-    if errores or duplicados or registros:
+    if errores or duplicados:
         buf_err = generar_excel(errores, datos["semana_actual"], nombre, es_errores=True, duplicados=duplicados)
         await update.message.reply_document(
             document=buf_err,
@@ -1150,8 +1027,6 @@ async def cmd_pendientes(update: Update, ctx: ContextTypes.DEFAULT_TYPE):
 
     chat_id = update.effective_chat.id
     es_privado = update.effective_chat.type == "private"
-
-    # Si se llama desde privado, mostrar todos los grupos
     grupos_a_revisar = list(received_log.keys()) if es_privado else [str(chat_id)]
 
     total_recibidas = 0
@@ -1162,7 +1037,7 @@ async def cmd_pendientes(update: Update, ctx: ContextTypes.DEFAULT_TYPE):
         entradas = received_log.get(cid, [])
         nombre = store.get(cid, {}).get("nombre", cid)
         recibidas = len(entradas)
-        procesadas = [e for e in entradas if e.get("estado") == "procesada"]
+        procesadas = [e for e in entradas if e.get("estado") in ("procesada", "procesado")]
         pendientes = [e for e in entradas if e.get("estado") not in ("procesada", "procesado")]
         total_recibidas += recibidas
         total_pendientes += len(pendientes)
@@ -1182,18 +1057,6 @@ async def cmd_pendientes(update: Update, ctx: ContextTypes.DEFAULT_TYPE):
         texto += f"─────────────────────\n⚠️ *Total sin procesar: {total_pendientes} de {total_recibidas}*"
 
     await update.message.reply_text(texto, parse_mode="Markdown")
-
-async def cmd_limpiar_log(update: Update, ctx: ContextTypes.DEFAULT_TYPE):
-    """Limpia el log de auditoría del grupo actual."""
-    chat_id = update.effective_chat.id
-    cid_str = str(chat_id)
-    if cid_str in received_log:
-        cantidad = len(received_log[cid_str])
-        received_log[cid_str] = []
-        guardar_store()
-        await update.message.reply_text(f"✅ Log limpiado — {cantidad} entradas eliminadas.")
-    else:
-        await update.message.reply_text("📭 No había entradas en el log.")
 
 async def cmd_recuperar(update: Update, ctx: ContextTypes.DEFAULT_TYPE):
     """Lee el store.json del Volume y recarga los datos en memoria."""
@@ -1403,7 +1266,6 @@ async def encolar(item: dict):
     # Fallback: cola local
     await cola_procesamiento.put(item)
 
-# ── Monitor de cola vacía — resumen automático ───────────────────────────────
 async def worker_procesamiento(app):
     """Procesa comprobantes de Redis o cola local."""
     global redis_client
@@ -1416,41 +1278,18 @@ async def worker_procesamiento(app):
                     result = await redis_client.blpop(REDIS_QUEUE_KEY, timeout=1)
                     if result:
                         item_data = json.loads(result[1])
-                        # Re-descargar imagen desde Telegram con reintentos
+                        # Re-descargar imagen desde Telegram
                         file_id = item_data.get("file_id")
                         if file_id:
-                            descargado = False
-                            for intento in range(3):
-                                try:
-                                    file = await app.bot.get_file(file_id)
-                                    async with httpx.AsyncClient() as client:
-                                        resp = await client.get(file.file_path)
-                                        item_data["image_bytes"] = resp.content
-                                        item_data["mime"] = item_data.get("mime", "image/jpeg")
-                                        item = item_data
-                                        descargado = True
-                                        break
-                                except Exception as e:
-                                    log.warning(f"Descarga intento {intento+1}/3 fallida {file_id}: {e}")
-                                    await asyncio.sleep(2)
-                            if not descargado:
-                                # Reenconlar al final de la cola para reintento posterior
-                                reintentos = item_data.get("_reintentos", 0) + 1
-                                if reintentos <= 3:
-                                    item_data["_reintentos"] = reintentos
-                                    await redis_client.rpush(REDIS_QUEUE_KEY, json.dumps(item_data))
-                                    log.warning(f"Reencolado (intento {reintentos}/3): msg {item_data.get('msg_id')}")
-                                else:
-                                    log.error(f"Descartado tras 3 reintentos: msg {item_data.get('msg_id')}")
-                                    try:
-                                        await app.bot.send_message(
-                                            chat_id=item_data["chat_id"],
-                                            text=f"⚠️ No se pudo procesar este comprobante tras 3 intentos. Reenvialo.",
-                                            reply_to_message_id=item_data.get("msg_id")
-                                        )
-                                        asyncio.create_task(reaccionar(app.bot, item_data["chat_id"], item_data["msg_id"], "🤬"))
-                                    except Exception as e:
-                                        log.error(f"Error notificando descarte: {e}")
+                            try:
+                                file = await app.bot.get_file(file_id)
+                                async with httpx.AsyncClient() as client:
+                                    resp = await client.get(file.file_path)
+                                    item_data["image_bytes"] = resp.content
+                                    item_data["mime"] = item_data.get("mime", "image/jpeg")
+                                    item = item_data
+                            except Exception as e:
+                                log.error(f"Error re-descargando imagen {file_id}: {e}")
                                 continue
                         else:
                             continue
@@ -1474,29 +1313,9 @@ async def worker_procesamiento(app):
                     )
                 except Exception as e:
                     log.error(f"Error en worker: {e}")
-                    # Reenconlar si hubo error en procesamiento
-                    if redis_client and item.get("file_id"):
-                        reintentos = item.get("_reintentos", 0) + 1
-                        if reintentos <= 3:
-                            item_redis = {k: v for k, v in item.items() if k != "image_bytes"}
-                            item_redis["_reintentos"] = reintentos
-                            await redis_client.rpush(REDIS_QUEUE_KEY, json.dumps(item_redis))
-                            log.warning(f"Reencolado por error (intento {reintentos}/3): msg {item.get('msg_id')}")
-                        else:
-                            log.error(f"Descartado por error tras 3 reintentos: msg {item.get('msg_id')}")
-                            try:
-                                await app.bot.send_message(
-                                    chat_id=item["chat_id"],
-                                    text=f"⚠️ No se pudo procesar este comprobante tras 3 intentos. Reenvialo.",
-                                    reply_to_message_id=item.get("msg_id")
-                                )
-                                asyncio.create_task(reaccionar(app.bot, item["chat_id"], item["msg_id"], "🤬"))
-                            except Exception as e:
-                                log.error(f"Error notificando descarte: {e}")
                 finally:
                     if not redis_client:
                         cola_procesamiento.task_done()
-
         except Exception as e:
             log.error(f"Error en worker loop: {e}")
             await asyncio.sleep(1)
@@ -1515,11 +1334,12 @@ async def procesar_album(key, app):
     caption  = grupo.get("caption", "")
     images   = grupo["images"]
 
-    for image_bytes, mime, msg_id, file_id in images:
+    for image_bytes, mime, msg_id in images:
+        # Get file_id from the message if available
         await encolar({
             "image_bytes": image_bytes, "mime": mime, "pie": caption,
             "chat_id": chat_id, "nombre_g": nombre_g, "origen": "grupo", "msg_id": msg_id,
-            "file_id": file_id
+            "file_id": None
         })
 
 async def handle_photo(update: Update, ctx: ContextTypes.DEFAULT_TYPE):
@@ -1529,24 +1349,8 @@ async def handle_photo(update: Update, ctx: ContextTypes.DEFAULT_TYPE):
     msg        = update.message
     msg_id     = msg.message_id
 
-    log.info(f"📥 Foto recibida — chat:{chat_id} msg:{msg_id} album:{msg.media_group_id or 'no'} caption:{'si' if caption else 'no'}")
-
-    # Registrar inmediatamente como "recibida" para auditoría
-    if not es_privado:
-        cid_str = str(chat_id)
-        if cid_str not in received_log:
-            received_log[cid_str] = []
-        received_log[cid_str].append({
-            "msg_id": msg_id,
-            "fecha": now_arg().strftime("%d/%m/%Y %H:%M"),
-            "nombre_g": get_nombre_grupo(update),
-            "estado": "recibida",
-            "album": bool(msg.media_group_id),
-        })
-
     image_bytes, mime = await obtener_imagen(update, ctx)
     if not image_bytes:
-        log.warning(f"⚠️ No se pudo obtener imagen — chat:{chat_id} msg:{msg_id}")
         return
 
     if es_privado:
@@ -1573,8 +1377,7 @@ async def handle_photo(update: Update, ctx: ContextTypes.DEFAULT_TYPE):
             if caption:
                 media_groups[key]["caption"] = caption
 
-        file_id = msg.photo[-1].file_id if msg.photo else (msg.document.file_id if msg.document else None)
-        media_groups[key]["images"].append((image_bytes, mime, msg_id, file_id))
+        media_groups[key]["images"].append((image_bytes, mime, msg_id))
 
         # Cancelar timer anterior y crear uno nuevo
         if "timer" in media_groups[key]:
@@ -1586,8 +1389,8 @@ async def handle_photo(update: Update, ctx: ContextTypes.DEFAULT_TYPE):
     # ── Imagen individual ──
     # Procesar directo — con o sin pie (ya no es obligatorio)
     if caption:
+        # Guardar file_id para poder re-descargar si el bot reinicia
         file_id = msg.photo[-1].file_id if msg.photo else (msg.document.file_id if msg.document else None)
-        log.info(f"📤 Encolando foto individual — chat:{chat_id} msg:{msg_id} file_id:{file_id}")
         await encolar({
             "image_bytes": image_bytes, "mime": mime, "pie": caption,
             "chat_id": chat_id, "nombre_g": nombre_g, "origen": "grupo", "msg_id": msg_id,
@@ -1595,8 +1398,7 @@ async def handle_photo(update: Update, ctx: ContextTypes.DEFAULT_TYPE):
         })
     else:
         key = (chat_id, msg_id)
-        file_id_sin_pie = msg.photo[-1].file_id if msg.photo else (msg.document.file_id if msg.document else None)
-        esperando_pie[key] = {"image_bytes": image_bytes, "mime": mime, "caption": "", "nombre_g": nombre_g, "file_id": file_id_sin_pie}
+        esperando_pie[key] = {"image_bytes": image_bytes, "mime": mime, "caption": "", "nombre_g": nombre_g}
         task = asyncio.create_task(procesar_sin_pie(key, ctx.application))
         esperando_pie[key]["task"] = task
 
@@ -1648,7 +1450,8 @@ async def handle_text(update: Update, ctx: ContextTypes.DEFAULT_TYPE):
 
         # Actualizar índice de último resumen
         datos["ultimo_resumen_idx"] = len(registros)
-        # NO limpiar duplicados — se acumulan hasta nueva semana para el Excel
+        # Limpiar duplicados ya reportados
+        datos["duplicados"] = []
 
         # Acumular al total mensual
         datos["total_mensual"] = datos.get("total_mensual", 0.0) + monto_real
@@ -1766,10 +1569,6 @@ async def handle_text(update: Update, ctx: ContextTypes.DEFAULT_TYPE):
             return
 
     # ── Detectar texto del pie para foto esperando ──
-    # Ignorar si el texto tiene múltiples líneas (pies de varios comprobantes juntos)
-    if texto.count("\n") >= 2:
-        return
-
     key_match = None
     for key in list(esperando_pie.keys()):
         if key[0] == chat_id:
@@ -1844,7 +1643,6 @@ async def main_async():
     app.add_handler(CommandHandler("borrar",       cmd_borrar))
     app.add_handler(CommandHandler("recuperar",    cmd_recuperar))
     app.add_handler(CommandHandler("pendientes",   cmd_pendientes))
-    app.add_handler(CommandHandler("limpiar_log",  cmd_limpiar_log))
     app.add_handler(CallbackQueryHandler(callback_handler))
     app.add_handler(MessageHandler(filters.PHOTO,          handle_photo))
     app.add_handler(MessageHandler(filters.Document.IMAGE, handle_document))
@@ -1870,8 +1668,8 @@ async def main_async():
             redis_client = None
 
     log.info("🤖 Bot iniciado con verificación de pie")
-    # Iniciar workers de procesamiento (10 workers paralelos)
-    for _ in range(10):
+    # Iniciar workers de procesamiento (3 workers paralelos)
+    for _ in range(3):
         asyncio.create_task(worker_procesamiento(app))
     await app.initialize()
     await app.start()
