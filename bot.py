@@ -1183,6 +1183,18 @@ async def cmd_pendientes(update: Update, ctx: ContextTypes.DEFAULT_TYPE):
 
     await update.message.reply_text(texto, parse_mode="Markdown")
 
+async def cmd_limpiar_log(update: Update, ctx: ContextTypes.DEFAULT_TYPE):
+    """Limpia el log de auditoría del grupo actual."""
+    chat_id = update.effective_chat.id
+    cid_str = str(chat_id)
+    if cid_str in received_log:
+        cantidad = len(received_log[cid_str])
+        received_log[cid_str] = []
+        guardar_store()
+        await update.message.reply_text(f"✅ Log limpiado — {cantidad} entradas eliminadas.")
+    else:
+        await update.message.reply_text("📭 No había entradas en el log.")
+
 async def cmd_recuperar(update: Update, ctx: ContextTypes.DEFAULT_TYPE):
     """Lee el store.json del Volume y recarga los datos en memoria."""
     if update.effective_user.id != ADMIN_ID:
@@ -1832,6 +1844,7 @@ async def main_async():
     app.add_handler(CommandHandler("borrar",       cmd_borrar))
     app.add_handler(CommandHandler("recuperar",    cmd_recuperar))
     app.add_handler(CommandHandler("pendientes",   cmd_pendientes))
+    app.add_handler(CommandHandler("limpiar_log",  cmd_limpiar_log))
     app.add_handler(CallbackQueryHandler(callback_handler))
     app.add_handler(MessageHandler(filters.PHOTO,          handle_photo))
     app.add_handler(MessageHandler(filters.Document.IMAGE, handle_document))
