@@ -674,10 +674,10 @@ async def procesar_comprobante(image_bytes: bytes, mime: str, pie: str,
         guardar_store()
         # Subir imagen a Cloudinary en background
         asyncio.create_task(_subir_imagen_cloudinary(image_bytes, mime, resultado, datos))
-        # Actualizar log
+        # Actualizar log a "procesada"
         for entry in received_log.get(str(chat_id), []):
             if entry.get("msg_id") == chat_msg_id:
-                entry["estado"] = "procesado"
+                entry["estado"] = "procesada"
                 break
         cvu = (resultado.get("cvu_ultimos4") or "").strip()
         monto = resultado.get("monto")
@@ -1147,30 +1147,41 @@ async def cmd_pendientes(update: Update, ctx: ContextTypes.DEFAULT_TYPE):
     if update.effective_user.id != ADMIN_ID:
         await update.message.reply_text("Solo el administrador.")
         return
-    partes = ["Log de imagenes recibidas"]
+
+    chat_id = update.effective_chat.id
+    es_privado = update.effective_chat.type == "private"
+
+    # Si se llama desde privado, mostrar todos los grupos
+    grupos_a_revisar = list(received_log.keys()) if es_privado else [str(chat_id)]
+
     total_recibidas = 0
-    total_perdidas = 0
-    for cid, entradas in received_log.items():
+    total_pendientes = 0
+    texto = "📋 *Auditoría de fotos*\n─────────────────────\n"
+
+    for cid in grupos_a_revisar:
+        entradas = received_log.get(cid, [])
         nombre = store.get(cid, {}).get("nombre", cid)
-        perdidas = [e for e in entradas if e.get("estado") == "procesando"]
-        procesadas = [e for e in entradas if e.get("estado") == "procesado"]
-        total_recibidas += len(entradas)
-        total_perdidas += len(perdidas)
-        if perdidas:
-            partes.append(nombre)
-            partes.append("Procesadas: " + str(len(procesadas)))
-            partes.append("Sin procesar: " + str(len(perdidas)))
-            for e in perdidas[:5]:
-                pie_txt = e.get("pie","")
-                pie_info = (" | " + pie_txt[:30]) if pie_txt else ""
-                partes.append("msg#" + str(e.get("msg_id")) + " | " + str(e.get("fecha","")) + pie_info)
-            if len(perdidas) > 5:
-                partes.append("... y " + str(len(perdidas)-5) + " mas")
-    if total_perdidas == 0:
-        partes.append("Todas las imagenes fueron procesadas.")
+        recibidas = len(entradas)
+        procesadas = [e for e in entradas if e.get("estado") == "procesada"]
+        pendientes = [e for e in entradas if e.get("estado") not in ("procesada", "procesado")]
+        total_recibidas += recibidas
+        total_pendientes += len(pendientes)
+
+        if pendientes:
+            texto += f"📍 *{nombre}*\n"
+            texto += f"   📥 Recibidas: {recibidas} | ✅ Procesadas: {len(procesadas)} | ⚠️ Sin procesar: {len(pendientes)}\n"
+            for e in pendientes[:10]:
+                texto += f"   • msg #{e.get('msg_id')} — {e.get('fecha','')} ({e.get('estado','')})\n"
+            if len(pendientes) > 10:
+                texto += f"   ... y {len(pendientes)-10} más\n"
+            texto += "\n"
+
+    if total_pendientes == 0:
+        texto += "✅ Todas las fotos fueron procesadas."
     else:
-        partes.append("Total sin procesar: " + str(total_perdidas) + " de " + str(total_recibidas))
-    await update.message.reply_text("\n".join(partes))
+        texto += f"─────────────────────\n⚠️ *Total sin procesar: {total_pendientes} de {total_recibidas}*"
+
+    await update.message.reply_text(texto, parse_mode="Markdown")
 
 async def cmd_recuperar(update: Update, ctx: ContextTypes.DEFAULT_TYPE):
     """Lee el store.json del Volume y recarga los datos en memoria."""
@@ -1507,6 +1518,19 @@ async def handle_photo(update: Update, ctx: ContextTypes.DEFAULT_TYPE):
     msg_id     = msg.message_id
 
     log.info(f"📥 Foto recibida — chat:{chat_id} msg:{msg_id} album:{msg.media_group_id or 'no'} caption:{'si' if caption else 'no'}")
+
+    # Registrar inmediatamente como "recibida" para auditoría
+    if not es_privado:
+        cid_str = str(chat_id)
+        if cid_str not in received_log:
+            received_log[cid_str] = []
+        received_log[cid_str].append({
+            "msg_id": msg_id,
+            "fecha": now_arg().strftime("%d/%m/%Y %H:%M"),
+            "nombre_g": get_nombre_grupo(update),
+            "estado": "recibida",
+            "album": bool(msg.media_group_id),
+        })
 
     image_bytes, mime = await obtener_imagen(update, ctx)
     if not image_bytes:
