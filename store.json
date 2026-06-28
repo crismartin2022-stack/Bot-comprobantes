@@ -78601,7 +78601,8 @@
         "_fecha_carga": "28/06/2026 18:54",
         "_origen": "grupo",
         "_pie": "Luciana saracho \n40714150\nZeusbet",
-        "_msg_id": 29739
+        "_msg_id": 29739,
+        "_imagen_url": "https://res.cloudinary.com/drz11thh3/image/upload/v1782683693/comprobantes/Xxxxxpro_y_Api_Agi_num2533_28-06-2026_18-54.jpg"
       },
       {
         "fecha": "12/06/2026",
@@ -78624,7 +78625,8 @@
         "_fecha_carga": "28/06/2026 18:54",
         "_origen": "grupo",
         "_pie": "",
-        "_msg_id": 29735
+        "_msg_id": 29735,
+        "_imagen_url": "https://res.cloudinary.com/drz11thh3/image/upload/v1782683693/comprobantes/Xxxxxpro_y_Api_Agi_num2534_28-06-2026_18-54.jpg"
       },
       {
         "fecha": "12/06/2026",
@@ -78647,7 +78649,8 @@
         "_fecha_carga": "28/06/2026 18:54",
         "_origen": "grupo",
         "_pie": "Screenshot (12 jun 2026 2:16:51 p.m.)",
-        "_msg_id": 29740
+        "_msg_id": 29740,
+        "_imagen_url": "https://res.cloudinary.com/drz11thh3/image/upload/v1782683693/comprobantes/Xxxxxpro_y_Api_Agi_num2535_28-06-2026_18-54.jpg"
       },
       {
         "fecha": "13/06/2026",
@@ -78670,7 +78673,80 @@
         "_fecha_carga": "28/06/2026 18:54",
         "_origen": "grupo",
         "_pie": "",
-        "_msg_id": 29736
+        "_msg_id": 29736,
+        "_imagen_url": "https://res.cloudinary.com/drz11thh3/image/upload/v1782683694/comprobantes/Xxxxxpro_y_Api_Agi_num2536_28-06-2026_18-54.jpg"
+      },
+      {
+        "fecha": "14/06/2026",
+        "hora": "18:30",
+        "tipo": "TRF",
+        "monto": 300000.0,
+        "moneda": "ARS",
+        "remitente": "Maria Daniela Saavedra",
+        "remitente_cuil": "27-38904616-2",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "164129945174",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: 3D5W612E6ZW7O74W2GXYVR. CVU remitente: 0000003100098704591410. CVU destinatario: 0000155300000000000009977. CUIT/CUIL destinatario: 30-71728225-2.",
+        "_num": 2537,
+        "_fecha_carga": "28/06/2026 18:54",
+        "_origen": "grupo",
+        "_pie": "",
+        "_msg_id": 29738,
+        "_imagen_url": "https://res.cloudinary.com/drz11thh3/image/upload/v1782683696/comprobantes/Xxxxxpro_y_Api_Agi_num2537_28-06-2026_18-54.jpg"
+      },
+      {
+        "fecha": "12/06/2026",
+        "hora": "20:39",
+        "tipo": "TRF",
+        "monto": 42000.0,
+        "moneda": "ARS",
+        "remitente": "Ricardo Alcides Gonzalez",
+        "remitente_cuil": "20-12426493-7",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Naranja X",
+        "banco_destino": "Cuenta Virtual",
+        "referencia": "46YGOW9M1YK403PYNEXD8J",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CBU origen: 4530000800018508293493. CVU destino: 0000155300000000009977. CUIL destinatario: 30-71728225-2. Código de transacción: 32a9b2ed-db4a-4f39-94fa-43dd7e2dd9b6",
+        "_num": 2538,
+        "_fecha_carga": "28/06/2026 18:55",
+        "_origen": "grupo",
+        "_pie": "Foto de Rosa Negra",
+        "_msg_id": 29742,
+        "_imagen_url": "https://res.cloudinary.com/drz11thh3/image/upload/v1782683702/comprobantes/Xxxxxpro_y_Api_Agi_num2538_28-06-2026_18-55.jpg"
+      },
+      {
+        "fecha": "14/06/2026",
+        "hora": "21:36",
+        "tipo": "TRF",
+        "monto": 100000.0,
+        "moneda": "ARS",
+        "remitente": "Jorge Andres Munoz",
+        "remitente_cuil": "20-35710065-9",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "164154385146",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: 1LMP68NKVEKRDQP52R7OEV. CVU origen: 0000003100069705022038. CVU destino: 0000155300000000000009977.",
+        "_num": 2539,
+        "_fecha_carga": "28/06/2026 18:55",
+        "_origen": "grupo",
+        "_pie": "Jorge  Muñoz \n35710065",
+        "_msg_id": 29744,
+        "_imagen_url": "https://res.cloudinary.com/drz11thh3/image/upload/v1782683704/comprobantes/Xxxxxpro_y_Api_Agi_num2539_28-06-2026_18-55.jpg"
       }
     ],
     "errores": [],
