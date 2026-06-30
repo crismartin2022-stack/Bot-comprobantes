@@ -35553,6 +35553,28 @@
         "_fecha_carga": "30/06/2026 19:38",
         "_origen": "grupo",
         "_pie": "Katherine Elisa Medina Martínez \n27-38410644-2"
+      },
+      {
+        "fecha": "27/06/2026",
+        "hora": "16:43",
+        "tipo": "TRF",
+        "monto": 60000.0,
+        "moneda": "ARS",
+        "remitente": "Sofia Pilar Monteverde",
+        "remitente_cuil": "43142862",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Lemon",
+        "banco_destino": "CVU",
+        "referencia": "8D0Q619L3LGXX308N7JZ5R",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CUIT destinatario: 30717282252. CBU destinatario: 0000155300000000009977. ID de la transacción: f9f31fa8-b1d8-42f1-aa12-fe05289139c1. Comprobante emitido por Lemon powered by Digifin.",
+        "_num": 1550,
+        "_fecha_carga": "30/06/2026 19:38",
+        "_origen": "grupo",
+        "_pie": "Sofía pilar Monteverde\n43142862"
       }
     ],
     "errores": [],
