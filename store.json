@@ -23279,6 +23279,28 @@
         "_fecha_carga": "30/06/2026 18:58",
         "_origen": "grupo",
         "_pie": "Martin aranda"
+      },
+      {
+        "fecha": "27/06/2026",
+        "hora": "10:43",
+        "tipo": "TRF",
+        "monto": 100000.0,
+        "moneda": "ARS",
+        "remitente": "Carolina Soraya Lopez",
+        "remitente_cuil": "27-25572398-2",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Naranja X",
+        "banco_destino": "Cuenta Virtual",
+        "referencia": "JMQKYZ9QGW5XMXW6NV50P3",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de transacción: 7bb47c86-c7d3-48a6-bd0a-dc1a225ee33c. CBU origen: 4530000800018419534461. CVU destino: 0000155300000000009977. CUIL destinatario: 30-71728225-2.",
+        "_num": 993,
+        "_fecha_carga": "30/06/2026 18:58",
+        "_origen": "grupo",
+        "_pie": "Carolina Soraya Lopez\nNaranja X\n4530000800018419534461\n27-25572398-2"
       }
     ],
     "errores": [],
