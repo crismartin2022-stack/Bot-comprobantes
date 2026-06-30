@@ -32470,6 +32470,28 @@
         "_fecha_carga": "30/06/2026 19:19",
         "_origen": "grupo",
         "_pie": "Noelia romano\n45.609.998"
+      },
+      {
+        "fecha": "24/06/2026",
+        "hora": "00:09",
+        "tipo": "TRF",
+        "monto": 100000.0,
+        "moneda": "ARS",
+        "remitente": "Lucas Nicolas Brandi",
+        "remitente_cuil": "20-36701402-5",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Naranja X",
+        "banco_destino": "Cuenta Virtual",
+        "referencia": "LMORZP90GJ5L7VO5NEGJ46",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de transacción adicional: a7d571d6-5dc2-4aa9-9fa2-33bb95b0a61d. CBU origen: 4530000800014074214667. CVU destino: 0000155300000000009977.",
+        "_num": 1410,
+        "_fecha_carga": "30/06/2026 19:20",
+        "_origen": "grupo",
+        "_pie": "Lucas brandi\n36701402"
       }
     ],
     "errores": [],
