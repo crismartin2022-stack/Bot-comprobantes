@@ -34541,6 +34541,28 @@
         "_fecha_carga": "30/06/2026 19:31",
         "_origen": "grupo",
         "_pie": "44303044\nCandela Ariadna Coronel"
+      },
+      {
+        "fecha": "21/06/2026",
+        "hora": "21:37",
+        "tipo": "TRF",
+        "monto": 55000.0,
+        "moneda": "ARS",
+        "remitente": "Cristian Alejandro Alvarez",
+        "remitente_cuil": "20-39113784-7",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "164410943081",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: WY7ZEPN6MK4QDYRW2Q0M51. CVU origen: 0000003100029468663200. CVU destino: 0000155300000000009977. CUIT destinatario: 30-71728225-2",
+        "_num": 1504,
+        "_fecha_carga": "30/06/2026 19:31",
+        "_origen": "grupo",
+        "_pie": "Cuit/cuil 20-39113784-7 \nCristian Alejandro Alvarez"
       }
     ],
     "errores": [],
