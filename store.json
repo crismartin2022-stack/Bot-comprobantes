@@ -22968,6 +22968,28 @@
         "_fecha_carga": "30/06/2026 18:57",
         "_origen": "grupo",
         "_pie": "Juan silvero 29557533"
+      },
+      {
+        "fecha": "27/06/2026",
+        "hora": "18:15",
+        "tipo": "TRF",
+        "monto": 35000.0,
+        "moneda": "ARS",
+        "remitente": "Miriam Lili Nunez Fernandez",
+        "remitente_cuil": "27-94216492-6",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "166112784988",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: 86VRPQ2GX3PVWXEJ9GLY0M. CVU remitente: 0000003100098349467435. CVU destinatario: 0000155300000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 979,
+        "_fecha_carga": "30/06/2026 18:57",
+        "_origen": "grupo",
+        "_pie": "Miriam Lili Nunez Fernandez\nCUIT/CUIL: 27-94216492-6"
       }
     ],
     "errores": [],
