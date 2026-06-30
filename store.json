@@ -34629,6 +34629,28 @@
         "_fecha_carga": "30/06/2026 19:31",
         "_origen": "grupo",
         "_pie": "Oriana jular \n41.712.081\nBet91"
+      },
+      {
+        "fecha": "28/06/2026",
+        "hora": "22:20",
+        "tipo": "TRF",
+        "monto": 200000.0,
+        "moneda": "ARS",
+        "remitente": "Marcia Marina Maria Moreira",
+        "remitente_cuil": "27-33645445-5",
+        "destinatario": "SASTEUP SRL",
+        "banco_origen": "AstroPay",
+        "banco_destino": "",
+        "referencia": "67REZ8NPMXJJP6ZKN4KVGO",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CVU remitente: 0000177500099256890321. CVU receptor: 0000155300000000009977. CUIT receptor SASTEUP SRL: 30717282252. Alias remitente: Mr25.astropay. Alias receptor: cvu.977. Coelsa ID usado como referencia.",
+        "_num": 1508,
+        "_fecha_carga": "30/06/2026 19:32",
+        "_origen": "grupo",
+        "_pie": "Marcia moreira \n33645445"
       }
     ],
     "errores": [],
