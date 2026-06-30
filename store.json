@@ -34849,6 +34849,28 @@
         "_fecha_carga": "30/06/2026 19:33",
         "_origen": "grupo",
         "_pie": "Alvaro Miguel Vides \nCuil: 20394011925"
+      },
+      {
+        "fecha": "29/06/2026",
+        "hora": "13:05",
+        "tipo": "TRF",
+        "monto": 300000.0,
+        "moneda": "ARS",
+        "remitente": "Alvaro Miguel Vides",
+        "remitente_cuil": "20-39401192-5",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "165504760647",
+        "concepto": "Cuentas y servicios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: Z6OLMDN37M41DM569E7RQ5. CVU destinatario: 0000155300000000009977. CVU remitente: 0000003100125186131091. CUIT destinatario: 30-71728225-2.",
+        "_num": 1518,
+        "_fecha_carga": "30/06/2026 19:33",
+        "_origen": "grupo",
+        "_pie": "Álvaro Miguel Vides \nCUIL: 20-39401192-5"
       }
     ],
     "errores": [],
