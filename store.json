@@ -34386,6 +34386,28 @@
         "_fecha_carga": "30/06/2026 19:30",
         "_origen": "grupo",
         "_pie": "Enzo Javier Enrique Robles\n46.739.852"
+      },
+      {
+        "fecha": "26/06/2026",
+        "hora": "23:58",
+        "tipo": "TRF",
+        "monto": 500000.37,
+        "moneda": "ARS",
+        "remitente": "Oscar Martin Nunez",
+        "remitente_cuil": "20-43581368-3",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "166009837494",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: JMQKYZ9QGW55ZV3VNV50P3. CVU origen: 0000003100066680657936. CVU destino: 0001553000000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 1497,
+        "_fecha_carga": "30/06/2026 19:30",
+        "_origen": "grupo",
+        "_pie": "Oscar Martin Nuñez\nD.N.I : 43.581.36"
       }
     ],
     "errores": [],
