@@ -32492,6 +32492,28 @@
         "_fecha_carga": "30/06/2026 19:20",
         "_origen": "grupo",
         "_pie": "Lucas brandi\n36701402"
+      },
+      {
+        "fecha": "26/06/2026",
+        "hora": "23:41",
+        "tipo": "TRF",
+        "monto": 190000.0,
+        "moneda": "ARS",
+        "remitente": "Azul Agustina Caballero",
+        "remitente_cuil": "27-43259801-8",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "165180698907",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: R7ZG0QNDKPOVQZ409EXYPO. CVU origen: 0000003100009043293165. CVU destino: 0000155300000000000009977.",
+        "_num": 1411,
+        "_fecha_carga": "30/06/2026 19:20",
+        "_origen": "grupo",
+        "_pie": "Azul caballero 43259801"
       }
     ],
     "errores": [],
