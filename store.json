@@ -35333,6 +35333,28 @@
         "_fecha_carga": "30/06/2026 19:36",
         "_origen": "grupo",
         "_pie": "Maria teresa damin\n23115418"
+      },
+      {
+        "fecha": "28/06/2026",
+        "hora": "22:20",
+        "tipo": "TRF",
+        "monto": 50000.0,
+        "moneda": "ARS",
+        "remitente": "Soledad Mabel Fuentez",
+        "remitente_cuil": "38374760",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "",
+        "banco_destino": "",
+        "referencia": "76V4MR2Z8LRR4KWL9DEZOL",
+        "concepto": "VAR",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CUIT destino: 30717282252. Cuenta destino CBU/CVU: 0000155300000000009977",
+        "_num": 1540,
+        "_fecha_carga": "30/06/2026 19:36",
+        "_origen": "grupo",
+        "_pie": "Fuentez soledad 38374760"
       }
     ],
     "errores": [],
