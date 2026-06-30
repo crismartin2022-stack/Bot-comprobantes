@@ -35069,6 +35069,28 @@
         "_fecha_carga": "30/06/2026 19:34",
         "_origen": "grupo",
         "_pie": "Erica Judith Diaz\n40380492"
+      },
+      {
+        "fecha": "24/06/2026",
+        "hora": "17:14",
+        "tipo": "TRF",
+        "monto": 200000.0,
+        "moneda": "ARS",
+        "remitente": "Nancy Cristina Cantero",
+        "remitente_cuil": "27-18447895-7",
+        "destinatario": "Shaka S.r.l.",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "URBANA",
+        "referencia": "164819776579",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "8103",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: 1LMP68NKKDKZGW7ZNR7OEV. CVU origen (remitente): 0000003100052581124268. CVU destino (receptor): 0000151500035403528103.",
+        "_num": 1528,
+        "_fecha_carga": "30/06/2026 19:34",
+        "_origen": "grupo",
+        "_pie": "Nancy cristina cantero 18447895"
       }
     ],
     "errores": [],
