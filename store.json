@@ -35311,6 +35311,28 @@
         "_fecha_carga": "30/06/2026 19:36",
         "_origen": "grupo",
         "_pie": "david aguilar 46205922"
+      },
+      {
+        "fecha": "28/06/2026",
+        "hora": "21:17",
+        "tipo": "TRF",
+        "monto": 300000.0,
+        "moneda": "ARS",
+        "remitente": "Maria Teresa Damin",
+        "remitente_cuil": "23115418",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Ualá",
+        "banco_destino": "Lohas S.A.S.",
+        "referencia": "9c16d735-0205-bbb9-f635-7eb5aab199bb",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CVU destino: 0000155300000000009977. CBU emisor: 3840200500000009235751. CUIT/CUIL destino (destinatario): 30-71728225-2. Comentario: Transferencia en pesos.",
+        "_num": 1539,
+        "_fecha_carga": "30/06/2026 19:36",
+        "_origen": "grupo",
+        "_pie": "Maria teresa damin\n23115418"
       }
     ],
     "errores": [],
