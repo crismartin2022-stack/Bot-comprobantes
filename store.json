@@ -34276,6 +34276,28 @@
         "_fecha_carga": "30/06/2026 19:29",
         "_origen": "grupo",
         "_pie": "Silvia ivana Montero\nD.N.I: 43.742.164"
+      },
+      {
+        "fecha": "26/06/2026",
+        "hora": "22:09",
+        "tipo": "TRF",
+        "monto": 500000.32,
+        "moneda": "ARS",
+        "remitente": "Silvia Ivana Montero",
+        "remitente_cuil": "27-43742164-7",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "165170303363",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: Z0KV87947GYLWEO09PEYDX. CVU origen: 0000003100035345805782. CVU destino: 0000155300000000009977. Destinatario CUIT/CUIL: 30-71728225-2.",
+        "_num": 1492,
+        "_fecha_carga": "30/06/2026 19:29",
+        "_origen": "grupo",
+        "_pie": "Silvia ivana Montero\nD.N.I: 43.742.164"
       }
     ],
     "errores": [],
