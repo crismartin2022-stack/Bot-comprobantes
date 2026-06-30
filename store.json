@@ -34166,6 +34166,28 @@
         "_fecha_carga": "30/06/2026 19:28",
         "_origen": "grupo",
         "_pie": "Victor Hugo de Gregorio\n DNI: 33.328.943"
+      },
+      {
+        "fecha": "26/06/2026",
+        "hora": "21:54",
+        "tipo": "TRF",
+        "monto": 500000.27,
+        "moneda": "ARS",
+        "remitente": "Victor Roberto Taiguan",
+        "remitente_cuil": "20-21342026-8",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "165168081587",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: 76V4MR2Z8LXKL43E9DEZOL. CVU remitente: 0000003100023599226884. CVU destinatario: 0000155300000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 1487,
+        "_fecha_carga": "30/06/2026 19:28",
+        "_origen": "grupo",
+        "_pie": "Victor Roberto Taiguan\n21.342.026"
       }
     ],
     "errores": [],
