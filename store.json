@@ -33440,6 +33440,28 @@
         "_fecha_carga": "30/06/2026 19:23",
         "_origen": "grupo",
         "_pie": "Candela ariadna coronel\n27-44303044-7"
+      },
+      {
+        "fecha": "23/06/2026",
+        "hora": "00:46",
+        "tipo": "TRF",
+        "monto": 55000.0,
+        "moneda": "ARS",
+        "remitente": "Candela Ariadna Coronel",
+        "remitente_cuil": "27-44303044-7",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "164576706601",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: WY7ZEPN6YLL6MM142Q0M51. CVU remitente: 0000003100010408146738. CVU destinatario: 0000155300000000009977. CUIT destinatario: 30-71728225-2",
+        "_num": 1454,
+        "_fecha_carga": "30/06/2026 19:24",
+        "_origen": "grupo",
+        "_pie": "Cuit/cuil:27-44303044-7 \nCandela Ariadna Coronel"
       }
     ],
     "errores": [],
