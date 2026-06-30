@@ -33792,6 +33792,28 @@
         "_fecha_carga": "30/06/2026 19:25",
         "_origen": "grupo",
         "_pie": "Jose Martin Rodriguez\nDNI: 19.068.066"
+      },
+      {
+        "fecha": "25/06/2026",
+        "hora": "23:43",
+        "tipo": "TRF",
+        "monto": 500000.1,
+        "moneda": "ARS",
+        "remitente": "Jose Martin Rodriguez",
+        "remitente_cuil": "20-19068066-6",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "165020256323",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación adicional: 67REZ8NPMX7YZPQKN4KVGO. CVU origen: 0000003100010733015046. CVU destino: 0000155300000000009977",
+        "_num": 1470,
+        "_fecha_carga": "30/06/2026 19:26",
+        "_origen": "grupo",
+        "_pie": "Jose Martin Rodriguez\nDNI: 19.068.066"
       }
     ],
     "errores": [],
