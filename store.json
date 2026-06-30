@@ -35421,6 +35421,28 @@
         "_fecha_carga": "30/06/2026 19:37",
         "_origen": "grupo",
         "_pie": "Patricia bentancor\n16761769"
+      },
+      {
+        "fecha": "29/06/2026",
+        "hora": "21:13",
+        "tipo": "TRF",
+        "monto": 400000.0,
+        "moneda": "ARS",
+        "remitente": "Facundo Ariel Caceres",
+        "remitente_cuil": "20-42310498-9",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "165575452169",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: LMORZP90GJ0X7714NEGJ46. CVU remitente: 0000003100069953403609. CVU destinatario: 0000155300000000009977.",
+        "_num": 1544,
+        "_fecha_carga": "30/06/2026 19:37",
+        "_origen": "grupo",
+        "_pie": "Facundo Ariel Caceres \n42310498"
       }
     ],
     "errores": [],
