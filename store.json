@@ -34144,6 +34144,28 @@
         "_fecha_carga": "30/06/2026 19:28",
         "_origen": "grupo",
         "_pie": "Silvia ivana Montero\nD.N.I: 43.742.164"
+      },
+      {
+        "fecha": "26/06/2026",
+        "hora": "21:11",
+        "tipo": "TRF",
+        "monto": 500000.26,
+        "moneda": "ARS",
+        "remitente": "Victor Hugo De Gregorio",
+        "remitente_cuil": "20-33328943-2",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "Z6OLMDN37MWX8O3Y9E7RQ5",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Número de operación de Mercado Pago: 165164438281. CVU remitente: 0000003100077161492485. CVU destinatario: 0000155300000000009977. CUIT destinatario: 30-71728225-2",
+        "_num": 1486,
+        "_fecha_carga": "30/06/2026 19:28",
+        "_origen": "grupo",
+        "_pie": "Victor Hugo de Gregorio\n DNI: 33.328.943"
       }
     ],
     "errores": [],
