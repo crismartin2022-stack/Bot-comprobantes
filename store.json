@@ -35355,6 +35355,28 @@
         "_fecha_carga": "30/06/2026 19:36",
         "_origen": "grupo",
         "_pie": "Fuentez soledad 38374760"
+      },
+      {
+        "fecha": "29/06/2026",
+        "hora": "14:08",
+        "tipo": "TRF",
+        "monto": 20000.0,
+        "moneda": "ARS",
+        "remitente": "Myrian Teresa Olivera",
+        "remitente_cuil": "27-23284695-5",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "165514689343",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: 1LMP68NKKDQ0ZY05NR7OEV. CVU origen: 0000003100030677257496. CVU destino: 0000155300000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 1541,
+        "_fecha_carga": "30/06/2026 19:36",
+        "_origen": "grupo",
+        "_pie": "Olivera myrian 23284695"
       }
     ],
     "errores": [],
