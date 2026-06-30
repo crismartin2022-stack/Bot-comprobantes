@@ -35179,6 +35179,28 @@
         "_fecha_carga": "30/06/2026 19:35",
         "_origen": "grupo",
         "_pie": "Patricia bentancor\n16761769"
+      },
+      {
+        "fecha": "27/06/2026",
+        "hora": "22:06",
+        "tipo": "TRF",
+        "monto": 50000.0,
+        "moneda": "ARS",
+        "remitente": "Marisa Silvia Ferreyra",
+        "remitente_cuil": "23-23852075-4",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "165320484903",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: PDX4OGNY4RVQD78420L6EY. CVU origen: 0000003100024382635278. CVU destino: 0000155300000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 1533,
+        "_fecha_carga": "30/06/2026 19:35",
+        "_origen": "grupo",
+        "_pie": "Marisa Ferreyra 23852075"
       }
     ],
     "errores": [],
