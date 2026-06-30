@@ -34408,6 +34408,28 @@
         "_fecha_carga": "30/06/2026 19:30",
         "_origen": "grupo",
         "_pie": "Oscar Martin Nuñez\nD.N.I : 43.581.36"
+      },
+      {
+        "fecha": "26/06/2026",
+        "hora": "23:59",
+        "tipo": "TRF",
+        "monto": 500000.38,
+        "moneda": "ARS",
+        "remitente": "Oscar Martin Nunez",
+        "remitente_cuil": "20-43581368-3",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "165182966349",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: WGRXJE276EWW5VOL97MYQL. CVU remitente: 0000003100066680657936. CVU destinatario: 0000155300000000009977. CUIT destinatario: 30-71728225-2",
+        "_num": 1498,
+        "_fecha_carga": "30/06/2026 19:30",
+        "_origen": "grupo",
+        "_pie": "Oscar Martin Nuñez\nD.N.I : 43.581.36"
       }
     ],
     "errores": [],
