@@ -20612,6 +20612,28 @@
         "_fecha_carga": "30/06/2026 18:51",
         "_origen": "grupo",
         "_pie": "Laura Torcivia"
+      },
+      {
+        "fecha": "27/06/2026",
+        "hora": "00:02",
+        "tipo": "TRF",
+        "monto": 250000.0,
+        "moneda": "ARS",
+        "remitente": "Ludmila Ayelen Baldovino",
+        "remitente_cuil": "",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Ualá",
+        "banco_destino": "",
+        "referencia": "D4RO172VP844R1102KJ3QE",
+        "concepto": "VAR",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CUIT destino: 30717282252. CBU destino completo: 0000155300000000009977",
+        "_num": 872,
+        "_fecha_carga": "30/06/2026 18:52",
+        "_origen": "grupo",
+        "_pie": "Ludmila Baldovino\n44.206.968"
       }
     ],
     "errores": [],
