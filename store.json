@@ -33286,6 +33286,28 @@
         "_fecha_carga": "30/06/2026 19:22",
         "_origen": "grupo",
         "_pie": "Jimena Rodriguez\n34.146.817"
+      },
+      {
+        "fecha": "27/06/2026",
+        "hora": "16:40",
+        "tipo": "TRF",
+        "monto": 33000.0,
+        "moneda": "ARS",
+        "remitente": "Susana Kmicaela Balbuena",
+        "remitente_cuil": "27-35094994-7",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "165267528037",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: 3D5W612EWL8QDPVO2GXYVR. CVU remitente: 0000003100057266067517. CVU destinatario: 0000155300000000000009977.",
+        "_num": 1447,
+        "_fecha_carga": "30/06/2026 19:22",
+        "_origen": "grupo",
+        "_pie": "Susana Kmicaela Balbuena\n 27-35094994-7"
       }
     ],
     "errores": [],
