@@ -35157,6 +35157,28 @@
         "_fecha_carga": "30/06/2026 19:35",
         "_origen": "grupo",
         "_pie": "Nahuel Heras\n45310531"
+      },
+      {
+        "fecha": "27/06/2026",
+        "hora": "19:47",
+        "tipo": "TRF",
+        "monto": 50000.0,
+        "moneda": "ARS",
+        "remitente": "Patricia Maria Bentancor",
+        "remitente_cuil": "27-16761769-2",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "166127747664",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: R7ZG0QNDKPXOE8RD9EXYPO. CVU origen: 0000003100078105139200. CVU destino: 0000155300000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 1532,
+        "_fecha_carga": "30/06/2026 19:35",
+        "_origen": "grupo",
+        "_pie": "Patricia bentancor\n16761769"
       }
     ],
     "errores": [],
