@@ -35135,6 +35135,28 @@
         "_fecha_carga": "30/06/2026 19:35",
         "_origen": "grupo",
         "_pie": "Myrian olivera 23284695"
+      },
+      {
+        "fecha": "27/06/2026",
+        "hora": "13:39",
+        "tipo": "TRF",
+        "monto": 50000.0,
+        "moneda": "ARS",
+        "remitente": "Nahuel Heras",
+        "remitente_cuil": "20-45310531-9",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "166072520284",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: WY7ZEPN6YLGWDO5O2Q0M51. CVU origen: 0000003100025677100703. CVU destino: 0000155300000000009977.",
+        "_num": 1531,
+        "_fecha_carga": "30/06/2026 19:35",
+        "_origen": "grupo",
+        "_pie": "Nahuel Heras\n45310531"
       }
     ],
     "errores": [],
