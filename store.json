@@ -25284,6 +25284,28 @@
         "_fecha_carga": "30/06/2026 19:03",
         "_origen": "grupo",
         "_pie": "Sandra Lorena Beiza\nCUIL: 27-29577439-3"
+      },
+      {
+        "fecha": "27/06/2026",
+        "hora": "23:04",
+        "tipo": "TRF",
+        "monto": 250000.0,
+        "moneda": "ARS",
+        "remitente": "Sandra Lorena Beiza",
+        "remitente_cuil": "27-29577439-3",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "165326687003",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: ORD6LEN8MELYVVDYNM1Y30. CVU origen: 0000003100001806920226. CVU destino: 0000155300000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 1084,
+        "_fecha_carga": "30/06/2026 19:03",
+        "_origen": "grupo",
+        "_pie": "Luzdary Falla \n27-96142180-8"
       }
     ],
     "errores": [],
