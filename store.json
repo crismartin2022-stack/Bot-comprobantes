@@ -25417,6 +25417,28 @@
         "_fecha_carga": "30/06/2026 19:03",
         "_origen": "grupo",
         "_pie": "45.632.251"
+      },
+      {
+        "fecha": "27/06/2026",
+        "hora": "23:28",
+        "tipo": "TRF",
+        "monto": 100000.0,
+        "moneda": "ARS",
+        "remitente": "Liliana Beatriz Anrriquez",
+        "remitente_cuil": "",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Ualá",
+        "banco_destino": "",
+        "referencia": "46YGOW9MGD6D16JZ9EXD8J",
+        "concepto": "VAR",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CUIT destino: 30717282252. CBU destino: 0000155300000000009977.",
+        "_num": 1090,
+        "_fecha_carga": "30/06/2026 19:03",
+        "_origen": "grupo",
+        "_pie": "Liliana Beatriz Anrriquez \nDNI: 21.104.254"
       }
     ],
     "errores": [],
