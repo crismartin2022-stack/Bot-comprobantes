@@ -16951,6 +16951,28 @@
         "_pie": "",
         "_msg_id": 9411,
         "_imagen_url": "https://res.cloudinary.com/drz11thh3/image/upload/v1782601472/comprobantes/3Pagos_Arg_Comp._num705_27-06-2026_20-04.jpg"
+      },
+      {
+        "fecha": "26/06/2026",
+        "hora": "15:47",
+        "tipo": "TRF",
+        "monto": 100000.0,
+        "moneda": "ARS",
+        "remitente": "Maira Belen Yapura",
+        "remitente_cuil": "24-36790999-0",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "165935709578",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: Z6OLMDN37M8GZDRY9E7RQ5. CVU origen (remitente): 0000003100093974239453. CVU destino (receptor): 0000155300000000009977",
+        "_num": 706,
+        "_fecha_carga": "30/06/2026 18:39",
+        "_origen": "grupo",
+        "_pie": "Maira Belen Yapura\nCUIT/CUIL: 24-36790999-0"
       }
     ],
     "errores": [],
