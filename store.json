@@ -32360,6 +32360,28 @@
         "_fecha_carga": "30/06/2026 19:19",
         "_origen": "grupo",
         "_pie": "Evelyn leguiza\n46433396\nBet91"
+      },
+      {
+        "fecha": "26/06/2026",
+        "hora": "18:29",
+        "tipo": "TRF",
+        "monto": 500000.0,
+        "moneda": "ARS",
+        "remitente": "Leguiza, Evelyn Milagros",
+        "remitente_cuil": "27-46433396-2",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Personal Pay",
+        "banco_destino": "",
+        "referencia": "2788567973",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CoelsaID: Z6OLMDN37M8Q61V69E7RQ5 - Id Bancario. CUIL/CUIT del destinatario (Sasteup Srl): 30-71728225-2. CBU/CVU destinatario: 0000155300000000009977",
+        "_num": 1405,
+        "_fecha_carga": "30/06/2026 19:19",
+        "_origen": "grupo",
+        "_pie": "Evelyn leguiza\n46433396\nBet91"
       }
     ],
     "errores": [],
