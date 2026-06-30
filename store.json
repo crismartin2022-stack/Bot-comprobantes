@@ -34122,6 +34122,28 @@
         "_fecha_carga": "30/06/2026 19:28",
         "_origen": "grupo",
         "_pie": "Oscar Martin Nuñez\nD.N.I : 43.581.36"
+      },
+      {
+        "fecha": "26/06/2026",
+        "hora": "21:11",
+        "tipo": "TRF",
+        "monto": 500000.25,
+        "moneda": "ARS",
+        "remitente": "Silvia Ivana Montero",
+        "remitente_cuil": "27-43742164-7",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "165991513086",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación adicional: 7L8GYKNX41XWJXQPNMPRZ5. CVU origen: 0000003100035345805782. CVU destino: 0000155300000000009977. Destinatario CUIT/CUIL: 30-71728225-2",
+        "_num": 1485,
+        "_fecha_carga": "30/06/2026 19:28",
+        "_origen": "grupo",
+        "_pie": "Silvia ivana Montero\nD.N.I: 43.742.164"
       }
     ],
     "errores": [],
