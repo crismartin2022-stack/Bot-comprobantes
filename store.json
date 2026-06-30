@@ -33836,6 +33836,28 @@
         "_fecha_carga": "30/06/2026 19:26",
         "_origen": "grupo",
         "_pie": "Jose Martin Rodriguez\nDNI: 19.068.066"
+      },
+      {
+        "fecha": "26/06/2026",
+        "hora": "14:55",
+        "tipo": "TRF",
+        "monto": 500000.12,
+        "moneda": "ARS",
+        "remitente": "Daniel Ricardo Bustamante",
+        "remitente_cuil": "20-29197299-4",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "165101830471",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: ORD6LEN8MED1KEEGNM1Y30. CVU remitente: 0000003100098919558684. CVU destinatario: 0000155300000000009977. CUIT/CUIL destinatario: 30-71728225-2.",
+        "_num": 1472,
+        "_fecha_carga": "30/06/2026 19:26",
+        "_origen": "grupo",
+        "_pie": "Daniel Ricardo Bustamante\nDNI: 29.197.299"
       }
     ],
     "errores": [],
