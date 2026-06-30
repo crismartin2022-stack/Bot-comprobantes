@@ -34563,6 +34563,28 @@
         "_fecha_carga": "30/06/2026 19:31",
         "_origen": "grupo",
         "_pie": "Cuit/cuil 20-39113784-7 \nCristian Alejandro Alvarez"
+      },
+      {
+        "fecha": "21/06/2026",
+        "hora": "21:08",
+        "tipo": "TRF",
+        "monto": 50000.0,
+        "moneda": "ARS",
+        "remitente": "Sandra Jacqueline Segredo",
+        "remitente_cuil": "27-40624900-5",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "164408958403",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: L18MKX9RXJ81041K9O6WYV. CVU origen: 0000003100038546612812. CVU destino: 0000155300000000009977.",
+        "_num": 1505,
+        "_fecha_carga": "30/06/2026 19:31",
+        "_origen": "grupo",
+        "_pie": "Sandra segredo\n 40.624.900"
       }
     ],
     "errores": [],
