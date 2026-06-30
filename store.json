@@ -35399,6 +35399,28 @@
         "_fecha_carga": "30/06/2026 19:36",
         "_origen": "grupo",
         "_pie": "Marcelo hugo benitez\n41146243"
+      },
+      {
+        "fecha": "29/06/2026",
+        "hora": "19:28",
+        "tipo": "TRF",
+        "monto": 50000.0,
+        "moneda": "ARS",
+        "remitente": "Patricia Maria Bentancor",
+        "remitente_cuil": "27-16761769-2",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "165559634945",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: WY7ZEPN6YL7063RW2Q0M51. CVU origen: 0000003100078105139200. CVU destino: 0000155300000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 1543,
+        "_fecha_carga": "30/06/2026 19:37",
+        "_origen": "grupo",
+        "_pie": "Patricia bentancor\n16761769"
       }
     ],
     "errores": [],
