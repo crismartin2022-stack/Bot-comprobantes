@@ -33484,6 +33484,28 @@
         "_fecha_carga": "30/06/2026 19:24",
         "_origen": "grupo",
         "_pie": "Cuit/cuil 20-39113784-7 \nCristian Alejandro Alvarez"
+      },
+      {
+        "fecha": "27/06/2026",
+        "hora": "23:05",
+        "tipo": "TRF",
+        "monto": 200000.0,
+        "moneda": "ARS",
+        "remitente": "Oscar Chamorro Vazquez",
+        "remitente_cuil": "20-94721124-3",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "165326972857",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: JMQKYZ9QGWDVLG08NV50P3. CVU origen: 0000003100009468344097. CVU destino: 0000155300000000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 1456,
+        "_fecha_carga": "30/06/2026 19:24",
+        "_origen": "grupo",
+        "_pie": "Oscar chamorro vazquez \nDNI: 20-94721124-3"
       }
     ],
     "errores": [],
