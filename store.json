@@ -33990,6 +33990,28 @@
         "_fecha_carga": "30/06/2026 19:27",
         "_origen": "grupo",
         "_pie": "Cristian Abel Ceballos\nDNI: 40.528.508"
+      },
+      {
+        "fecha": "26/06/2026",
+        "hora": "18:11",
+        "tipo": "TRF",
+        "monto": 500000.19,
+        "moneda": "ARS",
+        "remitente": "Cesar Nicolas Maltez",
+        "remitente_cuil": "20-40350083-7",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "165130681863",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: WGRXJE276E37DO0J97MYQL. CVU origen: 0000003100080313518081. CVU destino: 0000155300000000009977.",
+        "_num": 1479,
+        "_fecha_carga": "30/06/2026 19:27",
+        "_origen": "grupo",
+        "_pie": "Cesar Nicolas Maltez\nDNI: 40.350.083"
       }
     ],
     "errores": [],
