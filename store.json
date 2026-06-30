@@ -35003,6 +35003,28 @@
         "_fecha_carga": "30/06/2026 19:34",
         "_origen": "grupo",
         "_pie": "Olivera myrian 23284695"
+      },
+      {
+        "fecha": "25/06/2024",
+        "hora": "14:34",
+        "tipo": "TRF",
+        "monto": 20000.0,
+        "moneda": "ARS",
+        "remitente": "Elisa Ana Ailen Cabrera",
+        "remitente_cuil": "",
+        "destinatario": "SASTEUP SRL",
+        "banco_origen": "Claro Pay",
+        "banco_destino": "Lohas",
+        "referencia": "WB260625.1434.E55640",
+        "concepto": "Enviaste dinero",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CVU remitente: 0000085700274686154906, Alias: icabreraclaro. CUIT/CUIL destinatario: 30717282252. N° operación COELSA: 8D0Q619L3LPV744LN7JZ5R",
+        "_num": 1525,
+        "_fecha_carga": "30/06/2026 19:34",
+        "_origen": "grupo",
+        "_pie": "Ailen Cabrera\n46.861.549"
       }
     ],
     "errores": [],
