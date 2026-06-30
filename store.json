@@ -34761,6 +34761,28 @@
         "_fecha_carga": "30/06/2026 19:32",
         "_origen": "grupo",
         "_pie": "Álvaro Miguel Vides \nCUIL: 20-39401192-5"
+      },
+      {
+        "fecha": "29/06/2026",
+        "hora": "11:08",
+        "tipo": "TRF",
+        "monto": 100000.0,
+        "moneda": "ARS",
+        "remitente": "Juan Octavio Torres",
+        "remitente_cuil": "20-39551805-5",
+        "destinatario": "SASTEUP SRL",
+        "banco_origen": "AstroPay",
+        "banco_destino": "",
+        "referencia": "0V1JXON1RK41QREGNZ64EL",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CVU remitente: 0000177500099223060159. CVU receptor: 0000155300000000009977. CUIT/CUIL receptor (SASTEUP SRL): 30717282252. Alias receptor: cvu.977.",
+        "_num": 1514,
+        "_fecha_carga": "30/06/2026 19:32",
+        "_origen": "grupo",
+        "_pie": "Juan Octavio Torres \n20-39551805-5"
       }
     ],
     "errores": [],
