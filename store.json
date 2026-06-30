@@ -25306,6 +25306,28 @@
         "_fecha_carga": "30/06/2026 19:03",
         "_origen": "grupo",
         "_pie": "Luzdary Falla \n27-96142180-8"
+      },
+      {
+        "fecha": "27/06/2026",
+        "hora": "23:23",
+        "tipo": "TRF",
+        "monto": 500000.0,
+        "moneda": "ARS",
+        "remitente": "Baeza, Natalia Ayelen",
+        "remitente_cuil": "27-46759833-9",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Personal Pay",
+        "banco_destino": "",
+        "referencia": "2791715463",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CoelsaID: WY7ZEPN6YL1LLJGP2Q0M51 - Id Bancario. CUIL/CUIT del destinatario Sasteup Srl: 30-71728225-2. CBU/CVU completo del receptor: 0000155300000000009977.",
+        "_num": 1085,
+        "_fecha_carga": "30/06/2026 19:03",
+        "_origen": "grupo",
+        "_pie": "Baeza, Natalia Ayelen\nCUIL/CUIT 27-46759833-9"
       }
     ],
     "errores": [],
