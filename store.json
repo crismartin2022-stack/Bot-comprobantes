@@ -34298,6 +34298,28 @@
         "_fecha_carga": "30/06/2026 19:29",
         "_origen": "grupo",
         "_pie": "Silvia ivana Montero\nD.N.I: 43.742.164"
+      },
+      {
+        "fecha": "26/06/2026",
+        "hora": "23:40",
+        "tipo": "TRF",
+        "monto": 500000.33,
+        "moneda": "ARS",
+        "remitente": "Victor Roberto Taiguan",
+        "remitente_cuil": "20-21342026-8",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "166007605720",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: PDX4OGNY4RXL35GY20L6EY. CVU origen: 0000003100023599226884. CVU destino: 0000155300000000009977",
+        "_num": 1493,
+        "_fecha_carga": "30/06/2026 19:29",
+        "_origen": "grupo",
+        "_pie": "Victor Roberto Taiguan\n21.342.026"
       }
     ],
     "errores": [],
