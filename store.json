@@ -34210,6 +34210,28 @@
         "_fecha_carga": "30/06/2026 19:28",
         "_origen": "grupo",
         "_pie": "Santiago Alejo Reynozo\n46.142.612"
+      },
+      {
+        "fecha": "26/06/2026",
+        "hora": "22:08",
+        "tipo": "TRF",
+        "monto": 500000.29,
+        "moneda": "ARS",
+        "remitente": "Oscar Martin Nunez",
+        "remitente_cuil": "20-43581368-3",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "165998839384",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: ORD6LEN8ME68G35YNM1Y30. CVU origen (remitente): 0000003100066680657936. CVU destino (receptor): 0000155300000000009977. CUIT destinatario: 30-71728225-2",
+        "_num": 1489,
+        "_fecha_carga": "30/06/2026 19:29",
+        "_origen": "grupo",
+        "_pie": "Oscar Martin Nuñez\nD.N.I : 43.581.36"
       }
     ],
     "errores": [],
