@@ -34871,6 +34871,28 @@
         "_fecha_carga": "30/06/2026 19:33",
         "_origen": "grupo",
         "_pie": "Álvaro Miguel Vides \nCUIL: 20-39401192-5"
+      },
+      {
+        "fecha": "29/06/2026",
+        "hora": "12:38",
+        "tipo": "TRF",
+        "monto": 400000.0,
+        "moneda": "ARS",
+        "remitente": "Milton Nahuel Rubinich",
+        "remitente_cuil": "39.146.911",
+        "destinatario": "SASTEUP SRL",
+        "banco_origen": "Cuenta DNI",
+        "banco_destino": "",
+        "referencia": "JMQKYZ9QGW68338QNV50P3",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "El campo Origen muestra DNI 39.146.911 (no CUIL con guiones). CVU destinatario: 0000155300000000000009977. CUIL destinatario: 30717282252. Referencia y Motivo ambos dicen 'Varios'.",
+        "_num": 1519,
+        "_fecha_carga": "30/06/2026 19:33",
+        "_origen": "grupo",
+        "_pie": "Milton Nahuel Rubinich\n20-39146911/4"
       }
     ],
     "errores": [],
