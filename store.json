@@ -34673,6 +34673,28 @@
         "_fecha_carga": "30/06/2026 19:32",
         "_origen": "grupo",
         "_pie": "Oriana jular \n41.712.081\nBet91"
+      },
+      {
+        "fecha": "27/06/2026",
+        "hora": "23:18",
+        "tipo": "TRF",
+        "monto": 500000.0,
+        "moneda": "ARS",
+        "remitente": "Priscila Belen Zeoli",
+        "remitente_cuil": "",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Lemon",
+        "banco_destino": "CVU",
+        "referencia": "XJ8G7V957KVWQZ3LNEMPYR",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CUIT destinatario: 30717282252. CBU destino: 0000155300000000009977. ID de la transacción: c22217e8-0d9b-4740-b68d-c772013f9e90. Comprobante emitido por Lemon (Powered by Digifin).",
+        "_num": 1510,
+        "_fecha_carga": "30/06/2026 19:32",
+        "_origen": "grupo",
+        "_pie": "Priscila zeoli\n44.003.143\nBet91"
       }
     ],
     "errores": [],
