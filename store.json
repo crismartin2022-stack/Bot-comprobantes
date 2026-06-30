@@ -35267,6 +35267,28 @@
         "_fecha_carga": "30/06/2026 19:36",
         "_origen": "grupo",
         "_pie": "Marcelo hugo benitez\n41146243"
+      },
+      {
+        "fecha": "28/06/2026",
+        "hora": "14:29",
+        "tipo": "TRF",
+        "monto": 50000.0,
+        "moneda": "ARS",
+        "remitente": "David Emanuel Aguilar",
+        "remitente_cuil": "20-46205922-2",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "165383758995",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: WY7ZEPN6YL1D75JQ2Q0M51. CVU remitente: 0000003100095909670166. CVU destinatario: 0000155300000000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 1537,
+        "_fecha_carga": "30/06/2026 19:36",
+        "_origen": "grupo",
+        "_pie": "david aguilar 46205922"
       }
     ],
     "errores": [],
