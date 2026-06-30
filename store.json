@@ -32294,6 +32294,28 @@
         "_fecha_carga": "30/06/2026 19:18",
         "_origen": "grupo",
         "_pie": "Mariana judith agüero \n39023268"
+      },
+      {
+        "fecha": "26/06/2026",
+        "hora": "23:45",
+        "tipo": "TRF",
+        "monto": 500000.0,
+        "moneda": "ARS",
+        "remitente": "Oriana Paola Jular",
+        "remitente_cuil": "27-41712081-0",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "166009942634",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: WY7ZEPN6YLWWQVXP2Q0M51. CVU origen: 0000003100080067580044. CVU destino: 0000155300000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 1402,
+        "_fecha_carga": "30/06/2026 19:18",
+        "_origen": "grupo",
+        "_pie": "Oriana jular \n41.712.081\nBet91"
       }
     ],
     "errores": [],
