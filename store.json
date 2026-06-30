@@ -34695,6 +34695,28 @@
         "_fecha_carga": "30/06/2026 19:32",
         "_origen": "grupo",
         "_pie": "Priscila zeoli\n44.003.143\nBet91"
+      },
+      {
+        "fecha": "21/06/2026",
+        "hora": "00:12",
+        "tipo": "TRF",
+        "monto": 65000.0,
+        "moneda": "ARS",
+        "remitente": "Valdez, Leandro Alberto",
+        "remitente_cuil": "20-34461289-8",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Personal Pay",
+        "banco_destino": "",
+        "referencia": "2766291280",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CoelsaID: LOEJWV9JZ3KDWY7R2QMD0G - Id Bancario. CBU/CVU destinatario: 0000155300000000009977. CUIL/CUIT destinatario: 30-71728225-2",
+        "_num": 1511,
+        "_fecha_carga": "30/06/2026 19:32",
+        "_origen": "grupo",
+        "_pie": "Valdez Leandro \n34461289"
       }
     ],
     "errores": [],
