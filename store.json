@@ -33220,6 +33220,28 @@
         "_fecha_carga": "30/06/2026 19:22",
         "_origen": "grupo",
         "_pie": "Marcia moreira \n33645445"
+      },
+      {
+        "fecha": "22/06/2026",
+        "hora": "11:54",
+        "tipo": "TRF",
+        "monto": 100000.0,
+        "moneda": "ARS",
+        "remitente": "Nicolas Emmanuel Guerrero",
+        "remitente_cuil": "20-39093084-5",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Naranja X",
+        "banco_destino": "Cuenta Virtual",
+        "referencia": "67REZ8NPQ6V6WXRK94KVGO",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de transacción: 416e37d4-3ee2-41b6-8466-751b2d83c5a2. CBU origen: 4530000800015049065169. CVU destino: 0000155300000000009977. CUIL destinatario: 30-71728225-2",
+        "_num": 1444,
+        "_fecha_carga": "30/06/2026 19:22",
+        "_origen": "grupo",
+        "_pie": "nicolas guerrero\n39.093.084"
       }
     ],
     "errores": [],
