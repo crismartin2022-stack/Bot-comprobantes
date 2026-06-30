@@ -34585,6 +34585,28 @@
         "_fecha_carga": "30/06/2026 19:31",
         "_origen": "grupo",
         "_pie": "Sandra segredo\n 40.624.900"
+      },
+      {
+        "fecha": "28/06/2026",
+        "hora": "23:25",
+        "tipo": "TRF",
+        "monto": 500000.0,
+        "moneda": "ARS",
+        "remitente": "PRISCILA BELEN ZEOLI",
+        "remitente_cuil": "27-44003143-4",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Banco Galicia",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "42234486481",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "ID COELSA: XJ8G7V957KYGLXOLNEMPYR. CVU destinatario: 0000155300000000009977. Cuenta origen: CA $ N° 4029307-5 373-2. CUIT destinatario: 30-71728225-2.",
+        "_num": 1506,
+        "_fecha_carga": "30/06/2026 19:31",
+        "_origen": "grupo",
+        "_pie": "Priscila zeoli\n44.003.143\nBet91"
       }
     ],
     "errores": [],
