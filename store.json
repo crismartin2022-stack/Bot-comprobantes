@@ -33506,6 +33506,28 @@
         "_fecha_carga": "30/06/2026 19:24",
         "_origen": "grupo",
         "_pie": "Oscar chamorro vazquez \nDNI: 20-94721124-3"
+      },
+      {
+        "fecha": "27/06/2026",
+        "hora": "23:48",
+        "tipo": "TRF",
+        "monto": 100000.0,
+        "moneda": "ARS",
+        "remitente": "Daniel Gustavo Rojas",
+        "remitente_cuil": "23-35397042-9",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "166160404516",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: Z6OLMDN37M1M13DY9E7RQ5. CVU origen: 0000003100043081850513. CVU destino: 0000155300000000009977. CUIT/CUIL destinatario: 30-71728225-2.",
+        "_num": 1457,
+        "_fecha_carga": "30/06/2026 19:24",
+        "_origen": "grupo",
+        "_pie": "DANIEL ROJAS\n\nDNI: 35.397.042"
       }
     ],
     "errores": [],
