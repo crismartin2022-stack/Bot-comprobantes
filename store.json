@@ -30069,6 +30069,28 @@
         "_fecha_carga": "30/06/2026 19:13",
         "_origen": "grupo",
         "_pie": "GABRIELA ELIZABETH ORELLANA\n28.635.493"
+      },
+      {
+        "fecha": "29/06/2026",
+        "hora": "19:53",
+        "tipo": "TRF",
+        "monto": 300000.0,
+        "moneda": "ARS",
+        "remitente": "Luque Miguez, Ariadna Abigail",
+        "remitente_cuil": "27-48299541-7",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Personal Pay",
+        "banco_destino": "",
+        "referencia": "2797339445",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CoelsaID: RD06ZO9W48Y3G1Z725GP7X - Id Bancario. CBU/CVU destinatario: 00001553000000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 1301,
+        "_fecha_carga": "30/06/2026 19:13",
+        "_origen": "grupo",
+        "_pie": "Luque Miguez, Ariadna Abigail\nCUIL/CUIT 27-48299541-7"
       }
     ],
     "errores": [],
