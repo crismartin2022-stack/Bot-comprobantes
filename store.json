@@ -33198,6 +33198,28 @@
         "_fecha_carga": "30/06/2026 19:22",
         "_origen": "grupo",
         "_pie": "Giuliana Ibañez \n43733932"
+      },
+      {
+        "fecha": "27/06/2026",
+        "hora": "16:11",
+        "tipo": "TRF",
+        "monto": 200000.0,
+        "moneda": "ARS",
+        "remitente": "Marcia Marina Maria Moreira",
+        "remitente_cuil": "27-33645445-5",
+        "destinatario": "SASTEUP SRL",
+        "banco_origen": "AstroPay",
+        "banco_destino": "",
+        "referencia": "R7ZG0QNDKPYZWZ6E9EXYPO",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CVU remitente: 0000177500099256890321. CVU receptor: 0000155300000000009977. CUIT/CUIL receptor (SASTEUP SRL): 30717282252.",
+        "_num": 1443,
+        "_fecha_carga": "30/06/2026 19:22",
+        "_origen": "grupo",
+        "_pie": "Marcia moreira \n33645445"
       }
     ],
     "errores": [],
