@@ -35773,6 +35773,28 @@
         "_fecha_carga": "30/06/2026 19:39",
         "_origen": "grupo",
         "_pie": "Luciana Alvarenga \n95029202"
+      },
+      {
+        "fecha": "27/06/2026",
+        "hora": "00:47",
+        "tipo": "TRF",
+        "monto": 60000.0,
+        "moneda": "ARS",
+        "remitente": "Sofia Pilar Monteverde",
+        "remitente_cuil": "43142862",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Lemon",
+        "banco_destino": "CVU",
+        "referencia": "Z4K6DVNOPO5JO5OG95J8LQ",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CUIT destinatario: 30717282252. CBU destinatario: 0000155300000000009977. ID de la transacción: 95994222-c73e-45e7-9b05-203941844dbf. Comprobante emitido por Lemon, powered by Digifin.",
+        "_num": 1560,
+        "_fecha_carga": "30/06/2026 19:39",
+        "_origen": "grupo",
+        "_pie": "Sofía pilar Monteverde\n43142862"
       }
     ],
     "errores": [],
