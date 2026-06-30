@@ -34651,6 +34651,28 @@
         "_fecha_carga": "30/06/2026 19:32",
         "_origen": "grupo",
         "_pie": "Marcia moreira \n33645445"
+      },
+      {
+        "fecha": "28/06/2026",
+        "hora": "19:15",
+        "tipo": "TRF",
+        "monto": 500000.0,
+        "moneda": "ARS",
+        "remitente": "Oriana Paola Jular",
+        "remitente_cuil": "27-41712081-0",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "166243633566",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: D4RO172VP8OW6WDV2KJ3QE. CVU origen: 0000003100080067580044. CVU destino: 0000155300000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 1509,
+        "_fecha_carga": "30/06/2026 19:32",
+        "_origen": "grupo",
+        "_pie": "Oriana jular \n41.712.081\nBet91"
       }
     ],
     "errores": [],
