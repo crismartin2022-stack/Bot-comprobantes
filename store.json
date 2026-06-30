@@ -34034,6 +34034,28 @@
         "_fecha_carga": "30/06/2026 19:27",
         "_origen": "grupo",
         "_pie": "Daniel Ricardo Bustamante\nDNI: 29.197.299"
+      },
+      {
+        "fecha": "26/06/2026",
+        "hora": "20:35",
+        "tipo": "TRF",
+        "monto": 500000.21,
+        "moneda": "ARS",
+        "remitente": "Victor Roberto Taiguan",
+        "remitente_cuil": "20-21342026-8",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "165986534454",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: Z6OLMDN37M83DR1Y9E7RQ5. CVU origen: 0000003100023599226884. CVU destino: 0000155300000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 1481,
+        "_fecha_carga": "30/06/2026 19:27",
+        "_origen": "grupo",
+        "_pie": "Victor Roberto Taiguan\n21.342.026"
       }
     ],
     "errores": [],
