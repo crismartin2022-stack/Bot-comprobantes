@@ -574,19 +574,6 @@ async def procesar_comprobante(image_bytes: bytes, mime: str, pie: str,
                                 bot, chat_msg_id: int):
     """Analiza imagen, verifica pie y guarda en registro correcto o errores."""
     datos = get_store(chat_id, nombre_g)
-    # Registrar imagen recibida
-    from telegram import Update as _Update
-    entrada_log = {
-        "msg_id": chat_msg_id,
-        "fecha": now_arg().strftime("%d/%m/%Y %H:%M"),
-        "nombre_g": nombre_g,
-        "estado": "procesando",
-        "pie": pie or "",
-    }
-    cid_str = str(chat_id)
-    if cid_str not in received_log:
-        received_log[cid_str] = []
-    received_log[cid_str].append(entrada_log)
 
     async with semaforo_claude:
         resultado = await analizar_imagen(image_bytes, mime)
@@ -1095,12 +1082,15 @@ async def cmd_pendientes(update: Update, ctx: ContextTypes.DEFAULT_TYPE):
     if update.effective_user.id != ADMIN_ID:
         await update.message.reply_text("Solo el administrador.")
         return
+
     chat_id = update.effective_chat.id
     es_privado = update.effective_chat.type == "private"
     grupos_a_revisar = list(received_log.keys()) if es_privado else [str(chat_id)]
+
     total_recibidas = 0
     total_pendientes = 0
-    texto = "📋 *Auditoría de fotos*\n─────────────────────\n"
+    todas_pendientes = []
+
     for cid in grupos_a_revisar:
         entradas = received_log.get(cid, [])
         nombre = store.get(cid, {}).get("nombre", cid)
@@ -1109,19 +1099,61 @@ async def cmd_pendientes(update: Update, ctx: ContextTypes.DEFAULT_TYPE):
         pendientes = [e for e in entradas if e.get("estado") not in ("procesada", "procesado")]
         total_recibidas += recibidas
         total_pendientes += len(pendientes)
-        if pendientes:
-            texto += f"📍 *{nombre}*\n"
-            texto += f"   📥 Recibidas: {recibidas} | ✅ Procesadas: {len(procesadas)} | ⚠️ Sin procesar: {len(pendientes)}\n"
-            for e in pendientes[:10]:
-                texto += f"   • msg #{e.get('msg_id')} — {e.get('fecha','')} ({e.get('estado','')})\n"
-            if len(pendientes) > 10:
-                texto += f"   ... y {len(pendientes)-10} más\n"
-            texto += "\n"
+        for e in pendientes:
+            todas_pendientes.append({**e, "_grupo": nombre})
+
     if total_pendientes == 0:
-        texto += "✅ Todas las fotos fueron procesadas."
-    else:
-        texto += f"─────────────────────\n⚠️ *Total sin procesar: {total_pendientes} de {total_recibidas}*"
+        await update.message.reply_text("✅ Todas las fotos fueron procesadas.")
+        return
+
+    # Resumen en texto
+    texto = f"⚠️ *{total_pendientes} sin procesar de {total_recibidas}*\nGenerando Excel con la lista completa..."
     await update.message.reply_text(texto, parse_mode="Markdown")
+
+    # Generar Excel con todos los pendientes
+    wb = Workbook()
+    ws = wb.active
+    ws.title = "Sin procesar"
+    header_fill = PatternFill("solid", fgColor="FF6600")
+    header_font = Font(bold=True, color="FFFFFF", size=11)
+    border = Border(left=Side(style="thin"), right=Side(style="thin"),
+                    top=Side(style="thin"), bottom=Side(style="thin"))
+
+    headers = ["#", "GRUPO", "MSG_ID", "FECHA", "ESTADO", "ALBUM"]
+    col_widths = [4, 25, 12, 18, 15, 8]
+    for col, (h, w) in enumerate(zip(headers, col_widths), 1):
+        cell = ws.cell(row=1, column=col, value=h)
+        cell.font = header_font
+        cell.fill = header_fill
+        cell.alignment = Alignment(horizontal="center", vertical="center")
+        cell.border = border
+        ws.column_dimensions[get_column_letter(col)].width = w
+
+    for i, e in enumerate(todas_pendientes, 2):
+        fila = [
+            i - 1,
+            e.get("_grupo", ""),
+            e.get("msg_id", ""),
+            e.get("fecha", ""),
+            e.get("estado", ""),
+            "Sí" if e.get("album") else "No",
+        ]
+        for col, val in enumerate(fila, 1):
+            cell = ws.cell(row=i, column=col, value=val)
+            cell.border = border
+            cell.alignment = Alignment(vertical="center")
+
+    ws.freeze_panes = "A2"
+    buf = BytesIO()
+    wb.save(buf)
+    buf.seek(0)
+
+    fecha = now_arg().strftime("%Y%m%d_%H%M")
+    await update.message.reply_document(
+        document=buf,
+        filename=f"Pendientes_{fecha}.xlsx",
+        caption=f"📋 {total_pendientes} fotos sin procesar de {total_recibidas} recibidas"
+    )
 
 async def cmd_limpiar_log(update: Update, ctx: ContextTypes.DEFAULT_TYPE):
     """Limpia el log de auditoría del grupo actual."""
