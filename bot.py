@@ -625,7 +625,7 @@ async def procesar_comprobante(image_bytes: bytes, mime: str, pie: str,
             text=f"⚠️ Comprobante #{num} no procesado — error de conexión. Reenvialo.",
             reply_to_message_id=chat_msg_id
         ))
-        asyncio.create_task(reaccionar(bot, chat_id, chat_msg_id, "🤬"))
+        asyncio.create_task(reaccionar(bot, chat_id, chat_msg_id, "🤡"))
         return
 
     if coincide:
@@ -1382,7 +1382,7 @@ async def worker_procesamiento(app):
                                     log.error(f"Descartado tras 3 reintentos: msg {item_data.get('msg_id')}")
                                     try:
                                         await app.bot.send_message(chat_id=item_data["chat_id"], text="⚠️ No se pudo procesar este comprobante tras 3 intentos. Reenvialo.", reply_to_message_id=item_data.get("msg_id"))
-                                        asyncio.create_task(reaccionar(app.bot, item_data["chat_id"], item_data["msg_id"], "🤬"))
+                                        asyncio.create_task(reaccionar(app.bot, item_data["chat_id"], item_data["msg_id"], "🤡"))
                                     except Exception as e:
                                         log.error(f"Error notificando descarte: {e}")
                                 continue
