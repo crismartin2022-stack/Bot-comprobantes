@@ -652,44 +652,25 @@ async def procesar_comprobante(image_bytes: bytes, mime: str, pie: str,
             return
         datos["registros"].append(resultado)
         guardar_store()
-        # Actualizar log
+        asyncio.create_task(_subir_imagen_cloudinary(image_bytes, mime, resultado, datos))
         for entry in received_log.get(str(chat_id), []):
             if entry.get("msg_id") == chat_msg_id:
-                entry["estado"] = "procesado"
+                entry["estado"] = "procesada"
                 break
-        # ✅ Confirmar en el grupo con tilde
         cvu = (resultado.get("cvu_ultimos4") or "").strip()
         monto = resultado.get("monto")
         monto_fmt = f"${float(monto):,.0f}" if monto else "—"
         remitente = resultado.get("remitente") or "—"
-        cuil = (resultado.get("remitente_cuil") or "").strip()
-        cvu_txt = f"****{cvu}" if cvu else "⚠️ Sin CVU"
-        cuil_txt = f" | DNI/CUIL: {cuil}" if cuil else ""
-        try:
-            await bot.send_message(
-                chat_id=chat_id,
-                text=f"✅ #{num} | {remitente}{cuil_txt} | {monto_fmt} | {cvu_txt}",
-                reply_to_message_id=chat_msg_id
-            )
-        except Exception as e:
-            log.error(f"Error enviando confirmación: {e}")
-        # Notificar al admin por privado si falta CVU
-        if not cvu:
-            try:
-                await bot.send_message(
-                    chat_id=ADMIN_ID,
-                    text=(
-                        f"⚠️ *CVU faltante — {nombre_g}*\n"
-                        f"Comprobante #{num}\n"
-                        f"👤 {remitente}\n"
-                        f"💰 {monto_fmt}\n"
-                        f"📅 {resultado.get('fecha','—')}\n"
-                        f"_CVU del receptor no encontrado en la imagen._"
-                    ),
-                    parse_mode="Markdown"
-                )
-            except Exception as e:
-                log.error(f"Error notificando CVU faltante: {e}")
+        sin_datos = not resultado.get("tiene_remitente") and not (resultado.get("remitente") or "").strip()
+        if not cvu or sin_datos:
+            _cid, _mid, _num = chat_id, chat_msg_id, num
+            _motivos = (["sin CVU/CBU"] if not cvu else []) + (["sin datos de remitente"] if sin_datos else [])
+            _motivos_txt = ", ".join(_motivos)
+            asyncio.create_task(reaccionar(bot, _cid, _mid, "🤔"))
+            await send_safe(lambda: bot.send_message(chat_id=_cid, text=f"🤔 Comprobante #{_num} aprobado pero con observaciones: {_motivos_txt}\n💰 {monto_fmt}", reply_to_message_id=_mid))
+            await send_safe(lambda: bot.send_message(chat_id=ADMIN_ID, text=f"⚠️ *Comprobante con observaciones — {nombre_g}*\n#{_num} | {_motivos_txt}\n👤 {remitente}\n💰 {monto_fmt}\n📅 {resultado.get('fecha','—')}", parse_mode="Markdown"))
+        else:
+            asyncio.create_task(reaccionar(bot, chat_id, chat_msg_id, "👍"))
     else:
         resultado["_motivo_error"] = motivo
         datos["errores"].append(resultado)
