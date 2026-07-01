@@ -399,7 +399,11 @@ def extraer_partes(nombre: str) -> tuple[list, str]:
     nombres  = partes[:-1]
     return nombres, apellido
 
-def verificar_pie(resultado: dict, pie: str) -> tuple[bool, str]:
+def escape_md(texto: str) -> str:
+    """Escapa caracteres especiales para Markdown de Telegram."""
+    for ch in ['_', '*', '[', ']', '(', ')', '~', '`', '>', '#', '+', '-', '=', '|', '{', '}', '.', '!']:
+        texto = texto.replace(ch, f'\\{ch}')
+    return texto
     """
     El pie siempre es la fuente correcta del titular.
     Solo rechaza si el ID de operación está repetido (manejado en es_duplicado).
@@ -655,7 +659,7 @@ async def procesar_comprobante(image_bytes: bytes, mime: str, pie: str,
             _motivos_txt = ", ".join(_motivos)
             asyncio.create_task(reaccionar(bot, _cid, _mid, "🤔"))
             await send_safe(lambda: bot.send_message(chat_id=_cid, text=f"🤔 Comprobante #{_num} aprobado pero con observaciones: {_motivos_txt}\n💰 {monto_fmt}", reply_to_message_id=_mid))
-            await send_safe(lambda: bot.send_message(chat_id=ADMIN_ID, text=f"⚠️ *Comprobante con observaciones — {nombre_g}*\n#{_num} | {_motivos_txt}\n👤 {remitente}\n💰 {monto_fmt}\n📅 {resultado.get('fecha','—')}", parse_mode="Markdown"))
+            await send_safe(lambda: bot.send_message(chat_id=ADMIN_ID, text=f"⚠️ *{escape_md(nombre_g)} — Comprobante con observaciones*\n#{_num} | {_motivos_txt}\n👤 {remitente}\n💰 {monto_fmt}\n📅 {resultado.get('fecha','—')}", parse_mode="Markdown"))
         else:
             asyncio.create_task(reaccionar(bot, chat_id, chat_msg_id, "👍"))
     else:
@@ -723,7 +727,7 @@ async def tarea_excel_backup(app):
                 chat_id=ADMIN_ID,
                 document=buf,
                 filename=f"Backup_{nombre.replace(' ','_')}_{fecha}.xlsx",
-                caption=f"💾 *Respaldo diario — {nombre}*\n📄 {len(registros)} comprobantes | 💰 ${sum(float(r.get('monto') or 0) for r in registros):,.0f} ARS",
+                caption=f"💾 *Respaldo diario — {escape_md(nombre)}*\n📄 {len(registros)} comprobantes | 💰 ${sum(float(r.get('monto') or 0) for r in registros):,.0f} ARS",
                 parse_mode="Markdown"
             )
             enviados += 1
@@ -808,7 +812,7 @@ async def tarea_excel_semanal(app):
                 dups = datos.get("duplicados", [])
                 buf_err = generar_excel(errores, semana, nombre, es_errores=True, duplicados=dups)
                 nombre_err  = f"Rechazados_{nombre.replace(' ','_')}_{fecha}.xlsx"
-                caption_err = f"⛔ *Rechazados — {nombre}*\n📅 {semana} | {len(errores)} rechazados | 🔁 {len(dups)} duplicados"
+                caption_err = f"⛔ *Rechazados — {escape_md(nombre)}*\n📅 {semana} | {len(errores)} rechazados | 🔁 {len(dups)} duplicados"
                 await app.bot.send_document(chat_id=int(cid), document=buf_err, filename=nombre_err, caption=caption_err, parse_mode="Markdown")
                 buf_err.seek(0)
                 await app.bot.send_document(chat_id=ADMIN_ID, document=buf_err, filename=nombre_err, caption=f"📎 {caption_err}", parse_mode="Markdown")
@@ -944,7 +948,7 @@ async def cmd_resumen(update: Update, ctx: ContextTypes.DEFAULT_TYPE):
     total   = sum(float(r.get("monto") or 0) for r in regs)
     sin_cvu = sum(1 for r in regs if not (r.get("cvu_ultimos4") or "").strip())
     await update.message.reply_text(
-        f"📊 *{datos['nombre']} — {datos['semana_actual']}*\n─────────────────────\n"
+        f"📊 *{escape_md(datos['nombre'])} — {escape_md(datos['semana_actual'])}*\n─────────────────────\n"
         f"✅ Aceptados: {len(regs)}\n⛔ Rechazados: {len(errs)}\n"
         f"🔴 Sin CVU: {sin_cvu}\n💰 Total ARS: ${total:,.0f}",
         parse_mode="Markdown"
@@ -1020,7 +1024,7 @@ async def cmd_excel(update: Update, ctx: ContextTypes.DEFAULT_TYPE):
                 await update.message.reply_document(
                     document=buf,
                     filename=f"Aprobados_{nombre.replace(' ','_')}_{fecha_archivo}.xlsx",
-                    caption=f"✅ *{nombre}*{label_fechas}\n{len(registros)} aprobados | ${total:,.0f} ARS",
+                    caption=f"✅ *{escape_md(nombre)}*{label_fechas}\n{len(registros)} aprobados | ${total:,.0f} ARS",
                     parse_mode="Markdown"
                 )
                 enviados += 1
@@ -1030,7 +1034,7 @@ async def cmd_excel(update: Update, ctx: ContextTypes.DEFAULT_TYPE):
                 await update.message.reply_document(
                     document=buf_err,
                     filename=f"Rechazados_{nombre.replace(' ','_')}_{fecha_archivo}.xlsx",
-                    caption=f"⛔ *{nombre}*{label_fechas}\n{len(errores)} rechazados | 🔁 {len(duplicados)} duplicados",
+                    caption=f"⛔ *{escape_md(nombre)}*{label_fechas}\n{len(errores)} rechazados | 🔁 {len(duplicados)} duplicados",
                     parse_mode="Markdown"
                 )
                 enviados += 1
@@ -1054,7 +1058,7 @@ async def cmd_excel(update: Update, ctx: ContextTypes.DEFAULT_TYPE):
         await update.message.reply_document(
             document=buf,
             filename=f"Aprobados_{nombre.replace(' ','_')}_{fecha_archivo}.xlsx",
-            caption=f"✅ *{nombre}*{label_fechas}\n{len(registros)} aprobados | ${total:,.0f} ARS",
+            caption=f"✅ *{escape_md(nombre)}*{label_fechas}\n{len(registros)} aprobados | ${total:,.0f} ARS",
             parse_mode="Markdown"
         )
         enviados += 1
@@ -1064,7 +1068,7 @@ async def cmd_excel(update: Update, ctx: ContextTypes.DEFAULT_TYPE):
         await update.message.reply_document(
             document=buf_err,
             filename=f"Rechazados_{nombre.replace(' ','_')}_{fecha_archivo}.xlsx",
-            caption=f"⛔ *{nombre}*{label_fechas}\n{len(errores)} rechazados | 🔁 {len(duplicados)} duplicados",
+            caption=f"⛔ *{escape_md(nombre)}*{label_fechas}\n{len(errores)} rechazados | 🔁 {len(duplicados)} duplicados",
             parse_mode="Markdown"
         )
         enviados += 1
@@ -1200,7 +1204,7 @@ async def cmd_recuperar(update: Update, ctx: ContextTypes.DEFAULT_TYPE):
             regs = datos.get("registros", [])
             errs = datos.get("errores", [])
             total = sum(float(r.get("monto") or 0) for r in regs)
-            texto += f"📍 *{datos.get('nombre', cid)}*: {len(regs)} ok | {len(errs)} err | ${total:,.0f} ARS\n"
+            texto += f"📍 *{escape_md(datos.get('nombre', cid))}*: {len(regs)} ok | {len(errs)} err | ${total:,.0f} ARS\n"
 
         await update.message.reply_text(texto, parse_mode="Markdown")
 
