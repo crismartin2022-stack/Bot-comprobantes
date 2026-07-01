@@ -85812,7 +85812,8 @@
         "_fecha_carga": "01/07/2026 16:03",
         "_origen": "grupo",
         "_pie": "Gustavo cuevas\n36447382",
-        "_msg_id": 5291
+        "_msg_id": 5291,
+        "_imagen_url": "https://res.cloudinary.com/drz11thh3/image/upload/v1782932603/comprobantes/Pagos_Arg_provisional_num1345_01-07-2026_16-03.jpg"
       },
       {
         "fecha": "27/06/2026",
@@ -85835,7 +85836,56 @@
         "_fecha_carga": "01/07/2026 16:03",
         "_origen": "grupo",
         "_pie": "Ludmila massimino\n39326953",
-        "_msg_id": 5293
+        "_msg_id": 5293,
+        "_imagen_url": "https://res.cloudinary.com/drz11thh3/image/upload/v1782932603/comprobantes/Pagos_Arg_provisional_num1346_01-07-2026_16-03.jpg"
+      },
+      {
+        "fecha": "27/06/2026",
+        "hora": "00:16",
+        "tipo": "TRF",
+        "monto": 20000.0,
+        "moneda": "ARS",
+        "remitente": "Lorena Elizabeth Paolini",
+        "remitente_cuil": "27-35800760-6",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "165183894593",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: LMORZP90GJPV8VO4NEGJ46. CVU origen: 0000003100186761142442. CVU destino: 0000155300000000000009977.",
+        "_num": 1347,
+        "_fecha_carga": "01/07/2026 16:03",
+        "_origen": "grupo",
+        "_pie": "Lorena Elizabeth paolini \n35800760",
+        "_msg_id": 5292,
+        "_imagen_url": "https://res.cloudinary.com/drz11thh3/image/upload/v1782932604/comprobantes/Pagos_Arg_provisional_num1347_01-07-2026_16-03.jpg"
+      },
+      {
+        "fecha": "27/06/2026",
+        "hora": "13:28",
+        "tipo": "TRF",
+        "monto": 200000.0,
+        "moneda": "ARS",
+        "remitente": "Ludmila Massimino",
+        "remitente_cuil": "39326953",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Ualá",
+        "banco_destino": "",
+        "referencia": "67REZ8NPMXZ51L0KN4KVGO",
+        "concepto": "VAR",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CBU destino: 0000155300000000009977. CUIT destino: 30717282252 (corresponde a Sasteup Srl, el destinatario). No se encontró CUIL del remitente en el comprobante.",
+        "_num": 1348,
+        "_fecha_carga": "01/07/2026 16:03",
+        "_origen": "grupo",
+        "_pie": "Ludmila massimino\n39326953",
+        "_msg_id": 5294,
+        "_imagen_url": "https://res.cloudinary.com/drz11thh3/image/upload/v1782932618/comprobantes/Pagos_Arg_provisional_num1348_01-07-2026_16-03.jpg"
       }
     ],
     "errores": [],
@@ -100628,5 +100678,63 @@
         "_duplicado": true
       }
     ]
+  },
+  "-1004497642209": {
+    "nombre": "*️⃣CONTROL TICKET CHAS1",
+    "semana_actual": "Semana 01/07/2026",
+    "registros": [
+      {
+        "fecha": "30/06/2026",
+        "hora": "13:53",
+        "tipo": "TRF",
+        "monto": 50000.0,
+        "moneda": "ARS",
+        "remitente": "Aime Yanella Fornillo",
+        "remitente_cuil": "43196130",
+        "destinatario": "SASTEUP SRL",
+        "banco_origen": "Cuenta DNI",
+        "banco_destino": "",
+        "referencia": "0V1JXON1RK6ERGK3NZ64EL",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "DNI del remitente: 43.196.130. CUIL del destinatario: 30717282252. CVU destinatario: 0000155300000000000009977.",
+        "_num": 1,
+        "_fecha_carga": "01/07/2026 16:03",
+        "_origen": "grupo",
+        "_pie": "Ganamos aime yanella fornillo 43196130",
+        "_msg_id": 11,
+        "_imagen_url": "https://res.cloudinary.com/drz11thh3/image/upload/v1782932619/comprobantes/%2A%EF%B8%8F%E2%83%A3CONTROL_TICKET_CHAS1_num1_01-07-2026_16-03.jpg"
+      },
+      {
+        "fecha": "30/06/2026",
+        "hora": "14:03",
+        "tipo": "TRF",
+        "monto": 20000.0,
+        "moneda": "ARS",
+        "remitente": "Francisco Gabriel Bogado",
+        "remitente_cuil": "39034023",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Ualá",
+        "banco_destino": "",
+        "referencia": "0V1JX0N1RK6EWXR7NZ64EL",
+        "concepto": "VAR",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CBU destino: 0000155300000000009977. CUIT destino (destinatario): 30717282252. No se visualiza CUIL del remitente en el comprobante.",
+        "_num": 2,
+        "_fecha_carga": "01/07/2026 16:03",
+        "_origen": "grupo",
+        "_pie": "A nombre de \n\nBogado Francisco Gabriel \n\n39034023",
+        "_msg_id": 13
+      }
+    ],
+    "errores": [],
+    "chat_id": -1004497642209,
+    "ultimo_resumen_idx": 0,
+    "total_mensual": 0.0,
+    "mes_actual": "07/2026"
   }
 }
