@@ -606,7 +606,8 @@ async def procesar_comprobante(image_bytes: bytes, mime: str, pie: str,
             resultado["remitente_cuil"] = dni_match.group(1)
 
     coincide, motivo = verificar_pie(resultado, pie)
-    num = len(datos["registros"]) + len(datos["errores"]) + 1
+    offset = datos.get("_num_offset", 0)
+    num = len(datos["registros"]) + len(datos["errores"]) + 1 - offset
     resultado["_num"] = num
     resultado["_fecha_carga"] = now_arg().strftime("%d/%m/%Y %H:%M")
     resultado["_origen"] = origen
@@ -1079,6 +1080,11 @@ async def cmd_excel(update: Update, ctx: ContextTypes.DEFAULT_TYPE):
             parse_mode="Markdown"
         )
         enviados += 1
+
+    # Resetear contador de números para la próxima tanda
+    if enviados and not fecha_desde:
+        datos["_num_offset"] = len(datos.get("registros", [])) + len(datos.get("errores", []))
+        guardar_store()
 
     if not enviados:
         await update.message.reply_text(f"📭 No hay comprobantes{label_fechas}.")
@@ -1797,8 +1803,8 @@ async def main_async():
 
     scheduler = AsyncIOScheduler(timezone="America/Argentina/Buenos_Aires")
     scheduler.add_job(tarea_resumen_diario, CronTrigger(hour=20, minute=0, timezone="America/Argentina/Buenos_Aires"), args=[app], id="resumen_diario")
-    scheduler.add_job(tarea_excel_semanal,  CronTrigger(day_of_week="thu", hour=21, minute=0, timezone="America/Argentina/Buenos_Aires"), args=[app], id="excel_semanal")
-    scheduler.add_job(tarea_excel_backup, CronTrigger(hour=19, minute=50, timezone="America/Argentina/Buenos_Aires"), args=[app], id="excel_backup")
+    # scheduler.add_job(tarea_excel_semanal, CronTrigger(day_of_week="thu", hour=21, minute=0, timezone="America/Argentina/Buenos_Aires"), args=[app], id="excel_semanal")
+    scheduler.add_job(tarea_excel_backup, CronTrigger(hour=0, minute=0, timezone="America/Argentina/Buenos_Aires"), args=[app], id="excel_backup")
     scheduler.start()
 
     # Iniciar Redis
