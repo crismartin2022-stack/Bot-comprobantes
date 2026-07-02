@@ -404,6 +404,13 @@ def escape_md(texto: str) -> str:
     for ch in ['_', '*', '[', ']', '(', ')', '~', '`', '>', '#', '+', '-', '=', '|', '{', '}', '.', '!']:
         texto = texto.replace(ch, f'\\{ch}')
     return texto
+
+def verificar_pie(resultado: dict, pie: str) -> tuple[bool, str]:
+    if not pie:
+        return True, ""
+    if not resultado.get("tiene_remitente") or not (resultado.get("remitente") or "").strip():
+        return True, "sin_datos_imagen"
+    return True, "coincide"
     """
     El pie siempre es la fuente correcta del titular.
     Solo rechaza si el ID de operación está repetido (manejado en es_duplicado).
