@@ -83,6 +83,7 @@ semaforo_claude = asyncio.Semaphore(10)  # Máximo 3 análisis simultáneos
 cola_procesamiento = asyncio.Queue()  # Cola local (fallback si no hay Redis)
 _github_backup_counter = 0  # Contador para throttle de backup GitHub
 _semaforo_reacciones = asyncio.Semaphore(1)  # Máximo 1 reacción a la vez
+grupos_reaccion_minima: set = set()  # Grupos donde solo se reacciona en duplicados/rechazados/no procesados
 
 DATA_FILE    = "/data/store.json"       # Volume de Railway (persistente)
 LOG_FILE     = "/data/received_log.json"  # Log de imágenes recibidas
@@ -665,11 +666,13 @@ async def procesar_comprobante(image_bytes: bytes, mime: str, pie: str,
             _cid, _mid, _num = chat_id, chat_msg_id, num
             _motivos = (["sin CVU/CBU"] if not cvu else []) + (["sin datos de remitente"] if sin_datos else [])
             _motivos_txt = ", ".join(_motivos)
-            asyncio.create_task(reaccionar(bot, _cid, _mid, "🤔"))
+            if str(_cid) not in grupos_reaccion_minima:
+                asyncio.create_task(reaccionar(bot, _cid, _mid, "🤔"))
             await send_safe(lambda: bot.send_message(chat_id=_cid, text=f"🤔 Comprobante #{_num} aprobado pero con observaciones: {_motivos_txt}\n💰 {monto_fmt}", reply_to_message_id=_mid))
             await send_safe(lambda: bot.send_message(chat_id=ADMIN_ID, text=f"⚠️ *{escape_md(nombre_g)} — Comprobante con observaciones*\n#{_num} | {_motivos_txt}\n👤 {remitente}\n💰 {monto_fmt}\n📅 {resultado.get('fecha','—')}", parse_mode="Markdown"))
         else:
-            asyncio.create_task(reaccionar(bot, chat_id, chat_msg_id, "👍"))
+            if str(chat_id) not in grupos_reaccion_minima:
+                asyncio.create_task(reaccionar(bot, chat_id, chat_msg_id, "👍"))
     else:
         resultado["_motivo_error"] = motivo
         datos["errores"].append(resultado)
@@ -1183,6 +1186,19 @@ async def cmd_limpiar_log(update: Update, ctx: ContextTypes.DEFAULT_TYPE):
         await update.message.reply_text(f"✅ Log limpiado — {cantidad} entradas eliminadas.")
     else:
         await update.message.reply_text("📭 No había entradas en el log.")
+
+async def cmd_reaccion_minima(update: Update, ctx: ContextTypes.DEFAULT_TYPE):
+    """Activa/desactiva modo reacción mínima en el grupo actual."""
+    if update.effective_user.id != ADMIN_ID:
+        await update.message.reply_text("⛔ Solo el administrador.")
+        return
+    chat_id = str(update.effective_chat.id)
+    if chat_id in grupos_reaccion_minima:
+        grupos_reaccion_minima.discard(chat_id)
+        await update.message.reply_text("✅ Reacciones completas activadas — 👍 🤔 🤨 ❌ 🤡")
+    else:
+        grupos_reaccion_minima.add(chat_id)
+        await update.message.reply_text("✅ Modo reacción mínima activado — solo 🤨 ❌ 🤡")
 
 async def cmd_recuperar(update: Update, ctx: ContextTypes.DEFAULT_TYPE):
     """Lee el store.json del Volume y recarga los datos en memoria."""
@@ -1795,6 +1811,7 @@ async def main_async():
     app.add_handler(CommandHandler("recuperar",    cmd_recuperar))
     app.add_handler(CommandHandler("pendientes",   cmd_pendientes))
     app.add_handler(CommandHandler("limpiar_log",  cmd_limpiar_log))
+    app.add_handler(CommandHandler("reaccion_minima", cmd_reaccion_minima))
     app.add_handler(CallbackQueryHandler(callback_handler))
     app.add_handler(MessageHandler(filters.PHOTO,          handle_photo))
     app.add_handler(MessageHandler(filters.Document.IMAGE, handle_document))
