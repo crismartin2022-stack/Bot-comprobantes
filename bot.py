@@ -1196,9 +1196,6 @@ async def cmd_reaccion_minima(update: Update, ctx: ContextTypes.DEFAULT_TYPE):
 
 async def cmd_recuperar(update: Update, ctx: ContextTypes.DEFAULT_TYPE):
     """Lee el store.json del Volume y recarga los datos en memoria."""
-    if update.effective_user.id != ADMIN_ID:
-        await update.message.reply_text("⛔ Solo el administrador.")
-        return
 
     global store
     try:
