@@ -24495,7 +24495,8 @@
         "_fecha_carga": "07/07/2026 10:59",
         "_origen": "grupo",
         "_pie": "Débora María castro \n44461985",
-        "_msg_id": 15534
+        "_msg_id": 15534,
+        "_imagen_url": "https://res.cloudinary.com/drz11thh3/image/upload/v1783432794/comprobantes/3Pagos_Arg_Comp_num134_07-07-2026_10-59.jpg"
       },
       {
         "fecha": "02/07/2026",
@@ -24518,7 +24519,8 @@
         "_fecha_carga": "07/07/2026 10:59",
         "_origen": "grupo",
         "_pie": "Celestina Mabel Paez\nPrex\nCUIL/CUIT\n27-17155362-3\nCVU\n0000013000032249651624",
-        "_msg_id": 15533
+        "_msg_id": 15533,
+        "_imagen_url": "https://res.cloudinary.com/drz11thh3/image/upload/v1783432795/comprobantes/3Pagos_Arg_Comp_num135_07-07-2026_10-59.jpg"
       },
       {
         "fecha": "03/07/2026",
@@ -24541,7 +24543,8 @@
         "_fecha_carga": "07/07/2026 10:59",
         "_origen": "grupo",
         "_pie": "Carmen Alejanfra Vera\nCUIT / CUIL\n27-23514318-1",
-        "_msg_id": 15536
+        "_msg_id": 15536,
+        "_imagen_url": "https://res.cloudinary.com/drz11thh3/image/upload/v1783432795/comprobantes/3Pagos_Arg_Comp_num136_07-07-2026_10-59.jpg"
       },
       {
         "fecha": "02/07/2026",
@@ -24564,7 +24567,80 @@
         "_fecha_carga": "07/07/2026 10:59",
         "_origen": "grupo",
         "_pie": "",
-        "_msg_id": 15532
+        "_msg_id": 15532,
+        "_imagen_url": "https://res.cloudinary.com/drz11thh3/image/upload/v1783432796/comprobantes/3Pagos_Arg_Comp_num137_07-07-2026_10-59.jpg"
+      },
+      {
+        "fecha": "04/07/2026",
+        "hora": "14:27",
+        "tipo": "TRF",
+        "monto": 12000.0,
+        "moneda": "ARS",
+        "remitente": "Oriana Chiari",
+        "remitente_cuil": "43196424",
+        "destinatario": "SASTEUP SRL",
+        "banco_origen": "",
+        "banco_destino": "Lohas S.A.S.",
+        "referencia": "7d75802f-b12e-afb7-801c-18d7a1e06684",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CBU emisor: 3840200500000031858805. CUIT/CUIL destino (destinatario): 30-71728225-2. Comentario: Transferencia en pesos.",
+        "_num": 138,
+        "_fecha_carga": "07/07/2026 10:59",
+        "_origen": "grupo",
+        "_pie": "43196424 Oriana chiari",
+        "_msg_id": 15537,
+        "_imagen_url": "https://res.cloudinary.com/drz11thh3/image/upload/v1783432797/comprobantes/3Pagos_Arg_Comp_num138_07-07-2026_10-59.jpg"
+      },
+      {
+        "fecha": "04/07/2026",
+        "hora": "22:48",
+        "tipo": "TRF",
+        "monto": 80000.0,
+        "moneda": "ARS",
+        "remitente": "Martin Ignacio Herrera",
+        "remitente_cuil": "",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Lemon",
+        "banco_destino": "CVU",
+        "referencia": "86VRPQ2GXDYOJWQY9GLY0M",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CUIT destinatario: 30717282252. CBU destino completo: 0000155300000000009977. ID de la transacción: 00510239-b805-4df1-8969-7e9e357f41f2. Comprobante emitido por Lemon powered by Digifin.",
+        "_num": 139,
+        "_fecha_carga": "07/07/2026 10:59",
+        "_origen": "grupo",
+        "_pie": "Martin Ignacio Herrera",
+        "_msg_id": 15538,
+        "_imagen_url": "https://res.cloudinary.com/drz11thh3/image/upload/v1783432798/comprobantes/3Pagos_Arg_Comp_num139_07-07-2026_10-59.jpg"
+      },
+      {
+        "fecha": "03/07/2026",
+        "hora": "22:24",
+        "tipo": "TRF",
+        "monto": 70000.0,
+        "moneda": "ARS",
+        "remitente": "Mauricio Tosolini",
+        "remitente_cuil": "20-29653582-7",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "167104900620",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: WGRXJE276Q6KXYGE97MYQL. CUIT/CUIL destinatario: 30-71728225-2. CVU origen: 0000003100015879884802.",
+        "_num": 140,
+        "_fecha_carga": "07/07/2026 11:00",
+        "_origen": "grupo",
+        "_pie": "",
+        "_msg_id": 15539,
+        "_imagen_url": "https://res.cloudinary.com/drz11thh3/image/upload/v1783432805/comprobantes/3Pagos_Arg_Comp_num140_07-07-2026_11-00.jpg"
       }
     ],
     "errores": [],
