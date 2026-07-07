@@ -1099,9 +1099,6 @@ async def cmd_nueva_semana(update: Update, ctx: ContextTypes.DEFAULT_TYPE):
         reply_markup=InlineKeyboardMarkup(kb))
 
 async def cmd_pendientes(update: Update, ctx: ContextTypes.DEFAULT_TYPE):
-    if update.effective_user.id != ADMIN_ID:
-        await update.message.reply_text("Solo el administrador.")
-        return
 
     chat_id = update.effective_chat.id
     es_privado = update.effective_chat.type == "private"
@@ -1189,9 +1186,6 @@ async def cmd_limpiar_log(update: Update, ctx: ContextTypes.DEFAULT_TYPE):
 
 async def cmd_reaccion_minima(update: Update, ctx: ContextTypes.DEFAULT_TYPE):
     """Activa/desactiva modo reacción mínima en el grupo actual."""
-    if update.effective_user.id != ADMIN_ID:
-        await update.message.reply_text("⛔ Solo el administrador.")
-        return
     chat_id = str(update.effective_chat.id)
     if chat_id in grupos_reaccion_minima:
         grupos_reaccion_minima.discard(chat_id)
