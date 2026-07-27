@@ -22805,7 +22805,8 @@
         "_fecha_carga": "27/07/2026 17:22",
         "_origen": "grupo",
         "_pie": "Norma Susana redondo \nDNI: 13.566.587",
-        "_msg_id": 39494
+        "_msg_id": 39494,
+        "_imagen_url": "https://res.cloudinary.com/drz11thh3/image/upload/v1785183779/comprobantes/Xxxxxpro_y_Api_Agi_num19_27-07-2026_17-22.jpg"
       },
       {
         "fecha": "23/07/2026",
@@ -22828,7 +22829,8 @@
         "_fecha_carga": "27/07/2026 17:22",
         "_origen": "grupo",
         "_pie": "Walter alejandro forgia 40191889",
-        "_msg_id": 39496
+        "_msg_id": 39496,
+        "_imagen_url": "https://res.cloudinary.com/drz11thh3/image/upload/v1785183779/comprobantes/Xxxxxpro_y_Api_Agi_num20_27-07-2026_17-22.jpg"
       },
       {
         "fecha": "26/07/2026",
@@ -22851,7 +22853,8 @@
         "_fecha_carga": "27/07/2026 17:22",
         "_origen": "grupo",
         "_pie": "",
-        "_msg_id": 39491
+        "_msg_id": 39491,
+        "_imagen_url": "https://res.cloudinary.com/drz11thh3/image/upload/v1785183779/comprobantes/Xxxxxpro_y_Api_Agi_num21_27-07-2026_17-22.jpg"
       },
       {
         "fecha": "26/07/2026",
@@ -22874,7 +22877,80 @@
         "_fecha_carga": "27/07/2026 17:22",
         "_origen": "grupo",
         "_pie": "Julieta Otazo \n44331955\nPlutonos",
-        "_msg_id": 39495
+        "_msg_id": 39495,
+        "_imagen_url": "https://res.cloudinary.com/drz11thh3/image/upload/v1785183779/comprobantes/Xxxxxpro_y_Api_Agi_num22_27-07-2026_17-22.jpg"
+      },
+      {
+        "fecha": "23/07/2026",
+        "hora": "12:49",
+        "tipo": "TRF",
+        "monto": 100000.0,
+        "moneda": "ARS",
+        "remitente": "Noelia Jaqueline Ayala",
+        "remitente_cuil": "27-40034818-4",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "170184699066",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: 76V4MR2Z8757V6OE9DEZOL. CVU remitente: 0000003100033201022557. CVU destinatario: 0000155300000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 23,
+        "_fecha_carga": "27/07/2026 17:23",
+        "_origen": "grupo",
+        "_pie": "Noelia Ayala \n40034818",
+        "_msg_id": 39498,
+        "_imagen_url": "https://res.cloudinary.com/drz11thh3/image/upload/v1785183789/comprobantes/Xxxxxpro_y_Api_Agi_num23_27-07-2026_17-23.jpg"
+      },
+      {
+        "fecha": "25/07/2026",
+        "hora": "16:40",
+        "tipo": "TRF",
+        "monto": 185000.0,
+        "moneda": "ARS",
+        "remitente": "Jose Luis Gomez",
+        "remitente_cuil": "20-20076120-1",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "170531010878",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: 0V1JXON1RLOZ1LR7NZ64EL. CVU origen: 0000003100014948481771. CVU destino: 0000155300000000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 24,
+        "_fecha_carga": "27/07/2026 17:23",
+        "_origen": "grupo",
+        "_pie": "josé luis gómez 20076120 zeus",
+        "_msg_id": 39499,
+        "_imagen_url": "https://res.cloudinary.com/drz11thh3/image/upload/v1785183789/comprobantes/Xxxxxpro_y_Api_Agi_num24_27-07-2026_17-23.jpg"
+      },
+      {
+        "fecha": "25/07/2026",
+        "hora": "17:28",
+        "tipo": "TRF",
+        "monto": 40000.0,
+        "moneda": "ARS",
+        "remitente": "Sandra Ester Benitez",
+        "remitente_cuil": "27-34938433-2",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "169653566155",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: 0V1JXON1RLOWRW6PNZ64EL. CVU origen: 0000003100063065482680. CVU destino: 0000155300000000000009977.",
+        "_num": 25,
+        "_fecha_carga": "27/07/2026 17:23",
+        "_origen": "grupo",
+        "_pie": "Sandra Benítez 34938433\nMega",
+        "_msg_id": 39500,
+        "_imagen_url": "https://res.cloudinary.com/drz11thh3/image/upload/v1785183790/comprobantes/Xxxxxpro_y_Api_Agi_num25_27-07-2026_17-23.jpg"
       }
     ],
     "errores": [],
