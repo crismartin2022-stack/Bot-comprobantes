@@ -23453,7 +23453,8 @@
         "_fecha_carga": "29/07/2026 16:55",
         "_origen": "grupo",
         "_pie": "Nicolás Jesus saffer 47650014",
-        "_msg_id": 40054
+        "_msg_id": 40054,
+        "_imagen_url": "https://res.cloudinary.com/drz11thh3/image/upload/v1785354913/comprobantes/Xxxxxpro_y_Api_Agi_num46_29-07-2026_16-55.jpg"
       },
       {
         "fecha": "28/07/2026",
@@ -23476,7 +23477,8 @@
         "_fecha_carga": "29/07/2026 16:55",
         "_origen": "grupo",
         "_pie": "Adelaida González 95122020",
-        "_msg_id": 40052
+        "_msg_id": 40052,
+        "_imagen_url": "https://res.cloudinary.com/drz11thh3/image/upload/v1785354913/comprobantes/Xxxxxpro_y_Api_Agi_num47_29-07-2026_16-55.jpg"
       },
       {
         "fecha": "28/07/2026",
@@ -23499,7 +23501,8 @@
         "_fecha_carga": "29/07/2026 16:55",
         "_origen": "grupo",
         "_pie": "Adelaida González 95122020",
-        "_msg_id": 40051
+        "_msg_id": 40051,
+        "_imagen_url": "https://res.cloudinary.com/drz11thh3/image/upload/v1785354913/comprobantes/Xxxxxpro_y_Api_Agi_num48_29-07-2026_16-55.jpg"
       },
       {
         "fecha": "28/07/2026",
@@ -23523,7 +23526,80 @@
         "_fecha_carga": "29/07/2026 16:55",
         "_origen": "grupo",
         "_pie": "Jorge Daniel Peralta \n34429649",
-        "_msg_id": 40055
+        "_msg_id": 40055,
+        "_imagen_url": "https://res.cloudinary.com/drz11thh3/image/upload/v1785354913/comprobantes/Xxxxxpro_y_Api_Agi_num49_29-07-2026_16-55.jpg"
+      },
+      {
+        "fecha": "28/07/2026",
+        "hora": "21:46",
+        "tipo": "TRF",
+        "monto": 340000.0,
+        "moneda": "ARS",
+        "remitente": "Leandro Alberto Valdez",
+        "remitente_cuil": "20-34461289-8",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "170112884865",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: R7ZG0QNDKWZ1EXQ09EXYPO. CUIT destinatario: 30-71728225-2. CBU destino: 0000155300000000009977. CVU origen: 0000003100001355250047.",
+        "_num": 50,
+        "_fecha_carga": "29/07/2026 16:55",
+        "_origen": "grupo",
+        "_pie": "Valdez Leandro \n34461289",
+        "_msg_id": 40056,
+        "_imagen_url": "https://res.cloudinary.com/drz11thh3/image/upload/v1785354917/comprobantes/Xxxxxpro_y_Api_Agi_num50_29-07-2026_16-55.jpg"
+      },
+      {
+        "fecha": "28/07/2026",
+        "hora": "22:48",
+        "tipo": "TRF",
+        "monto": 200000.0,
+        "moneda": "ARS",
+        "remitente": "Rodrigo Nicolas Nunez",
+        "remitente_cuil": "20-42404961-2",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "171009048082",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: Z6OLMDN37VRX7PLW9E7RQ5. CVU remitente: 0000003100089945348864. CVU destinatario: 0000155300000000009977. CUIT/CUIL destinatario: 30-71728225-2.",
+        "_num": 51,
+        "_fecha_carga": "29/07/2026 16:55",
+        "_origen": "grupo",
+        "_pie": "Rodrigo nuñez \n42404961",
+        "_msg_id": 40057,
+        "_imagen_url": "https://res.cloudinary.com/drz11thh3/image/upload/v1785354917/comprobantes/Xxxxxpro_y_Api_Agi_num51_29-07-2026_16-55.jpg"
+      },
+      {
+        "fecha": "29/07/2026",
+        "hora": "00:26",
+        "tipo": "TRF",
+        "monto": 100000.0,
+        "moneda": "ARS",
+        "remitente": "Jorge Leonel Villalba",
+        "remitente_cuil": "20-45228847-9",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "170126809157",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: LMORZP90G83GO63PNEGJ46. CVU origen: 0000003100053819753759. CVU destino: 0000155300000000009977.",
+        "_num": 52,
+        "_fecha_carga": "29/07/2026 16:55",
+        "_origen": "grupo",
+        "_pie": "Jorge Leonel Villalba \n45228847",
+        "_msg_id": 40060,
+        "_imagen_url": "https://res.cloudinary.com/drz11thh3/image/upload/v1785354921/comprobantes/Xxxxxpro_y_Api_Agi_num52_29-07-2026_16-55.jpg"
       }
     ],
     "errores": [],
