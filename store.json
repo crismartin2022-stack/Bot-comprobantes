@@ -31797,7 +31797,8 @@
         "_fecha_carga": "03/09/2026 20:48",
         "_origen": "grupo",
         "_pie": "",
-        "_msg_id": 56705
+        "_msg_id": 56705,
+        "_imagen_url": "https://res.cloudinary.com/drz11thh3/image/upload/v1788479339/comprobantes/Xxxxxpro_y_Api_Agi_num393_03-09-2026_20-48.jpg"
       },
       {
         "fecha": "28/08/2026",
@@ -31820,7 +31821,8 @@
         "_fecha_carga": "03/09/2026 20:48",
         "_origen": "grupo",
         "_pie": "",
-        "_msg_id": 56710
+        "_msg_id": 56710,
+        "_imagen_url": "https://res.cloudinary.com/drz11thh3/image/upload/v1788479339/comprobantes/Xxxxxpro_y_Api_Agi_num394_03-09-2026_20-48.jpg"
       },
       {
         "fecha": "29/08/2026",
@@ -31843,7 +31845,8 @@
         "_fecha_carga": "03/09/2026 20:48",
         "_origen": "grupo",
         "_pie": "",
-        "_msg_id": 56712
+        "_msg_id": 56712,
+        "_imagen_url": "https://res.cloudinary.com/drz11thh3/image/upload/v1788479339/comprobantes/Xxxxxpro_y_Api_Agi_num395_03-09-2026_20-48.jpg"
       },
       {
         "fecha": "29/08/2026",
@@ -31866,7 +31869,8 @@
         "_fecha_carga": "03/09/2026 20:48",
         "_origen": "grupo",
         "_pie": "",
-        "_msg_id": 56706
+        "_msg_id": 56706,
+        "_imagen_url": "https://res.cloudinary.com/drz11thh3/image/upload/v1788479339/comprobantes/Xxxxxpro_y_Api_Agi_num396_03-09-2026_20-48.jpg"
       },
       {
         "fecha": "29/08/2026",
@@ -31889,7 +31893,8 @@
         "_fecha_carga": "03/09/2026 20:48",
         "_origen": "grupo",
         "_pie": "",
-        "_msg_id": 56703
+        "_msg_id": 56703,
+        "_imagen_url": "https://res.cloudinary.com/drz11thh3/image/upload/v1788479339/comprobantes/Xxxxxpro_y_Api_Agi_num397_03-09-2026_20-48.jpg"
       },
       {
         "fecha": "28/08/2026",
@@ -31912,7 +31917,8 @@
         "_fecha_carga": "03/09/2026 20:48",
         "_origen": "grupo",
         "_pie": "",
-        "_msg_id": 56704
+        "_msg_id": 56704,
+        "_imagen_url": "https://res.cloudinary.com/drz11thh3/image/upload/v1788479339/comprobantes/Xxxxxpro_y_Api_Agi_num398_03-09-2026_20-48.jpg"
       },
       {
         "fecha": "29/08/2026",
@@ -31935,7 +31941,8 @@
         "_fecha_carga": "03/09/2026 20:48",
         "_origen": "grupo",
         "_pie": "",
-        "_msg_id": 56707
+        "_msg_id": 56707,
+        "_imagen_url": "https://res.cloudinary.com/drz11thh3/image/upload/v1788479339/comprobantes/Xxxxxpro_y_Api_Agi_num399_03-09-2026_20-48.jpg"
       },
       {
         "fecha": "29/08/2026",
@@ -31958,7 +31965,54 @@
         "_fecha_carga": "03/09/2026 20:48",
         "_origen": "grupo",
         "_pie": "",
-        "_msg_id": 56708
+        "_msg_id": 56708,
+        "_imagen_url": "https://res.cloudinary.com/drz11thh3/image/upload/v1788479339/comprobantes/Xxxxxpro_y_Api_Agi_num400_03-09-2026_20-48.jpg"
+      },
+      {
+        "fecha": "28/08/2026",
+        "hora": "10:30",
+        "tipo": "TRF",
+        "monto": 14000.0,
+        "moneda": "ARS",
+        "remitente": "Micaela Mercedes Sioufi",
+        "remitente_cuil": "27-40557332-1",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "176019789982",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: Z6OLMDN37PGO1PDY9E7RQ5. CUIT destinatario: 30-71728225-2. CBU destinatario: 0000155300000000009977.",
+        "_num": 401,
+        "_fecha_carga": "03/09/2026 20:49",
+        "_origen": "grupo",
+        "_pie": "",
+        "_msg_id": 56713
+      },
+      {
+        "fecha": "30/08/2026",
+        "hora": "13:07",
+        "tipo": "TRF",
+        "monto": 50000.0,
+        "moneda": "ARS",
+        "remitente": "Leandro Javier Robles",
+        "remitente_cuil": "23-31246286-9",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "176372038692",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: L18MKX9RPZZZ4JKV2O6WYV. CUIT destinatario: 30-71728225-2. CVU remitente: 0000003100007241383505. CBU destinatario: 0000155300000000009977.",
+        "_num": 402,
+        "_fecha_carga": "03/09/2026 20:49",
+        "_origen": "grupo",
+        "_pie": "",
+        "_msg_id": 56715
       }
     ],
     "errores": [],
