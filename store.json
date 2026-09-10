@@ -25888,7 +25888,8 @@
         "_fecha_carga": "10/09/2026 20:15",
         "_origen": "grupo",
         "_pie": "",
-        "_msg_id": 60455
+        "_msg_id": 60455,
+        "_imagen_url": "https://res.cloudinary.com/drz11thh3/image/upload/v1789082116/comprobantes/Xxxxxpro_y_Api_Agi_num147_10-09-2026_20-15.jpg"
       },
       {
         "fecha": "05/09/2026",
@@ -25911,7 +25912,8 @@
         "_fecha_carga": "10/09/2026 20:15",
         "_origen": "grupo",
         "_pie": "",
-        "_msg_id": 60450
+        "_msg_id": 60450,
+        "_imagen_url": "https://res.cloudinary.com/drz11thh3/image/upload/v1789082116/comprobantes/Xxxxxpro_y_Api_Agi_num148_10-09-2026_20-15.jpg"
       },
       {
         "fecha": "05/09/2026",
@@ -25934,7 +25936,8 @@
         "_fecha_carga": "10/09/2026 20:15",
         "_origen": "grupo",
         "_pie": "",
-        "_msg_id": 60452
+        "_msg_id": 60452,
+        "_imagen_url": "https://res.cloudinary.com/drz11thh3/image/upload/v1789082116/comprobantes/Xxxxxpro_y_Api_Agi_num149_10-09-2026_20-15.jpg"
       },
       {
         "fecha": "07/09/2026",
@@ -25957,7 +25960,8 @@
         "_fecha_carga": "10/09/2026 20:15",
         "_origen": "grupo",
         "_pie": "",
-        "_msg_id": 60454
+        "_msg_id": 60454,
+        "_imagen_url": "https://res.cloudinary.com/drz11thh3/image/upload/v1789082116/comprobantes/Xxxxxpro_y_Api_Agi_num150_10-09-2026_20-15.jpg"
       },
       {
         "fecha": "05/09/2026",
@@ -25980,7 +25984,8 @@
         "_fecha_carga": "10/09/2026 20:15",
         "_origen": "grupo",
         "_pie": "",
-        "_msg_id": 60449
+        "_msg_id": 60449,
+        "_imagen_url": "https://res.cloudinary.com/drz11thh3/image/upload/v1789082116/comprobantes/Xxxxxpro_y_Api_Agi_num151_10-09-2026_20-15.jpg"
       },
       {
         "fecha": "05/09/2026",
@@ -26003,7 +26008,8 @@
         "_fecha_carga": "10/09/2026 20:15",
         "_origen": "grupo",
         "_pie": "",
-        "_msg_id": 60453
+        "_msg_id": 60453,
+        "_imagen_url": "https://res.cloudinary.com/drz11thh3/image/upload/v1789082116/comprobantes/Xxxxxpro_y_Api_Agi_num152_10-09-2026_20-15.jpg"
       },
       {
         "fecha": "05/09/2026",
@@ -26026,7 +26032,77 @@
         "_fecha_carga": "10/09/2026 20:15",
         "_origen": "grupo",
         "_pie": "",
-        "_msg_id": 60448
+        "_msg_id": 60448,
+        "_imagen_url": "https://res.cloudinary.com/drz11thh3/image/upload/v1789082116/comprobantes/Xxxxxpro_y_Api_Agi_num153_10-09-2026_20-15.jpg"
+      },
+      {
+        "fecha": "05/09/2026",
+        "hora": "00:42",
+        "tipo": "TRF",
+        "monto": 48000.0,
+        "moneda": "ARS",
+        "remitente": "FABIO EMANUEL FERNANDEZ",
+        "remitente_cuil": "20-37097518-4",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Banco Galicia",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "42828880607",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "ID COELSA: PDX4OGNY45PWM14Q20L6EY. Cuenta origen: CA $ N° 4027109-8 034-6. CVU destinatario: 0000155300000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 154,
+        "_fecha_carga": "10/09/2026 20:15",
+        "_origen": "grupo",
+        "_pie": "",
+        "_msg_id": 60446
+      },
+      {
+        "fecha": "05/09/2026",
+        "hora": "21:37",
+        "tipo": "TRF",
+        "monto": 490000.0,
+        "moneda": "ARS",
+        "remitente": "Maria Fernanda Ambrosio",
+        "remitente_cuil": "27-28576428-4",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "177531536570",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: ORD6LEN8MDQXXOLGNM1Y30. CVU remitente: 0000003100057608063557. CBU destinatario: 0000155300000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 155,
+        "_fecha_carga": "10/09/2026 20:15",
+        "_origen": "grupo",
+        "_pie": "",
+        "_msg_id": 60451
+      },
+      {
+        "fecha": "05/09/2026",
+        "hora": "12:47",
+        "tipo": "TRF",
+        "monto": 100000.0,
+        "moneda": "ARS",
+        "remitente": "Rodolfo Adrian Jaime",
+        "remitente_cuil": "23-17807324-9",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "177435303392",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: LOEJWV9JXOY7P118NQMD0G. CVU remitente: 0000003100039666165235. CBU destinatario: 0000155300000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 156,
+        "_fecha_carga": "10/09/2026 20:15",
+        "_origen": "grupo",
+        "_pie": "",
+        "_msg_id": 60447
       }
     ],
     "errores": [],
