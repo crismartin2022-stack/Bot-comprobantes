@@ -25672,7 +25672,8 @@
         "_fecha_carga": "10/09/2026 20:14",
         "_origen": "grupo",
         "_pie": "",
-        "_msg_id": 60437
+        "_msg_id": 60437,
+        "_imagen_url": "https://res.cloudinary.com/drz11thh3/image/upload/v1789082099/comprobantes/Xxxxxpro_y_Api_Agi_num138_10-09-2026_20-14.jpg"
       },
       {
         "fecha": "05/09/2026",
@@ -25695,7 +25696,8 @@
         "_fecha_carga": "10/09/2026 20:14",
         "_origen": "grupo",
         "_pie": "",
-        "_msg_id": 60438
+        "_msg_id": 60438,
+        "_imagen_url": "https://res.cloudinary.com/drz11thh3/image/upload/v1789082100/comprobantes/Xxxxxpro_y_Api_Agi_num139_10-09-2026_20-14.jpg"
       },
       {
         "fecha": "04/09/2026",
@@ -25718,7 +25720,8 @@
         "_fecha_carga": "10/09/2026 20:14",
         "_origen": "grupo",
         "_pie": "",
-        "_msg_id": 60443
+        "_msg_id": 60443,
+        "_imagen_url": "https://res.cloudinary.com/drz11thh3/image/upload/v1789082101/comprobantes/Xxxxxpro_y_Api_Agi_num140_10-09-2026_20-14.jpg"
       },
       {
         "fecha": "04/09/2026",
@@ -25741,7 +25744,8 @@
         "_fecha_carga": "10/09/2026 20:14",
         "_origen": "grupo",
         "_pie": "",
-        "_msg_id": 60445
+        "_msg_id": 60445,
+        "_imagen_url": "https://res.cloudinary.com/drz11thh3/image/upload/v1789082100/comprobantes/Xxxxxpro_y_Api_Agi_num141_10-09-2026_20-14.jpg"
       },
       {
         "fecha": "04/09/2026",
@@ -25764,7 +25768,101 @@
         "_fecha_carga": "10/09/2026 20:15",
         "_origen": "grupo",
         "_pie": "",
-        "_msg_id": 60440
+        "_msg_id": 60440,
+        "_imagen_url": "https://res.cloudinary.com/drz11thh3/image/upload/v1789082100/comprobantes/Xxxxxpro_y_Api_Agi_num142_10-09-2026_20-15.jpg"
+      },
+      {
+        "fecha": "04/09/2026",
+        "hora": "14:41",
+        "tipo": "TRF",
+        "monto": 46000.0,
+        "moneda": "ARS",
+        "remitente": "Matias Gaveglio",
+        "remitente_cuil": "",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Lemon",
+        "banco_destino": "CVU",
+        "referencia": "Z6OLMDN37POY7W6Y9E7RQ5",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CUIT destinatario: 30717282252. CBU destino: 0000155300000000009977. ID de la transacción: 5f47bd05-816a-43e3-af1b-ffaded34c487. Comprobante emitido por Lemon powered by Digifin.",
+        "_num": 143,
+        "_fecha_carga": "10/09/2026 20:15",
+        "_origen": "grupo",
+        "_pie": "",
+        "_msg_id": 60439,
+        "_imagen_url": "https://res.cloudinary.com/drz11thh3/image/upload/v1789082102/comprobantes/Xxxxxpro_y_Api_Agi_num143_10-09-2026_20-15.jpg"
+      },
+      {
+        "fecha": "03/09/2026",
+        "hora": "21:57",
+        "tipo": "TRF",
+        "monto": 23000.0,
+        "moneda": "ARS",
+        "remitente": "Nicolas Ivan Gaveglio",
+        "remitente_cuil": "20-39095156-7",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "176193412905",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: R7ZG0QNDKRZXDJ8E9EXYPO. CVU remitente: 0000003100084576640051. CBU destinatario: 0000155300000000009977. CUIT destinatario: 30-71728225-2",
+        "_num": 144,
+        "_fecha_carga": "10/09/2026 20:15",
+        "_origen": "grupo",
+        "_pie": "",
+        "_msg_id": 60442
+      },
+      {
+        "fecha": "09/09/2026",
+        "hora": "22:10",
+        "tipo": "TRF",
+        "monto": 115000.0,
+        "moneda": "ARS",
+        "remitente": "Matias Gaveglio",
+        "remitente_cuil": "",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Lemon",
+        "banco_destino": "CVU",
+        "referencia": "ORD6LEN8MDLGWWDGNM1Y30",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CUIT destinatario: 30717282252. CBU destino: 0000155300000000009977. ID de transacción: 80ec2c70-4021-4cb3-80a0-862de49a1183. Comprobante emitido por Lemon (Powered by Digifin).",
+        "_num": 145,
+        "_fecha_carga": "10/09/2026 20:15",
+        "_origen": "grupo",
+        "_pie": "",
+        "_msg_id": 60441
+      },
+      {
+        "fecha": "04/09/2026",
+        "hora": "13:20",
+        "tipo": "TRF",
+        "monto": 291256.0,
+        "moneda": "ARS",
+        "remitente": "Maria Fernanda Ambrosio",
+        "remitente_cuil": "27-28576428-4",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "177247000160",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: WGRXJE276VPXM54P97MYQL. CVU remitente: 0000003100057608063557. CBU destinatario: 0000155300000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 146,
+        "_fecha_carga": "10/09/2026 20:15",
+        "_origen": "grupo",
+        "_pie": "",
+        "_msg_id": 60444
       }
     ],
     "errores": [],
