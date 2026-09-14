@@ -29412,7 +29412,8 @@
         "_fecha_carga": "14/09/2026 18:58",
         "_origen": "grupo",
         "_pie": "",
-        "_msg_id": 62207
+        "_msg_id": 62207,
+        "_imagen_url": "https://res.cloudinary.com/drz11thh3/image/upload/v1789423113/comprobantes/Xxxxxpro_y_Api_Agi_num294_14-09-2026_18-58.jpg"
       },
       {
         "fecha": "03/09/2026",
@@ -29483,7 +29484,8 @@
         "_fecha_carga": "14/09/2026 18:58",
         "_origen": "grupo",
         "_pie": "",
-        "_msg_id": 62206
+        "_msg_id": 62206,
+        "_imagen_url": "https://res.cloudinary.com/drz11thh3/image/upload/v1789423113/comprobantes/Xxxxxpro_y_Api_Agi_num297_14-09-2026_18-58.jpg"
       },
       {
         "fecha": "03/09/2026",
@@ -29530,7 +29532,8 @@
         "_fecha_carga": "14/09/2026 18:58",
         "_origen": "grupo",
         "_pie": "",
-        "_msg_id": 62205
+        "_msg_id": 62205,
+        "_imagen_url": "https://res.cloudinary.com/drz11thh3/image/upload/v1789423113/comprobantes/Xxxxxpro_y_Api_Agi_num299_14-09-2026_18-58.jpg"
       },
       {
         "fecha": "03/09/2026",
@@ -29553,7 +29556,8 @@
         "_fecha_carga": "14/09/2026 18:58",
         "_origen": "grupo",
         "_pie": "",
-        "_msg_id": 62210
+        "_msg_id": 62210,
+        "_imagen_url": "https://res.cloudinary.com/drz11thh3/image/upload/v1789423113/comprobantes/Xxxxxpro_y_Api_Agi_num300_14-09-2026_18-58.jpg"
       },
       {
         "fecha": "03/09/2026",
@@ -29576,7 +29580,8 @@
         "_fecha_carga": "14/09/2026 18:58",
         "_origen": "grupo",
         "_pie": "",
-        "_msg_id": 62212
+        "_msg_id": 62212,
+        "_imagen_url": "https://res.cloudinary.com/drz11thh3/image/upload/v1789423115/comprobantes/Xxxxxpro_y_Api_Agi_num301_14-09-2026_18-58.jpg"
       },
       {
         "fecha": "03/09/2026",
@@ -29599,7 +29604,56 @@
         "_fecha_carga": "14/09/2026 18:58",
         "_origen": "grupo",
         "_pie": "",
-        "_msg_id": 62214
+        "_msg_id": 62214,
+        "_imagen_url": "https://res.cloudinary.com/drz11thh3/image/upload/v1789423115/comprobantes/Xxxxxpro_y_Api_Agi_num302_14-09-2026_18-58.jpg"
+      },
+      {
+        "fecha": "03/09/2026",
+        "hora": "14:10",
+        "tipo": "TRF",
+        "monto": 10000.0,
+        "moneda": "ARS",
+        "remitente": "Rodrigo Exequiel Moreno",
+        "remitente_cuil": "20-42851606-1",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "177068401430",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: 86VRPQ2GXYZVO8809GLY0M. CVU remitente: 0000003100075999860168. CBU destinatario: 0000155300000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 303,
+        "_fecha_carga": "14/09/2026 18:58",
+        "_origen": "grupo",
+        "_pie": "",
+        "_msg_id": 62213,
+        "_imagen_url": "https://res.cloudinary.com/drz11thh3/image/upload/v1789423115/comprobantes/Xxxxxpro_y_Api_Agi_num303_14-09-2026_18-58.jpg"
+      },
+      {
+        "fecha": "11/09/2026",
+        "hora": "16:19",
+        "tipo": "TRF",
+        "monto": 150000.0,
+        "moneda": "ARS",
+        "remitente": "Fernando Javier Garcia",
+        "remitente_cuil": "23-32674289-9",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "178524561494",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: 3D5W612EWORRZ53Q2GXYVR. CVU remitente: 0000003100093970534903. CBU destinatario: 0000155300000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 304,
+        "_fecha_carga": "14/09/2026 18:58",
+        "_origen": "grupo",
+        "_pie": "Fernando García 32.674.289",
+        "_msg_id": 62221,
+        "_imagen_url": "https://res.cloudinary.com/drz11thh3/image/upload/v1789423120/comprobantes/Xxxxxpro_y_Api_Agi_num304_14-09-2026_18-58.jpg"
       }
     ],
     "errores": [],
