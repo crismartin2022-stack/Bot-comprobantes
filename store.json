@@ -22661,7 +22661,8 @@
         "_fecha_carga": "17/09/2026 19:45",
         "_origen": "grupo",
         "_pie": "Buenas \nEnvío en total \n$ 1.800.000\n\n*300 k (Tony90)*\n*SASTEUP SRL*\n*14/9*\nNahuel Cristian Montivero\n20-39794478-7\n\n*400 k (Tony90)*\n*SASTEUP SRL*\n*14/9*\nLucila Milagros Verdun\n27-46445800-5\n\n*200 k (Tony90)*\n*SASTEUP SRL*\n*15/9*\nNahuel Cristian Montivero\n20-39794478-7\n\n*100 k (Tony90)*\n*SASTEUP SRL*\n*15/9*\nLucila Milagros Verdun\n27-46445800-5\n\n*500 k (Tony90)*\n*SASTEUP SRL*\n*15/9*\nLucila Milagros Verdun\n27-46445800-5\n\n*300 k (Tony90)*\n*SASTEUP SRL*\n*15/9*\nLucila Milagros Verdun\n27-46445800-5",
-        "_msg_id": 63296
+        "_msg_id": 63296,
+        "_imagen_url": "https://res.cloudinary.com/drz11thh3/image/upload/v1789685142/comprobantes/Xxxxxpro_y_Api_Agi_num13_17-09-2026_19-45.jpg"
       },
       {
         "fecha": "14/09/2026",
@@ -22684,7 +22685,8 @@
         "_fecha_carga": "17/09/2026 19:45",
         "_origen": "grupo",
         "_pie": "Buenas \nEnvío en total \n$ 1.800.000\n\n*300 k (Tony90)*\n*SASTEUP SRL*\n*14/9*\nNahuel Cristian Montivero\n20-39794478-7\n\n*400 k (Tony90)*\n*SASTEUP SRL*\n*14/9*\nLucila Milagros Verdun\n27-46445800-5\n\n*200 k (Tony90)*\n*SASTEUP SRL*\n*15/9*\nNahuel Cristian Montivero\n20-39794478-7\n\n*100 k (Tony90)*\n*SASTEUP SRL*\n*15/9*\nLucila Milagros Verdun\n27-46445800-5\n\n*500 k (Tony90)*\n*SASTEUP SRL*\n*15/9*\nLucila Milagros Verdun\n27-46445800-5\n\n*300 k (Tony90)*\n*SASTEUP SRL*\n*15/9*\nLucila Milagros Verdun\n27-46445800-5",
-        "_msg_id": 63297
+        "_msg_id": 63297,
+        "_imagen_url": "https://res.cloudinary.com/drz11thh3/image/upload/v1789685142/comprobantes/Xxxxxpro_y_Api_Agi_num14_17-09-2026_19-45.jpg"
       },
       {
         "fecha": "15/09/2026",
@@ -22707,7 +22709,8 @@
         "_fecha_carga": "17/09/2026 19:45",
         "_origen": "grupo",
         "_pie": "Buenas \nEnvío en total \n$ 1.800.000\n\n*300 k (Tony90)*\n*SASTEUP SRL*\n*14/9*\nNahuel Cristian Montivero\n20-39794478-7\n\n*400 k (Tony90)*\n*SASTEUP SRL*\n*14/9*\nLucila Milagros Verdun\n27-46445800-5\n\n*200 k (Tony90)*\n*SASTEUP SRL*\n*15/9*\nNahuel Cristian Montivero\n20-39794478-7\n\n*100 k (Tony90)*\n*SASTEUP SRL*\n*15/9*\nLucila Milagros Verdun\n27-46445800-5\n\n*500 k (Tony90)*\n*SASTEUP SRL*\n*15/9*\nLucila Milagros Verdun\n27-46445800-5\n\n*300 k (Tony90)*\n*SASTEUP SRL*\n*15/9*\nLucila Milagros Verdun\n27-46445800-5",
-        "_msg_id": 63301
+        "_msg_id": 63301,
+        "_imagen_url": "https://res.cloudinary.com/drz11thh3/image/upload/v1789685142/comprobantes/Xxxxxpro_y_Api_Agi_num15_17-09-2026_19-45.jpg"
       },
       {
         "fecha": "15/09/2026",
@@ -22730,7 +22733,8 @@
         "_fecha_carga": "17/09/2026 19:45",
         "_origen": "grupo",
         "_pie": "Daniel Guillermo Navarro \nDNI 30908623",
-        "_msg_id": 63302
+        "_msg_id": 63302,
+        "_imagen_url": "https://res.cloudinary.com/drz11thh3/image/upload/v1789685142/comprobantes/Xxxxxpro_y_Api_Agi_num16_17-09-2026_19-45.jpg"
       },
       {
         "fecha": "15/09/2026",
@@ -22753,7 +22757,79 @@
         "_fecha_carga": "17/09/2026 19:45",
         "_origen": "grupo",
         "_pie": "",
-        "_msg_id": 63303
+        "_msg_id": 63303,
+        "_imagen_url": "https://res.cloudinary.com/drz11thh3/image/upload/v1789685143/comprobantes/Xxxxxpro_y_Api_Agi_num17_17-09-2026_19-45.jpg"
+      },
+      {
+        "fecha": "15/09/2026",
+        "hora": "12:09",
+        "tipo": "TRF",
+        "monto": 100000.0,
+        "moneda": "ARS",
+        "remitente": "Lucila Milagros Verdun",
+        "remitente_cuil": "20-39794478-7",
+        "destinatario": "SASTEUP SRL",
+        "banco_origen": "LurkerPay",
+        "banco_destino": "LurkerPay",
+        "referencia": "01a0a30a-ae92-7b0b-a3b0-eafe289248c5",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "ID Transferencia: 3281f1ee-5873-451c-8e33-686266f80081. CVU origen (Lucila Milagros Verdun): 0000088800010000013290, alias: riven.luci.mili. CBU/CVU destino (SASTEUP SRL): 0000155300000000009977. Plataforma: LurkerPay.",
+        "_num": 18,
+        "_fecha_carga": "17/09/2026 19:45",
+        "_origen": "grupo",
+        "_pie": "Buenas \nEnvío en total \n$ 1.800.000\n\n*300 k (Tony90)*\n*SASTEUP SRL*\n*14/9*\nNahuel Cristian Montivero\n20-39794478-7\n\n*400 k (Tony90)*\n*SASTEUP SRL*\n*14/9*\nLucila Milagros Verdun\n27-46445800-5\n\n*200 k (Tony90)*\n*SASTEUP SRL*\n*15/9*\nNahuel Cristian Montivero\n20-39794478-7\n\n*100 k (Tony90)*\n*SASTEUP SRL*\n*15/9*\nLucila Milagros Verdun\n27-46445800-5\n\n*500 k (Tony90)*\n*SASTEUP SRL*\n*15/9*\nLucila Milagros Verdun\n27-46445800-5\n\n*300 k (Tony90)*\n*SASTEUP SRL*\n*15/9*\nLucila Milagros Verdun\n27-46445800-5",
+        "_msg_id": 63299,
+        "_imagen_url": "https://res.cloudinary.com/drz11thh3/image/upload/v1789685143/comprobantes/Xxxxxpro_y_Api_Agi_num18_17-09-2026_19-45.jpg"
+      },
+      {
+        "fecha": "15/09/2026",
+        "hora": "06:38",
+        "tipo": "TRF",
+        "monto": 500000.0,
+        "moneda": "ARS",
+        "remitente": "Lucila Milagros Verdun",
+        "remitente_cuil": "20-39794478-7",
+        "destinatario": "SASTEUP SRL",
+        "banco_origen": "LurkerPay",
+        "banco_destino": "LurkerPay",
+        "referencia": "01a0a470-33e3-7f22-a3c3-fc8f640ba1ad",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "ID Transferencia: 2cd72fee-972e-41dc-8d5f-b202b0c13fb2. CVU origen (Lucila Milagros Verdun): 0000088800010000013290, alias: riven.luci.mili. CBU/CVU destino (SASTEUP SRL): 0000155300000000009977. Procesada a las 06:40 a.m.",
+        "_num": 19,
+        "_fecha_carga": "17/09/2026 19:45",
+        "_origen": "grupo",
+        "_pie": "Buenas \nEnvío en total \n$ 1.800.000\n\n*300 k (Tony90)*\n*SASTEUP SRL*\n*14/9*\nNahuel Cristian Montivero\n20-39794478-7\n\n*400 k (Tony90)*\n*SASTEUP SRL*\n*14/9*\nLucila Milagros Verdun\n27-46445800-5\n\n*200 k (Tony90)*\n*SASTEUP SRL*\n*15/9*\nNahuel Cristian Montivero\n20-39794478-7\n\n*100 k (Tony90)*\n*SASTEUP SRL*\n*15/9*\nLucila Milagros Verdun\n27-46445800-5\n\n*500 k (Tony90)*\n*SASTEUP SRL*\n*15/9*\nLucila Milagros Verdun\n27-46445800-5\n\n*300 k (Tony90)*\n*SASTEUP SRL*\n*15/9*\nLucila Milagros Verdun\n27-46445800-5",
+        "_msg_id": 63300,
+        "_imagen_url": "https://res.cloudinary.com/drz11thh3/image/upload/v1789685143/comprobantes/Xxxxxpro_y_Api_Agi_num19_17-09-2026_19-45.jpg"
+      },
+      {
+        "fecha": "15/09/2026",
+        "hora": "20:20",
+        "tipo": "TRF",
+        "monto": 419000.0,
+        "moneda": "ARS",
+        "remitente": "WALTER ANDRES MELLADO",
+        "remitente_cuil": "20-21076708-9",
+        "destinatario": "SASTEUP SRL",
+        "banco_origen": "Brubank",
+        "banco_destino": "",
+        "referencia": "",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Transferencia enviada desde Caja de ahorro en Pesos en Brubank. CVU destino: 0000155300000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 20,
+        "_fecha_carga": "17/09/2026 19:45",
+        "_origen": "grupo",
+        "_pie": "",
+        "_msg_id": 63304
       }
     ],
     "errores": [],
