@@ -23169,7 +23169,8 @@
         "_fecha_carga": "17/09/2026 21:15",
         "_origen": "grupo",
         "_pie": "Foto de Manuel",
-        "_msg_id": 64263
+        "_msg_id": 64263,
+        "_imagen_url": "https://res.cloudinary.com/drz11thh3/image/upload/v1789690513/comprobantes/Xxxxxpro_y_Api_Agi_num34_17-09-2026_21-15.jpg"
       },
       {
         "fecha": "16/09/2026",
@@ -23192,7 +23193,8 @@
         "_fecha_carga": "17/09/2026 21:15",
         "_origen": "grupo",
         "_pie": "Ganamos aime yanella fornillo!43196130",
-        "_msg_id": 64271
+        "_msg_id": 64271,
+        "_imagen_url": "https://res.cloudinary.com/drz11thh3/image/upload/v1789690513/comprobantes/Xxxxxpro_y_Api_Agi_num35_17-09-2026_21-15.jpg"
       },
       {
         "fecha": "15/09/2026",
@@ -23239,7 +23241,8 @@
         "_fecha_carga": "17/09/2026 21:15",
         "_origen": "grupo",
         "_pie": "Foto de Manuel",
-        "_msg_id": 64272
+        "_msg_id": 64272,
+        "_imagen_url": "https://res.cloudinary.com/drz11thh3/image/upload/v1789690513/comprobantes/Xxxxxpro_y_Api_Agi_num37_17-09-2026_21-15.jpg"
       },
       {
         "fecha": "16/09/2026",
@@ -23263,7 +23266,81 @@
         "_fecha_carga": "17/09/2026 21:15",
         "_origen": "grupo",
         "_pie": "Foto de Manuel",
-        "_msg_id": 64274
+        "_msg_id": 64274,
+        "_imagen_url": "https://res.cloudinary.com/drz11thh3/image/upload/v1789690514/comprobantes/Xxxxxpro_y_Api_Agi_num38_17-09-2026_21-15.jpg"
+      },
+      {
+        "fecha": "16/09/2026",
+        "hora": "19:51",
+        "tipo": "TRF",
+        "monto": 10000.0,
+        "moneda": "ARS",
+        "remitente": "Josela Vivian Acosta",
+        "remitente_cuil": "27-35095877-6",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "179392742606",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: WGRXJE2763VD731J97MYQL. CUIT destinatario: 30-71728225-2. CVU remitente: 0000003100089514253304. CBU destinatario: 0000155300000000009977.",
+        "_num": 39,
+        "_fecha_carga": "17/09/2026 21:15",
+        "_origen": "grupo",
+        "_pie": "Foto de Manuel",
+        "_msg_id": 64273,
+        "_imagen_url": "https://res.cloudinary.com/drz11thh3/image/upload/v1789690514/comprobantes/Xxxxxpro_y_Api_Agi_num39_17-09-2026_21-15.jpg"
+      },
+      {
+        "fecha": "16/09/2026",
+        "hora": "22:06",
+        "tipo": "TRF",
+        "monto": 100000.0,
+        "moneda": "ARS",
+        "remitente": "DAVID SEBASTIAN ROMERO",
+        "remitente_cuil": "20-29580639-8",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Banco Galicia",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "42932759954",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "ID COELSA: 7L8GYKNX4JMZ54ZQNMPRZ5. CVU destinatario: 0000155300000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 40,
+        "_fecha_carga": "17/09/2026 21:15",
+        "_origen": "grupo",
+        "_pie": "Foto de Manuel",
+        "_msg_id": 64276,
+        "_imagen_url": "https://res.cloudinary.com/drz11thh3/image/upload/v1789690518/comprobantes/Xxxxxpro_y_Api_Agi_num40_17-09-2026_21-15.jpg"
+      },
+      {
+        "fecha": "16/09/2026",
+        "hora": "23:27",
+        "tipo": "TRF",
+        "monto": 13000.0,
+        "moneda": "ARS",
+        "remitente": "Foto de Manuel",
+        "remitente_cuil": "",
+        "destinatario": "SASTEUP SRL",
+        "banco_origen": "Brubank",
+        "banco_destino": "CVU",
+        "referencia": "0V1JXON1RPYJY533NZ64EL",
+        "concepto": "",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": false,
+        "notas": "Número de transacción: 1964027845. CUIT/CUIL del destinatario: 30-71728225-2. CBU destinatario: 0000155300000000009977. Origen: Caja de ahorro en Pesos.",
+        "_pie_como_fuente": true,
+        "_num": 41,
+        "_fecha_carga": "17/09/2026 21:15",
+        "_origen": "grupo",
+        "_pie": "Foto de Manuel",
+        "_msg_id": 64278,
+        "_imagen_url": "https://res.cloudinary.com/drz11thh3/image/upload/v1789690518/comprobantes/Xxxxxpro_y_Api_Agi_num41_17-09-2026_21-15.jpg"
       }
     ],
     "errores": [],
