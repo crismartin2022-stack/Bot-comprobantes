@@ -38897,7 +38897,8 @@
         "_fecha_carga": "21/09/2026 22:04",
         "_origen": "grupo",
         "_pie": "Nerea Belen Barrientos\nNaranja X\n4530000800019347135708\n27-48577061-0",
-        "_msg_id": 65296
+        "_msg_id": 65296,
+        "_imagen_url": "https://res.cloudinary.com/drz11thh3/image/upload/v1790039077/comprobantes/Xxxxxpro_y_Api_Agi_num688_21-09-2026_22-04.jpg"
       },
       {
         "fecha": "18/09/2026",
@@ -38968,7 +38969,8 @@
         "_fecha_carga": "21/09/2026 22:04",
         "_origen": "grupo",
         "_pie": "Nerea Belen Barrientos\nNaranja X\n4530000800019347135708\n27-48577061-0",
-        "_msg_id": 65298
+        "_msg_id": 65298,
+        "_imagen_url": "https://res.cloudinary.com/drz11thh3/image/upload/v1790039079/comprobantes/Xxxxxpro_y_Api_Agi_num691_21-09-2026_22-04.jpg"
       },
       {
         "fecha": "18/09/2026",
@@ -38991,7 +38993,8 @@
         "_fecha_carga": "21/09/2026 22:04",
         "_origen": "grupo",
         "_pie": "Pamela Celeste Torres\n3840200500000055108070\n27-31456240-8",
-        "_msg_id": 65300
+        "_msg_id": 65300,
+        "_imagen_url": "https://res.cloudinary.com/drz11thh3/image/upload/v1790039080/comprobantes/Xxxxxpro_y_Api_Agi_num692_21-09-2026_22-04.jpg"
       },
       {
         "fecha": "18/09/2026",
@@ -39014,7 +39017,8 @@
         "_fecha_carga": "21/09/2026 22:04",
         "_origen": "grupo",
         "_pie": "Nerea Belen Barrientos\nNaranja X\n4530000800019347135708\n27-48577061-0",
-        "_msg_id": 65299
+        "_msg_id": 65299,
+        "_imagen_url": "https://res.cloudinary.com/drz11thh3/image/upload/v1790039080/comprobantes/Xxxxxpro_y_Api_Agi_num693_21-09-2026_22-04.jpg"
       },
       {
         "fecha": "18/09/2026",
@@ -39037,7 +39041,101 @@
         "_fecha_carga": "21/09/2026 22:04",
         "_origen": "grupo",
         "_pie": "Valeria Beatriz Suarez\nMercado Pago\nCUIT/CUIL: 27-33087556-4",
-        "_msg_id": 65301
+        "_msg_id": 65301,
+        "_imagen_url": "https://res.cloudinary.com/drz11thh3/image/upload/v1790039082/comprobantes/Xxxxxpro_y_Api_Agi_num694_21-09-2026_22-04.jpg"
+      },
+      {
+        "fecha": "18/09/2026",
+        "hora": "0:42",
+        "tipo": "TRF",
+        "monto": 40000.0,
+        "moneda": "ARS",
+        "remitente": "Eriberta Herminia Fernandez Herrera",
+        "remitente_cuil": "27-92798572-7",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Mercado Pago",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "178630307455",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "Código de identificación: 8D0Q619L35QGD45LN7JZ5R. CVU origen: 0000003100025464627204. CBU destino: 0000155300000000009977. CUIT destinatario: 30-71728225-2.",
+        "_num": 695,
+        "_fecha_carga": "21/09/2026 22:04",
+        "_origen": "grupo",
+        "_pie": "Eriberta Herminia Fernandez Herrera\nMercado Pago\nCUIT/CUIL: 27-92798572-7",
+        "_msg_id": 65302,
+        "_imagen_url": "https://res.cloudinary.com/drz11thh3/image/upload/v1790039083/comprobantes/Xxxxxpro_y_Api_Agi_num695_21-09-2026_22-04.jpg"
+      },
+      {
+        "fecha": "18/09/2026",
+        "hora": "00:43",
+        "tipo": "TRF",
+        "monto": 80000.0,
+        "moneda": "ARS",
+        "remitente": "Liliana Beatriz Anrriquez",
+        "remitente_cuil": "27-21104254-6",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Ualá",
+        "banco_destino": "Billetera Virtual",
+        "referencia": "d869eb4b-68ed-64ab-c4fe-a87d0a276aca",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CVU destino: 0000155300000000009977. CBU emisor: 38402005000000051497606. CUIT/CUIL destino: 30-71728225-2",
+        "_num": 696,
+        "_fecha_carga": "21/09/2026 22:04",
+        "_origen": "grupo",
+        "_pie": "Liliana Beatriz Anrriquez\n3840200500000051497606\n27-21104254-6",
+        "_msg_id": 65303
+      },
+      {
+        "fecha": "18/09/2026",
+        "hora": "00:43",
+        "tipo": "TRF",
+        "monto": 50000.0,
+        "moneda": "ARS",
+        "remitente": "AZUL MACARENA SANCHEZ",
+        "remitente_cuil": "27-47161318-0",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Ualá",
+        "banco_destino": "Lohas S.a.s.",
+        "referencia": "76d2035d-5a1e-e83f-3030-8410cad5bdbf",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "CVU destino: 0000155300000000009977. CBU emisor: 38402005000000031108986. CUIT/CUIL destino: 30-71728225-2.",
+        "_num": 697,
+        "_fecha_carga": "21/09/2026 22:04",
+        "_origen": "grupo",
+        "_pie": "AZUL MACARENA SANCHEZ\n3840200500000031108986\n27-47161318-0",
+        "_msg_id": 65304
+      },
+      {
+        "fecha": "18/09/2026",
+        "hora": "00:46",
+        "tipo": "TRF",
+        "monto": 400000.0,
+        "moneda": "ARS",
+        "remitente": "JIMENA BELEN BREST",
+        "remitente_cuil": "27-39984557-8",
+        "destinatario": "Sasteup Srl",
+        "banco_origen": "Banco Galicia",
+        "banco_destino": "LOHAS SAS",
+        "referencia": "42942257787",
+        "concepto": "Varios",
+        "estado": "Exitoso",
+        "cvu_ultimos4": "9977",
+        "tiene_remitente": true,
+        "notas": "ID COELSA: 46YGOW9MGEQ74YVQ9EXD8J. CVU destinatario: 0000155300000000009977. CUIT destinatario: 30-71728225-2. Cuenta origen: CA $ N° 4047428-2 361-5.",
+        "_num": 698,
+        "_fecha_carga": "21/09/2026 22:04",
+        "_origen": "grupo",
+        "_pie": "De:\nJIMENA BELEN BREST\nCUIT 27-39984557-8",
+        "_msg_id": 65305
       }
     ],
     "errores": [],
