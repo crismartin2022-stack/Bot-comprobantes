@@ -81,27 +81,25 @@ mensajes_rechazo: dict = {}
 received_log: dict = {}  # {chat_id: [{"msg_id", "fecha", "remitente", "estado"}]}
 semaforo_claude = asyncio.Semaphore(10)  # Máximo 3 análisis simultáneos
 cola_procesamiento = asyncio.Queue()  # Cola local (fallback si no hay Redis)
-_github_backup_counter = 0  # Contador para throttle de backup GitHub
 _semaforo_reacciones = asyncio.Semaphore(1)  # Máximo 1 reacción a la vez
 grupos_reaccion_minima: set = set()  # Grupos donde solo se reacciona en duplicados/rechazados/no procesados
 
 DATA_FILE    = "/data/store.json"       # Volume de Railway (persistente)
 LOG_FILE     = "/data/received_log.json"  # Log de imágenes recibidas
 QUEUE_FILE   = "/data/cola_pendiente.json"  # Cola persistente
-GITHUB_TOKEN = os.environ.get("GITHUB_TOKEN", "TOKEN-REVOCADO")
 CLOUDINARY_CLOUD_NAME = os.environ.get("CLOUDINARY_CLOUD_NAME", "")
 CLOUDINARY_API_KEY    = os.environ.get("CLOUDINARY_API_KEY", "")
 CLOUDINARY_API_SECRET = os.environ.get("CLOUDINARY_API_SECRET", "")
-GITHUB_REPO  = "crismartin2022-stack/Bot-comprobantes"
-GITHUB_FILE  = "store.json"
-GITHUB_API   = f"https://api.github.com/repos/{GITHUB_REPO}/contents/{GITHUB_FILE}"
-GITHUB_HEADERS = {
-    "Authorization": f"token {GITHUB_TOKEN}",
-    "Accept": "application/vnd.github.v3+json",
-}
 
 def guardar_store():
-    """Guarda el store en disco (Railway Volume) y en GitHub como respaldo."""
+    """Guarda el store en disco (Railway Volume).
+
+    Antes esto ademas subia el archivo a un repositorio de GitHub cada
+    diez guardados. Ese archivo tiene datos personales y financieros de
+    clientes -- nombre, CUIL, CVU, montos -- y el repositorio era
+    publico. El respaldo se elimino: el Volume es la unica copia, y
+    cualquier respaldo futuro tiene que ir a un destino privado.
+    """
     try:
         os.makedirs(os.path.dirname(DATA_FILE), exist_ok=True)
         store_limpio = {}
@@ -122,34 +120,8 @@ def guardar_store():
                 json.dump(received_log, f, ensure_ascii=False, indent=2)
         except Exception as le:
             log.error(f"Error guardando log: {le}")
-        # Respaldo en GitHub cada 10 guardados
-        global _github_backup_counter
-        _github_backup_counter += 1
-        if _github_backup_counter >= 10:
-            _github_backup_counter = 0
-            import threading
-            threading.Thread(target=_guardar_github_sync, args=(store_limpio,), daemon=True).start()
     except Exception as e:
         log.error(f"Error guardando store: {e}")
-
-def _guardar_github_sync(store_limpio: dict):
-    """Respaldo asíncrono en GitHub."""
-    try:
-        contenido = json.dumps(store_limpio, ensure_ascii=False, indent=2)
-        b64 = base64.b64encode(contenido.encode("utf-8")).decode("utf-8")
-        r = httpx.get(GITHUB_API, headers=GITHUB_HEADERS, timeout=10)
-        sha = r.json().get("sha") if r.status_code == 200 else None
-        payload = {"message": f"backup {datetime.now().strftime('%d/%m/%Y %H:%M')}", "content": b64}
-        if sha:
-            payload["sha"] = sha
-        resp = httpx.put(GITHUB_API, headers=GITHUB_HEADERS, json=payload, timeout=15)
-        if resp.status_code in (200, 201):
-            log.info("Respaldo GitHub ✅")
-        else:
-            log.error(f"Error respaldo GitHub: {resp.status_code}")
-    except Exception as e:
-        log.error(f"Error respaldo GitHub: {e}")
-
 
 async def subir_cloudinary(image_bytes: bytes, mime: str, public_id: str = None) -> str:
     if not CLOUDINARY_CLOUD_NAME or not CLOUDINARY_API_KEY or not CLOUDINARY_API_SECRET:
@@ -180,7 +152,7 @@ async def subir_cloudinary(image_bytes: bytes, mime: str, public_id: str = None)
         return ""
 
 def cargar_store():
-    """Carga el store desde Volume. Si no existe, intenta desde GitHub."""
+    """Carga el store desde el Volume de Railway."""
     global store, received_log
     # Cargar log de imágenes
     try:
@@ -201,21 +173,10 @@ def cargar_store():
     except Exception as e:
         log.error(f"Error cargando desde Volume: {e}")
 
-    # Fallback: cargar desde GitHub
-    try:
-        r = httpx.get(GITHUB_API, headers=GITHUB_HEADERS, timeout=10)
-        if r.status_code == 200:
-            contenido_b64 = r.json().get("content", "")
-            contenido = base64.b64decode(contenido_b64).decode("utf-8")
-            store = json.loads(contenido)
-            total = sum(len(d.get("registros", [])) for d in store.values())
-            log.info(f"Store cargado desde GitHub: {len(store)} grupos, {total} registros ✅")
-        else:
-            log.info("Sin store previo, iniciando vacío")
-            store = {}
-    except Exception as e:
-        log.error(f"Error cargando desde GitHub: {e}")
-        store = {}
+    # Sin archivo en el Volume se arranca vacio. Antes habia un respaldo
+    # en GitHub del que leer, pero publicaba datos de clientes.
+    log.info("Sin store previo en el Volume, iniciando vacío")
+    store = {}
 
 def guardar_cola():
     """Guarda los items pendientes de la cola en disco."""

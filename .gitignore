@@ -1,0 +1,6 @@
+store.json
+received_log.json
+cola_pendiente.json
+__pycache__/
+*.pyc
+.env
